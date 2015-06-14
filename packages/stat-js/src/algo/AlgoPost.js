@@ -3,18 +3,18 @@
 import {findIndexBiggerTime,findIndexLessTime} from "./algoSearch.js"
 
 // for algorithm
-export default class AlgoItem {
+export default class AlgoPost {
     /**
      *
-     * @param {JSerItem[]} items
+     * @param {JSerPost[]} posts
      */
-    constructor(items) {
-        this.items = items;
+    constructor(posts) {
+        this.posts = posts;
         /**
-         * @type number[] 昇順となった各Itemのtime配列
+         * @type number[] 昇順となった各Postのtime配列
          */
-        this.postTimeIndex = items.map(function (item) {
-            return item.date.getTime();
+        this.postTimeIndex = posts.map(function (post) {
+            return post.date.getTime();
         });
     }
 
@@ -27,7 +27,7 @@ export default class AlgoItem {
         if (beginItemIndex === -1 || endItemIndex === -1) {
             return [];
         }
-        return this.items.slice(beginItemIndex, endItemIndex);
+        return this.posts.slice(beginItemIndex, endItemIndex);
     }
 
 }

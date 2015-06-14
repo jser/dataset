@@ -3,7 +3,7 @@
 import assert from "power-assert"
 import JSerStat from "../src/JSerStat"
 import JSerWeek from "../src/models/JSerWeek"
-import {countByGroup} from "../src/compute/compute-tags.js"
+import {countTagsByGroup} from "../src/compute/compute-tags.js"
 describe("jser-stat", function () {
     describe("when initialized", function () {
         var stat;
@@ -24,9 +24,20 @@ describe("jser-stat", function () {
         });
         it("should return JSerWeek[]", function () {
             var weeks = stat.getJSerWeeks();
-            var rank = countByGroup(weeks);
             assert(weeks instanceof Array);
             assert(weeks[0] instanceof JSerWeek)
+        });
+    });
+    describe("#getJSerWeeksBetWeen", function () {
+        var stat;
+        before(function () {
+            stat = new JSerStat();
+        });
+        it("should return JSerWeek[]", function () {
+            var weeks = stat.getJSerWeeksBetWeen(new Date("2011-01-31T15:00:00.000Z"), new Date("2015-06-13T13:22:37.167Z"));
+            assert(weeks instanceof Array);
+            assert(weeks[0] instanceof JSerWeek);
+            assert(weeks.length < stat.posts.length);
         });
     });
     describe("#getJSerWeek", function () {

@@ -9,6 +9,6 @@ export default class JSerWeek {
         /** @type JSerPost */
         this.post = currentPost;
         /** @type JSerItem[]*/
-        this.items = algoItem.findItems(this.beginDate, this.endDate || new Date());
+        this.items = algoItem.findPostsBetween(this.beginDate, this.endDate || new Date());
     }
 }

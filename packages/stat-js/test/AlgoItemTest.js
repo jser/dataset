@@ -13,17 +13,17 @@ describe("AlgoItem", function () {
         algo = new AlgoItem(items);
     });
     describe("when initialized", function () {
-        it("should has this.itemTimeIndex", function () {
-            assert(algo.itemTimeIndex instanceof Array);
+        it("should has this.postTimeIndex", function () {
+            assert(algo.postTimeIndex instanceof Array);
         });
     });
     describe("#findItem", function () {
         it("should return array", function () {
-            var items = algo.findItems(new Date("2011-01-31T15:00:00.000Z"), new Date("2015-06-13T13:22:37.167Z"));
+            var items = algo.findPostsBetween(new Date("2011-01-31T15:00:00.000Z"), new Date("2015-06-13T13:22:37.167Z"));
             assert(items.length, 2);
         });
         it("should return array", function () {
-            var items = algo.findItems(new Date("1999-01-21T15:00:00.000Z"), new Date("2000-06-13T13:22:37.167Z"));
+            var items = algo.findPostsBetween(new Date("1999-01-21T15:00:00.000Z"), new Date("2000-06-13T13:22:37.167Z"));
             assert.equal(items.length, 0);
         });
     });

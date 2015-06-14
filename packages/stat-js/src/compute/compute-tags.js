@@ -1,6 +1,11 @@
 // LICENSE : MIT
 "use strict";
-export function countByGroup(weeks) {
+/**
+ * {タグ名:出現回数}のオブジェクトを返す
+ * @param weeks
+ * @returns {{string:number}}
+ */
+export function countTagsByGroup(weeks) {
     var rank = {};
     weeks.forEach(function (week) {
         week.items.forEach(function (item) {

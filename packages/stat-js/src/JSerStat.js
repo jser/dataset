@@ -4,6 +4,7 @@ import JSerItem from "./models/JSerItem"
 import Post from "./models/JSerPost"
 import Week from "./models/JSerWeek"
 import AlgoItem from "./algo/AlgoItem"
+import AlgoPost from "./algo/AlgoPost.js"
 
 function filterJSerCategory(article) {
     return /jser/i.test(article.category);
@@ -29,6 +30,18 @@ export default class JSerStat {
     getJSerWeeks() {
         var results = [];
         this.posts.reduce((currentPost, nextPost)=> {
+            var jserWeek = new Week(currentPost, nextPost, this.algoItem);
+            results.push(jserWeek);
+            return nextPost;
+        });
+        return results;
+    }
+
+    getJSerWeeksBetWeen(beginDate, endDate) {
+        var results = [];
+        var algoPost = new AlgoPost(this.posts);
+        var posts = algoPost.findPostsBetween(beginDate, endDate);
+        posts.reduce((currentPost, nextPost)=> {
             var jserWeek = new Week(currentPost, nextPost, this.algoItem);
             results.push(jserWeek);
             return nextPost;
