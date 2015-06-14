@@ -15,4 +15,13 @@ describe("jser-stat", function () {
             assert(stat.posts instanceof Array);
         });
     });
+    describe("#getJSerWeeks", function () {
+        var stat;
+        beforeEach(function () {
+            stat = new Stat();
+        });
+        it("should return JSerWeek[]", function () {
+            var weeks = stat.getJSerWeeks();
+        });
+    });
 });
