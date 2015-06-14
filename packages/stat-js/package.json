@@ -1,0 +1,30 @@
+{
+  "name": "stat-js",
+  "version": "1.0.0",
+  "description": "JSer.info stat library",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jser/stat-js.git"
+  },
+  "keywords": [
+    "jser"
+  ],
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jser/stat-js/issues"
+  },
+  "homepage": "https://github.com/jser/stat-js",
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "espower-babel": "^3.2.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0",
+    "typescript": "^1.5.0-beta"
+  }
+}
