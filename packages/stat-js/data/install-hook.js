@@ -3,22 +3,20 @@
 var fs = require("fs");
 var path = require("path");
 var http = require("http");
+var request = require("request");
 var URLMap = require("./url-mapping");
 function getURLAsync(URL) {
     return new Promise(function (resolve, reject) {
-        http.get(URL, function (res) {
-            var body = '';
-            res.setEncoding('utf8');
-
-            res.on('data', function (chunk) {
-                body += chunk;
-            });
-            res.on('end', function (res) {
+        request(URL, function (error, response, body) {
+            if (error) {
+                return reject(error);
+            }
+            if (response.statusCode == 200) {
                 resolve(JSON.parse(body));
-            });
-        }).on('error', function (e) {
-            reject("Got error: " + e.message);
-        });
+            } else {
+                reject('error: ' + response.statusCode);
+            }
+        })
     });
 }
 function saveAsync(filePath, body) {
