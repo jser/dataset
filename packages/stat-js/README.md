@@ -2,14 +2,9 @@
 
 JSer.info stat library
 
-# Project Name
-
-- [ ] Write a project description
-
 ## Installation
 
     npm install jser-stat
-
 
 ## Usage
 
@@ -18,11 +13,11 @@ JSer.info stat library
 jser-stat has these model.
 
 - [src/models/JSerItem.js](src/models/JSerItem.js) from [jser/source-data](https://github.com/jser/source-data "jser/source-data")
-- [src/models/JSerItemRelatedLink.js](src/models/JSerItemRelatedLink.js)
+- [src/models/JSerItemRelatedLink.js](src/models/JSerItemRelatedLink.js) is sub model of JSerItem.
 - [src/models/JSerPost.js](src/models/JSerPost.js) from [jser/jser.github.io](https://github.com/jser/jser.github.io "jser/jser.github.io")
 - [src/models/JSerWeek.js](src/models/JSerWeek.js) is JSerItem + JSerPost
 
-### getJSerWeeks: JSerWeek[]
+### getJSerWeeks(): JSerWeek[]
 
 return all JSerWeeks
 
