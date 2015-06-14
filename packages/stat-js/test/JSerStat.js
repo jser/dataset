@@ -35,6 +35,7 @@ describe("jser-stat", function () {
         });
         it("should return JSerWeek[]", function () {
             var weeks = stat.getJSerWeeksBetWeen(new Date("2013-01-31T15:00:00.000Z"), new Date("2015-06-01T13:22:37.167Z"));
+            console.log(countTagsByGroup(weeks));
             assert(weeks instanceof Array);
             assert(weeks[0] instanceof JSerWeek);
             assert(weeks.length < stat.posts.length);

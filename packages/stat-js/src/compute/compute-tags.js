@@ -6,11 +6,22 @@
  * @returns {{string:number}}
  */
 export function countTagsByGroup(weeks) {
+    return countByGroup(weeks, function (item) {
+        var rank = {};
+        item.tags.forEach(function (tag) {
+            rank[tag] = ++rank[tag] || 1;
+        });
+        return rank;
+    });
+}
+export function countByGroup(weeks, countFn) {
     var rank = {};
     weeks.forEach(function (week) {
         week.items.forEach(function (item) {
-            item.tags.forEach(function (tag) {
-                rank[tag] = ++rank[tag] || 1;
+            var ret = countFn(item);
+            var keys = Object.keys(ret);
+            keys.forEach(function (key) {
+                rank[key] = (rank[key] || 0) + ret[key];
             });
         });
     });
