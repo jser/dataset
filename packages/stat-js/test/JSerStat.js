@@ -3,6 +3,7 @@
 import assert from "power-assert"
 import JSerStat from "../src/JSerStat"
 import JSerWeek from "../src/models/JSerWeek"
+import {countByGroup} from "../src/compute/compute-tags.js"
 describe("jser-stat", function () {
     describe("when initialized", function () {
         var stat;
@@ -23,6 +24,7 @@ describe("jser-stat", function () {
         });
         it("should return JSerWeek[]", function () {
             var weeks = stat.getJSerWeeks();
+            var rank = countByGroup(weeks);
             assert(weeks instanceof Array);
             assert(weeks[0] instanceof JSerWeek)
         });

@@ -22,6 +22,10 @@ export default class JSerStat {
         this.algoItem = new AlgoItem(this.items);
     }
 
+    /**
+     * 全てのJSerWeekの配列を返す
+     * @returns {JSerWeek[]}
+     */
     getJSerWeeks() {
         var results = [];
         this.posts.reduce((currentPost, nextPost)=> {
@@ -33,8 +37,9 @@ export default class JSerStat {
     }
 
     /**
-     *
+     * JSer.info #xxx を返す
      * @param number number start with 1
+     * @returns {JSerWeek}
      */
     getJSerWeek(number) {
         if (number <= 0) {

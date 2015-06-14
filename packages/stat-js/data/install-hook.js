@@ -14,7 +14,7 @@ function getURLAsync(URL) {
                 body += chunk;
             });
             res.on('end', function (res) {
-                resolve(String(body));
+                resolve(JSON.parse(body));
             });
         }).on('error', function (e) {
             reject("Got error: " + e.message);
@@ -34,12 +34,12 @@ function saveAsync(filePath, body) {
 var posts = getURLAsync(URLMap.posts.json);
 var items = getURLAsync(URLMap.items.json);
 Promise.all([posts, items]).then(function (results) {
-    var postData = JSON.parse(results[0]);
-    var itemData = JSON.parse(results[1]);
+    var postData = results[0];
+    var itemData = results[1];
     // 昇順となるように合わせる
     var postsFs = saveAsync(path.join(__dirname, "posts.json"), postData.reverse());
     var itemsFs = saveAsync(path.join(__dirname, "items.json"), itemData);
     return Promise.all([postsFs, itemsFs]);
-}).catch(function(error){
+}).catch(function (error) {
     console.error(error.stack)
 });
