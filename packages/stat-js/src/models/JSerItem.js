@@ -1,13 +1,16 @@
 // LICENSE : MIT
 "use strict";
 export default class JSerItem {
-    constructor() {
-        this.title = "";
-        this.url = "";
+    constructor(item) {
+        /** @type string */
+        this.title = item["title"];
+        /** @type string */
+        this.url = item["url"];
         /** @type string[] */
-        this.tags = [];
-        this.date = new Date;
+        this.tags = item["tags"] || [];
+        /** @type Date */
+        this.date = new Date(item["date"]);
         /** @type JSerItemRelatedLink */
-        this.relatedLinks = [];
+        this.relatedLinks = item["relatedLinks"] || [];
     }
 }

@@ -2,6 +2,7 @@
 "use strict";
 import JSerItem from "./models/JSerItem"
 import JSerPost from "./models/JSerPost"
+import JSerWeek from "./models/JSerWeek"
 export default class JSerStat {
     constructor() {
         this._rawItems = require("./data/items.json");
@@ -14,7 +15,13 @@ export default class JSerStat {
         });
     }
 
-    getItems() {
-
+    getJSerWeeks() {
+        var results = [];
+        this.posts.reduce(function (currentPost, nextPost) {
+            var jserWeek = new JSerWeek(currentPost, nextPost, items);
+            results.push(jserWeek);
+            return nextPost;
+        }, []);
+        return results;
     }
 }
