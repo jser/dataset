@@ -11,8 +11,7 @@
     "install": "node data/install-hook.js",
     "build": "babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
-    "test": "mocha test",
-    "prepublish": "rm lib"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
