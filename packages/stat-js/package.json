@@ -2,7 +2,11 @@
   "name": "jser-stat",
   "version": "1.0.0",
   "description": "JSer.info stat library",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "data/*.js",
+    "lib"
+  ],
   "scripts": {
     "install": "node data/install-hook.js",
     "build": "babel src --out-dir lib --source-maps",
