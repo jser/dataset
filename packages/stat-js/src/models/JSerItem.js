@@ -12,8 +12,8 @@ export default class JSerItem {
         /** @type Date */
         this.date = new Date(item["date"]);
         var relatedLinks = item["relatedLinks"] || [];
-        /** @type JSerItemRelatedLink */
-        this.relatedLinks = relatedLinks.map(function(link){
+        /** @type JSerItemRelatedLink[] */
+        this.relatedLinks = relatedLinks.map(function (link) {
             return new RelatedLink(link);
         });
     }

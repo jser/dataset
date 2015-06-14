@@ -13,7 +13,7 @@ export default class AlgoItem {
         /**
          * @type number[] 昇順となった各Itemのtime配列
          */
-        this.postTimeIndex = items.map(function (item) {
+        this.itemTimeIndex = items.map(function (item) {
             return item.date.getTime();
         });
     }
@@ -21,8 +21,8 @@ export default class AlgoItem {
     findPostsBetween(beginDate, endDate) {
         var beginTime = beginDate.getTime();
         var endTime = endDate.getTime();
-        var beginItemIndex = findIndexBiggerTime(this.postTimeIndex, beginTime);
-        var endItemIndex = findIndexLessTime(this.postTimeIndex, endTime);
+        var beginItemIndex = findIndexBiggerTime(this.itemTimeIndex, beginTime);
+        var endItemIndex = findIndexLessTime(this.itemTimeIndex, endTime);
         // 範囲外なら空
         if (beginItemIndex === -1 || endItemIndex === -1) {
             return [];

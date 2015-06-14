@@ -14,17 +14,24 @@ describe("AlgoItem", function () {
     });
     describe("when initialized", function () {
         it("should has this.postTimeIndex", function () {
-            assert(algo.postTimeIndex instanceof Array);
+            assert(algo.itemTimeIndex instanceof Array);
         });
     });
-    describe("#findItem", function () {
+    describe("#findPostsBetween", function () {
         it("should return array", function () {
             var items = algo.findPostsBetween(new Date("2011-01-31T15:00:00.000Z"), new Date("2015-06-13T13:22:37.167Z"));
             assert(items.length, 2);
         });
-        it("should return array", function () {
-            var items = algo.findPostsBetween(new Date("1999-01-21T15:00:00.000Z"), new Date("2000-06-13T13:22:37.167Z"));
-            assert.equal(items.length, 0);
+
+        it("should return one array", function () {
+            var items = algo.findPostsBetween(new Date("2011-01-30T15:00:00.000Z"), new Date("2011-02-01T15:00:00.000Z"));
+            assert(items.length, 1);
+        });
+        describe("when outdate", function () {
+            it("should return empty []", function () {
+                var items = algo.findPostsBetween(new Date("1999-01-21T15:00:00.000Z"), new Date("2000-06-13T13:22:37.167Z"));
+                assert.equal(items.length, 0);
+            });
         });
     });
 });

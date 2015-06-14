@@ -8,7 +8,7 @@ export function findIndexBiggerTime(array, time) {
             currentIndex = i;
         } else {
             // timeより大きいものが出てきたら直前のものを返す
-            return currentIndex + 1;
+            return currentIndex;
         }
     }
     return -1
