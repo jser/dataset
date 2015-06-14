@@ -1,7 +1,5 @@
 // LICENSE : MIT
 "use strict";
-import JSerPost from "./JSerPost"
-import JSerItem from "./JSerItem"
 export default class JSerWeek {
     constructor(currentPost, nextPost, algoItem) {
         /** @type Date */
@@ -11,6 +9,6 @@ export default class JSerWeek {
         /** @type JSerPost */
         this.post = currentPost;
         /** @type JSerItem[]*/
-        this.items = algoItem.findItems(this.beginDate, this.endDate);
+        this.items = algoItem.findItems(this.beginDate, this.endDate || new Date());
     }
 }

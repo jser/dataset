@@ -1,14 +1,13 @@
 // LICENSE : MIT
 "use strict";
-
 export default class JSerPost {
-    constructor() {
-        this.title = "";
-        this.url = "";
-        this.content = "";
-        this.category = "";
-        this.date = new Date();
+    constructor(post) {
+        this.title = post["title"];
+        this.url = post["url"];
+        this.content = post["content"];
+        this.category = post["category"];
+        this.date = new Date(post["date"]);
         /** @type string[] */
-        this.tags = [];
+        this.tags = post["tags"] || [];
     }
 }

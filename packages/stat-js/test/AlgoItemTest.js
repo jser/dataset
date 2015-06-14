@@ -7,7 +7,7 @@ var rawItems = require("./fixtures/items.json");
 describe("AlgoItem", function () {
     var algo;
     beforeEach(function () {
-        var items = rawItems.map((item) => {
+        var items = rawItems.map(function (item) {
             return new JSerItem(item);
         });
         algo = new AlgoItem(items);
