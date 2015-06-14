@@ -23,7 +23,7 @@ function getURLAsync(URL) {
 }
 function saveAsync(filePath, body) {
     return new Promise(function (resolve, reject) {
-        fs.writeFile(filePath, body, function (error, response) {
+        fs.writeFile(filePath, JSON.stringify(body), function (error, response) {
             if (error) {
                 return reject(error);
             }
@@ -33,9 +33,13 @@ function saveAsync(filePath, body) {
 }
 var posts = getURLAsync(URLMap.posts.json);
 var items = getURLAsync(URLMap.items.json);
-Promise.all([posts, items]).then(function ([posts, items]) {
+Promise.all([posts, items]).then(function (results) {
+    var postData = JSON.parse(results[0]);
+    var itemData = JSON.parse(results[1]);
     // 昇順となるように合わせる
-    var postsFs = saveAsync(path.join(__dirname, "posts.json"), posts.reverse());
-    var itemsFs = saveAsync(path.join(__dirname, "items.json"), items);
+    var postsFs = saveAsync(path.join(__dirname, "posts.json"), postData.reverse());
+    var itemsFs = saveAsync(path.join(__dirname, "items.json"), itemData);
     return Promise.all([postsFs, itemsFs]);
-}).catch(console.error.bind(console));
+}).catch(function(error){
+    console.error(error.stack)
+});

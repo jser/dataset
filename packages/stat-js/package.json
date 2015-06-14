@@ -4,6 +4,7 @@
   "description": "JSer.info stat library",
   "main": "index.js",
   "scripts": {
+    "install": "node data/install-hook.js",
     "build": "babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps"
   },

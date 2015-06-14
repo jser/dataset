@@ -31,5 +31,5 @@ node_modules
 
 
 lib
-src/data/items.json
-src/data/posts.json
+data/items.json
+data/posts.json

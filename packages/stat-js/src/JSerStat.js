@@ -10,8 +10,8 @@ function filterJSerCategory(article) {
 }
 export default class JSerStat {
     constructor() {
-        this._rawItems = require("./data/items.json");
-        this._rawPosts = require("./data/posts.json");
+        this._rawItems = require("../data/items.json");
+        this._rawPosts = require("../data/posts.json");
         this.items = this._rawItems.map(function (item) {
             return new JSerItem(item);
         });
