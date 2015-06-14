@@ -1,6 +1,6 @@
 {
   "name": "jser-stat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSer.info stat library",
   "main": "lib/index.js",
   "files": [
