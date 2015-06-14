@@ -1,7 +1,10 @@
 // LICENSE : MIT
 "use strict";
 export default class JSerPost {
-    constructor(post) {
+    constructor(number, post) {
+        /** @type Number*/
+        // start with 1
+        this.postNumber = number;
         /** @type string */
         this.title = post["title"];
         /** @type string */

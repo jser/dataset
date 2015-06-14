@@ -2,6 +2,8 @@
 "use strict";
 export default class JSerWeek {
     constructor(currentPost, nextPost, algoItem) {
+        /** @type Number */
+        this.weekNumber = currentPost.postNumber;
         /** @type Date */
         this.beginDate = currentPost.date;
         /** @type Date */

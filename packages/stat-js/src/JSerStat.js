@@ -17,10 +17,18 @@ export default class JSerStat {
             return new JSerItem(item);
         });
         // JSer カテゴリだけにする
-        this.posts = this._rawPosts.filter(filterJSerCategory).map((post) => {
-            return new Post(post);
+        this.posts = this._rawPosts.filter(filterJSerCategory).map((post, index) => {
+            return new Post(index + 1, post);
         });
         this.algoItem = new AlgoItem(this.items);
+    }
+
+    /**
+     * 全部で何週あるかを返す(投稿記事の数と一致)
+     * @returns {Number}
+     */
+    getTotalWeekCount() {
+        return this.posts.length;
     }
 
     /**
