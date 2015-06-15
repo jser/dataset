@@ -1,3 +1,4 @@
 {
-  "loose": ["es6.modules", "es6.classes"]
+  "loose": ["es6.modules", "es6.classes"],
+  "optional": ["runtime"]
 }

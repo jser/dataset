@@ -40,6 +40,7 @@ describe("jser-stat", function () {
             assert(weeks.length < stat.posts.length);
         });
     });
+
     describe("#getJSerWeek", function () {
         var stat;
         before(function () {
