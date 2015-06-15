@@ -17,13 +17,17 @@ jser-stat has these model.
 - [src/models/JSerPost.js](src/models/JSerPost.js) from [jser/jser.github.io](https://github.com/jser/jser.github.io "jser/jser.github.io")
 - [src/models/JSerWeek.js](src/models/JSerWeek.js) is JSerItem + JSerPost
 
+### getItemsBetWeen(beginDate, endDate): JSerItem[]
+
+return JSerItems between two dates
+
 ### getJSerWeeks(): JSerWeek[]
 
 return all JSerWeeks
 
 ### getJSerWeeksBetWeen(beginDate, endDate):  JSerWeek[]
 
-return JSerWeeks in range of(beginDate, endData)
+return JSerWeeks between two dates
 
 ### getJSerWeek(number): JSerWeek
 
