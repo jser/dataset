@@ -61,7 +61,7 @@ describe("AlgoItem", function () {
                 algo = new AlgoItem(items);
             });
             it("2015-01-01 ~ 2015-02-01に含まれる", function () {
-                var items = algo.findPostsBetween(new Date("2015-01-011T00:00:00.000Z"), new Date("2015-02-011T00:00:00.000Z"));
+                var items = algo.findPostsBetween(new Date("2015-01-01T00:00:00.000Z"), new Date("2015-02-01T00:00:00.000Z"));
                 assert.equal(items.length, 1);
             });
         });

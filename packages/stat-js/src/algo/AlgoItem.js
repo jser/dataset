@@ -27,6 +27,11 @@ export default class AlgoItem {
         if (beginItemIndex === -1 || endItemIndex === -1) {
             return [];
         }
+        //console.log(`${beginDate}@${endDate}`);
+        //console.log(`${beginItemIndex}@${endItemIndex}`);
+        if (beginItemIndex === endItemIndex) {
+            return [this.items[beginItemIndex]];
+        }
         return this.items.slice(beginItemIndex, endItemIndex);
     }
 
