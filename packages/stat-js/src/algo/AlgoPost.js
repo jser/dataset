@@ -27,6 +27,9 @@ export default class AlgoPost {
         if (beginItemIndex === -1 || endItemIndex === -1) {
             return [];
         }
+        if (beginItemIndex === endItemIndex) {
+            return [this.posts[beginItemIndex]];
+        }
         return this.posts.slice(beginItemIndex, endItemIndex);
     }
 
