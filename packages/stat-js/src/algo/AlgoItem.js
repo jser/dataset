@@ -18,7 +18,9 @@ export default class AlgoItem {
         });
     }
 
-    findPostsBetween(beginDate, endDate) {
+
+
+    findItemsBetween(beginDate, endDate) {
         var beginTime = beginDate.getTime();
         var endTime = endDate.getTime();
         var beginItemIndex = findIndexBiggerTime(this.itemTimeIndex, beginTime);

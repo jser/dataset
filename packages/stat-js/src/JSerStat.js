@@ -32,6 +32,16 @@ export default class JSerStat {
     }
 
     /**
+     * beginからendの範囲のJSerItemの配列を返す
+     * @param beginDate {Date}
+     * @param endDate {Date}
+     * @returns {JSerItem[]}
+     */
+    getItemsBetWeen(beginDate, endDate) {
+        return this.algoItem.findItemsBetween(beginDate, endDate);
+    }
+
+    /**
      * 全てのJSerWeekの配列を返す
      * @returns {JSerWeek[]}
      */
@@ -45,6 +55,12 @@ export default class JSerStat {
         return results;
     }
 
+    /**
+     * beginからendの範囲のJSerWeekの配列を返す
+     * @param beginDate
+     * @param endDate
+     * @returns {JSerWeek[]}
+     */
     getJSerWeeksBetWeen(beginDate, endDate) {
         var results = [];
         var algoPost = new AlgoPost(this.posts);
