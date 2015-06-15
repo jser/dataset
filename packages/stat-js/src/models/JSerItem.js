@@ -7,6 +7,8 @@ export default class JSerItem {
         this.title = item["title"];
         /** @type string */
         this.url = item["url"];
+        /** @type string */
+        this.content = post["content"];
         /** @type string[] */
         this.tags = item["tags"] || [];
         /** @type Date */
