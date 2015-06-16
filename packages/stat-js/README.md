@@ -6,6 +6,15 @@ JSer.info stat library
 
     npm install jser-stat
 
+## Data Source
+
+- http://jser.info/source-data/items.json
+    - [jser/source-data](https://github.com/jser/source-data "jser/source-data")
+    - jser/jser.infoの記事元となるサイトのデータを一つのJSONとして固めたもの
+- http://jser.info/posts.json
+    - jser.infoの投稿した記事のデータ
+
+
 ## Usage
 
 ### Models
