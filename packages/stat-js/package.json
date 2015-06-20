@@ -12,7 +12,7 @@
     "build": "babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
     "doc": "esdoc -c esdoc.json",
-    "deploy": "gh-pages -d esdoc",
+    "deploy": "npm run doc && gh-pages -d esdoc",
     "test": "mocha test"
   },
   "repository": {
