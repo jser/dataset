@@ -2,15 +2,15 @@
 "use strict";
 export default class JSerWeek {
     constructor(currentPost, nextPost, algoItem) {
-        /** @type Number */
+        /** @type {number} */
         this.weekNumber = currentPost.postNumber;
-        /** @type Date */
+        /** @type {Date} */
         this.beginDate = currentPost.date;
-        /** @type Date */
+        /** @type {Date} */
         this.endDate = nextPost ? nextPost.date : null;
-        /** @type JSerPost */
+        /** @type {JSerPost} */
         this.post = currentPost;
-        /** @type JSerItem[]*/
+        /** @type {JSerItem[]} */
         this.items = algoItem.findItemsBetween(this.beginDate, this.endDate || new Date());
     }
 }

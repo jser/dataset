@@ -18,6 +18,12 @@ export default class AlgoPost {
         });
     }
 
+    /**
+     *
+     * @param {Date} beginDate
+     * @param {Date} endDate
+     * @returns {JSerPost[]}
+     */
     findPostsBetween(beginDate, endDate) {
         var beginTime = beginDate.getTime();
         var endTime = endDate.getTime();

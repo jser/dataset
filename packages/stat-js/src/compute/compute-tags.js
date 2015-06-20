@@ -2,7 +2,7 @@
 "use strict";
 /**
  * {タグ名:出現回数}のオブジェクトを返す
- * @param weeks
+ * @param {JSerWeek[]} weeks
  * @returns {{string:number}}
  */
 export function countTagsByGroup(weeks) {

@@ -1,20 +1,20 @@
 // LICENSE : MIT
 "use strict";
 import RelatedLink from "./JSerItemRelatedLink"
-export default class JSerItem{
+export default class JSerItem {
     constructor(item) {
-        /** @type string */
+        /** @type {string} */
         this.title = item["title"];
-        /** @type string */
+        /** @type {string} */
         this.url = item["url"];
-        /** @type string */
+        /** @type {string} */
         this.content = item["content"];
-        /** @type string[] */
+        /** @type {string[]} */
         this.tags = item["tags"] || [];
-        /** @type Date */
+        /** @type {Date} */
         this.date = new Date(item["date"]);
         var relatedLinks = item["relatedLinks"] || [];
-        /** @type JSerItemRelatedLink[] */
+        /** @type {JSerItemRelatedLink[]} */
         this.relatedLinks = relatedLinks.map(function (link) {
             return new RelatedLink(link);
         });

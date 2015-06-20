@@ -18,8 +18,12 @@ export default class AlgoItem {
         });
     }
 
-
-
+    /**
+     *
+     * @param {Date} beginDate
+     * @param {Date} endDate
+     * @returns {JSerItem[]}
+     */
     findItemsBetween(beginDate, endDate) {
         var beginTime = beginDate.getTime();
         var endTime = endDate.getTime();

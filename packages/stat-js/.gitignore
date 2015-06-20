@@ -33,3 +33,4 @@ node_modules
 lib
 data/items.json
 data/posts.json
+esdoc

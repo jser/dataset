@@ -25,7 +25,7 @@ export default class JSerStat {
 
     /**
      * 全部で何週あるかを返す(投稿記事の数と一致)
-     * @returns {Number}
+     * @returns {number}
      */
     getTotalWeekCount() {
         return this.posts.length;
@@ -33,8 +33,8 @@ export default class JSerStat {
 
     /**
      * beginからendの範囲のJSerItemの配列を返す
-     * @param beginDate {Date}
-     * @param endDate {Date}
+     * @param {Date} beginDate
+     * @param {Date} endDate
      * @returns {JSerItem[]}
      */
     getItemsBetWeen(beginDate, endDate) {
@@ -57,8 +57,8 @@ export default class JSerStat {
 
     /**
      * beginからendの範囲のJSerWeekの配列を返す
-     * @param beginDate
-     * @param endDate
+     * @param {Date} beginDate
+     * @param {Date} endDate
      * @returns {JSerWeek[]}
      */
     getJSerWeeksBetWeen(beginDate, endDate) {
@@ -75,7 +75,7 @@ export default class JSerStat {
 
     /**
      * JSer.info #xxx を返す
-     * @param number number start with 1
+     * @param {number} number number start with 1
      * @returns {JSerWeek}
      */
     getJSerWeek(number) {
