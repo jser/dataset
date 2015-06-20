@@ -12,6 +12,7 @@
     "build": "babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
     "doc": "esdoc -c esdoc.json",
+    "deploy": "gh-pages -d esdoc",
     "test": "mocha test"
   },
   "repository": {
@@ -31,6 +32,7 @@
     "babel": "^5.5.8",
     "esdoc": "^0.1.2",
     "espower-babel": "^3.2.0",
+    "gh-pages": "^0.3.1",
     "mocha": "^2.2.5",
     "power-assert": "^0.11.0"
   },
