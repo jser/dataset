@@ -13,13 +13,16 @@ export default class JSerStat {
     constructor() {
         this._rawItems = require("../data/items.json");
         this._rawPosts = require("../data/posts.json");
+        /** @type {JSerItem[]} */
         this.items = this._rawItems.map(function (item) {
             return new Item(item);
         });
         // JSer カテゴリだけにする
+        /** @type {JSerPost[]} */
         this.posts = this._rawPosts.filter(filterJSerCategory).map((post, index) => {
             return new Post(index + 1, post);
         });
+        /** @type {AlgoItem} */
         this.algoItem = new AlgoItem(this.items);
     }
 
