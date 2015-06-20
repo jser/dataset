@@ -1,7 +1,7 @@
 // LICENSE : MIT
 "use strict";
 import RelatedLink from "./JSerItemRelatedLink"
-export default class {
+export default class JSerItem{
     constructor(item) {
         /** @type string */
         this.title = item["title"];

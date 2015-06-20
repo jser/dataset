@@ -1,6 +1,6 @@
 // LICENSE : MIT
 "use strict";
-import JSerItem from "./models/JSerItem"
+import Item from "./models/JSerItem"
 import Post from "./models/JSerPost"
 import Week from "./models/JSerWeek"
 import AlgoItem from "./algo/AlgoItem"
@@ -14,7 +14,7 @@ export default class JSerStat {
         this._rawItems = require("../data/items.json");
         this._rawPosts = require("../data/posts.json");
         this.items = this._rawItems.map(function (item) {
-            return new JSerItem(item);
+            return new Item(item);
         });
         // JSer カテゴリだけにする
         this.posts = this._rawPosts.filter(filterJSerCategory).map((post, index) => {

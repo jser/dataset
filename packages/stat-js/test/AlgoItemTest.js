@@ -2,20 +2,20 @@
 "use strict";
 import assert from "power-assert"
 import AlgoItem from "../src/algo/AlgoItem.js"
-import JSerItem from "../src/models/JSerItem.js"
+import Item from "../src/models/JSerItem"
 var rawItems;
-var items;
+var defaultItems;
 describe("AlgoItem", function () {
-    before(function(){
+    before(function () {
         rawItems = require("./fixtures/items.json");
-        items = rawItems.map(function (item) {
-            return new JSerItem(item);
+        defaultItems = rawItems.map(function (item) {
+            return new Item(item);
         });
     });
     describe("when initialized", function () {
         var algo;
         beforeEach(function () {
-            algo = new AlgoItem(items);
+            algo = new AlgoItem(defaultItems);
         });
         it("should has this.postTimeIndex", function () {
             assert(algo.itemTimeIndex instanceof Array);
@@ -25,7 +25,7 @@ describe("AlgoItem", function () {
         context("when initialized with fixtures", function () {
             var algo;
             beforeEach(function () {
-                algo = new AlgoItem(items);
+                algo = new AlgoItem(defaultItems);
             });
             it("should return array", function () {
                 var items = algo.findItemsBetween(new Date("2011-01-31T15:00:00.000Z"), new Date("2015-06-13T13:22:37.167Z"));
@@ -56,7 +56,7 @@ describe("AlgoItem", function () {
                     }
                 ];
                 var items = data.map(function (item) {
-                    return new JSerItem(item);
+                    return new Item(item);
                 });
                 algo = new AlgoItem(items);
             });
