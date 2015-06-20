@@ -17,6 +17,8 @@ JSer.info stat library
 
 ## Usage
 
+API Document: http://jser.info/stat-js/
+
 ### Models
 
 jser-stat has these model.
