@@ -1,6 +1,6 @@
 // LICENSE : MIT
 "use strict";
-import {findIndexBiggerTime,findIndexLessTime} from "./algoSearch.js"
+import {findIndexesBetween} from "./algoSearch.js"
 
 // for algorithm
 export default class AlgoPost {
@@ -25,18 +25,7 @@ export default class AlgoPost {
      * @returns {JSerPost[]}
      */
     findPostsBetween(beginDate, endDate) {
-        var beginTime = beginDate.getTime();
-        var endTime = endDate.getTime();
-        var beginItemIndex = findIndexBiggerTime(this.postTimeIndex, beginTime);
-        var endItemIndex = findIndexLessTime(this.postTimeIndex, endTime);
-        // 範囲外なら空
-        if (beginItemIndex === -1 || endItemIndex === -1) {
-            return [];
-        }
-        if (beginItemIndex === endItemIndex) {
-            return [this.posts[beginItemIndex]];
-        }
-        return this.posts.slice(beginItemIndex, endItemIndex);
+        return findIndexesBetween(this.postTimeIndex, beginDate, endDate).map(itemIndex => this.posts[itemIndex]);
     }
 
 }

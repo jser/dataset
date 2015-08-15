@@ -1,5 +1,15 @@
 // LICENSE : MIT
 "use strict";
+export function findIndexesBetween(times, beginDate, endDate) {
+    var beginTime = beginDate.getTime();
+    var endTime = endDate.getTime();
+    return times.reduce((indexes, time, index) => {
+        if (beginTime <= time && time <= endTime) {
+            indexes.push(index);
+        }
+        return indexes;
+    }, []);
+}
 export function findIndexBiggerTime(array, time) {
     var currentIndex = 0;
     for (var i = currentIndex; i < array.length; i++) {

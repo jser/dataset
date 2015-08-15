@@ -18,7 +18,7 @@ describe("AlgoItem", function () {
             algo = new AlgoItem(defaultItems);
         });
         it("should has this.postTimeIndex", function () {
-            assert(algo.itemTimeIndex instanceof Array);
+            assert(algo.itemTimes instanceof Array);
         });
     });
     describe("#findItemsBetween", function () {
@@ -44,25 +44,43 @@ describe("AlgoItem", function () {
         });
         context("when", function () {
             var algo;
+            var jserItems;
             beforeEach(function () {
                 var data = [
                     {
-                        "title": "Home | marty.js",
-                        "url": "http://martyjs.org/",
-                        "content": "Fluxアーキテクチャ実装のライブラリ。\n基本的なStore、Dispatcher、Actionがあり、追加でConstant値の作成、Storageを指定して管理出来るStateが用意されてる。\nChromeのデバッグで流れを見られるようになってる",
-                        "tags": [],
-                        "date": "2015-01-31T11:48:08.894Z",
-                        "relatedLinks": []
+                        "date": "2015-01-31T15:00:00.000Z"
+                    },
+                    {
+                        "date": "2015-03-04T14:09:23.160Z"
+                    },
+                    {
+                        "date": "2015-04-04T14:09:23.160Z"
+                    },
+                    {
+                        "date": "2015-05-13T13:22:37.167Z"
                     }
                 ];
-                var items = data.map(function (item) {
+                jserItems = data.map(function (item) {
                     return new Item(item);
                 });
-                algo = new AlgoItem(items);
+                algo = new AlgoItem(jserItems);
             });
-            it("2015-01-01 ~ 2015-02-01に含まれる", function () {
+            it("2015-01-01 ~ 2015-02-01に含まれるものを返す", function () {
                 var items = algo.findItemsBetween(new Date("2015-01-01T00:00:00.000Z"), new Date("2015-02-01T00:00:00.000Z"));
                 assert.equal(items.length, 1);
+                assert.deepEqual(items[0], jserItems[0]);
+            });
+            it("2015-02-01 ~ 2015-03-01に含まれてるものがない", function () {
+                var items = algo.findItemsBetween(new Date("2015-02-01T00:00:00.000Z"), new Date("2015-03-01T00:00:00.000Z"));
+                assert.equal(items.length, 0);
+            });
+            it("2015-01-01 ~ 2015-06-01に含まれてるものを返す", function () {
+                var items = algo.findItemsBetween(new Date("2015-01-01T00:00:00.000Z"), new Date("2015-06-01T00:00:00.000Z"));
+                assert.equal(items.length, jserItems.length);
+                assert.deepEqual(items[0], jserItems[0]);
+                assert.deepEqual(items[1], jserItems[1]);
+                assert.deepEqual(items[2], jserItems[2]);
+                assert.deepEqual(items[3], jserItems[3]);
             });
         });
     });
