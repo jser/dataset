@@ -30,7 +30,7 @@
   "homepage": "https://github.com/jser/stat-js",
   "devDependencies": {
     "babel": "^5.5.8",
-    "esdoc": "^0.1.2",
+    "esdoc": "^0.2.1",
     "espower-babel": "^3.2.0",
     "gh-pages": "^0.3.1",
     "mocha": "^2.2.5",

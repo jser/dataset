@@ -1,4 +1,4 @@
-# jser-stat
+# jser-stat [![Build Status](https://travis-ci.org/jser/stat-js.svg?branch=master)](https://travis-ci.org/jser/stat-js)
 
 JSer.info stat library
 
