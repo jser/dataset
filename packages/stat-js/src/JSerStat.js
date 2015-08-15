@@ -118,7 +118,7 @@ export default class JSerStat {
 
     /**
      * JSerItemを含んでいるJSerWeekを検索して返す.
-     * @param {JSerItem} jserItem
+     * @param {Object} jserItem the jserItem is raw object for JSerItem
      * @return {JSerWeek} The week contain this jserItem.
      */
     findWeekWithItem(jserItem) {
