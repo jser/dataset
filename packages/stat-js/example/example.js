@@ -6,3 +6,5 @@ var stat = new JSerStat();
 assert(stat.getJSerWeeks().length > 0);
 var firstWeek = stat.findJSerWeek(1);
 assert(firstWeek.weekNumber === 1);
+var theItem = stat.findItemWithURL("http://d.hatena.ne.jp/brazil/20110131/1296419283");
+console.log(theItem);
