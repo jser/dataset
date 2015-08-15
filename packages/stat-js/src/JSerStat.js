@@ -65,8 +65,8 @@ export default class JSerStat {
      */
     getJSerWeeks() {
         return this.posts.reduce((results, currentPost, index)=> {
-            var nextPost = this.posts[index + 1];
-            var jserWeek = new Week(currentPost, nextPost, this._algoItem);
+            var prevPost = this.posts[index - 1];
+            var jserWeek = new Week(currentPost, prevPost, this._algoItem);
             results.push(jserWeek);
             return results;
         }, []);
@@ -79,15 +79,14 @@ export default class JSerStat {
      * @returns {JSerWeek[]}
      */
     findJSerWeeksBetween(beginDate, endDate) {
-        var results = [];
         var algoPost = this._algoPost;
         var posts = algoPost.findPostsBetween(beginDate, endDate);
-        posts.reduce((currentPost, nextPost)=> {
-            var jserWeek = new Week(currentPost, nextPost, this._algoItem);
+        return posts.reduce((results, currentPost, index)=> {
+            var prevPost = this.posts[index - 1];
+            var jserWeek = new Week(currentPost, prevPost, this._algoItem);
             results.push(jserWeek);
-            return nextPost;
-        });
-        return results;
+            return results;
+        }, []);
     }
 
     // deprecated
@@ -108,8 +107,8 @@ export default class JSerStat {
             return null;
         }
         var targetPost = this.posts[number - 1];
-        var nextPost = this.posts[number];
-        return new Week(targetPost, nextPost, this._algoItem);
+        var prevPost = this.posts[number - 2];
+        return new Week(targetPost, prevPost, this._algoItem);
     }
 
     // deprecated
