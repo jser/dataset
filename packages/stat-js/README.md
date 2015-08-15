@@ -28,7 +28,7 @@ jser-stat has these model.
 - [src/models/JSerPost.js](src/models/JSerPost.js) from [jser/jser.github.io](https://github.com/jser/jser.github.io "jser/jser.github.io")
 - [src/models/JSerWeek.js](src/models/JSerWeek.js) is JSerItem + JSerPost
 
-### getItemsBetWeen(beginDate, endDate): JSerItem[]
+### findItemsBetween(beginDate, endDate): JSerItem[]
 
 return JSerItems between two dates
 
@@ -36,11 +36,11 @@ return JSerItems between two dates
 
 return all JSerWeeks
 
-### getJSerWeeksBetWeen(beginDate, endDate):  JSerWeek[]
+### findJSerWeeksBetween(beginDate, endDate):  JSerWeek[]
 
 return JSerWeeks between two dates
 
-### getJSerWeek(number): JSerWeek
+### findJSerWeek(number): JSerWeek
 
 number start with 1.
 
