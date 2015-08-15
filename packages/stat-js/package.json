@@ -10,11 +10,12 @@
   ],
   "scripts": {
     "install": "node data/install-hook.js",
+    "prepublish": "npm run --if-present build",
     "build": "babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
     "doc": "esdoc -c esdoc.json",
     "deploy": "npm run doc && gh-pages -d esdoc",
-    "test": "mocha test"
+    "test": "mocha test && (cd example && npm test)"
   },
   "repository": {
     "type": "git",
