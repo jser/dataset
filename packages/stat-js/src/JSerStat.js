@@ -40,8 +40,13 @@ export default class JSerStat {
      * @param {Date} endDate
      * @returns {JSerItem[]}
      */
-    getItemsBetWeen(beginDate, endDate) {
+    findItemsBetWeen(beginDate, endDate) {
         return this.algoItem.findItemsBetween(beginDate, endDate);
+    }
+
+    // deprecated
+    getItemsBetWeen(beginDate, endDate) {
+        return this.findItemsBetWeen(beginDate, endDate)
     }
 
     /**
@@ -64,7 +69,7 @@ export default class JSerStat {
      * @param {Date} endDate
      * @returns {JSerWeek[]}
      */
-    getJSerWeeksBetWeen(beginDate, endDate) {
+    findJSerWeeksBetWeen(beginDate, endDate) {
         var results = [];
         var algoPost = new AlgoPost(this.posts);
         var posts = algoPost.findPostsBetween(beginDate, endDate);
@@ -76,12 +81,17 @@ export default class JSerStat {
         return results;
     }
 
+    // deprecated
+    getJSerWeeksBetWeen(beginDate, endDate) {
+        return this.findJSerWeeksBetWeen(beginDate, endDate)
+    }
+
     /**
      * JSer.info #xxx を返す
      * @param {number} number number start with 1
      * @returns {JSerWeek}
      */
-    getJSerWeek(number) {
+    findJSerWeek(number) {
         if (number <= 0) {
             throw new Error(`number:${number} should be >= 1`);
         }
@@ -91,5 +101,10 @@ export default class JSerStat {
         var targetPost = this.posts[number - 1];
         var nextPost = this.posts[number];
         return new Week(targetPost, nextPost, this.algoItem);
+    }
+
+    // deprecated
+    getJSerWeek(number) {
+        return this.findJSerWeek(number);
     }
 }
