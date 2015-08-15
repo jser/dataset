@@ -80,11 +80,9 @@ describe("jser-stat", function () {
             stat = new JSerStat(items, posts);
         });
         it("should return JSerWeek match the JSerItem", function () {
-            var item = new Item(items[0]);
-            var week = stat.findWeekWithItem(item);
+            var week = stat.findWeekWithItem(items[0]);
             assert(stat.getTotalWeekCount() === 1);
-            (stat.getJSerWeeks());
-            assert.equal(stat.getJSerWeeks()[0], week);
+            assert.deepEqual(stat.getJSerWeeks()[0], week);
         });
     });
 });

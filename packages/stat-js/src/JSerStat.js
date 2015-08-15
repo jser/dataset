@@ -1,5 +1,7 @@
 // LICENSE : MIT
 "use strict";
+require('array.prototype.find');
+
 import Item from "./models/JSerItem"
 import Post from "./models/JSerPost"
 import Week from "./models/JSerWeek"
@@ -121,6 +123,12 @@ export default class JSerStat {
      * @return {JSerWeek} The week contain this jserItem.
      */
     findWeekWithItem(jserItem) {
-
+        var targetItem = new Item(jserItem);
+        var jSerWeeks = this.getJSerWeeks();
+        return jSerWeeks.find(week => {
+            return week.items.some(item => {
+                return targetItem.isEqualItem(item);
+            })
+        })
     }
 }
