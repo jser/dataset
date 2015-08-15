@@ -46,6 +46,14 @@ number start with 1.
 
 return JSerWeek at the number.
 
+### findWeekWithItem(itemObject): JSerWeek
+
+return JSerWeek contain the itemObject.
+
+### findItemWithURL(URL): JSerItem
+
+return JSerItem match the `URL`.
+
 ## Tests
 
     npm test
