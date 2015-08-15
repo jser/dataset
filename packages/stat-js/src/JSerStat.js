@@ -22,8 +22,11 @@ export default class JSerStat {
         this.posts = this._rawPosts.filter(filterJSerCategory).map((post, index) => {
             return new Post(index + 1, post);
         });
-        /** @type {AlgoItem} */
-        this.algoItem = new AlgoItem(this.items);
+        /**
+         *  @type {AlgoItem}
+         *  @private
+         **/
+        this._algoItem = new AlgoItem(this.items);
     }
 
     /**
@@ -41,7 +44,7 @@ export default class JSerStat {
      * @returns {JSerItem[]}
      */
     findItemsBetween(beginDate, endDate) {
-        return this.algoItem.findItemsBetween(beginDate, endDate);
+        return this._algoItem.findItemsBetween(beginDate, endDate);
     }
 
     // deprecated
@@ -56,7 +59,7 @@ export default class JSerStat {
     getJSerWeeks() {
         var results = [];
         this.posts.reduce((currentPost, nextPost)=> {
-            var jserWeek = new Week(currentPost, nextPost, this.algoItem);
+            var jserWeek = new Week(currentPost, nextPost, this._algoItem);
             results.push(jserWeek);
             return nextPost;
         });
@@ -74,7 +77,7 @@ export default class JSerStat {
         var algoPost = new AlgoPost(this.posts);
         var posts = algoPost.findPostsBetween(beginDate, endDate);
         posts.reduce((currentPost, nextPost)=> {
-            var jserWeek = new Week(currentPost, nextPost, this.algoItem);
+            var jserWeek = new Week(currentPost, nextPost, this._algoItem);
             results.push(jserWeek);
             return nextPost;
         });
@@ -100,7 +103,7 @@ export default class JSerStat {
         }
         var targetPost = this.posts[number - 1];
         var nextPost = this.posts[number];
-        return new Week(targetPost, nextPost, this.algoItem);
+        return new Week(targetPost, nextPost, this._algoItem);
     }
 
     // deprecated
@@ -109,10 +112,11 @@ export default class JSerStat {
     }
 
     /**
-     *
+     * JSerItemを含んでいるJSerWeekを検索して返す.
      * @param {JSerItem} jserItem
      * @return {JSerWeek} The week contain this jserItem.
      */
     findWeekWithItem(jserItem) {
+
     }
 }
