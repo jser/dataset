@@ -27,6 +27,11 @@ export default class JSerStat {
          *  @private
          **/
         this._algoItem = new AlgoItem(this.items);
+        /**
+         * @type {AlgoPost}
+         * @private
+         */
+        this._algoPost = new AlgoPost(this.posts);
     }
 
     /**
@@ -74,7 +79,7 @@ export default class JSerStat {
      */
     findJSerWeeksBetween(beginDate, endDate) {
         var results = [];
-        var algoPost = new AlgoPost(this.posts);
+        var algoPost = this._algoPost;
         var posts = algoPost.findPostsBetween(beginDate, endDate);
         posts.reduce((currentPost, nextPost)=> {
             var jserWeek = new Week(currentPost, nextPost, this._algoItem);
