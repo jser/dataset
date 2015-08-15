@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "files": [
     "data/*.js",
-    "lib"
+    "lib",
+    "src"
   ],
   "scripts": {
     "install": "node data/install-hook.js",
