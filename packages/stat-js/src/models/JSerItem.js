@@ -1,5 +1,6 @@
 // LICENSE : MIT
 "use strict";
+import assert from "assert"
 import RelatedLink from "./JSerItemRelatedLink"
 export default class JSerItem {
     constructor(item) {
@@ -25,6 +26,7 @@ export default class JSerItem {
      * @returns {boolean}
      */
     isEqualItem(item) {
+        assert(item != null, "item should not be null");
         return this.url === item.url;
     }
 }

@@ -127,7 +127,18 @@ export default class JSerStat {
         return jSerWeeks.find(week => {
             return week.items.some(item => {
                 return targetItem.isEqualItem(item);
-            })
-        })
+            });
+        });
+    }
+
+    /**
+     * URLとマッチするJSerItemを返す
+     * @param {string} URL
+     * @return {JSerItem}
+     */
+    findItemWithURL(URL) {
+        return this.items.find(item => {
+            return item.url === URL;
+        });
     }
 }
