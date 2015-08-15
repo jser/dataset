@@ -62,13 +62,12 @@ export default class JSerStat {
      * @returns {JSerWeek[]}
      */
     getJSerWeeks() {
-        var results = [];
-        this.posts.reduce((currentPost, nextPost)=> {
+        return this.posts.reduce((results, currentPost, index)=> {
+            var nextPost = this.posts[index + 1];
             var jserWeek = new Week(currentPost, nextPost, this._algoItem);
             results.push(jserWeek);
-            return nextPost;
-        });
-        return results;
+            return results;
+        }, []);
     }
 
     /**

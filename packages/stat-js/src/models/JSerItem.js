@@ -19,4 +19,12 @@ export default class JSerItem {
             return new RelatedLink(link);
         });
     }
+
+    /**
+     * @param {JSerItem} item
+     * @returns {boolean}
+     */
+    isEqualItem(item) {
+        return this.url === item.url;
+    }
 }
