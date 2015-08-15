@@ -17,24 +17,24 @@ describe("jser-stat", function () {
             assert(stat.posts instanceof Array);
         });
     });
-    describe("#findJSerWeeks", function () {
+    describe("#getJSerWeeks", function () {
         var stat;
         before(function () {
             stat = new JSerStat();
         });
         it("should return JSerWeek[]", function () {
-            var weeks = stat.findJSerWeeks();
+            var weeks = stat.getJSerWeeks();
             assert(weeks instanceof Array);
             assert(weeks[0] instanceof JSerWeek)
         });
     });
-    describe("#findJSerWeeksBetWeen", function () {
+    describe("#findJSerWeeksBetween", function () {
         var stat;
         before(function () {
             stat = new JSerStat();
         });
         it("should return JSerWeek[]", function () {
-            var weeks = stat.findJSerWeeksBetWeen(new Date("2013-01-31T15:00:00.000Z"), new Date("2015-06-01T13:22:37.167Z"));
+            var weeks = stat.findJSerWeeksBetween(new Date("2013-01-31T15:00:00.000Z"), new Date("2015-06-01T13:22:37.167Z"));
             assert(weeks instanceof Array);
             assert(weeks[0] instanceof JSerWeek);
             assert(weeks.length < stat.posts.length);

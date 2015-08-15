@@ -40,13 +40,13 @@ export default class JSerStat {
      * @param {Date} endDate
      * @returns {JSerItem[]}
      */
-    findItemsBetWeen(beginDate, endDate) {
+    findItemsBetween(beginDate, endDate) {
         return this.algoItem.findItemsBetween(beginDate, endDate);
     }
 
     // deprecated
     getItemsBetWeen(beginDate, endDate) {
-        return this.findItemsBetWeen(beginDate, endDate)
+        return this.findItemsBetween(beginDate, endDate)
     }
 
     /**
@@ -69,7 +69,7 @@ export default class JSerStat {
      * @param {Date} endDate
      * @returns {JSerWeek[]}
      */
-    findJSerWeeksBetWeen(beginDate, endDate) {
+    findJSerWeeksBetween(beginDate, endDate) {
         var results = [];
         var algoPost = new AlgoPost(this.posts);
         var posts = algoPost.findPostsBetween(beginDate, endDate);
@@ -83,7 +83,7 @@ export default class JSerStat {
 
     // deprecated
     getJSerWeeksBetWeen(beginDate, endDate) {
-        return this.findJSerWeeksBetWeen(beginDate, endDate)
+        return this.findJSerWeeksBetween(beginDate, endDate)
     }
 
     /**
@@ -106,5 +106,13 @@ export default class JSerStat {
     // deprecated
     getJSerWeek(number) {
         return this.findJSerWeek(number);
+    }
+
+    /**
+     *
+     * @param {JSerItem} jserItem
+     * @return {JSerWeek} The week contain this jserItem.
+     */
+    findWeekWithItem(jserItem) {
     }
 }
