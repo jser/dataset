@@ -1,14 +1,10 @@
 // LICENSE : MIT
 "use strict";
+import binarysearch from "binarysearch"
 export function findIndexesBetween(times, beginDate, endDate) {
     var beginTime = beginDate.getTime();
     var endTime = endDate.getTime();
-    return times.reduce((indexes, time, index) => {
-        if (beginTime <= time && time <= endTime) {
-            indexes.push(index);
-        }
-        return indexes;
-    }, []);
+    return binarysearch.range(times, beginTime, endTime);
 }
 export function findIndexBiggerTime(array, time) {
     var currentIndex = 0;

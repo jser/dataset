@@ -25,7 +25,14 @@ export default class AlgoPost {
      * @returns {JSerPost[]}
      */
     findPostsBetween(beginDate, endDate) {
-        return findIndexesBetween(this.postTimeIndex, beginDate, endDate).map(itemIndex => this.posts[itemIndex]);
+        var indexes = findIndexesBetween(this.postTimeIndex, beginDate, endDate);
+        if (indexes.length === 0) {
+            return [];
+        }
+        if (indexes.length === 1) {
+            return this.posts.slice(indexes[0], indexes[0] + 1);
+        }
+        return this.posts.slice(indexes[0], indexes[indexes.length - 1] + 1);
     }
 
 }
