@@ -25,6 +25,12 @@ export default class JSerStat {
             return new Post(index + 1, post);
         });
         /**
+         *
+         * @type {JSerWeek[]}
+         * @private
+         */
+        this._weeks = [];
+        /**
          *  @type {AlgoItem}
          *  @private
          **/
@@ -68,12 +74,15 @@ export default class JSerStat {
      * @returns {JSerWeek[]}
      */
     getJSerWeeks() {
-        return this.posts.reduce((results, currentPost, index)=> {
-            var prevPost = this.posts[index - 1];
-            var jserWeek = new Week(currentPost, prevPost, this._algoItem);
-            results.push(jserWeek);
-            return results;
-        }, []);
+        if(this._weeks.length === 0) {
+            this._weeks = this.posts.reduce((results, currentPost, index)=> {
+                var prevPost = this.posts[index - 1];
+                var jserWeek = new Week(currentPost, prevPost, this._algoItem);
+                results.push(jserWeek);
+                return results;
+            }, []);
+        }
+        return this._weeks;
     }
 
     /**
