@@ -7,7 +7,7 @@ import Post from "./models/JSerPost"
 import Week from "./models/JSerWeek"
 import AlgoItem from "./algo/AlgoItem"
 import AlgoPost from "./algo/AlgoPost.js"
-
+import NaturalSearcher from "./natural/NaturalSearcher"
 function filterJSerCategory(article) {
     return /jser/i.test(article.category);
 }
@@ -140,5 +140,16 @@ export default class JSerStat {
         return this.items.find(item => {
             return item.url === URL;
         });
+    }
+
+    /**
+     * `item` と関連するJSerItemの配列を返す
+     * @param {JSerItem} item
+     * @param {number} limit
+     * @returns {JSerItem[]}
+     */
+    findRelatedItems(item, limit = 10) {
+        var search = new NaturalSearcher(this.items);
+        return search.findRelatedItems(item, limit);
     }
 }

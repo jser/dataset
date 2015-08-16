@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm rm jser-stat && npm i && node example.js"
+    "test": "npm rm jser-stat && npm i && node example.js && node natural-search.js"
   },
   "author": "azu",
   "license": "MIT",
