@@ -34,6 +34,10 @@ export default class JSerStat {
          * @private
          */
         this._algoPost = new AlgoPost(this.posts);
+        /**
+         * @type {NaturalSearcher}
+         */
+        this.naturalSearch = null;
     }
 
     /**
@@ -149,7 +153,9 @@ export default class JSerStat {
      * @returns {JSerItem[]}
      */
     findRelatedItems(item, limit = 10) {
-        var search = new NaturalSearcher(this.items);
-        return search.findRelatedItems(item, limit);
+        if (this.naturalSearch == null) {
+            this.naturalSearch = new NaturalSearcher(this.items);
+        }
+        return this.naturalSearch.findRelatedItems(item, limit);
     }
 }
