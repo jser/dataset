@@ -5,6 +5,10 @@ var path = require("path");
 var http = require("http");
 var request = require("request");
 var URLMap = require("./url-mapping");
+if (typeof Promise === "undefined") {
+    console.warning("This env doesn't support Promise");
+    process.exit(0);
+}
 function getURLAsync(URL) {
     return new Promise(function (resolve, reject) {
         request(URL, function (error, response, body) {
