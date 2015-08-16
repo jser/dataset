@@ -10,8 +10,16 @@ export default class JSerWeek {
         this.endDate = currentPost.date;
         /** @type {JSerPost} */
         this.post = currentPost;
-        var pastDate = new Date(1995, 11, 17);
         /** @type {JSerItem[]} */
-        this.items = algoItem.findItemsBetween(this.beginDate || pastDate, this.endDate);
+        this._items = [];
+        this._algoItem = algoItem;
+    }
+
+    get items() {
+        if (this._items.length === 0) {
+            var pastDate = new Date(1995, 11, 17);
+            this._items = this._algoItem.findItemsBetween(this.beginDate || pastDate, this.endDate)
+        }
+        return this._items;
     }
 }

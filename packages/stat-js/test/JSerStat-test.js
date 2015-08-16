@@ -82,7 +82,8 @@ describe("jser-stat", function () {
         it("should return JSerWeek match the JSerItem", function () {
             var week = stat.findWeekWithItem(items[0]);
             assert(stat.getTotalWeekCount() === 1);
-            assert.deepEqual(stat.getJSerWeeks()[0], week);
+            var jSerWeek = stat.getJSerWeeks()[0];
+            assert.equal(jSerWeek.weekNumber, week.weekNumber);
         });
     });
     describe("#findItemWithURL", function () {
