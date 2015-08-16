@@ -30,7 +30,7 @@ export default class AlgoItem {
             return [];
         }
         if (indexes.length === 1) {
-            return this.items.slice(indexes[0], indexes[0] + 1);
+            return this.items.slice(indexes[0]);
         }
         return this.items.slice(indexes[0], indexes[indexes.length - 1] + 1);
     }

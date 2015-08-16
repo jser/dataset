@@ -74,7 +74,7 @@ export default class JSerStat {
      * @returns {JSerWeek[]}
      */
     getJSerWeeks() {
-        if(this._weeks.length === 0) {
+        if (this._weeks.length === 0) {
             this._weeks = this.posts.reduce((results, currentPost, index)=> {
                 var prevPost = this.posts[index - 1];
                 var jserWeek = new Week(currentPost, prevPost, this._algoItem);
@@ -136,8 +136,13 @@ export default class JSerStat {
      */
     findWeekWithItem(jserItem) {
         var targetItem = new Item(jserItem);
-        var jSerWeeks = this.getJSerWeeks();
+        var tenDaysAfter = new Date(targetItem.date);
+        tenDaysAfter.setDate(targetItem.date.getDate() + 12);
+        var jSerWeeks = this.findJSerWeeksBetween(targetItem.date, tenDaysAfter);
         return jSerWeeks.find(week => {
+            if (week.post.date < targetItem.date) {
+                return false;
+            }
             return week.items.some(item => {
                 return targetItem.isEqualItem(item);
             });
