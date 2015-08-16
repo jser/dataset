@@ -26,13 +26,18 @@ export default class AlgoPost {
      */
     findPostsBetween(beginDate, endDate) {
         var indexes = findIndexesBetween(this.postTimeIndex, beginDate, endDate);
+        var first = indexes[0];
+        var last = indexes[indexes.length - 1];
+
         if (indexes.length === 0) {
             return [];
         }
-        if (indexes.length === 1) {
-            return this.posts.slice(indexes[0], indexes[0] + 1);
+        // [1, 0] or [ 1, -1]
+        if (first > last && last <= 0) {
+            return [];
         }
-        return this.posts.slice(indexes[0], indexes[indexes.length - 1] + 1);
+        // [1, 10]
+        return this.posts.slice(first, last + 1);
     }
 
 }

@@ -26,12 +26,14 @@ export default class AlgoItem {
      */
     findItemsBetween(beginDate, endDate) {
         var indexes = findIndexesBetween(this.itemTimes, beginDate, endDate);
+        var first = indexes[0];
+        var last = indexes[indexes.length - 1];
         if (indexes.length === 0) {
             return [];
         }
-        if (indexes.length === 1) {
-            return this.items.slice(indexes[0]);
+        if (first > last) {
+            return [];
         }
-        return this.items.slice(indexes[0], indexes[indexes.length - 1] + 1);
+        return this.items.slice(first, last + 1);
     }
 }
