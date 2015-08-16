@@ -31,8 +31,8 @@
   },
   "homepage": "https://github.com/jser/stat-js",
   "browser": {
-    "WNdb": false,
-    "lapack": false
+    "../data/items.json": false,
+    "../data/posts.json": false
   },
   "devDependencies": {
     "babel": "^5.5.8",
