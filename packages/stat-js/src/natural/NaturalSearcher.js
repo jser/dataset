@@ -67,7 +67,8 @@ export default class NaturalSearcher {
             var relatedString = item.relatedLinks.map(function (relatedObject) {
                 return relatedObject.title + " " + urlToWords(relatedObject.url).join(" ")
             }).join("");
-            this.tfidf.addDocument(item.title + "\n" + item.content + "\n" + urlKeyString + "\n" + relatedString);
+            var tagsString = (item.tags || []).join(" ");
+            this.tfidf.addDocument(item.title + "\n" + tagsString + "\n" + item.content + "\n" + urlKeyString + "\n" + relatedString);
         });
     }
 
@@ -86,8 +87,7 @@ export default class NaturalSearcher {
                 }
             });
             if (targetIndex === -1) {
-                throw new Error("Not foun" +
-                    " this item: " + targetItem);
+                throw new Error("Not found this item: " + targetItem);
             }
         }
         var terms = this.tfidf.listTerms(targetIndex);

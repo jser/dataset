@@ -193,7 +193,7 @@ describe("jser-stat", function () {
             var item = new Item(items[0]);
             var expectedRelatedItem = new Item(items[1]);
             var relatedItems = stat.findRelatedItems(item);
-            assert(relatedItems[0].isEqualItem(expectedRelatedItem));
+            assert(relatedItems[0].isEqualItem(expectedRelatedItem))
         });
     });
 });
