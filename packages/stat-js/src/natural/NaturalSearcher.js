@@ -68,7 +68,9 @@ export default class NaturalSearcher {
                 return relatedObject.title + " " + urlToWords(relatedObject.url).join(" ")
             }).join("");
             var tagsString = (item.tags || []).join(" ");
-            this.tfidf.addDocument(item.title + "\n" + tagsString + "\n" + item.content + "\n" + urlKeyString + "\n" + relatedString);
+            // 全部を使うと長すぎるコンテンツが有利になりすぎるので絞る
+            var slicedContent = item.content.slice(0, 200);
+            this.tfidf.addDocument(item.title + "\n" + tagsString + "\n" + slicedContent + "\n" + urlKeyString + "\n" + relatedString);
         });
     }
 
