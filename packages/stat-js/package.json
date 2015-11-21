@@ -3,6 +3,7 @@
   "version": "1.5.6",
   "description": "JSer.info stat library",
   "main": "lib/index.js",
+  "browser": "lib/browser-index.js",
   "files": [
     "data/*.js",
     "lib",
@@ -30,10 +31,6 @@
     "url": "https://github.com/jser/stat-js/issues"
   },
   "homepage": "https://github.com/jser/stat-js",
-  "browser": {
-    "../data/items.json": false,
-    "../data/posts.json": false
-  },
   "devDependencies": {
     "babel": "^5.5.8",
     "esdoc": "^0.2.1",

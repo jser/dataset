@@ -1,7 +1,7 @@
 // LICENSE : MIT
 "use strict";
 import assert from "power-assert"
-import JSerStat from "../src/JSerStat"
+import {JSerStat} from "../src/";
 import Item from "../src/models/JSerItem"
 import Week from "../src/models/JSerWeek"
 import {countTagsByGroup} from "../src/compute/compute-tags.js"

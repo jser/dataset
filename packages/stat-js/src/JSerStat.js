@@ -13,8 +13,8 @@ function filterJSerCategory(article) {
 }
 export default class JSerStat {
     constructor(rawItems, rawPosts) {
-        this._rawItems = rawItems || require("../data/items.json");
-        this._rawPosts = rawPosts || require("../data/posts.json");
+        this._rawItems = rawItems ;
+        this._rawPosts = rawPosts;
         /** @type {JSerItem[]} */
         this.items = this._rawItems.map(function (item) {
             return new Item(item);
