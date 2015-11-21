@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm rm jser-stat && npm i && node example.js && node natural-search.js"
+    "build": "browserify browser-example.js -o build/browser-examle.js",
+    "pretest": "npm rm jser-stat && npm i --production",
+    "test": "node example.js && node natural-search.js"
   },
   "author": "azu",
   "license": "MIT",
   "dependencies": {
     "jser-stat": "file:.."
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1"
   }
 }
