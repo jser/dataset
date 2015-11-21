@@ -54,6 +54,10 @@ return JSerWeek contain the itemObject.
 
 return JSerItem match the `URL`.
 
+### findRelatedItems(item, limit = 10): JSerItem[]
+
+return JSerItem**s** that related the argument `item`.
+
 ## Tests
 
     npm test
