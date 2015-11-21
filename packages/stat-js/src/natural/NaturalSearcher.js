@@ -1,6 +1,6 @@
 // LICENSE : MIT
 "use strict";
-import {TfIdf} from "natural"
+const TfIdf = require("natural/lib/natural/tfidf/tfidf");
 // merge sort
 let mergeSort = (arr) => {
     if (arr.length < 2) {
