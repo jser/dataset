@@ -19,6 +19,64 @@ JSer.info stat library
 
 API Document: http://jser.info/stat-js/
 
+### Constructor
+
+#### new JSerStat([rawItems, rawPosts]);
+
+Automatically load `rawItems` and `rawPosts` in Node.js.
+
+```js
+var JSerStat = require("jser-stat").JSerStat;
+var stat = new JSerStat();
+var startTime = Date.now();
+var firstWeek = stat.findJSerWeek(1);
+var weeks = stat.findJSerWeeksBetween(new Date("2013-01-31T15:00:00.000Z"), new Date("2015-06-01T13:22:37.167Z"));
+var theItem = stat.findItemWithURL("http://d.hatena.ne.jp/brazil/20110131/1296419283");
+console.log(theItem);
+/*
+JSerItem {
+  title: '実行間隔を調整する - はてなダイアリー - 無料で簡単。広告のないシンプルなブログをはじめよう！',
+  url: 'http://d.hatena.ne.jp/brazil/20110131/1296419283',
+  content: '一定間隔内で一度のみ実行する throttle、\n一定間隔に呼び出され無ければ実行する debounce　についての解説。\nそれぞれ用途や図解も付いていて大変わかりやすい。',
+  tags: [],
+  date: Sat Jan 01 2011 00:00:00 GMT+0900 (JST),
+  relatedLinks: [] }
+*/
+```
+
+Manually load `rawItems` and `rawPosts` in Browser.
+
+```js
+function fetchURL(URL) {
+    return new Promise(function (resolve, reject) {
+        var req = new XMLHttpRequest();
+        req.open('GET', URL);
+        req.onload = function () {
+            if (req.status == 200) {
+                resolve(req.response);
+            } else {
+                reject(Error(req.statusText));
+            }
+        };
+        req.onerror = function () {
+            reject(Error(req.statusText));
+        };
+        req.send();
+    });
+}
+function getStat() {
+    return Promise.all([
+        fetchURL("http://jser.info/posts.json"),
+        fetchURL("http://jser.info/source-data/items.json")
+    ]).then(([postString. itemsString]) => {
+        var posts = JSON.parse(postString).reverse();
+        var items = JSON.parse(itemsString);
+        var jSerStat = new JSerStat(items, posts);
+        return jSerStat;
+    });
+}
+```
+
 ### Models
 
 jser-stat has these model.
