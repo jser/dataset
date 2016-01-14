@@ -29,6 +29,7 @@ function saveAsync(filePath, body) {
             if (error) {
                 return reject(error);
             }
+            console.log("Saved! " + filePath);
             resolve(response);
         });
     });
