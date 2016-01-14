@@ -116,6 +116,16 @@ return JSerItem match the `URL`.
 
 return JSerItem**s** that related the argument `item`.
 
+## CLI
+
+### Update stat data
+
+Install jser-stat and add `update-jser-stat` command
+
+    $(npm bin)/update-jser-stat
+    
+Update `data/items.json` adn `data/posts.json`
+
 ## Tests
 
     npm test
