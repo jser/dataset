@@ -1,2 +1,2 @@
---require espower-babel/guess
+--require babel-register
 --timeout 5000
