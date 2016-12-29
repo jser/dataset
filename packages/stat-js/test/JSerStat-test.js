@@ -4,7 +4,6 @@ import assert from "power-assert"
 import {JSerStat} from "../src/";
 import Item from "../src/models/JSerItem"
 import Week from "../src/models/JSerWeek"
-import {countTagsByGroup} from "../src/compute/compute-tags.js"
 describe("jser-stat", function () {
     describe("when initialized", function () {
         var stat;
@@ -53,6 +52,52 @@ describe("jser-stat", function () {
         });
     });
     describe("findWeekWithItem", function () {
+        context("when 降順のpostデータのとき", () => {
+            it("should return JSerWeek match the JSerItem", function() {
+                var posts = [
+                    {
+                        "title": "2015-06-10のJS: ブラウザとES6の状況、Web Audio APIチュートリアル",
+                        "url": "http://jser.info/2015/06/10/es6-status-webaudio/",
+                        "date": "2015-06-10T12:45:00+09:00",
+                        "content": "JSer.info #231 - Safari 9.0の変更点が公開されています。JavaSc...",
+                        "category": "JSer",
+                        "tags": ["WebAudio", "ES6", "Safari", "Chrome", "MSEdge"]
+                    },
+                    {
+                        "title": "2015-05-10のJS",
+                        "url": "http://jser.info/2015/05/10/es6-status-webaudio/",
+                        "date": "2015-05-10T12:45:00+09:00",
+                        "content": ".....",
+                        "category": "JSer",
+                        "tags": ["WebAudio", "ES6", "Safari", "Chrome", "MSEdge"]
+                    }
+                ];
+                var items = [
+                    {
+                        "title": "Changelog · winjs/winjs Wiki",
+                        "url": "https://github.com/winjs/winjs/wiki/Changelog#v40",
+                        "content": "WinJS 4.0リリース",
+                        "tags": ["JavaScript", "library", "ReleaseNote"],
+                        "date": "2015-06-04T01:28:52.936Z",
+                        "relatedLinks": []
+                    },
+                    {
+                        "title": "scottcorgan/immu",
+                        "url": "https://github.com/scottcorgan/immu",
+                        "content": "Immutable Objectを扱うライブラリ。\nObject.definePropertyやObject.freezeを使ってArrayやObjectの変更を防止したオブジェクトを作成する",
+                        "tags": ["JavaScript", "library"],
+                        "date": "2015-08-15T16:50:28.637Z",
+                        "relatedLinks": []
+                    }
+                ];
+                var stat = new JSerStat(items, posts);
+                var week = stat.findWeekWithItem(items[0]);
+                assert(stat.getTotalWeekCount() === 2);
+                // sorted
+                var jSerWeek = stat.getJSerWeeks()[1];
+                assert.equal(jSerWeek.weekNumber, week.weekNumber);
+            });
+        });
         it("should return JSerWeek match the JSerItem", function () {
             var posts = [
                 {

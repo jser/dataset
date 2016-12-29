@@ -25,9 +25,9 @@ export default class AlgoItem {
      * @returns {JSerItem[]}
      */
     findItemsBetween(beginDate, endDate) {
-        var indexes = findIndexesBetween(this.itemTimes, beginDate, endDate);
-        var first = indexes[0];
-        var last = indexes[indexes.length - 1];
+        const indexes = findIndexesBetween(this.itemTimes, beginDate, endDate);
+        const first = indexes[0];
+        const last = indexes[indexes.length - 1];
         if (indexes.length === 0) {
             return [];
         }

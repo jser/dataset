@@ -8,22 +8,35 @@ import Week from "./models/JSerWeek"
 import AlgoItem from "./algo/AlgoItem"
 import AlgoPost from "./algo/AlgoPost.js"
 import NaturalSearcher from "./natural/NaturalSearcher"
+const sortBy = require("lodash.sortby");
+function sortByDate(items) {
+    return sortBy(items, (item) => {
+        return item.date;
+    });
+}
 function filterJSerCategory(article) {
     return /jser/i.test(article.category);
 }
 export default class JSerStat {
     constructor(rawItems, rawPosts) {
-        this._rawItems = rawItems ;
+        this._rawItems = rawItems;
         this._rawPosts = rawPosts;
-        /** @type {JSerItem[]} */
-        this.items = this._rawItems.map(function (item) {
+        /**
+         * 日付で昇順にsortされたItems
+         * @type {JSerItem[]}
+         * */
+        this.items = sortByDate(this._rawItems.map(function(item) {
             return new Item(item);
-        });
-        // JSer カテゴリだけにする
-        /** @type {JSerPost[]} */
-        this.posts = this._rawPosts.filter(filterJSerCategory).map((post, index) => {
-            return new Post(index + 1, post);
-        });
+        }));
+        /**
+         * 日付で昇順にsortされてposts
+         *  @type {JSerPost[]}
+         **/
+        this.posts = sortByDate(this._rawPosts
+            .filter(filterJSerCategory)
+            .map((post, index) => {
+                return new Post(index + 1, post);
+            }));
         /**
          *
          * @type {JSerWeek[]}
@@ -75,7 +88,7 @@ export default class JSerStat {
      */
     getJSerWeeks() {
         if (this._weeks.length === 0) {
-            this._weeks = this.posts.reduce((results, currentPost, index)=> {
+            this._weeks = this.posts.reduce((results, currentPost, index) => {
                 var prevPost = this.posts[index - 1];
                 var jserWeek = new Week(currentPost, prevPost, this._algoItem);
                 results.push(jserWeek);
@@ -94,7 +107,7 @@ export default class JSerStat {
     findJSerWeeksBetween(beginDate, endDate) {
         var algoPost = this._algoPost;
         var posts = algoPost.findPostsBetween(beginDate, endDate);
-        return posts.reduce((results, currentPost, index)=> {
+        return posts.reduce((results, currentPost, index) => {
             var prevPost = this.posts[index - 1];
             var jserWeek = new Week(currentPost, prevPost, this._algoItem);
             results.push(jserWeek);
