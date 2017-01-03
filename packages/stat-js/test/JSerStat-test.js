@@ -25,7 +25,7 @@ describe("jser-stat", function () {
         it("should return JSerWeek[]", function () {
             var weeks = stat.getJSerWeeks();
             assert(weeks instanceof Array);
-            assert(weeks[0] instanceof Week)
+            assert(weeks[0] instanceof Week);
         });
     });
     describe("#findJSerWeeksBetween", function () {
@@ -36,8 +36,17 @@ describe("jser-stat", function () {
         it("should return JSerWeek[]", function () {
             var weeks = stat.findJSerWeeksBetween(new Date("2013-01-31T15:00:00.000Z"), new Date("2015-06-01T13:22:37.167Z"));
             assert(weeks instanceof Array);
-            assert(weeks[0] instanceof Week);
             assert(weeks.length < stat.posts.length);
+            const beginWeek = weeks[0];
+            assert(beginWeek.post.postNumber === 107);
+            assert(beginWeek instanceof Week);
+            assert(beginWeek.beginDate);
+            assert(beginWeek.endDate);
+        });
+        it("can get first week", function () {
+            const weeks = stat.findJSerWeeksBetween(new Date("2000-01-31T15:00:00.000Z"), new Date("2015-06-01T13:22:37.167Z"));
+            const fistWeek = weeks[0];
+            assert(fistWeek.post.postNumber === 1);
         });
     });
 
@@ -53,8 +62,16 @@ describe("jser-stat", function () {
     });
     describe("findWeekWithItem", function () {
         context("when 降順のpostデータのとき", () => {
-            it("should return JSerWeek match the JSerItem", function() {
+            it("ソートされたweekが取得できる", function() {
                 var posts = [
+                    {
+                        "title": "2011-01-16のJS: JSer.info初投稿の記事",
+                        "url": "https://jser.info/post/2774561807",
+                        "date": "2011-01-16T17:08:26+09:00",
+                        "content": "JSer.infoとして初投稿になりますが今後ともよろしくお願いします。このサイトについての詳...",
+                        "category": "JSer",
+                        "tags": ["JavaScript", "URL", "design", "Java", "Game", "books"]
+                    },
                     {
                         "title": "2015-06-10のJS: ブラウザとES6の状況、Web Audio APIチュートリアル",
                         "url": "http://jser.info/2015/06/10/es6-status-webaudio/",
@@ -62,7 +79,7 @@ describe("jser-stat", function () {
                         "content": "JSer.info #231 - Safari 9.0の変更点が公開されています。JavaSc...",
                         "category": "JSer",
                         "tags": ["WebAudio", "ES6", "Safari", "Chrome", "MSEdge"]
-                    },
+                    }, // <=  include Changelog · winjs/winjs Wiki
                     {
                         "title": "2015-05-10のJS",
                         "url": "http://jser.info/2015/05/10/es6-status-webaudio/",
@@ -91,42 +108,16 @@ describe("jser-stat", function () {
                     }
                 ];
                 var stat = new JSerStat(items, posts);
-                var week = stat.findWeekWithItem(items[0]);
-                assert(stat.getTotalWeekCount() === 2);
+                assert(stat.getTotalWeekCount() === 3);
                 // sorted
-                var jSerWeek = stat.getJSerWeeks()[1];
-                assert.equal(jSerWeek.weekNumber, week.weekNumber);
+                var targetWeek = stat.findWeekWithItem(items[0]);
+                var jSerWeek = stat.getJSerWeeks()[2];
+                assert.equal(jSerWeek.weekNumber, targetWeek.weekNumber);
             });
         });
         it("should return JSerWeek match the JSerItem", function () {
-            var posts = [
-                {
-                    "title": "2015-06-10のJS: ブラウザとES6の状況、Web Audio APIチュートリアル",
-                    "url": "http://jser.info/2015/06/10/es6-status-webaudio/",
-                    "date": "2015-06-10T12:45:00+09:00",
-                    "content": "JSer.info #231 - Safari 9.0の変更点が公開されています。JavaSc...",
-                    "category": "JSer",
-                    "tags": ["WebAudio", "ES6", "Safari", "Chrome", "MSEdge"]
-                }
-            ];
-            var items = [
-                {
-                    "title": "Changelog · winjs/winjs Wiki",
-                    "url": "https://github.com/winjs/winjs/wiki/Changelog#v40",
-                    "content": "WinJS 4.0リリース",
-                    "tags": ["JavaScript", "library", "ReleaseNote"],
-                    "date": "2015-06-10T01:28:52.936Z",
-                    "relatedLinks": []
-                },
-                {
-                    "title": "scottcorgan/immu",
-                    "url": "https://github.com/scottcorgan/immu",
-                    "content": "Immutable Objectを扱うライブラリ。\nObject.definePropertyやObject.freezeを使ってArrayやObjectの変更を防止したオブジェクトを作成する",
-                    "tags": ["JavaScript", "library"],
-                    "date": "2015-08-15T16:50:28.637Z",
-                    "relatedLinks": []
-                }
-            ];
+            var posts = require("../data/posts.json").slice(0, 1);
+            var items = require("../data/items.json").slice(0, 1);
             var stat = new JSerStat(items, posts);
             var week = stat.findWeekWithItem(items[0]);
             assert(stat.getTotalWeekCount() === 1);

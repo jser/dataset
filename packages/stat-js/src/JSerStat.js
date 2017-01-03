@@ -25,18 +25,18 @@ export default class JSerStat {
          * 日付で昇順にsortされたItems
          * @type {JSerItem[]}
          * */
-        this.items = sortByDate(this._rawItems.map(function(item) {
+        this.items = sortByDate(this._rawItems).map(function(item) {
             return new Item(item);
-        }));
+        });
         /**
          * 日付で昇順にsortされてposts
          *  @type {JSerPost[]}
          **/
-        this.posts = sortByDate(this._rawPosts
-            .filter(filterJSerCategory)
-            .map((post, index) => {
-                return new Post(index + 1, post);
-            }));
+        this.posts = sortByDate(this._rawPosts)
+        .filter(filterJSerCategory)
+        .map((post, index) => {
+            return new Post(index + 1, post);
+        });
         /**
          *
          * @type {JSerWeek[]}
@@ -99,20 +99,27 @@ export default class JSerStat {
     }
 
     /**
-     * beginからendの範囲のJSerWeekの配列を返す
+     * beginからendの範囲に含まれるJSerWeekの配列を返す
+     * JSerWeek#beginDate または JSerWeek#endDate どちらかがかかれば含まれると判断される
      * @param {Date} beginDate
      * @param {Date} endDate
      * @returns {JSerWeek[]}
      */
     findJSerWeeksBetween(beginDate, endDate) {
-        var algoPost = this._algoPost;
-        var posts = algoPost.findPostsBetween(beginDate, endDate);
-        return posts.reduce((results, currentPost, index) => {
-            var prevPost = this.posts[index - 1];
-            var jserWeek = new Week(currentPost, prevPost, this._algoItem);
-            results.push(jserWeek);
-            return results;
-        }, []);
+        const weeks = this.getJSerWeeks();
+        const beginTime = beginDate.getTime();
+        const endTime = endDate.getTime();
+        return weeks.filter(week => {
+            const weekBeginTime = week.beginDate.getTime();
+            const weekEndTime = week.endDate.getTime();
+            if (beginTime <= weekBeginTime && weekBeginTime <= endTime) {
+                return true;
+            }
+            if (beginTime <= weekEndTime && weekEndTime <= endTime) {
+                return true;
+            }
+            return false;
+        });
     }
 
     // deprecated
@@ -149,10 +156,10 @@ export default class JSerStat {
      * 未来の記事などJSerWeekに所属していない場合もある
      */
     findWeekWithItem(jserItem) {
-        var targetItem = new Item(jserItem);
-        var tenDaysAfter = new Date(targetItem.date);
-        tenDaysAfter.setDate(targetItem.date.getDate() + 12);
-        var jSerWeeks = this.findJSerWeeksBetween(targetItem.date, tenDaysAfter);
+        const targetItem = new Item(jserItem);
+        const tenDaysAfter = new Date(targetItem.date);
+        tenDaysAfter.setDate(targetItem.date.getDate() + 10);
+        const jSerWeeks = this.findJSerWeeksBetween(targetItem.date, tenDaysAfter);
         return jSerWeeks.find(week => {
             if (week.post.date < targetItem.date) {
                 return false;
