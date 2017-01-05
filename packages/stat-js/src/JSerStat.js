@@ -17,7 +17,7 @@ function sortByDate(items) {
 function filterJSerCategory(article) {
     return /jser/i.test(article.category);
 }
-export default class JSerStat {
+module.exports = class JSerStat {
     constructor(rawItems, rawPosts) {
         this._rawItems = rawItems;
         this._rawPosts = rawPosts;
