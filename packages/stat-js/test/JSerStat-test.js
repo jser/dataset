@@ -28,6 +28,16 @@ describe("jser-stat", function () {
             assert(weeks[0] instanceof Week);
         });
     });
+    describe("#findJSerWeekWithURL", function () {
+        it("should return JSerWeek that match url", function() {
+            const posts = require("../data/posts.json");
+            const items = require("../data/items.json");
+            const stat = new JSerStat(items, posts);
+            const expectedPostURL = posts[0].url;
+            const week = stat.findJSerWeekWithURL(expectedPostURL);
+            assert(week.post.url === expectedPostURL);
+        });
+    });
     describe("#findJSerWeeksBetween", function () {
         var stat;
         before(function () {

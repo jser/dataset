@@ -144,6 +144,20 @@ module.exports = class JSerStat {
         return new Week(targetPost, prevPost, this._algoItem);
     }
 
+    /**
+     * `postURL`に一致するJSerWeekを返す
+     * @param {string} postURL
+     * @returns {JSerWeek}
+     */
+    findJSerWeekWithURL(postURL) {
+        const weeks = this.getJSerWeeks().filter(week => {
+            return week.post.url === postURL;
+        });
+        if (weeks.length > 0) {
+            return weeks[0];
+        }
+    }
+
     // deprecated
     getJSerWeek(number) {
         return this.findJSerWeek(number);
