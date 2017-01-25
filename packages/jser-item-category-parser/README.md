@@ -1,4 +1,4 @@
-# jser-item-category-parser
+# jser-item-category-parser [![Build Status](https://travis-ci.org/jser/jser-item-category-parser.svg?branch=master)](https://travis-ci.org/jser/jser-item-category-parser)
 
 JSer.info post item category parser.
 
