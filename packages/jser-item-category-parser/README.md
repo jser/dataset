@@ -14,6 +14,7 @@ Install with [npm](https://www.npmjs.com/):
 
 ```js
 const parse = require("jser-item-category-parser").parse;
+const Category = require("jser-item-category-parser").Category;
 const results = parse(fs.readFileSync(path.join(__dirname, "fixtures", "2017-01-11-Node.js-v7.4.0-npm-v4-PhantomJS-2.5.0-Beta-clean-code.md"), "utf-8"));
 /*
  [{
@@ -22,6 +23,19 @@ const results = parse(fs.readFileSync(path.join(__dirname, "fixtures", "2017-01-
 }]
 
  */
+```
+
+### Category
+
+```js
+const Category = {
+    Headline: "ヘッドライン",
+    Article: "アーティクル",
+    SlideVideo: "スライド、動画関係",
+    websiteDocument: "サイト、サービス、ドキュメント",
+    SoftwareLibrary: "ソフトウェア、ツール、ライブラリ関係",
+    Book: "書籍関係",
+};
 ```
 
 ## Changelog
