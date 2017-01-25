@@ -7,6 +7,7 @@ const difference = require('lodash.difference');
 const select = require('unist-util-select');
 const is = require('unist-util-is');
 const Category = require("./category");
+const CompatibleCategory = require("./category").CompatibleCategory;
 
 /**
  *
@@ -20,8 +21,8 @@ const betweenNodes = (parent, start, end) => {
     if (!end) {
         return nodesAfter;
     }
-    const nodesInogres = findAllAfter(parent, end);
-    return difference(nodesAfter, nodesInogres, (nodeA, nodeB) => {
+    const nodesIgnores = findAllAfter(parent, end);
+    return difference(nodesAfter, nodesIgnores, (nodeA, nodeB) => {
         return is(nodeA, nodeB);
     });
 };
@@ -31,6 +32,12 @@ const getGroupKey = (htmlNode) => {
         return value.includes(Category[key]);
     });
     if (matchKey === undefined) {
+        const [compatibleMatchKey] =  Object.keys(Category).filter(key => {
+            return value.includes(CompatibleCategory[key]);
+        });
+        if (compatibleMatchKey) {
+            return compatibleMatchKey;
+        }
         throw new Error(`${htmlNode.value} is not category`);
     }
     return matchKey;
@@ -50,7 +57,7 @@ module.exports = function (content) {
         const currentCategoryNodes = betweenNodes(AST, categoryNode, nextCategoryNode);
         currentCategoryNodes.forEach(categoryNode => {
             const targetLinkNodes = select(categoryNode, 'link');
-            if(targetLinkNodes.length === 0) {
+            if (targetLinkNodes.length === 0) {
                 return;
             }
             const targetLinkNode = targetLinkNodes[0];
