@@ -1,0 +1,49 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "jser-item-category-parser",
+  "version": "1.0.0",
+  "description": "JSer.info post item category parser.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "jser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jser/jser-item-category-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jser/jser-item-category-parser/issues"
+  },
+  "homepage": "https://github.com/jser/jser-item-category-parser",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-jsdoc-to-assert": "^4.0.0",
+    "babel-preset-power-assert": "^1.0.0",
+    "babel-register": "^6.22.0",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2"
+  },
+  "dependencies": {
+    "lodash.difference": "^4.5.0",
+    "remark": "^6.2.0",
+    "unist-util-find-all-after": "^1.0.0",
+    "unist-util-is": "^2.0.0",
+    "unist-util-select": "^1.5.0"
+  }
+}
