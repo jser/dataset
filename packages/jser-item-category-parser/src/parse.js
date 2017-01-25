@@ -31,16 +31,16 @@ const getGroupKey = (htmlNode) => {
     const [matchKey] = Object.keys(Category).filter(key => {
         return value.includes(Category[key]);
     });
-    if (matchKey === undefined) {
-        const [compatibleMatchKey] =  Object.keys(Category).filter(key => {
-            return value.includes(CompatibleCategory[key]);
-        });
-        if (compatibleMatchKey) {
-            return compatibleMatchKey;
-        }
-        throw new Error(`${htmlNode.value} is not category`);
+    if (matchKey !== undefined) {
+        return matchKey;
     }
-    return matchKey;
+    const [compatibleMatchKey] =  Object.keys(Category).filter(key => {
+        return value.includes(CompatibleCategory[key]);
+    });
+    if (compatibleMatchKey) {
+        return compatibleMatchKey;
+    }
+    return null;
 };
 /**
  * @param {string} content
@@ -54,6 +54,10 @@ module.exports = function (content) {
     allCategory.forEach((categoryNode, index) => {
         const nextCategoryNode = allCategory[index + 1];
         const currentCategory = getGroupKey(categoryNode);
+        // not found category
+        if(currentCategory === null) {
+            return;
+        }
         const currentCategoryNodes = betweenNodes(AST, categoryNode, nextCategoryNode);
         currentCategoryNodes.forEach(categoryNode => {
             const targetLinkNodes = select(categoryNode, 'link');
