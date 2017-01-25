@@ -2,6 +2,8 @@
 
 JSer.info post item category parser.
 
+JSer.infoの記事から、各アイテムURLのカテゴリ(記事中の分類)を返す。
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
