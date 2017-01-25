@@ -10,7 +10,7 @@
     "src/"
   ],
   "name": "jser-item-category-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSer.info post item category parser.",
   "main": "lib/index.js",
   "scripts": {
