@@ -19,7 +19,7 @@ var Category = {
 
 - [jser/jser-item-category-parser: JSer.info post item category parser.](https://github.com/jser/jser-item-category-parser)
 - [jser/stat-js: JSer.info stat library](https://github.com/jser/stat-js)
-
+- [NaturalNode/natural: general natural language facilities for node](https://github.com/NaturalNode/natural "NaturalNode/natural: general natural language facilities for node")K
 
 ## Install
 
