@@ -32,7 +32,7 @@ Install with [npm](https://www.npmjs.com/):
 ```js
 const classifier = require("jser-classifier-item-category");
 const CategoryKey = require("jser-classifier-item-category").CategoryKey;
-classifier.classifyText("This is Library text.");
+classifier.classifyText("これはGitHubで公開されている言語処理のライブラリです。");
 // === CategoryKey.SoftwareLibrary
 ```
 

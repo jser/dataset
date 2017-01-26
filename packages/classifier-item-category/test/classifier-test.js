@@ -14,7 +14,7 @@ describe("classifier", () => {
         assert(category === CategoryKey.SoftwareLibrary);
     });
     it("#classifyText should return Category", () => {
-        const category = classifier.classifyText("This is soft ware library.");
+        const category = classifier.classifyText("これはGitHubで公開されている言語処理のライブラリです");
         assert(category === CategoryKey.SoftwareLibrary);
     });
 });
