@@ -132,11 +132,11 @@ describe("parse", () => {
                     url: 'http://qiita.com/kyoshidajp/items/0ddb156d96bb6337f623'
                 },
                 {
-                    category: 'websiteDocument',
+                    category: 'WebsiteDocument',
                     url: 'https://github.com/ryanmcdermott/clean-code-javascript'
                 },
                 {
-                    category: 'websiteDocument',
+                    category: 'WebsiteDocument',
                     url: 'http://tategaki.github.io/'
                 },
                 {

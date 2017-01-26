@@ -6,7 +6,7 @@ const findAllAfter = require('unist-util-find-all-after');
 const difference = require('lodash.difference');
 const select = require('unist-util-select');
 const is = require('unist-util-is');
-const Category = require("./category");
+const Category = require("./category").Category;
 const CompatibleCategory = require("./category").CompatibleCategory;
 
 /**
