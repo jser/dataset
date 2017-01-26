@@ -8,7 +8,7 @@ const Category = {
     SoftwareLibrary: "ソフトウェア、ツール、ライブラリ関係",
     Book: "書籍関係",
 };
-const CategoryKeys = {
+const CategoryKey = {
     Headline: "Headline",
     Article: "Article",
     SlideVideo: "SlideVideo",
@@ -25,5 +25,5 @@ const CompatibleCategory = {
     Book: "書籍関係",
 };
 module.exports.Category = Category;
-module.exports.CategoryKeys = CategoryKeys;
+module.exports.CategoryKey = CategoryKey;
 module.exports.CompatibleCategory = CompatibleCategory;
