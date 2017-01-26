@@ -29,13 +29,13 @@ const betweenNodes = (parent, start, end) => {
 const getGroupKey = (htmlNode) => {
     const value = htmlNode.value;
     const [matchKey] = Object.keys(Category).filter(key => {
-        return value.includes(Category[key]);
+        return value.indexOf(Category[key]) !== -1;
     });
     if (matchKey !== undefined) {
         return matchKey;
     }
     const [compatibleMatchKey] =  Object.keys(Category).filter(key => {
-        return value.includes(CompatibleCategory[key]);
+        return value.indexOf(CompatibleCategory[key]) !== -1;
     });
     if (compatibleMatchKey) {
         return compatibleMatchKey;
