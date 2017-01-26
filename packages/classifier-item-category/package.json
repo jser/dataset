@@ -1,0 +1,53 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "data/",
+    "lib/",
+    "src/"
+  ],
+  "name": "jser-classifier-item-category",
+  "version": "1.0.0",
+  "description": "Classifier category from JSer item",
+  "main": "lib/index.js",
+  "bin": {
+    "update-jser-item-category": "./bin/update-jser-item-category.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/update-jser-item-category.js",
+    "test": "mocha test/",
+    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "jser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jser/classifier-item-category.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jser/classifier-item-category/issues"
+  },
+  "homepage": "https://github.com/jser/classifier-item-category",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-jsdoc-to-assert": "^4.0.0",
+    "babel-preset-power-assert": "^1.0.0",
+    "babel-register": "^6.22.0",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2"
+  },
+  "dependencies": {
+    "jser-item-category-parser": "1.0.5",
+    "jser-stat": "^3.1.0",
+    "natural": "^0.4.0",
+    "request": "^2.79.0"
+  }
+}
