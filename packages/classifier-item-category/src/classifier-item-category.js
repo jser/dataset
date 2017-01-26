@@ -11,14 +11,16 @@ const categoryMap = new Map();
 const stringifyJSerItem = (item) => {
     return `${item.tags.join(", ")} "${item.url}" "${item.title}" ${item.content}`;
 };
-const createClassifier = ({itemCategory, jserStat}) => {
+/**
+ * @param {Object[]} itemCategories
+ * @param {JSerItem[]} items
+ * @returns {*}
+ */
+const createClassifier = ({itemCategories, items}) => {
     const classifier = new natural.BayesClassifier();
-    /**
-     * @type {JSerItem[]}
-     */
-    const allItems = jserStat.items;
+    const allItems = items;
     // setup
-    itemCategory.forEach(item => {
+    itemCategories.forEach(item => {
         categoryMap.set(item.url, item.category);
     });
     allItems.forEach(item => {
@@ -35,13 +37,13 @@ const createClassifier = ({itemCategory, jserStat}) => {
 
 module.exports = class JSerClassifier {
     /**
-     * @param {Array} itemCategory json data
-     * @param {JSerStat} jserStat
+     * @param {Object[]} itemCategories json data
+     * @param {JSerItem[]} items
      */
-    constructor({itemCategory, jserStat}) {
-        this.itemCategory = itemCategory;
-        this.jserStat = jserStat;
-        this.classifier = createClassifier({itemCategory, jserStat});
+    constructor({itemCategories, items}) {
+        this.items = items;
+        this.itemCategories = itemCategories;
+        this.classifier = createClassifier({itemCategories, items});
     }
 
     /**
