@@ -1,4 +1,4 @@
-# jser-classifier-item-category
+# jser-classifier-item-category [![Build Status](https://travis-ci.org/jser/classifier-item-category.svg?branch=master)](https://travis-ci.org/jser/classifier-item-category)
 
 Classifier category from JSer item or text.
 
