@@ -9,7 +9,7 @@ module.exports = {
         return require("./classifier");
     }
 };
-module.exports.ItemCategorhjhies = ItemCategories;
+module.exports.ItemCategories = ItemCategories;
 module.exports.Category = Category;
 module.exports.CategoryKey = CategoryKey;
 module.exports.JSerClassifier = JSerClassifier;
