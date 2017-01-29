@@ -19,7 +19,7 @@
   },
   "scripts": {
     "postinstall": "node bin/update-jser-item-category.js",
-    "test": "mocha test/",
+    "test": "update-jser-stat && mocha test/",
     "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
     "prepublish": "npm run --if-present build"

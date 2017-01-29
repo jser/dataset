@@ -1,5 +1,7 @@
 // MIT © 2017 azu
 "use strict";
+import learnJSerInfo from "./jser-info-learning";
+const debug = require("debug")("jser-classifier");
 const natural = require("natural");
 const url = require("url");
 const categoryMap = new Map();
@@ -8,7 +10,7 @@ const categoryMap = new Map();
  * @returns {string}
  */
 const stringifyJSerItem = (item) => {
-    return `${item.tags.join(", ")} "${item.url}" "${item.title}" ${item.content}`;
+    return `${item.tags.map(tag => `__${tag}__`).join(", ")} "${item.url}" "${item.title}" ${item.content}`;
 };
 /**
  * @param {Object[]} itemCategories
@@ -30,6 +32,7 @@ const createClassifier = ({itemCategories, items}) => {
         const itemDate = stringifyJSerItem(item);
         classifier.addDocument(itemDate, category);
     });
+    learnJSerInfo(classifier);
     classifier.train();
     return classifier;
 };
@@ -51,6 +54,14 @@ module.exports = class JSerClassifier {
      */
     classifyItem(jserItem) {
         return this.classifier.classify(stringifyJSerItem(jserItem));
+    }
+
+    /**
+     * @param {JSerItem} jserItem
+     * @returns {Array}
+     */
+    getClassifications(jserItem) {
+        return this.classifier.getClassifications(stringifyJSerItem(jserItem));
     }
 
     /**
