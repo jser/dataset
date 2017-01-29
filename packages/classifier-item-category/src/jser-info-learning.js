@@ -1,7 +1,10 @@
 // MIT © 2017 azu
 "use strict";
 const CategoryKey = require("jser-item-category-parser").CategoryKey;
-const addDocumentToClassifier = (classifier, tag, category) => {
+const addDocumentToClassifier = (classifier, text, category) => {
+    classifier.addDocument([text], category);
+};
+const addDocumentAsTagToClassifier = (classifier, tag, category) => {
     classifier.addDocument([`__${tag}__`], category);
 
 };
@@ -10,18 +13,18 @@ const addDocumentToClassifier = (classifier, tag, category) => {
  */
 export default function learnJSerInfo(classifier) {
     const addDocument = addDocumentToClassifier.bind(this, classifier);
+    const addTag = addDocumentAsTagToClassifier.bind(this, classifier);
     // ReleaseNote
-    addDocument("ReleaseNote", CategoryKey.Headline);
+    addTag("ReleaseNote", CategoryKey.Headline);
     // Articles
-    addDocument("話", CategoryKey.Article);
     addDocument("tutorial", CategoryKey.Article);
     // SlideVideo
     addDocument("発表", CategoryKey.SlideVideo);
     for (let i = 0; i < 10; i++) {
         addDocument("スライド", CategoryKey.SlideVideo);
-        addDocument("slide", CategoryKey.SlideVideo);
-        addDocument("video", CategoryKey.SlideVideo);
         addDocument("動画", CategoryKey.SlideVideo);
+        addTag("slide", CategoryKey.SlideVideo);
+        addTag("video", CategoryKey.SlideVideo);
     }
     // Tools
     addDocument("フレームワーク", CategoryKey.SoftwareLibrary);
@@ -35,7 +38,7 @@ export default function learnJSerInfo(classifier) {
     for (let i = 0; i < 10; i++) {
         addDocument("本", CategoryKey.Book);
         addDocument("書籍", CategoryKey.Book);
-        addDocument("book", CategoryKey.Book);
-        addDocument("ebook", CategoryKey.Book);
+        addTag("book", CategoryKey.Book);
+        addTag("ebook", CategoryKey.Book);
     }
 }
