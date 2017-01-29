@@ -2,7 +2,6 @@
 "use strict";
 const natural = require("natural");
 const url = require("url");
-const itemCategory = require("../data/item-category.json");
 const categoryMap = new Map();
 /**
  * @param {JSerItem} item

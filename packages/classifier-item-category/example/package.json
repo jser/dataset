@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "update-jser-item-category && update-jser-stat && node example.js"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "jser-classifier-item-category": "file:///Users/azu/.ghq/github.com/jser/classifier-item-category",
+    "jser-stat": "^3.1.0"
+  }
+}
