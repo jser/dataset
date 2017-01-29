@@ -1,7 +1,6 @@
 // MIT © 2017 azu
 "use strict";
 import learnJSerInfo from "./jser-info-learning";
-const debug = require("debug")("jser-classifier");
 const natural = require("natural");
 const url = require("url");
 const categoryMap = new Map();
