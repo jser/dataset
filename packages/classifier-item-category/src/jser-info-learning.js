@@ -17,7 +17,9 @@ export default function learnJSerInfo(classifier) {
     // ReleaseNote
     addTag("ReleaseNote", CategoryKey.Headline);
     // Articles
-    addDocument("tutorial", CategoryKey.Article);
+    addDocument("話", CategoryKey.Article);
+    addDocument("解説", CategoryKey.Article);
+    addDocument("説明", CategoryKey.Article);
     // SlideVideo
     addDocument("発表", CategoryKey.SlideVideo);
     for (let i = 0; i < 10; i++) {
@@ -26,12 +28,16 @@ export default function learnJSerInfo(classifier) {
         addTag("slide", CategoryKey.SlideVideo);
         addTag("video", CategoryKey.SlideVideo);
     }
+    // サイト、ドキュメント
+    addTag("webservice", CategoryKey.WebsiteDocument);
+    addTag("document", CategoryKey.WebsiteDocument);
     // Tools
     addDocument("フレームワーク", CategoryKey.SoftwareLibrary);
     addDocument("ライブラリ", CategoryKey.SoftwareLibrary);
     addDocument("library", CategoryKey.SoftwareLibrary);
     addDocument("Tool", CategoryKey.SoftwareLibrary);
-    addDocument("Tools", CategoryKey.SoftwareLibrary);
+    addTag("Tools", CategoryKey.SoftwareLibrary);
+    addTag("software", CategoryKey.SoftwareLibrary);
     addDocument("ツール", CategoryKey.SoftwareLibrary);
     addDocument("CLI", CategoryKey.SoftwareLibrary);
     // Book

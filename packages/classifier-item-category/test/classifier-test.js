@@ -24,5 +24,5 @@ describe("classifier", () => {
         const item = stat.findItemWithURL("https://developers.google.com/web/updates/2017/01/scrolling-intervention");
         const category = classifier.classifyItem(item);
         assert(category === CategoryKey.Article)
-    })
+    });
 });
