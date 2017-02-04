@@ -17,7 +17,8 @@ export default function learnJSerInfo(classifier) {
     // ReleaseNote
     addTag("ReleaseNote", CategoryKey.Headline);
     // Articles
-    addDocument("話", CategoryKey.Article);
+    addTag("tutorial", CategoryKey.Article);
+    addDocument("ついて", CategoryKey.Article);
     addDocument("解説", CategoryKey.Article);
     addDocument("説明", CategoryKey.Article);
     // SlideVideo
@@ -31,6 +32,9 @@ export default function learnJSerInfo(classifier) {
     // サイト、ドキュメント
     addTag("webservice", CategoryKey.WebsiteDocument);
     addTag("document", CategoryKey.WebsiteDocument);
+    addDocument("ドキュメント", CategoryKey.WebsiteDocument);
+    addDocument("ページ", CategoryKey.WebsiteDocument);
+    addDocument("サイト", CategoryKey.WebsiteDocument);
     // Tools
     addDocument("フレームワーク", CategoryKey.SoftwareLibrary);
     addDocument("ライブラリ", CategoryKey.SoftwareLibrary);
