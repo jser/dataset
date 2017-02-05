@@ -25,4 +25,9 @@ describe("classifier", () => {
         const category = classifier.classifyItem(item);
         assert(category === CategoryKey.Article)
     });
+    it("test case ウェブサービスに分類されていた - absoluteTagによりArticleになる", () => {
+        const item = stat.findItemWithURL("https://hackernoon.com/how-to-set-up-e2e-browser-testing-for-your-github-project-89c24e15a84");
+        const category = classifier.classifyItem(item);
+        assert(category === CategoryKey.Article, JSON.stringify(classifier.getClassifications(item), null, 4));
+    });
 });

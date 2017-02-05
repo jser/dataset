@@ -1,6 +1,7 @@
 // MIT © 2017 azu
 "use strict";
 import learnJSerInfo from "./jser-info-learning";
+import getAbsoluteTag from "./jser-info-absolute-tag";
 const natural = require("natural");
 const url = require("url");
 const categoryMap = new Map();
@@ -9,7 +10,7 @@ const categoryMap = new Map();
  * @returns {string}
  */
 const stringifyJSerItem = (item) => {
-    return `${item.tags.map(tag => `__${tag}__`).join(", ")} "${item.url}" "${item.title}" ${item.content}`;
+    return `${item.tags.map(tag => `__${tag}__`).join(", ")} ${item.url} "${item.title}" ${item.content}`;
 };
 /**
  * @param {Object[]} itemCategories
@@ -52,6 +53,10 @@ module.exports = class JSerClassifier {
      * @returns {string} Category of jser-item-category-parser
      */
     classifyItem(jserItem) {
+        const absoluteTag = getAbsoluteTag(jserItem);
+        if (absoluteTag) {
+            return absoluteTag
+        }
         return this.classifier.classify(stringifyJSerItem(jserItem));
     }
 
