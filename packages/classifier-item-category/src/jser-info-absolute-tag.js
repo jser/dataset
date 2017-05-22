@@ -11,6 +11,8 @@ const matchTagWithCategory = (tag) => {
     switch (tag) {
         case "article":
             return CategoryKey.Article;
+        case "news":
+            return CategoryKey.Headline;
         default:
             return null;
     }
