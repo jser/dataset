@@ -36,18 +36,18 @@
   },
   "homepage": "https://github.com/jser/classifier-item-category",
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-preset-es2015": "^6.22.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-jsdoc-to-assert": "^4.0.0",
     "babel-preset-power-assert": "^1.0.0",
-    "babel-register": "^6.22.0",
-    "mocha": "^3.2.0",
-    "power-assert": "^1.4.2"
+    "babel-register": "^6.24.1",
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4"
   },
   "dependencies": {
     "jser-item-category-parser": "1.0.5",
     "jser-stat": "^3.1.0",
-    "natural": "^0.4.0",
-    "request": "^2.79.0"
+    "natural": "^0.5.4",
+    "request": "^2.81.0"
   }
 }
