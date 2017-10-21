@@ -1,11 +1,13 @@
 // MIT © 2017 azu
 "use strict";
+import { ContentParser } from "./content-parser";
+
 const remarkAbstract = require("remark");
 const remark = remarkAbstract();
-const findAllAfter = require('unist-util-find-all-after');
-const difference = require('lodash.difference');
-const select = require('unist-util-select');
-const is = require('unist-util-is');
+const findAllAfter = require("unist-util-find-all-after");
+const difference = require("lodash.difference");
+const select = require("unist-util-select");
+const is = require("unist-util-is");
 const Category = require("./category").Category;
 const CompatibleCategory = require("./category").CompatibleCategory;
 
@@ -21,12 +23,12 @@ const betweenNodes = (parent, start, end) => {
     if (!end) {
         return nodesAfter;
     }
-    const nodesIgnores = findAllAfter(parent, end);
+    const nodesIgnores = [end].concat(findAllAfter(parent, end));
     return difference(nodesAfter, nodesIgnores, (nodeA, nodeB) => {
         return is(nodeA, nodeB);
     });
 };
-const getGroupKey = (htmlNode) => {
+const getGroupKey = htmlNode => {
     const value = htmlNode.value;
     const [matchKey] = Object.keys(Category).filter(key => {
         return value.indexOf(Category[key]) !== -1;
@@ -34,7 +36,7 @@ const getGroupKey = (htmlNode) => {
     if (matchKey !== undefined) {
         return matchKey;
     }
-    const [compatibleMatchKey] =  Object.keys(Category).filter(key => {
+    const [compatibleMatchKey] = Object.keys(Category).filter(key => {
         return value.indexOf(CompatibleCategory[key]) !== -1;
     });
     if (compatibleMatchKey) {
@@ -46,34 +48,29 @@ const getGroupKey = (htmlNode) => {
  * @param {string} content
  * @returns {[*]}
  */
-module.exports = function (content) {
+module.exports = function(content) {
     const AST = remark.parse(content);
-    const allCategory = select(AST, 'html[value*=<h1]');
-    const allLinks = select(AST, 'heading ~ paragraph > link');
+    const allCategory = select(AST, "html[value*=<h1]");
+    const allLinks = select(AST, "heading ~ paragraph > link");
     const results = [];
     allCategory.forEach((categoryNode, index) => {
         const nextCategoryNode = allCategory[index + 1];
         const currentCategory = getGroupKey(categoryNode);
         // not found category
-        if(currentCategory === null) {
+        if (currentCategory === null) {
             return;
         }
         const currentCategoryNodes = betweenNodes(AST, categoryNode, nextCategoryNode);
-        currentCategoryNodes.forEach(categoryNode => {
-            const targetLinkNodes = select(categoryNode, 'link');
-            if (targetLinkNodes.length === 0) {
-                return;
-            }
-            const targetLinkNode = targetLinkNodes[0];
-            // if this node is currentCategory, add results as currentCategory node
-            allLinks.forEach(linkNode => {
-                const isLinkNodeCurrentCategory = is(targetLinkNode, linkNode);
-                if (isLinkNodeCurrentCategory) {
-                    results.push({
-                        category: currentCategory,
-                        url: linkNode.url
-                    });
-                }
+        const contentParser = new ContentParser();
+        contentParser.process(currentCategoryNodes, content);
+        contentParser.contents.forEach(content => {
+            results.push({
+                category: currentCategory,
+                title: content.title,
+                url: content.url,
+                tags: content.tags,
+                content: content.content,
+                relatedLinks: content.relatedLinks
             });
         });
     });

@@ -11,13 +11,16 @@
   ],
   "name": "jser-item-category-parser",
   "version": "1.0.5",
-  "description": "JSer.info post item category parser.",
+  "content": "JSer.info post item category parser.",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha test/",
     "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
-    "prepublish": "npm run --if-present build"
+    "prepublish": "npm run --if-present build",
+    "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css}'",
+    "precommit": "lint-staged",
+    "postcommit": "git reset"
   },
   "keywords": [
     "jser"
@@ -36,14 +39,28 @@
     "babel-preset-jsdoc-to-assert": "^4.0.0",
     "babel-preset-power-assert": "^1.0.0",
     "babel-register": "^6.22.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
     "mocha": "^3.2.0",
-    "power-assert": "^1.4.2"
+    "power-assert": "^1.4.2",
+    "prettier": "^1.7.4"
   },
   "dependencies": {
+    "execall": "^1.0.0",
     "lodash.difference": "^4.5.0",
     "remark": "^6.2.0",
     "unist-util-find-all-after": "^1.0.0",
     "unist-util-is": "^2.0.0",
     "unist-util-select": "^1.5.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

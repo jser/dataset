@@ -18,9 +18,18 @@ const Category = require("jser-item-category-parser").Category;
 const results = parse(fs.readFileSync(path.join(__dirname, "fixtures", "2017-01-11-Node.js-v7.4.0-npm-v4-PhantomJS-2.5.0-Beta-clean-code.md"), "utf-8"));
 /*
  [{
-    category: 'Headline',
-    url: 'https://medium.com/inferno-js/introducing-inferno-1-0-f3da5c4e773b'
-}]
+      category: "Headline",
+      url: "https://groups.google.com/d/topic/phantomjs/AefOuwkgBh0",
+      tags: ["browser", "ReleaseNote", "webkit"],
+      content: "PhantomJS 2.5.0βリリース。\nQtWebKitがアップデートされES2015のサポート、WebPのサポートなど",
+      title: "[Release] PhantomJS 2.5.0 Beta - Google グループ",
+      relatedLinks: [
+          {
+              title: "Comparison with QtWebKit 5.6 · annulen/webkit Wiki",
+              url: "https://github.com/annulen/webkit/wiki/Comparison-with-QtWebKit-5.6"
+          }
+      ]
+  }]
 
  */
 ```
