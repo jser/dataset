@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify browser-example.js -o build/browser-examle.js",
-    "pretest": "npm rm jser-stat && npm i --production",
     "test": "node example.js && node natural-search.js"
   },
   "author": "azu",
