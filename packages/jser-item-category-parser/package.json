@@ -46,6 +46,7 @@
     "prettier": "^1.7.4"
   },
   "dependencies": {
+    "debug": "^3.1.0",
     "execall": "^1.0.0",
     "lodash.difference": "^4.5.0",
     "remark": "^6.2.0",
