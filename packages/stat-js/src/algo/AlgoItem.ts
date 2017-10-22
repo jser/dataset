@@ -1,19 +1,23 @@
 // LICENSE : MIT
 "use strict";
-import {findIndexesBetween} from "./algoSearch.js"
+import { findIndexesBetween } from "./algoSearch";
+import { JSerItem } from "../models/JSerItem";
 
 // for algorithm
-export default class AlgoItem {
+export class AlgoItem {
+    private items: JSerItem[];
+    private itemTimes: number[];
+
     /**
      *
      * @param {JSerItem[]} items
      */
-    constructor(items) {
+    constructor(items: JSerItem[]) {
         this.items = items;
         /**
          * @type number[] 昇順となった各Itemのtime配列
          */
-        this.itemTimes = items.map(function (item) {
+        this.itemTimes = items.map(function(item) {
             return item.date.getTime();
         });
     }
@@ -24,7 +28,7 @@ export default class AlgoItem {
      * @param {Date} endDate
      * @returns {JSerItem[]}
      */
-    findItemsBetween(beginDate, endDate) {
+    findItemsBetween(beginDate: Date, endDate: Date) {
         const indexes = findIndexesBetween(this.itemTimes, beginDate, endDate);
         const first = indexes[0];
         const last = indexes[indexes.length - 1];

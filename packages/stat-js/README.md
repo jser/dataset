@@ -81,10 +81,10 @@ function getStat() {
 
 jser-stat has these model.
 
-- [src/models/JSerItem.js](src/models/JSerItem.js) from [jser/source-data](https://github.com/jser/source-data "jser/source-data")
-- [src/models/JSerItemRelatedLink.js](src/models/JSerItemRelatedLink.js) is sub model of JSerItem.
-- [src/models/JSerPost.js](src/models/JSerPost.js) from [jser/jser.github.io](https://github.com/jser/jser.github.io "jser/jser.github.io")
-- [src/models/JSerWeek.js](src/models/JSerWeek.js) is JSerItem + JSerPost
+- [src/models/JSerItem.js](src/models/JSerItem.ts) from [jser/source-data](https://github.com/jser/source-data "jser/source-data")
+- [src/models/JSerItemRelatedLink.js](src/models/JSerItemRelatedLink.ts) is sub model of JSerItem.
+- [src/models/JSerPost.js](src/models/JSerPost.ts) from [jser/jser.github.io](https://github.com/jser/jser.github.io "jser/jser.github.io")
+- [src/models/JSerWeek.js](src/models/JSerWeek.ts) is JSerItem + JSerPost
 
 ### findItemsBetween(beginDate, endDate): JSerItem[]
 

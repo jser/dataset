@@ -1,42 +1,55 @@
 // LICENSE : MIT
 "use strict";
-require('array.prototype.find');
+require("array.prototype.find");
 
-import Item from "./models/JSerItem"
-import Post from "./models/JSerPost"
-import Week from "./models/JSerWeek"
-import AlgoItem from "./algo/AlgoItem"
-import AlgoPost from "./algo/AlgoPost.js"
-import NaturalSearcher from "./natural/NaturalSearcher"
+import { JSerItem } from "./models/JSerItem";
+import { JSerPost } from "./models/JSerPost";
+import { JSerWeek } from "./models/JSerWeek";
+import { AlgoItem } from "./algo/AlgoItem";
+import AlgoPost from "./algo/AlgoPost";
+import NaturalSearcher from "./natural/NaturalSearcher";
+
 const sortBy = require("lodash.sortby");
-function sortByDate(items) {
-    return sortBy(items, (item) => {
+
+function sortByDate(items: JSerItem[]) {
+    return sortBy(items, (item: JSerItem) => {
         return item.date;
     });
 }
-function filterJSerCategory(article) {
+
+function filterJSerCategory(article: any) {
     return /jser/i.test(article.category);
 }
-module.exports = class JSerStat {
-    constructor(rawItems, rawPosts) {
+
+export class JSerStat {
+    private _rawItems: any[];
+    private _rawPosts: any[];
+    items: JSerItem[];
+    posts: JSerPost[];
+    private _weeks: JSerWeek[];
+    private _algoItem: AlgoItem;
+    private _algoPost: AlgoPost;
+    private naturalSearch: any;
+
+    constructor(rawItems: any[], rawPosts: any[]) {
         this._rawItems = rawItems;
         this._rawPosts = rawPosts;
         /**
          * 日付で昇順にsortされたItems
          * @type {JSerItem[]}
          * */
-        this.items = sortByDate(this._rawItems).map(function(item) {
-            return new Item(item);
+        this.items = sortByDate(this._rawItems).map(function(item: any) {
+            return new JSerItem(item);
         });
         /**
          * 日付で昇順にsortされてposts
          *  @type {JSerPost[]}
          **/
         this.posts = sortByDate(this._rawPosts)
-        .filter(filterJSerCategory)
-        .map((post, index) => {
-            return new Post(index + 1, post);
-        });
+            .filter(filterJSerCategory)
+            .map((post: any, index: number) => {
+                return new JSerPost(index + 1, post);
+            });
         /**
          *
          * @type {JSerWeek[]}
@@ -73,27 +86,30 @@ module.exports = class JSerStat {
      * @param {Date} endDate
      * @returns {JSerItem[]}
      */
-    findItemsBetween(beginDate, endDate) {
+    findItemsBetween(beginDate: Date, endDate: Date) {
         return this._algoItem.findItemsBetween(beginDate, endDate);
     }
 
     // deprecated
-    getItemsBetWeen(beginDate, endDate) {
-        return this.findItemsBetween(beginDate, endDate)
+    getItemsBetWeen(beginDate: Date, endDate: Date) {
+        return this.findItemsBetween(beginDate, endDate);
     }
 
     /**
      * 全てのJSerWeekの配列を返す
      * @returns {JSerWeek[]}
      */
-    getJSerWeeks() {
+    getJSerWeeks(): JSerWeek[] {
         if (this._weeks.length === 0) {
-            this._weeks = this.posts.reduce((results, currentPost, index) => {
-                var prevPost = this.posts[index - 1];
-                var jserWeek = new Week(currentPost, prevPost, this._algoItem);
-                results.push(jserWeek);
-                return results;
-            }, []);
+            this._weeks = this.posts.reduce(
+                (results, currentPost, index) => {
+                    var prevPost = this.posts[index - 1];
+                    var jserWeek = new JSerWeek(currentPost, prevPost, this._algoItem);
+                    results.push(jserWeek);
+                    return results;
+                },
+                [] as JSerWeek[]
+            );
         }
         return this._weeks;
     }
@@ -105,7 +121,7 @@ module.exports = class JSerStat {
      * @param {Date} endDate
      * @returns {JSerWeek[]}
      */
-    findJSerWeeksBetween(beginDate, endDate) {
+    findJSerWeeksBetween(beginDate: Date, endDate: Date) {
         const weeks = this.getJSerWeeks();
         const beginTime = beginDate.getTime();
         const endTime = endDate.getTime();
@@ -123,8 +139,8 @@ module.exports = class JSerStat {
     }
 
     // deprecated
-    getJSerWeeksBetWeen(beginDate, endDate) {
-        return this.findJSerWeeksBetween(beginDate, endDate)
+    getJSerWeeksBetWeen(beginDate: Date, endDate: Date) {
+        return this.findJSerWeeksBetween(beginDate, endDate);
     }
 
     /**
@@ -132,7 +148,7 @@ module.exports = class JSerStat {
      * @param {number} number number start with 1
      * @returns {JSerWeek}
      */
-    findJSerWeek(number) {
+    findJSerWeek(number: number) {
         if (number <= 0) {
             throw new Error(`number:${number} should be >= 1`);
         }
@@ -141,25 +157,26 @@ module.exports = class JSerStat {
         }
         var targetPost = this.posts[number - 1];
         var prevPost = this.posts[number - 2];
-        return new Week(targetPost, prevPost, this._algoItem);
+        return new JSerWeek(targetPost, prevPost, this._algoItem);
     }
 
     /**
      * `postURL`に一致するJSerWeekを返す
      * @param {string} postURL
-     * @returns {JSerWeek}
+     * @returns {JSerWeek|undefined}
      */
-    findJSerWeekWithURL(postURL) {
+    findJSerWeekWithURL(postURL: string) {
         const weeks = this.getJSerWeeks().filter(week => {
             return week.post.url === postURL;
         });
         if (weeks.length > 0) {
             return weeks[0];
         }
+        return;
     }
 
     // deprecated
-    getJSerWeek(number) {
+    getJSerWeek(number: number) {
         return this.findJSerWeek(number);
     }
 
@@ -169,8 +186,8 @@ module.exports = class JSerStat {
      * @return {JSerWeek|null} The week contain this jserItem.
      * 未来の記事などJSerWeekに所属していない場合もある
      */
-    findWeekWithItem(jserItem) {
-        const targetItem = new Item(jserItem);
+    findWeekWithItem(jserItem: any) {
+        const targetItem = new JSerItem(jserItem);
         const tenDaysAfter = new Date(targetItem.date);
         tenDaysAfter.setDate(targetItem.date.getDate() + 10);
         const jSerWeeks = this.findJSerWeeksBetween(targetItem.date, tenDaysAfter);
@@ -189,7 +206,7 @@ module.exports = class JSerStat {
      * @param {string} URL
      * @return {JSerItem}
      */
-    findItemWithURL(URL) {
+    findItemWithURL(URL: string) {
         return this.items.find(item => {
             return item.url === URL;
         });
@@ -201,7 +218,7 @@ module.exports = class JSerStat {
      * @param {number} limit
      * @returns {JSerItem[]}
      */
-    findRelatedItems(item, limit = 10) {
+    findRelatedItems(item: JSerItem, limit = 10) {
         if (this.naturalSearch == null) {
             this.naturalSearch = new NaturalSearcher(this.items);
         }

@@ -10,22 +10,22 @@ if (typeof Promise === "undefined") {
     process.exit(0);
 }
 function getURLAsync(URL) {
-    return new Promise(function (resolve, reject) {
-        request(URL, function (error, response, body) {
+    return new Promise(function(resolve, reject) {
+        request(URL, function(error, response, body) {
             if (error) {
                 return reject(error);
             }
             if (response.statusCode == 200) {
                 resolve(JSON.parse(body));
             } else {
-                reject('error: ' + response.statusCode);
+                reject("error: " + response.statusCode);
             }
-        })
+        });
     });
 }
 function saveAsync(filePath, body) {
-    return new Promise(function (resolve, reject) {
-        fs.writeFile(filePath, JSON.stringify(body), function (error, response) {
+    return new Promise(function(resolve, reject) {
+        fs.writeFile(filePath, JSON.stringify(body), function(error, response) {
             if (error) {
                 return reject(error);
             }
@@ -36,13 +36,15 @@ function saveAsync(filePath, body) {
 }
 var posts = getURLAsync(URLMap.posts.json);
 var items = getURLAsync(URLMap.items.json);
-Promise.all([posts, items]).then(function (results) {
-    var postData = results[0];
-    var itemData = results[1];
-    // 昇順となるように合わせる
-    var postsFs = saveAsync(path.join(__dirname, "posts.json"), postData.reverse());
-    var itemsFs = saveAsync(path.join(__dirname, "items.json"), itemData);
-    return Promise.all([postsFs, itemsFs]);
-}).catch(function (error) {
-    console.error(error.stack)
-});
+Promise.all([posts, items])
+    .then(function(results) {
+        var postData = results[0];
+        var itemData = results[1];
+        // 昇順となるように合わせる
+        var postsFs = saveAsync(path.join(__dirname, "posts.json"), postData.reverse());
+        var itemsFs = saveAsync(path.join(__dirname, "items.json"), itemData);
+        return Promise.all([postsFs, itemsFs]);
+    })
+    .catch(function(error) {
+        console.error(error.stack);
+    });

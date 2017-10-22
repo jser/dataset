@@ -16,11 +16,12 @@
   "scripts": {
     "install": "node data/install-hook.js",
     "prepublish": "npm run --if-present build",
-    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
-    "watch": "babel src --out-dir lib --watch --source-maps",
-    "doc": "esdoc -c esdoc.json",
-    "deploy": "npm run doc && gh-pages -d esdoc",
-    "test": "mocha test && (cd example && npm test)"
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "watch": "tsc -p . --watch",
+    "test": "mocha 'test/**/*.js'",
+    "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css}'",
+    "precommit": "lint-staged",
+    "postcommit": "git reset"
   },
   "repository": {
     "type": "git",
@@ -36,15 +37,20 @@
   },
   "homepage": "https://github.com/jser/stat-js",
   "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.46",
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-jsdoc-to-assert": "^4.0.0",
     "babel-preset-power-assert": "^1.0.0",
     "babel-register": "^6.18.0",
-    "esdoc": "^0.4.8",
-    "gh-pages": "^0.12.0",
-    "mocha": "^3.2.0",
-    "power-assert": "^1.4.2"
+    "cross-env": "^5.1.0",
+    "lint-staged": "^4.3.0",
+    "mocha": "^4.0.1",
+    "power-assert": "^1.4.2",
+    "prettier": "^1.7.4",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
   },
   "dependencies": {
     "array.prototype.find": "^2.0.1",
@@ -52,5 +58,16 @@
     "lodash.sortby": "^4.7.0",
     "natural": "^0.4.0",
     "request": "^2.57.0"
+  },
+  "types": "lib/stat-js.d.ts",
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

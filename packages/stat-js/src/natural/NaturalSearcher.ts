@@ -1,26 +1,26 @@
 // LICENSE : MIT
 "use strict";
+import { JSerItem } from "../models/JSerItem";
+
 const TfIdf = require("natural/lib/natural/tfidf/tfidf");
 // merge sort
-let mergeSort = (arr) => {
+let mergeSort = (arr: any[]): any => {
     if (arr.length < 2) {
         return arr;
     }
 
-    let middle = parseInt(arr.length / 2),
+    let middle = arr.length / 2,
         left = arr.slice(0, middle),
         right = arr.slice(middle);
 
     return merge(mergeSort(left), mergeSort(right));
 };
 
-let merge = (left, right) => {
+let merge = (left: any, right: any) => {
     let result = [];
 
     while (left.length && right.length) {
-        right[0].measure <= left[0].measure ?
-        result.push(left.shift()) :
-        result.push(right.shift());
+        right[0].measure <= left[0].measure ? result.push(left.shift()) : result.push(right.shift());
     }
 
     while (left.length) {
@@ -32,7 +32,7 @@ let merge = (left, right) => {
 
     return result;
 };
-var ignoreWord = function (word) {
+var ignoreWord = function(word: string) {
     if (word.length <= 1) {
         return false;
     }
@@ -41,36 +41,44 @@ var ignoreWord = function (word) {
         return false;
     }
     if (/[\?&=]/.test(word)) {
-        return false
+        return false;
     }
     if (/^\.(html|md|php)$/i.test(word)) {
-        return false
+        return false;
     }
     return true;
 };
-function urlToWords(url) {
+
+function urlToWords(url: string) {
     var pathList = url.split("/");
     var pathNames = pathList[pathList.length - 1].split(/([-_]|\.html$|\.md$|\.php$|#)/i);
     return pathNames.filter(ignoreWord);
-
 }
+
 export default class NaturalSearcher {
-    constructor(items) {
+    private items: JSerItem[];
+    private tfidf: any;
+
+    constructor(items: JSerItem[]) {
         this.items = items;
         this.tfidf = new TfIdf();
         this.addItemsAsDocuments(this.items);
     }
 
-    addItemsAsDocuments(items) {
-        items.forEach((item) => {
+    addItemsAsDocuments(items: JSerItem[]) {
+        items.forEach(item => {
             var urlKeyString = urlToWords(item.url).join(" ");
-            var relatedString = item.relatedLinks.map(function (relatedObject) {
-                return relatedObject.title + " " + urlToWords(relatedObject.url).join(" ")
-            }).join("");
+            var relatedString = item.relatedLinks
+                .map(function(relatedObject) {
+                    return relatedObject.title + " " + urlToWords(relatedObject.url).join(" ");
+                })
+                .join("");
             var tagsString = (item.tags || []).join(" ");
             // 全部を使うと長すぎるコンテンツが有利になりすぎるので絞る
             var slicedContent = item.content.slice(0, 200);
-            this.tfidf.addDocument(item.title + "\n" + tagsString + "\n" + slicedContent + "\n" + urlKeyString + "\n" + relatedString);
+            this.tfidf.addDocument(
+                item.title + "\n" + tagsString + "\n" + slicedContent + "\n" + urlKeyString + "\n" + relatedString
+            );
         });
     }
 
@@ -79,29 +87,33 @@ export default class NaturalSearcher {
      * @param {JSerItem} targetItem
      * @param {number} limit
      */
-    findRelatedItems(targetItem, limit) {
+    findRelatedItems(targetItem: JSerItem, limit: number) {
         var targetIndex = this.items.indexOf(targetItem);
         if (targetIndex === -1) {
-            this.items.some(function (item, index) {
+            this.items.some(function(item, index) {
                 if (item.isEqualItem(item)) {
                     targetIndex = index;
                     return true;
                 }
+                return false;
             });
             if (targetIndex === -1) {
                 throw new Error("Not found this item: " + targetItem);
             }
         }
         var terms = this.tfidf.listTerms(targetIndex);
-        var results = [];
-        this.tfidf.tfidfs(terms.map(function (term) {
-            return term.term
-        }), function (i, measure) {
-            results.push({
-                index: i,
-                measure: measure
-            });
-        });
+        var results: any[] = [];
+        this.tfidf.tfidfs(
+            terms.map(function(term: any) {
+                return term.term;
+            }),
+            function(i: number, measure: any) {
+                results.push({
+                    index: i,
+                    measure: measure
+                });
+            }
+        );
         var sorted = mergeSort(results);
         // tifidf -> item
         var matchItems = [];

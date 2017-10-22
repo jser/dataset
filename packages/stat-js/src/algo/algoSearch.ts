@@ -1,12 +1,14 @@
 // LICENSE : MIT
 "use strict";
-import binarysearch from "binarysearch"
-export function findIndexesBetween(times, beginDate, endDate) {
+const binarysearch = require("binarysearch");
+
+export function findIndexesBetween(times: any, beginDate: Date, endDate: Date) {
     var beginTime = beginDate.getTime();
     var endTime = endDate.getTime();
     return binarysearch.range(times, beginTime, endTime);
 }
-export function findIndexBiggerTime(array, time) {
+
+export function findIndexBiggerTime(array: any[], time: number) {
     var currentIndex = 0;
     for (var i = currentIndex; i < array.length; i++) {
         var comparedTime = array[i];
@@ -17,10 +19,10 @@ export function findIndexBiggerTime(array, time) {
             return currentIndex;
         }
     }
-    return -1
+    return -1;
 }
 
-export function findIndexLessTime(array, time) {
+export function findIndexLessTime(array: any[], time: number) {
     var currentIndex = array.length - 1;
     for (var i = currentIndex; i >= 0; i--) {
         var comparedTime = array[i];
@@ -32,8 +34,4 @@ export function findIndexLessTime(array, time) {
         }
     }
     return -1;
-}
-
-function compare_number(a, b) {
-    return a - b;
 }
