@@ -3,17 +3,29 @@
 const execall = require("execall");
 const debug = require("debug")("jser-item-category-parser");
 
-export class CurrentContent {
-    constructor() {
-        // date is missing
-        this.title = undefined;
-        this.url = undefined;
-        this.tags = [];
-        this.content = undefined;
-        this.relatedLinks = [];
-    }
+export interface RemarkNode {
+    type: string;
+    children?: RemarkNode[];
+    depth?: number;
+    value?: string;
+    position: {
+        start: {
+            offset: number;
+        };
+        end: {
+            offset: number;
+        };
+    };
+}
 
-    addContent(content) {
+export class CurrentContent {
+    title: string;
+    url: string;
+    tags: string[] = [];
+    content: string;
+    relatedLinks: { url: string; title: string }[] = [];
+
+    addContent(content: string) {
         if (this.content) {
             this.content += `\n\n${content}`;
         } else {
@@ -22,9 +34,9 @@ export class CurrentContent {
     }
 }
 
-const isNoLinkList = node => {
+const isNoLinkList = (node: any) => {
     if (node.type === "list") {
-        return node.children.some(listItem => {
+        return node.children.some((listItem: any) => {
             const paragraph = listItem.children[0];
             const link = paragraph.children[0];
             return link.type !== "link";
@@ -33,37 +45,38 @@ const isNoLinkList = node => {
     return false;
 };
 
+const enum MARK {
+    // finish current process
+    END,
+    // skip process
+    SKIP_PROCESS,
+    // process and same
+    CONTINUE
+}
+
 export class ContentParser {
-    get MARK() {
-        return {
-            // finish current process
-            END: "END",
-            // skip process
-            SKIP_PROCESS: "SKIP_PROCESS",
-            // process and same
-            CONTINUE: "CONTINUE"
-        };
-    }
+    private contents: Array<CurrentContent>;
+    private currentContent: CurrentContent;
 
     constructor() {
         this.contents = [];
         this.currentContent = new CurrentContent();
     }
 
-    process(nodeList, text) {
+    process(nodeList: RemarkNode[], text: string) {
         const processPattern = this.processPattern;
         let processIndex = 0;
         let nodeIndex = 0;
         while (nodeIndex !== nodeList.length) {
             const node = nodeList[nodeIndex];
             const process = processPattern[processIndex];
-            const result = process(node, text);
+            const result: MARK | any = process(node, text);
             debug(`node: %O, nodeIndex: ${nodeIndex}, processIndex: ${processIndex}`, node);
-            if (result === this.MARK.END) {
+            if (result === MARK.END) {
                 processIndex = Infinity; // end
-            } else if (result === this.MARK.SKIP_PROCESS) {
+            } else if (result === MARK.SKIP_PROCESS) {
                 processIndex++;
-            } else if (result === this.MARK.CONTINUE) {
+            } else if (result === MARK.CONTINUE) {
                 nodeIndex++;
             } else {
                 nodeIndex++;
@@ -91,17 +104,17 @@ export class ContentParser {
 
          */
         return [
-            node => {
+            (node: RemarkNode) => {
                 if (node.type !== "thematicBreak") {
-                    throw new Error("should start thematicBreak", node);
+                    throw new Error("should start thematicBreak");
                 }
             },
             /*
             ## StealJS 1.0 Release
              */
-            (node, text) => {
+            (node: RemarkNode, text: string) => {
                 if (node.type !== "heading" && node.depth === 2) {
-                    throw new Error("should start heading", node);
+                    throw new Error("should start heading");
                 }
                 this.currentContent.title = text
                     .slice(node.position.start.offset, node.position.end.offset)
@@ -111,47 +124,56 @@ export class ContentParser {
             [www.bitovi.com/blog/stealjs-1.0-release](https://www.bitovi.com/blog/stealjs-1.0-release "StealJS 1.0 Release")
 
              */
-            node => {
+            (node: RemarkNode) => {
                 if (node.type !== "paragraph") {
-                    throw new Error("should start heading", node);
+                    throw new Error("should start heading");
                 }
-                const link = node.children[0];
-                if (link.type !== "link") throw new Error("should link", node);
+                if (!node.children) {
+                    throw new Error("should start heading");
+                }
+                const link: any = node.children[0];
+                if (link.type !== "link") {
+                    throw new Error("should link");
+                }
                 this.currentContent.url = link.url;
             },
-            node => {
+            (node: RemarkNode) => {
                 if (node.type !== "html") {
                     // まれにtagがないコンテンツがいる
-                    return this.MARK.SKIP_PROCESS;
+                    return MARK.SKIP_PROCESS;
                 }
                 const tagPattern = /<span class="jser-tag">(.*?)<\/span>/g;
                 const matches = execall(tagPattern, node.value);
-                this.currentContent.tags = matches.map(match => {
+                this.currentContent.tags = matches.map((match: any) => {
                     return match.sub[0];
                 });
+                return;
             },
             // list
             // 場合によってはcontentが2つ?
             // content
-            (node, text) => {
+            (node: RemarkNode, text: string) => {
                 // 本文に箇条書きを書いてるパターン
                 if (isNoLinkList(node)) {
                     this.currentContent.addContent(text.slice(node.position.start.offset, node.position.end.offset));
-                    return this.MARK.CONTINUE;
+                    return MARK.CONTINUE;
                 } else if (node.type === "blockquote") {
                     this.currentContent.addContent(text.slice(node.position.start.offset, node.position.end.offset));
-                    return this.MARK.CONTINUE;
+                    return MARK.CONTINUE;
                 } else if (node.type === "paragraph") {
                     this.currentContent.addContent(text.slice(node.position.start.offset, node.position.end.offset));
-                    return this.MARK.CONTINUE;
+                    return MARK.CONTINUE;
                 }
-                return this.MARK.SKIP_PROCESS;
+                return MARK.SKIP_PROCESS;
             },
-            node => {
+            (node: RemarkNode) => {
                 if (node.type !== "list") {
-                    return this.MARK.SKIP_PROCESS;
+                    return MARK.SKIP_PROCESS;
                 }
-                node.children.forEach(listItem => {
+                if (!node.children) {
+                    throw new Error("no children");
+                }
+                node.children.forEach((listItem: any) => {
                     const paragraph = listItem.children[0];
                     const link = paragraph.children[0];
                     const title = link.children[0].value;
@@ -160,14 +182,18 @@ export class ContentParser {
                         url: link.url
                     });
                 });
-                return this.MARK.CONTINUE;
+                return MARK.CONTINUE;
             },
             // 複数list
-            node => {
+            (node: RemarkNode) => {
                 if (node.type !== "list") {
-                    return this.MARK.SKIP_PROCESS;
+                    return MARK.SKIP_PROCESS;
                 }
-                node.children.forEach(listItem => {
+
+                if (!node.children) {
+                    throw new Error("no children");
+                }
+                node.children.forEach((listItem: any) => {
                     const paragraph = listItem.children[0];
                     const link = paragraph.children[0];
                     const title = link.children[0].value;
@@ -176,14 +202,14 @@ export class ContentParser {
                         url: link.url
                     });
                 });
-                return this.MARK.CONTINUE;
+                return MARK.CONTINUE;
             },
-            node => {
+            (node: RemarkNode) => {
                 if (node.type === "thematicBreak") {
-                    return this.MARK.END;
+                    return MARK.END;
                 }
                 // 最後尾にいろんなパターンがあるのは無視する
-                return this.MARK.CONTINUE;
+                return MARK.CONTINUE;
             }
         ];
     }

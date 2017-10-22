@@ -24,6 +24,4 @@ const CompatibleCategory = {
     SoftwareLibrary: "ソフトウェア、ツール、ライブラリ関係",
     Book: "書籍関係"
 };
-module.exports.Category = Category;
-module.exports.CategoryKey = CategoryKey;
-module.exports.CompatibleCategory = CompatibleCategory;
+export { Category, CategoryKey, CompatibleCategory };

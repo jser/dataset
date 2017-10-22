@@ -18,17 +18,17 @@ const CompatibleCategory = require("./category").CompatibleCategory;
  * @param {Object} [end]
  * @returns {Array}
  */
-const betweenNodes = (parent, start, end) => {
+const betweenNodes = (parent: any, start: any, end: any) => {
     const nodesAfter = findAllAfter(parent, start);
     if (!end) {
         return nodesAfter;
     }
     const nodesIgnores = [end].concat(findAllAfter(parent, end));
-    return difference(nodesAfter, nodesIgnores, (nodeA, nodeB) => {
+    return difference(nodesAfter, nodesIgnores, (nodeA: any, nodeB: any) => {
         return is(nodeA, nodeB);
     });
 };
-const getGroupKey = htmlNode => {
+const getGroupKey = (htmlNode: any) => {
     const value = htmlNode.value;
     const [matchKey] = Object.keys(Category).filter(key => {
         return value.indexOf(Category[key]) !== -1;
@@ -44,15 +44,25 @@ const getGroupKey = htmlNode => {
     }
     return null;
 };
+
+export interface ParseResult {
+    category: string;
+    title: string;
+    url: string;
+    tags: string[];
+    content: string;
+    relatedLinks: { url: string; title: string }[];
+}
+
 /**
  * @param {string} content
  * @returns {[*]}
  */
-module.exports = function(content) {
+export function parse(content: string) {
     const AST = remark.parse(content);
     const allCategory = select(AST, "html[value*=<h1]");
-    const results = [];
-    allCategory.forEach((categoryNode, index) => {
+    const results: ParseResult[] = [];
+    allCategory.forEach((categoryNode: any, index: number) => {
         const nextCategoryNode = allCategory[index + 1];
         const currentCategory = getGroupKey(categoryNode);
         // not found category
@@ -74,4 +84,4 @@ module.exports = function(content) {
         });
     });
     return results;
-};
+}

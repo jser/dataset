@@ -3,7 +3,7 @@
 const fs = require("fs");
 const assert = require("assert");
 const path = require("path");
-const parse = require("../src/parse");
+const { parse } = require("../src/index");
 
 describe("JSDoc plugin", () => {
     const fixturesDir = path.join(__dirname, "jser.github.io");

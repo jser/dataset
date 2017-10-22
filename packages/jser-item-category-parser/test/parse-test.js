@@ -2,7 +2,7 @@
 "use strict";
 const fs = require("fs");
 const path = require("path");
-const parse = require("../src/parse");
+const { parse } = require("../src/");
 const assert = require("assert");
 describe("parse", () => {
     context("fixtures-post", () => {
