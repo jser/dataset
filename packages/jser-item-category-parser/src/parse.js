@@ -51,7 +51,6 @@ const getGroupKey = htmlNode => {
 module.exports = function(content) {
     const AST = remark.parse(content);
     const allCategory = select(AST, "html[value*=<h1]");
-    const allLinks = select(AST, "heading ~ paragraph > link");
     const results = [];
     allCategory.forEach((categoryNode, index) => {
         const nextCategoryNode = allCategory[index + 1];

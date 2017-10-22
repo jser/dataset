@@ -1,7 +1,7 @@
 // MIT © 2017 azu
 "use strict";
 const execall = require("execall");
-
+const debug = require("debug")("jser-item-category-parser");
 export class CurrentContent {
     constructor() {
         // date is missing
@@ -11,12 +11,32 @@ export class CurrentContent {
         this.content = undefined;
         this.relatedLinks = [];
     }
+
+    addContent(content) {
+        if (this.content) {
+            this.content += `\n\n${content}`;
+        } else {
+            this.content = content;
+        }
+    }
 }
+
+const isNoLinkList = node => {
+    if (node.type === "list") {
+        return node.children.some(listItem => {
+            const paragraph = listItem.children[0];
+            const link = paragraph.children[0];
+            return link.type !== "link";
+        });
+    }
+    return false;
+};
 
 export class ContentParser {
     get MARK() {
         return {
-            SKIP: "SKIP"
+            SKIP: "SKIP",
+            CONTINUE: "CONTINUE"
         };
     }
 
@@ -33,8 +53,11 @@ export class ContentParser {
             const node = nodeList[nodeIndex];
             const process = processPattern[processIndex];
             const result = process(node, text);
+            debug(`nodeIndex: ${nodeIndex}, processIndex: ${processIndex}, node: %O`, node);
             if (result === this.MARK.SKIP) {
                 processIndex++;
+            } else if (result === this.MARK.CONTINUE) {
+                nodeIndex++;
             } else {
                 nodeIndex++;
                 processIndex++;
@@ -98,20 +121,22 @@ export class ContentParser {
                     return match.sub[0];
                 });
             },
+            // list
+            // 場合によってはcontentが2つ?
             // content
             (node, text) => {
-                if (node.type !== "paragraph") {
-                    throw new Error("should has body paragraph", node);
+                // 本文に箇条書きを書いてるパターン
+                if (isNoLinkList(node)) {
+                    this.currentContent.addContent(text.slice(node.position.start.offset, node.position.end.offset));
+                    return this.MARK.CONTINUE;
+                } else if (node.type === "blockquote") {
+                    this.currentContent.addContent(text.slice(node.position.start.offset, node.position.end.offset));
+                    return this.MARK.CONTINUE;
+                } else if (node.type === "paragraph") {
+                    this.currentContent.addContent(text.slice(node.position.start.offset, node.position.end.offset));
+                    return this.MARK.CONTINUE;
                 }
-                this.currentContent.content = text.slice(node.position.start.offset, node.position.end.offset);
-            },
-            // 場合によってはcontentが2つ?
-            (node, text) => {
-                if (node.type !== "paragraph") {
-                    return this.MARK.SKIP;
-                }
-                this.currentContent.content +=
-                    "\n\n" + text.slice(node.position.start.offset, node.position.end.offset);
+                return this.MARK.SKIP;
             },
             node => {
                 if (node.type !== "list") {
@@ -126,6 +151,22 @@ export class ContentParser {
                         url: link.url
                     });
                 });
+            },
+            // 複数list
+            node => {
+                if (node.type !== "list") {
+                    return this.MARK.SKIP;
+                }
+                node.children.forEach(listItem => {
+                    const paragraph = listItem.children[0];
+                    const link = paragraph.children[0];
+                    const title = link.children[0].value;
+                    this.currentContent.relatedLinks.push({
+                        title,
+                        url: link.url
+                    });
+                });
+                return this.MARK.CONTINUE;
             }
         ];
     }
