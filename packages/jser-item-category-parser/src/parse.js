@@ -61,8 +61,8 @@ module.exports = function(content) {
         }
         const currentCategoryNodes = betweenNodes(AST, categoryNode, nextCategoryNode);
         const contentParser = new ContentParser();
-        contentParser.process(currentCategoryNodes, content);
-        contentParser.contents.forEach(content => {
+        const contents = contentParser.process(currentCategoryNodes, content);
+        contents.forEach(content => {
             results.push({
                 category: currentCategory,
                 title: content.title,

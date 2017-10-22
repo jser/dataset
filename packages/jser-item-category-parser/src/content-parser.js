@@ -2,6 +2,7 @@
 "use strict";
 const execall = require("execall");
 const debug = require("debug")("jser-item-category-parser");
+
 export class CurrentContent {
     constructor() {
         // date is missing
@@ -35,7 +36,11 @@ const isNoLinkList = node => {
 export class ContentParser {
     get MARK() {
         return {
-            SKIP: "SKIP",
+            // finish current process
+            END: "END",
+            // skip process
+            SKIP_PROCESS: "SKIP_PROCESS",
+            // process and same
             CONTINUE: "CONTINUE"
         };
     }
@@ -53,8 +58,10 @@ export class ContentParser {
             const node = nodeList[nodeIndex];
             const process = processPattern[processIndex];
             const result = process(node, text);
-            debug(`nodeIndex: ${nodeIndex}, processIndex: ${processIndex}, node: %O`, node);
-            if (result === this.MARK.SKIP) {
+            debug(`node: %O, nodeIndex: ${nodeIndex}, processIndex: ${processIndex}`, node);
+            if (result === this.MARK.END) {
+                processIndex = Infinity; // end
+            } else if (result === this.MARK.SKIP_PROCESS) {
                 processIndex++;
             } else if (result === this.MARK.CONTINUE) {
                 nodeIndex++;
@@ -62,12 +69,13 @@ export class ContentParser {
                 nodeIndex++;
                 processIndex++;
             }
-            if (processIndex === processPattern.length) {
+            if (processIndex >= processPattern.length) {
                 this.contents.push(this.currentContent);
                 this.currentContent = new CurrentContent();
                 processIndex = 0;
             }
         }
+        return this.contents.slice();
     }
 
     get processPattern() {
@@ -113,7 +121,8 @@ export class ContentParser {
             },
             node => {
                 if (node.type !== "html") {
-                    throw new Error("should start html", node);
+                    // まれにtagがないコンテンツがいる
+                    return this.MARK.SKIP_PROCESS;
                 }
                 const tagPattern = /<span class="jser-tag">(.*?)<\/span>/g;
                 const matches = execall(tagPattern, node.value);
@@ -136,11 +145,11 @@ export class ContentParser {
                     this.currentContent.addContent(text.slice(node.position.start.offset, node.position.end.offset));
                     return this.MARK.CONTINUE;
                 }
-                return this.MARK.SKIP;
+                return this.MARK.SKIP_PROCESS;
             },
             node => {
                 if (node.type !== "list") {
-                    return this.MARK.SKIP;
+                    return this.MARK.SKIP_PROCESS;
                 }
                 node.children.forEach(listItem => {
                     const paragraph = listItem.children[0];
@@ -151,11 +160,12 @@ export class ContentParser {
                         url: link.url
                     });
                 });
+                return this.MARK.CONTINUE;
             },
             // 複数list
             node => {
                 if (node.type !== "list") {
-                    return this.MARK.SKIP;
+                    return this.MARK.SKIP_PROCESS;
                 }
                 node.children.forEach(listItem => {
                     const paragraph = listItem.children[0];
@@ -166,6 +176,13 @@ export class ContentParser {
                         url: link.url
                     });
                 });
+                return this.MARK.CONTINUE;
+            },
+            node => {
+                if (node.type === "thematicBreak") {
+                    return this.MARK.END;
+                }
+                // 最後尾にいろんなパターンがあるのは無視する
                 return this.MARK.CONTINUE;
             }
         ];
