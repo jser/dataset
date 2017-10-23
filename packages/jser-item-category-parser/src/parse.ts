@@ -58,7 +58,7 @@ export interface ParseResult {
  * @param {string} content
  * @returns {[*]}
  */
-export function parse(content: string) {
+export function parse(content: string): ParseResult[] {
     const AST = remark.parse(content);
     const allCategory = select(AST, "html[value*=<h1]");
     const results: ParseResult[] = [];
