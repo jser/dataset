@@ -26,8 +26,9 @@ API Document: http://jser.info/stat-js/
 Automatically load `rawItems` and `rawPosts` in Node.js.
 
 ```js
+var DefaultData = require("jser-stat").DefaultData;
 var JSerStat = require("jser-stat").JSerStat;
-var stat = new JSerStat();
+var stat = new JSerStat(DefaultData.items, DefaultData.posts);
 var startTime = Date.now();
 var firstWeek = stat.findJSerWeek(1);
 var weeks = stat.findJSerWeeksBetween(new Date("2013-01-31T15:00:00.000Z"), new Date("2015-06-01T13:22:37.167Z"));
