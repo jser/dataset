@@ -1,14 +1,14 @@
 // LICENSE : MIT
 "use strict";
 const assert = require("power-assert");
-const { JSerStat } = require("../src/");
+const { JSerStat, DefaultData } = require("../src/");
 const { JSerItem: Item } = require("../src/models/JSerItem");
 const { JSerWeek: Week } = require("../src/models/JSerWeek");
 describe("jser-stat", function() {
     describe("when initialized", function() {
         var stat;
         before(function() {
-            stat = new JSerStat();
+            stat = new JSerStat(DefaultData.items, DefaultData.posts);
         });
         it("has .items", function() {
             assert(stat.items instanceof Array);
@@ -20,7 +20,7 @@ describe("jser-stat", function() {
     describe("#getJSerWeeks", function() {
         var stat;
         before(function() {
-            stat = new JSerStat();
+            stat = new JSerStat(DefaultData.items, DefaultData.posts);
         });
         it("should return JSerWeek[]", function() {
             var weeks = stat.getJSerWeeks();
@@ -41,7 +41,7 @@ describe("jser-stat", function() {
     describe("#findJSerWeeksBetween", function() {
         var stat;
         before(function() {
-            stat = new JSerStat();
+            stat = new JSerStat(DefaultData.items, DefaultData.posts);
         });
         it("should return JSerWeek[]", function() {
             var weeks = stat.findJSerWeeksBetween(
@@ -69,7 +69,7 @@ describe("jser-stat", function() {
     describe("#findJSerWeek", function() {
         var stat;
         before(function() {
-            stat = new JSerStat();
+            stat = new JSerStat(DefaultData.items, DefaultData.posts);
         });
         it("should return JSerWeek[]", function() {
             var week = stat.findJSerWeek(1);
