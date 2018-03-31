@@ -1,262 +1,278 @@
-[
-    {
-        "category": "Headline",
-        "title": "Node v8.0.0 (Current) | Node.js",
-        "url": "https://nodejs.org/en/blog/release/v8.0.0/",
+{
+    "meta": {
+        "title": "2017-06-05のJS: Node.js 8.0.0、npm canary、Mocha to Jest",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-06-05T08:45:58.982Z",
+        "category": "JSer",
         "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node.js 8.0.0リリース。\nnpm 5.0.0、V8 5.8、N-API(Node.js API)、`async_hooks`、WHATWG URLを正式サポート、`Buffer`コンストラクタのzero-filledをデフォルト化、`util.promisify`の追加、Node.jsが生成するErrorに`code`がつくように。\nまた`--debug`が廃止され`--inspect`でデバッガーと連携できるようになるなど",
-        "relatedLinks": [
-            {
-                "title": "Node8の注目的変更まとめ - 技術探し",
-                "url": "http://abouthiroppy.hatenablog.jp/entry/2017/05/30/090015"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "npm/CHANGELOG.md at v5.0.1 · npm/npm",
-        "url": "https://github.com/npm/npm/blob/v5.0.1/CHANGELOG.md",
-        "tags": [
+            "Node.js",
             "npm",
-            "ReleaseNote"
-        ],
-        "content": "npm 5.0.1リリース。\n5.0.0のバグ修正が中心。余計なassertionを削除してインストール速度の改善など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release Notes for Safari Technology Preview 31 | WebKit",
-        "url": "https://webkit.org/blog/7622/release-notes-for-safari-technology-preview-31/",
-        "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "Safari Technology Preview Release 31リリース。\n`preload`で`as`や`type`属性のサポート、Access-Control-Allow-Originのエラーメッセージを改善など",
-        "relatedLinks": [
-            {
-                "title": "162819 – Improve error message for Access-Control-Allow-Origin violation due to misconfigured server",
-                "url": "https://bugs.webkit.org/show_bug.cgi?id=162819"
-            },
-            {
-                "title": "321517 - Developer tools misleading error description on CORS XHR with multiple Access-Control-Allow-Origin response headers - chromium - Monorail",
-                "url": "https://bugs.chromium.org/p/chromium/issues/detail?id=321517"
-            }
+            "Mocha",
+            "Jest",
+            "testing"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "N-API: Next generation Node.js APIs for native modules",
-        "url": "https://medium.com/@nodejs/n-api-next-generation-node-js-apis-for-native-modules-169af5235b06",
-        "tags": [
-            "C++",
-            "ChakraCore",
-            "V8",
-            "node.js"
-        ],
-        "content": "Node.js 8.0.0で導入されたN-APIについて。 いままでネイティブモジュールを書く際にNANなどもあったが、それはV8に依存していたためAPI/ABI stabilityに問題があった。 N-APIではABI-stableな中間レイヤーを入れる。これによりNode-ChacraCoreなどでも互換APIが整備されている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v5.0.2 · npm/npm",
-        "url": "https://github.com/npm/npm/releases/tag/v5.0.2",
-        "tags": [
-            "ReleaseNote",
-            "npm"
-        ],
-        "content": "npm 5.0.2リリース。 `npm i -g npmc`でnpmのcanary版がインストールできるように。 インストールの出力結果の改善など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing Meteor 1.5 – Meteor Blog",
-        "url": "https://blog.meteor.com/announcing-meteor-1-5-b82be66571bb",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ree"
-        ],
-        "content": "Meteor 1.5リリース。\nCode splitting、Dynamic import、bundle解析ツールの追加など",
-        "relatedLinks": [
-            {
-                "title": "meteor/History.md at master · meteor/meteor",
-                "url": "https://github.com/meteor/meteor/blob/master/History.md#v15-2017-05-30"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Introduction to State Management in Angular v2+ – OlricDigital – Medium",
-        "url": "https://medium.com/olricdigital/introduction-to-state-management-in-angular-v2-ef6f5144bade",
-        "tags": [
-            "AngularJS"
-        ],
-        "content": "Angularでのステート管理について。\n`@ngrx/store`を使ったステート管理の解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "HTTP/2 push is tougher than I thought - JakeArchibald.com",
-        "url": "https://jakearchibald.com/2017/h2-push-tougher-than-i-thought/",
-        "tags": [
-            "HTTP2",
-            "browser"
-        ],
-        "content": "HTTP/2 Server Pushに関するブラウザごとの挙動についてのまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Whats new for streams in Node 8 – Calvin Metcalf – Medium",
-        "url": "https://medium.com/@CWMma/whats-new-for-streams-in-node-8-736d431083df",
-        "tags": [
-            "node.js"
-        ],
-        "content": "Node.js 8.0.0でStreamに追加された`destroy`について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Redux vs MobX: Which Is Best for Your Project? — SitePoint",
-        "url": "https://www.sitepoint.com/redux-vs-mobx-which-is-best/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "opinion",
-            "redux"
-        ],
-        "content": "ReduxとMobXの比較。 それぞれの特徴や書き方の違いなどについて雑感が書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Into the Great Unknown — Migrating from Mocha to Jest",
-        "url": "https://ebaytech.berlin/into-the-great-unknown-migrating-from-mocha-to-jest-3baced083c7e",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "article"
-        ],
-        "content": "MochaからJestへテストを移行した話。\ncodemodを使ったマイグレーション、js以外を読み込んでいた時のhook処理、ESLintの設定など。\nまた複雑なテストやchaiの拡張を使っている場合に自動で移行できないケースについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Announcing Storybook 3.0 – Storybook – Medium",
-        "url": "https://medium.com/storybookjs/announcing-storybook-3-0-329748b8f4cd",
-        "tags": [
-            "React",
-            "library",
-            "document",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "Reactのコンポーネント開発環境ツールであるStorybook 3.0リリース。\n開発の主体がKadiraからコミュニティへ、webpack 2の対応、スナップショットテストを行う`storyshots`のサポートなど",
-        "relatedLinks": [
-            {
-                "title": "Releases · storybooks/storybook",
-                "url": "https://github.com/storybooks/storybook/releases"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "RailsエンジニアがReactを始めてSSRとReduxとTypeScriptを導入するまで | bitjourney Kibela",
-        "url": "https://bitjourney.kibe.la/shared/entries/5c77844d-9856-4f1c-b689-44b1ee3d450a",
-        "tags": [
-            "React",
-            "TypeScript",
-            "rails",
-            "slide"
-        ],
-        "content": "Railsの環境にReact+Reduxとサーバサイドレンダリングを導入するまでの話。\n後からTypeScriptを導入した流れについて。",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "WebAssembly and Friends Roadmap",
-        "url": "https://wasmdash.appspot.com/",
-        "tags": [
-            "Chrome",
-            "WebAssembly"
-        ],
-        "content": "Chromeのwasm関係のロードマップ",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "MIL WebDNN",
-        "url": "https://mil-tokyo.github.io/webdnn/",
-        "tags": [
-            "WebAssembly",
-            "機械学習"
-        ],
-        "content": "WebGPU、WebAssembly、JavaScriptのFallbackを持ったディープニューラルネットワーク(DNN)の実行環境の実装。\nブラウザ上で高速に処理することが目的。",
-        "relatedLinks": [
-            {
-                "title": "MIL WebDNN(日本語)",
-                "url": "https://mil-tokyo.github.io/webdnn/ja/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "picodom/picodom: 1kb Virtual DOM builder and patch algorithm.",
-        "url": "https://github.com/picodom/picodom",
-        "tags": [
-            "VirtualDOM",
-            "JavaScript",
-            "library"
-        ],
-        "content": "小さなVirtual DOM実装ライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Birdview",
-        "url": "http://achrafkassioui.com/birdview/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "サイト全体を俯瞰する表示に切り替えることができるライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "O'Reilly Japan - サーバーレスシングルページアプリケーション",
-        "url": "https://www.oreilly.co.jp/books/9784873118062/",
-        "tags": [
-            "serverless",
-            "JavaScript",
-            "book"
-        ],
-        "content": "2017年06月23日発売\naws lambdaなど使ったサーバレスのSPAについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "基礎からわかる Elm | 鳥居 陽介 |本 | 通販 | Amazon",
-        "url": "https://www.amazon.co.jp/%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E3%82%8F%E3%81%8B%E3%82%8B-Elm-%E9%B3%A5%E5%B1%85-%E9%99%BD%E4%BB%8B/dp/4863542224",
-        "tags": [
-            "program",
-            "book"
-        ],
-        "content": "2017年7月14日発売\nElmについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Get Programming with JavaScript Next: New features of ECMAScript 2015, 2016, and beyond: J. D. Isaacks: 9781617294204: Amazon.com: Books",
-        "url": "https://www.amazon.com/Get-Programming-JavaScript-Next-ECMAScript/dp/1617294209",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "2017年12月30日発売\nES2015以降について扱う書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Node v8.0.0 (Current) | Node.js",
+            "url": "https://nodejs.org/en/blog/release/v8.0.0/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node.js 8.0.0リリース。\nnpm 5.0.0、V8 5.8、N-API(Node.js API)、`async_hooks`、WHATWG URLを正式サポート、`Buffer`コンストラクタのzero-filledをデフォルト化、`util.promisify`の追加、Node.jsが生成するErrorに`code`がつくように。\nまた`--debug`が廃止され`--inspect`でデバッガーと連携できるようになるなど",
+            "relatedLinks": [
+                {
+                    "title": "Node8の注目的変更まとめ - 技術探し",
+                    "url": "http://abouthiroppy.hatenablog.jp/entry/2017/05/30/090015"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "npm/CHANGELOG.md at v5.0.1 · npm/npm",
+            "url": "https://github.com/npm/npm/blob/v5.0.1/CHANGELOG.md",
+            "tags": [
+                "npm",
+                "ReleaseNote"
+            ],
+            "content": "npm 5.0.1リリース。\n5.0.0のバグ修正が中心。余計なassertionを削除してインストール速度の改善など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release Notes for Safari Technology Preview 31 | WebKit",
+            "url": "https://webkit.org/blog/7622/release-notes-for-safari-technology-preview-31/",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "Safari Technology Preview Release 31リリース。\n`preload`で`as`や`type`属性のサポート、Access-Control-Allow-Originのエラーメッセージを改善など",
+            "relatedLinks": [
+                {
+                    "title": "162819 – Improve error message for Access-Control-Allow-Origin violation due to misconfigured server",
+                    "url": "https://bugs.webkit.org/show_bug.cgi?id=162819"
+                },
+                {
+                    "title": "321517 - Developer tools misleading error description on CORS XHR with multiple Access-Control-Allow-Origin response headers - chromium - Monorail",
+                    "url": "https://bugs.chromium.org/p/chromium/issues/detail?id=321517"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "N-API: Next generation Node.js APIs for native modules",
+            "url": "https://medium.com/@nodejs/n-api-next-generation-node-js-apis-for-native-modules-169af5235b06",
+            "tags": [
+                "C++",
+                "ChakraCore",
+                "V8",
+                "node.js"
+            ],
+            "content": "Node.js 8.0.0で導入されたN-APIについて。 いままでネイティブモジュールを書く際にNANなどもあったが、それはV8に依存していたためAPI/ABI stabilityに問題があった。 N-APIではABI-stableな中間レイヤーを入れる。これによりNode-ChacraCoreなどでも互換APIが整備されている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v5.0.2 · npm/npm",
+            "url": "https://github.com/npm/npm/releases/tag/v5.0.2",
+            "tags": [
+                "ReleaseNote",
+                "npm"
+            ],
+            "content": "npm 5.0.2リリース。 `npm i -g npmc`でnpmのcanary版がインストールできるように。 インストールの出力結果の改善など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing Meteor 1.5 – Meteor Blog",
+            "url": "https://blog.meteor.com/announcing-meteor-1-5-b82be66571bb",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ree"
+            ],
+            "content": "Meteor 1.5リリース。\nCode splitting、Dynamic import、bundle解析ツールの追加など",
+            "relatedLinks": [
+                {
+                    "title": "meteor/History.md at master · meteor/meteor",
+                    "url": "https://github.com/meteor/meteor/blob/master/History.md#v15-2017-05-30"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Introduction to State Management in Angular v2+ – OlricDigital – Medium",
+            "url": "https://medium.com/olricdigital/introduction-to-state-management-in-angular-v2-ef6f5144bade",
+            "tags": [
+                "AngularJS"
+            ],
+            "content": "Angularでのステート管理について。\n`@ngrx/store`を使ったステート管理の解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "HTTP/2 push is tougher than I thought - JakeArchibald.com",
+            "url": "https://jakearchibald.com/2017/h2-push-tougher-than-i-thought/",
+            "tags": [
+                "HTTP2",
+                "browser"
+            ],
+            "content": "HTTP/2 Server Pushに関するブラウザごとの挙動についてのまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Whats new for streams in Node 8 – Calvin Metcalf – Medium",
+            "url": "https://medium.com/@CWMma/whats-new-for-streams-in-node-8-736d431083df",
+            "tags": [
+                "node.js"
+            ],
+            "content": "Node.js 8.0.0でStreamに追加された`destroy`について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Redux vs MobX: Which Is Best for Your Project? — SitePoint",
+            "url": "https://www.sitepoint.com/redux-vs-mobx-which-is-best/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "opinion",
+                "redux"
+            ],
+            "content": "ReduxとMobXの比較。 それぞれの特徴や書き方の違いなどについて雑感が書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Into the Great Unknown — Migrating from Mocha to Jest",
+            "url": "https://ebaytech.berlin/into-the-great-unknown-migrating-from-mocha-to-jest-3baced083c7e",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "article"
+            ],
+            "content": "MochaからJestへテストを移行した話。\ncodemodを使ったマイグレーション、js以外を読み込んでいた時のhook処理、ESLintの設定など。\nまた複雑なテストやchaiの拡張を使っている場合に自動で移行できないケースについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Announcing Storybook 3.0 – Storybook – Medium",
+            "url": "https://medium.com/storybookjs/announcing-storybook-3-0-329748b8f4cd",
+            "tags": [
+                "React",
+                "library",
+                "document",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "Reactのコンポーネント開発環境ツールであるStorybook 3.0リリース。\n開発の主体がKadiraからコミュニティへ、webpack 2の対応、スナップショットテストを行う`storyshots`のサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "Releases · storybooks/storybook",
+                    "url": "https://github.com/storybooks/storybook/releases"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "RailsエンジニアがReactを始めてSSRとReduxとTypeScriptを導入するまで | bitjourney Kibela",
+            "url": "https://bitjourney.kibe.la/shared/entries/5c77844d-9856-4f1c-b689-44b1ee3d450a",
+            "tags": [
+                "React",
+                "TypeScript",
+                "rails",
+                "slide"
+            ],
+            "content": "Railsの環境にReact+Reduxとサーバサイドレンダリングを導入するまでの話。\n後からTypeScriptを導入した流れについて。",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "WebAssembly and Friends Roadmap",
+            "url": "https://wasmdash.appspot.com/",
+            "tags": [
+                "Chrome",
+                "WebAssembly"
+            ],
+            "content": "Chromeのwasm関係のロードマップ",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "MIL WebDNN",
+            "url": "https://mil-tokyo.github.io/webdnn/",
+            "tags": [
+                "WebAssembly",
+                "機械学習"
+            ],
+            "content": "WebGPU、WebAssembly、JavaScriptのFallbackを持ったディープニューラルネットワーク(DNN)の実行環境の実装。\nブラウザ上で高速に処理することが目的。",
+            "relatedLinks": [
+                {
+                    "title": "MIL WebDNN(日本語)",
+                    "url": "https://mil-tokyo.github.io/webdnn/ja/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "picodom/picodom: 1kb Virtual DOM builder and patch algorithm.",
+            "url": "https://github.com/picodom/picodom",
+            "tags": [
+                "VirtualDOM",
+                "JavaScript",
+                "library"
+            ],
+            "content": "小さなVirtual DOM実装ライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Birdview",
+            "url": "http://achrafkassioui.com/birdview/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "サイト全体を俯瞰する表示に切り替えることができるライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "O'Reilly Japan - サーバーレスシングルページアプリケーション",
+            "url": "https://www.oreilly.co.jp/books/9784873118062/",
+            "tags": [
+                "serverless",
+                "JavaScript",
+                "book"
+            ],
+            "content": "2017年06月23日発売\naws lambdaなど使ったサーバレスのSPAについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "基礎からわかる Elm | 鳥居 陽介 |本 | 通販 | Amazon",
+            "url": "https://www.amazon.co.jp/%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E3%82%8F%E3%81%8B%E3%82%8B-Elm-%E9%B3%A5%E5%B1%85-%E9%99%BD%E4%BB%8B/dp/4863542224",
+            "tags": [
+                "program",
+                "book"
+            ],
+            "content": "2017年7月14日発売\nElmについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Get Programming with JavaScript Next: New features of ECMAScript 2015, 2016, and beyond: J. D. Isaacks: 9781617294204: Amazon.com: Books",
+            "url": "https://www.amazon.com/Get-Programming-JavaScript-Next-ECMAScript/dp/1617294209",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "2017年12月30日発売\nES2015以降について扱う書籍",
+            "relatedLinks": []
+        }
+    ]
+}

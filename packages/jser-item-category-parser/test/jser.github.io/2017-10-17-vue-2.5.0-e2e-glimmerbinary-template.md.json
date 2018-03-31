@@ -1,261 +1,276 @@
-[
-    {
-        "category": "Headline",
-        "title": "TestCafe v0.18.0 Released - Angular Selectors, Using Multiple Reporters, etc | TestCafe",
-        "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-18-0-released.html",
-        "tags": [
-            "testing",
-            "E2E",
-            "ReleaseNote"
-        ],
-        "content": "TestCafe v0.18.0リリース。\nAngular Selectorのサポート、出力に複数のreporterを指定できるように、FirefoxとChromeでクリーンなプロファイルを使うように、`t.getBrowserConsoleMessages`でコンソールに出力された内容を取得できるようになるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing TypeScript 2.6 RC | TypeScript",
-        "url": "https://blogs.msdn.microsoft.com/typescript/2017/10/12/announcing-typescript-2-6-rc/",
-        "tags": [
-            "TypeScript",
-            "ReleaseNote"
-        ],
-        "content": "TypeScript 2.6 RCリリース。\n`--strictFunctionTypes`の追加、`// @ts-ignore`でのエラーを抑制するコメントをサポート、`--locale`でCLIの多言語対応、`tsc --watch`の速度改善など",
-        "relatedLinks": [
-            {
-                "title": "What",
-                "url": "https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-26"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release v2.5.0 Level E · vuejs/vue",
-        "url": "https://github.com/vuejs/vue/releases/tag/v2.5.0",
+{
+    "meta": {
+        "title": "2017-10-17のJS: Vue 2.5.0、E2Eテストフレームワーク、GlimmerのBinary Template",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-10-17T00:54:58.535Z",
+        "category": "JSer",
         "tags": [
             "Vue",
-            "ReleaseNote"
-        ],
-        "content": "Vue 2.5.0リリース。\n`errorCaptured` hookでのエラーハンドリングができるように、TypeScriptの型を改善(破壊的変更)、`v-on`に`.exact` modifierを追加など",
-        "relatedLinks": [
-            {
-                "title": "Vue 2.5 release details",
-                "url": "https://gist.github.com/yyx990803/9bdff05e5468a60ced06c29c39114c6b"
-            },
-            {
-                "title": "Upcoming TypeScript Changes in Vue 2.5 – The Vue Point – Medium",
-                "url": "https://medium.com/the-vue-point/upcoming-typescript-changes-in-vue-2-5-e9bd7e2ecf08"
-            }
+            "E2E",
+            "Glimmer",
+            "Template"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "ESLint v4.9.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "https://eslint.org/blog/2017/10/eslint-v4.9.0-released",
-        "tags": [
-            "ESLint",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 4.9.0リリース。\n`--fix`でdry-run実行を行う`--fix-dry-run`オプションの追加など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Eloquent JavaScript Third Edition",
-        "url": "https://eloquentjavascript.net/3rd_edition/",
-        "tags": [
-            "book",
-            "JavaScript",
-            "news"
-        ],
-        "content": "Eloquent JavaScripの第三版のCrowdfundingが開始された",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ProseMirror 1.0",
-        "url": "http://marijnhaverbeke.nl/blog/prosemirror-1.html",
-        "tags": [
-            "JavaScript",
-            "editor",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "ProseMirror 1.0リリース。\nProseMirrorはよりよいWYSIWYG-styleのエディタを実装できるコアライブラリで、ProseMirror自体は特定のドキュメント形式には依存していないことが特徴。\n1.xからは安定版とRFCプロセスによる開発を行うという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v3.7.0 · webpack/webpack",
-        "url": "https://github.com/webpack/webpack/releases/tag/v3.7.0",
-        "tags": [
-            "webpack",
-            "ReleaseNote"
-        ],
-        "content": "webpack v3.7.0リリース。\n`CommonChunkPlugin`プラグインに`deepChildren`オプションを追加を追加、ES modulesのchunk graphのリファクタリングでパフォーマンスの改善など",
-        "relatedLinks": [
-            {
-                "title": "Added deepChildren support from ArcEglos",
-                "url": "https://github.com/webpack/webpack/pull/5764"
-            },
-            {
-                "title": "webpack/examples/common-chunk-grandchildren at master · webpack/webpack",
-                "url": "https://github.com/webpack/webpack/tree/master/examples/common-chunk-grandchildren"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Ember.js - Glimmer.js Progress Report",
-        "url": "https://emberjs.com/blog/2017/10/10/glimmer-progress-report.html",
-        "tags": [
-            "JavaScript",
-            "article"
-        ],
-        "content": "Glimmer.jsについてのステータスについて。\nタグが`<Button />`のようにCapitalスタイルとなるように、要素のプロパティと属性を`@`で区別できるように、Portalのサポート。\nテンプレートをバイナリにするBinary Templatesのサポート予定やSSRについて",
-        "relatedLinks": [
-            {
-                "title": "Glimmer",
-                "url": "https://www.linkedin.com/pulse/glimmers-optimizing-compiler-chad-hietala/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Cypress.io | JavaScript End to End Testing | Cypress is now public beta",
-        "url": "https://www.cypress.io/blog/2017/10/10/cypress-is-now-public-beta/",
-        "tags": [
-            "testing",
-            "browser",
-            "library"
-        ],
-        "content": "E2EテストフレームワークのCypressがオープンソースとして公開された。",
-        "relatedLinks": [
-            {
-                "title": "cypress-io/cypress: Cypress is a test runner that helps you write automated tests in the browser.",
-                "url": "https://github.com/cypress-io/cypress"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Dependency Inversion with Redux-Thunk & Typescript – Dave L. – Medium",
-        "url": "https://medium.com/@david.losert_73564/dependency-inversion-with-redux-thunk-typescript-e09cebabdc1f",
-        "tags": [
-            "redux",
-            "testing",
-            "article"
-        ],
-        "content": "redux-thunkの`thunk.withExtraArgument(deps)`を使って依存関係逆転の原則(DIP)を適応する方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "What's New In DevTools (Chrome 63)  |  Web  |  Google Developers",
-        "url": "https://developers.google.com/web/updates/2017/10/devtools-release-notes",
-        "tags": [
-            "Chrome",
-            "debug",
-            "article"
-        ],
-        "content": "Chrome 63の開発者ツールについて。\nAuditsパネルにSynkDBを使った脆弱性情報の表示、Workspaces 2.0、remote debuggingが複数のクライアントの同時接続に対応など",
-        "relatedLinks": [
-            {
-                "title": "Release 2.5.0 · GoogleChrome/lighthouse",
-                "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v2.5.0"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "NPM Task Running Techniques – Netscape – Medium",
-        "url": "https://medium.com/netscape/npm-task-running-techniques-15fe5b697f15",
-        "tags": [
-            "npm",
-            "console",
-            "Tools",
-            "article"
-        ],
-        "content": "npm-run-allを使ったnpm-run-scriptsの実行管理や`wait-on`を使ったサーバが起動するのを待ってからコマンドを処理する方法など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Node.js - a tale of two bugs",
-        "url": "https://dev.to/mikeralphson/nodejs---a-tale-of-two-bugs-18c",
-        "tags": [
-            "node.js",
-            "issue",
-            "performance",
-            "article"
-        ],
-        "content": "Node.jsで7.x以降にパフォーマンスリグレッションを見つけ、どのようにデバッグし問題を特定したかについて。\n原因としてはV8の`Error.captureStackTrace`のリグレッションであり、Node.js 8.7.0で修正される予定。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "The productive developer guide to React",
-        "url": "https://www.slideshare.net/mauricedb/the-productive-developer-guide-to-react-80642342",
-        "tags": [
-            "React",
-            "slide"
-        ],
-        "content": "Reactを使った開発についてのスライド。\n入門的な内容でReactの利点/問題点、create-react-appやRedux、ルーティング\nなどについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "GoogleChrome/confluence: Service and API for Web API Confluence: Metrics for web platform health",
-        "url": "https://github.com/GoogleChrome/confluence",
-        "tags": [
-            "browser",
-            "WebPlatformAPI"
-        ],
-        "content": "各ブラウザの特有のAPIの数や削除したAPIの数、Shipに失敗したAPIの数、ベロシティなどを可視化してくれるサイト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "dt-fe/number-precision: 🚀1K tiny & fast lib for doing addition, subtraction, multiplication and division operations precisely",
-        "url": "https://github.com/dt-fe/number-precision",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "浮動小数点数同士の演算を行うライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "SpireTeam/whitelister: Simple, basic filtering and validation tool for Node.js.",
-        "url": "https://github.com/SpireTeam/whitelister",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "依存がないフィルタリング/バリデーションライブラリ。\nデフォルトでは結果をPromiseで返し、`sync`メソッドで同期的に処理できる。\nルールに違反した場合はカスタムエラーを投げるようになっている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "planttheidea/fast-equals: A blazing fast equality comparison, either shallow or deep",
-        "url": "https://github.com/planttheidea/fast-equals",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "deep-equal、shallow-equalを行うライブラリ。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Atomic Design by Brad Frost",
-        "url": "http://atomicdesign.bradfrost.com/",
-        "tags": [
-            "GUI",
-            "CSS",
-            "book"
-        ],
-        "content": "Atomic Designについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "TestCafe v0.18.0 Released - Angular Selectors, Using Multiple Reporters, etc | TestCafe",
+            "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-18-0-released.html",
+            "tags": [
+                "testing",
+                "E2E",
+                "ReleaseNote"
+            ],
+            "content": "TestCafe v0.18.0リリース。\nAngular Selectorのサポート、出力に複数のreporterを指定できるように、FirefoxとChromeでクリーンなプロファイルを使うように、`t.getBrowserConsoleMessages`でコンソールに出力された内容を取得できるようになるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing TypeScript 2.6 RC | TypeScript",
+            "url": "https://blogs.msdn.microsoft.com/typescript/2017/10/12/announcing-typescript-2-6-rc/",
+            "tags": [
+                "TypeScript",
+                "ReleaseNote"
+            ],
+            "content": "TypeScript 2.6 RCリリース。\n`--strictFunctionTypes`の追加、`// @ts-ignore`でのエラーを抑制するコメントをサポート、`--locale`でCLIの多言語対応、`tsc --watch`の速度改善など",
+            "relatedLinks": [
+                {
+                    "title": "What",
+                    "url": "https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-26"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release v2.5.0 Level E · vuejs/vue",
+            "url": "https://github.com/vuejs/vue/releases/tag/v2.5.0",
+            "tags": [
+                "Vue",
+                "ReleaseNote"
+            ],
+            "content": "Vue 2.5.0リリース。\n`errorCaptured` hookでのエラーハンドリングができるように、TypeScriptの型を改善(破壊的変更)、`v-on`に`.exact` modifierを追加など",
+            "relatedLinks": [
+                {
+                    "title": "Vue 2.5 release details",
+                    "url": "https://gist.github.com/yyx990803/9bdff05e5468a60ced06c29c39114c6b"
+                },
+                {
+                    "title": "Upcoming TypeScript Changes in Vue 2.5 – The Vue Point – Medium",
+                    "url": "https://medium.com/the-vue-point/upcoming-typescript-changes-in-vue-2-5-e9bd7e2ecf08"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v4.9.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "https://eslint.org/blog/2017/10/eslint-v4.9.0-released",
+            "tags": [
+                "ESLint",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 4.9.0リリース。\n`--fix`でdry-run実行を行う`--fix-dry-run`オプションの追加など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Eloquent JavaScript Third Edition",
+            "url": "https://eloquentjavascript.net/3rd_edition/",
+            "tags": [
+                "book",
+                "JavaScript",
+                "news"
+            ],
+            "content": "Eloquent JavaScripの第三版のCrowdfundingが開始された",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ProseMirror 1.0",
+            "url": "http://marijnhaverbeke.nl/blog/prosemirror-1.html",
+            "tags": [
+                "JavaScript",
+                "editor",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "ProseMirror 1.0リリース。\nProseMirrorはよりよいWYSIWYG-styleのエディタを実装できるコアライブラリで、ProseMirror自体は特定のドキュメント形式には依存していないことが特徴。\n1.xからは安定版とRFCプロセスによる開発を行うという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v3.7.0 · webpack/webpack",
+            "url": "https://github.com/webpack/webpack/releases/tag/v3.7.0",
+            "tags": [
+                "webpack",
+                "ReleaseNote"
+            ],
+            "content": "webpack v3.7.0リリース。\n`CommonChunkPlugin`プラグインに`deepChildren`オプションを追加を追加、ES modulesのchunk graphのリファクタリングでパフォーマンスの改善など",
+            "relatedLinks": [
+                {
+                    "title": "Added deepChildren support from ArcEglos",
+                    "url": "https://github.com/webpack/webpack/pull/5764"
+                },
+                {
+                    "title": "webpack/examples/common-chunk-grandchildren at master · webpack/webpack",
+                    "url": "https://github.com/webpack/webpack/tree/master/examples/common-chunk-grandchildren"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Ember.js - Glimmer.js Progress Report",
+            "url": "https://emberjs.com/blog/2017/10/10/glimmer-progress-report.html",
+            "tags": [
+                "JavaScript",
+                "article"
+            ],
+            "content": "Glimmer.jsについてのステータスについて。\nタグが`<Button />`のようにCapitalスタイルとなるように、要素のプロパティと属性を`@`で区別できるように、Portalのサポート。\nテンプレートをバイナリにするBinary Templatesのサポート予定やSSRについて",
+            "relatedLinks": [
+                {
+                    "title": "Glimmer",
+                    "url": "https://www.linkedin.com/pulse/glimmers-optimizing-compiler-chad-hietala/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Cypress.io | JavaScript End to End Testing | Cypress is now public beta",
+            "url": "https://www.cypress.io/blog/2017/10/10/cypress-is-now-public-beta/",
+            "tags": [
+                "testing",
+                "browser",
+                "library"
+            ],
+            "content": "E2EテストフレームワークのCypressがオープンソースとして公開された。",
+            "relatedLinks": [
+                {
+                    "title": "cypress-io/cypress: Cypress is a test runner that helps you write automated tests in the browser.",
+                    "url": "https://github.com/cypress-io/cypress"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Dependency Inversion with Redux-Thunk & Typescript – Dave L. – Medium",
+            "url": "https://medium.com/@david.losert_73564/dependency-inversion-with-redux-thunk-typescript-e09cebabdc1f",
+            "tags": [
+                "redux",
+                "testing",
+                "article"
+            ],
+            "content": "redux-thunkの`thunk.withExtraArgument(deps)`を使って依存関係逆転の原則(DIP)を適応する方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "What's New In DevTools (Chrome 63)  |  Web  |  Google Developers",
+            "url": "https://developers.google.com/web/updates/2017/10/devtools-release-notes",
+            "tags": [
+                "Chrome",
+                "debug",
+                "article"
+            ],
+            "content": "Chrome 63の開発者ツールについて。\nAuditsパネルにSynkDBを使った脆弱性情報の表示、Workspaces 2.0、remote debuggingが複数のクライアントの同時接続に対応など",
+            "relatedLinks": [
+                {
+                    "title": "Release 2.5.0 · GoogleChrome/lighthouse",
+                    "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v2.5.0"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "NPM Task Running Techniques – Netscape – Medium",
+            "url": "https://medium.com/netscape/npm-task-running-techniques-15fe5b697f15",
+            "tags": [
+                "npm",
+                "console",
+                "Tools",
+                "article"
+            ],
+            "content": "npm-run-allを使ったnpm-run-scriptsの実行管理や`wait-on`を使ったサーバが起動するのを待ってからコマンドを処理する方法など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Node.js - a tale of two bugs",
+            "url": "https://dev.to/mikeralphson/nodejs---a-tale-of-two-bugs-18c",
+            "tags": [
+                "node.js",
+                "issue",
+                "performance",
+                "article"
+            ],
+            "content": "Node.jsで7.x以降にパフォーマンスリグレッションを見つけ、どのようにデバッグし問題を特定したかについて。\n原因としてはV8の`Error.captureStackTrace`のリグレッションであり、Node.js 8.7.0で修正される予定。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "The productive developer guide to React",
+            "url": "https://www.slideshare.net/mauricedb/the-productive-developer-guide-to-react-80642342",
+            "tags": [
+                "React",
+                "slide"
+            ],
+            "content": "Reactを使った開発についてのスライド。\n入門的な内容でReactの利点/問題点、create-react-appやRedux、ルーティング\nなどについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "GoogleChrome/confluence: Service and API for Web API Confluence: Metrics for web platform health",
+            "url": "https://github.com/GoogleChrome/confluence",
+            "tags": [
+                "browser",
+                "WebPlatformAPI"
+            ],
+            "content": "各ブラウザの特有のAPIの数や削除したAPIの数、Shipに失敗したAPIの数、ベロシティなどを可視化してくれるサイト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "dt-fe/number-precision: 🚀1K tiny & fast lib for doing addition, subtraction, multiplication and division operations precisely",
+            "url": "https://github.com/dt-fe/number-precision",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "浮動小数点数同士の演算を行うライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "SpireTeam/whitelister: Simple, basic filtering and validation tool for Node.js.",
+            "url": "https://github.com/SpireTeam/whitelister",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "依存がないフィルタリング/バリデーションライブラリ。\nデフォルトでは結果をPromiseで返し、`sync`メソッドで同期的に処理できる。\nルールに違反した場合はカスタムエラーを投げるようになっている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "planttheidea/fast-equals: A blazing fast equality comparison, either shallow or deep",
+            "url": "https://github.com/planttheidea/fast-equals",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "deep-equal、shallow-equalを行うライブラリ。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Atomic Design by Brad Frost",
+            "url": "http://atomicdesign.bradfrost.com/",
+            "tags": [
+                "GUI",
+                "CSS",
+                "book"
+            ],
+            "content": "Atomic Designについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

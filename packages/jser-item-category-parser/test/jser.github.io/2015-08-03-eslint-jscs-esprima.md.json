@@ -1,205 +1,221 @@
-[
-    {
-        "category": "Headline",
-        "title": "ESLint 1.0.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/07/eslint-1.0.0-released",
+{
+    "meta": {
+        "title": "2015-08-03のJS: ESLint 1.0.0、JSCS 2.0.0、Esprima 2.5.0",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-08-03T12:52:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 1.0.0リリース。\nES6の対応改善、`--reset`がデフォルトの挙動となり設定なしではルールを持たないようになった。\n\"eslint:recommended\"の設定を継承することで今までと同じデフォルト設定が得られる。",
-        "relatedLinks": [
-            {
-                "title": "Documentation - ESLint - Pluggable JavaScript linter",
-                "url": "http://eslint.org/docs/user-guide/migrating-to-1.0.0"
-            },
-            {
-                "title": "ESLint 1.0.0新ルールまとめ - Qiita",
-                "url": "http://qiita.com/armorik83/items/228b97bee25aa33c9850"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release 2.0.0 · jscs-dev/node-jscs",
-        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v2.0.0",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "JavaScriptスタイルチェックツールJSCS 2.0.0リリース。\nES.nextをサポートする`--esnext`フラグの追加、CSTを実装しAutofixingに利用するように、ES6に対応したルールの追加、コメントによるルールの無効化のサポートなど",
-        "relatedLinks": [
-            {
-                "title": "mdevils/cst",
-                "url": "https://github.com/mdevils/cst"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release 2.5.0 · jquery/esprima",
-        "url": "https://github.com/jquery/esprima/releases/tag/2.5.0",
-        "tags": [
-            "JavaScript",
+            "Lint",
+            "Tool",
             "AST",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Esprima 2.5.0リリース。\nES6の全ての機能をパースできるように",
-        "relatedLinks": [
-            {
-                "title": "esprima/ChangeLog at 2.5.0 · jquery/esprima",
-                "url": "https://github.com/jquery/esprima/blob/2.5.0/ChangeLog"
-            },
-            {
-                "title": "ES6 Main Tracking Issue · Issue #1099 · jquery/esprima",
-                "url": "https://github.com/jquery/esprima/issues/1099"
-            },
-            {
-                "title": "Esprima Meeting Agenda - Google ドキュメント",
-                "url": "https://docs.google.com/document/d/1l02VT94tdphwUUZfPJorRYOY0Q_v41R_TyYhKayiP9M/edit"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Flow | Version 0.14.0",
-        "url": "http://flowtype.org/blog/2015/07/29/Version-0.14.0.html",
-        "tags": [
-            "flowtype",
-            "ReleaseNote"
-        ],
-        "content": "Flow 0.14.0リリース。\n型指定してないパラメータを`any`と扱うように、Flowコメント構文をブロックコメント内で使えるようになるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "| Intern 3 is here! | Blog | SitePen",
-        "url": "https://www.sitepen.com/blog/2015/07/30/intern-3-is-here/",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "JavaScriptテストフレームワークのIntern 3リリース。\nIE8のサポート終了、ES6の対応改善、d.tsを追加、QUnit互換のサポートなど",
-        "relatedLinks": [
-            {
-                "title": "Release 3.0.0 · theintern/intern",
-                "url": "https://github.com/theintern/intern/releases/3.0.0"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Linting JavaScript in 2015",
-        "url": "http://blog.lauritz.me/linting-javascript-in-2015/",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "ESLintを使ってJavaScriptのコードをLintする方法についての紹介",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "New regular expression features in ECMAScript 6",
-        "url": "http://www.2ality.com/2015/07/regexp-es6.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "正規表現"
-        ],
-        "content": "ES6で追加された正規表現の要素について。\nsticky flag、Unicode flag、`\\u{...}`によるEscape sequencesについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Flux inside Web Workers — Medium",
-        "url": "https://medium.com/@nsisodiya/flux-inside-web-workers-cc51fb463882",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "DOM"
-        ],
-        "content": "DOM lessな実装をしてればWeb Workerでも動かせる。\nFluxをベースにStore->View、View->ActionをpostMessageでやりとりすることで、View以外をWeb Worker上で処理できるという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Isomorphic Architecture を実装してるときの細かいアレコレ ::ハブろぐ",
-        "url": "http://havelog.ayumusato.com/develop/javascript/e682-universal_architecture_tips.html",
-        "tags": [
-            "isomorphic",
+            "ES6",
             "JavaScript"
-        ],
-        "content": "シングルページアプリケーションとサーバサイドレンダリングを扱う際に起こる問題と解決策について。\n設定の共有をするか、UAの評価、React Componentの`<head>`への適応方法、ライフサイクルの管理などについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Non-blocking Asynchronous JSON.parse Using The Fetch API",
-        "url": "http://azimi.me/2015/07/30/non-blocking-async-json-parse.html",
-        "tags": [
-            "JavaScript",
-            "JSON"
-        ],
-        "content": "Fetch APIで提供されてる`Response`オブジェクトを使い`(new Response(string)).json()`を非同期JSON.parseとして利用する方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Learning RiotJS - Video Tutorial Playlist @eggheadio",
-        "url": "https://egghead.io/playlists/learning-riotjs",
-        "tags": [
-            "JavaScript",
-            "tutorial",
-            "動画",
-            "library"
-        ],
-        "content": "Riot.JSについてのスクリーンキャストシリーズ",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Mithril",
-        "url": "http://mithril-ja.js.org/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "翻訳"
-        ],
-        "content": "Mithrilの日本語訳ページ",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "WebRTCセキュリティレポート · A Study of WebRTC Security",
-        "url": "http://webrtc-security.github.io/report_ja/",
-        "tags": [
-            "JavaScript",
-            "WebRTC",
-            "セキュリティ"
-        ],
-        "content": "WebRTCのセキュリティについての文章。\nWebRTCがどういう仕組みで動いているのか、信頼性が何をベースとして構築されているか、暗号のメカニズム、安全に扱う方法についてなど",
-        "relatedLinks": [
-            {
-                "title": "WebRTC入門+最新動向",
-                "url": "http://www.slideshare.net/rotsuya/intro-webrtcppt"
-            }
         ]
     },
-    {
-        "category": "Book",
-        "title": "Front-End Architecture - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920040156.do",
-        "tags": [
-            "JavaScript",
-            "CSS",
-            "book"
-        ],
-        "content": "2015年12月発売\nCSSプリプロセス、開発ワークフローツール、JavaScriptのライブラリなどフロントエンドについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "ESLint 1.0.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/07/eslint-1.0.0-released",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 1.0.0リリース。\nES6の対応改善、`--reset`がデフォルトの挙動となり設定なしではルールを持たないようになった。\n\"eslint:recommended\"の設定を継承することで今までと同じデフォルト設定が得られる。",
+            "relatedLinks": [
+                {
+                    "title": "Documentation - ESLint - Pluggable JavaScript linter",
+                    "url": "http://eslint.org/docs/user-guide/migrating-to-1.0.0"
+                },
+                {
+                    "title": "ESLint 1.0.0新ルールまとめ - Qiita",
+                    "url": "http://qiita.com/armorik83/items/228b97bee25aa33c9850"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 2.0.0 · jscs-dev/node-jscs",
+            "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v2.0.0",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "JavaScriptスタイルチェックツールJSCS 2.0.0リリース。\nES.nextをサポートする`--esnext`フラグの追加、CSTを実装しAutofixingに利用するように、ES6に対応したルールの追加、コメントによるルールの無効化のサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "mdevils/cst",
+                    "url": "https://github.com/mdevils/cst"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 2.5.0 · jquery/esprima",
+            "url": "https://github.com/jquery/esprima/releases/tag/2.5.0",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Esprima 2.5.0リリース。\nES6の全ての機能をパースできるように",
+            "relatedLinks": [
+                {
+                    "title": "esprima/ChangeLog at 2.5.0 · jquery/esprima",
+                    "url": "https://github.com/jquery/esprima/blob/2.5.0/ChangeLog"
+                },
+                {
+                    "title": "ES6 Main Tracking Issue · Issue #1099 · jquery/esprima",
+                    "url": "https://github.com/jquery/esprima/issues/1099"
+                },
+                {
+                    "title": "Esprima Meeting Agenda - Google ドキュメント",
+                    "url": "https://docs.google.com/document/d/1l02VT94tdphwUUZfPJorRYOY0Q_v41R_TyYhKayiP9M/edit"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Flow | Version 0.14.0",
+            "url": "http://flowtype.org/blog/2015/07/29/Version-0.14.0.html",
+            "tags": [
+                "flowtype",
+                "ReleaseNote"
+            ],
+            "content": "Flow 0.14.0リリース。\n型指定してないパラメータを`any`と扱うように、Flowコメント構文をブロックコメント内で使えるようになるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "| Intern 3 is here! | Blog | SitePen",
+            "url": "https://www.sitepen.com/blog/2015/07/30/intern-3-is-here/",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "JavaScriptテストフレームワークのIntern 3リリース。\nIE8のサポート終了、ES6の対応改善、d.tsを追加、QUnit互換のサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "Release 3.0.0 · theintern/intern",
+                    "url": "https://github.com/theintern/intern/releases/3.0.0"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Linting JavaScript in 2015",
+            "url": "http://blog.lauritz.me/linting-javascript-in-2015/",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "ESLintを使ってJavaScriptのコードをLintする方法についての紹介",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "New regular expression features in ECMAScript 6",
+            "url": "http://www.2ality.com/2015/07/regexp-es6.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "正規表現"
+            ],
+            "content": "ES6で追加された正規表現の要素について。\nsticky flag、Unicode flag、`\\u{...}`によるEscape sequencesについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Flux inside Web Workers — Medium",
+            "url": "https://medium.com/@nsisodiya/flux-inside-web-workers-cc51fb463882",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "DOM"
+            ],
+            "content": "DOM lessな実装をしてればWeb Workerでも動かせる。\nFluxをベースにStore->View、View->ActionをpostMessageでやりとりすることで、View以外をWeb Worker上で処理できるという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Isomorphic Architecture を実装してるときの細かいアレコレ ::ハブろぐ",
+            "url": "http://havelog.ayumusato.com/develop/javascript/e682-universal_architecture_tips.html",
+            "tags": [
+                "isomorphic",
+                "JavaScript"
+            ],
+            "content": "シングルページアプリケーションとサーバサイドレンダリングを扱う際に起こる問題と解決策について。\n設定の共有をするか、UAの評価、React Componentの`<head>`への適応方法、ライフサイクルの管理などについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Non-blocking Asynchronous JSON.parse Using The Fetch API",
+            "url": "http://azimi.me/2015/07/30/non-blocking-async-json-parse.html",
+            "tags": [
+                "JavaScript",
+                "JSON"
+            ],
+            "content": "Fetch APIで提供されてる`Response`オブジェクトを使い`(new Response(string)).json()`を非同期JSON.parseとして利用する方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Learning RiotJS - Video Tutorial Playlist @eggheadio",
+            "url": "https://egghead.io/playlists/learning-riotjs",
+            "tags": [
+                "JavaScript",
+                "tutorial",
+                "動画",
+                "library"
+            ],
+            "content": "Riot.JSについてのスクリーンキャストシリーズ",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Mithril",
+            "url": "http://mithril-ja.js.org/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "翻訳"
+            ],
+            "content": "Mithrilの日本語訳ページ",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "WebRTCセキュリティレポート · A Study of WebRTC Security",
+            "url": "http://webrtc-security.github.io/report_ja/",
+            "tags": [
+                "JavaScript",
+                "WebRTC",
+                "セキュリティ"
+            ],
+            "content": "WebRTCのセキュリティについての文章。\nWebRTCがどういう仕組みで動いているのか、信頼性が何をベースとして構築されているか、暗号のメカニズム、安全に扱う方法についてなど",
+            "relatedLinks": [
+                {
+                    "title": "WebRTC入門+最新動向",
+                    "url": "http://www.slideshare.net/rotsuya/intro-webrtcppt"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Front-End Architecture - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920040156.do",
+            "tags": [
+                "JavaScript",
+                "CSS",
+                "book"
+            ],
+            "content": "2015年12月発売\nCSSプリプロセス、開発ワークフローツール、JavaScriptのライブラリなどフロントエンドについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

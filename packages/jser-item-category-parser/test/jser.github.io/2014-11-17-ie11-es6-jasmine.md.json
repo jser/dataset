@@ -1,317 +1,331 @@
-[
-    {
-        "category": "Headline",
-        "title": "Living on the Edge – our next step in helping the web just work - IEBlog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx",
+{
+    "meta": {
+        "title": "2014-11-17のJS: IEプレビュー版のES6サポート、Jasmine 2.1.0、TypeScript 1.3",
+        "author": "azu",
+        "layout": "post",
+        "date": "2014-11-17T12:17:00.000Z",
+        "category": "JSer",
         "tags": [
             "IE",
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "IE12?の新しいプレビュー版が公開された。\n\n多くのES6の機能が入り、CSP 1.0、CSS Interaction Media Queries、Gamepad API等が実装された。\n\nまたドキュメントモードの挙動もEdgeがデフォルトとなり、互換表示となる場合が限定された。",
-        "relatedLinks": [
-            {
-                "title": "IE11 の「エンタープライズ モード」の新機能 – ドキュメント モードの指定 | Hebikuzure",
-                "url": "http://hebikuzure.wordpress.com/2014/11/13/ie11-enterprise-mode-improvement/"
-            },
-            {
-                "title": "さねゆき on Twitter: ",
-                "url": "https://twitter.com/saneyuki_s/status/532701057940348929"
-            },
-            {
-                "title": "Šime Vidas on Twitter: ",
-                "url": "https://twitter.com/simevidas/status/532749912333881344"
-            }
+            "ES6",
+            "Testing"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "jasmine/2.1.0.md at master · pivotal/jasmine",
-        "url": "https://github.com/pivotal/jasmine/blob/master/release_notes/2.1.0.md",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Jasmine 2.1.0リリース。\n\n`fit`、`fdescribe`で指定したテストのみを実行出来るように、`beforeAll`、`afterAll`のサポート、`fail`のサポート、それぞれタイムアウトの時間指定のサポート等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Sinon.JS/Changelog.txt at v1.12.1 · cjohansen/Sinon.JS",
-        "url": "https://github.com/cjohansen/Sinon.JS/blob/v1.12.1/Changelog.txt",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Sinon.JS 1.12.1 リリース。\n\nFake timersが単体のモジュールに分離、setImmediateとsetTimeoutを同時に使った時の順番の問題を改善、AMDの対応改善など",
-        "relatedLinks": [
-            {
-                "title": "sinonjs/lolex",
-                "url": "https://github.com/sinonjs/lolex"
-            },
-            {
-                "title": "Set immediate precedence by duncanbeevers · Pull Request #6 · sinonjs/lolex",
-                "url": "https://github.com/sinonjs/lolex/pull/6"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "power-assert/CHANGELOG.md at v0.10.0 · twada/power-assert",
-        "url": "https://github.com/twada/power-assert/blob/v0.10.0/CHANGELOG.md",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "power-assert 0.10.0リリース。\n\n設定や出力に使うモジュールを指定等が出来る`.customize` APIをサポート。\n\ndiff等のassert結果の細かいカスタマイズが可能になった",
-        "relatedLinks": [
-            {
-                "title": "power-assert, mechanism and philosophy",
-                "url": "http://www.slideshare.net/t_wada/power-assert-nodefest-2014"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing TypeScript 1.3 - TypeScript - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/typescript/archive/2014/11/12/announcing-typescript-1-3.aspx",
-        "tags": [
-            "TypeScript",
-            "ReleaseNote"
-        ],
-        "content": "TypeScript 1.3リリース。\n\n`protected` アクセス修飾子、tupleのサポート、Visual Studioでコード構文解析やリファクタリング機能の改善",
-        "relatedLinks": [
-            {
-                "title": "TypeScript 1.3.0 変更点 - Qiita",
-                "url": "http://qiita.com/vvakame/items/0b5060de5566f210479b"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release 4.0 “Indivisibiliter ac Inseparabiliter” · postcss/autoprefixer",
-        "url": "https://github.com/postcss/autoprefixer/releases/tag/4.0.0",
-        "tags": [
-            "CSS",
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "Autoprefixer 4.0リリース。 Source Mapがデフォルト有効に、`prev`でSource Mapを指定時にエラーが起きた時に元の行数を示せるように、不要なprefixの削除がデフォルト有効になる等",
-        "relatedLinks": [
-            {
-                "title": "PostCSS v3の変更点 - Weblog - Hail2u.net",
-                "url": "http://hail2u.net/blog/coding/postcss-v3.html"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Announcing ES6 and JSX Support - ESLint",
-        "url": "http://eslint.org/blog/2014/11/es6-jsx-support/",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "ESLintではES6とJSXをサポートしたブランチ `es6jsx` が用意されて、masterとは別モジュールとしてインストールする事でES6のコードに対応する。\nJSXはオプションで有効化出来る。 \n\nまた、現時点ではES6ではスコープの表現力が変わったため、正しく動作しないルールが存在している。\n\n年内にES6対応をリリース予定",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Underscore vs Lo-Dash",
-        "url": "http://benmccormick.org/2014/11/12/underscore-vs-lodash/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "UnderscoreとLo-Dashについて。\n\nLo-DashはUnderscoreを書き直し+機能追加したもの。\n\n2つの違いについてユーザビリティ、ファイルサイズ、バージョニング、追加機能、パフォーマンスの観点で書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "npm で依存もタスクも一元化する - Qiita",
-        "url": "http://qiita.com/Jxck_/items/efaff21b977ddc782971",
-        "tags": [
-            "npm",
-            "node.js",
-            "console",
-            "Tools"
-        ],
-        "content": "npm run-scriptをtask runnerのインターフェースとして使う話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "interact.js for drag and drop, resizing and multi-touch gestures ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2014/11/interact-js-for-drag-and-drop-resizing-and-multi-touch-gestures/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "要素をD&amp;D、リサイズ、multi-touch等に対応した処理を書くことが出来るinteract.jsについての紹介記事",
-        "relatedLinks": [
-            {
-                "title": "interact.js - JavaScript drag and drop, resizing and gestures with inertia and snapping",
-                "url": "http://interactjs.io/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Building a Q&amp;A System With Polymer and Firebase",
-        "url": "https://divshot.com/blog/web-components/building-a-qa-system-with-polymer-and-firebase/",
-        "tags": [
-            "JavaScript",
-            "tutorial",
-            "WebComponents"
-        ],
-        "content": "PolymerとFirebaseを使ったQ&amp;Aシステム作るチュートリアル",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "native\\_javascript\\_data\\_binding",
-        "url": "http://www.sellarafaeli.com/blog/native_javascript_data_binding",
-        "tags": [
-            "JavaScript",
-            "tutorial"
-        ],
-        "content": "Object.observeを使ったデータバインディング、getter/setterを使ったデータバインディングの実装について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "wilmoore/frontend-packagers",
-        "url": "https://github.com/wilmoore/frontend-packagers",
-        "tags": [
-            "JavaScript",
-            "まとめ"
-        ],
-        "content": "フロントエンド向けのパッケージマネージャ管理ツールのまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Getfirebug Blog » Blog Archive » Firebug 3 – next generation of Firebug",
-        "url": "https://blog.getfirebug.com/2014/11/10/firebug-3-next-generation-of-firebug/",
-        "tags": [
-            "Firebug",
-            "ReleaseNote"
-        ],
-        "content": "Firebug 3αリリース。\n\nFirefox開発者ツールをベースにした拡張となる。\n\nFirefox開発者ツールにFirebug風のテーマやDOMパネル等の機能を追加出来るアドオン",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Mozilla Introduces the First Browser Built For Developers: Firefox Developer Edition ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2014/11/mozilla-introduces-the-first-browser-built-for-developers-firefox-developer-edition/",
-        "tags": [
-            "firefox",
-            "software"
-        ],
-        "content": "Firefox Developer Editionが公開された(Auroraと呼ばれていたもの)",
-        "relatedLinks": [
-            {
-                "title": "開発者のために作られた初めてのブラウザ、Firefox Developer Edition を公開しました | Mozilla Developer Street (modest)",
-                "url": "https://dev.mozilla.jp/2014/11/mozilla-introduces-the-first-browser-built-for-developers-firefox-developer-edition/"
-            },
-            {
-                "title": "Firefox Developer Edition — Mozilla",
-                "url": "https://www.mozilla.org/ja/firefox/developer/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "BlinkOn 3 One-Pager - http://bit.ly/blinkon3 - Google ドキュメント",
-        "url": "https://docs.google.com/document/d/1m6JNcFYnwJ0I7OWHrs-meO6820oM_5q9jSELOPDAQnc/edit#",
-        "tags": [
-            "JavaScript",
-            "Chrome",
-            "blink",
-            "イベント",
-            "スライド",
-            "まとめ"
-        ],
-        "content": "Blinkについてのカンファレンスのスライドまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "CSSI: CSS Investigation // Speaker Deck",
-        "url": "https://speakerdeck.com/studiomohawk/cssi-css-investigation",
-        "tags": [
-            "CSS",
-            "スライド"
-        ],
-        "content": "CSSのコードレビューやツールについてのスライド",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Simplifying Async Programs",
-        "url": "http://jlongster.com/s/nationjs-slides/#/",
-        "tags": [
-            "JavaScript",
-            "スライド"
-        ],
-        "content": "js-CSPについてのスライド",
-        "relatedLinks": [
-            {
-                "title": "ubolonton/js-csp",
-                "url": "https://github.com/ubolonton/js-csp"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "wooorm/franc",
-        "url": "https://github.com/wooorm/franc",
-        "tags": [
-            "JavaScript",
-            "言語",
-            "library"
-        ],
-        "content": "テキストから言語判定が出来るJavaScriptライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "sinonjs/lolex",
-        "url": "https://github.com/sinonjs/lolex",
-        "tags": [
-            "JavaScript",
-            "library",
-            "testing"
-        ],
-        "content": "SinonJSのFake timersライブラリ。\n\nSinonJSから独立して使えるようになった",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "danielstjules/jsinspect",
-        "url": "https://github.com/danielstjules/jsinspect",
-        "tags": [
-            "JavaScript",
-            "console",
-            "Tools"
-        ],
-        "content": "JavaScriptのファイル(複数ファイルも可能)から構造的に類似している部分を抽出してdiff表示出来るツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "The Pragmatic Bookshelf | Dart 1 for Everyone",
-        "url": "https://pragprog.com/book/csdart1/dart-1-for-everyone",
-        "tags": [
-            "dart",
-            "book"
-        ],
-        "content": "Dartについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Living on the Edge – our next step in helping the web just work - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx",
+            "tags": [
+                "IE",
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "IE12?の新しいプレビュー版が公開された。\n\n多くのES6の機能が入り、CSP 1.0、CSS Interaction Media Queries、Gamepad API等が実装された。\n\nまたドキュメントモードの挙動もEdgeがデフォルトとなり、互換表示となる場合が限定された。",
+            "relatedLinks": [
+                {
+                    "title": "IE11 の「エンタープライズ モード」の新機能 – ドキュメント モードの指定 | Hebikuzure",
+                    "url": "http://hebikuzure.wordpress.com/2014/11/13/ie11-enterprise-mode-improvement/"
+                },
+                {
+                    "title": "さねゆき on Twitter: ",
+                    "url": "https://twitter.com/saneyuki_s/status/532701057940348929"
+                },
+                {
+                    "title": "Šime Vidas on Twitter: ",
+                    "url": "https://twitter.com/simevidas/status/532749912333881344"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "jasmine/2.1.0.md at master · pivotal/jasmine",
+            "url": "https://github.com/pivotal/jasmine/blob/master/release_notes/2.1.0.md",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Jasmine 2.1.0リリース。\n\n`fit`、`fdescribe`で指定したテストのみを実行出来るように、`beforeAll`、`afterAll`のサポート、`fail`のサポート、それぞれタイムアウトの時間指定のサポート等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Sinon.JS/Changelog.txt at v1.12.1 · cjohansen/Sinon.JS",
+            "url": "https://github.com/cjohansen/Sinon.JS/blob/v1.12.1/Changelog.txt",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Sinon.JS 1.12.1 リリース。\n\nFake timersが単体のモジュールに分離、setImmediateとsetTimeoutを同時に使った時の順番の問題を改善、AMDの対応改善など",
+            "relatedLinks": [
+                {
+                    "title": "sinonjs/lolex",
+                    "url": "https://github.com/sinonjs/lolex"
+                },
+                {
+                    "title": "Set immediate precedence by duncanbeevers · Pull Request #6 · sinonjs/lolex",
+                    "url": "https://github.com/sinonjs/lolex/pull/6"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "power-assert/CHANGELOG.md at v0.10.0 · twada/power-assert",
+            "url": "https://github.com/twada/power-assert/blob/v0.10.0/CHANGELOG.md",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "power-assert 0.10.0リリース。\n\n設定や出力に使うモジュールを指定等が出来る`.customize` APIをサポート。\n\ndiff等のassert結果の細かいカスタマイズが可能になった",
+            "relatedLinks": [
+                {
+                    "title": "power-assert, mechanism and philosophy",
+                    "url": "http://www.slideshare.net/t_wada/power-assert-nodefest-2014"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing TypeScript 1.3 - TypeScript - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/typescript/archive/2014/11/12/announcing-typescript-1-3.aspx",
+            "tags": [
+                "TypeScript",
+                "ReleaseNote"
+            ],
+            "content": "TypeScript 1.3リリース。\n\n`protected` アクセス修飾子、tupleのサポート、Visual Studioでコード構文解析やリファクタリング機能の改善",
+            "relatedLinks": [
+                {
+                    "title": "TypeScript 1.3.0 変更点 - Qiita",
+                    "url": "http://qiita.com/vvakame/items/0b5060de5566f210479b"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 4.0 “Indivisibiliter ac Inseparabiliter” · postcss/autoprefixer",
+            "url": "https://github.com/postcss/autoprefixer/releases/tag/4.0.0",
+            "tags": [
+                "CSS",
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "Autoprefixer 4.0リリース。 Source Mapがデフォルト有効に、`prev`でSource Mapを指定時にエラーが起きた時に元の行数を示せるように、不要なprefixの削除がデフォルト有効になる等",
+            "relatedLinks": [
+                {
+                    "title": "PostCSS v3の変更点 - Weblog - Hail2u.net",
+                    "url": "http://hail2u.net/blog/coding/postcss-v3.html"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Announcing ES6 and JSX Support - ESLint",
+            "url": "http://eslint.org/blog/2014/11/es6-jsx-support/",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "ESLintではES6とJSXをサポートしたブランチ `es6jsx` が用意されて、masterとは別モジュールとしてインストールする事でES6のコードに対応する。\nJSXはオプションで有効化出来る。 \n\nまた、現時点ではES6ではスコープの表現力が変わったため、正しく動作しないルールが存在している。\n\n年内にES6対応をリリース予定",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Underscore vs Lo-Dash",
+            "url": "http://benmccormick.org/2014/11/12/underscore-vs-lodash/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "UnderscoreとLo-Dashについて。\n\nLo-DashはUnderscoreを書き直し+機能追加したもの。\n\n2つの違いについてユーザビリティ、ファイルサイズ、バージョニング、追加機能、パフォーマンスの観点で書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "npm で依存もタスクも一元化する - Qiita",
+            "url": "http://qiita.com/Jxck_/items/efaff21b977ddc782971",
+            "tags": [
+                "npm",
+                "node.js",
+                "console",
+                "Tools"
+            ],
+            "content": "npm run-scriptをtask runnerのインターフェースとして使う話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "interact.js for drag and drop, resizing and multi-touch gestures ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2014/11/interact-js-for-drag-and-drop-resizing-and-multi-touch-gestures/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "要素をD&amp;D、リサイズ、multi-touch等に対応した処理を書くことが出来るinteract.jsについての紹介記事",
+            "relatedLinks": [
+                {
+                    "title": "interact.js - JavaScript drag and drop, resizing and gestures with inertia and snapping",
+                    "url": "http://interactjs.io/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Building a Q&amp;A System With Polymer and Firebase",
+            "url": "https://divshot.com/blog/web-components/building-a-qa-system-with-polymer-and-firebase/",
+            "tags": [
+                "JavaScript",
+                "tutorial",
+                "WebComponents"
+            ],
+            "content": "PolymerとFirebaseを使ったQ&amp;Aシステム作るチュートリアル",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "native\\_javascript\\_data\\_binding",
+            "url": "http://www.sellarafaeli.com/blog/native_javascript_data_binding",
+            "tags": [
+                "JavaScript",
+                "tutorial"
+            ],
+            "content": "Object.observeを使ったデータバインディング、getter/setterを使ったデータバインディングの実装について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "wilmoore/frontend-packagers",
+            "url": "https://github.com/wilmoore/frontend-packagers",
+            "tags": [
+                "JavaScript",
+                "まとめ"
+            ],
+            "content": "フロントエンド向けのパッケージマネージャ管理ツールのまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Getfirebug Blog » Blog Archive » Firebug 3 – next generation of Firebug",
+            "url": "https://blog.getfirebug.com/2014/11/10/firebug-3-next-generation-of-firebug/",
+            "tags": [
+                "Firebug",
+                "ReleaseNote"
+            ],
+            "content": "Firebug 3αリリース。\n\nFirefox開発者ツールをベースにした拡張となる。\n\nFirefox開発者ツールにFirebug風のテーマやDOMパネル等の機能を追加出来るアドオン",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Mozilla Introduces the First Browser Built For Developers: Firefox Developer Edition ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2014/11/mozilla-introduces-the-first-browser-built-for-developers-firefox-developer-edition/",
+            "tags": [
+                "firefox",
+                "software"
+            ],
+            "content": "Firefox Developer Editionが公開された(Auroraと呼ばれていたもの)",
+            "relatedLinks": [
+                {
+                    "title": "開発者のために作られた初めてのブラウザ、Firefox Developer Edition を公開しました | Mozilla Developer Street (modest)",
+                    "url": "https://dev.mozilla.jp/2014/11/mozilla-introduces-the-first-browser-built-for-developers-firefox-developer-edition/"
+                },
+                {
+                    "title": "Firefox Developer Edition — Mozilla",
+                    "url": "https://www.mozilla.org/ja/firefox/developer/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "BlinkOn 3 One-Pager - http://bit.ly/blinkon3 - Google ドキュメント",
+            "url": "https://docs.google.com/document/d/1m6JNcFYnwJ0I7OWHrs-meO6820oM_5q9jSELOPDAQnc/edit#",
+            "tags": [
+                "JavaScript",
+                "Chrome",
+                "blink",
+                "イベント",
+                "スライド",
+                "まとめ"
+            ],
+            "content": "Blinkについてのカンファレンスのスライドまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "CSSI: CSS Investigation // Speaker Deck",
+            "url": "https://speakerdeck.com/studiomohawk/cssi-css-investigation",
+            "tags": [
+                "CSS",
+                "スライド"
+            ],
+            "content": "CSSのコードレビューやツールについてのスライド",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Simplifying Async Programs",
+            "url": "http://jlongster.com/s/nationjs-slides/#/",
+            "tags": [
+                "JavaScript",
+                "スライド"
+            ],
+            "content": "js-CSPについてのスライド",
+            "relatedLinks": [
+                {
+                    "title": "ubolonton/js-csp",
+                    "url": "https://github.com/ubolonton/js-csp"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "wooorm/franc",
+            "url": "https://github.com/wooorm/franc",
+            "tags": [
+                "JavaScript",
+                "言語",
+                "library"
+            ],
+            "content": "テキストから言語判定が出来るJavaScriptライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "sinonjs/lolex",
+            "url": "https://github.com/sinonjs/lolex",
+            "tags": [
+                "JavaScript",
+                "library",
+                "testing"
+            ],
+            "content": "SinonJSのFake timersライブラリ。\n\nSinonJSから独立して使えるようになった",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "danielstjules/jsinspect",
+            "url": "https://github.com/danielstjules/jsinspect",
+            "tags": [
+                "JavaScript",
+                "console",
+                "Tools"
+            ],
+            "content": "JavaScriptのファイル(複数ファイルも可能)から構造的に類似している部分を抽出してdiff表示出来るツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "The Pragmatic Bookshelf | Dart 1 for Everyone",
+            "url": "https://pragprog.com/book/csdart1/dart-1-for-everyone",
+            "tags": [
+                "dart",
+                "book"
+            ],
+            "content": "Dartについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

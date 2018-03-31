@@ -1,230 +1,245 @@
-[
-    {
-        "category": "Headline",
-        "title": "Node v5.2.0 (Stable) | Node.js",
-        "url": "https://nodejs.org/en/blog/release/v5.2.0/",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node v5.2.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Dev.Opera — Opera 34 released",
-        "url": "https://dev.opera.com/blog/opera-34/",
-        "tags": [
-            "Opera",
-            "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Opera 34(based on Chromium 47)リリース。\n`Array.prototype.includes`、rest parameters、`requestIdleCallback`の追加など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release ES2016 Draft 2015-12-10 · tc39/ecma262",
-        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151210",
+{
+    "meta": {
+        "title": "2015-12-14のJS: ES2016 Draft、JavaScript開発者アンケート、JSer.infoイベント開催予定",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-12-14T10:51:00.000Z",
+        "category": "JSer",
         "tags": [
             "ECMAScript",
-            "spec",
-            "ReleaseNote"
-        ],
-        "content": "ES2016 Draft 2015-12-10リリース。\n`Array.prototype.includes`が追加された。\nES2016から採用された仕様策定プロセスに則った形のものとして、初めて追加された新しい機能となる。",
-        "relatedLinks": [
-            {
-                "title": "The TC39 Process",
-                "url": "https://tc39.github.io/process-document/"
-            },
-            {
-                "title": "ECMAScriptの仕様策定に関するカンニングペーパー | Web Scratch",
-                "url": "http://efcl.info/2015/10/18/ecmascript-paper/"
-            }
+            "アンケート",
+            "JSer",
+            "イベント"
         ]
     },
-    {
-        "category": "Article",
-        "title": "JavaScript Developer Survey Results",
-        "url": "https://ponyfoo.com/articles/javascript-developer-survey-results",
-        "tags": [
-            "JavaScript",
-            "まとめ"
-        ],
-        "content": "JavaScript開発者アンケート結果が公開された。毎年DailyJSがやっていたものと同様のもの。\nテストを書く人が半数を上回り、フレームワークではReactがもっとも使われるようになり、ES6を全く使ったことのない人は20％以下となるなど",
-        "relatedLinks": [
-            {
-                "title": "JavaScript Developer Survey 2014: Results",
-                "url": "http://dailyjs.com/2014/12/16/1333-javascript-survey-results/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ESLint のカスタムルールを作ろう! (その1) - Qiita",
-        "url": "http://qiita.com/mysticatea/items/cc3f648e11368799e66c",
-        "tags": [
-            "JavaScript",
-            "AST"
-        ],
-        "content": "ESLintのルールの作り方",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Proxyについて - JS.next",
-        "url": "http://js-next.hatenablog.com/entry/2015/12/03/045720",
-        "tags": [
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "ES6 Proxyについての解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Universal React ◆ 24 ways",
-        "url": "https://24ways.org/2015/universal-react/",
-        "tags": [
-            "React",
-            "サーバー",
-            "tutorial"
-        ],
-        "content": "Reactをサーバサイドで扱う方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "webpack+babel-loader+power-assert+jsdomでフロントエンド開発環境を作る - yutaponのブログ",
-        "url": "http://yutapon.hatenablog.com/entry/webpack%2Bbabel-loader%2Bpower-assert%2Bjsdom-skeleton",
-        "tags": [
-            "JavaScript",
-            "設定"
-        ],
-        "content": "BabelによるビルドとMochaでのテスト構成についての記事。\nWebpackの設定、jsdomを使ったユニットテストについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "How do Promises Work? - Quils in Space",
-        "url": "http://robotlolita.me/2015/11/15/how-do-promises-work.html",
-        "tags": [
-            "JavaScript",
-            "Promises"
-        ],
-        "content": "Promiseの小さな実装を書きながらPromiseについて学ぶ話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "notes/Do-not-underestimate-credentials-leaks.md at master · ChALkeR/notes",
-        "url": "https://github.com/ChALkeR/notes/blob/master/Do-not-underestimate-credentials-leaks.md",
-        "tags": [
-            "node.js",
-            "セキュリティ"
-        ],
-        "content": "主にNode.js関連のプロジェクトでのトークンやパスワードなど漏れが起きるパターンについて。\nもし漏らしていた場合の影響や変更方法について書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Performance Calendar » WebPageTest: Year in Review",
-        "url": "http://calendar.perfplanet.com/2015/webpagetest-year-in-review/",
-        "tags": [
-            "performance",
-            "まとめ"
-        ],
-        "content": "今年WebPageTestに追加された機能や連携サービスについて。",
-        "relatedLinks": [
-            {
-                "title": "WebPagetest - Website Performance and Optimization Test",
-                "url": "http://www.webpagetest.org/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Chrome Dev Summit 2015 Notes",
-        "url": "https://danoc.me/blog/chrome-dev-summit-2015-notes/",
-        "tags": [
-            "google",
-            "イベント",
-            "動画"
-        ],
-        "content": "Chrome Dev Summit 2015の動画とそれぞれの要点メモ。\nサマリがまとまってるのでどの動画を見るかの参考になる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "JSConf US LastCall - Track B - YouTube",
-        "url": "https://www.youtube.com/playlist?list=PL37ZVnwpeshG7ThPHHHRvPFTeU1_F_tcP",
-        "tags": [
-            "JavaScript",
-            "イベント",
-            "動画"
-        ],
-        "content": "JSConf US 2015の動画一覧",
-        "relatedLinks": [
-            {
-                "title": "JSConf US Last Call - jsconf.micDrop()",
-                "url": "http://lastcall.jsconf.us/"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "oneuijs/You-Dont-Need-jQuery",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery",
-        "tags": [
-            "jQuery",
-            "JavaScript"
-        ],
-        "content": "jQuery使わなくてもDOM APIを使って大体同じ事が出来るというまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Jam3/web-audio-player",
-        "url": "https://github.com/Jam3/web-audio-player",
-        "tags": [
-            "web",
-            "audio",
-            "library"
-        ],
-        "content": "後方互換性の問題やバージョン毎のバグが多いWeb Audio APIをラップしてクロスブラウザで再生をサポートするライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "peerigon/updtr",
-        "url": "https://github.com/peerigon/updtr",
-        "tags": [
-            "npm",
-            "Tools"
-        ],
-        "content": "`npm outdated`ベースで、それぞれのモジュールをupdateしてnpm testを行うことで、テストが通ったモジュールのみをアップデート出来るツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Khaos - Easily generate oft-used project templates.",
-        "url": "http://khaos.io/",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "対話式のテンプレートジェネレーターツール。\nテンプレートに使った変数を対話形式で埋められるプロジェクト設定のテンプレートを作れる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "embed.js",
-        "url": "http://riteshkr.com/embed.js/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Twitter、gistやYouTube、絵文字など色々なものを埋め込み出来るライブラリ",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Node v5.2.0 (Stable) | Node.js",
+            "url": "https://nodejs.org/en/blog/release/v5.2.0/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node v5.2.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Dev.Opera — Opera 34 released",
+            "url": "https://dev.opera.com/blog/opera-34/",
+            "tags": [
+                "Opera",
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Opera 34(based on Chromium 47)リリース。\n`Array.prototype.includes`、rest parameters、`requestIdleCallback`の追加など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release ES2016 Draft 2015-12-10 · tc39/ecma262",
+            "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151210",
+            "tags": [
+                "ECMAScript",
+                "spec",
+                "ReleaseNote"
+            ],
+            "content": "ES2016 Draft 2015-12-10リリース。\n`Array.prototype.includes`が追加された。\nES2016から採用された仕様策定プロセスに則った形のものとして、初めて追加された新しい機能となる。",
+            "relatedLinks": [
+                {
+                    "title": "The TC39 Process",
+                    "url": "https://tc39.github.io/process-document/"
+                },
+                {
+                    "title": "ECMAScriptの仕様策定に関するカンニングペーパー | Web Scratch",
+                    "url": "http://efcl.info/2015/10/18/ecmascript-paper/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript Developer Survey Results",
+            "url": "https://ponyfoo.com/articles/javascript-developer-survey-results",
+            "tags": [
+                "JavaScript",
+                "まとめ"
+            ],
+            "content": "JavaScript開発者アンケート結果が公開された。毎年DailyJSがやっていたものと同様のもの。\nテストを書く人が半数を上回り、フレームワークではReactがもっとも使われるようになり、ES6を全く使ったことのない人は20％以下となるなど",
+            "relatedLinks": [
+                {
+                    "title": "JavaScript Developer Survey 2014: Results",
+                    "url": "http://dailyjs.com/2014/12/16/1333-javascript-survey-results/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ESLint のカスタムルールを作ろう! (その1) - Qiita",
+            "url": "http://qiita.com/mysticatea/items/cc3f648e11368799e66c",
+            "tags": [
+                "JavaScript",
+                "AST"
+            ],
+            "content": "ESLintのルールの作り方",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Proxyについて - JS.next",
+            "url": "http://js-next.hatenablog.com/entry/2015/12/03/045720",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "ES6 Proxyについての解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Universal React ◆ 24 ways",
+            "url": "https://24ways.org/2015/universal-react/",
+            "tags": [
+                "React",
+                "サーバー",
+                "tutorial"
+            ],
+            "content": "Reactをサーバサイドで扱う方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "webpack+babel-loader+power-assert+jsdomでフロントエンド開発環境を作る - yutaponのブログ",
+            "url": "http://yutapon.hatenablog.com/entry/webpack%2Bbabel-loader%2Bpower-assert%2Bjsdom-skeleton",
+            "tags": [
+                "JavaScript",
+                "設定"
+            ],
+            "content": "BabelによるビルドとMochaでのテスト構成についての記事。\nWebpackの設定、jsdomを使ったユニットテストについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "How do Promises Work? - Quils in Space",
+            "url": "http://robotlolita.me/2015/11/15/how-do-promises-work.html",
+            "tags": [
+                "JavaScript",
+                "Promises"
+            ],
+            "content": "Promiseの小さな実装を書きながらPromiseについて学ぶ話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "notes/Do-not-underestimate-credentials-leaks.md at master · ChALkeR/notes",
+            "url": "https://github.com/ChALkeR/notes/blob/master/Do-not-underestimate-credentials-leaks.md",
+            "tags": [
+                "node.js",
+                "セキュリティ"
+            ],
+            "content": "主にNode.js関連のプロジェクトでのトークンやパスワードなど漏れが起きるパターンについて。\nもし漏らしていた場合の影響や変更方法について書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Performance Calendar » WebPageTest: Year in Review",
+            "url": "http://calendar.perfplanet.com/2015/webpagetest-year-in-review/",
+            "tags": [
+                "performance",
+                "まとめ"
+            ],
+            "content": "今年WebPageTestに追加された機能や連携サービスについて。",
+            "relatedLinks": [
+                {
+                    "title": "WebPagetest - Website Performance and Optimization Test",
+                    "url": "http://www.webpagetest.org/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Chrome Dev Summit 2015 Notes",
+            "url": "https://danoc.me/blog/chrome-dev-summit-2015-notes/",
+            "tags": [
+                "google",
+                "イベント",
+                "動画"
+            ],
+            "content": "Chrome Dev Summit 2015の動画とそれぞれの要点メモ。\nサマリがまとまってるのでどの動画を見るかの参考になる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "JSConf US LastCall - Track B - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PL37ZVnwpeshG7ThPHHHRvPFTeU1_F_tcP",
+            "tags": [
+                "JavaScript",
+                "イベント",
+                "動画"
+            ],
+            "content": "JSConf US 2015の動画一覧",
+            "relatedLinks": [
+                {
+                    "title": "JSConf US Last Call - jsconf.micDrop()",
+                    "url": "http://lastcall.jsconf.us/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "oneuijs/You-Dont-Need-jQuery",
+            "url": "https://github.com/oneuijs/You-Dont-Need-jQuery",
+            "tags": [
+                "jQuery",
+                "JavaScript"
+            ],
+            "content": "jQuery使わなくてもDOM APIを使って大体同じ事が出来るというまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Jam3/web-audio-player",
+            "url": "https://github.com/Jam3/web-audio-player",
+            "tags": [
+                "web",
+                "audio",
+                "library"
+            ],
+            "content": "後方互換性の問題やバージョン毎のバグが多いWeb Audio APIをラップしてクロスブラウザで再生をサポートするライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "peerigon/updtr",
+            "url": "https://github.com/peerigon/updtr",
+            "tags": [
+                "npm",
+                "Tools"
+            ],
+            "content": "`npm outdated`ベースで、それぞれのモジュールをupdateしてnpm testを行うことで、テストが通ったモジュールのみをアップデート出来るツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Khaos - Easily generate oft-used project templates.",
+            "url": "http://khaos.io/",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "対話式のテンプレートジェネレーターツール。\nテンプレートに使った変数を対話形式で埋められるプロジェクト設定のテンプレートを作れる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "embed.js",
+            "url": "http://riteshkr.com/embed.js/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Twitter、gistやYouTube、絵文字など色々なものを埋め込み出来るライブラリ",
+            "relatedLinks": []
+        }
+    ]
+}

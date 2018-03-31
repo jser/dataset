@@ -1,263 +1,278 @@
-[
-    {
-        "category": "Headline",
-        "title": "jQuery 3.0 and jQuery Compat 3.0 Alpha Versions Released | Official jQuery Blog",
-        "url": "http://blog.jquery.com/2015/07/13/jquery-3-0-and-jquery-compat-3-0-alpha-versions-released/",
+{
+    "meta": {
+        "title": "2015-07-14のJS: jQuery 3.0αリリース、JSHintとES.next",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-07-14T13:40:00.000Z",
+        "category": "JSer",
         "tags": [
             "jQuery",
-            "ReleaseNote"
-        ],
-        "content": "jQuery 3.0αとjQuery Compat 3.0αリリース。\n`.show()`と`.hide()`のパフォーマンス改善、jQuery.DeferredがPromise/A+互換に、非推奨だったjqXHR.success | error | complete、イベントの`.load`/`.unload`/`.error`を削除。\nundocumentなメソッドを外から触れないように変更。\nアニメーションで再度requestAnimationFrameを使うように、カスタムセレクタの改善など",
-        "relatedLinks": [
-            {
-                "title": "Issues · jquery/jquery",
-                "url": "https://github.com/jquery/jquery/issues?q=is%3Aissue+milestone%3A3.0.0"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Introducing Incremental DOM — Google Developers — Medium",
-        "url": "https://medium.com/google-developers/introducing-incremental-dom-e98f79ce2c5f",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "library",
-            "VirtualDOM"
-        ],
-        "content": "メモリ使用量とテンプレートエンジンでは扱える閉じタグの無い要素などがモチベーションとなってるGoogle製のDOMライブラリ(WIP)。\nDiff計算のためにVirtual DOMのような全体のTree構造をメモリに保持しない事で、余計なオブジェクトを作らないようにして、1 passで走査することでメモリ効率を上げている。",
-        "relatedLinks": [
-            {
-                "title": "Incremental DOM ざっと見たやつ",
-                "url": "https://gist.github.com/azu/8f1afa948eeb2da3ad00"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "canvas - JSでInstagramの画像フィルターを作るまで - Qiita",
-        "url": "http://qiita.com/KENJU/items/78c0034d7e93fbe8f95a",
-        "tags": [
-            "JavaScript",
-            "canvas"
-        ],
-        "content": "Instagram的な画像フィルターをCanvasで行う方法、また処理が重たい問題をWeb Worker内で行うことについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Developer Edition 41: View source in a tab, screenshot elements, HAR files, and more ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/07/developer-edition-41-view-source-in-a-tab-screenshot-elements-har-files-and-more/",
-        "tags": [
-            "firefox",
-            "debug",
-            "Tools"
-        ],
-        "content": "Firefox 41の開発者ツールで改善された箇所について",
-        "relatedLinks": [
-            {
-                "title": "Developer Edition 41: View source in a tab, screenshot elements, HAR files, and more ✩ Mozilla Hacks – the Web developer blog",
-                "url": "https://hacks.mozilla.org/2015/07/developer-edition-41-view-source-in-a-tab-screenshot-elements-har-files-and-more/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "How fast are web workers? ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/07/how-fast-are-web-workers/",
-        "tags": [
-            "webworker",
-            "firefox"
-        ],
-        "content": "WebWorkerやSharedWorkerの起動コスト、メッセージの転送速度について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "a d3.js design pattern — Medium",
-        "url": "https://medium.com/@billautomata/a-d3-js-design-pattern-16a6503dc86f",
-        "tags": [
-            "JavaScript",
-            "d3.js",
-            "デザインパターン"
-        ],
-        "content": "D3.jsを使って書く際のデザインパターンについての連載",
-        "relatedLinks": [
-            {
-                "title": "billautomata/d3js",
-                "url": "https://github.com/billautomata/d3js_design_patterns"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "A Formal Commitment to New Language Features",
-        "url": "http://jshint.com/blog/new-lang-features/",
-        "tags": [
-            "JavaScript",
             "ECMAScript",
-            "Tools"
-        ],
-        "content": "BabelなどによってES.nextの機能を試せるようになったが、JSHintがそれらの新しすぎる構文をサポートするのが難しい理由について。\n\n詳しくは[JSHint: A Formal Commitment to New Language Features - JSer.info](http://jser.info/2015/07/11/jshint-new-lang-features/ \"JSHint: A Formal Commitment to New Language Features - JSer.info\")に書きました。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "You Might Not Need Underscore | Reindex",
-        "url": "https://www.reindex.io/blog/you-might-not-need-underscore/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "まとめ"
-        ],
-        "content": "Underscore.jsのメソッドと同様の事をES5、ES6でどのように書くことができるかについての比較まとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React on ES6+ · Babel",
-        "url": "https://babeljs.io/blog/2015/06/07/react-on-es6-plus",
-        "tags": [
-            "JavaScript",
-            "babel",
-            "React"
-        ],
-        "content": "Reactを題材にしたES6やES.nextについての機能紹介。\n具体的にES5で書いたものがどう変わるかをReactを例にして解説してる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 Promise Anti-Patterns and Best Practices",
-        "url": "http://www.datchley.name/promise-patterns-anti-patterns/",
-        "tags": [
-            "JavaScript",
-            "Promises"
-        ],
-        "content": "Promiseのアンチパターン集",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Javascript Async Control Flow",
-        "url": "http://kaye.us/javascript-async-control-flow/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES.nextのasync/awaitについて。\nまたこれと似た事はtask.jsやcoを使うことで今すぐできるという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "UI Testing with React Components | Toptal",
-        "url": "http://www.toptal.com/react/how-react-components-make-ui-testing-easy",
-        "tags": [
-            "React",
-            "testing"
-        ],
-        "content": "React Componentのテスト方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Testing JavaScript Modules with Tape",
-        "url": "http://ponyfoo.com/articles/testing-javascript-modules-with-tape",
-        "tags": [
-            "JavaScript",
-            "testing"
-        ],
-        "content": "tape、proxyquire、Sinon.JSを使ったテストについて。\ntapeによるテストの書き方、proxyquireとSinon.JSを使ったモックについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "▶ &quot;Процесс стандартизации ECMAScript&quot;, Сергей Рубанов, MoscowJS 23 - YouTube",
-        "url": "https://www.youtube.com/watch?v=5HNrQJsv4gU",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "動画",
-            "スライド"
-        ],
-        "content": "ECMAScriptを策定するTC39のプロセスについての動画とスライド。\n≈≈≈ という仮の新しい構文を例としてどういうプロセスで策定されるかについて",
-        "relatedLinks": [
-            {
-                "title": "ES process by Sergey Rubanov",
-                "url": "http://slides.com/chicoxyzzy/deck-1#/"
-            }
+            "JSHint",
+            "Lint"
         ]
     },
-    {
-        "category": "WebsiteDocument",
-        "title": "V8 JavaScript Engine",
-        "url": "http://v8project.blogspot.com/",
-        "tags": [
-            "Chrome",
-            "V8",
-            "blog"
-        ],
-        "content": "V8についてより詳細な情報を載せていく公式ブログ",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "WebGLStudio.js",
-        "url": "http://webglstudio.org/",
-        "tags": [
-            "WebGL",
-            "editor"
-        ],
-        "content": "WebGLエディタ",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Jam3/math-as-code",
-        "url": "https://github.com/Jam3/math-as-code",
-        "tags": [
-            "JavaScript",
-            "チートシート"
-        ],
-        "content": "色々な数学記号や数式をJavaScriptで表現するチートシート",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "RReverser/babel-plugin-asm-js",
-        "url": "https://github.com/RReverser/babel-plugin-asm-js",
-        "tags": [
-            "babel",
-            "JavaScript",
-            "asm.js",
-            "plugin",
-            "flowtype"
-        ],
-        "content": "asm.jsにコンパイルするBabel plugin",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "IjzerenHein/autolayout.js",
-        "url": "https://github.com/IjzerenHein/autolayout.js",
-        "tags": [
-            "JavaScript",
-            "ios",
-            "CSS",
-            "library"
-        ],
-        "content": "iOSのAutoLayoutとVisual Format Language的な実装を持つJavaScriptライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "High Performance Mobile Web - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920035060.do",
-        "tags": [
-            "browser",
-            "mobile",
-            "book"
-        ],
-        "content": "2015年7月発売\nモバイルウェブサイトにおけるパフォーマンスについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "jQuery 3.0 and jQuery Compat 3.0 Alpha Versions Released | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2015/07/13/jquery-3-0-and-jquery-compat-3-0-alpha-versions-released/",
+            "tags": [
+                "jQuery",
+                "ReleaseNote"
+            ],
+            "content": "jQuery 3.0αとjQuery Compat 3.0αリリース。\n`.show()`と`.hide()`のパフォーマンス改善、jQuery.DeferredがPromise/A+互換に、非推奨だったjqXHR.success | error | complete、イベントの`.load`/`.unload`/`.error`を削除。\nundocumentなメソッドを外から触れないように変更。\nアニメーションで再度requestAnimationFrameを使うように、カスタムセレクタの改善など",
+            "relatedLinks": [
+                {
+                    "title": "Issues · jquery/jquery",
+                    "url": "https://github.com/jquery/jquery/issues?q=is%3Aissue+milestone%3A3.0.0"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Introducing Incremental DOM — Google Developers — Medium",
+            "url": "https://medium.com/google-developers/introducing-incremental-dom-e98f79ce2c5f",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library",
+                "VirtualDOM"
+            ],
+            "content": "メモリ使用量とテンプレートエンジンでは扱える閉じタグの無い要素などがモチベーションとなってるGoogle製のDOMライブラリ(WIP)。\nDiff計算のためにVirtual DOMのような全体のTree構造をメモリに保持しない事で、余計なオブジェクトを作らないようにして、1 passで走査することでメモリ効率を上げている。",
+            "relatedLinks": [
+                {
+                    "title": "Incremental DOM ざっと見たやつ",
+                    "url": "https://gist.github.com/azu/8f1afa948eeb2da3ad00"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "canvas - JSでInstagramの画像フィルターを作るまで - Qiita",
+            "url": "http://qiita.com/KENJU/items/78c0034d7e93fbe8f95a",
+            "tags": [
+                "JavaScript",
+                "canvas"
+            ],
+            "content": "Instagram的な画像フィルターをCanvasで行う方法、また処理が重たい問題をWeb Worker内で行うことについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Developer Edition 41: View source in a tab, screenshot elements, HAR files, and more ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/07/developer-edition-41-view-source-in-a-tab-screenshot-elements-har-files-and-more/",
+            "tags": [
+                "firefox",
+                "debug",
+                "Tools"
+            ],
+            "content": "Firefox 41の開発者ツールで改善された箇所について",
+            "relatedLinks": [
+                {
+                    "title": "Developer Edition 41: View source in a tab, screenshot elements, HAR files, and more ✩ Mozilla Hacks – the Web developer blog",
+                    "url": "https://hacks.mozilla.org/2015/07/developer-edition-41-view-source-in-a-tab-screenshot-elements-har-files-and-more/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "How fast are web workers? ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/07/how-fast-are-web-workers/",
+            "tags": [
+                "webworker",
+                "firefox"
+            ],
+            "content": "WebWorkerやSharedWorkerの起動コスト、メッセージの転送速度について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "a d3.js design pattern — Medium",
+            "url": "https://medium.com/@billautomata/a-d3-js-design-pattern-16a6503dc86f",
+            "tags": [
+                "JavaScript",
+                "d3.js",
+                "デザインパターン"
+            ],
+            "content": "D3.jsを使って書く際のデザインパターンについての連載",
+            "relatedLinks": [
+                {
+                    "title": "billautomata/d3js",
+                    "url": "https://github.com/billautomata/d3js_design_patterns"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "A Formal Commitment to New Language Features",
+            "url": "http://jshint.com/blog/new-lang-features/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools"
+            ],
+            "content": "BabelなどによってES.nextの機能を試せるようになったが、JSHintがそれらの新しすぎる構文をサポートするのが難しい理由について。\n\n詳しくは[JSHint: A Formal Commitment to New Language Features - JSer.info](http://jser.info/2015/07/11/jshint-new-lang-features/ \"JSHint: A Formal Commitment to New Language Features - JSer.info\")に書きました。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "You Might Not Need Underscore | Reindex",
+            "url": "https://www.reindex.io/blog/you-might-not-need-underscore/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "まとめ"
+            ],
+            "content": "Underscore.jsのメソッドと同様の事をES5、ES6でどのように書くことができるかについての比較まとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React on ES6+ · Babel",
+            "url": "https://babeljs.io/blog/2015/06/07/react-on-es6-plus",
+            "tags": [
+                "JavaScript",
+                "babel",
+                "React"
+            ],
+            "content": "Reactを題材にしたES6やES.nextについての機能紹介。\n具体的にES5で書いたものがどう変わるかをReactを例にして解説してる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 Promise Anti-Patterns and Best Practices",
+            "url": "http://www.datchley.name/promise-patterns-anti-patterns/",
+            "tags": [
+                "JavaScript",
+                "Promises"
+            ],
+            "content": "Promiseのアンチパターン集",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Javascript Async Control Flow",
+            "url": "http://kaye.us/javascript-async-control-flow/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES.nextのasync/awaitについて。\nまたこれと似た事はtask.jsやcoを使うことで今すぐできるという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "UI Testing with React Components | Toptal",
+            "url": "http://www.toptal.com/react/how-react-components-make-ui-testing-easy",
+            "tags": [
+                "React",
+                "testing"
+            ],
+            "content": "React Componentのテスト方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Testing JavaScript Modules with Tape",
+            "url": "http://ponyfoo.com/articles/testing-javascript-modules-with-tape",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "content": "tape、proxyquire、Sinon.JSを使ったテストについて。\ntapeによるテストの書き方、proxyquireとSinon.JSを使ったモックについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "▶ &quot;Процесс стандартизации ECMAScript&quot;, Сергей Рубанов, MoscowJS 23 - YouTube",
+            "url": "https://www.youtube.com/watch?v=5HNrQJsv4gU",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "動画",
+                "スライド"
+            ],
+            "content": "ECMAScriptを策定するTC39のプロセスについての動画とスライド。\n≈≈≈ という仮の新しい構文を例としてどういうプロセスで策定されるかについて",
+            "relatedLinks": [
+                {
+                    "title": "ES process by Sergey Rubanov",
+                    "url": "http://slides.com/chicoxyzzy/deck-1#/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "V8 JavaScript Engine",
+            "url": "http://v8project.blogspot.com/",
+            "tags": [
+                "Chrome",
+                "V8",
+                "blog"
+            ],
+            "content": "V8についてより詳細な情報を載せていく公式ブログ",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "WebGLStudio.js",
+            "url": "http://webglstudio.org/",
+            "tags": [
+                "WebGL",
+                "editor"
+            ],
+            "content": "WebGLエディタ",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Jam3/math-as-code",
+            "url": "https://github.com/Jam3/math-as-code",
+            "tags": [
+                "JavaScript",
+                "チートシート"
+            ],
+            "content": "色々な数学記号や数式をJavaScriptで表現するチートシート",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "RReverser/babel-plugin-asm-js",
+            "url": "https://github.com/RReverser/babel-plugin-asm-js",
+            "tags": [
+                "babel",
+                "JavaScript",
+                "asm.js",
+                "plugin",
+                "flowtype"
+            ],
+            "content": "asm.jsにコンパイルするBabel plugin",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "IjzerenHein/autolayout.js",
+            "url": "https://github.com/IjzerenHein/autolayout.js",
+            "tags": [
+                "JavaScript",
+                "ios",
+                "CSS",
+                "library"
+            ],
+            "content": "iOSのAutoLayoutとVisual Format Language的な実装を持つJavaScriptライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "High Performance Mobile Web - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920035060.do",
+            "tags": [
+                "browser",
+                "mobile",
+                "book"
+            ],
+            "content": "2015年7月発売\nモバイルウェブサイトにおけるパフォーマンスについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

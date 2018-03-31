@@ -1,326 +1,340 @@
-[
-    {
-        "category": "Headline",
-        "title": "jsdom/Changelog.md at 1.5.0 · tmpvar/jsdom",
-        "url": "https://github.com/tmpvar/jsdom/blob/1.5.0/Changelog.md",
+{
+    "meta": {
+        "title": "2014-12-16のJS: ES6 Proxy、Web Components、Service Worker",
+        "author": "azu",
+        "layout": "post",
+        "date": "2014-12-16T13:00:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "DOM",
-            "library"
-        ],
-        "content": "jsdom 1.5.0リリース。\n\nconsole APIの定義を追加",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Ember.js - Ember.js 1.9.0 and 1.10 Beta Released",
-        "url": "http://emberjs.com/blog/2014/12/08/ember-1-9-0-released.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Ember.js 1.9.0と1.10βリリース。\n\nEmber 2.0に向けて1.9では非推奨となった機能があることについて書かれている。\n\nHandlebars 2.0へのアップデート、streams observationパターンの導入等",
-        "relatedLinks": [
-            {
-                "title": "Ember.js - Deprecations: Deprecations",
-                "url": "http://emberjs.com/guides/deprecations/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release 3.5 “Mount Sharp” · mbostock/d3",
-        "url": "https://github.com/mbostock/d3/releases/tag/v3.5.0",
-        "tags": [
-            "JavaScript",
-            "SVG",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "D3.js 3.5リリース",
-        "relatedLinks": [
-            {
-                "title": "D3 バージョン 3.5 がリリースされました。 | Daily D3",
-                "url": "http://daily.d3js.info/?p=775"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release 0.4 · sdesalas/trifleJS",
-        "url": "https://github.com/sdesalas/trifleJS/releases/tag/v0.4",
-        "tags": [
-            "IE",
-            "ReleaseNote"
-        ],
-        "content": "PhantomJSのIE版的なヘッドレスブラウザであるtrifleJS 0.4リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "harmony:specification_drafts [ES Wiki]",
-        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#december_6_2014_draft_rev_29",
-        "tags": [
-            "ECMAScript",
-            "ReleaseNote"
-        ],
-        "content": "ECMAscript 6 Draft Rev 29リリース。\n\n`RegExp.prototype.flags`の追加、WeakMap/WeakSetから`clear`メソッドの削除、`String.prototype.contains`が`includes`にリネーム",
-        "relatedLinks": [
-            {
-                "title": "TC39 MTG Notes 第43回 報告会",
-                "url": "http://azu.github.io/slide/chatwork/tc39-mtg-notes.html"
-            },
-            {
-                "title": "RegExp.prototype.flags - JavaScript | MDN",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Dynatrace AJAX Edition 4.5 is here",
-        "url": "http://apmblog.compuware.com/2014/12/11/dynatrace-ajax-edition-4-5-last-page-chapter-yet-story-continues/",
-        "tags": [
-            "performance",
-            "software",
-            "browser"
-        ],
-        "content": "Dynatrace AJAX Edition 4.5リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript Application Architecture On The Road To 2015 — Medium",
-        "url": "https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "2014年のJavaScript全体のアーキテクチャを振り返り今後どうなるかについての話。\n\nデータバインディング、Immutable、Virtual DOM、Web Components、Component同士のメッセージング、ES6とBrowserify、オフラインファースト等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "[JavaScript Advent Calendar 2014 No.6] navigator.onLine in Blink",
-        "url": "http://blog.oimou.com/javascript-advent-calendar-2014-6ri-mu-navigator-onlinemaniatukusu2589ed73/",
-        "tags": [
-            "Chrome",
-            "blink",
-            "コードリーディング"
-        ],
-        "content": "navigator.onLineがどのように実装されているかをBlink/Chromeのソースコードから追っていく話。\n\nブラウザのソースコードを見ていく方法について実例での参考になりそう",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "How to Use npm as a Build Tool",
-        "url": "http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/",
-        "tags": [
-            "npm"
-        ],
-        "content": "npm run-scriptをビルドツールとして使う話\n\nクロスプラットフォーム向けにrmの代わりにrimrafモジュールを使ったり、タスクのグループ化やhookについて書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Meta programming with ECMAScript 6 proxies",
-        "url": "http://www.2ality.com/2014/12/es6-proxies.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "リファレンス",
-            "まとめ"
-        ],
-        "content": "ES6のProxyについて詳しい解説。\n\nメタプログラミングとは何か、Proxyはどのように動くのか、ユースケース、Proxyかどうかの判定方法、PropertyDescriptorとあわせた場合の挙動、Reflect APIについて",
-        "relatedLinks": [
-            {
-                "title": "ECMAScript 6 proxyによるメタプログラミング(1/11) | JSお散歩",
-                "url": "http://panda.node.ws/?p=1371"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Snap.svgの使い方まとめ",
-        "url": "http://www.h2.dion.ne.jp/~defghi/snapsvg/snapsvg.xhtml",
-        "tags": [
-            "SVG",
-            "tutorial",
-            "まとめ"
-        ],
-        "content": "Snap.svgについての詳しい解説、チュートリアル。\n\n目的や基本的な使い方から応用、Raphaël.jsとの違いなどよくまとまってる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "SVGOを使ったSVGの軽量化方法（アニメーションさせるときの注意とか）｜2.IDEA",
-        "url": "http://2ndidea.com/svg/optimize-svg-with-svgo/",
-        "tags": [
-            "SVG",
-            "Tools"
-        ],
-        "content": "SVGの最適化を行うSVGOの使い方について。\n\nそれぞれのプラグインについて解説されてる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Polyfilling Doesn&#x27;t Have to be Difficult -Telerik Developer Network",
-        "url": "http://developer.telerik.com/featured/polyfilling-doesnt-difficult/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "tutorial"
-        ],
-        "content": "polyfillとはどういうものか、実際に`Number.isInteger()`や`placeholder`属性を実装しながら学ぶチュートリアル",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Web Componentsの基本的な使い方・まとめ",
-        "url": "http://www.h2.dion.ne.jp/~defghi/webc/webc.htm",
-        "tags": [
+            "ES6",
             "WebComponents",
-            "tutorial",
-            "まとめ"
-        ],
-        "content": "Web Componentsの構成要素、それぞれの機能について詳しく解説されてる。\n\ntemplate要素、HTML Imports、Shadow DOM、Custom Elementsについて",
-        "relatedLinks": []
+            "ServiceWorker"
+        ]
     },
-    {
-        "category": "Article",
-        "title": "実践入門 Ember.js：連載｜gihyo.jp … 技術評論社",
-        "url": "http://gihyo.jp/dev/serial/01/emberjs",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "library"
-        ],
-        "content": "Ember.jsについての連載",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Ractive.js の紹介 — KaoriYa",
-        "url": "http://www.kaoriya.net/blog/2014/12/13/",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "library"
-        ],
-        "content": "簡単なTODOアプリを使ったRactive.jsの紹介。\n\nmustache拡張なテンプレートとイベント、データバインディングについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript - Chrome 40 で今すぐ ServiceWorker を試す - Qiita",
-        "url": "http://qiita.com/kinu/items/2abd61b4390f9bbaffc9",
-        "tags": [
-            "ServiceWorker",
-            "JavaScript"
-        ],
-        "content": "Service Workerを使ったオフライン処理、スクリプトの登録、更新方法、FetchやCache APIについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "The offline cookbook - JakeArchibald.com",
-        "url": "http://jakearchibald.com/2014/offline-cookbook/",
-        "tags": [
-            "ServiceWorker",
-            "JavaScript"
-        ],
-        "content": "Service Workerを使った典型的なパターンの紹介。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "On Third-Party JavaScript - In Production Case-Study",
-        "url": "http://blog.risingstack.com/on-third-party-javascript-in-production/",
-        "tags": [
-            "JavaScript",
-            "セキュリティ"
-        ],
-        "content": "サードパーティJavaScriptのケーススタディから学べる事について。\n\nMixpanel、Disqusからサイズやキャッシュ、どういう初期化経路を踏むかなどについて書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Introducing the JavaScript Internationalization API ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/",
-        "tags": [
-            "JavaScript",
-            "i18n",
-            "API"
-        ],
-        "content": "ECMA i18n APIの使い方について。\n\n元々localeCompareやtoLocaleStringといったものがあったがローカライズには不十分であり、その部分にECMA i18n APIを使える。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Papa Parse - Powerful CSV parser for Javascript",
-        "url": "http://papaparse.com/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "CSVパーサーライブラリ。\n\nCSVをJSONに変換、WebWorkerを使っての並列処理、ダウンロードしながらのパース等",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "gcanti/uvdom",
-        "url": "https://github.com/gcanti/uvdom",
-        "tags": [
-            "JavaScript",
-            "VirualDOM",
-            "library"
-        ],
-        "content": "Virtual DOMを持っているライブラリ(React、virtual-dom等)向けに、それぞれ変換出来る抽象レイヤーの実装。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Offline.js – Handle your users losing their internet connection like a pro",
-        "url": "http://github.hubspot.com/offline/docs/welcome/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "オフラインかどうかを検知して通知出来るライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "decimal.js API",
-        "url": "http://mikemcl.github.io/decimal.js/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Decimalを扱うライブラリ。\n\n小数点同士の演算、丸め込みの挙動の指定等、フォーマットを指定しての出力等が出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: TypeScript実践プログラミング (Programmer&#x27;s SELECTION): スティーブ・フェントン, 鈴木 幸敏, 株式会社クイープ",
-        "url": "http://www.amazon.co.jp/dp/4798139807?tag=amazon0abac-22",
-        "tags": [
-            "TypeScript",
-            "book",
-            "翻訳"
-        ],
-        "content": "2015年1月23日 発売\n\nPro TypeScriptの翻訳本\n\nhttp://www.apress.com/9781430267911",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "WebSocket - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920030485.do",
-        "tags": [
-            "WebSocket",
-            "book"
-        ],
-        "content": "WebSocketについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "jsdom/Changelog.md at 1.5.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/1.5.0/Changelog.md",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "content": "jsdom 1.5.0リリース。\n\nconsole APIの定義を追加",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Ember.js - Ember.js 1.9.0 and 1.10 Beta Released",
+            "url": "http://emberjs.com/blog/2014/12/08/ember-1-9-0-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Ember.js 1.9.0と1.10βリリース。\n\nEmber 2.0に向けて1.9では非推奨となった機能があることについて書かれている。\n\nHandlebars 2.0へのアップデート、streams observationパターンの導入等",
+            "relatedLinks": [
+                {
+                    "title": "Ember.js - Deprecations: Deprecations",
+                    "url": "http://emberjs.com/guides/deprecations/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 3.5 “Mount Sharp” · mbostock/d3",
+            "url": "https://github.com/mbostock/d3/releases/tag/v3.5.0",
+            "tags": [
+                "JavaScript",
+                "SVG",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "D3.js 3.5リリース",
+            "relatedLinks": [
+                {
+                    "title": "D3 バージョン 3.5 がリリースされました。 | Daily D3",
+                    "url": "http://daily.d3js.info/?p=775"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 0.4 · sdesalas/trifleJS",
+            "url": "https://github.com/sdesalas/trifleJS/releases/tag/v0.4",
+            "tags": [
+                "IE",
+                "ReleaseNote"
+            ],
+            "content": "PhantomJSのIE版的なヘッドレスブラウザであるtrifleJS 0.4リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "harmony:specification_drafts [ES Wiki]",
+            "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#december_6_2014_draft_rev_29",
+            "tags": [
+                "ECMAScript",
+                "ReleaseNote"
+            ],
+            "content": "ECMAscript 6 Draft Rev 29リリース。\n\n`RegExp.prototype.flags`の追加、WeakMap/WeakSetから`clear`メソッドの削除、`String.prototype.contains`が`includes`にリネーム",
+            "relatedLinks": [
+                {
+                    "title": "TC39 MTG Notes 第43回 報告会",
+                    "url": "http://azu.github.io/slide/chatwork/tc39-mtg-notes.html"
+                },
+                {
+                    "title": "RegExp.prototype.flags - JavaScript | MDN",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Dynatrace AJAX Edition 4.5 is here",
+            "url": "http://apmblog.compuware.com/2014/12/11/dynatrace-ajax-edition-4-5-last-page-chapter-yet-story-continues/",
+            "tags": [
+                "performance",
+                "software",
+                "browser"
+            ],
+            "content": "Dynatrace AJAX Edition 4.5リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript Application Architecture On The Road To 2015 — Medium",
+            "url": "https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "2014年のJavaScript全体のアーキテクチャを振り返り今後どうなるかについての話。\n\nデータバインディング、Immutable、Virtual DOM、Web Components、Component同士のメッセージング、ES6とBrowserify、オフラインファースト等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "[JavaScript Advent Calendar 2014 No.6] navigator.onLine in Blink",
+            "url": "http://blog.oimou.com/javascript-advent-calendar-2014-6ri-mu-navigator-onlinemaniatukusu2589ed73/",
+            "tags": [
+                "Chrome",
+                "blink",
+                "コードリーディング"
+            ],
+            "content": "navigator.onLineがどのように実装されているかをBlink/Chromeのソースコードから追っていく話。\n\nブラウザのソースコードを見ていく方法について実例での参考になりそう",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "How to Use npm as a Build Tool",
+            "url": "http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/",
+            "tags": [
+                "npm"
+            ],
+            "content": "npm run-scriptをビルドツールとして使う話\n\nクロスプラットフォーム向けにrmの代わりにrimrafモジュールを使ったり、タスクのグループ化やhookについて書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Meta programming with ECMAScript 6 proxies",
+            "url": "http://www.2ality.com/2014/12/es6-proxies.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "リファレンス",
+                "まとめ"
+            ],
+            "content": "ES6のProxyについて詳しい解説。\n\nメタプログラミングとは何か、Proxyはどのように動くのか、ユースケース、Proxyかどうかの判定方法、PropertyDescriptorとあわせた場合の挙動、Reflect APIについて",
+            "relatedLinks": [
+                {
+                    "title": "ECMAScript 6 proxyによるメタプログラミング(1/11) | JSお散歩",
+                    "url": "http://panda.node.ws/?p=1371"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Snap.svgの使い方まとめ",
+            "url": "http://www.h2.dion.ne.jp/~defghi/snapsvg/snapsvg.xhtml",
+            "tags": [
+                "SVG",
+                "tutorial",
+                "まとめ"
+            ],
+            "content": "Snap.svgについての詳しい解説、チュートリアル。\n\n目的や基本的な使い方から応用、Raphaël.jsとの違いなどよくまとまってる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "SVGOを使ったSVGの軽量化方法（アニメーションさせるときの注意とか）｜2.IDEA",
+            "url": "http://2ndidea.com/svg/optimize-svg-with-svgo/",
+            "tags": [
+                "SVG",
+                "Tools"
+            ],
+            "content": "SVGの最適化を行うSVGOの使い方について。\n\nそれぞれのプラグインについて解説されてる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Polyfilling Doesn&#x27;t Have to be Difficult -Telerik Developer Network",
+            "url": "http://developer.telerik.com/featured/polyfilling-doesnt-difficult/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "tutorial"
+            ],
+            "content": "polyfillとはどういうものか、実際に`Number.isInteger()`や`placeholder`属性を実装しながら学ぶチュートリアル",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Web Componentsの基本的な使い方・まとめ",
+            "url": "http://www.h2.dion.ne.jp/~defghi/webc/webc.htm",
+            "tags": [
+                "WebComponents",
+                "tutorial",
+                "まとめ"
+            ],
+            "content": "Web Componentsの構成要素、それぞれの機能について詳しく解説されてる。\n\ntemplate要素、HTML Imports、Shadow DOM、Custom Elementsについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "実践入門 Ember.js：連載｜gihyo.jp … 技術評論社",
+            "url": "http://gihyo.jp/dev/serial/01/emberjs",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library"
+            ],
+            "content": "Ember.jsについての連載",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Ractive.js の紹介 — KaoriYa",
+            "url": "http://www.kaoriya.net/blog/2014/12/13/",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library"
+            ],
+            "content": "簡単なTODOアプリを使ったRactive.jsの紹介。\n\nmustache拡張なテンプレートとイベント、データバインディングについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript - Chrome 40 で今すぐ ServiceWorker を試す - Qiita",
+            "url": "http://qiita.com/kinu/items/2abd61b4390f9bbaffc9",
+            "tags": [
+                "ServiceWorker",
+                "JavaScript"
+            ],
+            "content": "Service Workerを使ったオフライン処理、スクリプトの登録、更新方法、FetchやCache APIについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "The offline cookbook - JakeArchibald.com",
+            "url": "http://jakearchibald.com/2014/offline-cookbook/",
+            "tags": [
+                "ServiceWorker",
+                "JavaScript"
+            ],
+            "content": "Service Workerを使った典型的なパターンの紹介。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "On Third-Party JavaScript - In Production Case-Study",
+            "url": "http://blog.risingstack.com/on-third-party-javascript-in-production/",
+            "tags": [
+                "JavaScript",
+                "セキュリティ"
+            ],
+            "content": "サードパーティJavaScriptのケーススタディから学べる事について。\n\nMixpanel、Disqusからサイズやキャッシュ、どういう初期化経路を踏むかなどについて書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Introducing the JavaScript Internationalization API ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/",
+            "tags": [
+                "JavaScript",
+                "i18n",
+                "API"
+            ],
+            "content": "ECMA i18n APIの使い方について。\n\n元々localeCompareやtoLocaleStringといったものがあったがローカライズには不十分であり、その部分にECMA i18n APIを使える。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Papa Parse - Powerful CSV parser for Javascript",
+            "url": "http://papaparse.com/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "CSVパーサーライブラリ。\n\nCSVをJSONに変換、WebWorkerを使っての並列処理、ダウンロードしながらのパース等",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "gcanti/uvdom",
+            "url": "https://github.com/gcanti/uvdom",
+            "tags": [
+                "JavaScript",
+                "VirualDOM",
+                "library"
+            ],
+            "content": "Virtual DOMを持っているライブラリ(React、virtual-dom等)向けに、それぞれ変換出来る抽象レイヤーの実装。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Offline.js – Handle your users losing their internet connection like a pro",
+            "url": "http://github.hubspot.com/offline/docs/welcome/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "オフラインかどうかを検知して通知出来るライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "decimal.js API",
+            "url": "http://mikemcl.github.io/decimal.js/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Decimalを扱うライブラリ。\n\n小数点同士の演算、丸め込みの挙動の指定等、フォーマットを指定しての出力等が出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: TypeScript実践プログラミング (Programmer&#x27;s SELECTION): スティーブ・フェントン, 鈴木 幸敏, 株式会社クイープ",
+            "url": "http://www.amazon.co.jp/dp/4798139807?tag=amazon0abac-22",
+            "tags": [
+                "TypeScript",
+                "book",
+                "翻訳"
+            ],
+            "content": "2015年1月23日 発売\n\nPro TypeScriptの翻訳本\n\nhttp://www.apress.com/9781430267911",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "WebSocket - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920030485.do",
+            "tags": [
+                "WebSocket",
+                "book"
+            ],
+            "content": "WebSocketについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

@@ -1,242 +1,255 @@
-[
-    {
-        "category": "Headline",
-        "title": "Release v2.2.0 · webpack/webpack",
-        "url": "https://github.com/webpack/webpack/releases/tag/v2.2.0",
+{
+    "meta": {
+        "title": "2017-01-24のJS: webpack 2正式リリース、JavaScriptの開発環境設定、2016 JS Stars",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-01-24T01:33:00.000Z",
+        "category": "JSer",
         "tags": [
             "webpack",
-            "ReleaseNote"
-        ],
-        "content": "webpack 2.2.0正式版リリース。",
-        "relatedLinks": [
-            {
-                "title": "Migrating from v1 to v2",
-                "url": "https://webpack.js.org/guides/migrating/"
-            },
-            {
-                "title": "🎉 webpack 2.2: The Final Release 🎉 – webpack – Medium",
-                "url": "https://medium.com/webpack/webpack-2-2-the-final-release-76c3d43bf144#.ibgliase6"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "TestCafe v0.12.0 Released | TestCafe",
-        "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-12-0-released.html",
-        "tags": [
-            "testing",
-            "E2E",
-            "ReleaseNote"
-        ],
-        "content": "TestCafe v0.12.0リリース。\nベーシック認証/NTLM認証のサポート、CIでの動作改善、テストのスキップ、`test.before`と`test.after`の追加、ESLintプラグインの追加など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Modern JavaScript概観、そしてElectronへ",
-        "url": "http://blog.satotaichi.info/modern-javascript_201701/",
-        "tags": [
-            "JavaScript",
-            "TypeScript",
-            "Electron",
-            "babel"
-        ],
-        "content": "JavaScriptの環境設定をめぐる試行について。\nTypeScriptやFlowなどの型システム、Babelのエコシステム、Lint、テストフレームワーク、UIフレームワーク、CSS、アーキテクチャ、ビルドなど。\n幅広いツール/ライブラリの中で、どのような考えで何を選んだかについて書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "アメブロ2016 ~ Isomorphic JavaScriptの詳しい話 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-        "url": "https://developers.cyberagent.co.jp/blog/archives/3513/",
-        "tags": [
-            "JavaScript",
-            "isomorphic"
-        ],
-        "content": "クライアントサイドとサーバサイドのどちらでも動くIsomorphicなJavaScriptを書くために気をつける点について。\nReactコンポーネント、Fetch、スタイルシート、環境変数、ルーティング、表示領域の扱い，パフォーマンス計測についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Making transpiled ES modules more spec-compliant",
-        "url": "http://www.2ality.com/2017/01/babel-esm-spec-mode.html",
-        "tags": [
-            "ECMAScript",
-            "node.js"
-        ],
-        "content": "ES Modulesの仕様と現在のTranspilerの挙動について。\nECMAScriptとNode.jsのモジュールのInteroperabilityについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Module Bundling and Webpack in Simple Terms",
-        "url": "http://arianv.com/post/Module-Bundling-and-Webpack-in-Simple-Terms/",
-        "tags": [
-            "webpack",
-            "tutorial"
-        ],
-        "content": "webpackがどのようにモジュールをbundleしているかを丁寧に解説した記事",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "TypeScript 2.1: Mapped Types | Marius Schulz",
-        "url": "https://blog.mariusschulz.com/2017/01/20/typescript-2-1-mapped-types",
-        "tags": [
-            "TypeScript"
-        ],
-        "content": "TypeScript 2.1で入ったMapped Typesについて。\n`Object.freeze`などを例にMapped Typesの使い方を解説している",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Dragons when upgrading from Angular 2.1.x to 2.4.x – Medium",
-        "url": "https://medium.com/@abookone/dragons-when-upgrading-from-angular-2-1-x-to-2-4-x-530de5a763cb",
-        "tags": [
-            "AngularJS"
-        ],
-        "content": "Angular 2.1から2.4へのアップデートにおけるハマりどころについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Vue + Vuex — Getting started – Medium",
-        "url": "https://medium.com/@bradfmd/vue-vuex-getting-started-f78c03d9f65",
-        "tags": [
-            "Vue",
-            "tutorial"
-        ],
-        "content": "Vuexについての導入チュートリアル",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Server-side Rendering Shootout with Marko, Preact, Rax, React and Vue",
-        "url": "https://hackernoon.com/server-side-rendering-shootout-with-marko-preact-rax-react-and-vue-25e1ae17800f",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "template"
-        ],
-        "content": "UIライブラリ/テンプレートエンジンであるMarkoのサーバサイドレンダリングの高速化手法について。\nMarko v4ではブラウザとサーバで出力方式を変えている。\nクライアントサイドではVirtual DOMを使い、サーバサイドでは文字列結合をベースとした出力を使い分けている。",
-        "relatedLinks": [
-            {
-                "title": "Marko v4 Multiple Compilation Targets",
-                "url": "https://gist.github.com/mlrawlings/8b67bee58df45709e232f689b873e1d1"
-            },
-            {
-                "title": "feat: add marko by mlrawlings · Pull Request #11 · taobaofed/server-side-rendering-comparison",
-                "url": "https://github.com/taobaofed/server-side-rendering-comparison/pull/11"
-            },
-            {
-                "title": "marko/ROADMAP.md at master · marko-js/marko",
-                "url": "https://github.com/marko-js/marko/blob/master/ROADMAP.md"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "3 New CSS Features to Learn in 2017",
-        "url": "https://bitsofco.de/3-new-css-features-to-learn-in-2017/",
-        "tags": [
-            "CSS"
-        ],
-        "content": "最近のブラウザで利用できる新しいCSSの機能について。\nFeature Queries、Grid Layout、CSS Variables",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES2016 / ES2017の最新動向を追ってみた - Qiita",
-        "url": "http://qiita.com/yuyake0084/items/3c901f37ed7333d4da16",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES2016、2017で追加された構文や機能について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Introduction to WebAssembly — Rasmus Andersson",
-        "url": "https://rsms.me/wasm-intro",
-        "tags": [
-            "WebAssembly"
-        ],
-        "content": "WebAssemblyの中身を見ていく話。\nセマンティクス、type section、メモリアドレス、JavaScriptのAPIについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Functional Programing in Javascript | Lifelong Learning",
-        "url": "https://vmayakumar.wordpress.com/2017/01/17/functional-programing-in-javascript/",
-        "tags": [
-            "JavaScript",
-            "関数型プログラミング"
-        ],
-        "content": "JavaScriptでの関数型プログラミングについて。\nAdequate/mostly-adequate-guideを元にしている",
-        "relatedLinks": [
-            {
-                "title": "MostlyAdequate/mostly-adequate-guide: Mostly adequate guide to FP (in javascript)",
-                "url": "https://github.com/MostlyAdequate/mostly-adequate-guide"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "2016 JavaScript Rising Stars",
-        "url": "https://risingstars2016.js.org/",
-        "tags": [
-            "JavaScript",
-            "github"
-        ],
-        "content": "2016年にGitHubのstarの増加率でランキングをつけた結果について。\nそれぞれのライブラリやツールについても簡単に解説されている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Voca: The JavaScript string library",
-        "url": "https://vocajs.com/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "文字列操作系のUtils集ライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "lorenzofox3/zora: A less than 200 lines of code javascript test harness for nodejs and the browser",
-        "url": "https://github.com/lorenzofox3/zora",
-        "tags": [
-            "testing",
-            "JavaScript",
-            "library"
-        ],
-        "content": "Generatorを使った小さなテストフレームワーク",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "alibaba/rax: A universal React-compatible render engine.",
-        "url": "https://github.com/alibaba/rax",
-        "tags": [
-            "React",
-            "library",
             "JavaScript"
-        ],
-        "content": "ReactライクなAPIを持つUniversalなViewライブラリ。\nブラウザだけではなく、アプリ(Weex)やサーバでも動作させることが目的。",
-        "relatedLinks": [
-            {
-                "title": "rax/difference-with-react.md at master · alibaba/rax",
-                "url": "https://github.com/alibaba/rax/blob/master/docs/difference-with-react.md"
-            },
-            {
-                "title": "Weex",
-                "url": "https://weex-project.io/"
-            },
-            {
-                "title": "(question) Inferno/Preact comparison · Issue #81 · alibaba/rax",
-                "url": "https://github.com/alibaba/rax/issues/81"
-            }
         ]
-    }
-]
+    },
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Release v2.2.0 · webpack/webpack",
+            "url": "https://github.com/webpack/webpack/releases/tag/v2.2.0",
+            "tags": [
+                "webpack",
+                "ReleaseNote"
+            ],
+            "content": "webpack 2.2.0正式版リリース。",
+            "relatedLinks": [
+                {
+                    "title": "Migrating from v1 to v2",
+                    "url": "https://webpack.js.org/guides/migrating/"
+                },
+                {
+                    "title": "🎉 webpack 2.2: The Final Release 🎉 – webpack – Medium",
+                    "url": "https://medium.com/webpack/webpack-2-2-the-final-release-76c3d43bf144#.ibgliase6"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "TestCafe v0.12.0 Released | TestCafe",
+            "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-12-0-released.html",
+            "tags": [
+                "testing",
+                "E2E",
+                "ReleaseNote"
+            ],
+            "content": "TestCafe v0.12.0リリース。\nベーシック認証/NTLM認証のサポート、CIでの動作改善、テストのスキップ、`test.before`と`test.after`の追加、ESLintプラグインの追加など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Modern JavaScript概観、そしてElectronへ",
+            "url": "http://blog.satotaichi.info/modern-javascript_201701/",
+            "tags": [
+                "JavaScript",
+                "TypeScript",
+                "Electron",
+                "babel"
+            ],
+            "content": "JavaScriptの環境設定をめぐる試行について。\nTypeScriptやFlowなどの型システム、Babelのエコシステム、Lint、テストフレームワーク、UIフレームワーク、CSS、アーキテクチャ、ビルドなど。\n幅広いツール/ライブラリの中で、どのような考えで何を選んだかについて書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "アメブロ2016 ~ Isomorphic JavaScriptの詳しい話 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+            "url": "https://developers.cyberagent.co.jp/blog/archives/3513/",
+            "tags": [
+                "JavaScript",
+                "isomorphic"
+            ],
+            "content": "クライアントサイドとサーバサイドのどちらでも動くIsomorphicなJavaScriptを書くために気をつける点について。\nReactコンポーネント、Fetch、スタイルシート、環境変数、ルーティング、表示領域の扱い，パフォーマンス計測についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Making transpiled ES modules more spec-compliant",
+            "url": "http://www.2ality.com/2017/01/babel-esm-spec-mode.html",
+            "tags": [
+                "ECMAScript",
+                "node.js"
+            ],
+            "content": "ES Modulesの仕様と現在のTranspilerの挙動について。\nECMAScriptとNode.jsのモジュールのInteroperabilityについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Module Bundling and Webpack in Simple Terms",
+            "url": "http://arianv.com/post/Module-Bundling-and-Webpack-in-Simple-Terms/",
+            "tags": [
+                "webpack",
+                "tutorial"
+            ],
+            "content": "webpackがどのようにモジュールをbundleしているかを丁寧に解説した記事",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "TypeScript 2.1: Mapped Types | Marius Schulz",
+            "url": "https://blog.mariusschulz.com/2017/01/20/typescript-2-1-mapped-types",
+            "tags": [
+                "TypeScript"
+            ],
+            "content": "TypeScript 2.1で入ったMapped Typesについて。\n`Object.freeze`などを例にMapped Typesの使い方を解説している",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Dragons when upgrading from Angular 2.1.x to 2.4.x – Medium",
+            "url": "https://medium.com/@abookone/dragons-when-upgrading-from-angular-2-1-x-to-2-4-x-530de5a763cb",
+            "tags": [
+                "AngularJS"
+            ],
+            "content": "Angular 2.1から2.4へのアップデートにおけるハマりどころについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Vue + Vuex — Getting started – Medium",
+            "url": "https://medium.com/@bradfmd/vue-vuex-getting-started-f78c03d9f65",
+            "tags": [
+                "Vue",
+                "tutorial"
+            ],
+            "content": "Vuexについての導入チュートリアル",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Server-side Rendering Shootout with Marko, Preact, Rax, React and Vue",
+            "url": "https://hackernoon.com/server-side-rendering-shootout-with-marko-preact-rax-react-and-vue-25e1ae17800f",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "template"
+            ],
+            "content": "UIライブラリ/テンプレートエンジンであるMarkoのサーバサイドレンダリングの高速化手法について。\nMarko v4ではブラウザとサーバで出力方式を変えている。\nクライアントサイドではVirtual DOMを使い、サーバサイドでは文字列結合をベースとした出力を使い分けている。",
+            "relatedLinks": [
+                {
+                    "title": "Marko v4 Multiple Compilation Targets",
+                    "url": "https://gist.github.com/mlrawlings/8b67bee58df45709e232f689b873e1d1"
+                },
+                {
+                    "title": "feat: add marko by mlrawlings · Pull Request #11 · taobaofed/server-side-rendering-comparison",
+                    "url": "https://github.com/taobaofed/server-side-rendering-comparison/pull/11"
+                },
+                {
+                    "title": "marko/ROADMAP.md at master · marko-js/marko",
+                    "url": "https://github.com/marko-js/marko/blob/master/ROADMAP.md"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "3 New CSS Features to Learn in 2017",
+            "url": "https://bitsofco.de/3-new-css-features-to-learn-in-2017/",
+            "tags": [
+                "CSS"
+            ],
+            "content": "最近のブラウザで利用できる新しいCSSの機能について。\nFeature Queries、Grid Layout、CSS Variables",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES2016 / ES2017の最新動向を追ってみた - Qiita",
+            "url": "http://qiita.com/yuyake0084/items/3c901f37ed7333d4da16",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES2016、2017で追加された構文や機能について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Introduction to WebAssembly — Rasmus Andersson",
+            "url": "https://rsms.me/wasm-intro",
+            "tags": [
+                "WebAssembly"
+            ],
+            "content": "WebAssemblyの中身を見ていく話。\nセマンティクス、type section、メモリアドレス、JavaScriptのAPIについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Functional Programing in Javascript | Lifelong Learning",
+            "url": "https://vmayakumar.wordpress.com/2017/01/17/functional-programing-in-javascript/",
+            "tags": [
+                "JavaScript",
+                "関数型プログラミング"
+            ],
+            "content": "JavaScriptでの関数型プログラミングについて。\nAdequate/mostly-adequate-guideを元にしている",
+            "relatedLinks": [
+                {
+                    "title": "MostlyAdequate/mostly-adequate-guide: Mostly adequate guide to FP (in javascript)",
+                    "url": "https://github.com/MostlyAdequate/mostly-adequate-guide"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "2016 JavaScript Rising Stars",
+            "url": "https://risingstars2016.js.org/",
+            "tags": [
+                "JavaScript",
+                "github"
+            ],
+            "content": "2016年にGitHubのstarの増加率でランキングをつけた結果について。\nそれぞれのライブラリやツールについても簡単に解説されている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Voca: The JavaScript string library",
+            "url": "https://vocajs.com/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "文字列操作系のUtils集ライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "lorenzofox3/zora: A less than 200 lines of code javascript test harness for nodejs and the browser",
+            "url": "https://github.com/lorenzofox3/zora",
+            "tags": [
+                "testing",
+                "JavaScript",
+                "library"
+            ],
+            "content": "Generatorを使った小さなテストフレームワーク",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "alibaba/rax: A universal React-compatible render engine.",
+            "url": "https://github.com/alibaba/rax",
+            "tags": [
+                "React",
+                "library",
+                "JavaScript"
+            ],
+            "content": "ReactライクなAPIを持つUniversalなViewライブラリ。\nブラウザだけではなく、アプリ(Weex)やサーバでも動作させることが目的。",
+            "relatedLinks": [
+                {
+                    "title": "rax/difference-with-react.md at master · alibaba/rax",
+                    "url": "https://github.com/alibaba/rax/blob/master/docs/difference-with-react.md"
+                },
+                {
+                    "title": "Weex",
+                    "url": "https://weex-project.io/"
+                },
+                {
+                    "title": "(question) Inferno/Preact comparison · Issue #81 · alibaba/rax",
+                    "url": "https://github.com/alibaba/rax/issues/81"
+                }
+            ]
+        }
+    ]
+}

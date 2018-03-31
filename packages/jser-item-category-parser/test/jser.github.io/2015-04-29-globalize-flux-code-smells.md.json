@@ -1,318 +1,332 @@
-[
-    {
-        "category": "Headline",
-        "title": "Pixi.js v3 - Goodboy™ — Goodboy™",
-        "url": "http://www.goodboydigital.com/pixi-js-v3/",
+{
+    "meta": {
+        "title": "2015-04-29のJS: Globalize 1.0、Flux実装、Code Smellsの検出",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-04-29T14:17:00.000Z",
+        "category": "JSer",
         "tags": [
-            "game",
-            "JavaScript",
-            "library"
-        ],
-        "content": "JavaScriptゲームエンジンのpixi.js v3リリース。\nWebGL Renderer、Particle Containerの追加、Interaction、Resolution管理の改善など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "jQuery 1.11.3 and 2.1.4 Released – iOS Fail-Safe Edition | Official jQuery Blog",
-        "url": "http://blog.jquery.com/2015/04/28/jquery-1-11-3-and-2-1-4-released-ios-fail-safe-edition/",
-        "tags": [
-            "jQuery",
-            "ReleaseNote"
-        ],
-        "content": "jQuery 1.11.3と2.1.4リリース。\niOS 8.2と8.3向けのワークアラウンドの追加",
-        "relatedLinks": [
-            {
-                "title": "Prevent iOS from improperly JIT-ing isArrayLike by jridgewell · Pull Request #2094 · jashkenas/underscore",
-                "url": "https://github.com/jashkenas/underscore/pull/2094"
-            },
-            {
-                "title": "Bug 142792 – Objects with numeric properties intermittently get a phantom ",
-                "url": "https://bugs.webkit.org/show_bug.cgi?id=142792"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Dev.Opera — Opera 29 released",
-        "url": "https://dev.opera.com/blog/opera-29/",
-        "tags": [
-            "Opera",
-            "ReleaseNote"
-        ],
-        "content": "Opera 29(based on Chromium 42)リリース。\nES6 Classes、object literalsの拡張サポート、Fetch APIがwindowコンテキストでも利用できるように、Web Audio APIの仕様追従など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing PEP 0.3.0 | Official jQuery Blog",
-        "url": "http://blog.jquery.com/2015/04/21/announcing-pep-0-3-0/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "PEP(Pointer Events Polyfill) 0.3.0リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing Globalize 1.0 | Official jQuery Blog",
-        "url": "http://blog.jquery.com/2015/04/23/announcing-globalize-1-0/",
-        "tags": [
-            "JavaScript",
             "i18n",
-            "library"
-        ],
-        "content": "Unicode CLDRベースの国際化対応ライブラリであるGlobalize 1.0リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 を学べる tower-of-babel を作りました。 (workshopper の作り方) - from scratch",
-        "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/04/26/104521",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "tutorial"
-        ],
-        "content": "workshopper / workshopper-exerciseを使ったエクササイズの作り方について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScriptでパーサコンビネータのコンセプトを理解する(「正規表現だけに頼ってはいけない」の続き) - id:anatooのブログ",
-        "url": "http://blog.anatoo.jp/entry/2015/04/26/220026",
-        "tags": [
-            "JavaScript",
-            "program"
-        ],
-        "content": "JavaScriptでパーサコンビネータを実装して、パーサコンビネータについて学ぶ話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "【翻訳】ReactをjQueryの数行に要約する | POSTD",
-        "url": "http://postd.cc/boiling-react-down-to-a-few-lines-in-jquery/",
-        "tags": [
-            "jQuery",
-            "React",
-            "JavaScript",
-            "翻訳"
-        ],
-        "content": "jQueryで書いたコードにReactのアイデアを適応して、状態の変更とDOMへの反映へと処理を分けていく話。\nVirtual DOMやimmutabilityについても触れている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "SinonJs Spies – Zsolt Nagy – Development of Maintainable Web-Applications",
-        "url": "http://zsolt-nagy.github.io/SinonJs-Spies/",
-        "tags": [
-            "JavaScript",
-            "testing"
-        ],
-        "content": "Sinon.JSのspyを使ったテストについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "10分で実装するFlux",
-        "url": "http://azu.github.io/slide/react-meetup/flux.html",
-        "tags": [
-            "JavaScript",
             "Flux",
-            "library",
-            "スライド"
-        ],
-        "content": "一からFluxアーキテクチャを実装してみてFluxがどういう仕組みで回ってるのかを確認していくスライド。\nFluxの特徴であるデータの一方通行に流れているかをスタックトレースで確認する",
-        "relatedLinks": [
-            {
-                "title": "橋本商会 » flux.DispatcherのwaitForの実装",
-                "url": "http://shokai.org/blog/archives/9905"
-            },
-            {
-                "title": "React+FluxでTodoMVCを作ってFluxについて学んでみた - yutaponのブログ",
-                "url": "http://yutapon.hatenablog.com/entry/2015/04/27/150000"
-            }
+            "JavaScript"
         ]
     },
-    {
-        "category": "SlideVideo",
-        "title": "ReactとFluxのこと // Speaker Deck",
-        "url": "https://speakerdeck.com/geta6/reacttofluxfalsekoto",
-        "tags": [
-            "React",
-            "Flux",
-            "スライド"
-        ],
-        "content": "Reactによって富豪的なViewの描画が現実的なレベルに落とせる話やFluxアーキテクチャがどういう形でデータを一方通行に回すかについて書かれているスライド",
-        "relatedLinks": [
-            {
-                "title": "社内勉強会でReactとFluxについて喋った - pixiv engineering blog",
-                "url": "http://inside.pixiv.net/entry/2015/04/27/170944"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "react-flux-fluent-2015 // Speaker Deck",
-        "url": "https://speakerdeck.com/fisherwebdev/react-flux-fluent-2015",
-        "tags": [
-            "React",
-            "Flux",
-            "スライド"
-        ],
-        "content": "[facebook/flux](https://github.com/facebook/flux \"facebook/flux\")モジュール作者によるFluxについてのスライド。\nFluxの構成要素、Dispatcher、Storeがシングルトンであること、React、Fluxのアンチパターンについて書かれてる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Video: JavaScript, HTML5, CSS3 Conference - O&#x27;Reilly Fluent, April 20 - 22, 2015, San Francisco, CA",
-        "url": "http://fluentconf.com/javascript-html-2015/public/content/video",
-        "tags": [
-            "JavaScript",
-            "イベント",
-            "動画"
-        ],
-        "content": "Fluent Conf 2015の動画が公開されている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "ES6 in Production // Speaker Deck",
-        "url": "https://speakerdeck.com/pazguille/es6-in-production",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "スライド"
-        ],
-        "content": "ES6を使っていくためのスライド。\nnode_modules以下もBrowserify(Babelify)で変換するには、`global`オプションを利用する。ES6で書いたモジュールをES5から使えるように公開する方法、ES6 ClassesやBabelのlooseモードについてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Eliminate JavaScript Code Smells",
-        "url": "http://elijahmanor.github.io/talks/js-smells/#/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "スライド"
-        ],
-        "content": "JSHintやESLintを使って複雑なコードの検出、jsinspectやjscpdを使ってコピー&ペーストを検出、色々なあやしいコードを検出するeslint pluginや特定のライブラリをサポートするeslint pluginについて",
-        "relatedLinks": [
-            {
-                "title": "elijahmanor/eslint-plugin-smells",
-                "url": "https://github.com/elijahmanor/eslint-plugin-smells"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Solar System of JS",
-        "url": "http://shaunlebron.github.io/solar-system-of-js/#0",
-        "tags": [
-            "JavaScript",
-            "歴史",
-            "スライド"
-        ],
-        "content": "今のJavaScript、今後のJavaScriptに関係ある要素や言語などをビジュアライズしてるスライド。",
-        "relatedLinks": [
-            {
-                "title": "▶ ECMAScript Harmony: Rise of the Compilers - Brendan Eich keynote - YouTube",
-                "url": "https://www.youtube.com/watch?v=PlmsweSNhTw"
-            },
-            {
-                "title": "shaunlebron/solar-system-of-js",
-                "url": "https://github.com/shaunlebron/solar-system-of-js"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "The WebKit Open Source Project - Web Platform Status",
-        "url": "http://www.webkit.org/status.html",
-        "tags": [
-            "webkit",
-            "JavaScript",
-            "まとめ"
-        ],
-        "content": "WebKitのStatusダッシュボード。 新しい機能等の実装状況について書かれてる。",
-        "relatedLinks": [
-            {
-                "title": "Browser Platform Status Tracker",
-                "url": "http://platformstatustracker.azurewebsites.net/"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Loupe",
-        "url": "http://latentflip.com/loupe/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "動画"
-        ],
-        "content": "JavaScriptのコールスタック、イベントループ、コールバックキューについて学べるサイトと動画",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "HerringtonDarkholme/typescript-repl",
-        "url": "https://github.com/HerringtonDarkholme/typescript-repl",
-        "tags": [
-            "TypeScript",
-            "console",
-            "Tools"
-        ],
-        "content": "コード補完もできるTypeScript REPL",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "angus-c/es6-react-mixins",
-        "url": "https://github.com/angus-c/es6-react-mixins",
-        "tags": [
-            "ECMAScript",
-            "React",
-            "library"
-        ],
-        "content": "React ComponentのmixinをES6 Classesを使って行うライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "rambler-digital-solutions/es6-class-mixin",
-        "url": "https://github.com/rambler-digital-solutions/es6-class-mixin",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "ES6 Classesでのmixinを行うライブラリ。\n`class Input extends mixin(BaseClass. mixin) {}` という感じでBaseClassを拡張したクラスをその場で作成する",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mohayonao/tickable-timer",
-        "url": "https://github.com/mohayonao/tickable-timer",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library"
-        ],
-        "content": "setTimeout/setInterval互換のAPIを持ち、任意の間隔で進めたり、イベント通知の機能を持つテスト向けのタイマーライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Security for Web Developers: Using JavaScript, HTML, and CSS: John Paul Mueller: 9781491928646: Amazon.com: Books",
-        "url": "http://www.amazon.com/Security-Web-Developers-Using-JavaScript/dp/1491928646",
-        "tags": [
-            "JavaScript",
-            "CSS",
-            "HTML",
-            "セキュリティ",
-            "book"
-        ],
-        "content": "2015年9月25日発売\nウェブ開発者向けのセキュリティについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Pixi.js v3 - Goodboy™ — Goodboy™",
+            "url": "http://www.goodboydigital.com/pixi-js-v3/",
+            "tags": [
+                "game",
+                "JavaScript",
+                "library"
+            ],
+            "content": "JavaScriptゲームエンジンのpixi.js v3リリース。\nWebGL Renderer、Particle Containerの追加、Interaction、Resolution管理の改善など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "jQuery 1.11.3 and 2.1.4 Released – iOS Fail-Safe Edition | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2015/04/28/jquery-1-11-3-and-2-1-4-released-ios-fail-safe-edition/",
+            "tags": [
+                "jQuery",
+                "ReleaseNote"
+            ],
+            "content": "jQuery 1.11.3と2.1.4リリース。\niOS 8.2と8.3向けのワークアラウンドの追加",
+            "relatedLinks": [
+                {
+                    "title": "Prevent iOS from improperly JIT-ing isArrayLike by jridgewell · Pull Request #2094 · jashkenas/underscore",
+                    "url": "https://github.com/jashkenas/underscore/pull/2094"
+                },
+                {
+                    "title": "Bug 142792 – Objects with numeric properties intermittently get a phantom ",
+                    "url": "https://bugs.webkit.org/show_bug.cgi?id=142792"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Dev.Opera — Opera 29 released",
+            "url": "https://dev.opera.com/blog/opera-29/",
+            "tags": [
+                "Opera",
+                "ReleaseNote"
+            ],
+            "content": "Opera 29(based on Chromium 42)リリース。\nES6 Classes、object literalsの拡張サポート、Fetch APIがwindowコンテキストでも利用できるように、Web Audio APIの仕様追従など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing PEP 0.3.0 | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2015/04/21/announcing-pep-0-3-0/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "PEP(Pointer Events Polyfill) 0.3.0リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing Globalize 1.0 | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2015/04/23/announcing-globalize-1-0/",
+            "tags": [
+                "JavaScript",
+                "i18n",
+                "library"
+            ],
+            "content": "Unicode CLDRベースの国際化対応ライブラリであるGlobalize 1.0リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 を学べる tower-of-babel を作りました。 (workshopper の作り方) - from scratch",
+            "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/04/26/104521",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "tutorial"
+            ],
+            "content": "workshopper / workshopper-exerciseを使ったエクササイズの作り方について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScriptでパーサコンビネータのコンセプトを理解する(「正規表現だけに頼ってはいけない」の続き) - id:anatooのブログ",
+            "url": "http://blog.anatoo.jp/entry/2015/04/26/220026",
+            "tags": [
+                "JavaScript",
+                "program"
+            ],
+            "content": "JavaScriptでパーサコンビネータを実装して、パーサコンビネータについて学ぶ話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "【翻訳】ReactをjQueryの数行に要約する | POSTD",
+            "url": "http://postd.cc/boiling-react-down-to-a-few-lines-in-jquery/",
+            "tags": [
+                "jQuery",
+                "React",
+                "JavaScript",
+                "翻訳"
+            ],
+            "content": "jQueryで書いたコードにReactのアイデアを適応して、状態の変更とDOMへの反映へと処理を分けていく話。\nVirtual DOMやimmutabilityについても触れている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "SinonJs Spies – Zsolt Nagy – Development of Maintainable Web-Applications",
+            "url": "http://zsolt-nagy.github.io/SinonJs-Spies/",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "content": "Sinon.JSのspyを使ったテストについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "10分で実装するFlux",
+            "url": "http://azu.github.io/slide/react-meetup/flux.html",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "library",
+                "スライド"
+            ],
+            "content": "一からFluxアーキテクチャを実装してみてFluxがどういう仕組みで回ってるのかを確認していくスライド。\nFluxの特徴であるデータの一方通行に流れているかをスタックトレースで確認する",
+            "relatedLinks": [
+                {
+                    "title": "橋本商会 » flux.DispatcherのwaitForの実装",
+                    "url": "http://shokai.org/blog/archives/9905"
+                },
+                {
+                    "title": "React+FluxでTodoMVCを作ってFluxについて学んでみた - yutaponのブログ",
+                    "url": "http://yutapon.hatenablog.com/entry/2015/04/27/150000"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "ReactとFluxのこと // Speaker Deck",
+            "url": "https://speakerdeck.com/geta6/reacttofluxfalsekoto",
+            "tags": [
+                "React",
+                "Flux",
+                "スライド"
+            ],
+            "content": "Reactによって富豪的なViewの描画が現実的なレベルに落とせる話やFluxアーキテクチャがどういう形でデータを一方通行に回すかについて書かれているスライド",
+            "relatedLinks": [
+                {
+                    "title": "社内勉強会でReactとFluxについて喋った - pixiv engineering blog",
+                    "url": "http://inside.pixiv.net/entry/2015/04/27/170944"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "react-flux-fluent-2015 // Speaker Deck",
+            "url": "https://speakerdeck.com/fisherwebdev/react-flux-fluent-2015",
+            "tags": [
+                "React",
+                "Flux",
+                "スライド"
+            ],
+            "content": "[facebook/flux](https://github.com/facebook/flux \"facebook/flux\")モジュール作者によるFluxについてのスライド。\nFluxの構成要素、Dispatcher、Storeがシングルトンであること、React、Fluxのアンチパターンについて書かれてる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Video: JavaScript, HTML5, CSS3 Conference - O&#x27;Reilly Fluent, April 20 - 22, 2015, San Francisco, CA",
+            "url": "http://fluentconf.com/javascript-html-2015/public/content/video",
+            "tags": [
+                "JavaScript",
+                "イベント",
+                "動画"
+            ],
+            "content": "Fluent Conf 2015の動画が公開されている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "ES6 in Production // Speaker Deck",
+            "url": "https://speakerdeck.com/pazguille/es6-in-production",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "スライド"
+            ],
+            "content": "ES6を使っていくためのスライド。\nnode_modules以下もBrowserify(Babelify)で変換するには、`global`オプションを利用する。ES6で書いたモジュールをES5から使えるように公開する方法、ES6 ClassesやBabelのlooseモードについてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Eliminate JavaScript Code Smells",
+            "url": "http://elijahmanor.github.io/talks/js-smells/#/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "スライド"
+            ],
+            "content": "JSHintやESLintを使って複雑なコードの検出、jsinspectやjscpdを使ってコピー&ペーストを検出、色々なあやしいコードを検出するeslint pluginや特定のライブラリをサポートするeslint pluginについて",
+            "relatedLinks": [
+                {
+                    "title": "elijahmanor/eslint-plugin-smells",
+                    "url": "https://github.com/elijahmanor/eslint-plugin-smells"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Solar System of JS",
+            "url": "http://shaunlebron.github.io/solar-system-of-js/#0",
+            "tags": [
+                "JavaScript",
+                "歴史",
+                "スライド"
+            ],
+            "content": "今のJavaScript、今後のJavaScriptに関係ある要素や言語などをビジュアライズしてるスライド。",
+            "relatedLinks": [
+                {
+                    "title": "▶ ECMAScript Harmony: Rise of the Compilers - Brendan Eich keynote - YouTube",
+                    "url": "https://www.youtube.com/watch?v=PlmsweSNhTw"
+                },
+                {
+                    "title": "shaunlebron/solar-system-of-js",
+                    "url": "https://github.com/shaunlebron/solar-system-of-js"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "The WebKit Open Source Project - Web Platform Status",
+            "url": "http://www.webkit.org/status.html",
+            "tags": [
+                "webkit",
+                "JavaScript",
+                "まとめ"
+            ],
+            "content": "WebKitのStatusダッシュボード。 新しい機能等の実装状況について書かれてる。",
+            "relatedLinks": [
+                {
+                    "title": "Browser Platform Status Tracker",
+                    "url": "http://platformstatustracker.azurewebsites.net/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Loupe",
+            "url": "http://latentflip.com/loupe/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "動画"
+            ],
+            "content": "JavaScriptのコールスタック、イベントループ、コールバックキューについて学べるサイトと動画",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "HerringtonDarkholme/typescript-repl",
+            "url": "https://github.com/HerringtonDarkholme/typescript-repl",
+            "tags": [
+                "TypeScript",
+                "console",
+                "Tools"
+            ],
+            "content": "コード補完もできるTypeScript REPL",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "angus-c/es6-react-mixins",
+            "url": "https://github.com/angus-c/es6-react-mixins",
+            "tags": [
+                "ECMAScript",
+                "React",
+                "library"
+            ],
+            "content": "React ComponentのmixinをES6 Classesを使って行うライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "rambler-digital-solutions/es6-class-mixin",
+            "url": "https://github.com/rambler-digital-solutions/es6-class-mixin",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "ES6 Classesでのmixinを行うライブラリ。\n`class Input extends mixin(BaseClass. mixin) {}` という感じでBaseClassを拡張したクラスをその場で作成する",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mohayonao/tickable-timer",
+            "url": "https://github.com/mohayonao/tickable-timer",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library"
+            ],
+            "content": "setTimeout/setInterval互換のAPIを持ち、任意の間隔で進めたり、イベント通知の機能を持つテスト向けのタイマーライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Security for Web Developers: Using JavaScript, HTML, and CSS: John Paul Mueller: 9781491928646: Amazon.com: Books",
+            "url": "http://www.amazon.com/Security-Web-Developers-Using-JavaScript/dp/1491928646",
+            "tags": [
+                "JavaScript",
+                "CSS",
+                "HTML",
+                "セキュリティ",
+                "book"
+            ],
+            "content": "2015年9月25日発売\nウェブ開発者向けのセキュリティについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

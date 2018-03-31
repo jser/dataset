@@ -1,238 +1,252 @@
-[
-    {
-        "category": "Headline",
-        "title": "V8 JavaScript Engine: V8 4.5 release",
-        "url": "http://v8project.blogspot.com/2015/07/v8-45-release.html",
-        "tags": [
-            "JavaScript",
-            "V8",
-            "ReleaseNote"
-        ],
-        "content": "V8 4.5(Chrome 45)リリース。\nArrow Function、Array/TypedArrayのメソッド追加、Object.assign、最適化コンパイラのTurboFan、V8 APIの変更など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint 1.0.0-rc-1 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/07/eslint-1.0.0-rc-1-released",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 1.0.0-rc-1リリース。\n`--reset`がデフォルトになり、ES6の対応改善、新しいルールの追加など",
-        "relatedLinks": [
-            {
-                "title": "Documentation - ESLint - Pluggable JavaScript linter",
-                "url": "http://eslint.org/docs/1.0.0/user-guide/migrating-to-1.0.0"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing TypeScript 1.5 - TypeScript - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/typescript/archive/2015/07/20/announcing-typescript-1-5.aspx",
+{
+    "meta": {
+        "title": "2015-07-21のJS: TypeScript 1.5、Web Components概要、ブラウザの情報源",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-07-21T13:54:00.000Z",
+        "category": "JSer",
         "tags": [
             "TypeScript",
-            "ReleaseNote"
-        ],
-        "content": "TypeScript 1.5リリース。\nmodulesやdestructuring等ES6の対応改善、tsconfig.jsonによるプロジェクト設定、Decoratorを`--experimentalDecorators`フラグで試験的サポートなど",
-        "relatedLinks": [
-            {
-                "title": "Roadmap · Microsoft/TypeScript Wiki",
-                "url": "https://github.com/Microsoft/TypeScript/wiki/Roadmap#15"
-            },
-            {
-                "title": "TypeScript 1.5.3 変更点 - Qiita",
-                "url": "http://qiita.com/vvakame/items/9b9fde6c71aae6a824c0"
-            }
+            "WebCompoents",
+            "Browser"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "node-browserify/changelog.markdown at master · substack/node-browserify",
-        "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown#1100",
-        "tags": [
-            "browserify",
-            "ReleaseNote"
-        ],
-        "content": "Browserify 11.0.0リリース。\nブラウザ向けの`stream`として使うreadable-streamをアップデートしStreams3ベースに変更。\nブラウザ向け`http`モジュールをFetch APIをベースとしたstream-httpへ変更しstreamをサポートできるように",
-        "relatedLinks": [
-            {
-                "title": "nodejs/readable-stream",
-                "url": "https://github.com/nodejs/readable-stream"
-            },
-            {
-                "title": "jhiesey/stream-http",
-                "url": "https://github.com/jhiesey/stream-http"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Bringing componentization to the web: An overview of Web Components | Microsoft Edge Dev Blog",
-        "url": "http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/",
-        "tags": [
-            "WebComponents",
-            "MSEdge",
-            "browser"
-        ],
-        "content": "Web Componentsについての詳しい解説。\n何を目的にしているか、関連するコンポーネント実装の歴史。\nCSSスタイルのisolation、スタイルのスコープ、Global object isolation、iframeには欠けている部分についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Socket.IO — Socket.IO P2P",
-        "url": "http://socket.io/blog/socket.io-p2p/#",
-        "tags": [
-            "p2p",
-            "node.js",
-            "library"
-        ],
-        "content": "Socket.IOからWebRTCを利用してP2Pでの通信を行えるように",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Comprehensive Beginner&#x27;s Guide To ReactJS - AntJanus",
-        "url": "http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginners-guide-to-reactjs/",
-        "tags": [
-            "AngularJS",
-            "React"
-        ],
-        "content": "AngularJSユーザ向けのReact入門ガイド",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "How to Debug JavaScript Remotely With Vorlon.js - Tuts+ Code Tutorial",
-        "url": "http://code.tutsplus.com/tutorials/how-to-debug-javascript-remotely-with-vorlonjs--cms-24343",
-        "tags": [
-            "JavaScript",
-            "debug",
-            "tutorial"
-        ],
-        "content": "Vorlon.jsを使ったJavaScriptのリモートデバッグについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 In Depth: Proxies ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/07/es6-in-depth-proxies-and-reflect/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "Proxy APIについての解説。\nProxyで扱える14コのhandler、Proxyの使いどころ、Revocable proxiesについてなど。\n\"オブジェクトはプロパティのコレクションである\"といえるかどうかの話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "StrongLoop | An Introduction to JavaScript ES6 Iterators",
-        "url": "https://strongloop.com/strongblog/introduction-to-es6-iterators/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6 Iteratorについての解説。\nfor-ofとfor-inの違い、Symbol.iteratorを使って定義する方法とそれを利用する方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "azu/browser-javascript-resource",
-        "url": "https://github.com/azu/browser-javascript-resource",
-        "tags": [
-            "browser",
-            "JavaScript",
-            "blog",
-            "まとめ"
-        ],
-        "content": "IEやFirefoxなどブラウザごとのリリースノートや更新履歴、実装状況、バグレポートの方法などをまとめたもの",
-        "relatedLinks": [
-            {
-                "title": "ブラウザ毎のリリースノートや実装状況はどこを見ればいいかをまとめました | Web Scratch",
-                "url": "http://efcl.info/2015/07/21/browser-javascript-resource/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "知らないと損するSassの組み込み関数徹底解剖 | Yuhiisk",
-        "url": "http://blog.yuhiisk.com/archive/2015/07/14/sass-built-in-functions.html",
-        "tags": [
-            "Sass",
-            "リファレンス"
-        ],
-        "content": "Sassの関数まとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Flux in Depth. Store and Network Communication. – Minko Gechev&#x27;s blog",
-        "url": "http://blog.mgechev.com/2015/07/18/flux-in-depth-store-network-communication-services",
-        "tags": [
-            "Flux",
-            "JavaScript"
-        ],
-        "content": "Fluxからネットワークを含めたデータフローについて。\nStore -> View、View -> Storeまでの流れ、モデルとStateの分離。\nNetwork -> UI、UI -> Networkのパターンについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "An Introduction to Browser Rendering - YouTube",
-        "url": "https://www.youtube.com/watch?v=n1cKlKM3jYI",
-        "tags": [
-            "browser",
-            "動画"
-        ],
-        "content": "ブラウザのレンダリングフローについてのスクリーンキャスト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "nikgraf/belle",
-        "url": "https://github.com/nikgraf/belle/",
-        "tags": [
-            "React",
-            "UI",
-            "library"
-        ],
-        "content": "React Componentとして使えるUI集。\n外からJSを経由してコンポーネントに対してスタイルを設定出来るようになっている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ipselon/react-ui-builder",
-        "url": "https://github.com/ipselon/react-ui-builder",
-        "tags": [
-            "React",
-            "UI",
-            "Tools"
-        ],
-        "content": "React ComponentをGUIで配置したり、配置したものからReactのコードを吐き出したりして、GUIでコードを編集、プレビューなど出来るツール。\nツール自体がReactとProxyからできていて面白い",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "DrBoolean/mostly-adequate-guide",
-        "url": "https://github.com/DrBoolean/mostly-adequate-guide",
-        "tags": [
-            "JavaScript",
-            "関数型プログラミング"
-        ],
-        "content": "JavaScriptでの関数型プログラミングについての無料の書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "JavaScript Regular Expressions - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/9781783282258.do",
-        "tags": [
-            "JavaScript",
-            "正規表現",
-            "book"
-        ],
-        "content": "JavaScriptの正規表現についての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "V8 JavaScript Engine: V8 4.5 release",
+            "url": "http://v8project.blogspot.com/2015/07/v8-45-release.html",
+            "tags": [
+                "JavaScript",
+                "V8",
+                "ReleaseNote"
+            ],
+            "content": "V8 4.5(Chrome 45)リリース。\nArrow Function、Array/TypedArrayのメソッド追加、Object.assign、最適化コンパイラのTurboFan、V8 APIの変更など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint 1.0.0-rc-1 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/07/eslint-1.0.0-rc-1-released",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 1.0.0-rc-1リリース。\n`--reset`がデフォルトになり、ES6の対応改善、新しいルールの追加など",
+            "relatedLinks": [
+                {
+                    "title": "Documentation - ESLint - Pluggable JavaScript linter",
+                    "url": "http://eslint.org/docs/1.0.0/user-guide/migrating-to-1.0.0"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing TypeScript 1.5 - TypeScript - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/typescript/archive/2015/07/20/announcing-typescript-1-5.aspx",
+            "tags": [
+                "TypeScript",
+                "ReleaseNote"
+            ],
+            "content": "TypeScript 1.5リリース。\nmodulesやdestructuring等ES6の対応改善、tsconfig.jsonによるプロジェクト設定、Decoratorを`--experimentalDecorators`フラグで試験的サポートなど",
+            "relatedLinks": [
+                {
+                    "title": "Roadmap · Microsoft/TypeScript Wiki",
+                    "url": "https://github.com/Microsoft/TypeScript/wiki/Roadmap#15"
+                },
+                {
+                    "title": "TypeScript 1.5.3 変更点 - Qiita",
+                    "url": "http://qiita.com/vvakame/items/9b9fde6c71aae6a824c0"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "node-browserify/changelog.markdown at master · substack/node-browserify",
+            "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown#1100",
+            "tags": [
+                "browserify",
+                "ReleaseNote"
+            ],
+            "content": "Browserify 11.0.0リリース。\nブラウザ向けの`stream`として使うreadable-streamをアップデートしStreams3ベースに変更。\nブラウザ向け`http`モジュールをFetch APIをベースとしたstream-httpへ変更しstreamをサポートできるように",
+            "relatedLinks": [
+                {
+                    "title": "nodejs/readable-stream",
+                    "url": "https://github.com/nodejs/readable-stream"
+                },
+                {
+                    "title": "jhiesey/stream-http",
+                    "url": "https://github.com/jhiesey/stream-http"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Bringing componentization to the web: An overview of Web Components | Microsoft Edge Dev Blog",
+            "url": "http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/",
+            "tags": [
+                "WebComponents",
+                "MSEdge",
+                "browser"
+            ],
+            "content": "Web Componentsについての詳しい解説。\n何を目的にしているか、関連するコンポーネント実装の歴史。\nCSSスタイルのisolation、スタイルのスコープ、Global object isolation、iframeには欠けている部分についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Socket.IO — Socket.IO P2P",
+            "url": "http://socket.io/blog/socket.io-p2p/#",
+            "tags": [
+                "p2p",
+                "node.js",
+                "library"
+            ],
+            "content": "Socket.IOからWebRTCを利用してP2Pでの通信を行えるように",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Comprehensive Beginner&#x27;s Guide To ReactJS - AntJanus",
+            "url": "http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginners-guide-to-reactjs/",
+            "tags": [
+                "AngularJS",
+                "React"
+            ],
+            "content": "AngularJSユーザ向けのReact入門ガイド",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "How to Debug JavaScript Remotely With Vorlon.js - Tuts+ Code Tutorial",
+            "url": "http://code.tutsplus.com/tutorials/how-to-debug-javascript-remotely-with-vorlonjs--cms-24343",
+            "tags": [
+                "JavaScript",
+                "debug",
+                "tutorial"
+            ],
+            "content": "Vorlon.jsを使ったJavaScriptのリモートデバッグについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 In Depth: Proxies ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/07/es6-in-depth-proxies-and-reflect/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "Proxy APIについての解説。\nProxyで扱える14コのhandler、Proxyの使いどころ、Revocable proxiesについてなど。\n\"オブジェクトはプロパティのコレクションである\"といえるかどうかの話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "StrongLoop | An Introduction to JavaScript ES6 Iterators",
+            "url": "https://strongloop.com/strongblog/introduction-to-es6-iterators/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6 Iteratorについての解説。\nfor-ofとfor-inの違い、Symbol.iteratorを使って定義する方法とそれを利用する方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "azu/browser-javascript-resource",
+            "url": "https://github.com/azu/browser-javascript-resource",
+            "tags": [
+                "browser",
+                "JavaScript",
+                "blog",
+                "まとめ"
+            ],
+            "content": "IEやFirefoxなどブラウザごとのリリースノートや更新履歴、実装状況、バグレポートの方法などをまとめたもの",
+            "relatedLinks": [
+                {
+                    "title": "ブラウザ毎のリリースノートや実装状況はどこを見ればいいかをまとめました | Web Scratch",
+                    "url": "http://efcl.info/2015/07/21/browser-javascript-resource/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "知らないと損するSassの組み込み関数徹底解剖 | Yuhiisk",
+            "url": "http://blog.yuhiisk.com/archive/2015/07/14/sass-built-in-functions.html",
+            "tags": [
+                "Sass",
+                "リファレンス"
+            ],
+            "content": "Sassの関数まとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Flux in Depth. Store and Network Communication. – Minko Gechev&#x27;s blog",
+            "url": "http://blog.mgechev.com/2015/07/18/flux-in-depth-store-network-communication-services",
+            "tags": [
+                "Flux",
+                "JavaScript"
+            ],
+            "content": "Fluxからネットワークを含めたデータフローについて。\nStore -> View、View -> Storeまでの流れ、モデルとStateの分離。\nNetwork -> UI、UI -> Networkのパターンについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "An Introduction to Browser Rendering - YouTube",
+            "url": "https://www.youtube.com/watch?v=n1cKlKM3jYI",
+            "tags": [
+                "browser",
+                "動画"
+            ],
+            "content": "ブラウザのレンダリングフローについてのスクリーンキャスト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "nikgraf/belle",
+            "url": "https://github.com/nikgraf/belle/",
+            "tags": [
+                "React",
+                "UI",
+                "library"
+            ],
+            "content": "React Componentとして使えるUI集。\n外からJSを経由してコンポーネントに対してスタイルを設定出来るようになっている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ipselon/react-ui-builder",
+            "url": "https://github.com/ipselon/react-ui-builder",
+            "tags": [
+                "React",
+                "UI",
+                "Tools"
+            ],
+            "content": "React ComponentをGUIで配置したり、配置したものからReactのコードを吐き出したりして、GUIでコードを編集、プレビューなど出来るツール。\nツール自体がReactとProxyからできていて面白い",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "DrBoolean/mostly-adequate-guide",
+            "url": "https://github.com/DrBoolean/mostly-adequate-guide",
+            "tags": [
+                "JavaScript",
+                "関数型プログラミング"
+            ],
+            "content": "JavaScriptでの関数型プログラミングについての無料の書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "JavaScript Regular Expressions - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/9781783282258.do",
+            "tags": [
+                "JavaScript",
+                "正規表現",
+                "book"
+            ],
+            "content": "JavaScriptの正規表現についての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

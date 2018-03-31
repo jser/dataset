@@ -1,331 +1,346 @@
-[
-    {
-        "category": "Headline",
-        "title": "Ember.js - Ember.js 1.8.0 and 1.9 Beta Released",
-        "url": "http://emberjs.com/blog/2014/10/26/ember-1-8-0-released.html",
+{
+    "meta": {
+        "title": "2014-11-10のJS: Less 2.0、Vue.js 0.11、Model-View-Intent",
+        "author": "azu",
+        "layout": "post",
+        "date": "2014-11-10T11:46:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Ember 1.8.0と1.9βリリース。\n\nまたEmber 2.0についても話し合われている",
-        "relatedLinks": [
-            {
-                "title": "The Road to Ember 2.0 RFC by tomdale · Pull Request #15 · emberjs/rfcs",
-                "url": "https://github.com/emberjs/rfcs/pull/15"
-            },
-            {
-                "title": "Contribute to Ember.js 2.0. No coding required. :: madhatted.com",
-                "url": "http://madhatted.com/2014/11/5/contribute-to-ember-js-2-0-no-coding-required"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release v2.0.0.0 · less/less.js",
-        "url": "https://github.com/less/less.js/releases/tag/v2.0.0",
-        "tags": [
-            "JavaScript",
+            "Less",
             "CSS",
-            "ReleaseNote"
-        ],
-        "content": "Less 2.0リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 0.11.0: Cowboy Bebop · yyx990803/vue",
-        "url": "https://github.com/yyx990803/vue/releases/tag/0.11.0",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Vue.js 0.11.0リリース。\n\n一から書きなおされているため、挙動の変更やオプションの削除等破壊的な変更も多くあり、追加された機能やオプションも多い。",
-        "relatedLinks": [
-            {
-                "title": "vue/changes.md at master · yyx990803/vue",
-                "url": "https://github.com/yyx990803/vue/blob/master/changes.md"
-            },
-            {
-                "title": "Vue.js v0.11の変更点(予定)まとめ - blog.koba04.com",
-                "url": "http://blog.koba04.com/post/2014/10/07/vue-js-v011-changes/"
-            }
+            "Vue.js",
+            "VirtualDOM"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
-        "url": "http://blog.brackets.io/2014/11/04/brackets-1-0-and-extract-for-brackets-preview-now-available/",
-        "tags": [
-            "JavaScript",
-            "editor",
-            "ReleaseNote"
-        ],
-        "content": "Brackets 1.0リリース。\n\n同時にExtract for BracketsというPSDファイルからテキストや色などの情報が取得出来るプラグインのα版が公開されている",
-        "relatedLinks": [
-            {
-                "title": "Adobe、オープンソースのWeb開発向けテキストエディター「Brackets」v1.0をリリース - 窓の杜",
-                "url": "http://www.forest.impress.co.jp/docs/news/20141105_674571.html"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Stream API がブラウザにやってくる - Block Rockin’ Codes",
-        "url": "http://jxck.hatenablog.com/entry/whatwg-stream",
-        "tags": [
-            "stream",
-            "API",
-            "JavaScript"
-        ],
-        "content": "WHATWGのStream APIについて。\n\n連続したイベントを表現するStreamの流れ、ReadableとWritableの処理待ちのバランスが悪くなった時に調整するBack Pressureについても書かれている",
-        "relatedLinks": [
-            {
-                "title": "Streams Standard",
-                "url": "https://streams.spec.whatwg.org/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "React.jsとBackbone.jsを組み合わせて実践してみた結果 - Qiita",
-        "url": "http://qiita.com/derui@github/items/864113f694b77eca685d",
-        "tags": [
-            "React",
-            "backbone.js"
-        ],
-        "content": "ReactとBackboneの組み合わせについて実践的な話が書かれている。\n\nViewの部分をReactにするアプローチ、Viewをテストする際に使えるTestUtilsやReactを導入する際の注意点など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "An easier way of using polyfills ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2014/11/an-easier-way-of-using-polyfills/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "JavaScriptの必要な機能のpolyfillをCDN的に使えるPolyfill.ioについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "browserify をはじめてみる - Please Sleep",
-        "url": "http://please-sleep.cou929.nu/trying-browserify.html",
-        "tags": [
-            "JavaScript",
-            "browserify"
-        ],
-        "content": "埋め込み配布を目的としてJavaScriptをBrowserifyでビルドするにあたっての話。\n\nbowerでインストールしたjQueryの依存関係の解決、browserify-shimを使ってCommonJSに対応してないライブラリを使う方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "AngularJS についての所感 ::ハブろぐ",
-        "url": "http://havelog.ayumusato.com/develop/javascript/e628-angularjs_thought.html",
-        "tags": [
-            "AngularJS",
-            "JavaScript"
-        ],
-        "content": "AngularJSの扱い方を間違えるとハマってしまう所。\n\n$scope、DIとProviderと依存の数、ルールの抑制とexpression、Controllerの肥大化。\n\n他のライブラリに応用がしにくい世界観などについて",
-        "relatedLinks": [
-            {
-                "title": "AngularJS: The Bad Parts | Lars Eidnes",
-                "url": "http://larseidnes.com/2014/11/05/angularjs-the-bad-parts/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Reactive MVC and the Virtual DOM — Futurice",
-        "url": "http://futurice.com/blog/reactive-mvc-and-the-virtual-dom",
-        "tags": [
-            "React",
-            "Flux",
-            "VirualDOM",
-            "デザインパターン",
-            "JavaScript"
-        ],
-        "content": "MVIというReactiveなデザインパターンについて。\n\nMV*と違いControllerを取り除き、代わりにIntentというユーザイベントを扱う仕組みを入れる。\n一方通行にする点などFluxに似ている所はあるが、RxJS等を意識した話。\nまた、Virtual DOMを使い、テストしやすくするためにViewと実際の表示を作るRendererに分けている。\n\n最後にReact/Fluxとどのような点が違うのかについて書かれている",
-        "relatedLinks": [
-            {
-                "title": "Reactive MVC and the Virtual DOMのメモ | GH Issue Note",
-                "url": "http://efcl.wordpress.com/2014/11/03/reactive-mvc-and-the-virtual-dom%e3%81%ae%e3%83%a1%e3%83%a2/"
-            },
-            {
-                "title": "Model-View-Intent and the Virtual DOM",
-                "url": "http://staltz.com/mvi-freaklies/#/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "zertosh/ssr-demo-kit",
-        "url": "https://github.com/zertosh/ssr-demo-kit",
-        "tags": [
-            "スライド",
-            "動画"
-        ],
-        "content": "SoundCloudの人のReactによるサーバーサイドレンダリングのスライドと動画とサンプル",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Protractor for AngularJS: writing end-to-end tests has never been so fun",
-        "url": "http://ramonvictor.github.io/protractor/slides/",
-        "tags": [
-            "protractor",
-            "AngularJS",
-            "testing",
-            "スライド"
-        ],
-        "content": "Protractorについてよく書かれたスライド。\n\nProtractorの仕組み、インストール方法、設定、API、Page Objectsを使ったテストのパターン、デバッグ方法等幅広くまとまってる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Components, React and Flux (WIP) by Dan Abramov",
-        "url": "http://slides.com/danabramov/components-react-flux-wip#/",
-        "tags": [
-            "React",
-            "Flux",
-            "スライド",
-            "サンプル"
-        ],
-        "content": "Reactに関する事が幅広く書かれているスライド。\n\njQuery、Backbone、Reactそれぞれで実装した場合について。\nReactの特徴である再利用性、コンポーネントのネスト、ステートフルやreact-router等について。\n\nまた開発ツールとしてhot-reload、一方向のデータフローを実現するFluxアーキテクチャについてもそれぞれの役割が詳しく書かれている。",
-        "relatedLinks": [
-            {
-                "title": "gaearon/flux-react-router-example",
-                "url": "https://github.com/gaearon/flux-react-router-example"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "ReactJS News",
-        "url": "http://reactjsnews.com/",
-        "tags": [
-            "React",
-            "JavaScript",
-            "news"
-        ],
-        "content": "ReactのWeeklyニュースサイト",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Announcing RemoteIE: Test the latest IE on Windows, Mac OS X, iOS and Android - IEBlog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/ie/archive/2014/11/02/announcing-remoteie-test-the-latest-ie-on-windows-mac-os-x-ios-and-android.aspx",
-        "tags": [
-            "IE",
-            "debug",
-            "MS"
-        ],
-        "content": "確認用のIEをOS XやAndroid、iOS等でVPNで簡単に利用できるRemoteIEを公開した",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "uxebu/kommando",
-        "url": "https://github.com/uxebu/kommando",
-        "tags": [
-            "JavaScript",
-            "browser",
-            "testing",
-            "library"
-        ],
-        "content": "WebDriverを使ったE2Eテストを行うライブラリ。\n\nwd.jsやleadfootなどのクライアントライブラリはオプションで指定できる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ibm-js/ecma402 · GitHub",
-        "url": "https://github.com/ibm-js/ecma402",
-        "tags": [
-            "JavaScript",
-            "i18n",
-            "library",
-            "AMD"
-        ],
-        "content": "ECMA-402 JavaScript  Internationalization APIのshimライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "substack/html-inline",
-        "url": "https://github.com/substack/html-inline",
-        "tags": [
-            "HTML",
-            "CSS",
-            "画像",
-            "Tools"
-        ],
-        "content": "HTMLで読み込み指定されてるJavaScriptやCSS、画像をインライン化するコマンドラインツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "rtfeldman/seamless-immutable",
-        "url": "https://github.com/rtfeldman/seamless-immutable",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "ES5の機能を使ってImmutableな配列やオブジェクトを作成するライブラリ。\n\nそれぞれのオブジェクトは`Object.freeze`された状態になり、幾つか補助するメソッドが追加で用意されている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "travishorn/npm-package-store",
-        "url": "https://github.com/travishorn/npm-package-store",
-        "tags": [
-            "npm",
-            "Tools"
-        ],
-        "content": "App Storeみたいにnpmモジュールの更新一覧を見られるツール",
-        "relatedLinks": [
-            {
-                "title": "NPM Package Store",
-                "url": "http://travishorn.com/npm-package-store/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Paperclip.js - fast template engine for the DOM",
-        "url": "http://paperclipjs.com/",
-        "tags": [
-            "JavaScript",
-            "template",
-            "library"
-        ],
-        "content": "JavaScriptテンプレートライブラリ。\n\nデータバインディングについての方向をテンプレート内に`<~>`演算子を使って指定する事ができるのが特徴的",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: WebRTC ブラウザベースのP2P技術: Alan B. Johnston, Daniel C. Burnett, 日本電信電話株式会社 内田直樹(監訳)",
-        "url": "http://www.amazon.co.jp/dp/4897979587?tag=amazon0abac-22",
-        "tags": [
-            "WebRTC",
-            "p2p",
-            "book"
-        ],
-        "content": "2014年12月12日 発売\n\nWebRTC: APIs and RTCWEB Protocols of the HTML5 Real-Time Webの翻訳本",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: デザイニングWebアクセシビリティ - アクセシブルな設計やコンテンツのための実践Q&amp;A: 太田良典, 伊原力也",
-        "url": "http://www.amazon.co.jp/dp/4862671756?tag=amazon0abac-22",
-        "tags": [
-            "web",
-            "アクセシビリティ",
-            "book"
-        ],
-        "content": "2015年1月31日 発売\n\nWebアクセシビリティについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Ember.js - Ember.js 1.8.0 and 1.9 Beta Released",
+            "url": "http://emberjs.com/blog/2014/10/26/ember-1-8-0-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Ember 1.8.0と1.9βリリース。\n\nまたEmber 2.0についても話し合われている",
+            "relatedLinks": [
+                {
+                    "title": "The Road to Ember 2.0 RFC by tomdale · Pull Request #15 · emberjs/rfcs",
+                    "url": "https://github.com/emberjs/rfcs/pull/15"
+                },
+                {
+                    "title": "Contribute to Ember.js 2.0. No coding required. :: madhatted.com",
+                    "url": "http://madhatted.com/2014/11/5/contribute-to-ember-js-2-0-no-coding-required"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release v2.0.0.0 · less/less.js",
+            "url": "https://github.com/less/less.js/releases/tag/v2.0.0",
+            "tags": [
+                "JavaScript",
+                "CSS",
+                "ReleaseNote"
+            ],
+            "content": "Less 2.0リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 0.11.0: Cowboy Bebop · yyx990803/vue",
+            "url": "https://github.com/yyx990803/vue/releases/tag/0.11.0",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Vue.js 0.11.0リリース。\n\n一から書きなおされているため、挙動の変更やオプションの削除等破壊的な変更も多くあり、追加された機能やオプションも多い。",
+            "relatedLinks": [
+                {
+                    "title": "vue/changes.md at master · yyx990803/vue",
+                    "url": "https://github.com/yyx990803/vue/blob/master/changes.md"
+                },
+                {
+                    "title": "Vue.js v0.11の変更点(予定)まとめ - blog.koba04.com",
+                    "url": "http://blog.koba04.com/post/2014/10/07/vue-js-v011-changes/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
+            "url": "http://blog.brackets.io/2014/11/04/brackets-1-0-and-extract-for-brackets-preview-now-available/",
+            "tags": [
+                "JavaScript",
+                "editor",
+                "ReleaseNote"
+            ],
+            "content": "Brackets 1.0リリース。\n\n同時にExtract for BracketsというPSDファイルからテキストや色などの情報が取得出来るプラグインのα版が公開されている",
+            "relatedLinks": [
+                {
+                    "title": "Adobe、オープンソースのWeb開発向けテキストエディター「Brackets」v1.0をリリース - 窓の杜",
+                    "url": "http://www.forest.impress.co.jp/docs/news/20141105_674571.html"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Stream API がブラウザにやってくる - Block Rockin’ Codes",
+            "url": "http://jxck.hatenablog.com/entry/whatwg-stream",
+            "tags": [
+                "stream",
+                "API",
+                "JavaScript"
+            ],
+            "content": "WHATWGのStream APIについて。\n\n連続したイベントを表現するStreamの流れ、ReadableとWritableの処理待ちのバランスが悪くなった時に調整するBack Pressureについても書かれている",
+            "relatedLinks": [
+                {
+                    "title": "Streams Standard",
+                    "url": "https://streams.spec.whatwg.org/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "React.jsとBackbone.jsを組み合わせて実践してみた結果 - Qiita",
+            "url": "http://qiita.com/derui@github/items/864113f694b77eca685d",
+            "tags": [
+                "React",
+                "backbone.js"
+            ],
+            "content": "ReactとBackboneの組み合わせについて実践的な話が書かれている。\n\nViewの部分をReactにするアプローチ、Viewをテストする際に使えるTestUtilsやReactを導入する際の注意点など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "An easier way of using polyfills ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2014/11/an-easier-way-of-using-polyfills/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "JavaScriptの必要な機能のpolyfillをCDN的に使えるPolyfill.ioについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "browserify をはじめてみる - Please Sleep",
+            "url": "http://please-sleep.cou929.nu/trying-browserify.html",
+            "tags": [
+                "JavaScript",
+                "browserify"
+            ],
+            "content": "埋め込み配布を目的としてJavaScriptをBrowserifyでビルドするにあたっての話。\n\nbowerでインストールしたjQueryの依存関係の解決、browserify-shimを使ってCommonJSに対応してないライブラリを使う方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "AngularJS についての所感 ::ハブろぐ",
+            "url": "http://havelog.ayumusato.com/develop/javascript/e628-angularjs_thought.html",
+            "tags": [
+                "AngularJS",
+                "JavaScript"
+            ],
+            "content": "AngularJSの扱い方を間違えるとハマってしまう所。\n\n$scope、DIとProviderと依存の数、ルールの抑制とexpression、Controllerの肥大化。\n\n他のライブラリに応用がしにくい世界観などについて",
+            "relatedLinks": [
+                {
+                    "title": "AngularJS: The Bad Parts | Lars Eidnes",
+                    "url": "http://larseidnes.com/2014/11/05/angularjs-the-bad-parts/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Reactive MVC and the Virtual DOM — Futurice",
+            "url": "http://futurice.com/blog/reactive-mvc-and-the-virtual-dom",
+            "tags": [
+                "React",
+                "Flux",
+                "VirualDOM",
+                "デザインパターン",
+                "JavaScript"
+            ],
+            "content": "MVIというReactiveなデザインパターンについて。\n\nMV*と違いControllerを取り除き、代わりにIntentというユーザイベントを扱う仕組みを入れる。\n一方通行にする点などFluxに似ている所はあるが、RxJS等を意識した話。\nまた、Virtual DOMを使い、テストしやすくするためにViewと実際の表示を作るRendererに分けている。\n\n最後にReact/Fluxとどのような点が違うのかについて書かれている",
+            "relatedLinks": [
+                {
+                    "title": "Reactive MVC and the Virtual DOMのメモ | GH Issue Note",
+                    "url": "http://efcl.wordpress.com/2014/11/03/reactive-mvc-and-the-virtual-dom%e3%81%ae%e3%83%a1%e3%83%a2/"
+                },
+                {
+                    "title": "Model-View-Intent and the Virtual DOM",
+                    "url": "http://staltz.com/mvi-freaklies/#/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "zertosh/ssr-demo-kit",
+            "url": "https://github.com/zertosh/ssr-demo-kit",
+            "tags": [
+                "スライド",
+                "動画"
+            ],
+            "content": "SoundCloudの人のReactによるサーバーサイドレンダリングのスライドと動画とサンプル",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Protractor for AngularJS: writing end-to-end tests has never been so fun",
+            "url": "http://ramonvictor.github.io/protractor/slides/",
+            "tags": [
+                "protractor",
+                "AngularJS",
+                "testing",
+                "スライド"
+            ],
+            "content": "Protractorについてよく書かれたスライド。\n\nProtractorの仕組み、インストール方法、設定、API、Page Objectsを使ったテストのパターン、デバッグ方法等幅広くまとまってる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Components, React and Flux (WIP) by Dan Abramov",
+            "url": "http://slides.com/danabramov/components-react-flux-wip#/",
+            "tags": [
+                "React",
+                "Flux",
+                "スライド",
+                "サンプル"
+            ],
+            "content": "Reactに関する事が幅広く書かれているスライド。\n\njQuery、Backbone、Reactそれぞれで実装した場合について。\nReactの特徴である再利用性、コンポーネントのネスト、ステートフルやreact-router等について。\n\nまた開発ツールとしてhot-reload、一方向のデータフローを実現するFluxアーキテクチャについてもそれぞれの役割が詳しく書かれている。",
+            "relatedLinks": [
+                {
+                    "title": "gaearon/flux-react-router-example",
+                    "url": "https://github.com/gaearon/flux-react-router-example"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "ReactJS News",
+            "url": "http://reactjsnews.com/",
+            "tags": [
+                "React",
+                "JavaScript",
+                "news"
+            ],
+            "content": "ReactのWeeklyニュースサイト",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Announcing RemoteIE: Test the latest IE on Windows, Mac OS X, iOS and Android - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/11/02/announcing-remoteie-test-the-latest-ie-on-windows-mac-os-x-ios-and-android.aspx",
+            "tags": [
+                "IE",
+                "debug",
+                "MS"
+            ],
+            "content": "確認用のIEをOS XやAndroid、iOS等でVPNで簡単に利用できるRemoteIEを公開した",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "uxebu/kommando",
+            "url": "https://github.com/uxebu/kommando",
+            "tags": [
+                "JavaScript",
+                "browser",
+                "testing",
+                "library"
+            ],
+            "content": "WebDriverを使ったE2Eテストを行うライブラリ。\n\nwd.jsやleadfootなどのクライアントライブラリはオプションで指定できる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ibm-js/ecma402 · GitHub",
+            "url": "https://github.com/ibm-js/ecma402",
+            "tags": [
+                "JavaScript",
+                "i18n",
+                "library",
+                "AMD"
+            ],
+            "content": "ECMA-402 JavaScript  Internationalization APIのshimライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "substack/html-inline",
+            "url": "https://github.com/substack/html-inline",
+            "tags": [
+                "HTML",
+                "CSS",
+                "画像",
+                "Tools"
+            ],
+            "content": "HTMLで読み込み指定されてるJavaScriptやCSS、画像をインライン化するコマンドラインツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "rtfeldman/seamless-immutable",
+            "url": "https://github.com/rtfeldman/seamless-immutable",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "ES5の機能を使ってImmutableな配列やオブジェクトを作成するライブラリ。\n\nそれぞれのオブジェクトは`Object.freeze`された状態になり、幾つか補助するメソッドが追加で用意されている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "travishorn/npm-package-store",
+            "url": "https://github.com/travishorn/npm-package-store",
+            "tags": [
+                "npm",
+                "Tools"
+            ],
+            "content": "App Storeみたいにnpmモジュールの更新一覧を見られるツール",
+            "relatedLinks": [
+                {
+                    "title": "NPM Package Store",
+                    "url": "http://travishorn.com/npm-package-store/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Paperclip.js - fast template engine for the DOM",
+            "url": "http://paperclipjs.com/",
+            "tags": [
+                "JavaScript",
+                "template",
+                "library"
+            ],
+            "content": "JavaScriptテンプレートライブラリ。\n\nデータバインディングについての方向をテンプレート内に`<~>`演算子を使って指定する事ができるのが特徴的",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: WebRTC ブラウザベースのP2P技術: Alan B. Johnston, Daniel C. Burnett, 日本電信電話株式会社 内田直樹(監訳)",
+            "url": "http://www.amazon.co.jp/dp/4897979587?tag=amazon0abac-22",
+            "tags": [
+                "WebRTC",
+                "p2p",
+                "book"
+            ],
+            "content": "2014年12月12日 発売\n\nWebRTC: APIs and RTCWEB Protocols of the HTML5 Real-Time Webの翻訳本",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: デザイニングWebアクセシビリティ - アクセシブルな設計やコンテンツのための実践Q&amp;A: 太田良典, 伊原力也",
+            "url": "http://www.amazon.co.jp/dp/4862671756?tag=amazon0abac-22",
+            "tags": [
+                "web",
+                "アクセシビリティ",
+                "book"
+            ],
+            "content": "2015年1月31日 発売\n\nWebアクセシビリティについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

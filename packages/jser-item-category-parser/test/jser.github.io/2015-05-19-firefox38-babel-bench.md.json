@@ -1,350 +1,366 @@
-[
-    {
-        "category": "Headline",
-        "title": "Node v0.12.3 (Stable)",
-        "url": "http://blog.nodejs.org/2015/05/13/node-v0-12-3-0.12.3/",
+{
+    "meta": {
+        "title": "2015-05-19のJS: Firefox 38、Backbone.js 1.2.0、マイクロベンチマークの問題",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-05-19T14:03:00.000Z",
+        "category": "JSer",
         "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "ode v0.12.3リリース\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "# 0.9 released!\n",
-        "url": "http://blog.polymer-project.org/announcements/2015/05/14/0.9-release/",
-        "tags": [
-            "WebComponents",
-            "JavaScript",
-            "library"
-        ],
-        "content": "lymer 0.9リリース。\n0.8でexperimentalだった機能がデフォルトサポートされている。\n`:root`セレクタ、Gesture、CSPのサポートやUtilの追加など。\nBreaking Changeもあり、Migration guideが用意されている\n\n",
-        "relatedLinks": [
-            {
-                "title": "Release notes - Polymer",
-                "url": "https://www.polymer-project.org/0.9/docs/release-notes.html"
-            },
-            {
-                "title": "Migration guide - Polymer",
-                "url": "https://www.polymer-project.org/0.9/docs/migration.html"
-            }
+            "Firefox",
+            "Backbone",
+            "MVC",
+            "V8",
+            "ベンチマーク"
         ]
     },
-    {
-        "category": "Headline",
-        "title": " Ember.js - Ember.js 1.12 and 1.13 Beta (Glimmer!) Released\n[",
-        "url": "http://emberjs.com/blog/2015/05/13/ember-1-12-released.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "er.js 1.12と1.13 Betaリリース。\ncomputeにgetter/setterを使った方法を追加、併せてDecoratorsを使った方法をサポートする予定\n\n-",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Backbone.js\n[b",
-        "url": "http://backbonejs.org",
-        "tags": [
-            "backbone.js",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "bone.js 1.2.0リリース\nViewの作成などをhookする機能の追加、モデルの\"update\"イベントの追加、ユニークidとなる`modeld`の追加、ES6 modulesとして読み込んでも使えるように修正\n\n- ",
-        "relatedLinks": [
-            {
-                "title": "Use Function(",
-                "url": "https://github.com/jashkenas/underscore/issues/2152"
-            },
-            {
-                "title": "ES6 moduleのtop levelにある",
-                "url": "http://efcl.info/2015/05/06/this-is-es6-module/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "irefox — Notes (38.0) — Mozilla\n[ww",
-        "url": "https://www.mozilla.org/en-US/firefox/38.0/releasenotes/",
-        "tags": [
-            "firefox",
-            "ReleaseNote"
-        ],
-        "content": "ox 38.0リリース。\nRuby要素のサポート、WebSocketがWeb Workerで動作するように、BroadcastChannel API、`srcset`属性とpicture要素のサポート、開発者ツールで`copy`関数のサポートなど\n\n- [",
-        "relatedLinks": [
-            {
-                "title": "Ruby support in Firefox Developer Edition 38 ✩ Mozilla Hacks – the Web developer blog",
-                "url": "https://hacks.mozilla.org/2015/03/ruby-support-in-firefox-developer-edition-38/"
-            },
-            {
-                "title": "Trainspotting: Firefox 38 ✩ Mozilla Hacks – the Web developer blog",
-                "url": "https://hacks.mozilla.org/2015/05/trainspotting-firefox-38/"
-            },
-            {
-                "title": "Firefox 38の性能を検証 ゲーム・プラットフォームとしての優秀さを示す - Mozilla Flux",
-                "url": "http://rockridge.hatenablog.com/entry/2015/05/13/003218"
-            },
-            {
-                "title": "Firefox 38 for developers - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/ja/Firefox/Releases/38"
-            },
-            {
-                "title": "Firefox 38 サイト互換性情報 - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/ja/Firefox/Releases/38/Site_Compatibility"
-            },
-            {
-                "title": "HTML5 Web Messaging is a W3C Recommendation | W3C News",
-                "url": "http://www.w3.org/blog/news/archives/4704?pk_campaign=feed&pk_kwd=html5-web-messaging-is-a-w3c-recommendation"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "bel/CHANGELOG.md at v5.3.0 · babel/babel\n[git",
-        "url": "https://github.com/babel/babel/blob/v5.3.0/CHANGELOG.md#530",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "5.3.0リリース。\n5.2.0からの主な変更点としては`es7.trailingCommas` transformerの仕様追従、`retainLines`のオプション追加など\n\n- [r",
-        "relatedLinks": [
-            {
-                "title": "retainLines",
-                "url": "http://babeljs.io/docs/usage/options/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": " Babel Matters\n[code",
-        "url": "http://codemix.com/blog/why-babel-matters",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "本的な機能の紹介、ES.nextと言われるようなまだ標準化されてない仕様の対応、Babel pluginでのコードの最適化や型チェック、マクロなどASTを扱うプラットフォームとして見るBabelについて\n\n----\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "tion Bind Syntax · Babel\n[babel",
-        "url": "https://babeljs.io/blog/2015/05/14/function-bind",
-        "tags": [
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "4でES.nextで提案されているStage 0の`::`によるBind構文の変換をサポート。\n[Function Bind Syntax](https://github.com/zenparsing/es-function-bind \"Function Bind Syntax\")の挙動についての解説\n\n----\n\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "sted How Googlebot Crawls Javascript And Here&#x27;s What We Learned\n[search",
-        "url": "http://searchengineland.com/tested-googlebot-crawls-javascript-heres-learned-220157",
-        "tags": [
-            "JavaScript",
-            "google",
-            "検索"
-        ],
-        "content": "otがどこまでJavaScript等を解釈してクロールしているかの調査\n\n----\n\n#",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": " Depth: Template strings ✩ Mozilla Hacks – the Web developer blog\n[hacks.m",
-        "url": "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "tringsについて。\nBacktickから始まるtemplate literalやtagged templateについて\n\n----\n\n##",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ra — The State of Web Type\n[dev.oper",
-        "url": "https://dev.opera.com/articles/state-of-web-type/",
-        "tags": [
-            "browser",
-            "fonts",
-            "まとめ"
-        ],
-        "content": "トに関する機能のブラウザサポートの状況についてのまとめ。\nJustificationとHyphenation、Font Loadingについてなど\n\n- [State ",
-        "relatedLinks": [
-            {
-                "title": "State of Web Type",
-                "url": "http://stateofwebtype.com/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "アルテストをするreftest-runnerを作った | Web Scratch\n[efcl.info",
-        "url": "http://efcl.info/2015/05/14/reftest-runner/",
-        "tags": [
-            "browser",
-            "testing",
-            "canvas",
-            "JavaScript",
-            "library",
-            "webdriver"
-        ],
-        "content": "する自動テストライブラリとコマンドラインツール。\n2つのHTMLを用意して表示結果が一致するかどうかテストをするので、Canvasのテストなどに利用できる\n\n----\n\n## A",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "e Guide to SVG Fallbacks | CSS-Tricks\n[css-tricks",
-        "url": "https://css-tricks.com/a-complete-guide-to-svg-fallbacks/",
-        "tags": [
-            "SVG",
-            "まとめ"
-        ],
-        "content": "まとめ\n\n----\n\n## Br",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ode.js to Windows 10 IoT Core\n[blogs.windo",
-        "url": "http://blogs.windows.com/buildingapps/2015/05/12/bringing-node-js-to-windows-10-iot-core/",
-        "tags": [
-            "node.js",
-            "JavaScript"
-        ],
-        "content": "iptエンジンを使ったNode.jsのforkが公開された。\n\n- [Microsoft",
-        "relatedLinks": [
-            {
-                "title": "Microsoft/node",
-                "url": "https://github.com/Microsoft/node"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "annel API in Firefox 38 ✩ Mozilla Hacks – the Web developer blog\n[hacks.mozill",
-        "url": "https://hacks.mozilla.org/2015/02/broadcastchannel-api-in-firefox-38/",
-        "tags": [
-            "firefox",
-            "JavaScript",
-            "WebPlatformAPI"
-        ],
-        "content": "oadcastChannel APIが実装された。\n同じchannelを指定すれば、異なるタブやウィンドウ間でもメッセージのやり取りができるようになるAPI。\nBlobデータのやりとりも可能\n\n- [Broadcast ",
-        "relatedLinks": [
-            {
-                "title": "Broadcast Channel API - Web API Interfaces | MDN",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "re the Weather\n[mrale.ph/talk",
-        "url": "http://mrale.ph/talks/goto2015/#/",
-        "tags": [
-            "JavaScript",
-            "performance",
-            "スライド"
-        ],
-        "content": "イド。\nJSエンジンはJITコンパイルするため計測結果は未最適化+最適化になる。\n場合によっては計測対象がdead codeとなり最適化によって消えているかもしれないので、計測できていないケースも存在する。\nそのことを実際にIRHydra2を使って検証する話\n\n- [V8の最適化とIRHy",
-        "relatedLinks": [
-            {
-                "title": "V8の最適化とIRHydraでの可視化とベンチマークについてのメモ | Web Scratch",
-                "url": "http://efcl.info/2014/09/13/v8-optimization-memo/"
-            },
-            {
-                "title": "IRHydra2",
-                "url": "http://mrale.ph/irhydra/2/"
-            },
-            {
-                "title": "Javaの理論と実践: 欠陥マイクロベンチマークを分析する",
-                "url": "http://www.ibm.com/developerworks/jp/java/library/j-jtp02225/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "y Smooth Web // Speaker Deck\n[speakerdeck.co",
-        "url": "https://speakerdeck.com/paullewis/making-a-silky-smooth-web",
-        "tags": [
-            "browser",
-            "performance",
-            "CSS",
-            "JavaScript",
-            "スライド"
-        ],
-        "content": "->Layout->Paint->Compositeという表示までの流れをきれいに行う方法や開発者ツールの使い方について。\nrequestAnimationFrameの活用\n\n----\n\n<h1 class",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "ype\n[stateofwebtype.",
-        "url": "http://stateofwebtype.com/",
-        "tags": [
-            "fonts",
-            "まとめ",
-            "検索"
-        ],
-        "content": "c機能別のブラウザサポート状況をまとめているサイト\n\n----\n\n<h1 class=",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "lugin-typecheck · GitHub\n[github.com/codem",
-        "url": "https://github.com/codemix/babel-plugin-typecheck",
-        "tags": [
-            "JavaScript",
-            "babel",
-            "flowtype"
-        ],
-        "content": "タイム型チェックのコードへ変換するBabel plugin\n\n----\n\n## hit9/ntt",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": ".com/hit9/n",
-        "url": "https://github.com/hit9/ntt",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library"
-        ],
-        "content": "のもので実行できるので、Mochaなどのようにrunnerにあたる部分は不要となってる\n\n----\n\n## watermark",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "termarks in the browser\n[brianium.github.io",
-        "url": "http://brianium.github.io/watermarkjs/",
-        "tags": [
-            "JavaScript",
-            "画像",
-            "library"
-        ],
-        "content": "\n\n----\n\n## Quench: Th",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ile generator.\n[quenchjs.com/](http",
-        "url": "http://quenchjs.com/",
-        "tags": [
-            "gulp",
-            "webservice",
-            "Tools"
-        ],
-        "content": "いての項目を入力してgulpfileを生成してくれるツール。\n\n----\n\n## leebyron/te",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "js\n[github.com/leebyron/",
-        "url": "https://github.com/leebyron/testcheck-js",
-        "tags": [
-            "JavaScript",
-            "testing"
-        ],
-        "content": "eとMochaの拡張が用意されてる\n\n----\n",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Node v0.12.3 (Stable)",
+            "url": "http://blog.nodejs.org/2015/05/13/node-v0-12-3-0.12.3/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "ode v0.12.3リリース\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "# 0.9 released!\n",
+            "url": "http://blog.polymer-project.org/announcements/2015/05/14/0.9-release/",
+            "tags": [
+                "WebComponents",
+                "JavaScript",
+                "library"
+            ],
+            "content": "lymer 0.9リリース。\n0.8でexperimentalだった機能がデフォルトサポートされている。\n`:root`セレクタ、Gesture、CSPのサポートやUtilの追加など。\nBreaking Changeもあり、Migration guideが用意されている\n\n",
+            "relatedLinks": [
+                {
+                    "title": "Release notes - Polymer",
+                    "url": "https://www.polymer-project.org/0.9/docs/release-notes.html"
+                },
+                {
+                    "title": "Migration guide - Polymer",
+                    "url": "https://www.polymer-project.org/0.9/docs/migration.html"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": " Ember.js - Ember.js 1.12 and 1.13 Beta (Glimmer!) Released\n[",
+            "url": "http://emberjs.com/blog/2015/05/13/ember-1-12-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "er.js 1.12と1.13 Betaリリース。\ncomputeにgetter/setterを使った方法を追加、併せてDecoratorsを使った方法をサポートする予定\n\n-",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Backbone.js\n[b",
+            "url": "http://backbonejs.org",
+            "tags": [
+                "backbone.js",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "bone.js 1.2.0リリース\nViewの作成などをhookする機能の追加、モデルの\"update\"イベントの追加、ユニークidとなる`modeld`の追加、ES6 modulesとして読み込んでも使えるように修正\n\n- ",
+            "relatedLinks": [
+                {
+                    "title": "Use Function(",
+                    "url": "https://github.com/jashkenas/underscore/issues/2152"
+                },
+                {
+                    "title": "ES6 moduleのtop levelにある",
+                    "url": "http://efcl.info/2015/05/06/this-is-es6-module/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "irefox — Notes (38.0) — Mozilla\n[ww",
+            "url": "https://www.mozilla.org/en-US/firefox/38.0/releasenotes/",
+            "tags": [
+                "firefox",
+                "ReleaseNote"
+            ],
+            "content": "ox 38.0リリース。\nRuby要素のサポート、WebSocketがWeb Workerで動作するように、BroadcastChannel API、`srcset`属性とpicture要素のサポート、開発者ツールで`copy`関数のサポートなど\n\n- [",
+            "relatedLinks": [
+                {
+                    "title": "Ruby support in Firefox Developer Edition 38 ✩ Mozilla Hacks – the Web developer blog",
+                    "url": "https://hacks.mozilla.org/2015/03/ruby-support-in-firefox-developer-edition-38/"
+                },
+                {
+                    "title": "Trainspotting: Firefox 38 ✩ Mozilla Hacks – the Web developer blog",
+                    "url": "https://hacks.mozilla.org/2015/05/trainspotting-firefox-38/"
+                },
+                {
+                    "title": "Firefox 38の性能を検証 ゲーム・プラットフォームとしての優秀さを示す - Mozilla Flux",
+                    "url": "http://rockridge.hatenablog.com/entry/2015/05/13/003218"
+                },
+                {
+                    "title": "Firefox 38 for developers - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/38"
+                },
+                {
+                    "title": "Firefox 38 サイト互換性情報 - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/38/Site_Compatibility"
+                },
+                {
+                    "title": "HTML5 Web Messaging is a W3C Recommendation | W3C News",
+                    "url": "http://www.w3.org/blog/news/archives/4704?pk_campaign=feed&pk_kwd=html5-web-messaging-is-a-w3c-recommendation"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "bel/CHANGELOG.md at v5.3.0 · babel/babel\n[git",
+            "url": "https://github.com/babel/babel/blob/v5.3.0/CHANGELOG.md#530",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "5.3.0リリース。\n5.2.0からの主な変更点としては`es7.trailingCommas` transformerの仕様追従、`retainLines`のオプション追加など\n\n- [r",
+            "relatedLinks": [
+                {
+                    "title": "retainLines",
+                    "url": "http://babeljs.io/docs/usage/options/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": " Babel Matters\n[code",
+            "url": "http://codemix.com/blog/why-babel-matters",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "本的な機能の紹介、ES.nextと言われるようなまだ標準化されてない仕様の対応、Babel pluginでのコードの最適化や型チェック、マクロなどASTを扱うプラットフォームとして見るBabelについて\n\n----\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "tion Bind Syntax · Babel\n[babel",
+            "url": "https://babeljs.io/blog/2015/05/14/function-bind",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "4でES.nextで提案されているStage 0の`::`によるBind構文の変換をサポート。\n[Function Bind Syntax](https://github.com/zenparsing/es-function-bind \"Function Bind Syntax\")の挙動についての解説\n\n----\n\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "sted How Googlebot Crawls Javascript And Here&#x27;s What We Learned\n[search",
+            "url": "http://searchengineland.com/tested-googlebot-crawls-javascript-heres-learned-220157",
+            "tags": [
+                "JavaScript",
+                "google",
+                "検索"
+            ],
+            "content": "otがどこまでJavaScript等を解釈してクロールしているかの調査\n\n----\n\n#",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": " Depth: Template strings ✩ Mozilla Hacks – the Web developer blog\n[hacks.m",
+            "url": "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "tringsについて。\nBacktickから始まるtemplate literalやtagged templateについて\n\n----\n\n##",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ra — The State of Web Type\n[dev.oper",
+            "url": "https://dev.opera.com/articles/state-of-web-type/",
+            "tags": [
+                "browser",
+                "fonts",
+                "まとめ"
+            ],
+            "content": "トに関する機能のブラウザサポートの状況についてのまとめ。\nJustificationとHyphenation、Font Loadingについてなど\n\n- [State ",
+            "relatedLinks": [
+                {
+                    "title": "State of Web Type",
+                    "url": "http://stateofwebtype.com/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "アルテストをするreftest-runnerを作った | Web Scratch\n[efcl.info",
+            "url": "http://efcl.info/2015/05/14/reftest-runner/",
+            "tags": [
+                "browser",
+                "testing",
+                "canvas",
+                "JavaScript",
+                "library",
+                "webdriver"
+            ],
+            "content": "する自動テストライブラリとコマンドラインツール。\n2つのHTMLを用意して表示結果が一致するかどうかテストをするので、Canvasのテストなどに利用できる\n\n----\n\n## A",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "e Guide to SVG Fallbacks | CSS-Tricks\n[css-tricks",
+            "url": "https://css-tricks.com/a-complete-guide-to-svg-fallbacks/",
+            "tags": [
+                "SVG",
+                "まとめ"
+            ],
+            "content": "まとめ\n\n----\n\n## Br",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ode.js to Windows 10 IoT Core\n[blogs.windo",
+            "url": "http://blogs.windows.com/buildingapps/2015/05/12/bringing-node-js-to-windows-10-iot-core/",
+            "tags": [
+                "node.js",
+                "JavaScript"
+            ],
+            "content": "iptエンジンを使ったNode.jsのforkが公開された。\n\n- [Microsoft",
+            "relatedLinks": [
+                {
+                    "title": "Microsoft/node",
+                    "url": "https://github.com/Microsoft/node"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "annel API in Firefox 38 ✩ Mozilla Hacks – the Web developer blog\n[hacks.mozill",
+            "url": "https://hacks.mozilla.org/2015/02/broadcastchannel-api-in-firefox-38/",
+            "tags": [
+                "firefox",
+                "JavaScript",
+                "WebPlatformAPI"
+            ],
+            "content": "oadcastChannel APIが実装された。\n同じchannelを指定すれば、異なるタブやウィンドウ間でもメッセージのやり取りができるようになるAPI。\nBlobデータのやりとりも可能\n\n- [Broadcast ",
+            "relatedLinks": [
+                {
+                    "title": "Broadcast Channel API - Web API Interfaces | MDN",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "re the Weather\n[mrale.ph/talk",
+            "url": "http://mrale.ph/talks/goto2015/#/",
+            "tags": [
+                "JavaScript",
+                "performance",
+                "スライド"
+            ],
+            "content": "イド。\nJSエンジンはJITコンパイルするため計測結果は未最適化+最適化になる。\n場合によっては計測対象がdead codeとなり最適化によって消えているかもしれないので、計測できていないケースも存在する。\nそのことを実際にIRHydra2を使って検証する話\n\n- [V8の最適化とIRHy",
+            "relatedLinks": [
+                {
+                    "title": "V8の最適化とIRHydraでの可視化とベンチマークについてのメモ | Web Scratch",
+                    "url": "http://efcl.info/2014/09/13/v8-optimization-memo/"
+                },
+                {
+                    "title": "IRHydra2",
+                    "url": "http://mrale.ph/irhydra/2/"
+                },
+                {
+                    "title": "Javaの理論と実践: 欠陥マイクロベンチマークを分析する",
+                    "url": "http://www.ibm.com/developerworks/jp/java/library/j-jtp02225/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "y Smooth Web // Speaker Deck\n[speakerdeck.co",
+            "url": "https://speakerdeck.com/paullewis/making-a-silky-smooth-web",
+            "tags": [
+                "browser",
+                "performance",
+                "CSS",
+                "JavaScript",
+                "スライド"
+            ],
+            "content": "->Layout->Paint->Compositeという表示までの流れをきれいに行う方法や開発者ツールの使い方について。\nrequestAnimationFrameの活用\n\n----\n\n<h1 class",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "ype\n[stateofwebtype.",
+            "url": "http://stateofwebtype.com/",
+            "tags": [
+                "fonts",
+                "まとめ",
+                "検索"
+            ],
+            "content": "c機能別のブラウザサポート状況をまとめているサイト\n\n----\n\n<h1 class=",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "lugin-typecheck · GitHub\n[github.com/codem",
+            "url": "https://github.com/codemix/babel-plugin-typecheck",
+            "tags": [
+                "JavaScript",
+                "babel",
+                "flowtype"
+            ],
+            "content": "タイム型チェックのコードへ変換するBabel plugin\n\n----\n\n## hit9/ntt",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": ".com/hit9/n",
+            "url": "https://github.com/hit9/ntt",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library"
+            ],
+            "content": "のもので実行できるので、Mochaなどのようにrunnerにあたる部分は不要となってる\n\n----\n\n## watermark",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "termarks in the browser\n[brianium.github.io",
+            "url": "http://brianium.github.io/watermarkjs/",
+            "tags": [
+                "JavaScript",
+                "画像",
+                "library"
+            ],
+            "content": "\n\n----\n\n## Quench: Th",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ile generator.\n[quenchjs.com/](http",
+            "url": "http://quenchjs.com/",
+            "tags": [
+                "gulp",
+                "webservice",
+                "Tools"
+            ],
+            "content": "いての項目を入力してgulpfileを生成してくれるツール。\n\n----\n\n## leebyron/te",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "js\n[github.com/leebyron/",
+            "url": "https://github.com/leebyron/testcheck-js",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "content": "eとMochaの拡張が用意されてる\n\n----\n",
+            "relatedLinks": []
+        }
+    ]
+}

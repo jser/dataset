@@ -1,188 +1,201 @@
-[
-    {
-        "category": "Headline",
-        "title": "Angular 1.4.0 - jaracimrman-existence",
-        "url": "http://angularjs.blogspot.com/2015/05/angular-140-jaracimrman-existence.html",
+{
+    "meta": {
+        "title": "2015-06-02のJS: AngularJS 1.4.0、Polymer 1.0リリース、今後のJSの流れ",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-06-02T10:32:00.000Z",
+        "category": "JSer",
         "tags": [
-            "AngularJS",
-            "ReleaseNote"
-        ],
-        "content": "AngularJS 1.4.0リリース。\n$httpのパラメータシリアライズ方法のカスタマイズ、i18nをサポートするngMessageFormatの追加、ngCookiesの追加など",
-        "relatedLinks": [
-            {
-                "title": "AngularJS: Developer Guide: Migrating from Previous Versions",
-                "url": "https://docs.angularjs.org/guide/migration#migrating-from-1-3-to-1-4"
-            },
-            {
-                "title": "もうすぐリリースされるAngularJS 1.4の機能を先取りチェックしよう （1/2）：CodeZine",
-                "url": "http://codezine.jp/article/detail/8698"
-            },
-            {
-                "title": "JavaScript - AngularJSの1.3から1.4へのバージョンアップ - Qiita",
-                "url": "http://qiita.com/tsuchikazu@github/items/282bd7a990170a9adfb6"
-            }
+            "Angular",
+            "WebComponents"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "ESLint 0.22.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/06/eslint-0.22.0-released",
-        "tags": [
-            "Tools",
-            "JavaScript",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 0.22.0リリース\nルールプラグインに設定のバリデーション用のJSON Schemaを書けるように、.eslintrcの設定ファイルをバリデーションできるように",
-        "relatedLinks": [
-            {
-                "title": "format",
-                "url": "http://eslint.org/docs/developer-guide/working-with-rules"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "gulp/CHANGELOG.md at v3.9.0 · gulpjs/gulp",
-        "url": "https://github.com/gulpjs/gulp/blob/v3.9.0/CHANGELOG.md",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "gulp 3.9.0リリース。\n内部で利用しているinterpretがアップデートされgulpfileをBabelやLiveScriptで書けるようになった(.babel.jsのような拡張子で判定される)",
-        "relatedLinks": [
-            {
-                "title": "tkellen/js-interpret",
-                "url": "https://github.com/tkellen/js-interpret"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Google Developers Blog: Polymer 1.0 Released!",
-        "url": "http://googledevelopers.blogspot.com/2015/05/polymer-10-released.html",
-        "tags": [
-            "WebComponents",
-            "library"
-        ],
-        "content": "Polymer 1.0リリース",
-        "relatedLinks": [
-            {
-                "title": "Polymer 1.0の挙動変更の影響 - Qiita",
-                "url": "http://qiita.com/shibukawa/items/45324051af06e08a11cc"
-            },
-            {
-                "title": "Polymer 0.5 → 1.0 変更点ナナメ読みメモ ::ハブろぐ",
-                "url": "http://havelog.ayumusato.com/develop/webcomponents/e672-polymer_050to100_changelog.html"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "io.js Week of May 29th — Node &amp; JavaScript — Medium",
-        "url": "https://medium.com/node-js-javascript/io-js-week-of-may-29th-89bdeace6056",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "io.js 2.2.0リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 In Depth: Destructuring ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "Destructuringの色々なパターンについて。\n配列、ES6 module、Iteratorなどとあわせた例",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 コードをテストする | アカベコマイリ",
-        "url": "http://akabeko.me/blog/2015/05/es6-unit-test/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "testing"
-        ],
-        "content": "ES6で書いたコードに対するテストをES6とpower-assertで書いて、Node.js上で実行する方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "WebGL 軽量ライブラリを比較してみる - Qiita",
-        "url": "http://qiita.com/cx20/items/0fa19c96aa6470d98807",
-        "tags": [
-            "WebGL",
-            "JavaScript",
-            "まとめ"
-        ],
-        "content": "色々なWebGLライブラリを使って三角形など基本的なものを表示するサンプルコードまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Easily testing React components with react-test-tree — Qubit Engineering — Medium",
-        "url": "https://medium.com/qubit-engineering/easily-testing-react-components-with-react-test-tree-f9e1668b1c2d",
-        "tags": [
-            "React",
-            "testing",
-            "DOM"
-        ],
-        "content": "React component向けのテストライブラリ。\n対象のReact componentに`ref`属性を追加しておくことで、clickなどのイベントのシミュレートや子componentをstubすることができる",
-        "relatedLinks": [
-            {
-                "title": "QubitProducts/react-test-tree",
-                "url": "https://github.com/QubitProducts/react-test-tree"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "EmberWeekend",
-        "url": "https://emberweekend.com/episodes",
-        "tags": [
-            "JavaScript",
-            "library",
-            "podcast"
-        ],
-        "content": "EmberJSについてのpodcast",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mako-taco/DecorateThis",
-        "url": "https://github.com/mako-taco/DecorateThis",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Decoratorを使った型のバリデーション、メモ化、カリー、Debounceなど色々なものを用意したライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "skadimoolam/x-doc",
-        "url": "https://github.com/skadimoolam/x-doc",
-        "tags": [
-            "node.js",
-            "リファレンス"
-        ],
-        "content": "Node.js/io.jsをコマンドラインからオフラインで引けるリファレンスツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Using WebPagetest - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920033592.do",
-        "tags": [
-            "browser",
-            "performance"
-        ],
-        "content": "WebPagetestについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Angular 1.4.0 - jaracimrman-existence",
+            "url": "http://angularjs.blogspot.com/2015/05/angular-140-jaracimrman-existence.html",
+            "tags": [
+                "AngularJS",
+                "ReleaseNote"
+            ],
+            "content": "AngularJS 1.4.0リリース。\n$httpのパラメータシリアライズ方法のカスタマイズ、i18nをサポートするngMessageFormatの追加、ngCookiesの追加など",
+            "relatedLinks": [
+                {
+                    "title": "AngularJS: Developer Guide: Migrating from Previous Versions",
+                    "url": "https://docs.angularjs.org/guide/migration#migrating-from-1-3-to-1-4"
+                },
+                {
+                    "title": "もうすぐリリースされるAngularJS 1.4の機能を先取りチェックしよう （1/2）：CodeZine",
+                    "url": "http://codezine.jp/article/detail/8698"
+                },
+                {
+                    "title": "JavaScript - AngularJSの1.3から1.4へのバージョンアップ - Qiita",
+                    "url": "http://qiita.com/tsuchikazu@github/items/282bd7a990170a9adfb6"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint 0.22.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/06/eslint-0.22.0-released",
+            "tags": [
+                "Tools",
+                "JavaScript",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 0.22.0リリース\nルールプラグインに設定のバリデーション用のJSON Schemaを書けるように、.eslintrcの設定ファイルをバリデーションできるように",
+            "relatedLinks": [
+                {
+                    "title": "format",
+                    "url": "http://eslint.org/docs/developer-guide/working-with-rules"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "gulp/CHANGELOG.md at v3.9.0 · gulpjs/gulp",
+            "url": "https://github.com/gulpjs/gulp/blob/v3.9.0/CHANGELOG.md",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "gulp 3.9.0リリース。\n内部で利用しているinterpretがアップデートされgulpfileをBabelやLiveScriptで書けるようになった(.babel.jsのような拡張子で判定される)",
+            "relatedLinks": [
+                {
+                    "title": "tkellen/js-interpret",
+                    "url": "https://github.com/tkellen/js-interpret"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Google Developers Blog: Polymer 1.0 Released!",
+            "url": "http://googledevelopers.blogspot.com/2015/05/polymer-10-released.html",
+            "tags": [
+                "WebComponents",
+                "library"
+            ],
+            "content": "Polymer 1.0リリース",
+            "relatedLinks": [
+                {
+                    "title": "Polymer 1.0の挙動変更の影響 - Qiita",
+                    "url": "http://qiita.com/shibukawa/items/45324051af06e08a11cc"
+                },
+                {
+                    "title": "Polymer 0.5 → 1.0 変更点ナナメ読みメモ ::ハブろぐ",
+                    "url": "http://havelog.ayumusato.com/develop/webcomponents/e672-polymer_050to100_changelog.html"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "io.js Week of May 29th — Node &amp; JavaScript — Medium",
+            "url": "https://medium.com/node-js-javascript/io-js-week-of-may-29th-89bdeace6056",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "io.js 2.2.0リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 In Depth: Destructuring ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "Destructuringの色々なパターンについて。\n配列、ES6 module、Iteratorなどとあわせた例",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 コードをテストする | アカベコマイリ",
+            "url": "http://akabeko.me/blog/2015/05/es6-unit-test/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "testing"
+            ],
+            "content": "ES6で書いたコードに対するテストをES6とpower-assertで書いて、Node.js上で実行する方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "WebGL 軽量ライブラリを比較してみる - Qiita",
+            "url": "http://qiita.com/cx20/items/0fa19c96aa6470d98807",
+            "tags": [
+                "WebGL",
+                "JavaScript",
+                "まとめ"
+            ],
+            "content": "色々なWebGLライブラリを使って三角形など基本的なものを表示するサンプルコードまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Easily testing React components with react-test-tree — Qubit Engineering — Medium",
+            "url": "https://medium.com/qubit-engineering/easily-testing-react-components-with-react-test-tree-f9e1668b1c2d",
+            "tags": [
+                "React",
+                "testing",
+                "DOM"
+            ],
+            "content": "React component向けのテストライブラリ。\n対象のReact componentに`ref`属性を追加しておくことで、clickなどのイベントのシミュレートや子componentをstubすることができる",
+            "relatedLinks": [
+                {
+                    "title": "QubitProducts/react-test-tree",
+                    "url": "https://github.com/QubitProducts/react-test-tree"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "EmberWeekend",
+            "url": "https://emberweekend.com/episodes",
+            "tags": [
+                "JavaScript",
+                "library",
+                "podcast"
+            ],
+            "content": "EmberJSについてのpodcast",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mako-taco/DecorateThis",
+            "url": "https://github.com/mako-taco/DecorateThis",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Decoratorを使った型のバリデーション、メモ化、カリー、Debounceなど色々なものを用意したライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "skadimoolam/x-doc",
+            "url": "https://github.com/skadimoolam/x-doc",
+            "tags": [
+                "node.js",
+                "リファレンス"
+            ],
+            "content": "Node.js/io.jsをコマンドラインからオフラインで引けるリファレンスツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Using WebPagetest - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920033592.do",
+            "tags": [
+                "browser",
+                "performance"
+            ],
+            "content": "WebPagetestについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

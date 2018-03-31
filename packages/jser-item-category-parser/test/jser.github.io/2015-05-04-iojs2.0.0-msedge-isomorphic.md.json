@@ -1,273 +1,289 @@
-[
-    {
-        "category": "Headline",
-        "title": "Introducing Microsoft Edge Dev",
-        "url": "http://blogs.windows.com/msedgedev/2015/05/05/introducing-microsoft-edge-dev/",
+{
+    "meta": {
+        "title": "2015-05-06のJS: io.js 2.0.0、Microsoft Edge、Isomorphic",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-05-06T13:09:00.000Z",
+        "category": "JSer",
         "tags": [
-            "MSEdge",
-            "browser"
-        ],
-        "content": "新しいブラウザ名がMicrosoft Edgeとなり、それに関連して[dev.modern.ie](http://dev.modern.ie/)というMSEdgeについてを扱うサイトが公開された。",
-        "relatedLinks": [
-            {
-                "title": "Microsoft Edge is the browser for Windows 10 - IEBlog - Site Home - MSDN Blogs",
-                "url": "http://blogs.msdn.com/b/ie/archive/2015/04/29/microsoft-edge-is-the-browser-for-windows-10.aspx"
-            },
-            {
-                "title": "Developer Resources : MSEdge Dev",
-                "url": "http://dev.modern.ie/"
-            },
-            {
-                "title": "Microsoft Edge",
-                "url": "https://github.com/MicrosoftEdge/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "io.js/CHANGELOG.md at master · iojs/io.js",
-        "url": "https://github.com/iojs/io.js/blob/master/CHANGELOG.md#2015-05-04-version-200-rvagg",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "io.js 2.0.0リリース。\nBreaking ChangesはV8のC++ APIの変更と`os.tmpdir()`のみ。\nV8のアップデートによるES6対応の追加など",
-        "relatedLinks": [
-            {
-                "title": "yosuke-furukawa/iojs-new-features",
-                "url": "https://github.com/yosuke-furukawa/iojs-new-features"
-            },
-            {
-                "title": "io.js の v2.0 が出ました。 - from scratch",
-                "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/05/06/170034"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing TypeScript 1.5 Beta - TypeScript - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/typescript/archive/2015/04/30/announcing-typescript-1-5-beta.aspx",
-        "tags": [
-            "TypeScript",
-            "ReleaseNote"
-        ],
-        "content": "TypeScript 1.5 Betaリリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "zuul/HISTORY.md at v3.0.0 · defunctzombie/zuul",
-        "url": "https://github.com/defunctzombie/zuul/blob/v3.0.0/HISTORY.md",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library"
-        ],
-        "content": "JavaScriptテストフレームワークのzuul 3.0.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
-        "url": "http://blog.brackets.io/2015/04/27/brackets-1-3-release-is-here/",
-        "tags": [
-            "JavaScript",
-            "editor",
-            "ReleaseNote"
-        ],
-        "content": "Brackets 1.3リリース。\nbracketsコマンドの追加、Code Foldingのサポート、Brackets Health Dataというユーザ情報を収集する仕組みが入った",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Basket.js: Script loader that caches scripts in localStorage — Medium",
-        "url": "https://medium.com/@karimaliz/basket-js-script-loader-that-caches-scripts-in-localstorage-544a93827a5",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "localStorageにモジュールをキャッシュするローダライブラリのbasket.jsについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Designing Front-End Components",
-        "url": "http://ponyfoo.com/articles/designing-front-end-components",
-        "tags": [
-            "JavaScript",
-            "UI",
-            "library"
-        ],
-        "content": "UIライブラリを作るにあたり気をつける事。\nインラインスタイルを避けるべき、CSSクラスのprefixを付ける、スタイルは最小にする、ライブラリはplainなCSSを提供する。\n見通しの良いAPIと柔軟なAPI設計について",
-        "relatedLinks": [
-            {
-                "title": "bevacqua/rome",
-                "url": "https://github.com/bevacqua/rome#default-options"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "npmで名前空間を持ったモジュールを公開する方法(scoped modules) | Web Scratch",
-        "url": "http://efcl.info/2015/04/30/npm-namespace/",
-        "tags": [
-            "npm",
-            "node.js"
-        ],
-        "content": "npmでscoped modulesを無料で公開できるようになった。\nユーザ名を名前空間として使えるためモジュール名の重複を気にせず公開できる話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Ruby Sass, LibSass – What&#x27;s the Difference?",
-        "url": "http://sassbreak.com/ruby-sass-libsass-differences/",
-        "tags": [
-            "Sass",
-            "ruby",
-            "C++"
-        ],
-        "content": "LibSassとRuby Sassの違いについて\nLibSassの方が圧倒的に早いことや互換性について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 — strings — Medium",
-        "url": "https://medium.com/@mrzepinski/es6-string-bae03d964d43",
-        "tags": [
+            "Node.js",
+            "io.js",
             "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "ES6のString関係のメソッドについてのまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Isomorphic Survival Guide // Speaker Deck",
-        "url": "https://speakerdeck.com/koichik/isomorphic-survival-guide",
-        "tags": [
-            "JavaScript",
-            "サーバー",
-            "スライド"
-        ],
-        "content": "isomorphicというキーワードを歴史的な流れを踏まえて解説するスライド。\nフロントエンド/バックエンド/クライアントサイド/サーバサイドという言葉の意味の変遷、isomorphicの構成要素、Rendrが解決した事、React/Fluxが解決できている事などについて",
-        "relatedLinks": [
-            {
-                "title": "isomorphic tokyo meetupに参加してきた",
-                "url": "https://html5experts.jp/shumpei-shiraishi/14895/"
-            }
+            "MS",
+            "IE"
         ]
     },
-    {
-        "category": "WebsiteDocument",
-        "title": "javascript/react at master · airbnb/javascript",
-        "url": "https://github.com/airbnb/javascript/tree/master/react",
-        "tags": [
-            "React",
-            "コードレビュー"
-        ],
-        "content": "AirbnbのReactコードスタイルガイド",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ESDoc - An API Document Generator For JavaScript(ES6)",
-        "url": "https://esdoc.org/",
-        "tags": [
-            "JavaScript",
-            "document",
-            "JSDoc",
-            "Tools"
-        ],
-        "content": "ES6のコードに対応したAPIドキュメント生成ツール。\n基本的にはJSDocと同じようにタグ(`@param`など)からドキュメントを生成できる。\nES6の`class`や`import/export`等に対応、ドキュメントのカバレッジの計測、テストコードとドキュメントの関連付けを行える",
-        "relatedLinks": [
-            {
-                "title": "ESDocというJavaScript向けのAPIドキュメントツールを作りました - maru source",
-                "url": "http://blog.h13i32maru.jp/entry/2015/05/06/221041"
-            },
-            {
-                "title": "Use JSDoc: Index",
-                "url": "http://usejsdoc.org/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Home - Visual Studio Code",
-        "url": "https://code.visualstudio.com/",
-        "tags": [
-            "IDE",
-            "MS"
-        ],
-        "content": "[Electron](https://github.com/atom/electron \"Electron\")ベースのエディタであるVisual Studio Codeのサイト。\nASP.NETとNode.js、TypeScriptを中心にサポート。\nWindows/Mac/Linuxに対応してる",
-        "relatedLinks": [
-            {
-                "title": "Using TypeScript in Visual Studio Code - TypeScript - Site Home - MSDN Blogs",
-                "url": "http://blogs.msdn.com/b/typescript/archive/2015/04/30/using-typescript-in-visual-studio-code.aspx"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Vorlon.JS",
-        "url": "http://vorlonjs.com/",
-        "tags": [
-            "browser",
-            "debug",
-            "Tools"
-        ],
-        "content": "スクリプトタグを埋め込んでおくとリモートデバッグ出来るツール。\nConsole、DOMツリーの表示、Modernizrを使ったサポート状況の表示などが出来る。\nまたpluginで拡張する事が出来る",
-        "relatedLinks": [
-            {
-                "title": "MicrosoftDX/Vorlonjs",
-                "url": "https://github.com/MicrosoftDX/Vorlonjs"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Clusterize.js",
-        "url": "http://nexts.github.io/Clusterize.js/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "大量のリストを表示するときに上手く間引いてDOMの描画を行うライブラリ。\n無限スクロール的なものを実装出来るライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "micmro/performance-bookmarklet",
-        "url": "https://github.com/micmro/performance-bookmarklet",
-        "tags": [
-            "browser",
-            "performance",
-            "ブックマークレット"
-        ],
-        "content": "Resource Timing API、Navigation Timing API、User-Timing APIの結果を表示するブックマークレットやブラウザ拡張",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ramjet",
-        "url": "http://www.rich-harris.co.uk/ramjet/",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "animation",
-            "library"
-        ],
-        "content": "スムーズなDOMモーフィングの実装ライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "paldepind/flyd",
-        "url": "https://github.com/paldepind/flyd",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "小さなFRPライブラリ。\nモジュールで拡張可能な作り",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Introducing Microsoft Edge Dev",
+            "url": "http://blogs.windows.com/msedgedev/2015/05/05/introducing-microsoft-edge-dev/",
+            "tags": [
+                "MSEdge",
+                "browser"
+            ],
+            "content": "新しいブラウザ名がMicrosoft Edgeとなり、それに関連して[dev.modern.ie](http://dev.modern.ie/)というMSEdgeについてを扱うサイトが公開された。",
+            "relatedLinks": [
+                {
+                    "title": "Microsoft Edge is the browser for Windows 10 - IEBlog - Site Home - MSDN Blogs",
+                    "url": "http://blogs.msdn.com/b/ie/archive/2015/04/29/microsoft-edge-is-the-browser-for-windows-10.aspx"
+                },
+                {
+                    "title": "Developer Resources : MSEdge Dev",
+                    "url": "http://dev.modern.ie/"
+                },
+                {
+                    "title": "Microsoft Edge",
+                    "url": "https://github.com/MicrosoftEdge/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "io.js/CHANGELOG.md at master · iojs/io.js",
+            "url": "https://github.com/iojs/io.js/blob/master/CHANGELOG.md#2015-05-04-version-200-rvagg",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "io.js 2.0.0リリース。\nBreaking ChangesはV8のC++ APIの変更と`os.tmpdir()`のみ。\nV8のアップデートによるES6対応の追加など",
+            "relatedLinks": [
+                {
+                    "title": "yosuke-furukawa/iojs-new-features",
+                    "url": "https://github.com/yosuke-furukawa/iojs-new-features"
+                },
+                {
+                    "title": "io.js の v2.0 が出ました。 - from scratch",
+                    "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/05/06/170034"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing TypeScript 1.5 Beta - TypeScript - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/typescript/archive/2015/04/30/announcing-typescript-1-5-beta.aspx",
+            "tags": [
+                "TypeScript",
+                "ReleaseNote"
+            ],
+            "content": "TypeScript 1.5 Betaリリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "zuul/HISTORY.md at v3.0.0 · defunctzombie/zuul",
+            "url": "https://github.com/defunctzombie/zuul/blob/v3.0.0/HISTORY.md",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library"
+            ],
+            "content": "JavaScriptテストフレームワークのzuul 3.0.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
+            "url": "http://blog.brackets.io/2015/04/27/brackets-1-3-release-is-here/",
+            "tags": [
+                "JavaScript",
+                "editor",
+                "ReleaseNote"
+            ],
+            "content": "Brackets 1.3リリース。\nbracketsコマンドの追加、Code Foldingのサポート、Brackets Health Dataというユーザ情報を収集する仕組みが入った",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Basket.js: Script loader that caches scripts in localStorage — Medium",
+            "url": "https://medium.com/@karimaliz/basket-js-script-loader-that-caches-scripts-in-localstorage-544a93827a5",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "localStorageにモジュールをキャッシュするローダライブラリのbasket.jsについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Designing Front-End Components",
+            "url": "http://ponyfoo.com/articles/designing-front-end-components",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "library"
+            ],
+            "content": "UIライブラリを作るにあたり気をつける事。\nインラインスタイルを避けるべき、CSSクラスのprefixを付ける、スタイルは最小にする、ライブラリはplainなCSSを提供する。\n見通しの良いAPIと柔軟なAPI設計について",
+            "relatedLinks": [
+                {
+                    "title": "bevacqua/rome",
+                    "url": "https://github.com/bevacqua/rome#default-options"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "npmで名前空間を持ったモジュールを公開する方法(scoped modules) | Web Scratch",
+            "url": "http://efcl.info/2015/04/30/npm-namespace/",
+            "tags": [
+                "npm",
+                "node.js"
+            ],
+            "content": "npmでscoped modulesを無料で公開できるようになった。\nユーザ名を名前空間として使えるためモジュール名の重複を気にせず公開できる話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Ruby Sass, LibSass – What&#x27;s the Difference?",
+            "url": "http://sassbreak.com/ruby-sass-libsass-differences/",
+            "tags": [
+                "Sass",
+                "ruby",
+                "C++"
+            ],
+            "content": "LibSassとRuby Sassの違いについて\nLibSassの方が圧倒的に早いことや互換性について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 — strings — Medium",
+            "url": "https://medium.com/@mrzepinski/es6-string-bae03d964d43",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "ES6のString関係のメソッドについてのまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Isomorphic Survival Guide // Speaker Deck",
+            "url": "https://speakerdeck.com/koichik/isomorphic-survival-guide",
+            "tags": [
+                "JavaScript",
+                "サーバー",
+                "スライド"
+            ],
+            "content": "isomorphicというキーワードを歴史的な流れを踏まえて解説するスライド。\nフロントエンド/バックエンド/クライアントサイド/サーバサイドという言葉の意味の変遷、isomorphicの構成要素、Rendrが解決した事、React/Fluxが解決できている事などについて",
+            "relatedLinks": [
+                {
+                    "title": "isomorphic tokyo meetupに参加してきた",
+                    "url": "https://html5experts.jp/shumpei-shiraishi/14895/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "javascript/react at master · airbnb/javascript",
+            "url": "https://github.com/airbnb/javascript/tree/master/react",
+            "tags": [
+                "React",
+                "コードレビュー"
+            ],
+            "content": "AirbnbのReactコードスタイルガイド",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ESDoc - An API Document Generator For JavaScript(ES6)",
+            "url": "https://esdoc.org/",
+            "tags": [
+                "JavaScript",
+                "document",
+                "JSDoc",
+                "Tools"
+            ],
+            "content": "ES6のコードに対応したAPIドキュメント生成ツール。\n基本的にはJSDocと同じようにタグ(`@param`など)からドキュメントを生成できる。\nES6の`class`や`import/export`等に対応、ドキュメントのカバレッジの計測、テストコードとドキュメントの関連付けを行える",
+            "relatedLinks": [
+                {
+                    "title": "ESDocというJavaScript向けのAPIドキュメントツールを作りました - maru source",
+                    "url": "http://blog.h13i32maru.jp/entry/2015/05/06/221041"
+                },
+                {
+                    "title": "Use JSDoc: Index",
+                    "url": "http://usejsdoc.org/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Home - Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "tags": [
+                "IDE",
+                "MS"
+            ],
+            "content": "[Electron](https://github.com/atom/electron \"Electron\")ベースのエディタであるVisual Studio Codeのサイト。\nASP.NETとNode.js、TypeScriptを中心にサポート。\nWindows/Mac/Linuxに対応してる",
+            "relatedLinks": [
+                {
+                    "title": "Using TypeScript in Visual Studio Code - TypeScript - Site Home - MSDN Blogs",
+                    "url": "http://blogs.msdn.com/b/typescript/archive/2015/04/30/using-typescript-in-visual-studio-code.aspx"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Vorlon.JS",
+            "url": "http://vorlonjs.com/",
+            "tags": [
+                "browser",
+                "debug",
+                "Tools"
+            ],
+            "content": "スクリプトタグを埋め込んでおくとリモートデバッグ出来るツール。\nConsole、DOMツリーの表示、Modernizrを使ったサポート状況の表示などが出来る。\nまたpluginで拡張する事が出来る",
+            "relatedLinks": [
+                {
+                    "title": "MicrosoftDX/Vorlonjs",
+                    "url": "https://github.com/MicrosoftDX/Vorlonjs"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Clusterize.js",
+            "url": "http://nexts.github.io/Clusterize.js/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "大量のリストを表示するときに上手く間引いてDOMの描画を行うライブラリ。\n無限スクロール的なものを実装出来るライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "micmro/performance-bookmarklet",
+            "url": "https://github.com/micmro/performance-bookmarklet",
+            "tags": [
+                "browser",
+                "performance",
+                "ブックマークレット"
+            ],
+            "content": "Resource Timing API、Navigation Timing API、User-Timing APIの結果を表示するブックマークレットやブラウザ拡張",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ramjet",
+            "url": "http://www.rich-harris.co.uk/ramjet/",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "animation",
+                "library"
+            ],
+            "content": "スムーズなDOMモーフィングの実装ライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "paldepind/flyd",
+            "url": "https://github.com/paldepind/flyd",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "小さなFRPライブラリ。\nモジュールで拡張可能な作り",
+            "relatedLinks": []
+        }
+    ]
+}

@@ -1,205 +1,221 @@
-[
-    {
-        "category": "Headline",
-        "title": "React v0.14.4 | React",
-        "url": "https://facebook.github.io/react/blog/2015/12/29/react-v0.14.4.html",
+{
+    "meta": {
+        "title": "2015-12-30のJS: core-js 2.0.0、React開発者アンケート、JavaScript用語集",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-12-30T12:49:00.000Z",
+        "category": "JSer",
         "tags": [
-            "React",
-            "ReleaseNote"
-        ],
-        "content": "React v0.14.4リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 2.0.0 - 2015.12.24 · zloirock/core-js",
-        "url": "https://github.com/zloirock/core-js/releases/tag/v2.0.0",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "core-js 2.0.0リリース。\nTyped Arrayの実装追加、`System.global`、`Error.isError`、MathのProposal実装を追加。 Promiseの仕様追従、`String#{padStart, padEnd}`へリネーム。\n`NodeList`、`DOMTokenList`、`MediaList`、`StyleSheetList`、`CSSRuleList`をIterableとする再定義の追加など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React Developer Survey Results - AngularClass",
-        "url": "https://angularclass.com/react-developer-survey-results/",
-        "tags": [
-            "React",
-            "JavaScript"
-        ],
-        "content": "Reactに関するアンケートの結果。\n8割の人がBabelを使っていることや、Reactと共に使うアーキテクチャやライブラリについてのアンケート結果が公開されている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Making a Mini-Lisp: Introduction to Transpilers - AngularClass",
-        "url": "https://angularclass.com/making-a-mini-lisp-introduction-to-transpilers/",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "小さなLispをJavaScriptに変換する実装を書きながら、Transpilerの仕組みについて学ぶ話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Mercateo/component-check",
-        "url": "https://github.com/Mercateo/component-check",
-        "tags": [
-            "JavaScript",
+            "ECMAScript",
             "library",
             "React",
-            "AngularJS"
-        ],
-        "content": "コンポーネント指向のフレームワークを使い、コンポーネントを表示するまでの手順をそれぞれ比較した記事。\nAngularJS1/2、Ember、Cycle.js、Reactにおいて4種類のコンポーネントを実装し比較している。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 Rest/Spread, Defaults and Destructuring",
-        "url": "http://www.datchley.name/es6-rest-spread-defaults-and-destructuring/",
-        "tags": [
             "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "spread operator、rest parameter、デフォルト引数について。\nデフォルト引数での評価、`Function#apply`ではなく`...`を使う方法、Destructuringの使い方についてなど",
-        "relatedLinks": [
-            {
-                "title": "sebmarkbage/ecmascript-rest-spread",
-                "url": "https://github.com/sebmarkbage/ecmascript-rest-spread"
-            }
+            "dictionary"
         ]
     },
-    {
-        "category": "Article",
-        "title": "&quot;Real&quot; Mixins with JavaScript Classes",
-        "url": "http://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6 Classesで多重継承やmixinは構文として用意されていないので、`class`を式として扱うことで解決する実装について。\n`class MyClass extends mix(MySuperClass).with(A, B) {}`",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Dissection of Flux architecture or how to write your own",
-        "url": "http://krasimirtsonev.com/blog/article/dissection-of-flux-architecture-or-how-to-write-your-own-react",
-        "tags": [
-            "Flux",
-            "JavaScript"
-        ],
-        "content": "fluxinyという高階関数をベースとした小さなFlux実装を見ていきながらFluxについて学ぶ。",
-        "relatedLinks": [
-            {
-                "title": "krasimir/fluxiny",
-                "url": "https://github.com/krasimir/fluxiny"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Asynchronous Iterative &amp; Recursive Patterns for Node.js - Part 1",
-        "url": "http://mostafa-samir.github.io/async-iterative-patterns-pt1/",
-        "tags": [
-            "JavaScript",
-            "node.js"
-        ],
-        "content": "JavaScriptの非同期なイテレーションについての記事。\nよくやってしまう間違いなど色々なアプローチについて書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Should I use React.createClass, ES6 Classes or stateless functional components? - James K Nelson",
-        "url": "http://jamesknelson.com/should-i-use-react-createclass-es6-classes-or-stateless-functional-components/",
-        "tags": [
-            "React",
-            "JavaScript"
-        ],
-        "content": "React Componentを書く方法として`React.createClass`、ES6 Classes、Stateless Componentがある。\nそれらの使い分けについて書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "bouzuya&#x27;s RxJS Advent Calendar 2015 - Adventar",
-        "url": "http://www.adventar.org/calendars/1200",
-        "tags": [
-            "Rx",
-            "JavaScript",
-            "まとめ"
-        ],
-        "content": "RxJSについてのアドベントカレンダー。\nRxJSの概要やObservable、Operatorなどについて書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "André Staltz - How to debug RxJS code",
-        "url": "http://staltz.com/how-to-debug-rxjs-code.html",
-        "tags": [
-            "Rx",
-            "JavaScript",
-            "debug"
-        ],
-        "content": "RxJSのコードをどうやってデバッグするのかについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "loverajoel/jstips",
-        "url": "https://github.com/loverajoel/jstips",
-        "tags": [
-            "JavaScript",
-            "Tips"
-        ],
-        "content": "JavaScriptのTipsを1日1つづつ紹介していくプロジェクト",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "HugoGiraudel/SJSJ",
-        "url": "https://github.com/HugoGiraudel/SJSJ",
-        "tags": [
-            "JavaScript",
-            "dictionary",
-            "まとめ"
-        ],
-        "content": "JavaScript関連の用語集",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "WASM.NEWS",
-        "url": "https://wasm.news/",
-        "tags": [
-            "WebAssembly",
-            "news"
-        ],
-        "content": "WebAssemblyのニュースサイト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "CSP Header Inspector and Validator",
-        "url": "https://cspvalidator.org/",
-        "tags": [
-            "CSP",
-            "Tools"
-        ],
-        "content": "CSPバリデーションツール。\n指定されてるCSP Headerのチェックが出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "vega/datalib",
-        "url": "https://github.com/vega/datalib",
-        "tags": [
-            "JavaScript",
-            "library",
-            "統計"
-        ],
-        "content": "JSON、CSV、TSV等からデータを読み込み、データを加工できるライブラリ",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "React v0.14.4 | React",
+            "url": "https://facebook.github.io/react/blog/2015/12/29/react-v0.14.4.html",
+            "tags": [
+                "React",
+                "ReleaseNote"
+            ],
+            "content": "React v0.14.4リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 2.0.0 - 2015.12.24 · zloirock/core-js",
+            "url": "https://github.com/zloirock/core-js/releases/tag/v2.0.0",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "core-js 2.0.0リリース。\nTyped Arrayの実装追加、`System.global`、`Error.isError`、MathのProposal実装を追加。 Promiseの仕様追従、`String#{padStart, padEnd}`へリネーム。\n`NodeList`、`DOMTokenList`、`MediaList`、`StyleSheetList`、`CSSRuleList`をIterableとする再定義の追加など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React Developer Survey Results - AngularClass",
+            "url": "https://angularclass.com/react-developer-survey-results/",
+            "tags": [
+                "React",
+                "JavaScript"
+            ],
+            "content": "Reactに関するアンケートの結果。\n8割の人がBabelを使っていることや、Reactと共に使うアーキテクチャやライブラリについてのアンケート結果が公開されている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Making a Mini-Lisp: Introduction to Transpilers - AngularClass",
+            "url": "https://angularclass.com/making-a-mini-lisp-introduction-to-transpilers/",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "小さなLispをJavaScriptに変換する実装を書きながら、Transpilerの仕組みについて学ぶ話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Mercateo/component-check",
+            "url": "https://github.com/Mercateo/component-check",
+            "tags": [
+                "JavaScript",
+                "library",
+                "React",
+                "AngularJS"
+            ],
+            "content": "コンポーネント指向のフレームワークを使い、コンポーネントを表示するまでの手順をそれぞれ比較した記事。\nAngularJS1/2、Ember、Cycle.js、Reactにおいて4種類のコンポーネントを実装し比較している。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 Rest/Spread, Defaults and Destructuring",
+            "url": "http://www.datchley.name/es6-rest-spread-defaults-and-destructuring/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "spread operator、rest parameter、デフォルト引数について。\nデフォルト引数での評価、`Function#apply`ではなく`...`を使う方法、Destructuringの使い方についてなど",
+            "relatedLinks": [
+                {
+                    "title": "sebmarkbage/ecmascript-rest-spread",
+                    "url": "https://github.com/sebmarkbage/ecmascript-rest-spread"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "&quot;Real&quot; Mixins with JavaScript Classes",
+            "url": "http://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6 Classesで多重継承やmixinは構文として用意されていないので、`class`を式として扱うことで解決する実装について。\n`class MyClass extends mix(MySuperClass).with(A, B) {}`",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Dissection of Flux architecture or how to write your own",
+            "url": "http://krasimirtsonev.com/blog/article/dissection-of-flux-architecture-or-how-to-write-your-own-react",
+            "tags": [
+                "Flux",
+                "JavaScript"
+            ],
+            "content": "fluxinyという高階関数をベースとした小さなFlux実装を見ていきながらFluxについて学ぶ。",
+            "relatedLinks": [
+                {
+                    "title": "krasimir/fluxiny",
+                    "url": "https://github.com/krasimir/fluxiny"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Asynchronous Iterative &amp; Recursive Patterns for Node.js - Part 1",
+            "url": "http://mostafa-samir.github.io/async-iterative-patterns-pt1/",
+            "tags": [
+                "JavaScript",
+                "node.js"
+            ],
+            "content": "JavaScriptの非同期なイテレーションについての記事。\nよくやってしまう間違いなど色々なアプローチについて書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Should I use React.createClass, ES6 Classes or stateless functional components? - James K Nelson",
+            "url": "http://jamesknelson.com/should-i-use-react-createclass-es6-classes-or-stateless-functional-components/",
+            "tags": [
+                "React",
+                "JavaScript"
+            ],
+            "content": "React Componentを書く方法として`React.createClass`、ES6 Classes、Stateless Componentがある。\nそれらの使い分けについて書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "bouzuya&#x27;s RxJS Advent Calendar 2015 - Adventar",
+            "url": "http://www.adventar.org/calendars/1200",
+            "tags": [
+                "Rx",
+                "JavaScript",
+                "まとめ"
+            ],
+            "content": "RxJSについてのアドベントカレンダー。\nRxJSの概要やObservable、Operatorなどについて書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "André Staltz - How to debug RxJS code",
+            "url": "http://staltz.com/how-to-debug-rxjs-code.html",
+            "tags": [
+                "Rx",
+                "JavaScript",
+                "debug"
+            ],
+            "content": "RxJSのコードをどうやってデバッグするのかについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "loverajoel/jstips",
+            "url": "https://github.com/loverajoel/jstips",
+            "tags": [
+                "JavaScript",
+                "Tips"
+            ],
+            "content": "JavaScriptのTipsを1日1つづつ紹介していくプロジェクト",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "HugoGiraudel/SJSJ",
+            "url": "https://github.com/HugoGiraudel/SJSJ",
+            "tags": [
+                "JavaScript",
+                "dictionary",
+                "まとめ"
+            ],
+            "content": "JavaScript関連の用語集",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "WASM.NEWS",
+            "url": "https://wasm.news/",
+            "tags": [
+                "WebAssembly",
+                "news"
+            ],
+            "content": "WebAssemblyのニュースサイト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "CSP Header Inspector and Validator",
+            "url": "https://cspvalidator.org/",
+            "tags": [
+                "CSP",
+                "Tools"
+            ],
+            "content": "CSPバリデーションツール。\n指定されてるCSP Headerのチェックが出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "vega/datalib",
+            "url": "https://github.com/vega/datalib",
+            "tags": [
+                "JavaScript",
+                "library",
+                "統計"
+            ],
+            "content": "JSON、CSV、TSV等からデータを読み込み、データを加工できるライブラリ",
+            "relatedLinks": []
+        }
+    ]
+}

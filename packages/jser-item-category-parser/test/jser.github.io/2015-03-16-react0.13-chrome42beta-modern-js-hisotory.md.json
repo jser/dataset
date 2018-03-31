@@ -1,327 +1,341 @@
-[
-    {
-        "category": "Headline",
-        "title": "React v0.13 | React",
-        "url": "http://facebook.github.io/react/blog/2015/03/10/react-v0.13.html",
+{
+    "meta": {
+        "title": "2015-03-16のJS: React v0.13、Chrome 42β、モダンJavaScriptの歴史",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-03-16T13:31:00.000Z",
+        "category": "JSer",
         "tags": [
             "React",
-            "ReleaseNote"
-        ],
-        "content": "React 0.13リリース。\nES6 Classesの対応、React Toolsで`--target es3`の追加など",
-        "relatedLinks": [
-            {
-                "title": "React.js v0.13 changes - blog.koba04.com",
-                "url": "http://blog.koba04.com/post/2015/03/05/react-js-v013-changes/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint 0.17.0 released - ESLint",
-        "url": "http://eslint.org/blog/2015/03/eslint-0.17.0-released/",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 0.17.0リリース。\nJSX/Reactのセマンティックに関するルールはESLint本体ではなくpluginで行うように。",
-        "relatedLinks": [
-            {
-                "title": "yannickcr/eslint-plugin-react",
-                "url": "https://github.com/yannickcr/eslint-plugin-react"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Esprima 2.1 Released | Official jQuery Blog",
-        "url": "http://blog.jquery.com/2015/03/10/esprima-2-1-released/",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "ReleaseNote"
-        ],
-        "content": "Esprima 2.1リリース。\nES6サポートが中心でclass、rest parameter、computed property nameなどをサポートした。\nESTreeでAST仕様を策定してる件について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "superagent/History.md at 1.0.0 · visionmedia/superagent",
-        "url": "https://github.com/visionmedia/superagent/blob/1.0.0/History.md",
-        "tags": [
-            "JavaScript",
-            "node.js",
-            "HTTP",
-            "library"
-        ],
-        "content": "ブラウザ、Node.jsで動くHTTPクライアントライブラリであるsuperagent 1.0.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Chromium Blog: Chrome 42 Beta: Push Notifications, Promoting Add to Home Screen and ES6 Classes",
-        "url": "http://blog.chromium.org/2015/03/chrome-42-beta-push-notifications_12.html",
-        "tags": [
             "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Chrome 42βリリース。\nService Workerを使ったプッシュ通知、WebApp Manifestのサポート、ES6 Classes、Fetch APIがwindowコンテキストに公開されるなど",
-        "relatedLinks": [
-            {
-                "title": "Chrome 42 ベータ版: プッシュ通知、",
-                "url": "http://googledevjp.blogspot.jp/2015/03/chrome-42-es6-class.html"
-            },
-            {
-                "title": "Push Notifications on the Open Web",
-                "url": "http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web"
-            }
+            "history"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Dev.Opera — Opera 28 released",
-        "url": "https://dev.opera.com/blog/opera-28/",
-        "tags": [
-            "Opera",
-            "ReleaseNote",
-            "Chrome"
-        ],
-        "content": "Opera 28 (based on Chromium 41)リリース。\nElement#closestの実装、any-pointerとany-hoverのサポート、Web Audio APIのsuspendとresume、StereoPannerNodeの実装、ES6サポートの改善",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Push Notifications on the Open Web",
-        "url": "http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web",
-        "tags": [
-            "Chrome",
-            "ServiceWorker",
-            "WebPlatformAPI"
-        ],
-        "content": "Chrome 42でサポートされたPush APIについての解説。\nGoogle Cloud Messagingからどのようにプッシュ通知を行うかについての解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Taming the asynchronous beast with ES7",
-        "url": "http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES7で入る予定のasync/awaitについて。\nどのような動作になってるのかを解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "A Comparison of JavaScript Linting Tools",
-        "url": "http://www.sitepoint.com/comparison-javascript-linting-tools/",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "JSLint、JSHint、JSCS、ESLintのそれぞれいいところ、よくないところの比較",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "How to implement a programming language (tutorial for beginners)",
-        "url": "http://lisperator.net/pltut/",
-        "tags": [
-            "JavaScript",
-            "tutorial"
-        ],
-        "content": "JavaScriptでλanguageという言語を実装するチュートリアル。\ntoken stream、パーサ、AST、ジェネレータ、最適化、CPSなど色々書かれてる。\nUglifyJS作者によるもの",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "The Modern JavaScript Developer’s Toolbox",
-        "url": "http://www.infoq.com/articles/modern-javascript-toolbox",
-        "tags": [
-            "JavaScript",
-            "歴史"
-        ],
-        "content": "InfoQが未来のJavaScript等についての連載の一環として、今までのJavaScriptを振り返りする記事。\nライブラリ、開発環境、ビルドツール/自動化などを簡単に振り返りしてる",
-        "relatedLinks": [
-            {
-                "title": "Next Generation HTML5 and JavaScript ",
-                "url": "http://www.infoq.com/Next-Generation-HTML5-JavaScript/articles/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript - React.js 実戦投入への道 - Qiita",
-        "url": "http://qiita.com/icoxfog417/items/5d79b3336226aa51e30d",
-        "tags": [
-            "Flux",
-            "JavaScript"
-        ],
-        "content": "\"Thinking in React\"の考え方。 \nテンプレートエンジンとReactの共存の話、階層構造の複雑性を解決するためのMediator/ObserverとFluxライブラリについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript - IndexedDbをActiveRecord+Promiseっぽく扱えてJSONSchemaでバリデーションできてnodeでもオンメモリで動いてくORMみたいな何か作ってみた - Qiita",
-        "url": "http://qiita.com/mizchi/items/bd8befaffa8fe9f32522",
-        "tags": [
-            "JavaScript",
-            "データベース",
-            "library"
-        ],
-        "content": "IndexedDBを扱うライブラリ。\nJSONスキーマによるバリデーションやActiveRecord風のAPIを持っている。\nマイグレーション用のUtilも設けている",
-        "relatedLinks": [
-            {
-                "title": "mizchi/stone-skin",
-                "url": "https://github.com/mizchi/stone-skin"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "ECMAScript没proposal追悼式",
-        "url": "http://www.slideshare.net/KMC_JP/ecmascriptproposal",
-        "tags": [
-            "ECMAScript",
-            "spec",
-            "スライド"
-        ],
-        "content": "ES6の仕様で提案されたが、[ES6 RC2](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts)時点で入らなかった仕様について。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Babel: Beyond the Basics // Speaker Deck",
-        "url": "https://speakerdeck.com/sebmck/babel-beyond-the-basics",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "スライド",
-            "Tools"
-        ],
-        "content": "Babel作者によるBabelの紹介スライド。",
-        "relatedLinks": [
-            {
-                "title": "▶ Babel: Beyond the Basics — Sebastian McKenzie, Creator of Babel - YouTube",
-                "url": "https://www.youtube.com/watch?v=F1BIeVe99EQ"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "EmberConf 2015 - YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU#emberconf",
-        "tags": [
-            "JavaScript",
-            "イベント",
-            "動画"
-        ],
-        "content": "EmberConf 2015の動画一覧",
-        "relatedLinks": [
-            {
-                "title": "http://emberconf.com/",
-                "url": "http://emberconf.com/"
-            },
-            {
-                "title": "poteto/emberconf-2015",
-                "url": "https://github.com/poteto/emberconf-2015"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Experiments with Strengthening JavaScript - Chrome V8 — Google Developers",
-        "url": "https://developers.google.com/v8/experiments",
-        "tags": [
-            "google",
-            "JavaScript"
-        ],
-        "content": "Chromeに実験的に実装してるStrong Mode(SaneScript)とSoundScript(型システム)についてのドキュメント。",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Home – Component Kitchen",
-        "url": "http://component.kitchen/",
-        "tags": [
-            "WebComponents",
-            "まとめ",
-            "検索"
-        ],
-        "content": "Web Componentsのカタログサイト。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ecomfe/fontmin",
-        "url": "https://github.com/ecomfe/fontmin",
-        "tags": [
-            "node.js",
-            "fonts",
-            "Tools",
-            "library"
-        ],
-        "content": "ウェブフォントのMinifyを行うNode.jsモジュール。\nttfやotfからeot、woff、svgへの変換を行う。また使用する文字だけのサブセットも作成出来る",
-        "relatedLinks": [
-            {
-                "title": "中文字体 webfont 自动化构建 | EFE Tech",
-                "url": "http://efe.baidu.com/blog/chinese-font-build/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "zewish/rmodal.js",
-        "url": "https://github.com/zewish/rmodal.js",
-        "tags": [
-            "JavaScript",
-            "UI",
-            "library"
-        ],
-        "content": "依存がないシンプルなモーダルダイアログUIライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "rackt/react-a11y · GitHub",
-        "url": "https://github.com/rackt/react-a11y",
-        "tags": [
-            "React",
-            "library",
-            "アクセシビリティ"
-        ],
-        "content": "React Elementにアクセシビリティ的な問題がないかを警告してくれるライブラリ。\nまたどうすればいいかも表示してくれる",
-        "relatedLinks": [
-            {
-                "title": "▶ React.js Conf 2015 - Hype! - YouTube",
-                "url": "https://www.youtube.com/watch?v=z5e7kWSHWTg#t=631"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Kikobeats/acho",
-        "url": "https://github.com/Kikobeats/acho#acho",
-        "tags": [
-            "JavaScript",
-            "library",
-            "node.js"
-        ],
-        "content": "Node.jsとブラウザで動くログレベル等を持つシンプルなロガーライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "bvaughn/jasmine-es6-promise-matchers",
-        "url": "https://github.com/bvaughn/jasmine-es6-promise-matchers",
-        "tags": [
-            "JavaScript",
-            "Promises",
-            "testing"
-        ],
-        "content": "JasmineのPromise向けmatcherライブラリ",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "React v0.13 | React",
+            "url": "http://facebook.github.io/react/blog/2015/03/10/react-v0.13.html",
+            "tags": [
+                "React",
+                "ReleaseNote"
+            ],
+            "content": "React 0.13リリース。\nES6 Classesの対応、React Toolsで`--target es3`の追加など",
+            "relatedLinks": [
+                {
+                    "title": "React.js v0.13 changes - blog.koba04.com",
+                    "url": "http://blog.koba04.com/post/2015/03/05/react-js-v013-changes/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint 0.17.0 released - ESLint",
+            "url": "http://eslint.org/blog/2015/03/eslint-0.17.0-released/",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 0.17.0リリース。\nJSX/Reactのセマンティックに関するルールはESLint本体ではなくpluginで行うように。",
+            "relatedLinks": [
+                {
+                    "title": "yannickcr/eslint-plugin-react",
+                    "url": "https://github.com/yannickcr/eslint-plugin-react"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Esprima 2.1 Released | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2015/03/10/esprima-2-1-released/",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "ReleaseNote"
+            ],
+            "content": "Esprima 2.1リリース。\nES6サポートが中心でclass、rest parameter、computed property nameなどをサポートした。\nESTreeでAST仕様を策定してる件について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "superagent/History.md at 1.0.0 · visionmedia/superagent",
+            "url": "https://github.com/visionmedia/superagent/blob/1.0.0/History.md",
+            "tags": [
+                "JavaScript",
+                "node.js",
+                "HTTP",
+                "library"
+            ],
+            "content": "ブラウザ、Node.jsで動くHTTPクライアントライブラリであるsuperagent 1.0.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Chromium Blog: Chrome 42 Beta: Push Notifications, Promoting Add to Home Screen and ES6 Classes",
+            "url": "http://blog.chromium.org/2015/03/chrome-42-beta-push-notifications_12.html",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Chrome 42βリリース。\nService Workerを使ったプッシュ通知、WebApp Manifestのサポート、ES6 Classes、Fetch APIがwindowコンテキストに公開されるなど",
+            "relatedLinks": [
+                {
+                    "title": "Chrome 42 ベータ版: プッシュ通知、",
+                    "url": "http://googledevjp.blogspot.jp/2015/03/chrome-42-es6-class.html"
+                },
+                {
+                    "title": "Push Notifications on the Open Web",
+                    "url": "http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Dev.Opera — Opera 28 released",
+            "url": "https://dev.opera.com/blog/opera-28/",
+            "tags": [
+                "Opera",
+                "ReleaseNote",
+                "Chrome"
+            ],
+            "content": "Opera 28 (based on Chromium 41)リリース。\nElement#closestの実装、any-pointerとany-hoverのサポート、Web Audio APIのsuspendとresume、StereoPannerNodeの実装、ES6サポートの改善",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Push Notifications on the Open Web",
+            "url": "http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web",
+            "tags": [
+                "Chrome",
+                "ServiceWorker",
+                "WebPlatformAPI"
+            ],
+            "content": "Chrome 42でサポートされたPush APIについての解説。\nGoogle Cloud Messagingからどのようにプッシュ通知を行うかについての解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Taming the asynchronous beast with ES7",
+            "url": "http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES7で入る予定のasync/awaitについて。\nどのような動作になってるのかを解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "A Comparison of JavaScript Linting Tools",
+            "url": "http://www.sitepoint.com/comparison-javascript-linting-tools/",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "JSLint、JSHint、JSCS、ESLintのそれぞれいいところ、よくないところの比較",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "How to implement a programming language (tutorial for beginners)",
+            "url": "http://lisperator.net/pltut/",
+            "tags": [
+                "JavaScript",
+                "tutorial"
+            ],
+            "content": "JavaScriptでλanguageという言語を実装するチュートリアル。\ntoken stream、パーサ、AST、ジェネレータ、最適化、CPSなど色々書かれてる。\nUglifyJS作者によるもの",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "The Modern JavaScript Developer’s Toolbox",
+            "url": "http://www.infoq.com/articles/modern-javascript-toolbox",
+            "tags": [
+                "JavaScript",
+                "歴史"
+            ],
+            "content": "InfoQが未来のJavaScript等についての連載の一環として、今までのJavaScriptを振り返りする記事。\nライブラリ、開発環境、ビルドツール/自動化などを簡単に振り返りしてる",
+            "relatedLinks": [
+                {
+                    "title": "Next Generation HTML5 and JavaScript ",
+                    "url": "http://www.infoq.com/Next-Generation-HTML5-JavaScript/articles/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript - React.js 実戦投入への道 - Qiita",
+            "url": "http://qiita.com/icoxfog417/items/5d79b3336226aa51e30d",
+            "tags": [
+                "Flux",
+                "JavaScript"
+            ],
+            "content": "\"Thinking in React\"の考え方。 \nテンプレートエンジンとReactの共存の話、階層構造の複雑性を解決するためのMediator/ObserverとFluxライブラリについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript - IndexedDbをActiveRecord+Promiseっぽく扱えてJSONSchemaでバリデーションできてnodeでもオンメモリで動いてくORMみたいな何か作ってみた - Qiita",
+            "url": "http://qiita.com/mizchi/items/bd8befaffa8fe9f32522",
+            "tags": [
+                "JavaScript",
+                "データベース",
+                "library"
+            ],
+            "content": "IndexedDBを扱うライブラリ。\nJSONスキーマによるバリデーションやActiveRecord風のAPIを持っている。\nマイグレーション用のUtilも設けている",
+            "relatedLinks": [
+                {
+                    "title": "mizchi/stone-skin",
+                    "url": "https://github.com/mizchi/stone-skin"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "ECMAScript没proposal追悼式",
+            "url": "http://www.slideshare.net/KMC_JP/ecmascriptproposal",
+            "tags": [
+                "ECMAScript",
+                "spec",
+                "スライド"
+            ],
+            "content": "ES6の仕様で提案されたが、[ES6 RC2](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts)時点で入らなかった仕様について。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Babel: Beyond the Basics // Speaker Deck",
+            "url": "https://speakerdeck.com/sebmck/babel-beyond-the-basics",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "スライド",
+                "Tools"
+            ],
+            "content": "Babel作者によるBabelの紹介スライド。",
+            "relatedLinks": [
+                {
+                    "title": "▶ Babel: Beyond the Basics — Sebastian McKenzie, Creator of Babel - YouTube",
+                    "url": "https://www.youtube.com/watch?v=F1BIeVe99EQ"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "EmberConf 2015 - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU#emberconf",
+            "tags": [
+                "JavaScript",
+                "イベント",
+                "動画"
+            ],
+            "content": "EmberConf 2015の動画一覧",
+            "relatedLinks": [
+                {
+                    "title": "http://emberconf.com/",
+                    "url": "http://emberconf.com/"
+                },
+                {
+                    "title": "poteto/emberconf-2015",
+                    "url": "https://github.com/poteto/emberconf-2015"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Experiments with Strengthening JavaScript - Chrome V8 — Google Developers",
+            "url": "https://developers.google.com/v8/experiments",
+            "tags": [
+                "google",
+                "JavaScript"
+            ],
+            "content": "Chromeに実験的に実装してるStrong Mode(SaneScript)とSoundScript(型システム)についてのドキュメント。",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Home – Component Kitchen",
+            "url": "http://component.kitchen/",
+            "tags": [
+                "WebComponents",
+                "まとめ",
+                "検索"
+            ],
+            "content": "Web Componentsのカタログサイト。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ecomfe/fontmin",
+            "url": "https://github.com/ecomfe/fontmin",
+            "tags": [
+                "node.js",
+                "fonts",
+                "Tools",
+                "library"
+            ],
+            "content": "ウェブフォントのMinifyを行うNode.jsモジュール。\nttfやotfからeot、woff、svgへの変換を行う。また使用する文字だけのサブセットも作成出来る",
+            "relatedLinks": [
+                {
+                    "title": "中文字体 webfont 自动化构建 | EFE Tech",
+                    "url": "http://efe.baidu.com/blog/chinese-font-build/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "zewish/rmodal.js",
+            "url": "https://github.com/zewish/rmodal.js",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "library"
+            ],
+            "content": "依存がないシンプルなモーダルダイアログUIライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "rackt/react-a11y · GitHub",
+            "url": "https://github.com/rackt/react-a11y",
+            "tags": [
+                "React",
+                "library",
+                "アクセシビリティ"
+            ],
+            "content": "React Elementにアクセシビリティ的な問題がないかを警告してくれるライブラリ。\nまたどうすればいいかも表示してくれる",
+            "relatedLinks": [
+                {
+                    "title": "▶ React.js Conf 2015 - Hype! - YouTube",
+                    "url": "https://www.youtube.com/watch?v=z5e7kWSHWTg#t=631"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Kikobeats/acho",
+            "url": "https://github.com/Kikobeats/acho#acho",
+            "tags": [
+                "JavaScript",
+                "library",
+                "node.js"
+            ],
+            "content": "Node.jsとブラウザで動くログレベル等を持つシンプルなロガーライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "bvaughn/jasmine-es6-promise-matchers",
+            "url": "https://github.com/bvaughn/jasmine-es6-promise-matchers",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "testing"
+            ],
+            "content": "JasmineのPromise向けmatcherライブラリ",
+            "relatedLinks": []
+        }
+    ]
+}

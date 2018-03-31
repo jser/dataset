@@ -1,241 +1,256 @@
-[
-    {
-        "category": "Headline",
-        "title": "async/CHANGELOG.md at master · caolan/async",
-        "url": "https://github.com/caolan/async/blob/master/CHANGELOG.md#v100",
+{
+    "meta": {
+        "title": "2015-05-27のJS: Promiseのありがちな間違い、AngularJS 2に向けて、Plain JS",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-05-27T13:12:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "非同期処理を管理するライブラリであるasync 1.0.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "We have a problem with promises",
-        "url": "http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html",
-        "tags": [
-            "JavaScript",
-            "Promises",
-            "まとめ"
-        ],
-        "content": "Promiseの色々な落とし穴やアンチパターンについてよくまとまってる",
-        "relatedLinks": [
-            {
-                "title": "JavaScript Promiseの本",
-                "url": "http://azu.github.io/promises-book/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript - AngularJSモダンプラクティス - Qiita",
-        "url": "http://qiita.com/armorik83/items/5542daed0c408cb9f605",
-        "tags": [
+            "Promise",
             "AngularJS",
-            "JavaScript",
-            "ECMAScript",
-            "tutorial"
-        ],
-        "content": "AngularJS 2に移行しやすくするにはどうするかというチュートリアル。\n1.xでもES6 Classesを使った書き方をするためのリファクタリング方法。\nAngularJS 2でのdirective、モジュール、関連ライブラリやツール、FAQなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Moving to ES6 from CoffeeScript",
-        "url": "https://gist.github.com/danielgtaylor/0b60c2ed1f069f118562",
-        "tags": [
-            "JavaScript",
-            "CoffeeScript"
-        ],
-        "content": "CoffeeScriptからES6への移行において文法の比較やES6の構文や機能の紹介",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 — classes and inheritance — Medium",
-        "url": "https://medium.com/@mrzepinski/es6-classes-and-inheritance-607804080906",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6 ClassesとES5との書き方比較。\ngetterやsetter、細かいショートハンドとともに紹介してる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Why Backbone.js? - Roost Austin",
-        "url": "https://roost.bocoup.com/2015/austin/blog/why-backbone/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "MVC"
-        ],
-        "content": "JavaScriptライブラリをどのような基準で比較して選択するかについて。\nメジャーなライブラリの統計を比較した図や学習曲線、欠点などについて書かれていて、どのような見方があるかについての話が興味深い",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Notifying you of Changes to Notifications",
-        "url": "http://updates.html5rocks.com/2015/05/Notifying-you-of-notificiation-changes",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "Chrome 44でService Workerを使ったプッシュ通知で任意のオブジェクトを渡せるようになり、また`getNotifications()`で特定のtagがついたNotificationのみを取り出せるようになった",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "graphite, grafana, sitespeed.io, diamond で継続 Web パフォーマンスモニタリング - Qiita",
-        "url": "http://qiita.com/Jxck_/items/abfa9f3dd15c5572cbfd",
-        "tags": [
-            "browser",
-            "performance"
-        ],
-        "content": "sitespeed.ioを使い実際のブラウザを動かしてTiming API等のクライアントサイドでのメトリクス情報を継続的に取得したデータをgraphiteに保存し可視化する方法について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ここ最近のWeb地図周辺の動向をまとめてみた | #GUNMAGISGEEK",
-        "url": "http://shimz.me/blog/map/4268",
-        "tags": [
-            "JavaScript",
-            "GEO",
-            "まとめ"
-        ],
-        "content": "GeoJSONを始めウェブの地図周りの技術についての変化について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Testing JavaScript — Medium",
-        "url": "https://medium.com/@nickheiner/testing-javascript-8c8efe8434e",
-        "tags": [
-            "JavaScript",
-            "testing"
-        ],
-        "content": "proxyquireを使ったテスト、E2Eとモック、tapeを使ったテストについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "ウェブクリエイターの為の情報サイト | Web Programming Primer",
-        "url": "http://wp-p.info/",
-        "tags": [
-            "HTML",
-            "JavaScript",
-            "CSS",
-            "tutorial"
-        ],
-        "content": "HTML/CSS/JavaScriptの入門的な内容のチュートリアル集",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Plain JavaScript - Functions and Helpers",
-        "url": "http://plainjs.com/javascript/",
-        "tags": [
-            "JavaScript",
             "DOM",
-            "リファレンス"
-        ],
-        "content": "Pure JavaScriptでDOM操作などについての逆引きリファレンス",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "EmberWeekend",
-        "url": "https://emberweekend.com/episodes",
-        "tags": [
-            "JavaScript",
-            "library",
-            "podcast"
-        ],
-        "content": "Ember.jsについてのpodcast",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "sebastian-lenz/typedoc",
-        "url": "https://github.com/sebastian-lenz/typedoc",
-        "tags": [
-            "TypeScript",
-            "API",
-            "document"
-        ],
-        "content": "TypeScriptのAPIドキュメント生成ツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "WebdriverIO - Selenium 2.0 javascript bindings for nodejs",
-        "url": "http://webdriver.io/",
-        "tags": [
-            "node.js",
-            "Selenium",
-            "webdriver"
-        ],
-        "content": "Node.jsのSelenium/WebDriver APIのバインディング。\nモバイルのフリックやタブの切替等色々なAPIが用意されてる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "symdiff",
-        "url": "https://symdiff.github.io/",
-        "tags": [
-            "HTML",
-            "CSS",
-            "Tools"
-        ],
-        "content": "HTMLとCSSを渡して使われてないCSSを検索するツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "padolsey/operative",
-        "url": "https://github.com/padolsey/operative",
-        "tags": [
-            "webworker",
-            "JavaScript",
-            "library"
-        ],
-        "content": "直接関数を渡してそれをWeb Workerで動かせるライブラリ。\n古いブラウザ向けのfallbackやPromiseのサポートなど、できるだけシームレスに書けるようにしてる",
-        "relatedLinks": [
-            {
-                "title": "operativeでWebWorkersを手軽に扱う - 四角革命前夜",
-                "url": "http://blog.sasaplus1.com/2015/05/23/01/"
-            }
+            "jQuery"
         ]
     },
-    {
-        "category": "SoftwareLibrary",
-        "title": "High-performance javascript library for animations &amp; interfaces | Famous.org",
-        "url": "http://famous.org/",
-        "tags": [
-            "JavaScript",
-            "animation",
-            "library",
-            "WebGL"
-        ],
-        "content": "アニメーションライブラリであるFamousがリニューアル公開された",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Easily testing React components with react-test-tree — Qubit Engineering — Medium",
-        "url": "https://medium.com/qubit-engineering/easily-testing-react-components-with-react-test-tree-f9e1668b1c2d",
-        "tags": [
-            "React",
-            "testing",
-            "DOM"
-        ],
-        "content": "React component向けのテストライブラリ。\n対象のReact componentに`ref`属性を追加しておくことで、clickなどのイベントのシミュレートや子componentをstubすることができる",
-        "relatedLinks": [
-            {
-                "title": "QubitProducts/react-test-tree",
-                "url": "https://github.com/QubitProducts/react-test-tree"
-            }
-        ]
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "async/CHANGELOG.md at master · caolan/async",
+            "url": "https://github.com/caolan/async/blob/master/CHANGELOG.md#v100",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "非同期処理を管理するライブラリであるasync 1.0.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "We have a problem with promises",
+            "url": "http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "まとめ"
+            ],
+            "content": "Promiseの色々な落とし穴やアンチパターンについてよくまとまってる",
+            "relatedLinks": [
+                {
+                    "title": "JavaScript Promiseの本",
+                    "url": "http://azu.github.io/promises-book/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript - AngularJSモダンプラクティス - Qiita",
+            "url": "http://qiita.com/armorik83/items/5542daed0c408cb9f605",
+            "tags": [
+                "AngularJS",
+                "JavaScript",
+                "ECMAScript",
+                "tutorial"
+            ],
+            "content": "AngularJS 2に移行しやすくするにはどうするかというチュートリアル。\n1.xでもES6 Classesを使った書き方をするためのリファクタリング方法。\nAngularJS 2でのdirective、モジュール、関連ライブラリやツール、FAQなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Moving to ES6 from CoffeeScript",
+            "url": "https://gist.github.com/danielgtaylor/0b60c2ed1f069f118562",
+            "tags": [
+                "JavaScript",
+                "CoffeeScript"
+            ],
+            "content": "CoffeeScriptからES6への移行において文法の比較やES6の構文や機能の紹介",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 — classes and inheritance — Medium",
+            "url": "https://medium.com/@mrzepinski/es6-classes-and-inheritance-607804080906",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6 ClassesとES5との書き方比較。\ngetterやsetter、細かいショートハンドとともに紹介してる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Why Backbone.js? - Roost Austin",
+            "url": "https://roost.bocoup.com/2015/austin/blog/why-backbone/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "MVC"
+            ],
+            "content": "JavaScriptライブラリをどのような基準で比較して選択するかについて。\nメジャーなライブラリの統計を比較した図や学習曲線、欠点などについて書かれていて、どのような見方があるかについての話が興味深い",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Notifying you of Changes to Notifications",
+            "url": "http://updates.html5rocks.com/2015/05/Notifying-you-of-notificiation-changes",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "Chrome 44でService Workerを使ったプッシュ通知で任意のオブジェクトを渡せるようになり、また`getNotifications()`で特定のtagがついたNotificationのみを取り出せるようになった",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "graphite, grafana, sitespeed.io, diamond で継続 Web パフォーマンスモニタリング - Qiita",
+            "url": "http://qiita.com/Jxck_/items/abfa9f3dd15c5572cbfd",
+            "tags": [
+                "browser",
+                "performance"
+            ],
+            "content": "sitespeed.ioを使い実際のブラウザを動かしてTiming API等のクライアントサイドでのメトリクス情報を継続的に取得したデータをgraphiteに保存し可視化する方法について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ここ最近のWeb地図周辺の動向をまとめてみた | #GUNMAGISGEEK",
+            "url": "http://shimz.me/blog/map/4268",
+            "tags": [
+                "JavaScript",
+                "GEO",
+                "まとめ"
+            ],
+            "content": "GeoJSONを始めウェブの地図周りの技術についての変化について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Testing JavaScript — Medium",
+            "url": "https://medium.com/@nickheiner/testing-javascript-8c8efe8434e",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "content": "proxyquireを使ったテスト、E2Eとモック、tapeを使ったテストについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "ウェブクリエイターの為の情報サイト | Web Programming Primer",
+            "url": "http://wp-p.info/",
+            "tags": [
+                "HTML",
+                "JavaScript",
+                "CSS",
+                "tutorial"
+            ],
+            "content": "HTML/CSS/JavaScriptの入門的な内容のチュートリアル集",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Plain JavaScript - Functions and Helpers",
+            "url": "http://plainjs.com/javascript/",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "リファレンス"
+            ],
+            "content": "Pure JavaScriptでDOM操作などについての逆引きリファレンス",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "EmberWeekend",
+            "url": "https://emberweekend.com/episodes",
+            "tags": [
+                "JavaScript",
+                "library",
+                "podcast"
+            ],
+            "content": "Ember.jsについてのpodcast",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "sebastian-lenz/typedoc",
+            "url": "https://github.com/sebastian-lenz/typedoc",
+            "tags": [
+                "TypeScript",
+                "API",
+                "document"
+            ],
+            "content": "TypeScriptのAPIドキュメント生成ツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "WebdriverIO - Selenium 2.0 javascript bindings for nodejs",
+            "url": "http://webdriver.io/",
+            "tags": [
+                "node.js",
+                "Selenium",
+                "webdriver"
+            ],
+            "content": "Node.jsのSelenium/WebDriver APIのバインディング。\nモバイルのフリックやタブの切替等色々なAPIが用意されてる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "symdiff",
+            "url": "https://symdiff.github.io/",
+            "tags": [
+                "HTML",
+                "CSS",
+                "Tools"
+            ],
+            "content": "HTMLとCSSを渡して使われてないCSSを検索するツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "padolsey/operative",
+            "url": "https://github.com/padolsey/operative",
+            "tags": [
+                "webworker",
+                "JavaScript",
+                "library"
+            ],
+            "content": "直接関数を渡してそれをWeb Workerで動かせるライブラリ。\n古いブラウザ向けのfallbackやPromiseのサポートなど、できるだけシームレスに書けるようにしてる",
+            "relatedLinks": [
+                {
+                    "title": "operativeでWebWorkersを手軽に扱う - 四角革命前夜",
+                    "url": "http://blog.sasaplus1.com/2015/05/23/01/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "High-performance javascript library for animations &amp; interfaces | Famous.org",
+            "url": "http://famous.org/",
+            "tags": [
+                "JavaScript",
+                "animation",
+                "library",
+                "WebGL"
+            ],
+            "content": "アニメーションライブラリであるFamousがリニューアル公開された",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Easily testing React components with react-test-tree — Qubit Engineering — Medium",
+            "url": "https://medium.com/qubit-engineering/easily-testing-react-components-with-react-test-tree-f9e1668b1c2d",
+            "tags": [
+                "React",
+                "testing",
+                "DOM"
+            ],
+            "content": "React component向けのテストライブラリ。\n対象のReact componentに`ref`属性を追加しておくことで、clickなどのイベントのシミュレートや子componentをstubすることができる",
+            "relatedLinks": [
+                {
+                    "title": "QubitProducts/react-test-tree",
+                    "url": "https://github.com/QubitProducts/react-test-tree"
+                }
+            ]
+        }
+    ]
+}

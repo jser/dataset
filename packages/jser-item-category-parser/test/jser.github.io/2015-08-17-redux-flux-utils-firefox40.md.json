@@ -1,204 +1,218 @@
-[
-    {
-        "category": "Headline",
-        "title": "Release v1.0.0 · rackt/redux",
-        "url": "https://github.com/rackt/redux/releases/tag/v1.0.0",
+{
+    "meta": {
+        "title": "2015-08-17のJS: Redux 1.0.0、flux-utils、Firefox 40",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-08-17T11:21:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "Flux",
+            "flux",
             "library",
-            "ReleaseNote"
-        ],
-        "content": "Redux 1.0.0リリース。\nStateを管理するコンテナを提供することでFluxのActionCreatorとStoreにあたるものをただの関数として書けるようにし、単方向データの流れを行うライブラリ。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "1.1 Release",
-        "url": "http://blog.polymer-project.org/announcements/2015/08/13/1.1-release/",
-        "tags": [
-            "WebComponents",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Polymer 1.1リリース。\nコンポーネントとグローバルスコープでStyleを共有する仕組みの追加など",
-        "relatedLinks": [
-            {
-                "title": "Polymer 1.1 リリース - Qiita",
-                "url": "http://qiita.com/laco0416/items/51a3f7863602c1d35e8a"
-            }
+            "firefox"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "MozillaZine.jp » Blog Archive » Firefox 40 がリリースされた",
-        "url": "http://mozillazine.jp/?p=4868",
-        "tags": [
-            "firefox",
-            "ReleaseNote"
-        ],
-        "content": "Firefox 40リリース。\n`return`に書かれた到達できないコードへの警告がコンソールへ出るように開発者ツールの改善、Web Audio APIの仕様追従、Web Animations APIの仕様追従など",
-        "relatedLinks": [
-            {
-                "title": "Firefox 40 サイト互換性情報 - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/ja/Firefox/Releases/40/Site_Compatibility"
-            },
-            {
-                "title": "Firefox 40 for developers - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/ja/Firefox/Releases/40"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "4.0 is the new 1.0 — Node &amp; JavaScript — Medium",
-        "url": "https://medium.com/node-js-javascript/4-0-is-the-new-1-0-386597a3436d",
-        "tags": [
-            "node.js",
-            "ReleaseNote",
-            "歴史"
-        ],
-        "content": "Node.js 4.0がio.jsとのマージが完了したバージョンとしてリリースされる予定。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Browserify dependencies in depth! | TEJI TECH BLOG",
-        "url": "http://www.tejitak.com/blog/?p=1468",
-        "tags": [
-            "browserify"
-        ],
-        "content": "Browserifyでの依存関係の解決パターンについて。\n依存するモジュールのバージョンが複数ある場合の問題についての色々なアプローチ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 In Depth: Modules ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/08/es6-in-depth-modules/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6 modulesのimport/exportの多様な構文のそれぞれの動作についての解説。\nModuleの仕様を分解してみた時にLoadingについてはECMAScriptでは未定義であること、構文的にstaticであることなどについて書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "es6-coding-style/es6-coding-style-en.md at master · gf-web/es6-coding-style",
-        "url": "https://github.com/gf-web/es6-coding-style/blob/master/es6-coding-style-en.md",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6コーディングスタイルガイド。\nDestructuringの使いすぎへの注意、ES5での書き方をES6の機能でキレイに書けるケースについて比較、moduleの`*`や`as`について書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "flux-utilsについて",
-        "url": "https://gist.github.com/azu/e0274b703ef97226b0db",
-        "tags": [
-            "Flux",
-            "JavaScript"
-        ],
-        "content": "Facebookのfluxモジュールに追加されたutilsについて。\n今まではDispatcherのみだったがStoreやReact Componentと連携するためのContainerなどが提供されたことについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "フロントエンドMVCとFlux // Speaker Deck",
-        "url": "https://speakerdeck.com/sangotaro/hurontoendomvctoflux",
-        "tags": [
-            "Flux",
-            "スライド"
-        ],
-        "content": "Fluxとはどういうものなのかについてのスライド。\nMVCと何が違って何が違わないのかがわかりやすく書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "mdast - markdown processor powered by plug-ins",
-        "url": "http://mdast.js.org/",
-        "tags": [
-            "Markdown",
-            "JavaScript",
-            "library"
-        ],
-        "content": "Markdownパーサであるmdastのサイト。\nプラグインを使ってMarkdownからHTMLへの変換、Lintなど様々なことができる",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Perf.Rocks",
-        "url": "http://perf.rocks/",
-        "tags": [
-            "performance",
-            "まとめ"
-        ],
-        "content": "ウェブパフォーマンスについての記事やツール、人、スライド、動画、書籍などについてのまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Relay | A JavaScript framework for building data-driven React applications",
-        "url": "https://facebook.github.io/relay/",
-        "tags": [
-            "React",
-            "JavaScript",
-            "library",
-            "facebook"
-        ],
-        "content": "GraphQLを使ったデータのやりとりをするフレームワーク。\nRelay.QLなどES6 template literalが前提になった作りになっていて面白い。",
-        "relatedLinks": [
-            {
-                "title": "Relay Technical Preview | React",
-                "url": "https://facebook.github.io/react/blog/2015/08/11/relay-technical-preview.html"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "patrick-steele-idem/morphdom",
-        "url": "https://github.com/patrick-steele-idem/morphdom",
-        "tags": [
-            "DOM",
-            "library"
-        ],
-        "content": "Virutal DOMではなくDOMを使ってdiff/patchをしてDOM Nodeを置き換えるライブラリ。\n`virtual-dom`と比較したベンチマークも書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "jamesshore/quixote",
-        "url": "https://github.com/jamesshore/quixote",
-        "tags": [
-            "CSS",
-            "JavaScript",
-            "testing"
-        ],
-        "content": "mochaなどと組み合わせて使えるCSSのユニットテスト向けのassertionライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "scottcorgan/immu",
-        "url": "https://github.com/scottcorgan/immu",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Immutable Objectを扱うライブラリ。\nObject.definePropertyやObject.freezeを使ってArrayやObjectの変更を防止したオブジェクトを作成する",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Designing for Performance by Lara Callender Hogan",
-        "url": "http://designingforperformance.com/",
-        "tags": [
-            "performance",
-            "book"
-        ],
-        "content": "ブラウザのパフォーマンスについての書籍。",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Release v1.0.0 · rackt/redux",
+            "url": "https://github.com/rackt/redux/releases/tag/v1.0.0",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Redux 1.0.0リリース。\nStateを管理するコンテナを提供することでFluxのActionCreatorとStoreにあたるものをただの関数として書けるようにし、単方向データの流れを行うライブラリ。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "1.1 Release",
+            "url": "http://blog.polymer-project.org/announcements/2015/08/13/1.1-release/",
+            "tags": [
+                "WebComponents",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Polymer 1.1リリース。\nコンポーネントとグローバルスコープでStyleを共有する仕組みの追加など",
+            "relatedLinks": [
+                {
+                    "title": "Polymer 1.1 リリース - Qiita",
+                    "url": "http://qiita.com/laco0416/items/51a3f7863602c1d35e8a"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "MozillaZine.jp » Blog Archive » Firefox 40 がリリースされた",
+            "url": "http://mozillazine.jp/?p=4868",
+            "tags": [
+                "firefox",
+                "ReleaseNote"
+            ],
+            "content": "Firefox 40リリース。\n`return`に書かれた到達できないコードへの警告がコンソールへ出るように開発者ツールの改善、Web Audio APIの仕様追従、Web Animations APIの仕様追従など",
+            "relatedLinks": [
+                {
+                    "title": "Firefox 40 サイト互換性情報 - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/40/Site_Compatibility"
+                },
+                {
+                    "title": "Firefox 40 for developers - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/40"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "4.0 is the new 1.0 — Node &amp; JavaScript — Medium",
+            "url": "https://medium.com/node-js-javascript/4-0-is-the-new-1-0-386597a3436d",
+            "tags": [
+                "node.js",
+                "ReleaseNote",
+                "歴史"
+            ],
+            "content": "Node.js 4.0がio.jsとのマージが完了したバージョンとしてリリースされる予定。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Browserify dependencies in depth! | TEJI TECH BLOG",
+            "url": "http://www.tejitak.com/blog/?p=1468",
+            "tags": [
+                "browserify"
+            ],
+            "content": "Browserifyでの依存関係の解決パターンについて。\n依存するモジュールのバージョンが複数ある場合の問題についての色々なアプローチ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 In Depth: Modules ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/08/es6-in-depth-modules/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6 modulesのimport/exportの多様な構文のそれぞれの動作についての解説。\nModuleの仕様を分解してみた時にLoadingについてはECMAScriptでは未定義であること、構文的にstaticであることなどについて書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "es6-coding-style/es6-coding-style-en.md at master · gf-web/es6-coding-style",
+            "url": "https://github.com/gf-web/es6-coding-style/blob/master/es6-coding-style-en.md",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6コーディングスタイルガイド。\nDestructuringの使いすぎへの注意、ES5での書き方をES6の機能でキレイに書けるケースについて比較、moduleの`*`や`as`について書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "flux-utilsについて",
+            "url": "https://gist.github.com/azu/e0274b703ef97226b0db",
+            "tags": [
+                "Flux",
+                "JavaScript"
+            ],
+            "content": "Facebookのfluxモジュールに追加されたutilsについて。\n今まではDispatcherのみだったがStoreやReact Componentと連携するためのContainerなどが提供されたことについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "フロントエンドMVCとFlux // Speaker Deck",
+            "url": "https://speakerdeck.com/sangotaro/hurontoendomvctoflux",
+            "tags": [
+                "Flux",
+                "スライド"
+            ],
+            "content": "Fluxとはどういうものなのかについてのスライド。\nMVCと何が違って何が違わないのかがわかりやすく書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "mdast - markdown processor powered by plug-ins",
+            "url": "http://mdast.js.org/",
+            "tags": [
+                "Markdown",
+                "JavaScript",
+                "library"
+            ],
+            "content": "Markdownパーサであるmdastのサイト。\nプラグインを使ってMarkdownからHTMLへの変換、Lintなど様々なことができる",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Perf.Rocks",
+            "url": "http://perf.rocks/",
+            "tags": [
+                "performance",
+                "まとめ"
+            ],
+            "content": "ウェブパフォーマンスについての記事やツール、人、スライド、動画、書籍などについてのまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Relay | A JavaScript framework for building data-driven React applications",
+            "url": "https://facebook.github.io/relay/",
+            "tags": [
+                "React",
+                "JavaScript",
+                "library",
+                "facebook"
+            ],
+            "content": "GraphQLを使ったデータのやりとりをするフレームワーク。\nRelay.QLなどES6 template literalが前提になった作りになっていて面白い。",
+            "relatedLinks": [
+                {
+                    "title": "Relay Technical Preview | React",
+                    "url": "https://facebook.github.io/react/blog/2015/08/11/relay-technical-preview.html"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "patrick-steele-idem/morphdom",
+            "url": "https://github.com/patrick-steele-idem/morphdom",
+            "tags": [
+                "DOM",
+                "library"
+            ],
+            "content": "Virutal DOMではなくDOMを使ってdiff/patchをしてDOM Nodeを置き換えるライブラリ。\n`virtual-dom`と比較したベンチマークも書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "jamesshore/quixote",
+            "url": "https://github.com/jamesshore/quixote",
+            "tags": [
+                "CSS",
+                "JavaScript",
+                "testing"
+            ],
+            "content": "mochaなどと組み合わせて使えるCSSのユニットテスト向けのassertionライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "scottcorgan/immu",
+            "url": "https://github.com/scottcorgan/immu",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Immutable Objectを扱うライブラリ。\nObject.definePropertyやObject.freezeを使ってArrayやObjectの変更を防止したオブジェクトを作成する",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Designing for Performance by Lara Callender Hogan",
+            "url": "http://designingforperformance.com/",
+            "tags": [
+                "performance",
+                "book"
+            ],
+            "content": "ブラウザのパフォーマンスについての書籍。",
+            "relatedLinks": []
+        }
+    ]
+}

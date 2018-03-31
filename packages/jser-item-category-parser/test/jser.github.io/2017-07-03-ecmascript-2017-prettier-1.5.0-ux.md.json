@@ -1,305 +1,320 @@
-[
-    {
-        "category": "Headline",
-        "title": "Release 1.5.0: GraphQL, CSS-in-JS & JSON · prettier/prettier",
-        "url": "https://github.com/prettier/prettier/releases/tag/1.5.0",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "prettier 1.5.0リリース。\nGraphQL、CSS in JS、JSONの対応、CSSやTypeScript、JSX周りバグ修正など",
-        "relatedLinks": [
-            {
-                "title": "Adding a new layout strategy to Prettier – Geckoboard: Under-the-Hood – Medium",
-                "url": "https://medium.com/geckoboard-under-the-hood/adding-a-new-layout-strategy-to-prettier-8d33084c0f99"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release v7.0.0-beta.16 · babel/babylon",
-        "url": "https://github.com/babel/babylon/releases/tag/v7.0.0-beta.16",
-        "tags": [
-            "babel",
-            "AST",
-            "TypeScript",
-            "ReleaseNote"
-        ],
-        "content": "Babylon 7.0.0 beta16リリース。\nTypeScriptパーサの追加、BigInt(Stage 2)のサポートなど",
-        "relatedLinks": [
-            {
-                "title": "TypeScript parser by andy-ms · Pull Request #523 · babel/babylon",
-                "url": "https://github.com/babel/babylon/pull/523"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Ecma latest news",
-        "url": "http://ecma-international.org/news/index.html",
+{
+    "meta": {
+        "title": "2017-07-03のJS: ECMAScript 2017、Prettier 1.5.0、UXのパフォーマンスメトリクス",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-07-03T05:14:08.123Z",
+        "category": "JSer",
         "tags": [
             "ECMAScript",
-            "news"
-        ],
-        "content": "\"ECMA-262 8th edition - ECMAScript® 2017 Language Specification\" ES2017がGAで承認されて正式リリースされた。",
-        "relatedLinks": [
-            {
-                "title": "Standard ECMA-262",
-                "url": "http://ecma-international.org/publications/standards/Ecma-262.htm"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release Notes for Safari Technology Preview 34 | WebKit",
-        "url": "https://webkit.org/blog/7760/release-notes-for-safari-technology-preview-34/",
-        "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "Safari Technology Preview Release 34リリース。\n`RTCRtpTransceiver#addTransceiver`をサポートしトラック単位での片方向通信を使えるように、W3C Secure Contextsの実装、SRIを試験的にサポートなど",
-        "relatedLinks": [
-            {
-                "title": "Safari TP 34では新しい片方向WebRTCの手順が使えるようになったので、試してみた - Qiita",
-                "url": "http://qiita.com/tomoyukilabs/items/59267f25c9dbd43d5ecb"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Leveraging the Performance Metrics that Most Affect User Experience  |  Web  |  Google Developers",
-        "url": "https://developers.google.com/web/updates/2017/06/user-centric-performance-metrics",
-        "tags": [
-            "Chrome",
+            "Prettier",
             "performance",
-            "browser",
-            "article"
-        ],
-        "content": "ユーザー体験への影響を見るパフォーマンスのメトリクスについて。\nロード時間だけでは体験を計測できないため。\nそのため、First Paint/First Meaningful Paing/Time to Interactive/Longtasksを指標にそれぞれ何を意味するかや計測方法について",
-        "relatedLinks": [
-            {
-                "title": "You Need to know SSR // Speaker Deck",
-                "url": "https://speakerdeck.com/yosuke_furukawa/you-need-to-know-ssr"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Chrome 60 DevTools の新機能/変更点 - Qiita",
-        "url": "http://qiita.com/kyoshidajp/items/e3f9be02a7ccd00aa7d7",
-        "tags": [
-            "Chrome",
-            "debug"
-        ],
-        "content": "Chrome 60の開発者ツールの変更点について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "NYTimes/kyt: Starting a new JS app? Build, test and run advanced apps with kyt 🔥",
-        "url": "https://github.com/nytimes/kyt",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "JavaScriptアプリのツールキット。\nBabel/webpack/Jest/Stylelint/ESlint/protoなどのセットアップをまとめて行うツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Supercharged Live Stream Blog: Code Splitting  |  Web  |  Google Developers",
-        "url": "https://developers.google.com/web/updates/2017/06/supercharged-codesplit",
-        "tags": [
-            "babel",
-            "article",
-            "plugin",
-            "video"
-        ],
-        "content": "Code Splittingを行うBabelプラグインを作成するスクリーンキャスト",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Building m.uber: Engineering a High-Performance Web App for the Global Market - Uber Engineering Blog",
-        "url": "https://eng.uber.com/m-uber/",
-        "tags": [
-            "browser",
-            "mobile",
-            "JavaScript",
-            "performance"
-        ],
-        "content": "Uberのモバイル向けの最適化について。\nReactを使っているが、mobileではPreactに置き換えて利用している。\nまた、サーバサイドレンダリングや、初期bundleサイズを小さくするためのcode split、依存が小さなJustの利用、SWやIndexedDBを使ったキャッシュなどについて。\n問題を見つけるためのエラーハンドリングについて。",
-        "relatedLinks": [
-            {
-                "title": "angus-c/just: A library of dependency-free utilities that do just do one thing.",
-                "url": "https://github.com/angus-c/just"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "GraphQL Network Communication Framework",
-        "url": "http://graphql-io.com/",
-        "tags": [
-            "GraphQL",
-            "library",
-            "JavaScript"
-        ],
-        "content": "クライアント <-> サーバのコミュニケーションを行うGraphQLフレームワーク。\nApollo/WebSocketベース",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "HTML Standard",
-        "url": "https://html.spec.whatwg.org/dev/",
-        "tags": [
-            "HTML",
-            "WHATWG",
-            "spec"
-        ],
-        "content": "WHATWG HTML仕様のDeveloper's Edition。\nブラウザベンダー向けの情報は削除し、ウェブ開発者向けの情報に絞ったHTML仕様。",
-        "relatedLinks": [
-            {
-                "title": "HTML Standard 日本語訳",
-                "url": "https://momdo.github.io/html/dev/"
-            },
-            {
-                "title": "Review on utilization of ",
-                "url": "https://github.com/whatwg/html/issues/1488#issuecomment-310450737"
-            },
-            {
-                "title": "WHATWG HTML Standard Developer Editionの話 - 水底の血",
-                "url": "http://momdo.hatenablog.jp/entry/20170702/1498999477"
-            },
-            {
-                "title": "HTML5 for Web Developers | HTML5 Doctor",
-                "url": "http://html5doctor.com/html5-for-web-developers/"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "babel/proposals: (WIP) Tracking the status of Babel's implementation of TC39 proposals",
-        "url": "https://github.com/babel/proposals",
-        "tags": [
-            "ECMAScript",
-            "babel",
-            "plugin"
-        ],
-        "content": "ECMAScript proposalとBabelの実装の対応をまとめたもの",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "roman01la/js-memory-usage: Data Structures Memory Usage in JavaScript",
-        "url": "https://github.com/roman01la/js-memory-usage",
-        "tags": [
-            "JavaScript",
-            "library",
-            "まとめ",
-            "performance"
-        ],
-        "content": "JavaScriptのデータ構造別/ライブラリごとのメモリ消費量をまとめたもの。List/Array/Map/SetをJavaScript/ImmutableJS/ClojureScript/GopherJS/Reasonなど色々な実装ごと比較",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "pinterest/esprint: Fast eslint runner",
-        "url": "https://github.com/pinterest/esprint",
-        "tags": [
-            "ESLint",
-            "Tools"
-        ],
-        "content": "ESLintをparallelで実行できるツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "anvilresearch/webcrypto: W3C Web Cryptography API for Node.js",
-        "url": "https://github.com/anvilresearch/webcrypto",
-        "tags": [
-            "node.js",
-            "security",
-            "library"
-        ],
-        "content": "Node.jsでWeb Cryptography APIに対応するpolyfill(ponyfill)ライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "coast-team/netflux: JavaScript client and server side transport API based on WebRTC & WebSocket",
-        "url": "https://github.com/coast-team/netflux",
-        "tags": [
-            "WebRTC",
-            "WebSocket",
-            "node.js",
             "browser"
-        ],
-        "content": "WebRTC、WebSocketを使ったP2Pライブラリ。\nブラウザ、Node.jsでデータのやり取りを行える",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "OnetapInc/chromy: Chromy is a library for operating headless chrome. 🍺🍺🍺",
-        "url": "https://github.com/OnetapInc/chromy",
-        "tags": [
-            "Chrome",
-            "node.js",
-            "library"
-        ],
-        "content": "Headless ChromeをNightmare.jsのように操作するAPIを提供するライブラリ。\nChrome DevTools Protocolを使って処理をやり取りしている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "dollarshaveclub/study: A Simple, progressive, client/server AB testing library ⚡️",
-        "url": "https://github.com/dollarshaveclub/study",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "A/Bテストティングライブラリ。\nuniversalで動き、storage driverでデータの保存先を指定できる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "egoist/dom-dom: JSX to actual DOM.",
-        "url": "https://github.com/egoist/dom-dom",
-        "tags": [
-            "JavaScript",
-            "jsx",
-            "DOM",
-            "library"
-        ],
-        "content": "JSXを`document` APIを使ってDOMオブジェクトにするライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "yahoo/mendel: Build toolchain for experimentation on isomorphic web applications with tree-inheritance and multivariate support.",
-        "url": "https://github.com/yahoo/mendel",
-        "tags": [
-            "設計",
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "コードのフラグではなくルールファイルベースでプロジェクト構造を管理できるツール。\n試験的な機能を取り入れたA/Bテストを管理しやすくするためのフレームワーク。\nフラグ管理は技術的負債となりやすく、持続可能性をYahooで調査した結果作成されたデザイン。",
-        "relatedLinks": [
-            {
-                "title": "mendel/Design.md at master · yahoo/mendel",
-                "url": "https://github.com/yahoo/mendel/blob/master/docs/Design.md"
-            }
         ]
     },
-    {
-        "category": "SoftwareLibrary",
-        "title": "jaredpalmer/formik: Forms in React, without tears",
-        "url": "https://github.com/jaredpalmer/formik",
-        "tags": [
-            "React",
-            "library"
-        ],
-        "content": "React向けのフォームライブラリ",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Release 1.5.0: GraphQL, CSS-in-JS & JSON · prettier/prettier",
+            "url": "https://github.com/prettier/prettier/releases/tag/1.5.0",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "prettier 1.5.0リリース。\nGraphQL、CSS in JS、JSONの対応、CSSやTypeScript、JSX周りバグ修正など",
+            "relatedLinks": [
+                {
+                    "title": "Adding a new layout strategy to Prettier – Geckoboard: Under-the-Hood – Medium",
+                    "url": "https://medium.com/geckoboard-under-the-hood/adding-a-new-layout-strategy-to-prettier-8d33084c0f99"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release v7.0.0-beta.16 · babel/babylon",
+            "url": "https://github.com/babel/babylon/releases/tag/v7.0.0-beta.16",
+            "tags": [
+                "babel",
+                "AST",
+                "TypeScript",
+                "ReleaseNote"
+            ],
+            "content": "Babylon 7.0.0 beta16リリース。\nTypeScriptパーサの追加、BigInt(Stage 2)のサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "TypeScript parser by andy-ms · Pull Request #523 · babel/babylon",
+                    "url": "https://github.com/babel/babylon/pull/523"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Ecma latest news",
+            "url": "http://ecma-international.org/news/index.html",
+            "tags": [
+                "ECMAScript",
+                "news"
+            ],
+            "content": "\"ECMA-262 8th edition - ECMAScript® 2017 Language Specification\" ES2017がGAで承認されて正式リリースされた。",
+            "relatedLinks": [
+                {
+                    "title": "Standard ECMA-262",
+                    "url": "http://ecma-international.org/publications/standards/Ecma-262.htm"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release Notes for Safari Technology Preview 34 | WebKit",
+            "url": "https://webkit.org/blog/7760/release-notes-for-safari-technology-preview-34/",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "Safari Technology Preview Release 34リリース。\n`RTCRtpTransceiver#addTransceiver`をサポートしトラック単位での片方向通信を使えるように、W3C Secure Contextsの実装、SRIを試験的にサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "Safari TP 34では新しい片方向WebRTCの手順が使えるようになったので、試してみた - Qiita",
+                    "url": "http://qiita.com/tomoyukilabs/items/59267f25c9dbd43d5ecb"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Leveraging the Performance Metrics that Most Affect User Experience  |  Web  |  Google Developers",
+            "url": "https://developers.google.com/web/updates/2017/06/user-centric-performance-metrics",
+            "tags": [
+                "Chrome",
+                "performance",
+                "browser",
+                "article"
+            ],
+            "content": "ユーザー体験への影響を見るパフォーマンスのメトリクスについて。\nロード時間だけでは体験を計測できないため。\nそのため、First Paint/First Meaningful Paing/Time to Interactive/Longtasksを指標にそれぞれ何を意味するかや計測方法について",
+            "relatedLinks": [
+                {
+                    "title": "You Need to know SSR // Speaker Deck",
+                    "url": "https://speakerdeck.com/yosuke_furukawa/you-need-to-know-ssr"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Chrome 60 DevTools の新機能/変更点 - Qiita",
+            "url": "http://qiita.com/kyoshidajp/items/e3f9be02a7ccd00aa7d7",
+            "tags": [
+                "Chrome",
+                "debug"
+            ],
+            "content": "Chrome 60の開発者ツールの変更点について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "NYTimes/kyt: Starting a new JS app? Build, test and run advanced apps with kyt 🔥",
+            "url": "https://github.com/nytimes/kyt",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "JavaScriptアプリのツールキット。\nBabel/webpack/Jest/Stylelint/ESlint/protoなどのセットアップをまとめて行うツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Supercharged Live Stream Blog: Code Splitting  |  Web  |  Google Developers",
+            "url": "https://developers.google.com/web/updates/2017/06/supercharged-codesplit",
+            "tags": [
+                "babel",
+                "article",
+                "plugin",
+                "video"
+            ],
+            "content": "Code Splittingを行うBabelプラグインを作成するスクリーンキャスト",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Building m.uber: Engineering a High-Performance Web App for the Global Market - Uber Engineering Blog",
+            "url": "https://eng.uber.com/m-uber/",
+            "tags": [
+                "browser",
+                "mobile",
+                "JavaScript",
+                "performance"
+            ],
+            "content": "Uberのモバイル向けの最適化について。\nReactを使っているが、mobileではPreactに置き換えて利用している。\nまた、サーバサイドレンダリングや、初期bundleサイズを小さくするためのcode split、依存が小さなJustの利用、SWやIndexedDBを使ったキャッシュなどについて。\n問題を見つけるためのエラーハンドリングについて。",
+            "relatedLinks": [
+                {
+                    "title": "angus-c/just: A library of dependency-free utilities that do just do one thing.",
+                    "url": "https://github.com/angus-c/just"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "GraphQL Network Communication Framework",
+            "url": "http://graphql-io.com/",
+            "tags": [
+                "GraphQL",
+                "library",
+                "JavaScript"
+            ],
+            "content": "クライアント <-> サーバのコミュニケーションを行うGraphQLフレームワーク。\nApollo/WebSocketベース",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "HTML Standard",
+            "url": "https://html.spec.whatwg.org/dev/",
+            "tags": [
+                "HTML",
+                "WHATWG",
+                "spec"
+            ],
+            "content": "WHATWG HTML仕様のDeveloper's Edition。\nブラウザベンダー向けの情報は削除し、ウェブ開発者向けの情報に絞ったHTML仕様。",
+            "relatedLinks": [
+                {
+                    "title": "HTML Standard 日本語訳",
+                    "url": "https://momdo.github.io/html/dev/"
+                },
+                {
+                    "title": "Review on utilization of ",
+                    "url": "https://github.com/whatwg/html/issues/1488#issuecomment-310450737"
+                },
+                {
+                    "title": "WHATWG HTML Standard Developer Editionの話 - 水底の血",
+                    "url": "http://momdo.hatenablog.jp/entry/20170702/1498999477"
+                },
+                {
+                    "title": "HTML5 for Web Developers | HTML5 Doctor",
+                    "url": "http://html5doctor.com/html5-for-web-developers/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "babel/proposals: (WIP) Tracking the status of Babel's implementation of TC39 proposals",
+            "url": "https://github.com/babel/proposals",
+            "tags": [
+                "ECMAScript",
+                "babel",
+                "plugin"
+            ],
+            "content": "ECMAScript proposalとBabelの実装の対応をまとめたもの",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "roman01la/js-memory-usage: Data Structures Memory Usage in JavaScript",
+            "url": "https://github.com/roman01la/js-memory-usage",
+            "tags": [
+                "JavaScript",
+                "library",
+                "まとめ",
+                "performance"
+            ],
+            "content": "JavaScriptのデータ構造別/ライブラリごとのメモリ消費量をまとめたもの。List/Array/Map/SetをJavaScript/ImmutableJS/ClojureScript/GopherJS/Reasonなど色々な実装ごと比較",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "pinterest/esprint: Fast eslint runner",
+            "url": "https://github.com/pinterest/esprint",
+            "tags": [
+                "ESLint",
+                "Tools"
+            ],
+            "content": "ESLintをparallelで実行できるツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "anvilresearch/webcrypto: W3C Web Cryptography API for Node.js",
+            "url": "https://github.com/anvilresearch/webcrypto",
+            "tags": [
+                "node.js",
+                "security",
+                "library"
+            ],
+            "content": "Node.jsでWeb Cryptography APIに対応するpolyfill(ponyfill)ライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "coast-team/netflux: JavaScript client and server side transport API based on WebRTC & WebSocket",
+            "url": "https://github.com/coast-team/netflux",
+            "tags": [
+                "WebRTC",
+                "WebSocket",
+                "node.js",
+                "browser"
+            ],
+            "content": "WebRTC、WebSocketを使ったP2Pライブラリ。\nブラウザ、Node.jsでデータのやり取りを行える",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "OnetapInc/chromy: Chromy is a library for operating headless chrome. 🍺🍺🍺",
+            "url": "https://github.com/OnetapInc/chromy",
+            "tags": [
+                "Chrome",
+                "node.js",
+                "library"
+            ],
+            "content": "Headless ChromeをNightmare.jsのように操作するAPIを提供するライブラリ。\nChrome DevTools Protocolを使って処理をやり取りしている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "dollarshaveclub/study: A Simple, progressive, client/server AB testing library ⚡️",
+            "url": "https://github.com/dollarshaveclub/study",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "A/Bテストティングライブラリ。\nuniversalで動き、storage driverでデータの保存先を指定できる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "egoist/dom-dom: JSX to actual DOM.",
+            "url": "https://github.com/egoist/dom-dom",
+            "tags": [
+                "JavaScript",
+                "jsx",
+                "DOM",
+                "library"
+            ],
+            "content": "JSXを`document` APIを使ってDOMオブジェクトにするライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "yahoo/mendel: Build toolchain for experimentation on isomorphic web applications with tree-inheritance and multivariate support.",
+            "url": "https://github.com/yahoo/mendel",
+            "tags": [
+                "設計",
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "コードのフラグではなくルールファイルベースでプロジェクト構造を管理できるツール。\n試験的な機能を取り入れたA/Bテストを管理しやすくするためのフレームワーク。\nフラグ管理は技術的負債となりやすく、持続可能性をYahooで調査した結果作成されたデザイン。",
+            "relatedLinks": [
+                {
+                    "title": "mendel/Design.md at master · yahoo/mendel",
+                    "url": "https://github.com/yahoo/mendel/blob/master/docs/Design.md"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "jaredpalmer/formik: Forms in React, without tears",
+            "url": "https://github.com/jaredpalmer/formik",
+            "tags": [
+                "React",
+                "library"
+            ],
+            "content": "React向けのフォームライブラリ",
+            "relatedLinks": []
+        }
+    ]
+}

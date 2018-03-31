@@ -1,290 +1,306 @@
-[
-    {
-        "category": "Headline",
-        "title": "Bootstrap 4 alpha · Bootstrap Blog",
-        "url": "http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/",
+{
+    "meta": {
+        "title": "2015-08-24のJS: Bootstrap 4α、PostCSS 5.0、Node.jsとio.js",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-08-24T13:00:00.000Z",
+        "category": "JSer",
         "tags": [
             "CSS",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Bootstrap 4αリリース。\nLessからSassへの移行、IE8のサポートを終了し`rem`を利用するように、flexboxをオプションで利用できるように、プラグインをES6で書きなおし、リセットスタイルをRebootにまとめるなど",
-        "relatedLinks": [
-            {
-                "title": "Bootstrap 4 alpha · Bootstrap Blog",
-                "url": "http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/"
-            }
+            "bootstrap",
+            "Node.js",
+            "io.js",
+            "community"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Release 5.0 “President Valac” · postcss/postcss",
-        "url": "https://github.com/postcss/postcss/releases/tag/5.0.0",
-        "tags": [
-            "CSS",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "CSSの変換を扱うPostCSS 5.0リリース。\n`safe`オプションが別プロジェクトへ、\n`parser`や`stringifier`などもオプション化、\nSCSSのパースにも対応するなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release RxJS Version 3.1 · Reactive-Extensions/RxJS",
-        "url": "https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.1.0",
-        "tags": [
-            "Rx",
-            "JavaScript",
-            "library",
-            "Electron"
-        ],
-        "content": "RxJS 3.1 リリース。\n`resultSelector`がオプショナルに、TypeScript定義ファイルが書き直されるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 1.1.0 - 2015.08.17 · zloirock/core-js",
-        "url": "https://github.com/zloirock/core-js/releases/tag/v1.1.0",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "core-js 1.1.0 リリース。\nstring paddingのプロポーサルへの追従、trimLeft/trimRightの追加、Reflect.enumerateはキャッシュされたkeyをiterateするようになるなど",
-        "relatedLinks": [
-            {
-                "title": "Question about ",
-                "url": "https://esdiscuss.org/topic/question-about-enumerate-and-property-decision-timing"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint 1.2.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/08/eslint-1.2.0-released/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 1.2.0リリース。\n文字列結合にTemplate Stringsを使うようにするルール、コールバックにArrow Functionを優先するルールなどの追加、`commonjs`のenvironment定義が追加された",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "はてなブックマーク検索を作りながらFlux Utilsについて学ぶ | Web Scratch",
-        "url": "http://efcl.info/2015/08/24/flux-utils/",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "React",
-            "tutorial"
-        ],
-        "content": "Flux UtilsとReactを使ってアプリを作りながら、Flux Utilsについて学ぶチュートリアル。\nStoreのstateがImmutableであったり、Containerなどの動作について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript の イテレータ を極める！ - Qiita",
-        "url": "http://qiita.com/kura07/items/cf168a7ea20e8c2554c6",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "Iterator、Iterable、Generatorについてそれぞれが何か、どのように使うかについて書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Proper testing of Angular JS applications with ES6 modules — Medium",
-        "url": "https://medium.com/@tomastrajan/proper-testing-of-angular-js-applications-with-es6-modules-8cf31113873f",
-        "tags": [
-            "JavaScript",
-            "AngularJS",
-            "testing",
-            "library"
-        ],
-        "content": "ES6 modulesとAngularJS。\nES6 modulesとして読み込みテストできるようにするためには、どのようにコードを書くかという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "reactjs - ES6版React.jsチュートリアル - Qiita",
-        "url": "http://qiita.com/nownabe/items/2d8b92d95186c3941de0",
-        "tags": [
-            "React",
-            "ECMAScript",
-            "tutorial"
-        ],
-        "content": "ReactのチュートリアルをES6 Classesなどを使って書いた場合にどうなるかについてをチュートリアル形式で書かれている。",
-        "relatedLinks": [
-            {
-                "title": "チュートリアル | React",
-                "url": "http://facebook.github.io/react/docs/tutorial-ja-JP.html"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Vue.js Tutorial - Vegibit",
-        "url": "http://vegibit.com/vue-js-tutorial/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "tutorial"
-        ],
-        "content": "Vue.jsについてのチュートリアル。\n基本的な使い方、Vue.jsのEvent、Filter、Componentsなどについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Windows 10 virtual machines now available on Microsoft Edge Dev | Microsoft Edge Dev Blog",
-        "url": "http://blogs.windows.com/msedgedev/2015/08/17/windows-10-virtual-machines-now-available-on-microsoft-edge-dev/",
-        "tags": [
-            "MS",
-            "MSEdge",
-            "仮想化"
-        ],
-        "content": "MSEdgeが使えるWindows 10のVirtual Machine(VM)が公開された",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "PostCSS とは何か // Speaker Deck",
-        "url": "https://speakerdeck.com/jmblog/postcss-tohahe-ka",
-        "tags": [
-            "CSS",
-            "Tools",
-            "スライド"
-        ],
-        "content": "PostCSSについてのスライド。\nPostCSSを使った変換の仕組み、それぞれのプラグインが単機能であるので組み合わせて利用できる。\ncsssnext、PreCSS、cssnanoなどのプラグインパックについて。\nまたSassの代わりに利用することについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "どうしてこうなった？ Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？ // Speaker Deck",
-        "url": "https://speakerdeck.com/yosuke_furukawa/dousitekounatuta-node-dot-jstoio-dot-jsfalsefen-lie-totong-he-falsexing-fang-korekaradoujin-hua-siteikufalseka",
-        "tags": [
-            "node.js",
-            "歴史"
-        ],
-        "content": "Node.jsの歴史、io.jsがでてきた経緯、そしてNode.jsとio.jsが統合された経緯について。\nまたコミュニティにおけるオープンガバナンスモデルについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Effective ES6",
-        "url": "http://www.slideshare.net/teppeis/effective-es6",
-        "tags": [
-            "ECMAScript",
-            "スライド"
-        ],
-        "content": "ES6について幅広く紹介してるスライド。\nES5以下でのベストプラクティスがES6の機能や構文で解決できることやES6で新しく入った機能について書かれている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Ginza.rb で Quipper のシングルページアプリケーション開発について発表しました - @kyanny&#x27;s blog",
-        "url": "http://blog.kyanny.me/entry/2015/08/20/014509",
-        "tags": [
-            "JavaScript",
-            "スライド",
-            "backbone.js"
-        ],
-        "content": "Backbone.js/Chaplin/Marionette/React それぞれのシングルページアプリケーション開発における利点や問題点についてのスライド。\nRailsとの共存についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Functional programming in JavaScript - YouTube",
-        "url": "https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84",
-        "tags": [
-            "JavaScript",
-            "関数型プログラミング",
-            "動画"
-        ],
-        "content": "関数型JavaScriptについてのスクリーンキャスト",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Dev Tips - Developer Tips by Umar Hansa",
-        "url": "https://umaar.com/dev-tips/",
-        "tags": [
-            "Chrome",
-            "debug",
-            "Tips"
-        ],
-        "content": "Chrome開発者ツールのTips集",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Falcor: One Model Everywhere",
-        "url": "http://netflix.github.io/falcor/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Netflixのモデル + data fetchライブラリ。\nJSON Graphでデータを一つのドメインモデルとして表現して、そのモデルを元にサーバはルーティング、クライアントはデータの取得を行える。\nまたクライアントではキャッシュの設定が行える",
-        "relatedLinks": [
-            {
-                "title": "The Netflix Tech Blog: Netflix Releases Falcor Developer Preview",
-                "url": "http://techblog.netflix.com/2015/08/falcor-developer-preview.html"
-            },
-            {
-                "title": "▶ Netflix JavaScript Talks - Falcor - YouTube",
-                "url": "https://www.youtube.com/watch?v=z8UgDZ4rXBU"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "stylelint",
-        "url": "http://stylelint.io/",
-        "tags": [
-            "CSS",
-            "Tools"
-        ],
-        "content": "CSSのLintツール。\nPostCSSのプラグインとしても利用できる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "JavaScript Domain-Driven Design | PACKT Books",
-        "url": "https://www.packtpub.com/web-development/javascript-domain-driven-design",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "JavaScriptでのDDDについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Beautiful JavaScript — Medium",
-        "url": "https://medium.com/@valueof/beautiful-javascript-8aa69998add0",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "Beautiful JavaScript リリース。",
-        "relatedLinks": [
-            {
-                "title": "Beautiful JavaScript - O",
-                "url": "http://shop.oreilly.com/product/0636920030706.do"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: AngularJS　アプリケーションプログラミング: 山田 祥寛",
-        "url": "http://www.amazon.co.jp/dp/4774175684",
-        "tags": [
-            "AngularJS",
-            "book"
-        ],
-        "content": "AngularJSについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Bootstrap 4 alpha · Bootstrap Blog",
+            "url": "http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/",
+            "tags": [
+                "CSS",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Bootstrap 4αリリース。\nLessからSassへの移行、IE8のサポートを終了し`rem`を利用するように、flexboxをオプションで利用できるように、プラグインをES6で書きなおし、リセットスタイルをRebootにまとめるなど",
+            "relatedLinks": [
+                {
+                    "title": "Bootstrap 4 alpha · Bootstrap Blog",
+                    "url": "http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 5.0 “President Valac” · postcss/postcss",
+            "url": "https://github.com/postcss/postcss/releases/tag/5.0.0",
+            "tags": [
+                "CSS",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "CSSの変換を扱うPostCSS 5.0リリース。\n`safe`オプションが別プロジェクトへ、\n`parser`や`stringifier`などもオプション化、\nSCSSのパースにも対応するなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release RxJS Version 3.1 · Reactive-Extensions/RxJS",
+            "url": "https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.1.0",
+            "tags": [
+                "Rx",
+                "JavaScript",
+                "library",
+                "Electron"
+            ],
+            "content": "RxJS 3.1 リリース。\n`resultSelector`がオプショナルに、TypeScript定義ファイルが書き直されるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 1.1.0 - 2015.08.17 · zloirock/core-js",
+            "url": "https://github.com/zloirock/core-js/releases/tag/v1.1.0",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "core-js 1.1.0 リリース。\nstring paddingのプロポーサルへの追従、trimLeft/trimRightの追加、Reflect.enumerateはキャッシュされたkeyをiterateするようになるなど",
+            "relatedLinks": [
+                {
+                    "title": "Question about ",
+                    "url": "https://esdiscuss.org/topic/question-about-enumerate-and-property-decision-timing"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint 1.2.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/08/eslint-1.2.0-released/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 1.2.0リリース。\n文字列結合にTemplate Stringsを使うようにするルール、コールバックにArrow Functionを優先するルールなどの追加、`commonjs`のenvironment定義が追加された",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "はてなブックマーク検索を作りながらFlux Utilsについて学ぶ | Web Scratch",
+            "url": "http://efcl.info/2015/08/24/flux-utils/",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "React",
+                "tutorial"
+            ],
+            "content": "Flux UtilsとReactを使ってアプリを作りながら、Flux Utilsについて学ぶチュートリアル。\nStoreのstateがImmutableであったり、Containerなどの動作について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript の イテレータ を極める！ - Qiita",
+            "url": "http://qiita.com/kura07/items/cf168a7ea20e8c2554c6",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "Iterator、Iterable、Generatorについてそれぞれが何か、どのように使うかについて書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Proper testing of Angular JS applications with ES6 modules — Medium",
+            "url": "https://medium.com/@tomastrajan/proper-testing-of-angular-js-applications-with-es6-modules-8cf31113873f",
+            "tags": [
+                "JavaScript",
+                "AngularJS",
+                "testing",
+                "library"
+            ],
+            "content": "ES6 modulesとAngularJS。\nES6 modulesとして読み込みテストできるようにするためには、どのようにコードを書くかという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "reactjs - ES6版React.jsチュートリアル - Qiita",
+            "url": "http://qiita.com/nownabe/items/2d8b92d95186c3941de0",
+            "tags": [
+                "React",
+                "ECMAScript",
+                "tutorial"
+            ],
+            "content": "ReactのチュートリアルをES6 Classesなどを使って書いた場合にどうなるかについてをチュートリアル形式で書かれている。",
+            "relatedLinks": [
+                {
+                    "title": "チュートリアル | React",
+                    "url": "http://facebook.github.io/react/docs/tutorial-ja-JP.html"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Vue.js Tutorial - Vegibit",
+            "url": "http://vegibit.com/vue-js-tutorial/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "tutorial"
+            ],
+            "content": "Vue.jsについてのチュートリアル。\n基本的な使い方、Vue.jsのEvent、Filter、Componentsなどについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Windows 10 virtual machines now available on Microsoft Edge Dev | Microsoft Edge Dev Blog",
+            "url": "http://blogs.windows.com/msedgedev/2015/08/17/windows-10-virtual-machines-now-available-on-microsoft-edge-dev/",
+            "tags": [
+                "MS",
+                "MSEdge",
+                "仮想化"
+            ],
+            "content": "MSEdgeが使えるWindows 10のVirtual Machine(VM)が公開された",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "PostCSS とは何か // Speaker Deck",
+            "url": "https://speakerdeck.com/jmblog/postcss-tohahe-ka",
+            "tags": [
+                "CSS",
+                "Tools",
+                "スライド"
+            ],
+            "content": "PostCSSについてのスライド。\nPostCSSを使った変換の仕組み、それぞれのプラグインが単機能であるので組み合わせて利用できる。\ncsssnext、PreCSS、cssnanoなどのプラグインパックについて。\nまたSassの代わりに利用することについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "どうしてこうなった？ Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？ // Speaker Deck",
+            "url": "https://speakerdeck.com/yosuke_furukawa/dousitekounatuta-node-dot-jstoio-dot-jsfalsefen-lie-totong-he-falsexing-fang-korekaradoujin-hua-siteikufalseka",
+            "tags": [
+                "node.js",
+                "歴史"
+            ],
+            "content": "Node.jsの歴史、io.jsがでてきた経緯、そしてNode.jsとio.jsが統合された経緯について。\nまたコミュニティにおけるオープンガバナンスモデルについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Effective ES6",
+            "url": "http://www.slideshare.net/teppeis/effective-es6",
+            "tags": [
+                "ECMAScript",
+                "スライド"
+            ],
+            "content": "ES6について幅広く紹介してるスライド。\nES5以下でのベストプラクティスがES6の機能や構文で解決できることやES6で新しく入った機能について書かれている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Ginza.rb で Quipper のシングルページアプリケーション開発について発表しました - @kyanny&#x27;s blog",
+            "url": "http://blog.kyanny.me/entry/2015/08/20/014509",
+            "tags": [
+                "JavaScript",
+                "スライド",
+                "backbone.js"
+            ],
+            "content": "Backbone.js/Chaplin/Marionette/React それぞれのシングルページアプリケーション開発における利点や問題点についてのスライド。\nRailsとの共存についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Functional programming in JavaScript - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84",
+            "tags": [
+                "JavaScript",
+                "関数型プログラミング",
+                "動画"
+            ],
+            "content": "関数型JavaScriptについてのスクリーンキャスト",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Dev Tips - Developer Tips by Umar Hansa",
+            "url": "https://umaar.com/dev-tips/",
+            "tags": [
+                "Chrome",
+                "debug",
+                "Tips"
+            ],
+            "content": "Chrome開発者ツールのTips集",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Falcor: One Model Everywhere",
+            "url": "http://netflix.github.io/falcor/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Netflixのモデル + data fetchライブラリ。\nJSON Graphでデータを一つのドメインモデルとして表現して、そのモデルを元にサーバはルーティング、クライアントはデータの取得を行える。\nまたクライアントではキャッシュの設定が行える",
+            "relatedLinks": [
+                {
+                    "title": "The Netflix Tech Blog: Netflix Releases Falcor Developer Preview",
+                    "url": "http://techblog.netflix.com/2015/08/falcor-developer-preview.html"
+                },
+                {
+                    "title": "▶ Netflix JavaScript Talks - Falcor - YouTube",
+                    "url": "https://www.youtube.com/watch?v=z8UgDZ4rXBU"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "stylelint",
+            "url": "http://stylelint.io/",
+            "tags": [
+                "CSS",
+                "Tools"
+            ],
+            "content": "CSSのLintツール。\nPostCSSのプラグインとしても利用できる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "JavaScript Domain-Driven Design | PACKT Books",
+            "url": "https://www.packtpub.com/web-development/javascript-domain-driven-design",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "JavaScriptでのDDDについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Beautiful JavaScript — Medium",
+            "url": "https://medium.com/@valueof/beautiful-javascript-8aa69998add0",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "Beautiful JavaScript リリース。",
+            "relatedLinks": [
+                {
+                    "title": "Beautiful JavaScript - O",
+                    "url": "http://shop.oreilly.com/product/0636920030706.do"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: AngularJS　アプリケーションプログラミング: 山田 祥寛",
+            "url": "http://www.amazon.co.jp/dp/4774175684",
+            "tags": [
+                "AngularJS",
+                "book"
+            ],
+            "content": "AngularJSについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

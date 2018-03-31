@@ -1,285 +1,300 @@
-[
-    {
-        "category": "Headline",
-        "title": "6to5 · Turn ES6+ code into readable vanilla ES5",
-        "url": "https://6to5.org/",
+{
+    "meta": {
+        "title": "2015-01-13のJS: 6to5、ES6とjspm、リファクタリングJavaScript",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-01-13T12:44:00.000Z",
+        "category": "JSer",
         "tags": [
-            "ECMAScript",
+            "ES6",
+            "リファクタリング",
             "JavaScript",
-            "Tools"
-        ],
-        "content": "包含的にES6のコードをES5に変換する6to5の公式サイトリニューアル。\nJSXやFlowとか多くの部分に対応、polyfill出来るところは外部のpolyfillを読み込み対応、可読性が高いコードを吐くようになっている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ライブラリをES6で書いて公開する所から始めよう | Web Scratch",
-        "url": "http://efcl.info/2015/01/09/write-es6/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "library",
-            "testing",
-            "document"
-        ],
-        "content": "ES6でライブラリを書いて、テストしてnpmに公開するまでの流れ。\n6to5+power-assert+mochaの組み合わせを設定ファイルレスで行う話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Shape Security Labs: A Technical Comparison of the Shift and SpiderMonkey AST Formats",
-        "url": "http://engineering.shapesecurity.com/2015/01/a-technical-comparison-of-shift-and.html",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "spec"
-        ],
-        "content": "Shift ASTとSpiderMonkey ASTの違いについて。\n改善点、拡張された点、まだ議論すべき点について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "A Good Front-End Architecture",
-        "url": "http://www.sitepoint.com/good-front-end-architecture/",
-        "tags": [
-            "JavaScript",
-            "CSS"
-        ],
-        "content": "フロントエンド(HTML、JavaScript、CSS、リソース)のディレクトリ構造について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Modularizing Underscore.js | &amp;yet Blog",
-        "url": "http://blog.andyet.com/2015/01/07/modularizing-underscorejs",
-        "tags": [
-            "JavaScript",
-            "npm",
-            "document",
-            "library"
-        ],
-        "content": "小さいモジュールを大量に作って公開する場合にも問題となる点がある事について。\nAmp.jsという小さなモジュールの組み合わせでUnderscoreライクなものを作り、それぞれのモジュールがどのような構造になっているかについて",
-        "relatedLinks": [
-            {
-                "title": "Amp.js",
-                "url": "http://amp.ampersandjs.com/"
-            },
-            {
-                "title": "HenrikJoreteg/fixpack",
-                "url": "https://github.com/henrikjoreteg/fixpack"
-            }
+            "modules"
         ]
     },
-    {
-        "category": "Article",
-        "title": "What&#x27;s New in QUnit 1.16",
-        "url": "http://www.sitepoint.com/whats-new-qunit-1-16/",
-        "tags": [
-            "JavaScript",
-            "testing"
-        ],
-        "content": "QUnit 1.16について。\n2.0に向けて変更、非同期のテストの新しい方法の追加、Promiseのサポート、`QUnit.skip()`などについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Cross-tab Communication",
-        "url": "http://ponyfoo.com/articles/cross-tab-communication",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "localStorageを使ったタブ間のやり取りをする方法。\nより簡単に行う`local-storage`というライブラリについて",
-        "relatedLinks": [
-            {
-                "title": "bevacqua/local-storage",
-                "url": "https://github.com/bevacqua/local-storage"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "JavaScript in 2015 - Glen Maddern: Internet Pro",
-        "url": "http://glenmaddern.com/articles/javascript-in-2015",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "Tools",
-            "動画"
-        ],
-        "content": "jspmの紹介記事 + 動画。\nredditのAPIを使いGIFを表示する画面をjspm+npm+ES6をつかって書く動画。\nテンポ良く紹介されている動画で、開発中はビルド等不要でローダで読み込み、プロダクションでは一つのファイルにbundle出来るという特徴を紹介してる。",
-        "relatedLinks": [
-            {
-                "title": "jspm.io - Frictionless Browser Package Management",
-                "url": "http://jspm.io/"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Essential JavaScript Links",
-        "url": "https://gist.github.com/ericelliott/d576f72441fc1b27dace",
-        "tags": [
-            "JavaScript",
-            "まとめ",
-            "links"
-        ],
-        "content": "JavaScriptに関するリソースリンク集",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Internet ExplorerのどのバージョンからどのHTML/CSS/JSに対応しているかの一覧｜Web制作 W3G",
-        "url": "https://w3g.jp/blog/ie_supportlist",
-        "tags": [
-            "IE",
-            "まとめ",
-            "WebPlatformAPI"
-        ],
-        "content": "IEバージョン別のサポート終了日、対応したHTML/CSS/JSの機能のまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "azu/espower-6to5 · GitHub",
-        "url": "https://github.com/azu/espower-6to5",
-        "tags": [
-            "ECMAScript",
-            "testing",
-            "JavaScript",
-            "library"
-        ],
-        "content": "power-assert + 6to5 ES6でpower-assertのテストを書ける。\n使用例: https://github.com/azu/textlint-rule-helper",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "conceptsandtraining/modernie_selenium",
-        "url": "https://github.com/conceptsandtraining/modernie_selenium",
-        "tags": [
-            "IE",
-            "Selenium"
-        ],
-        "content": "modern.ieを使ったSeleniumの設定ツール。\n自動で必要なものをインストール + Windowsの余計な設定をオフにしてくれる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "es-shims/es7-shim",
-        "url": "https://github.com/es-shims/es7-shim",
-        "tags": [
-            "ECMAScript",
-            "library"
-        ],
-        "content": "ES7のpolyfillライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "bevacqua/local-storage",
-        "url": "https://github.com/bevacqua/local-storage",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "localStorageのAPIをシンプルにしたライブラリ  \nタブ間のコミュニケーションに使うような監視機能も持ってる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Zhouzi/TheaterJS",
-        "url": "https://github.com/Zhouzi/TheaterJS",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "タイプライター的な文字表示効果等を行えるライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mirek/node-unused-deps",
-        "url": "https://github.com/mirek/node-unused-deps",
-        "tags": [
-            "node.js",
-            "module",
-            "Tools",
-            "console"
-        ],
-        "content": "使用してないNode.jsモジュールがあるかどうかをチェックするコマンドラインツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "tejasmanohar/npm-algos",
-        "url": "https://github.com/tejasmanohar/npm-algos",
-        "tags": [
-            "node.js",
-            "JavaScript",
-            "library",
-            "アルゴリズム"
-        ],
-        "content": "コンピュータサイエンス、アルゴリズムの実装ライブラリのまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Headless Browser Testing With Xvfb",
-        "url": "http://tobyho.com/2015/01/09/headless-browser-testing-xvfb/",
-        "tags": [
-            "console",
-            "firefox",
-            "browser"
-        ],
-        "content": "Firefoxなどヘッドレスで動かすのにXvfbが必要なアプリを`xvfb-run firefox`という感じで起動できるコマンドラインツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Amp.js",
-        "url": "http://amp.ampersandjs.com/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Underscore.js的なユーティリティ関数のコレクションライブラリ。\nそれぞれの機能をちゃんと個別のnpmモジュールとしてインストール出来る",
-        "relatedLinks": [
-            {
-                "title": "Modularizing Underscore.js | ",
-                "url": "http://blog.andyet.com/2015/01/07/modularizing-underscorejs"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "Node.js Design Patterns | Packt",
-        "url": "https://www.packtpub.com/web-development/nodejs-design-patterns",
-        "tags": [
-            "node.js",
-            "デザインパターン",
-            "book"
-        ],
-        "content": "Node.jsのデザインパターンについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "The Refactoring Tales",
-        "url": "http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html",
-        "tags": [
-            "JavaScript",
-            "book",
-            "jQuery"
-        ],
-        "content": "JavaScriptのリファクタリングについてのウェブで公開されてる書籍。(まだ執筆中)  \n1,2章はjQueryべったりな書き方のリファクタリング、3章は不必要な複雑性を分離、4章はデザインパターン、5章はFat Controller等",
-        "relatedLinks": [
-            {
-                "title": "The Refactoring Tales",
-                "url": "http://javascriptplayground.com/the-refactoring-tales/"
-            },
-            {
-                "title": "The Refactoring Tales - JavaScriptのリファクタリング本を読んだ | Web Scratch",
-                "url": "http://efcl.info/2015/01/11/refactoring-tales/"
-            }
-        ]
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "6to5 · Turn ES6+ code into readable vanilla ES5",
+            "url": "https://6to5.org/",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "包含的にES6のコードをES5に変換する6to5の公式サイトリニューアル。\nJSXやFlowとか多くの部分に対応、polyfill出来るところは外部のpolyfillを読み込み対応、可読性が高いコードを吐くようになっている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ライブラリをES6で書いて公開する所から始めよう | Web Scratch",
+            "url": "http://efcl.info/2015/01/09/write-es6/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "library",
+                "testing",
+                "document"
+            ],
+            "content": "ES6でライブラリを書いて、テストしてnpmに公開するまでの流れ。\n6to5+power-assert+mochaの組み合わせを設定ファイルレスで行う話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Shape Security Labs: A Technical Comparison of the Shift and SpiderMonkey AST Formats",
+            "url": "http://engineering.shapesecurity.com/2015/01/a-technical-comparison-of-shift-and.html",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "spec"
+            ],
+            "content": "Shift ASTとSpiderMonkey ASTの違いについて。\n改善点、拡張された点、まだ議論すべき点について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "A Good Front-End Architecture",
+            "url": "http://www.sitepoint.com/good-front-end-architecture/",
+            "tags": [
+                "JavaScript",
+                "CSS"
+            ],
+            "content": "フロントエンド(HTML、JavaScript、CSS、リソース)のディレクトリ構造について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Modularizing Underscore.js | &amp;yet Blog",
+            "url": "http://blog.andyet.com/2015/01/07/modularizing-underscorejs",
+            "tags": [
+                "JavaScript",
+                "npm",
+                "document",
+                "library"
+            ],
+            "content": "小さいモジュールを大量に作って公開する場合にも問題となる点がある事について。\nAmp.jsという小さなモジュールの組み合わせでUnderscoreライクなものを作り、それぞれのモジュールがどのような構造になっているかについて",
+            "relatedLinks": [
+                {
+                    "title": "Amp.js",
+                    "url": "http://amp.ampersandjs.com/"
+                },
+                {
+                    "title": "HenrikJoreteg/fixpack",
+                    "url": "https://github.com/henrikjoreteg/fixpack"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "What&#x27;s New in QUnit 1.16",
+            "url": "http://www.sitepoint.com/whats-new-qunit-1-16/",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "content": "QUnit 1.16について。\n2.0に向けて変更、非同期のテストの新しい方法の追加、Promiseのサポート、`QUnit.skip()`などについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Cross-tab Communication",
+            "url": "http://ponyfoo.com/articles/cross-tab-communication",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "localStorageを使ったタブ間のやり取りをする方法。\nより簡単に行う`local-storage`というライブラリについて",
+            "relatedLinks": [
+                {
+                    "title": "bevacqua/local-storage",
+                    "url": "https://github.com/bevacqua/local-storage"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "JavaScript in 2015 - Glen Maddern: Internet Pro",
+            "url": "http://glenmaddern.com/articles/javascript-in-2015",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools",
+                "動画"
+            ],
+            "content": "jspmの紹介記事 + 動画。\nredditのAPIを使いGIFを表示する画面をjspm+npm+ES6をつかって書く動画。\nテンポ良く紹介されている動画で、開発中はビルド等不要でローダで読み込み、プロダクションでは一つのファイルにbundle出来るという特徴を紹介してる。",
+            "relatedLinks": [
+                {
+                    "title": "jspm.io - Frictionless Browser Package Management",
+                    "url": "http://jspm.io/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Essential JavaScript Links",
+            "url": "https://gist.github.com/ericelliott/d576f72441fc1b27dace",
+            "tags": [
+                "JavaScript",
+                "まとめ",
+                "links"
+            ],
+            "content": "JavaScriptに関するリソースリンク集",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Internet ExplorerのどのバージョンからどのHTML/CSS/JSに対応しているかの一覧｜Web制作 W3G",
+            "url": "https://w3g.jp/blog/ie_supportlist",
+            "tags": [
+                "IE",
+                "まとめ",
+                "WebPlatformAPI"
+            ],
+            "content": "IEバージョン別のサポート終了日、対応したHTML/CSS/JSの機能のまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "azu/espower-6to5 · GitHub",
+            "url": "https://github.com/azu/espower-6to5",
+            "tags": [
+                "ECMAScript",
+                "testing",
+                "JavaScript",
+                "library"
+            ],
+            "content": "power-assert + 6to5 ES6でpower-assertのテストを書ける。\n使用例: https://github.com/azu/textlint-rule-helper",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "conceptsandtraining/modernie_selenium",
+            "url": "https://github.com/conceptsandtraining/modernie_selenium",
+            "tags": [
+                "IE",
+                "Selenium"
+            ],
+            "content": "modern.ieを使ったSeleniumの設定ツール。\n自動で必要なものをインストール + Windowsの余計な設定をオフにしてくれる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "es-shims/es7-shim",
+            "url": "https://github.com/es-shims/es7-shim",
+            "tags": [
+                "ECMAScript",
+                "library"
+            ],
+            "content": "ES7のpolyfillライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "bevacqua/local-storage",
+            "url": "https://github.com/bevacqua/local-storage",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "localStorageのAPIをシンプルにしたライブラリ  \nタブ間のコミュニケーションに使うような監視機能も持ってる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Zhouzi/TheaterJS",
+            "url": "https://github.com/Zhouzi/TheaterJS",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "タイプライター的な文字表示効果等を行えるライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mirek/node-unused-deps",
+            "url": "https://github.com/mirek/node-unused-deps",
+            "tags": [
+                "node.js",
+                "module",
+                "Tools",
+                "console"
+            ],
+            "content": "使用してないNode.jsモジュールがあるかどうかをチェックするコマンドラインツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "tejasmanohar/npm-algos",
+            "url": "https://github.com/tejasmanohar/npm-algos",
+            "tags": [
+                "node.js",
+                "JavaScript",
+                "library",
+                "アルゴリズム"
+            ],
+            "content": "コンピュータサイエンス、アルゴリズムの実装ライブラリのまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Headless Browser Testing With Xvfb",
+            "url": "http://tobyho.com/2015/01/09/headless-browser-testing-xvfb/",
+            "tags": [
+                "console",
+                "firefox",
+                "browser"
+            ],
+            "content": "Firefoxなどヘッドレスで動かすのにXvfbが必要なアプリを`xvfb-run firefox`という感じで起動できるコマンドラインツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Amp.js",
+            "url": "http://amp.ampersandjs.com/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Underscore.js的なユーティリティ関数のコレクションライブラリ。\nそれぞれの機能をちゃんと個別のnpmモジュールとしてインストール出来る",
+            "relatedLinks": [
+                {
+                    "title": "Modularizing Underscore.js | ",
+                    "url": "http://blog.andyet.com/2015/01/07/modularizing-underscorejs"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Node.js Design Patterns | Packt",
+            "url": "https://www.packtpub.com/web-development/nodejs-design-patterns",
+            "tags": [
+                "node.js",
+                "デザインパターン",
+                "book"
+            ],
+            "content": "Node.jsのデザインパターンについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "The Refactoring Tales",
+            "url": "http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html",
+            "tags": [
+                "JavaScript",
+                "book",
+                "jQuery"
+            ],
+            "content": "JavaScriptのリファクタリングについてのウェブで公開されてる書籍。(まだ執筆中)  \n1,2章はjQueryべったりな書き方のリファクタリング、3章は不必要な複雑性を分離、4章はデザインパターン、5章はFat Controller等",
+            "relatedLinks": [
+                {
+                    "title": "The Refactoring Tales",
+                    "url": "http://javascriptplayground.com/the-refactoring-tales/"
+                },
+                {
+                    "title": "The Refactoring Tales - JavaScriptのリファクタリング本を読んだ | Web Scratch",
+                    "url": "http://efcl.info/2015/01/11/refactoring-tales/"
+                }
+            ]
+        }
+    ]
+}

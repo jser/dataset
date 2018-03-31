@@ -1,276 +1,292 @@
-[
-    {
-        "category": "Headline",
-        "title": "Sass 3.4 is Released « Sass Blog",
-        "url": "http://blog.sass-lang.com/posts/221239-sass-34-is-released",
+{
+    "meta": {
+        "title": "2014-08-19のJS: Sass 3.4、Compass 1.0、IE11/F12開発者ツール",
+        "category": "JSer",
+        "author": "azu",
+        "layout": "post",
         "tags": [
+            "JavaScript",
             "Sass",
-            "ReleaseNote"
-        ],
-        "content": "Sass 3.4 リリース。\n\nparent selector `&`の扱いを改善、Selector Functionsで`&`を使えるように。`@error` ディレクティブの追加、sourcemapの生成がデフォルトになるなど",
-        "relatedLinks": [
-            {
-                "title": "File: SASS",
-                "url": "http://sass-lang.com/documentation/file.SASS_CHANGELOG.html"
-            },
-            {
-                "title": "@error directive · Issue ",
-                "url": "https://github.com/sass/sass/issues/747"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Compass 1.0 is Released! | Compass Documentation",
-        "url": "http://compass-style.org/blog/2014/08/15/omg-compass-1-0/",
-        "tags": [
-            "Sass",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Compass 1.0リリース。\n\nベンダーprefixはcaniuseを利用、コマンドラインツールなしにライブラリとして利用可能に、sourcemapサポート、import-onceでのパフォーマンス改善等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release JSHint 2.5.4 · jshint/jshint",
-        "url": "https://github.com/jshint/jshint/releases/tag/2.5.4",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "JSHint 2.5.4リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "August updates for Internet Explorer - IEBlog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/ie/archive/2014/08/13/august-updates-for-internet-explorer.aspx",
-        "tags": [
-            "IE",
-            "ReleaseNote"
-        ],
-        "content": "2014年8月のIE11のアップデートについて。\n\nF12開発者ツールの改善、WebGLの改善、WebDriverのサポート",
-        "relatedLinks": [
-            {
-                "title": "Announcing new F12 dev tools features in August update - IEBlog - Site Home - MSDN Blogs",
-                "url": "http://blogs.msdn.com/b/ie/archive/2014/08/14/announcing-new-f12-dev-tools-features-in-august-update.aspx"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "jQuery UI 1.11.1 | jQuery UI Blog",
-        "url": "http://blog.jqueryui.com/2014/08/jquery-ui-1-11-1/",
-        "tags": [
-            "jQuery",
-            "UI",
-            "ReleaseNote"
-        ],
-        "content": "jQuery UI 1.11.1リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Knockout 3.2.0 released - Steve Sanderson’s blog - As seen on YouTube™",
-        "url": "http://blog.stevensanderson.com/2014/08/18/knockout-3-2-0-released/",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Knockout 3.2.0リリース。\n\nComponents、Custom Elements、textInputのバインディングなどの追加。\n\nIE6のサポートは維持",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v0.8.0: Release 0.8.0 (2014-08-12) · twada/power-assert",
-        "url": "https://github.com/twada/power-assert/releases/tag/v0.8.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "power-assert 0.8.0リリース。\n\nespowerのオプションでアサーションの指定がescallmatchを使ったパターンを渡す方法に変更。デフォルト設定を使っている場合はそのまま維持される。",
-        "relatedLinks": [
-            {
-                "title": "twada/escallmatch",
-                "url": "https://github.com/twada/escallmatch"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "長期かつ修正頻度の高いPJでのCSSメンテ - ワザノバ | wazanova",
-        "url": "http://wazanova.jp/items/1484",
-        "tags": [
-            "CSS",
-            "設計",
-            "翻訳"
-        ],
-        "content": "大規模プロジェクトでのCSSのメンテナンスビリティについて。\n\n- DRYより修正する時に迷わず消せるような疎結合なコンポーネントである方が長期的にはよかった\n- プロジェクトにおける命名ルールを持つことはいいこと\n- コンポーネントに名前空間をもたせると分かりやすいこと\n- ファイルの管理について\n- ライブラリmixinの問題について\n\n等、実践的な事について書かれていて参考になります。",
-        "relatedLinks": [
-            {
-                "title": "Enduring CSS: writing style sheets for rapidly changing, long-lived projects - Author and responsive web developer Ben Frain",
-                "url": "http://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Opinionated Rundown of JS Frameworks | Blog",
-        "url": "http://blog.andyet.com/2014/08/13/opinionated-rundown-of-js-frameworks",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "まとめ"
-        ],
-        "content": "HumanJSの人によるJavaScript MV*のまとめ\n\nAngular/Ember/React/Polymer/Backbone.js/Vanilla/Ampersand.js",
-        "relatedLinks": [
-            {
-                "title": "シングルページアプリづくりのJavaScriptフレームワーク比較 - ワザノバ ",
-                "url": "http://wazanova.jp/items/1474"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Web Reflection: PointerEvents No More",
-        "url": "http://webreflection.blogspot.com/2014/08/pointerevents-no-more.html",
-        "tags": [
-            "Chrome",
-            "event"
-        ],
-        "content": "BlinkはPointerEventsを実装しないことにした事について。\n\n- touch eventsが既にある\n- hit-testモデルがパフォーマンス的に不利\n- 複雑すぎる\n\n等が主な理由。",
-        "relatedLinks": [
-            {
-                "title": "Issue 162757 - chromium - Implement pointer events in Chrome behind experimental flag - An open-source project to help move the web forward. - Google Project Hosting",
-                "url": "https://code.google.com/p/chromium/issues/detail?id=162757#c64"
-            },
-            {
-                "title": "PSA: PointerEvents and PointerGestures are being replaced by polymer-gestures, breaking changes for pointer",
-                "url": "https://groups.google.com/forum/#!topic/polymer-dev/ba4aDyOozm8"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Announcing new F12 dev tools features in August update - IEBlog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/ie/archive/2014/08/14/announcing-new-f12-dev-tools-features-in-august-update.aspx",
-        "tags": [
+            "Compass",
             "IE",
             "debug"
         ],
-        "content": "IE11のF12開発者ツールの変更点について。\n\nカラーピッカー、sourcemapの選択機能、補完の強化、Asyncコールスタック、パフォーマンス、メモリパネルでセッションをimport/exportが可能になる等",
-        "relatedLinks": [
-            {
-                "title": "米MS、8月のIE11更新で強化された「F12開発者ツール」の新機能を紹介：CodeZine",
-                "url": "http://codezine.jp/article/detail/8034"
-            }
-        ]
+        "date": "2014-09-18T15:00:00.000Z"
     },
-    {
-        "category": "Article",
-        "title": "古めかしいCGを描くためのライブラリ gretro です - 音の鳴るブログ",
-        "url": "http://mohayonao.hatenablog.com/entry/2014/08/12/111859",
-        "tags": [
-            "JavaScript",
-            "canvas",
-            "library"
-        ],
-        "content": "Canvasで描くとどうしてもモダンな感じになってしまうという問題を解決するライブラリ。\n\n色やパターンを絞ってレトロな感じのCanvasを描画出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "ESNext for humans - LvivJS 16 August 2014",
-        "url": "http://www.slideshare.net/janjongboom/esnext-for-humans-lvivjs-16-august-2014",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "スライド"
-        ],
-        "content": "ES6についてのスライド。\n\n新しい構文についての紹介がメインでGeneratorについて詳しく説明してる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "JavaScript Test-Driven Development with Jasmine 2.0 and Karma",
-        "url": "http://www.slideshare.net/cebartling/javascript-38057372",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "スライド"
-        ],
-        "content": "Jasmine2.0とKarmaについてのスライド。\n\njasmine spyについて紹介されてる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "arian/partition-bundle",
-        "url": "https://github.com/arian/partition-bundle",
-        "tags": [
-            "browserify",
-            "plugin",
-            "library"
-        ],
-        "content": "Browserify内にAMD的な動的ロードを持ち込むplugin。\n\n動的に読み込みたいjsファイルを定義した設定ファイルを作り、動的に読み込むようにrequireではなく`loadjs`関数を使って読み込む。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Rome",
-        "url": "http://bevacqua.github.io/rome/",
-        "tags": [
-            "JavaScript",
-            "UI",
-            "library"
-        ],
-        "content": "依存がないDate/Time Picker UIライブラリ。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "gwendall/way.js",
-        "url": "https://github.com/gwendall/way.js",
-        "tags": [
-            "DOM",
-            "JavaScript",
-            "library"
-        ],
-        "content": "HTML formで入力した内容をStorageに保存したり、JSONにしたり、監視や値のやり取りが出来るライブラリ。\n\nフォームに属性を指定しておくだけで、フォーム内容の保存的な事が出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "thlorenz/browserify-devdupe · GitHub",
-        "url": "https://github.com/thlorenz/browserify-devdupe",
-        "tags": [
-            "browserify",
-            "npm",
-            "library"
-        ],
-        "content": "browserify bundleを作るときにnpm dedupeみたいな事をするモジュール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mizchi/bower-build",
-        "url": "https://github.com/mizchi/bower-build",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "bowerの`main`で指定されているファイルをconcatしたものを生成するツール",
-        "relatedLinks": [
-            {
-                "title": "bower-buildでbowerで入れたファイルを一つにconcatする - Qiita",
-                "url": "http://qiita.com/mizchi/items/67fcaf92ef3e8e5ac393"
-            }
-        ]
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Sass 3.4 is Released « Sass Blog",
+            "url": "http://blog.sass-lang.com/posts/221239-sass-34-is-released",
+            "tags": [
+                "Sass",
+                "ReleaseNote"
+            ],
+            "content": "Sass 3.4 リリース。\n\nparent selector `&`の扱いを改善、Selector Functionsで`&`を使えるように。`@error` ディレクティブの追加、sourcemapの生成がデフォルトになるなど",
+            "relatedLinks": [
+                {
+                    "title": "File: SASS",
+                    "url": "http://sass-lang.com/documentation/file.SASS_CHANGELOG.html"
+                },
+                {
+                    "title": "@error directive · Issue ",
+                    "url": "https://github.com/sass/sass/issues/747"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Compass 1.0 is Released! | Compass Documentation",
+            "url": "http://compass-style.org/blog/2014/08/15/omg-compass-1-0/",
+            "tags": [
+                "Sass",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Compass 1.0リリース。\n\nベンダーprefixはcaniuseを利用、コマンドラインツールなしにライブラリとして利用可能に、sourcemapサポート、import-onceでのパフォーマンス改善等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release JSHint 2.5.4 · jshint/jshint",
+            "url": "https://github.com/jshint/jshint/releases/tag/2.5.4",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "JSHint 2.5.4リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "August updates for Internet Explorer - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/08/13/august-updates-for-internet-explorer.aspx",
+            "tags": [
+                "IE",
+                "ReleaseNote"
+            ],
+            "content": "2014年8月のIE11のアップデートについて。\n\nF12開発者ツールの改善、WebGLの改善、WebDriverのサポート",
+            "relatedLinks": [
+                {
+                    "title": "Announcing new F12 dev tools features in August update - IEBlog - Site Home - MSDN Blogs",
+                    "url": "http://blogs.msdn.com/b/ie/archive/2014/08/14/announcing-new-f12-dev-tools-features-in-august-update.aspx"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "jQuery UI 1.11.1 | jQuery UI Blog",
+            "url": "http://blog.jqueryui.com/2014/08/jquery-ui-1-11-1/",
+            "tags": [
+                "jQuery",
+                "UI",
+                "ReleaseNote"
+            ],
+            "content": "jQuery UI 1.11.1リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Knockout 3.2.0 released - Steve Sanderson’s blog - As seen on YouTube™",
+            "url": "http://blog.stevensanderson.com/2014/08/18/knockout-3-2-0-released/",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Knockout 3.2.0リリース。\n\nComponents、Custom Elements、textInputのバインディングなどの追加。\n\nIE6のサポートは維持",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v0.8.0: Release 0.8.0 (2014-08-12) · twada/power-assert",
+            "url": "https://github.com/twada/power-assert/releases/tag/v0.8.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "power-assert 0.8.0リリース。\n\nespowerのオプションでアサーションの指定がescallmatchを使ったパターンを渡す方法に変更。デフォルト設定を使っている場合はそのまま維持される。",
+            "relatedLinks": [
+                {
+                    "title": "twada/escallmatch",
+                    "url": "https://github.com/twada/escallmatch"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "長期かつ修正頻度の高いPJでのCSSメンテ - ワザノバ | wazanova",
+            "url": "http://wazanova.jp/items/1484",
+            "tags": [
+                "CSS",
+                "設計",
+                "翻訳"
+            ],
+            "content": "大規模プロジェクトでのCSSのメンテナンスビリティについて。\n\n- DRYより修正する時に迷わず消せるような疎結合なコンポーネントである方が長期的にはよかった\n- プロジェクトにおける命名ルールを持つことはいいこと\n- コンポーネントに名前空間をもたせると分かりやすいこと\n- ファイルの管理について\n- ライブラリmixinの問題について\n\n等、実践的な事について書かれていて参考になります。",
+            "relatedLinks": [
+                {
+                    "title": "Enduring CSS: writing style sheets for rapidly changing, long-lived projects - Author and responsive web developer Ben Frain",
+                    "url": "http://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Opinionated Rundown of JS Frameworks | Blog",
+            "url": "http://blog.andyet.com/2014/08/13/opinionated-rundown-of-js-frameworks",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "まとめ"
+            ],
+            "content": "HumanJSの人によるJavaScript MV*のまとめ\n\nAngular/Ember/React/Polymer/Backbone.js/Vanilla/Ampersand.js",
+            "relatedLinks": [
+                {
+                    "title": "シングルページアプリづくりのJavaScriptフレームワーク比較 - ワザノバ ",
+                    "url": "http://wazanova.jp/items/1474"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Web Reflection: PointerEvents No More",
+            "url": "http://webreflection.blogspot.com/2014/08/pointerevents-no-more.html",
+            "tags": [
+                "Chrome",
+                "event"
+            ],
+            "content": "BlinkはPointerEventsを実装しないことにした事について。\n\n- touch eventsが既にある\n- hit-testモデルがパフォーマンス的に不利\n- 複雑すぎる\n\n等が主な理由。",
+            "relatedLinks": [
+                {
+                    "title": "Issue 162757 - chromium - Implement pointer events in Chrome behind experimental flag - An open-source project to help move the web forward. - Google Project Hosting",
+                    "url": "https://code.google.com/p/chromium/issues/detail?id=162757#c64"
+                },
+                {
+                    "title": "PSA: PointerEvents and PointerGestures are being replaced by polymer-gestures, breaking changes for pointer",
+                    "url": "https://groups.google.com/forum/#!topic/polymer-dev/ba4aDyOozm8"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Announcing new F12 dev tools features in August update - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/08/14/announcing-new-f12-dev-tools-features-in-august-update.aspx",
+            "tags": [
+                "IE",
+                "debug"
+            ],
+            "content": "IE11のF12開発者ツールの変更点について。\n\nカラーピッカー、sourcemapの選択機能、補完の強化、Asyncコールスタック、パフォーマンス、メモリパネルでセッションをimport/exportが可能になる等",
+            "relatedLinks": [
+                {
+                    "title": "米MS、8月のIE11更新で強化された「F12開発者ツール」の新機能を紹介：CodeZine",
+                    "url": "http://codezine.jp/article/detail/8034"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "古めかしいCGを描くためのライブラリ gretro です - 音の鳴るブログ",
+            "url": "http://mohayonao.hatenablog.com/entry/2014/08/12/111859",
+            "tags": [
+                "JavaScript",
+                "canvas",
+                "library"
+            ],
+            "content": "Canvasで描くとどうしてもモダンな感じになってしまうという問題を解決するライブラリ。\n\n色やパターンを絞ってレトロな感じのCanvasを描画出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "ESNext for humans - LvivJS 16 August 2014",
+            "url": "http://www.slideshare.net/janjongboom/esnext-for-humans-lvivjs-16-august-2014",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "スライド"
+            ],
+            "content": "ES6についてのスライド。\n\n新しい構文についての紹介がメインでGeneratorについて詳しく説明してる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "JavaScript Test-Driven Development with Jasmine 2.0 and Karma",
+            "url": "http://www.slideshare.net/cebartling/javascript-38057372",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "スライド"
+            ],
+            "content": "Jasmine2.0とKarmaについてのスライド。\n\njasmine spyについて紹介されてる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "arian/partition-bundle",
+            "url": "https://github.com/arian/partition-bundle",
+            "tags": [
+                "browserify",
+                "plugin",
+                "library"
+            ],
+            "content": "Browserify内にAMD的な動的ロードを持ち込むplugin。\n\n動的に読み込みたいjsファイルを定義した設定ファイルを作り、動的に読み込むようにrequireではなく`loadjs`関数を使って読み込む。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Rome",
+            "url": "http://bevacqua.github.io/rome/",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "library"
+            ],
+            "content": "依存がないDate/Time Picker UIライブラリ。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "gwendall/way.js",
+            "url": "https://github.com/gwendall/way.js",
+            "tags": [
+                "DOM",
+                "JavaScript",
+                "library"
+            ],
+            "content": "HTML formで入力した内容をStorageに保存したり、JSONにしたり、監視や値のやり取りが出来るライブラリ。\n\nフォームに属性を指定しておくだけで、フォーム内容の保存的な事が出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "thlorenz/browserify-devdupe · GitHub",
+            "url": "https://github.com/thlorenz/browserify-devdupe",
+            "tags": [
+                "browserify",
+                "npm",
+                "library"
+            ],
+            "content": "browserify bundleを作るときにnpm dedupeみたいな事をするモジュール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mizchi/bower-build",
+            "url": "https://github.com/mizchi/bower-build",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "bowerの`main`で指定されているファイルをconcatしたものを生成するツール",
+            "relatedLinks": [
+                {
+                    "title": "bower-buildでbowerで入れたファイルを一つにconcatする - Qiita",
+                    "url": "http://qiita.com/mizchi/items/67fcaf92ef3e8e5ac393"
+                }
+            ]
+        }
+    ]
+}

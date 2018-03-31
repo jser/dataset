@@ -2,9 +2,16 @@
 "use strict";
 import { ContentParser } from "./content-parser";
 import { addLineBreakAfterHTML } from "./patch/add-line-break-after-html";
+import * as fs from "fs";
+import * as path from "path";
 
-const remarkAbstract = require("remark");
-const remark = remarkAbstract();
+const unified = require("unified");
+const markdown = require("remark-parse");
+const frontmatter = require("remark-frontmatter");
+const jsYaml = require("js-yaml");
+const remark = unified()
+    .use(markdown)
+    .use(frontmatter);
 const findAllAfter = require("unist-util-find-all-after");
 const difference = require("lodash.difference");
 const select = require("unist-util-select");
@@ -46,7 +53,21 @@ const getGroupKey = (htmlNode: any) => {
     return null;
 };
 
+export interface ParseMetaResult {
+    title: string;
+    author: string;
+    layout: string;
+    category: string;
+    date: string;
+    tag: string[];
+}
+
 export interface ParseResult {
+    meta: ParseMetaResult;
+    items: ParseItemResult[];
+}
+
+export interface ParseItemResult {
     category: string;
     title: string;
     url: string;
@@ -59,10 +80,10 @@ export interface ParseResult {
  * @param {string} content
  * @returns {[*]}
  */
-export function parse(content: string): ParseResult[] {
+export function parse(content: string): ParseItemResult[] {
     const AST = remark.parse(addLineBreakAfterHTML(content));
     const allCategory = select(AST, "html[value*=<h1]");
-    const results: ParseResult[] = [];
+    const results: ParseItemResult[] = [];
     allCategory.forEach((categoryNode: any, index: number) => {
         const nextCategoryNode = allCategory[index + 1];
         const currentCategory = getGroupKey(categoryNode);
@@ -85,4 +106,55 @@ export function parse(content: string): ParseResult[] {
         });
     });
     return results;
+}
+
+/**
+ * @param {string} filePath:string
+ * @returns {[*]}
+ */
+export function parseDetails(filePath: string): ParseResult {
+    const content = fs.readFileSync(filePath, "utf-8");
+    const AST = remark.parse(addLineBreakAfterHTML(content));
+    const frontMatter = select.one(AST, "yaml");
+    const meta = jsYaml.safeLoad(frontMatter.value, "utf8");
+    if (meta.date) {
+        meta.date = new Date(meta.date).toISOString();
+    } else {
+        const fileName = path.basename(filePath);
+        const result = fileName.match(/(\d{4})-(\d{2})-(\d{2})/);
+        if (!result) {
+            throw new Error("No match date file name");
+        }
+        const year = Number(result[1]);
+        const month = Number(result[2]);
+        const day = Number(result[3]);
+        meta.date = new Date(year, month, day).toISOString();
+    }
+    const allCategory = select(AST, "html[value*=<h1]");
+    const results: ParseItemResult[] = [];
+    allCategory.forEach((categoryNode: any, index: number) => {
+        const nextCategoryNode = allCategory[index + 1];
+        const currentCategory = getGroupKey(categoryNode);
+        // not found category
+        if (currentCategory === null) {
+            return;
+        }
+        const currentCategoryNodes = betweenNodes(AST, categoryNode, nextCategoryNode);
+        const contentParser = new ContentParser();
+        const contents = contentParser.process(currentCategoryNodes, content);
+        contents.forEach(content => {
+            results.push({
+                category: currentCategory,
+                title: content.title,
+                url: content.url,
+                tags: content.tags,
+                content: content.content,
+                relatedLinks: content.relatedLinks
+            });
+        });
+    });
+    return {
+        meta,
+        items: results
+    };
 }

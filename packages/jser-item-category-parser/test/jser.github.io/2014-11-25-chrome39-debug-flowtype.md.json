@@ -1,255 +1,270 @@
-[
-    {
-        "category": "Headline",
-        "title": "Chromium Blog: Chrome 39 Beta: JS Generators, Animation Playback Control, and the WebApp Manifest",
-        "url": "http://blog.chromium.org/2014/10/chrome-39-beta-js-generators-animation.html",
+{
+    "meta": {
+        "title": "2014-11-25のJS: Chrome 39、デバッグTips、Facebook Flow",
+        "author": "azu",
+        "layout": "post",
+        "date": "2014-11-24T23:12:00.000Z",
+        "category": "JSer",
         "tags": [
-            "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Chrome 39リリース。([Stableのリリースノートはこちら](http://googlechromereleases.blogspot.jp/2014/11/stable-channel-update_18.html \"Chrome Releases: Stable Channel Update\"))\n\nGeneratorがデフォルトで有効、Web Animationの`play()`や`pause()`のサポート、 Web Application Manifest、 Beacon API のサポート",
-        "relatedLinks": [
-            {
-                "title": "ジェネレータについて - JS.next",
-                "url": "http://js-next.hatenablog.com/entry/2014/08/07/174147"
-            },
-            {
-                "title": "Send beacon data in Chrome 39",
-                "url": "http://updates.html5rocks.com/2014/10/Send-beacon-data-in-Chrome-39"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Send beacon data in Chrome 39",
-        "url": "http://updates.html5rocks.com/2014/10/Send-beacon-data-in-Chrome-39",
-        "tags": [
-            "JavaScript",
-            "アクセス解析",
-            "Chrome"
-        ],
-        "content": "Chrome 39でBeacon APIが入った。\n\nBeacon APIを使えばクリックしてページ移動するときのクリックのログも非同期でちゃんと送ることが出来る。(単純なXHRだと送り終わる前に遷移してしまう)",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Modern Debugging Experience: Part 2 - Tuts+ Code Tutorial",
-        "url": "http://code.tutsplus.com/tutorials/modern-debugging-experience-part-2--cms-22584",
-        "tags": [
-            "JavaScript",
             "Chrome",
             "debug",
-            "Tools"
-        ],
-        "content": "開発者ツールを使ったデバッグ方法のTips。\n\n`debugger`ステートメント、コールスタック、getter/setter/Object.observe等を使ったアクセス時にBreakさせる方法やWatch Expression、イベントリスナーのデバッグ等について書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "My five promise patterns",
-        "url": "https://remysharp.com/2014/11/19/my-five-promise-patterns",
-        "tags": [
-            "JavaScript",
-            "Promises"
-        ],
-        "content": "Promiseパターンについて\n\nNode.jsスタイルの高階関数をPromiseを返すようにするdenodeify、`bind`による引数の固定、コールバックとの併用、`reject`ではなく常にthrowする、処理の終わりでいつも`catch`する",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Property testing in JavaScript with quick_check.js - RightScale Engineering Blog",
-        "url": "http://eng.rightscale.com/2014/07/18/quick-check-js.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "testing"
-        ],
-        "content": "JavaScriptのQuickCheck実装である [quick_check.js](https://github.com/gampleman/quick_check.js/) について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "uxebu/mocha-sinon-traceur-example",
-        "url": "https://github.com/uxebu/mocha-sinon-traceur-example",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "testing"
-        ],
-        "content": "ES6でテストを書いてTDDするサンプルプロジェクト",
-        "relatedLinks": [
-            {
-                "title": "ES6 and TDD at work, with traceur, mocha and sinon - uxebu",
-                "url": "http://www.uxebu.com/blog/2014/11/es6-tdd-work-traceur-mocha-sinon/"
-            }
+            "Flow",
+            "Type"
         ]
     },
-    {
-        "category": "SlideVideo",
-        "title": "Nodevember - YouTube",
-        "url": "https://www.youtube.com/user/nodevember/feed",
-        "tags": [
-            "JavaScript",
-            "node.js",
-            "動画"
-        ],
-        "content": "http://nodevember.org/ の動画が公開されている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Real World React - YouTube",
-        "url": "https://www.youtube.com/watch?v=uZgAq1CZ1N8",
-        "tags": [
-            "React",
-            "JavaScript",
-            "スライド",
-            "動画"
-        ],
-        "content": "ReactのComponentの作り方やテストについて詳しい発表",
-        "relatedLinks": [
-            {
-                "title": "http://presentboldly.com/bejonbee/real-world-react-v012",
-                "url": "http://presentboldly.com/bejonbee/real-world-react-v012"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "DOM Performance (JSNext Bulgaria)",
-        "url": "http://www.slideshare.net/ickatanet/dom-performance-jsnext-bulgaria",
-        "tags": [
-            "DOM",
-            "performance",
-            "スライド"
-        ],
-        "content": "DOM操作のパフォーマンスTips的なスライド。\n\nEvent Delegate、Style操作、DOM Nodeの作成(clone、DocumentFragment)、DOM Nodeの削除について。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "KnowThen – Screencasts For Developers",
-        "url": "http://knowthen.com/",
-        "tags": [
-            "JavaScript",
-            "node.js",
-            "動画"
-        ],
-        "content": "JavaScriptについてのスクリーンキャストをするサイト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "newton-software/devil",
-        "url": "https://github.com/newton-software/devil",
-        "tags": [
-            "node.js",
-            "node-webkit",
-            "debug"
-        ],
-        "content": "node-inspectorのようにGUIでNode.jsアプリのデバッグを行う事が出来るツール。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Flow | A static type checker for JavaScript",
-        "url": "http://flowtype.org/",
-        "tags": [
-            "flowtype",
-            "facebook",
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "Facebookの静的型チェックツール。\n\nOCamlで書かれていて、TypeScriptと大体互換性のある型定義を行える。\n\nサーバとして動かす事もできる。HHVM/Hackみたいなインクリメンタルな型付けを行える",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "axemclion/protractor-perf",
-        "url": "https://github.com/axemclion/protractor-perf",
-        "tags": [
-            "protractor",
-            "testing",
-            "performance"
-        ],
-        "content": "Protractorのパフォーマンス測定版のようなツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "inikulin/ineed",
-        "url": "https://github.com/inikulin/ineed",
-        "tags": [
-            "HTML",
-            "node.js",
-            "JavaScript",
-            "library"
-        ],
-        "content": "HTMLのスクレイピング、変換処理(Reprocessing)を行えるNode.jsモジュール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "jas-/secStore.js",
-        "url": "https://github.com/jas-/secStore.js",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "localStorage/sessionStorage/Cookieで暗号化をサポートするラッパーライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "janmonschke/Web-Audio-Editor",
-        "url": "https://github.com/janmonschke/Web-Audio-Editor",
-        "tags": [
-            "browser",
-            "web",
-            "audio",
-            "Tools"
-        ],
-        "content": "ウェブベースのWeb Audio Editor",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "SpoonX/useuses",
-        "url": "https://github.com/SpoonX/useuses",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "`@uses`アノテーションコメントでそのJSファイルが依存するファイルパスを記述して使うモジュール管理ルール、ビルドツール\n\nconcatする程度にはシンプルで、CommonJSのような強い依存関係ではなく、単純にコメントを追加するだけなので余計にファイルは必要ない。",
-        "relatedLinks": [
-            {
-                "title": "javascript dependency management « Php « SpoonX Blog",
-                "url": "http://blog.spoonx.nl/javascript-dependency-management/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "techlayer/espresso.js",
-        "url": "https://github.com/techlayer/espresso.js",
-        "tags": [
-            "JavaScript",
-            "library",
-            "backbone.js",
-            "Flux"
-        ],
-        "content": "BackboneとReactをインスパイアしたMV*ライブラリ。\n\nFluxのデータフローを一方向にするアイデアをBackboneに持ってきた感じのライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Discover AngularJS by Adam Burak [Leanpub PDF/iPad/Kindle]",
-        "url": "https://leanpub.com/discoverangularjs",
-        "tags": [
-            "AngularJS",
-            "book"
-        ],
-        "content": "AngularJSチュートリアル本",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Chromium Blog: Chrome 39 Beta: JS Generators, Animation Playback Control, and the WebApp Manifest",
+            "url": "http://blog.chromium.org/2014/10/chrome-39-beta-js-generators-animation.html",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Chrome 39リリース。([Stableのリリースノートはこちら](http://googlechromereleases.blogspot.jp/2014/11/stable-channel-update_18.html \"Chrome Releases: Stable Channel Update\"))\n\nGeneratorがデフォルトで有効、Web Animationの`play()`や`pause()`のサポート、 Web Application Manifest、 Beacon API のサポート",
+            "relatedLinks": [
+                {
+                    "title": "ジェネレータについて - JS.next",
+                    "url": "http://js-next.hatenablog.com/entry/2014/08/07/174147"
+                },
+                {
+                    "title": "Send beacon data in Chrome 39",
+                    "url": "http://updates.html5rocks.com/2014/10/Send-beacon-data-in-Chrome-39"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Send beacon data in Chrome 39",
+            "url": "http://updates.html5rocks.com/2014/10/Send-beacon-data-in-Chrome-39",
+            "tags": [
+                "JavaScript",
+                "アクセス解析",
+                "Chrome"
+            ],
+            "content": "Chrome 39でBeacon APIが入った。\n\nBeacon APIを使えばクリックしてページ移動するときのクリックのログも非同期でちゃんと送ることが出来る。(単純なXHRだと送り終わる前に遷移してしまう)",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Modern Debugging Experience: Part 2 - Tuts+ Code Tutorial",
+            "url": "http://code.tutsplus.com/tutorials/modern-debugging-experience-part-2--cms-22584",
+            "tags": [
+                "JavaScript",
+                "Chrome",
+                "debug",
+                "Tools"
+            ],
+            "content": "開発者ツールを使ったデバッグ方法のTips。\n\n`debugger`ステートメント、コールスタック、getter/setter/Object.observe等を使ったアクセス時にBreakさせる方法やWatch Expression、イベントリスナーのデバッグ等について書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "My five promise patterns",
+            "url": "https://remysharp.com/2014/11/19/my-five-promise-patterns",
+            "tags": [
+                "JavaScript",
+                "Promises"
+            ],
+            "content": "Promiseパターンについて\n\nNode.jsスタイルの高階関数をPromiseを返すようにするdenodeify、`bind`による引数の固定、コールバックとの併用、`reject`ではなく常にthrowする、処理の終わりでいつも`catch`する",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Property testing in JavaScript with quick_check.js - RightScale Engineering Blog",
+            "url": "http://eng.rightscale.com/2014/07/18/quick-check-js.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "testing"
+            ],
+            "content": "JavaScriptのQuickCheck実装である [quick_check.js](https://github.com/gampleman/quick_check.js/) について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "uxebu/mocha-sinon-traceur-example",
+            "url": "https://github.com/uxebu/mocha-sinon-traceur-example",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "testing"
+            ],
+            "content": "ES6でテストを書いてTDDするサンプルプロジェクト",
+            "relatedLinks": [
+                {
+                    "title": "ES6 and TDD at work, with traceur, mocha and sinon - uxebu",
+                    "url": "http://www.uxebu.com/blog/2014/11/es6-tdd-work-traceur-mocha-sinon/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Nodevember - YouTube",
+            "url": "https://www.youtube.com/user/nodevember/feed",
+            "tags": [
+                "JavaScript",
+                "node.js",
+                "動画"
+            ],
+            "content": "http://nodevember.org/ の動画が公開されている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Real World React - YouTube",
+            "url": "https://www.youtube.com/watch?v=uZgAq1CZ1N8",
+            "tags": [
+                "React",
+                "JavaScript",
+                "スライド",
+                "動画"
+            ],
+            "content": "ReactのComponentの作り方やテストについて詳しい発表",
+            "relatedLinks": [
+                {
+                    "title": "http://presentboldly.com/bejonbee/real-world-react-v012",
+                    "url": "http://presentboldly.com/bejonbee/real-world-react-v012"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "DOM Performance (JSNext Bulgaria)",
+            "url": "http://www.slideshare.net/ickatanet/dom-performance-jsnext-bulgaria",
+            "tags": [
+                "DOM",
+                "performance",
+                "スライド"
+            ],
+            "content": "DOM操作のパフォーマンスTips的なスライド。\n\nEvent Delegate、Style操作、DOM Nodeの作成(clone、DocumentFragment)、DOM Nodeの削除について。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "KnowThen – Screencasts For Developers",
+            "url": "http://knowthen.com/",
+            "tags": [
+                "JavaScript",
+                "node.js",
+                "動画"
+            ],
+            "content": "JavaScriptについてのスクリーンキャストをするサイト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "newton-software/devil",
+            "url": "https://github.com/newton-software/devil",
+            "tags": [
+                "node.js",
+                "node-webkit",
+                "debug"
+            ],
+            "content": "node-inspectorのようにGUIでNode.jsアプリのデバッグを行う事が出来るツール。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Flow | A static type checker for JavaScript",
+            "url": "http://flowtype.org/",
+            "tags": [
+                "flowtype",
+                "facebook",
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "Facebookの静的型チェックツール。\n\nOCamlで書かれていて、TypeScriptと大体互換性のある型定義を行える。\n\nサーバとして動かす事もできる。HHVM/Hackみたいなインクリメンタルな型付けを行える",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "axemclion/protractor-perf",
+            "url": "https://github.com/axemclion/protractor-perf",
+            "tags": [
+                "protractor",
+                "testing",
+                "performance"
+            ],
+            "content": "Protractorのパフォーマンス測定版のようなツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "inikulin/ineed",
+            "url": "https://github.com/inikulin/ineed",
+            "tags": [
+                "HTML",
+                "node.js",
+                "JavaScript",
+                "library"
+            ],
+            "content": "HTMLのスクレイピング、変換処理(Reprocessing)を行えるNode.jsモジュール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "jas-/secStore.js",
+            "url": "https://github.com/jas-/secStore.js",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "localStorage/sessionStorage/Cookieで暗号化をサポートするラッパーライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "janmonschke/Web-Audio-Editor",
+            "url": "https://github.com/janmonschke/Web-Audio-Editor",
+            "tags": [
+                "browser",
+                "web",
+                "audio",
+                "Tools"
+            ],
+            "content": "ウェブベースのWeb Audio Editor",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "SpoonX/useuses",
+            "url": "https://github.com/SpoonX/useuses",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "`@uses`アノテーションコメントでそのJSファイルが依存するファイルパスを記述して使うモジュール管理ルール、ビルドツール\n\nconcatする程度にはシンプルで、CommonJSのような強い依存関係ではなく、単純にコメントを追加するだけなので余計にファイルは必要ない。",
+            "relatedLinks": [
+                {
+                    "title": "javascript dependency management « Php « SpoonX Blog",
+                    "url": "http://blog.spoonx.nl/javascript-dependency-management/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "techlayer/espresso.js",
+            "url": "https://github.com/techlayer/espresso.js",
+            "tags": [
+                "JavaScript",
+                "library",
+                "backbone.js",
+                "Flux"
+            ],
+            "content": "BackboneとReactをインスパイアしたMV*ライブラリ。\n\nFluxのデータフローを一方向にするアイデアをBackboneに持ってきた感じのライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Discover AngularJS by Adam Burak [Leanpub PDF/iPad/Kindle]",
+            "url": "https://leanpub.com/discoverangularjs",
+            "tags": [
+                "AngularJS",
+                "book"
+            ],
+            "content": "AngularJSチュートリアル本",
+            "relatedLinks": []
+        }
+    ]
+}

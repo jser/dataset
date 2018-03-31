@@ -1,224 +1,238 @@
-[
-    {
-        "category": "Headline",
-        "title": "io.js/CHANGELOG.md at master · nodejs/io.js",
-        "url": "https://github.com/nodejs/io.js/blob/master/CHANGELOG.md#2015-08-04-version-300-rvagg",
+{
+    "meta": {
+        "title": "2015-08-10のJS: io.js 3.0、RxJS 3.0、MSEdgeとは",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-08-10T13:23:00.000Z",
+        "category": "JSer",
         "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "io.js 3.0.0リリース。\nV8のアップデートによりES6のサポート改善、`Buffer.concat`の挙動変更などいくつか非互換の変更も含まれる",
-        "relatedLinks": [
-            {
-                "title": "Breaking Changes · nodejs/io.js Wiki",
-                "url": "https://github.com/nodejs/io.js/wiki/Breaking-Changes#300-from-2x"
-            },
-            {
-                "title": "io.js v3.0.0 がリリースされました。 - from scratch",
-                "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/08/07/002535"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release RxJS Version 3.0 · Reactive-Extensions/RxJS",
-        "url": "https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.0.0",
-        "tags": [
-            "JavaScript",
+            "io.js",
             "Rx",
-            "ReleaseNote"
-        ],
-        "content": "RxJS 3.0リリース。\nCoreパッケージとLiteパッケージへの追加。\n`Rx.Observable.fromEvent`/`Rx.Observable.spawn`/`Rx.Observable.prototype.scan`の引数の破壊的な変更など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "jsdom/Changelog.md at 6.0.0 · tmpvar/jsdom",
-        "url": "https://github.com/tmpvar/jsdom/blob/6.0.0/Changelog.md",
-        "tags": [
-            "DOM",
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "jsdom 6.0.0リリース。\nio.js 2.0以上が必要に、パフォーマンスの改善、`window.onerror`が動くように、`URL`オブジェクトのサポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint 1.1.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/08/eslint-1.1.0-released",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 1.1.0リリース。\ngrep-styleのformatterの追加",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Dev.Opera — Opera 31 released",
-        "url": "https://dev.opera.com/blog/opera-31/",
-        "tags": [
-            "Opera",
-            "ReleaseNote"
-        ],
-        "content": "Opera 31(based on Chromium 44)リリース。\n`document.scrollingElement`、ES6 computed property names、Unicode code point escapesのサポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Edge と IE:まるっと理解する、Windows 10 搭載に搭載される Web ブラウザーについて - monoe&#x27;s blog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/osamum/archive/2015/08/07/about-windows-10-s-new-web-browsers.aspx",
-        "tags": [
-            "IE",
             "MSEdge"
-        ],
-        "content": "IEとMSEdgeについて。\nMSEdgeではどのような部分が変わるのか、実装されているAPI、フィードバック方法などがまとめられている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "オープンソースソフトウェアへの取り組み： 技術コラム・特集： React.jsでOSS Rader Scopeを再実装する： 第1回 はじめに （1/1） ｜ SCSK株式会社",
-        "url": "http://www.scsk.jp/product/oss/tec_guide/reactjs/1_column1_1.html",
-        "tags": [
-            "React",
-            "SVG",
-            "tutorial"
-        ],
-        "content": "ウェブアプリをReactを使って作る話。\nReactの使い方、コンポーネント、Fluxアーキテクチャの解説、Nashornでのサーバサイドレンダリングなどよくまとまってる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ECMAScript decorators on functions",
-        "url": "https://rreverser.com/ecmascript-decorators-and-functions/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES.nextで提案されているDecoratorの仕組みとユースケースについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 In Depth: Subclassing ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/08/es6-in-depth-subclassing/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6 Classesのサブクラスについて。\nサブクラスの使い方、`super`、ビルトインクラスのサブクラス、継承したクラスのConstructorの書き方、`new.target`について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Getting started with ECMAScript 6",
-        "url": "http://www.2ality.com/2015/08/getting-started-es6.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "tutorial"
-        ],
-        "content": "BabelをREPLとして使い、ES5で書いてたものをES6の機能で書きながらES6について学んで行くチュートリアル",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "The JavaScript Looping Evolution -Telerik Developer Network",
-        "url": "http://developer.telerik.com/featured/the-javascript-looping-evolution/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "JavaScriptのループ周りの処理の変遷とES6でのループ処理について。\nforループ、for-in、forEachなどのArrayメソッドによるループ、ES6のiterableとiteratorを使った書き方などについての話",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Web Components Weekly",
-        "url": "http://webcomponentsweekly.me/",
-        "tags": [
-            "WebComponents",
-            "mail"
-        ],
-        "content": "Web ComponentsについてのWeeklyメールマガジン",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "morishitter/cssfmt · GitHub",
-        "url": "https://github.com/morishitter/cssfmt",
-        "tags": [
-            "CSS",
-            "Tools"
-        ],
-        "content": "CSS整形ツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "brenolf/polyjuice",
-        "url": "https://github.com/brenolf/polyjuice",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "JSHintの設定ファイルをESLintの設定ファイルに変換するツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "dbashford/textract",
-        "url": "https://github.com/dbashford/textract",
-        "tags": [
-            "JavaScript",
-            "library",
-            "node.js"
-        ],
-        "content": "PDFやDocファイル、画像など様々なフォーマットからテキストを取り出す事が出来るライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "h2non/toxy",
-        "url": "https://github.com/h2non/toxy",
-        "tags": [
-            "JavaScript",
-            "node.js",
-            "proxy",
-            "library"
-        ],
-        "content": "サーバからレスポンスの色々なネットワーク問題をシミュレート出来るProxyライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "O&#x27;Reilly Japan - Mithril",
-        "url": "http://www.oreilly.co.jp/books/9784873117447/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "book"
-        ],
-        "content": "Mithrilについての電子書籍",
-        "relatedLinks": [
-            {
-                "title": "Mithril",
-                "url": "http://mithril.js.org/"
-            }
         ]
     },
-    {
-        "category": "Book",
-        "title": "TypeScript Deep Dive",
-        "url": "http://basarat.gitbooks.io/typescript/",
-        "tags": [
-            "TypeScript",
-            "book"
-        ],
-        "content": "atom-typescriptのbasaratさんによるTypeScriptについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "io.js/CHANGELOG.md at master · nodejs/io.js",
+            "url": "https://github.com/nodejs/io.js/blob/master/CHANGELOG.md#2015-08-04-version-300-rvagg",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "io.js 3.0.0リリース。\nV8のアップデートによりES6のサポート改善、`Buffer.concat`の挙動変更などいくつか非互換の変更も含まれる",
+            "relatedLinks": [
+                {
+                    "title": "Breaking Changes · nodejs/io.js Wiki",
+                    "url": "https://github.com/nodejs/io.js/wiki/Breaking-Changes#300-from-2x"
+                },
+                {
+                    "title": "io.js v3.0.0 がリリースされました。 - from scratch",
+                    "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/08/07/002535"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release RxJS Version 3.0 · Reactive-Extensions/RxJS",
+            "url": "https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.0.0",
+            "tags": [
+                "JavaScript",
+                "Rx",
+                "ReleaseNote"
+            ],
+            "content": "RxJS 3.0リリース。\nCoreパッケージとLiteパッケージへの追加。\n`Rx.Observable.fromEvent`/`Rx.Observable.spawn`/`Rx.Observable.prototype.scan`の引数の破壊的な変更など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "jsdom/Changelog.md at 6.0.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/6.0.0/Changelog.md",
+            "tags": [
+                "DOM",
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "jsdom 6.0.0リリース。\nio.js 2.0以上が必要に、パフォーマンスの改善、`window.onerror`が動くように、`URL`オブジェクトのサポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint 1.1.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/08/eslint-1.1.0-released",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 1.1.0リリース。\ngrep-styleのformatterの追加",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Dev.Opera — Opera 31 released",
+            "url": "https://dev.opera.com/blog/opera-31/",
+            "tags": [
+                "Opera",
+                "ReleaseNote"
+            ],
+            "content": "Opera 31(based on Chromium 44)リリース。\n`document.scrollingElement`、ES6 computed property names、Unicode code point escapesのサポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Edge と IE:まるっと理解する、Windows 10 搭載に搭載される Web ブラウザーについて - monoe&#x27;s blog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/osamum/archive/2015/08/07/about-windows-10-s-new-web-browsers.aspx",
+            "tags": [
+                "IE",
+                "MSEdge"
+            ],
+            "content": "IEとMSEdgeについて。\nMSEdgeではどのような部分が変わるのか、実装されているAPI、フィードバック方法などがまとめられている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "オープンソースソフトウェアへの取り組み： 技術コラム・特集： React.jsでOSS Rader Scopeを再実装する： 第1回 はじめに （1/1） ｜ SCSK株式会社",
+            "url": "http://www.scsk.jp/product/oss/tec_guide/reactjs/1_column1_1.html",
+            "tags": [
+                "React",
+                "SVG",
+                "tutorial"
+            ],
+            "content": "ウェブアプリをReactを使って作る話。\nReactの使い方、コンポーネント、Fluxアーキテクチャの解説、Nashornでのサーバサイドレンダリングなどよくまとまってる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ECMAScript decorators on functions",
+            "url": "https://rreverser.com/ecmascript-decorators-and-functions/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES.nextで提案されているDecoratorの仕組みとユースケースについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 In Depth: Subclassing ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/08/es6-in-depth-subclassing/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6 Classesのサブクラスについて。\nサブクラスの使い方、`super`、ビルトインクラスのサブクラス、継承したクラスのConstructorの書き方、`new.target`について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Getting started with ECMAScript 6",
+            "url": "http://www.2ality.com/2015/08/getting-started-es6.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "tutorial"
+            ],
+            "content": "BabelをREPLとして使い、ES5で書いてたものをES6の機能で書きながらES6について学んで行くチュートリアル",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "The JavaScript Looping Evolution -Telerik Developer Network",
+            "url": "http://developer.telerik.com/featured/the-javascript-looping-evolution/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "JavaScriptのループ周りの処理の変遷とES6でのループ処理について。\nforループ、for-in、forEachなどのArrayメソッドによるループ、ES6のiterableとiteratorを使った書き方などについての話",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Web Components Weekly",
+            "url": "http://webcomponentsweekly.me/",
+            "tags": [
+                "WebComponents",
+                "mail"
+            ],
+            "content": "Web ComponentsについてのWeeklyメールマガジン",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "morishitter/cssfmt · GitHub",
+            "url": "https://github.com/morishitter/cssfmt",
+            "tags": [
+                "CSS",
+                "Tools"
+            ],
+            "content": "CSS整形ツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "brenolf/polyjuice",
+            "url": "https://github.com/brenolf/polyjuice",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "JSHintの設定ファイルをESLintの設定ファイルに変換するツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "dbashford/textract",
+            "url": "https://github.com/dbashford/textract",
+            "tags": [
+                "JavaScript",
+                "library",
+                "node.js"
+            ],
+            "content": "PDFやDocファイル、画像など様々なフォーマットからテキストを取り出す事が出来るライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "h2non/toxy",
+            "url": "https://github.com/h2non/toxy",
+            "tags": [
+                "JavaScript",
+                "node.js",
+                "proxy",
+                "library"
+            ],
+            "content": "サーバからレスポンスの色々なネットワーク問題をシミュレート出来るProxyライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "O&#x27;Reilly Japan - Mithril",
+            "url": "http://www.oreilly.co.jp/books/9784873117447/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "book"
+            ],
+            "content": "Mithrilについての電子書籍",
+            "relatedLinks": [
+                {
+                    "title": "Mithril",
+                    "url": "http://mithril.js.org/"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "TypeScript Deep Dive",
+            "url": "http://basarat.gitbooks.io/typescript/",
+            "tags": [
+                "TypeScript",
+                "book"
+            ],
+            "content": "atom-typescriptのbasaratさんによるTypeScriptについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

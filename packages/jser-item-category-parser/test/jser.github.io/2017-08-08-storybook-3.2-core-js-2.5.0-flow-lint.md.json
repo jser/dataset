@@ -1,311 +1,326 @@
-[
-    {
-        "category": "Headline",
-        "title": "Release v3.2.0 · storybooks/storybook",
-        "url": "https://github.com/storybooks/storybook/releases/tag/v3.2.0",
+{
+    "meta": {
+        "title": "2017-08-08のJS: Storybook 3.2、core-js 2.5.0、Flow Lint",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-08-08T00:18:58.352Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "UI",
-            "debug",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "Storybook 3.2.0リリース。\nVueのサポート、メニューの階層表示をサポート、`onDeviceUI`のオプションをサポートなど",
-        "relatedLinks": [
-            {
-                "title": "Introducing: Storybook for Vue 🎉 – Storybook – Medium",
-                "url": "https://medium.com/storybookjs/introducing-storybook-for-vue-940f222541c5"
-            }
+            "Storybook",
+            "polyfill",
+            "ECMAScript",
+            "Flow"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "TestCafe v0.17.0 Released | TestCafe",
-        "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-17-0-released.html",
-        "tags": [
-            "JavaScript",
-            "ReleaseNote",
-            "browser",
-            "testing"
-        ],
-        "content": "TestCafe v0.17.0リリース\n`testcafe-browser-provider-electron`の追加、`-c`オプションでConcurrentなテストを実行できるように、Automatic waitの仕組みを改善など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v3.0.0 · sinonjs/sinon",
-        "url": "https://github.com/sinonjs/sinon/releases/tag/v3.0.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Sinon.js 3.0.0リリース。\nDeprecatedとなっていたメソッドを削除、Fake XHR/Fake Serverはniseモジュールへ移動された。\n`format.setFormatter`の追加など",
-        "relatedLinks": [
-            {
-                "title": "Migrating to v3.0 - Sinon.JS",
-                "url": "http://sinonjs.org/releases/v3.0.0/migrating-to-3.0/"
-            },
-            {
-                "title": "sinonjs/nise: Fake XHR and fake server",
-                "url": "https://github.com/sinonjs/nise"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "V8 JavaScript Engine: V8 Release 6.1",
-        "url": "https://v8project.blogspot.com/2017/08/v8-release-61.html",
-        "tags": [
-            "V8",
-            "ReleaseNote"
-        ],
-        "content": "V8 6.1リリース。\n`Map`/`Set`/`Object#isPrototypeOf()`/`Reflect.construct`のパフォーマンス改善。\nasm.jsのコードを検証してからwasmへコンパイルするようになるなど",
-        "relatedLinks": [
-            {
-                "title": "Deprecations and Removals in Chrome 61  |  Web  |  Google Developers",
-                "url": "https://developers.google.com/web/updates/2017/08/chrome-61-deprecations"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Workspaces in Yarn | Yarn Blog",
-        "url": "https://yarnpkg.com/blog/2017/08/02/introducing-workspaces/",
-        "tags": [
-            "yarn",
-            "npm"
-        ],
-        "content": "lernaのようなmonorepo管理の仕組みであるyarn workspaceについての紹介。\nオプションで有効化できる実験的な機能。リポジトリ内の複数のパッケージを管理して、それぞれのパッケージが依存するモジュールはsymlinkで解決できる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Glamorous v4 is here 💄 🎉 🎊 – Kent C. Dodds – Medium",
-        "url": "https://medium.com/@kentcdodds/glamorous-v4-is-here-c678fe02a39a",
-        "tags": [
-            "CSS",
-            "React",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "CSS in JSなライブラリのglamorous v4リリース。\n`theme`引数の削除、`useDisplayNameInClassName`の削除。\n`withProps`、`propsAreCssOverrides`、`shouldClassNameUpdate`のサポートなど",
-        "relatedLinks": [
-            {
-                "title": "Release v4.0.0 · paypal/glamorous",
-                "url": "https://github.com/paypal/glamorous/releases/tag/v4.0.0"
-            },
-            {
-                "title": "glamorous/README.md at master · paypal/glamorous",
-                "url": "https://github.com/paypal/glamorous/blob/master/other/codemods/README.md"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release 2.5.0 - 2017.08.05 · zloirock/core-js",
-        "url": "https://github.com/zloirock/core-js/releases/tag/v2.5.0",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "core-js 2.5.0リリース。\n`Promise#finally`、`Promise.try`、`Array#flatten`、`Array#flatMap`の追加。\nCollectionの`of`/`from`静的メソッドの追加、`Math`のProposalの追加、DOM collectionのiterable対応の更新、ProposalのStage対応など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScriptフレームワーク選定の議論 - Qiita",
-        "url": "http://qiita.com/azu/items/2921f62127b8d3a1aa03",
-        "tags": [
-            "JavaScript",
-            "library",
-            "opinion"
-        ],
-        "content": "JavaScriptのフレームワーク選定やTypeScript/Flowといった言語の選択について。 それぞれのカテゴリにどのような選択肢があり、どのように選択していくのかについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "This in JavaScript | Zell Liew",
-        "url": "https://zellwk.com/blog/this/",
-        "tags": [
-            "JavaScript",
-            "article"
-        ],
-        "content": "JavaScriptの`this`についての解説。\nグローバル、オブジェクト、メソッド、関数、Arrow Function、イベントハンドラなどにおける`this`について。\nまた`this`をバインドする`bind`について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "babel-preset-env@2.0 を試した -トランスパイル環境をスケールさせていく- | mediba Creator × Engineer Blog",
-        "url": "http://ceblog.mediba.jp/post/163780014387/babel-preset-env-v2",
-        "tags": [
-            "babel",
-            "plugin",
-            "article",
-            "JavaScript"
-        ],
-        "content": "現在αリリースされているbabel-preset-env 2.0αについて。 静的解析した結果のpolyfillだけを読み込む`\"useBuiltIns\": \"usage\"`の解説と挙動について。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Linting in Flow – Flow – Medium",
-        "url": "https://medium.com/flow-type/linting-in-flow-7709d7a7e969",
-        "tags": [
-            "flowtype",
-            "article"
-        ],
-        "content": "Flow 0.52.0で追加されたFlow linterについての解説。\nESLintのように`.flowconfig`やコメントでルール毎に有効/無効/エラーレベルの制御できる。",
-        "relatedLinks": [
-            {
-                "title": "flow/Changelog.md at v0.52.0 · facebook/flow",
-                "url": "https://github.com/facebook/flow/blob/v0.52.0/Changelog.md"
-            },
-            {
-                "title": "Linting Overview | Flow",
-                "url": "https://flow.org/en/docs/linting/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "component test // Speaker Deck",
-        "url": "https://speakerdeck.com/bokuweb/component-test",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "UI",
-            "slide"
-        ],
-        "content": "ビジュアルリグレッションツールのreg-suitについてのスライド。\nスナップショットとして保存した画像同士を比較しリグレッションを検知する。\nプラグインでスナップショットの保存先や通知先を変更できる。",
-        "relatedLinks": [
-            {
-                "title": "reg-suit",
-                "url": "https://reg-viz.github.io/reg-suit/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Get ready: A new V8 is coming, Node.js performance is changing. | nearForm",
-        "url": "https://www.nearform.com/blog/node-js-is-getting-a-new-v8-with-turbofan/",
-        "tags": [
-            "V8",
-            "JavaScript",
-            "performance"
-        ],
-        "content": "V8のバージョンごとの典型的なケースにおけるパフォーマンスについて。TurboFunによる最適化の違い。\ntry-catch、`delete`と`undefined`の代入、`argumetns`の渡し方の違い、bind、forループ、オブジェクトの生成などのケースいおける比較",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "真のコンポーネント粒度を求めて // Speaker Deck",
-        "url": "https://speakerdeck.com/takazudo/zhen-falsekonponentoli-du-woqiu-mete",
-        "tags": [
-            "CSS",
-            "slide"
-        ],
-        "content": "CSSとコンポーネントについてのスライド。\nOOCSSやBEMにおけるコンポーネント、Atomic Designにおけるコンポーネントの粒度と抽象化、抽象化を避けたECSSコンポーネントなどについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "複雑なJavaScriptアプリケーションに立ち向かうためのアーキテクチャ // Speaker Deck",
-        "url": "https://speakerdeck.com/shinpeim/fu-za-najavascriptapurikesiyonnili-tixiang-kautamefalseakitekutiya",
-        "tags": [
-            "JavaScript",
-            "slide",
-            "設計"
-        ],
-        "content": "見通しが悪いものを分割統治する話。\nプレゼンテーションとドメインの分離(MV*)、モデルをレイヤー分けについて。\nレイヤードアーキテクチャのコンセプトとしてのクリーンアーキテクチャやCQRSについて。\nまた具体的な実装についてなど",
-        "relatedLinks": [
-            {
-                "title": "複雑なJavaScriptアプリケーションを考えながら作る話",
-                "url": "http://azu.github.io/slide/2016/react-meetup/large-scale-javascript.html"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "The Critical Request | CSS-Tricks",
-        "url": "https://css-tricks.com/the-critical-request/",
-        "tags": [
-            "JavaScript",
-            "browser",
-            "performance"
-        ],
-        "content": "クリティカルリクエストについて。\n開発者ツールでリクエストのPriorityを見る方法、またPriorityはどのように付けられているか。\nFirst meaningful paintを妨害するリクエストの見つけ方、Priorityを`rel=preload`を使っての管理について",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "StackBlitz",
-        "url": "https://stackblitz.com/",
-        "tags": [
-            "webservice",
-            "editor"
-        ],
-        "content": "VSCodeを使ったオンラインIDE、コードシェアサービス。\nHot reloading、npmモジュールの管理、書いたコードの公開などができる",
-        "relatedLinks": [
-            {
-                "title": "StackBlitz — Online VS Code IDE for Angular ",
-                "url": "https://medium.com/@ericsimons/stackblitz-online-vs-code-ide-for-angular-react-7d09348497f4"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "deepsweet/hocs: A collection of Higher-Order Components for React",
-        "url": "https://github.com/deepsweet/hocs",
-        "tags": [
-            "React",
-            "library"
-        ],
-        "content": "React用のHigh Order Componentを集めたライブラリ。\nPropsの除外、LifeCycleのhook、debounce、throttleなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Node.js 8 the Right Way - O'Reilly Media",
-        "url": "http://shop.oreilly.com/product/9781680501957.do",
-        "tags": [
-            "node.js",
-            "book"
-        ],
-        "content": "2017年10月発売\nNode.js v8についての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "インクルーシブHTML+CSS & JavaScript 多様なユーザーニーズに応えるフロントエンドデザインパターン | Heydon Pickering, 太田良典, 伊原力也, 株式会社Bスプラウト |本 | 通販 | Amazon",
-        "url": "https://www.amazon.co.jp/dp/4862463878",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "accessibility",
-            "book"
-        ],
-        "content": "2017年9月29日発売\nInclusive Design Patternsについての翻訳本",
-        "relatedLinks": [
-            {
-                "title": "Meet “Inclusive Front-End Design Patterns”, A New Smashing Book – Smashing Magazine",
-                "url": "https://www.smashingmagazine.com/inclusive-design-patterns/"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "最新JavaScript開発～ES2017対応モダンプログラミング | 電子書籍とプリントオンデマンド（POD） | NextPublishing（ネクストパブリッシング）",
-        "url": "http://nextpublishing.jp/book/8958.html",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "ES2017についてチュートリアルガイド",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Release v3.2.0 · storybooks/storybook",
+            "url": "https://github.com/storybooks/storybook/releases/tag/v3.2.0",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "debug",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "Storybook 3.2.0リリース。\nVueのサポート、メニューの階層表示をサポート、`onDeviceUI`のオプションをサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "Introducing: Storybook for Vue 🎉 – Storybook – Medium",
+                    "url": "https://medium.com/storybookjs/introducing-storybook-for-vue-940f222541c5"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "TestCafe v0.17.0 Released | TestCafe",
+            "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-17-0-released.html",
+            "tags": [
+                "JavaScript",
+                "ReleaseNote",
+                "browser",
+                "testing"
+            ],
+            "content": "TestCafe v0.17.0リリース\n`testcafe-browser-provider-electron`の追加、`-c`オプションでConcurrentなテストを実行できるように、Automatic waitの仕組みを改善など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v3.0.0 · sinonjs/sinon",
+            "url": "https://github.com/sinonjs/sinon/releases/tag/v3.0.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Sinon.js 3.0.0リリース。\nDeprecatedとなっていたメソッドを削除、Fake XHR/Fake Serverはniseモジュールへ移動された。\n`format.setFormatter`の追加など",
+            "relatedLinks": [
+                {
+                    "title": "Migrating to v3.0 - Sinon.JS",
+                    "url": "http://sinonjs.org/releases/v3.0.0/migrating-to-3.0/"
+                },
+                {
+                    "title": "sinonjs/nise: Fake XHR and fake server",
+                    "url": "https://github.com/sinonjs/nise"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "V8 JavaScript Engine: V8 Release 6.1",
+            "url": "https://v8project.blogspot.com/2017/08/v8-release-61.html",
+            "tags": [
+                "V8",
+                "ReleaseNote"
+            ],
+            "content": "V8 6.1リリース。\n`Map`/`Set`/`Object#isPrototypeOf()`/`Reflect.construct`のパフォーマンス改善。\nasm.jsのコードを検証してからwasmへコンパイルするようになるなど",
+            "relatedLinks": [
+                {
+                    "title": "Deprecations and Removals in Chrome 61  |  Web  |  Google Developers",
+                    "url": "https://developers.google.com/web/updates/2017/08/chrome-61-deprecations"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Workspaces in Yarn | Yarn Blog",
+            "url": "https://yarnpkg.com/blog/2017/08/02/introducing-workspaces/",
+            "tags": [
+                "yarn",
+                "npm"
+            ],
+            "content": "lernaのようなmonorepo管理の仕組みであるyarn workspaceについての紹介。\nオプションで有効化できる実験的な機能。リポジトリ内の複数のパッケージを管理して、それぞれのパッケージが依存するモジュールはsymlinkで解決できる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Glamorous v4 is here 💄 🎉 🎊 – Kent C. Dodds – Medium",
+            "url": "https://medium.com/@kentcdodds/glamorous-v4-is-here-c678fe02a39a",
+            "tags": [
+                "CSS",
+                "React",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "CSS in JSなライブラリのglamorous v4リリース。\n`theme`引数の削除、`useDisplayNameInClassName`の削除。\n`withProps`、`propsAreCssOverrides`、`shouldClassNameUpdate`のサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "Release v4.0.0 · paypal/glamorous",
+                    "url": "https://github.com/paypal/glamorous/releases/tag/v4.0.0"
+                },
+                {
+                    "title": "glamorous/README.md at master · paypal/glamorous",
+                    "url": "https://github.com/paypal/glamorous/blob/master/other/codemods/README.md"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 2.5.0 - 2017.08.05 · zloirock/core-js",
+            "url": "https://github.com/zloirock/core-js/releases/tag/v2.5.0",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "core-js 2.5.0リリース。\n`Promise#finally`、`Promise.try`、`Array#flatten`、`Array#flatMap`の追加。\nCollectionの`of`/`from`静的メソッドの追加、`Math`のProposalの追加、DOM collectionのiterable対応の更新、ProposalのStage対応など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScriptフレームワーク選定の議論 - Qiita",
+            "url": "http://qiita.com/azu/items/2921f62127b8d3a1aa03",
+            "tags": [
+                "JavaScript",
+                "library",
+                "opinion"
+            ],
+            "content": "JavaScriptのフレームワーク選定やTypeScript/Flowといった言語の選択について。 それぞれのカテゴリにどのような選択肢があり、どのように選択していくのかについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "This in JavaScript | Zell Liew",
+            "url": "https://zellwk.com/blog/this/",
+            "tags": [
+                "JavaScript",
+                "article"
+            ],
+            "content": "JavaScriptの`this`についての解説。\nグローバル、オブジェクト、メソッド、関数、Arrow Function、イベントハンドラなどにおける`this`について。\nまた`this`をバインドする`bind`について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "babel-preset-env@2.0 を試した -トランスパイル環境をスケールさせていく- | mediba Creator × Engineer Blog",
+            "url": "http://ceblog.mediba.jp/post/163780014387/babel-preset-env-v2",
+            "tags": [
+                "babel",
+                "plugin",
+                "article",
+                "JavaScript"
+            ],
+            "content": "現在αリリースされているbabel-preset-env 2.0αについて。 静的解析した結果のpolyfillだけを読み込む`\"useBuiltIns\": \"usage\"`の解説と挙動について。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Linting in Flow – Flow – Medium",
+            "url": "https://medium.com/flow-type/linting-in-flow-7709d7a7e969",
+            "tags": [
+                "flowtype",
+                "article"
+            ],
+            "content": "Flow 0.52.0で追加されたFlow linterについての解説。\nESLintのように`.flowconfig`やコメントでルール毎に有効/無効/エラーレベルの制御できる。",
+            "relatedLinks": [
+                {
+                    "title": "flow/Changelog.md at v0.52.0 · facebook/flow",
+                    "url": "https://github.com/facebook/flow/blob/v0.52.0/Changelog.md"
+                },
+                {
+                    "title": "Linting Overview | Flow",
+                    "url": "https://flow.org/en/docs/linting/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "component test // Speaker Deck",
+            "url": "https://speakerdeck.com/bokuweb/component-test",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "UI",
+                "slide"
+            ],
+            "content": "ビジュアルリグレッションツールのreg-suitについてのスライド。\nスナップショットとして保存した画像同士を比較しリグレッションを検知する。\nプラグインでスナップショットの保存先や通知先を変更できる。",
+            "relatedLinks": [
+                {
+                    "title": "reg-suit",
+                    "url": "https://reg-viz.github.io/reg-suit/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Get ready: A new V8 is coming, Node.js performance is changing. | nearForm",
+            "url": "https://www.nearform.com/blog/node-js-is-getting-a-new-v8-with-turbofan/",
+            "tags": [
+                "V8",
+                "JavaScript",
+                "performance"
+            ],
+            "content": "V8のバージョンごとの典型的なケースにおけるパフォーマンスについて。TurboFunによる最適化の違い。\ntry-catch、`delete`と`undefined`の代入、`argumetns`の渡し方の違い、bind、forループ、オブジェクトの生成などのケースいおける比較",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "真のコンポーネント粒度を求めて // Speaker Deck",
+            "url": "https://speakerdeck.com/takazudo/zhen-falsekonponentoli-du-woqiu-mete",
+            "tags": [
+                "CSS",
+                "slide"
+            ],
+            "content": "CSSとコンポーネントについてのスライド。\nOOCSSやBEMにおけるコンポーネント、Atomic Designにおけるコンポーネントの粒度と抽象化、抽象化を避けたECSSコンポーネントなどについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "複雑なJavaScriptアプリケーションに立ち向かうためのアーキテクチャ // Speaker Deck",
+            "url": "https://speakerdeck.com/shinpeim/fu-za-najavascriptapurikesiyonnili-tixiang-kautamefalseakitekutiya",
+            "tags": [
+                "JavaScript",
+                "slide",
+                "設計"
+            ],
+            "content": "見通しが悪いものを分割統治する話。\nプレゼンテーションとドメインの分離(MV*)、モデルをレイヤー分けについて。\nレイヤードアーキテクチャのコンセプトとしてのクリーンアーキテクチャやCQRSについて。\nまた具体的な実装についてなど",
+            "relatedLinks": [
+                {
+                    "title": "複雑なJavaScriptアプリケーションを考えながら作る話",
+                    "url": "http://azu.github.io/slide/2016/react-meetup/large-scale-javascript.html"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "The Critical Request | CSS-Tricks",
+            "url": "https://css-tricks.com/the-critical-request/",
+            "tags": [
+                "JavaScript",
+                "browser",
+                "performance"
+            ],
+            "content": "クリティカルリクエストについて。\n開発者ツールでリクエストのPriorityを見る方法、またPriorityはどのように付けられているか。\nFirst meaningful paintを妨害するリクエストの見つけ方、Priorityを`rel=preload`を使っての管理について",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "StackBlitz",
+            "url": "https://stackblitz.com/",
+            "tags": [
+                "webservice",
+                "editor"
+            ],
+            "content": "VSCodeを使ったオンラインIDE、コードシェアサービス。\nHot reloading、npmモジュールの管理、書いたコードの公開などができる",
+            "relatedLinks": [
+                {
+                    "title": "StackBlitz — Online VS Code IDE for Angular ",
+                    "url": "https://medium.com/@ericsimons/stackblitz-online-vs-code-ide-for-angular-react-7d09348497f4"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "deepsweet/hocs: A collection of Higher-Order Components for React",
+            "url": "https://github.com/deepsweet/hocs",
+            "tags": [
+                "React",
+                "library"
+            ],
+            "content": "React用のHigh Order Componentを集めたライブラリ。\nPropsの除外、LifeCycleのhook、debounce、throttleなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Node.js 8 the Right Way - O'Reilly Media",
+            "url": "http://shop.oreilly.com/product/9781680501957.do",
+            "tags": [
+                "node.js",
+                "book"
+            ],
+            "content": "2017年10月発売\nNode.js v8についての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "インクルーシブHTML+CSS & JavaScript 多様なユーザーニーズに応えるフロントエンドデザインパターン | Heydon Pickering, 太田良典, 伊原力也, 株式会社Bスプラウト |本 | 通販 | Amazon",
+            "url": "https://www.amazon.co.jp/dp/4862463878",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "accessibility",
+                "book"
+            ],
+            "content": "2017年9月29日発売\nInclusive Design Patternsについての翻訳本",
+            "relatedLinks": [
+                {
+                    "title": "Meet “Inclusive Front-End Design Patterns”, A New Smashing Book – Smashing Magazine",
+                    "url": "https://www.smashingmagazine.com/inclusive-design-patterns/"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "最新JavaScript開発～ES2017対応モダンプログラミング | 電子書籍とプリントオンデマンド（POD） | NextPublishing（ネクストパブリッシング）",
+            "url": "http://nextpublishing.jp/book/8958.html",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "ES2017についてチュートリアルガイド",
+            "relatedLinks": []
+        }
+    ]
+}

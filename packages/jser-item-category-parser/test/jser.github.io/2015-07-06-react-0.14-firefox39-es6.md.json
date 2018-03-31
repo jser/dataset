@@ -1,260 +1,274 @@
-[
-    {
-        "category": "Headline",
-        "title": "React v0.14 Beta 1 | React",
-        "url": "https://facebook.github.io/react/blog/2015/07/03/react-v0.14-beta-1.html",
+{
+    "meta": {
+        "title": "2015-07-06のJS: React v0.14 Beta 1、Firefox 39、ES6アンケート結果",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-07-06T13:23:00.000Z",
+        "category": "JSer",
         "tags": [
             "React",
-            "ReleaseNote"
-        ],
-        "content": "React v0.14 Beta 1リリース。\nreactとreact-domにパッケージが分かれた。refsがDOM nodeそのものを指すようになるなど。\nまた移行用の変換ツールとしてreact-codemodが公開された",
-        "relatedLinks": [
-            {
-                "title": "react-codemod",
-                "url": "https://www.npmjs.com/package/react-codemod"
-            }
+            "Firefox",
+            "JSer.info"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Firefox — Notes (39.0) — Mozilla",
-        "url": "https://www.mozilla.org/en-US/firefox/39.0/releasenotes/",
-        "tags": [
-            "firefox",
-            "ReleaseNote"
-        ],
-        "content": "Firefox 39リリース。\nFetch APIがデフォルトで有効に、CSS Scroll Snap Pointsのサポート、ES6仕様への準拠など",
-        "relatedLinks": [
-            {
-                "title": "Firefox 39 サイト互換性情報 - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/ja/Firefox/Releases/39/Site_Compatibility"
-            },
-            {
-                "title": "Firefox 39 for developers - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/ja/Firefox/Releases/39"
-            },
-            {
-                "title": "Firefox JavaScript changelog - JavaScript | MDN",
-                "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/Firefox_JavaScript_changelog#Firefox_39"
-            },
-            {
-                "title": "Native CSS Scroll Snap Points",
-                "url": "http://blog.gospodarets.com/css-scroll-snap/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "esprima/ChangeLog at 2.4.1 · jquery/esprima",
-        "url": "https://github.com/jquery/esprima/blob/2.4.1/ChangeLog",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "esprima 2.4.0リリース。\nfor-of、spread elementのサポート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Important security upgrades for node.js and io.js — Medium",
-        "url": "https://medium.com/@iojs/important-security-upgrades-for-node-js-and-io-js-8ac14ece5852",
-        "tags": [
-            "node.js",
-            "ReleaseNote",
-            "セキュリティ"
-        ],
-        "content": "Node.jsとio.jsにV8起因の脆弱性があったためセキュリティアップデートとしてNode.js v0.12.6、io.js-v2.3.3、io.js-v1.8.3がリリースされた",
-        "relatedLinks": [
-            {
-                "title": "Node.js と io.js のCritical Security Issue について",
-                "url": "http://blog.iojs.jp/important_security_issue.html"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Using JSX with TypeScript – Minko Gechev&#x27;s blog",
-        "url": "http://blog.mgechev.com/2015/07/05/using-jsx-react-with-typescript",
-        "tags": [
-            "TypeScript",
-            "React"
-        ],
-        "content": "TypeScriptのmasterに入ったJSXサポートについて\n1.6としてリリース予定のJSXを今試す方法",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Aerotwist - React + Performance = ?",
-        "url": "https://aerotwist.com/blog/react-plus-performance-equals-what/",
-        "tags": [
-            "React",
-            "DOM",
-            "performance"
-        ],
-        "content": "DOMは遅くてReactのVirtual DOMは早いと言われることがあるけどそれは本当なのか。\n写真を追加するサンプルをVanillaとReactで比較してみた結果から分かった事について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Perf audit: Loading performance · Issue #247 · reddit/reddit-mobile",
-        "url": "https://github.com/reddit/reddit-mobile/issues/247",
-        "tags": [
-            "performance",
-            "mobile",
-            "browser",
-            "issue"
-        ],
-        "content": "Paul Irishによるredditのモバイルサイトのローディング完了までに45秒かかってる原因について報告してるIssue。\nChrome開発者ツール、React Perf、discなどを使って何が原因であるかを見ていく方法について参考になる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "How fast are web workers? ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/07/how-fast-are-web-workers/",
-        "tags": [
-            "webworker",
-            "firefox"
-        ],
-        "content": "WebWorkerやSharedWorkerの起動コスト、メッセージの転送速度について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Mozilla Games Technology Roadmap | Future Releases",
-        "url": "https://blog.mozilla.org/futurereleases/2015/07/02/mozilla-games-technology-roadmap/",
-        "tags": [
-            "Mozilla",
-            "firefox",
-            "future"
-        ],
-        "content": "ウェブでプラグインフリーなゲームを実現するのに関連するIssueやロードマップ by Mozilla",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Breakouts",
-        "url": "http://www.jsbreakouts.org/",
-        "tags": [
-            "JavaScript",
-            "game",
-            "library",
-            "まとめ"
-        ],
-        "content": "JavaScriptゲームエンジン版のTodoMVC。\n同じゲームを色々なゲームエンジンで実装したものを比較出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "arkency/reactjs_koans",
-        "url": "https://github.com/arkency/reactjs_koans",
-        "tags": [
-            "React",
-            "tutorial"
-        ],
-        "content": "Reactを学ぶための問題集",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Paul Kinlan on Twitter: &quot;Created @ChromiumDev slack. A place for web devs to talk dev and chrome Join ☞ https://t.co/RAr4iTzesM Login ☞ https://t.co/8xLiIpC0F8&quot;",
-        "url": "https://twitter.com/Paul_Kinlan/status/598494432321773569",
-        "tags": [
-            "Chrome",
-            "community"
-        ],
-        "content": "Chromiumについての情報共有を目的としたSlackが開設された。\n開発者とのコミュニケーションや情報共有向け",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Safe JavaScript Templating",
-        "url": "http://yahoo.github.io/secure-handlebars/",
-        "tags": [
-            "JavaScript",
-            "template",
-            "library",
-            "セキュリティ"
-        ],
-        "content": "Yahoo!製のAutomatic Contextual Escapingを持ったHandlebars互換のテンプレーエンジン。",
-        "relatedLinks": [
-            {
-                "title": "Frontend Security: Applying Contextual Escaping Automatically, or How…",
-                "url": "http://www.slideshare.net/adonatwork/automatic-contextual-escaping-made-easy"
-            },
-            {
-                "title": "yahoo/xss-filters",
-                "url": "https://github.com/yahoo/xss-filters"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Cycle.js",
-        "url": "http://cyclejs.github.io/index.html",
-        "tags": [
-            "JavaScript",
-            "Rx",
-            "library",
-            "VirtualDOM"
-        ],
-        "content": "Rxを使った一方通行のデータフローとImmutabilityを実現するフレームワーク。_Model-View-Intent_というアーキテクチャを持ち、ユーザからの入力を_Intent_とし_Model_へ通知し、_Model_の変更を監視している_View_(virtual-dom)が更新されるようなサイクルを作ることを目的としている。\nそれらの通知と監視の仕組みにRxのObservableを利用している。",
-        "relatedLinks": [
-            {
-                "title": "Reactive MVC and the Virtual DOM — Futurice",
-                "url": "http://futurice.com/blog/reactive-mvc-and-the-virtual-dom"
-            },
-            {
-                "title": "Cyclejs vs mercuryjs · Issue #49 · cyclejs/cycle-core",
-                "url": "https://github.com/cyclejs/cycle-core/issues/49"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "The W3C Mobile Checker",
-        "url": "https://validator.w3.org/mobile-alpha/",
-        "tags": [
-            "W3C",
-            "mobile",
-            "Tools"
-        ],
-        "content": "W3Cによるモバイルフレンドリーかをチェックするツール。\nURLを入れると問題点と解決方法を提示してくれる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Learning WebRTC - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/9781783983667.do",
-        "tags": [
-            "WebRTC",
-            "book"
-        ],
-        "content": "WebRTCについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "React: Up &amp; Running - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920042266.do",
-        "tags": [
-            "React",
-            "book"
-        ],
-        "content": "2015年12月発売\nReactについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon.com: Test-driven JavaScript Development eBook: Ravi Kumar Gupta, Harmeet Singh, Hetal Prajapati: Kindle Store",
-        "url": "http://www.amazon.com/Test-driven-JavaScript-Development-Kumar-Gupta-ebook/dp/B010T266P6",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "book"
-        ],
-        "content": "2016年1月5日発売\nJavaScriptのTDD本",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "React v0.14 Beta 1 | React",
+            "url": "https://facebook.github.io/react/blog/2015/07/03/react-v0.14-beta-1.html",
+            "tags": [
+                "React",
+                "ReleaseNote"
+            ],
+            "content": "React v0.14 Beta 1リリース。\nreactとreact-domにパッケージが分かれた。refsがDOM nodeそのものを指すようになるなど。\nまた移行用の変換ツールとしてreact-codemodが公開された",
+            "relatedLinks": [
+                {
+                    "title": "react-codemod",
+                    "url": "https://www.npmjs.com/package/react-codemod"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Firefox — Notes (39.0) — Mozilla",
+            "url": "https://www.mozilla.org/en-US/firefox/39.0/releasenotes/",
+            "tags": [
+                "firefox",
+                "ReleaseNote"
+            ],
+            "content": "Firefox 39リリース。\nFetch APIがデフォルトで有効に、CSS Scroll Snap Pointsのサポート、ES6仕様への準拠など",
+            "relatedLinks": [
+                {
+                    "title": "Firefox 39 サイト互換性情報 - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/39/Site_Compatibility"
+                },
+                {
+                    "title": "Firefox 39 for developers - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/39"
+                },
+                {
+                    "title": "Firefox JavaScript changelog - JavaScript | MDN",
+                    "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/Firefox_JavaScript_changelog#Firefox_39"
+                },
+                {
+                    "title": "Native CSS Scroll Snap Points",
+                    "url": "http://blog.gospodarets.com/css-scroll-snap/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "esprima/ChangeLog at 2.4.1 · jquery/esprima",
+            "url": "https://github.com/jquery/esprima/blob/2.4.1/ChangeLog",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "esprima 2.4.0リリース。\nfor-of、spread elementのサポート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Important security upgrades for node.js and io.js — Medium",
+            "url": "https://medium.com/@iojs/important-security-upgrades-for-node-js-and-io-js-8ac14ece5852",
+            "tags": [
+                "node.js",
+                "ReleaseNote",
+                "セキュリティ"
+            ],
+            "content": "Node.jsとio.jsにV8起因の脆弱性があったためセキュリティアップデートとしてNode.js v0.12.6、io.js-v2.3.3、io.js-v1.8.3がリリースされた",
+            "relatedLinks": [
+                {
+                    "title": "Node.js と io.js のCritical Security Issue について",
+                    "url": "http://blog.iojs.jp/important_security_issue.html"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Using JSX with TypeScript – Minko Gechev&#x27;s blog",
+            "url": "http://blog.mgechev.com/2015/07/05/using-jsx-react-with-typescript",
+            "tags": [
+                "TypeScript",
+                "React"
+            ],
+            "content": "TypeScriptのmasterに入ったJSXサポートについて\n1.6としてリリース予定のJSXを今試す方法",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Aerotwist - React + Performance = ?",
+            "url": "https://aerotwist.com/blog/react-plus-performance-equals-what/",
+            "tags": [
+                "React",
+                "DOM",
+                "performance"
+            ],
+            "content": "DOMは遅くてReactのVirtual DOMは早いと言われることがあるけどそれは本当なのか。\n写真を追加するサンプルをVanillaとReactで比較してみた結果から分かった事について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Perf audit: Loading performance · Issue #247 · reddit/reddit-mobile",
+            "url": "https://github.com/reddit/reddit-mobile/issues/247",
+            "tags": [
+                "performance",
+                "mobile",
+                "browser",
+                "issue"
+            ],
+            "content": "Paul Irishによるredditのモバイルサイトのローディング完了までに45秒かかってる原因について報告してるIssue。\nChrome開発者ツール、React Perf、discなどを使って何が原因であるかを見ていく方法について参考になる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "How fast are web workers? ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/07/how-fast-are-web-workers/",
+            "tags": [
+                "webworker",
+                "firefox"
+            ],
+            "content": "WebWorkerやSharedWorkerの起動コスト、メッセージの転送速度について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Mozilla Games Technology Roadmap | Future Releases",
+            "url": "https://blog.mozilla.org/futurereleases/2015/07/02/mozilla-games-technology-roadmap/",
+            "tags": [
+                "Mozilla",
+                "firefox",
+                "future"
+            ],
+            "content": "ウェブでプラグインフリーなゲームを実現するのに関連するIssueやロードマップ by Mozilla",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Breakouts",
+            "url": "http://www.jsbreakouts.org/",
+            "tags": [
+                "JavaScript",
+                "game",
+                "library",
+                "まとめ"
+            ],
+            "content": "JavaScriptゲームエンジン版のTodoMVC。\n同じゲームを色々なゲームエンジンで実装したものを比較出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "arkency/reactjs_koans",
+            "url": "https://github.com/arkency/reactjs_koans",
+            "tags": [
+                "React",
+                "tutorial"
+            ],
+            "content": "Reactを学ぶための問題集",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Paul Kinlan on Twitter: &quot;Created @ChromiumDev slack. A place for web devs to talk dev and chrome Join ☞ https://t.co/RAr4iTzesM Login ☞ https://t.co/8xLiIpC0F8&quot;",
+            "url": "https://twitter.com/Paul_Kinlan/status/598494432321773569",
+            "tags": [
+                "Chrome",
+                "community"
+            ],
+            "content": "Chromiumについての情報共有を目的としたSlackが開設された。\n開発者とのコミュニケーションや情報共有向け",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Safe JavaScript Templating",
+            "url": "http://yahoo.github.io/secure-handlebars/",
+            "tags": [
+                "JavaScript",
+                "template",
+                "library",
+                "セキュリティ"
+            ],
+            "content": "Yahoo!製のAutomatic Contextual Escapingを持ったHandlebars互換のテンプレーエンジン。",
+            "relatedLinks": [
+                {
+                    "title": "Frontend Security: Applying Contextual Escaping Automatically, or How…",
+                    "url": "http://www.slideshare.net/adonatwork/automatic-contextual-escaping-made-easy"
+                },
+                {
+                    "title": "yahoo/xss-filters",
+                    "url": "https://github.com/yahoo/xss-filters"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Cycle.js",
+            "url": "http://cyclejs.github.io/index.html",
+            "tags": [
+                "JavaScript",
+                "Rx",
+                "library",
+                "VirtualDOM"
+            ],
+            "content": "Rxを使った一方通行のデータフローとImmutabilityを実現するフレームワーク。_Model-View-Intent_というアーキテクチャを持ち、ユーザからの入力を_Intent_とし_Model_へ通知し、_Model_の変更を監視している_View_(virtual-dom)が更新されるようなサイクルを作ることを目的としている。\nそれらの通知と監視の仕組みにRxのObservableを利用している。",
+            "relatedLinks": [
+                {
+                    "title": "Reactive MVC and the Virtual DOM — Futurice",
+                    "url": "http://futurice.com/blog/reactive-mvc-and-the-virtual-dom"
+                },
+                {
+                    "title": "Cyclejs vs mercuryjs · Issue #49 · cyclejs/cycle-core",
+                    "url": "https://github.com/cyclejs/cycle-core/issues/49"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "The W3C Mobile Checker",
+            "url": "https://validator.w3.org/mobile-alpha/",
+            "tags": [
+                "W3C",
+                "mobile",
+                "Tools"
+            ],
+            "content": "W3Cによるモバイルフレンドリーかをチェックするツール。\nURLを入れると問題点と解決方法を提示してくれる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Learning WebRTC - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/9781783983667.do",
+            "tags": [
+                "WebRTC",
+                "book"
+            ],
+            "content": "WebRTCについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "React: Up &amp; Running - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920042266.do",
+            "tags": [
+                "React",
+                "book"
+            ],
+            "content": "2015年12月発売\nReactについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon.com: Test-driven JavaScript Development eBook: Ravi Kumar Gupta, Harmeet Singh, Hetal Prajapati: Kindle Store",
+            "url": "http://www.amazon.com/Test-driven-JavaScript-Development-Kumar-Gupta-ebook/dp/B010T266P6",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "book"
+            ],
+            "content": "2016年1月5日発売\nJavaScriptのTDD本",
+            "relatedLinks": []
+        }
+    ]
+}

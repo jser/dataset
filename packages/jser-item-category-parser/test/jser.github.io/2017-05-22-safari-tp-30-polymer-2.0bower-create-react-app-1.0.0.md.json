@@ -1,290 +1,305 @@
-[
-    {
-        "category": "Headline",
-        "title": "Release Notes for Safari Technology Preview 30 | WebKit",
-        "url": "https://webkit.org/blog/7614/release-notes-for-safari-technology-preview-30/",
+{
+    "meta": {
+        "title": "2017-05-22のJS: Safari TP 30、Polymer 2.0とBower、Create React App 1.0.0",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-05-22T10:59:03.315Z",
+        "category": "JSer",
         "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "Safari Technology Preview Release 30リリース。\nSubresource Integrity(SRI)、`X-Content-Type-Options:nosniff`に対応、PromiseのUnhandled rejectionのイベントをサポート。\n`document.cookie`のアクセスを厳密化、WAI-ARIA周りの修正など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Time for 2.0 - Polymer Project",
-        "url": "https://www.polymer-project.org/blog/2017-05-15-time-for-two",
-        "tags": [
-            "WebComponents",
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Polymer 2.0リリース。\nクラスベースで書けるように、Polymer CLIも併せてメジャーアップデートされた",
-        "relatedLinks": [
-            {
-                "title": "Release Stable Release 2.0.0 · Polymer/polymer",
-                "url": "https://github.com/Polymer/polymer/releases/tag/v2.0.0"
-            },
-            {
-                "title": "What",
-                "url": "https://www.polymer-project.org/2.0/docs/about_20"
-            }
+            "Safari",
+            "Polymer",
+            "Bower",
+            "React"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Release 7.0 “Coelestem adspicit lucem” · postcss/autoprefixer",
-        "url": "https://github.com/postcss/autoprefixer/releases/tag/7.0.0",
-        "tags": [
-            "CSS",
-            "ReleaseNote"
-        ],
-        "content": "Autoprefixer 7.0リリース。\nPostCSS 6.0、Browserslist 2.0、caniuse-liteを利用するように。\nNode.js 0.12のサポート終了、Grid Layoutのサポートをデフォルトではオフに、コードベースがCoffeeScriptからBabelへ移行など",
-        "relatedLinks": [
-            {
-                "title": "Autoprefixer 7.0 and Browserslist 2.0 — Martian Chronicles, Evil Martians’ team blog",
-                "url": "https://evilmartians.com/chronicles/autoprefixer-7-browserslist-2-released"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint v4.0.0-beta.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2017/05/eslint-v4.0.0-beta.0-released",
-        "tags": [
-            "ESLint",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 4.0.0βリリース。",
-        "relatedLinks": [
-            {
-                "title": "ESLint v4.0.0 の変更点まとめ - Qiita",
-                "url": "http://qiita.com/mysticatea/items/3d01452d76ea6c943793"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Add yarn and webpack recommendation from bower.io to readme Fixes #2298 by graingert · Pull Request #2458 · bower/bower",
-        "url": "https://github.com/bower/bower/pull/2458",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "news"
-        ],
-        "content": "Bowerが`npm deprecate`となり正式に非推奨となった。\nメンテナンスは続けられるが、Bowerの将来に興味がある人はメールで連絡をくださいとのこと。",
-        "relatedLinks": [
-            {
-                "title": "Consider deprecating Bower. · Issue #2298 · bower/bower",
-                "url": "https://github.com/bower/bower/issues/2298#issuecomment-302792690"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release v1.0.0 · facebookincubator/create-react-app",
-        "url": "https://github.com/facebookincubator/create-react-app/releases/tag/v1.0.0",
-        "tags": [
-            "React",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "create-react-app v1.0.0リリース。\nwebpack 2、ランタイムエラーの表示、Service Workerの対応、Jest 20、Dynamic importを使ったコード分割など",
-        "relatedLinks": [
-            {
-                "title": "What",
-                "url": "https://facebook.github.io/react/blog/2017/05/18/whats-new-in-create-react-app.html"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ZEIT – Next 3.0 Preview",
-        "url": "https://zeit.co/blog/next3-preview",
-        "tags": [
-            "JavaScript",
-            "React",
-            "サーバー",
-            "ReleaseNote"
-        ],
-        "content": "Next 3.0 プレビューリリース。\n`next export`で静的なHTMLとして出力できるように、コンポーネントのdynamic importをサポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Developer Edition 54: New inspector and debugger features, MDN help in the netmonitor, and more ★ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2017/03/developer-edition-54-new-inspector-and-debugger-features/",
-        "tags": [
-            "firefox",
-            "debug",
-            "article"
-        ],
-        "content": "Firefox 54の開発者ツールの変更点紹介。\nCSS Inspectの改善、Debuggerパネルで整形版が別タブで開けたり、ツールチップで変数の表示、Network PanelでMore Infoからヘルプへの移動、JSON Viewなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript のもう一つの「関数名」 —— name プロパティ - Qiita",
-        "url": "http://qiita.com/8x9/items/34272b59b5aa68e33256",
-        "tags": [
-            "JavaScript",
-            "article"
-        ],
-        "content": "JavaScriptのFunctionの`name`プロパティについて。\nES2015から無名関数やArrow Functionなど関数自体が名前を持ってなくても、変数宣言側の名前が`name`プロパティで参照できることや、`writable`属性の仕様についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "The Many Faces of Functions in JavaScript - Bocoup",
-        "url": "https://bocoup.com/blog/the-many-faces-of-functions-in-javascript",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "article"
-        ],
-        "content": "JavaScriptの色々な\"関数\"についての解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "A Modern Front-End Workflow – Umar Hansa | Render 2017 - YouTube",
-        "url": "https://www.youtube.com/watch?v=v5r_n6Tq0uk",
-        "tags": [
-            "Chrome",
-            "debug",
-            "video"
-        ],
-        "content": "Chrome開発者ツールのTipsやデバッグワークフローについての発表動画",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "The Future of Audio and Video on the Web (Google I/O '17) - YouTube",
-        "url": "https://www.youtube.com/watch?v=z9unKFzAj1w",
-        "tags": [
-            "google",
-            "video",
-            "JavaScript",
-            "ProgressiveWebApp"
-        ],
-        "content": "ウェブサイトにおける動画や音楽のPWA対応についての発表動画。\nServiceWorkerを使ったオフライン対応、回転とフルスクリーン、 Media Capabilitiesを使った再生判定、MediaSession APIでのカバー表示など",
-        "relatedLinks": [
-            {
-                "title": "GoogleChrome/sample-media-pwa: A sample video-on-demand media Progressive Web App",
-                "url": "https://github.com/GoogleChrome/sample-media-pwa"
-            },
-            {
-                "title": "Customize Media Notifications and Handle Playlists  |  Web  |  Google Developers",
-                "url": "https://developers.google.com/web/updates/2017/02/media-session"
-            },
-            {
-                "title": "google/shaka-player: JavaScript player library / DASH client / MSE-EME player",
-                "url": "https://github.com/google/shaka-player"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Web Performance: Leveraging the Metrics that Most Affect User Experience (Google I/O '17) - YouTube",
-        "url": "https://www.youtube.com/watch?v=6Ljq-Jn-EgU&index=71&list=PLOU2XLYxmsIKC8eODk_RNCWv3fBcLvMMy",
-        "tags": [
-            "browser",
-            "performance",
-            "video"
-        ],
-        "content": "パフォーマンスとメトリクスについての発表動画。\nロード完了ではなくインタラクティブになった時間(TTI)を計測、Hero Elements。UXとメトリクス\nLong Tasks(50ms)をPerformanceObserverで検出、操作の遅延の計測、改善のパターンについて",
-        "relatedLinks": [
-            {
-                "title": "GoogleChrome/tti-polyfill: TTI polyfill",
-                "url": "https://github.com/GoogleChrome/tti-polyfill"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "CSS Houdini- the bridge between CSS, JavaScript and the browser by Serg Hospodarets",
-        "url": "http://slides.com/malyw/houdini-codemotion#/",
-        "tags": [
-            "CSS",
-            "slide"
-        ],
-        "content": "CSS Houdiniについてのスライド。\nCSS/JavaScript/ブラウザの連携、Workletについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": " Google I/O 2017 - All Sessions - YouTube",
-        "url": "http://www.youtube.com/playlist?list=PLOU2XLYxmsIKC8eODk_RNCWv3fBcLvMMy",
-        "tags": [
-            "google",
-            "video",
-            "イベント"
-        ],
-        "content": "Google I/O 2017の動画まとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": " JSConf EU 2017 - YouTube",
-        "url": "https://www.youtube.com/playlist?list=PL37ZVnwpeshFmAPr65sU2O5WMs7_CGjs_",
-        "tags": [
-            "JavaScript",
-            "イベント",
-            "video"
-        ],
-        "content": "JSConf EU 2017の動画一覧",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Don't Overcomplicate Javascript – Bits from Nikola Ristic ∞ ƒront-end ∆eveloper",
-        "url": "https://bits.ristic.io/dont-overcomplicate-javascript-0",
-        "tags": [
-            "redux",
-            "opinion"
-        ],
-        "content": "JavaScriptにおけるカーゴカルトについての連載。よく理解しないでコードの習慣を持ち込むことは技術的負債や複雑性を持ち込む可能性があることについて。\nReduxにおけるActionの定数のパターンについて。`import * as Constants from \"./constants\"`の問題点についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "HN PWA - Hacker News readers as Progressive Web Apps",
-        "url": "https://hnpwa.com/",
-        "tags": [
-            "JavaScript",
-            "ProgressiveWebApp",
-            "example"
-        ],
-        "content": "Hacker Newsを色々なViewフレームワークで実装したまとめ。",
-        "relatedLinks": [
-            {
-                "title": "Hacker News APIがTodoMVC的な場所になってる | Web Scratch",
-                "url": "http://efcl.info/2014/10/11/hackernews-api/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "diegomura/react-pdf: Create PDF files using React",
-        "url": "https://github.com/diegomura/react-pdf",
-        "tags": [
-            "React",
-            "PDF",
-            "library"
-        ],
-        "content": "Reactコンポーネントとしてレイアウトなどを書きPDFを生成するライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Complete Redux Book by Ilya Gelman et al. \\[PDF/iPad/Kindle\\]",
-        "url": "https://leanpub.com/redux-book",
-        "tags": [
-            "redux",
-            "book"
-        ],
-        "content": "Reduxについての電子書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Release Notes for Safari Technology Preview 30 | WebKit",
+            "url": "https://webkit.org/blog/7614/release-notes-for-safari-technology-preview-30/",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "Safari Technology Preview Release 30リリース。\nSubresource Integrity(SRI)、`X-Content-Type-Options:nosniff`に対応、PromiseのUnhandled rejectionのイベントをサポート。\n`document.cookie`のアクセスを厳密化、WAI-ARIA周りの修正など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Time for 2.0 - Polymer Project",
+            "url": "https://www.polymer-project.org/blog/2017-05-15-time-for-two",
+            "tags": [
+                "WebComponents",
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Polymer 2.0リリース。\nクラスベースで書けるように、Polymer CLIも併せてメジャーアップデートされた",
+            "relatedLinks": [
+                {
+                    "title": "Release Stable Release 2.0.0 · Polymer/polymer",
+                    "url": "https://github.com/Polymer/polymer/releases/tag/v2.0.0"
+                },
+                {
+                    "title": "What",
+                    "url": "https://www.polymer-project.org/2.0/docs/about_20"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 7.0 “Coelestem adspicit lucem” · postcss/autoprefixer",
+            "url": "https://github.com/postcss/autoprefixer/releases/tag/7.0.0",
+            "tags": [
+                "CSS",
+                "ReleaseNote"
+            ],
+            "content": "Autoprefixer 7.0リリース。\nPostCSS 6.0、Browserslist 2.0、caniuse-liteを利用するように。\nNode.js 0.12のサポート終了、Grid Layoutのサポートをデフォルトではオフに、コードベースがCoffeeScriptからBabelへ移行など",
+            "relatedLinks": [
+                {
+                    "title": "Autoprefixer 7.0 and Browserslist 2.0 — Martian Chronicles, Evil Martians’ team blog",
+                    "url": "https://evilmartians.com/chronicles/autoprefixer-7-browserslist-2-released"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v4.0.0-beta.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2017/05/eslint-v4.0.0-beta.0-released",
+            "tags": [
+                "ESLint",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 4.0.0βリリース。",
+            "relatedLinks": [
+                {
+                    "title": "ESLint v4.0.0 の変更点まとめ - Qiita",
+                    "url": "http://qiita.com/mysticatea/items/3d01452d76ea6c943793"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Add yarn and webpack recommendation from bower.io to readme Fixes #2298 by graingert · Pull Request #2458 · bower/bower",
+            "url": "https://github.com/bower/bower/pull/2458",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "news"
+            ],
+            "content": "Bowerが`npm deprecate`となり正式に非推奨となった。\nメンテナンスは続けられるが、Bowerの将来に興味がある人はメールで連絡をくださいとのこと。",
+            "relatedLinks": [
+                {
+                    "title": "Consider deprecating Bower. · Issue #2298 · bower/bower",
+                    "url": "https://github.com/bower/bower/issues/2298#issuecomment-302792690"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release v1.0.0 · facebookincubator/create-react-app",
+            "url": "https://github.com/facebookincubator/create-react-app/releases/tag/v1.0.0",
+            "tags": [
+                "React",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "create-react-app v1.0.0リリース。\nwebpack 2、ランタイムエラーの表示、Service Workerの対応、Jest 20、Dynamic importを使ったコード分割など",
+            "relatedLinks": [
+                {
+                    "title": "What",
+                    "url": "https://facebook.github.io/react/blog/2017/05/18/whats-new-in-create-react-app.html"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ZEIT – Next 3.0 Preview",
+            "url": "https://zeit.co/blog/next3-preview",
+            "tags": [
+                "JavaScript",
+                "React",
+                "サーバー",
+                "ReleaseNote"
+            ],
+            "content": "Next 3.0 プレビューリリース。\n`next export`で静的なHTMLとして出力できるように、コンポーネントのdynamic importをサポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Developer Edition 54: New inspector and debugger features, MDN help in the netmonitor, and more ★ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2017/03/developer-edition-54-new-inspector-and-debugger-features/",
+            "tags": [
+                "firefox",
+                "debug",
+                "article"
+            ],
+            "content": "Firefox 54の開発者ツールの変更点紹介。\nCSS Inspectの改善、Debuggerパネルで整形版が別タブで開けたり、ツールチップで変数の表示、Network PanelでMore Infoからヘルプへの移動、JSON Viewなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript のもう一つの「関数名」 —— name プロパティ - Qiita",
+            "url": "http://qiita.com/8x9/items/34272b59b5aa68e33256",
+            "tags": [
+                "JavaScript",
+                "article"
+            ],
+            "content": "JavaScriptのFunctionの`name`プロパティについて。\nES2015から無名関数やArrow Functionなど関数自体が名前を持ってなくても、変数宣言側の名前が`name`プロパティで参照できることや、`writable`属性の仕様についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "The Many Faces of Functions in JavaScript - Bocoup",
+            "url": "https://bocoup.com/blog/the-many-faces-of-functions-in-javascript",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "article"
+            ],
+            "content": "JavaScriptの色々な\"関数\"についての解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "A Modern Front-End Workflow – Umar Hansa | Render 2017 - YouTube",
+            "url": "https://www.youtube.com/watch?v=v5r_n6Tq0uk",
+            "tags": [
+                "Chrome",
+                "debug",
+                "video"
+            ],
+            "content": "Chrome開発者ツールのTipsやデバッグワークフローについての発表動画",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "The Future of Audio and Video on the Web (Google I/O '17) - YouTube",
+            "url": "https://www.youtube.com/watch?v=z9unKFzAj1w",
+            "tags": [
+                "google",
+                "video",
+                "JavaScript",
+                "ProgressiveWebApp"
+            ],
+            "content": "ウェブサイトにおける動画や音楽のPWA対応についての発表動画。\nServiceWorkerを使ったオフライン対応、回転とフルスクリーン、 Media Capabilitiesを使った再生判定、MediaSession APIでのカバー表示など",
+            "relatedLinks": [
+                {
+                    "title": "GoogleChrome/sample-media-pwa: A sample video-on-demand media Progressive Web App",
+                    "url": "https://github.com/GoogleChrome/sample-media-pwa"
+                },
+                {
+                    "title": "Customize Media Notifications and Handle Playlists  |  Web  |  Google Developers",
+                    "url": "https://developers.google.com/web/updates/2017/02/media-session"
+                },
+                {
+                    "title": "google/shaka-player: JavaScript player library / DASH client / MSE-EME player",
+                    "url": "https://github.com/google/shaka-player"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Web Performance: Leveraging the Metrics that Most Affect User Experience (Google I/O '17) - YouTube",
+            "url": "https://www.youtube.com/watch?v=6Ljq-Jn-EgU&index=71&list=PLOU2XLYxmsIKC8eODk_RNCWv3fBcLvMMy",
+            "tags": [
+                "browser",
+                "performance",
+                "video"
+            ],
+            "content": "パフォーマンスとメトリクスについての発表動画。\nロード完了ではなくインタラクティブになった時間(TTI)を計測、Hero Elements。UXとメトリクス\nLong Tasks(50ms)をPerformanceObserverで検出、操作の遅延の計測、改善のパターンについて",
+            "relatedLinks": [
+                {
+                    "title": "GoogleChrome/tti-polyfill: TTI polyfill",
+                    "url": "https://github.com/GoogleChrome/tti-polyfill"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "CSS Houdini- the bridge between CSS, JavaScript and the browser by Serg Hospodarets",
+            "url": "http://slides.com/malyw/houdini-codemotion#/",
+            "tags": [
+                "CSS",
+                "slide"
+            ],
+            "content": "CSS Houdiniについてのスライド。\nCSS/JavaScript/ブラウザの連携、Workletについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": " Google I/O 2017 - All Sessions - YouTube",
+            "url": "http://www.youtube.com/playlist?list=PLOU2XLYxmsIKC8eODk_RNCWv3fBcLvMMy",
+            "tags": [
+                "google",
+                "video",
+                "イベント"
+            ],
+            "content": "Google I/O 2017の動画まとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": " JSConf EU 2017 - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PL37ZVnwpeshFmAPr65sU2O5WMs7_CGjs_",
+            "tags": [
+                "JavaScript",
+                "イベント",
+                "video"
+            ],
+            "content": "JSConf EU 2017の動画一覧",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Don't Overcomplicate Javascript – Bits from Nikola Ristic ∞ ƒront-end ∆eveloper",
+            "url": "https://bits.ristic.io/dont-overcomplicate-javascript-0",
+            "tags": [
+                "redux",
+                "opinion"
+            ],
+            "content": "JavaScriptにおけるカーゴカルトについての連載。よく理解しないでコードの習慣を持ち込むことは技術的負債や複雑性を持ち込む可能性があることについて。\nReduxにおけるActionの定数のパターンについて。`import * as Constants from \"./constants\"`の問題点についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "HN PWA - Hacker News readers as Progressive Web Apps",
+            "url": "https://hnpwa.com/",
+            "tags": [
+                "JavaScript",
+                "ProgressiveWebApp",
+                "example"
+            ],
+            "content": "Hacker Newsを色々なViewフレームワークで実装したまとめ。",
+            "relatedLinks": [
+                {
+                    "title": "Hacker News APIがTodoMVC的な場所になってる | Web Scratch",
+                    "url": "http://efcl.info/2014/10/11/hackernews-api/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "diegomura/react-pdf: Create PDF files using React",
+            "url": "https://github.com/diegomura/react-pdf",
+            "tags": [
+                "React",
+                "PDF",
+                "library"
+            ],
+            "content": "Reactコンポーネントとしてレイアウトなどを書きPDFを生成するライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Complete Redux Book by Ilya Gelman et al. \\[PDF/iPad/Kindle\\]",
+            "url": "https://leanpub.com/redux-book",
+            "tags": [
+                "redux",
+                "book"
+            ],
+            "content": "Reduxについての電子書籍",
+            "relatedLinks": []
+        }
+    ]
+}

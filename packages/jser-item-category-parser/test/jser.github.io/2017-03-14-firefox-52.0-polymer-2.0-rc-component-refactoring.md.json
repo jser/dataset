@@ -1,313 +1,329 @@
-[
-    {
-        "category": "Headline",
-        "title": "Release Notes for Safari Technology Preview 25 | WebKit",
-        "url": "https://webkit.org/blog/7432/release-notes-for-safari-technology-preview-25/",
+{
+    "meta": {
+        "title": "2017-03-14のJS: Firefox 52.0、Polymer 2.0 RC、コンポーネントのリファクタリング戦略",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-03-14T00:40:19.564Z",
+        "category": "JSer",
         "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "afari Technology Preview Release 25リリース。\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "# Apollo Client 1.0 is coming\n",
-        "url": "https://dev-blog.apollodata.com/apollo-client-1-0-is-coming-23b74b13fbbb",
-        "tags": [
-            "GraphQL",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "aphQLクライアントのApollo Client 1.0リリース\n\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": " Firefox 52.0 リリースノート\n[",
-        "url": "https://www.mozilla.jp/firefox/52.0/releasenotes/",
-        "tags": [
-            "firefox",
-            "ReleaseNote"
-        ],
-        "content": "efox 52.0リリース。\nwasmのデフォルト有効化、CSS Gridのサポート、`rel=\"noopener\"`のサポート、async/await、Unicode code pointを識別子として利用できるようになるなど\n\n-",
-        "relatedLinks": [
-            {
-                "title": "Firefox 52 for developers - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/ja/Firefox/Releases/52"
-            },
-            {
-                "title": "Firefox 52 サイト互換性情報 | Firefox サイト互換性情報",
-                "url": "https://www.fxsitecompat.com/ja/versions/52/"
-            },
-            {
-                "title": "Firefox 52 が正式リリース、WebAssembly、CSS Grid Layout の実装、レスポンシブデザインモードの拡充など盛りだくさん | WWW WATCH",
-                "url": "https://hyper-text.org/archives/2017/03/firefox_52_release.shtml"
-            }
+            "Firefox",
+            "Polymer",
+            "React",
+            "Component",
+            "refactoring"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "qunit/History.md at 2.2.0 · qunitjs/qunit\n[g",
-        "url": "https://github.com/qunitjs/qunit/blob/2.2.0/History.md",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "t 2.2.0リリース。\n1つ以上のテストがFailのときはPassし、Todoのみが残った時はFaillする`QUnit.todo`の追加、通った順序を記録し検証する`assert.step()`と`assert.verifySteps`を追加など\n\n\n-",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "elease Inferno 1.4.0 · infernojs/inferno\n[gi",
-        "url": "https://github.com/infernojs/inferno/releases/tag/1.4.0",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "no v1.4.0リリース。\nSVGのサポートを修正、optimize-jsの対応など\n\n\n--",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "lcome 2.0 Release Candidate! - Polymer Project\n[www",
-        "url": "https://www.polymer-project.org/blog/2017-03-08-2-0-rc",
-        "tags": [
-            "JavaScript",
-            "WebComponents",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "r 2.0.0 RCリリース。\nCustom Elements v1、Shadow DOM v1の仕様に追従した変更が含まれてる。\nES2015 classesの対応、ライフサイクルの変更、`is`属性サポートの廃止、データ変更検知の仕組みの変更など\n\n- [A",
-        "relatedLinks": [
-            {
-                "title": "About Polymer 2.0 - Polymer Project",
-                "url": "https://www.polymer-project.org/2.0/docs/about_20"
-            },
-            {
-                "title": "Polymer 2.0 upgrade guide - Polymer Project",
-                "url": "https://www.polymer-project.org/2.0/docs/upgrade"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "oducing Almin 0.10.0: TypeScript, FlowType, Logger | Web Scratch\n[efcl",
-        "url": "http://efcl.info/2017/03/08/almim0.10/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote",
-            "TypeScript",
-            "flowtype"
-        ],
-        "content": "ラリのAlmin 0.10.0リリース。\nコードベースをTypeScript化、FlowTypeのサポート改善、開発用のロガーの改善など\n\n- [Re",
-        "relatedLinks": [
-            {
-                "title": "Release 0.10.0 · almin/almin",
-                "url": "https://github.com/almin/almin/releases/tag/0.10.0"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "を使ったアーキテクチャについて - console.lealog();\n[lealo",
-        "url": "http://lealog.hateblo.jp/entry/2017/03/08/114017",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "イブラリであるMobXについて。\n\n- [mob",
-        "relatedLinks": [
-            {
-                "title": "mobxjs/mobx: Simple, scalable state management.",
-                "url": "https://github.com/mobxjs/mobx"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "e ECMAScript modules: nomodule attribute for the migration\n[blog.h",
-        "url": "https://blog.hospodarets.com/native-ecmascript-modules-nomodule",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "module",
-            "article"
-        ],
-        "content": "`nomodule`属性について\nモジュールをサポートしてない環境でのみ実行されるscript要素で、fallbackを行う方法について\n\n\n----\n\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "lete Guide to CSS Grid | Codrops CSS Reference\n[tympanu",
-        "url": "https://tympanus.net/codrops/css_reference/grid/",
-        "tags": [
-            "CSS",
-            "article"
-        ],
-        "content": "いての詳しい解説\n\n\n----\n\n#",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Airbnb Search to React – Airbnb Engineering & Data Science – Medium\n[medium.c",
-        "url": "https://medium.com/airbnb-engineering/moving-airbnb-search-to-react-b85b815e166c",
-        "tags": [
-            "JavaScript",
-            "opinion",
-            "article"
-        ],
-        "content": "chがTwitter’s FlightからReactに移行した話。\n何を指標にしてリファクタリングを行うかについて。\n内製のパフォーマンス計測し検証しながら移行するアプローチについて\n\n- [Experi",
-        "relatedLinks": [
-            {
-                "title": "Experiment Reporting Framework - Airbnb Engineering",
-                "url": "http://nerds.airbnb.com/experiment-reporting-framework/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ク指向の Web クライアントサイドプログラミング - Hatena Developer Blog\n[developer",
-        "url": "http://developer.hatenastaff.com/entry/2017/03/10/190229",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "設計",
-            "TypeScript"
-        ],
-        "content": "ーンを使ったフレームワークを使わないアプリケーション設計について。\nView/Presenter/Modelに役割を分担したクラスを扱う方法について\n\n\n----\n\n## ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ion to Web Audio API | CSS-Tricks\n[css-tricks",
-        "url": "https://css-tricks.com/introduction-web-audio-api/",
-        "tags": [
-            "audio",
-            "tutorial",
-            "web",
-            "article"
-        ],
-        "content": "についてのチュートリアル。 どのようなAPI体系であるか、OscillatorNodeを使っての解説、Web Audio APIにおける時間の扱いなどについて\n\n\n----\n<h1 c",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "ow Chrome Dev Tools Tricks - YouTube\n[www.youtube",
-        "url": "https://www.youtube.com/watch?v=xkzDaKwinA8",
-        "tags": [
-            "JavaScript",
-            "Chrome",
-            "debug",
-            "video"
-        ],
-        "content": "てのスクリーンキャスト\n\n\n----\n\n## WA",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "方と使い方を整理しよう\n[www.slidesha",
-        "url": "https://www.slideshare.net/nozomisawada969/waiaria-72900338",
-        "tags": [
-            "WAI-ARIA",
-            "accessibility",
-            "slide"
-        ],
-        "content": "イド。\n`aria-*`属性、role属性の使い分けや意味合いについて。\nランドマーク、文書構造、ウィジェット、ライブ領域、tabindex属性などについて\n\n\n----\n\n## Ang",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "ってくる！？ 新機能ダイジェスト\n[www.slideshar",
-        "url": "https://www.slideshare.net/masahikoasai/20160306-angular-4",
-        "tags": [
-            "AngularJS",
-            "slide"
-        ],
-        "content": "フサイクルについてのスライド。\nAngular 2.xからsemverに準拠したアップデートとなり、4.xへのメジャーアップデートどのような点が変わるのかについて。\n機能追加やアップデート方法について\n\n\n----\n<h1 clas",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "xible CSS Framework for building modern responsive web apps\n[www.getpoint.i",
-        "url": "http://www.getpoint.io/",
-        "tags": [
-            "CSS",
-            "library"
-        ],
-        "content": "ーストなCSSフレームワーク\n\n\n----\n<h1 class",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ild browsers and browser like applications with HTML, CSS, and JavaScript\n[github.com/brav",
-        "url": "https://github.com/brave/muon",
-        "tags": [
-            "Electron",
-            "security"
-        ],
-        "content": "k。\nChromiumのソースを直接使うように、Chrome extensionsのサポート、renderer processからNode.jsを完全に除去するのが目的\n\n\n----\n\n## hypera",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "pp: 1kb JavaScript library for building frontend applications.\n[github.com/hyper",
-        "url": "https://github.com/hyperapp/hyperapp",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "library"
-        ],
-        "content": "、Router、State管理をまとめて扱えるライブラリ\n\n\n----\n\n## staltz/",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "s-like: Assert that an HTML string looks approximately the same as another HTML\n[github.com/staltz",
-        "url": "https://github.com/staltz/html-looks-like",
-        "tags": [
-            "HTML",
-            "testing",
-            "library"
-        ],
-        "content": "ストライブラリ。\n\n\n----\n\n## BafS/Gut",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "odern framework to print the web correctly.\n[github.com/BafS/Gu",
-        "url": "https://github.com/BafS/Gutenberg",
-        "tags": [
-            "CSS"
-        ],
-        "content": "\n## Sazerac\n[",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": ".com/](htt",
-        "url": "http://sazeracjs.com/",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library"
-        ],
-        "content": "ストライブラリ。\nJasmine、Jest、Mochaと一緒に動作する。\nデータごとのテストケースを作るような_パラメタライズドテスト_を行える。\n\n\n----\n<h1 class=\"sit",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "～JavaScript/HTML/CSSでデスクトップアプリを作ろう：書籍案内｜技術評論社\n[gihyo.jp/book/2017/9",
-        "url": "http://gihyo.jp/book/2017/978-4-7741-8819-5",
-        "tags": [
-            "Electron",
-            "book"
-        ],
-        "content": "いての書籍\n\n\n----\n",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Release Notes for Safari Technology Preview 25 | WebKit",
+            "url": "https://webkit.org/blog/7432/release-notes-for-safari-technology-preview-25/",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "afari Technology Preview Release 25リリース。\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "# Apollo Client 1.0 is coming\n",
+            "url": "https://dev-blog.apollodata.com/apollo-client-1-0-is-coming-23b74b13fbbb",
+            "tags": [
+                "GraphQL",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "aphQLクライアントのApollo Client 1.0リリース\n\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": " Firefox 52.0 リリースノート\n[",
+            "url": "https://www.mozilla.jp/firefox/52.0/releasenotes/",
+            "tags": [
+                "firefox",
+                "ReleaseNote"
+            ],
+            "content": "efox 52.0リリース。\nwasmのデフォルト有効化、CSS Gridのサポート、`rel=\"noopener\"`のサポート、async/await、Unicode code pointを識別子として利用できるようになるなど\n\n-",
+            "relatedLinks": [
+                {
+                    "title": "Firefox 52 for developers - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/Firefox/Releases/52"
+                },
+                {
+                    "title": "Firefox 52 サイト互換性情報 | Firefox サイト互換性情報",
+                    "url": "https://www.fxsitecompat.com/ja/versions/52/"
+                },
+                {
+                    "title": "Firefox 52 が正式リリース、WebAssembly、CSS Grid Layout の実装、レスポンシブデザインモードの拡充など盛りだくさん | WWW WATCH",
+                    "url": "https://hyper-text.org/archives/2017/03/firefox_52_release.shtml"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "qunit/History.md at 2.2.0 · qunitjs/qunit\n[g",
+            "url": "https://github.com/qunitjs/qunit/blob/2.2.0/History.md",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "t 2.2.0リリース。\n1つ以上のテストがFailのときはPassし、Todoのみが残った時はFaillする`QUnit.todo`の追加、通った順序を記録し検証する`assert.step()`と`assert.verifySteps`を追加など\n\n\n-",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "elease Inferno 1.4.0 · infernojs/inferno\n[gi",
+            "url": "https://github.com/infernojs/inferno/releases/tag/1.4.0",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "no v1.4.0リリース。\nSVGのサポートを修正、optimize-jsの対応など\n\n\n--",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "lcome 2.0 Release Candidate! - Polymer Project\n[www",
+            "url": "https://www.polymer-project.org/blog/2017-03-08-2-0-rc",
+            "tags": [
+                "JavaScript",
+                "WebComponents",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "r 2.0.0 RCリリース。\nCustom Elements v1、Shadow DOM v1の仕様に追従した変更が含まれてる。\nES2015 classesの対応、ライフサイクルの変更、`is`属性サポートの廃止、データ変更検知の仕組みの変更など\n\n- [A",
+            "relatedLinks": [
+                {
+                    "title": "About Polymer 2.0 - Polymer Project",
+                    "url": "https://www.polymer-project.org/2.0/docs/about_20"
+                },
+                {
+                    "title": "Polymer 2.0 upgrade guide - Polymer Project",
+                    "url": "https://www.polymer-project.org/2.0/docs/upgrade"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "oducing Almin 0.10.0: TypeScript, FlowType, Logger | Web Scratch\n[efcl",
+            "url": "http://efcl.info/2017/03/08/almim0.10/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote",
+                "TypeScript",
+                "flowtype"
+            ],
+            "content": "ラリのAlmin 0.10.0リリース。\nコードベースをTypeScript化、FlowTypeのサポート改善、開発用のロガーの改善など\n\n- [Re",
+            "relatedLinks": [
+                {
+                    "title": "Release 0.10.0 · almin/almin",
+                    "url": "https://github.com/almin/almin/releases/tag/0.10.0"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "を使ったアーキテクチャについて - console.lealog();\n[lealo",
+            "url": "http://lealog.hateblo.jp/entry/2017/03/08/114017",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "イブラリであるMobXについて。\n\n- [mob",
+            "relatedLinks": [
+                {
+                    "title": "mobxjs/mobx: Simple, scalable state management.",
+                    "url": "https://github.com/mobxjs/mobx"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "e ECMAScript modules: nomodule attribute for the migration\n[blog.h",
+            "url": "https://blog.hospodarets.com/native-ecmascript-modules-nomodule",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "module",
+                "article"
+            ],
+            "content": "`nomodule`属性について\nモジュールをサポートしてない環境でのみ実行されるscript要素で、fallbackを行う方法について\n\n\n----\n\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "lete Guide to CSS Grid | Codrops CSS Reference\n[tympanu",
+            "url": "https://tympanus.net/codrops/css_reference/grid/",
+            "tags": [
+                "CSS",
+                "article"
+            ],
+            "content": "いての詳しい解説\n\n\n----\n\n#",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Airbnb Search to React – Airbnb Engineering & Data Science – Medium\n[medium.c",
+            "url": "https://medium.com/airbnb-engineering/moving-airbnb-search-to-react-b85b815e166c",
+            "tags": [
+                "JavaScript",
+                "opinion",
+                "article"
+            ],
+            "content": "chがTwitter’s FlightからReactに移行した話。\n何を指標にしてリファクタリングを行うかについて。\n内製のパフォーマンス計測し検証しながら移行するアプローチについて\n\n- [Experi",
+            "relatedLinks": [
+                {
+                    "title": "Experiment Reporting Framework - Airbnb Engineering",
+                    "url": "http://nerds.airbnb.com/experiment-reporting-framework/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ク指向の Web クライアントサイドプログラミング - Hatena Developer Blog\n[developer",
+            "url": "http://developer.hatenastaff.com/entry/2017/03/10/190229",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "設計",
+                "TypeScript"
+            ],
+            "content": "ーンを使ったフレームワークを使わないアプリケーション設計について。\nView/Presenter/Modelに役割を分担したクラスを扱う方法について\n\n\n----\n\n## ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ion to Web Audio API | CSS-Tricks\n[css-tricks",
+            "url": "https://css-tricks.com/introduction-web-audio-api/",
+            "tags": [
+                "audio",
+                "tutorial",
+                "web",
+                "article"
+            ],
+            "content": "についてのチュートリアル。 どのようなAPI体系であるか、OscillatorNodeを使っての解説、Web Audio APIにおける時間の扱いなどについて\n\n\n----\n<h1 c",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "ow Chrome Dev Tools Tricks - YouTube\n[www.youtube",
+            "url": "https://www.youtube.com/watch?v=xkzDaKwinA8",
+            "tags": [
+                "JavaScript",
+                "Chrome",
+                "debug",
+                "video"
+            ],
+            "content": "てのスクリーンキャスト\n\n\n----\n\n## WA",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "方と使い方を整理しよう\n[www.slidesha",
+            "url": "https://www.slideshare.net/nozomisawada969/waiaria-72900338",
+            "tags": [
+                "WAI-ARIA",
+                "accessibility",
+                "slide"
+            ],
+            "content": "イド。\n`aria-*`属性、role属性の使い分けや意味合いについて。\nランドマーク、文書構造、ウィジェット、ライブ領域、tabindex属性などについて\n\n\n----\n\n## Ang",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "ってくる！？ 新機能ダイジェスト\n[www.slideshar",
+            "url": "https://www.slideshare.net/masahikoasai/20160306-angular-4",
+            "tags": [
+                "AngularJS",
+                "slide"
+            ],
+            "content": "フサイクルについてのスライド。\nAngular 2.xからsemverに準拠したアップデートとなり、4.xへのメジャーアップデートどのような点が変わるのかについて。\n機能追加やアップデート方法について\n\n\n----\n<h1 clas",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "xible CSS Framework for building modern responsive web apps\n[www.getpoint.i",
+            "url": "http://www.getpoint.io/",
+            "tags": [
+                "CSS",
+                "library"
+            ],
+            "content": "ーストなCSSフレームワーク\n\n\n----\n<h1 class",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ild browsers and browser like applications with HTML, CSS, and JavaScript\n[github.com/brav",
+            "url": "https://github.com/brave/muon",
+            "tags": [
+                "Electron",
+                "security"
+            ],
+            "content": "k。\nChromiumのソースを直接使うように、Chrome extensionsのサポート、renderer processからNode.jsを完全に除去するのが目的\n\n\n----\n\n## hypera",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "pp: 1kb JavaScript library for building frontend applications.\n[github.com/hyper",
+            "url": "https://github.com/hyperapp/hyperapp",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "content": "、Router、State管理をまとめて扱えるライブラリ\n\n\n----\n\n## staltz/",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "s-like: Assert that an HTML string looks approximately the same as another HTML\n[github.com/staltz",
+            "url": "https://github.com/staltz/html-looks-like",
+            "tags": [
+                "HTML",
+                "testing",
+                "library"
+            ],
+            "content": "ストライブラリ。\n\n\n----\n\n## BafS/Gut",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "odern framework to print the web correctly.\n[github.com/BafS/Gu",
+            "url": "https://github.com/BafS/Gutenberg",
+            "tags": [
+                "CSS"
+            ],
+            "content": "\n## Sazerac\n[",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": ".com/](htt",
+            "url": "http://sazeracjs.com/",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library"
+            ],
+            "content": "ストライブラリ。\nJasmine、Jest、Mochaと一緒に動作する。\nデータごとのテストケースを作るような_パラメタライズドテスト_を行える。\n\n\n----\n<h1 class=\"sit",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "～JavaScript/HTML/CSSでデスクトップアプリを作ろう：書籍案内｜技術評論社\n[gihyo.jp/book/2017/9",
+            "url": "http://gihyo.jp/book/2017/978-4-7741-8819-5",
+            "tags": [
+                "Electron",
+                "book"
+            ],
+            "content": "いての書籍\n\n\n----\n",
+            "relatedLinks": []
+        }
+    ]
+}

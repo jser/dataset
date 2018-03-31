@@ -1,209 +1,225 @@
-[
-    {
-        "category": "Headline",
-        "title": "wu.js 2.0",
-        "url": "http://fitzgeraldnick.com/weblog/58/",
+{
+    "meta": {
+        "title": "2014-08-11のJS: WebStorm 9 EAP、Server Sent Events、IEのサポートサイクル",
+        "category": "JSer",
+        "author": "azu",
+        "layout": "post",
         "tags": [
-            "ECMAScript",
-            "関数型プログラミング",
             "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "mapやreduceのような高階関数を提供するwu.js2.0リリース。\n\nES6に対応してGenerator関数なども受け取って処理することが出来るようになった。",
-        "relatedLinks": [
-            {
-                "title": "wu.js 2.0",
-                "url": "http://fitzgeraldnick.com/weblog/58/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "WebStorm 9 EAP is Open! | JetBrains WebStorm Blog",
-        "url": "http://blog.jetbrains.com/webstorm/2014/08/webstorm-9-eap/",
-        "tags": [
             "WebStorm",
-            "ReleaseNote"
-        ],
-        "content": "WebStorm 9 EAPリリース。\n\nLive Editの強化、JavaScriptのトレーシングを行うSpy-jsがNode.jsに対応、PhoneGap対応、`.if`などを末尾から補完出来る、Postfix templates の追加、EditorConfig、Web Componentsの対応",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Server Sent Events(SSE)の使いどころと使い方 | GREE Engineers&#x27; Blog",
-        "url": "http://labs.gree.jp/blog/2014/08/11070/",
-        "tags": [
-            "JavaScript",
-            "W3C",
-            "XHR",
-            "WebSocket"
-        ],
-        "content": "Server Sent Eventsについての解説。\n\nCometと違い標準仕様が定義されている点や、WebSocketと違いHTTPを使うため通信的な互換性が高くあり、Polyfillが作れる事や現状の問題点について書かれている",
-        "relatedLinks": [
-            {
-                "title": "Server Side Events",
-                "url": "http://www.slideshare.net/thepilif/server-side-events"
-            },
-            {
-                "title": "リアルタイムWebの栄光を願い",
-                "url": "http://0-9.sakura.ne.jp/pub/HTML5han/start.html"
-            },
-            {
-                "title": "Fanout Blog » You might not need a WebSocket",
-                "url": "http://blog.fanout.io/2014/06/24/you-might-not-need-a-websocket/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "The State of the Componentised Web - Blog - Events, News, and Videos for Web Designers and Developers",
-        "url": "http://www.futureinsights.com/home/the-state-of-the-componentised-web.html",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "WebComponents"
-        ],
-        "content": "ウェブにおけるコンポーネントの流れについて。\n\nAngularやEmberなどがもつコンポーネントを作る機能の紹介とWeb Componentsについて簡単にまとまってる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Why Web Components Are Ready For Production -Telerik Developer Network",
-        "url": "http://developer.telerik.com/featured/web-components-ready-production/",
-        "tags": [
-            "WebComponents"
-        ],
-        "content": "Web Componentsは複雑で現時点ではpolyfillは難しいが、Custom Elementに関してはシンプルなAPIであるためPolyfillが簡単で、現実に使うことができるという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Best Practices for Building Angular.js Apps with BrowerifyModern Web",
-        "url": "http://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917",
-        "tags": [
-            "AngularJS",
-            "browserify"
-        ],
-        "content": "Angular.JSにはmodule機能があるため、BrowserifyやRequire.JSのようなビルドを使わなくてもconcatするだけでも問題ないという話。\n\nconcatでもsourcemapは対応できて、何よりシンプル。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Stay up-to-date with Internet Explorer - IEBlog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/ie/archive/2014/08/07/stay-up-to-date-with-internet-explorer.aspx",
-        "tags": [
+            "SSE",
             "IE",
-            "ReleaseNote"
+            "Windows"
         ],
-        "content": "2016年1月12日からWindows OSとIEのバージョンのサポートサイクルが変更される。\n\nOSごとの最新版のIEのみをサポート対象として、後方互換性はエンタープライズモードを使えという方針になった",
-        "relatedLinks": [
-            {
-                "title": "Internet Explorer のサポートライフサイクルが変更されます ",
-                "url": "http://hebikuzure.wordpress.com/2014/08/08/lifecycle-change-on-internet-explorer/"
-            }
-        ]
+        "date": "2014-09-10T15:00:00.000Z"
     },
-    {
-        "category": "Article",
-        "title": "Speeding up AngularJS apps with simple optimizations - Tutorial - Binpress",
-        "url": "http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135",
-        "tags": [
-            "AngularJS",
-            "performance"
-        ],
-        "content": "AngularJSパフォーマンス改善Tips.\n\n一度きりのバインディング、$scope.$apply() と $scope.$digest()の違い、ng-repeat、ディレクティブ内でのDOM操作について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Using PDF.js web worker cross domain (CORS) | ColonelPanic",
-        "url": "http://colonelpanic.net/2014/08/using-pdf-js-web-worker-cross-domain-cors/",
-        "tags": [
-            "JavaScript",
-            "webworker"
-        ],
-        "content": "WebWorker内でXHRをして取得したリソースを、`URL.createObjectURL`でblob URLにして、blob URLを受け取って使うという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "tc39-notes/es6/2014-07 at master · rwaldron/tc39-notes",
-        "url": "https://github.com/rwaldron/tc39-notes/tree/master/es6/2014-07",
-        "tags": [
-            "ECMAScript",
-            "資料"
-        ],
-        "content": "2014年7月度のECMAScriptの仕様策定に関するTC39 Meeting Notesが公開された。\n\ntest262の大幅な改善、SIMD-128、指数演算子についてなど",
-        "relatedLinks": [
-            {
-                "title": "bterlson/test262-harness",
-                "url": "https://github.com/bterlson/test262-harness"
-            },
-            {
-                "title": "simd-128-tc39.pdf",
-                "url": "http://esdiscuss.org/notes/2014-07/simd-128-tc39.pdf"
-            },
-            {
-                "title": "Exponentiation Operator: ",
-                "url": "https://gist.github.com/rwaldron/ebe0f4d2d267370be882"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "trek/pretender",
-        "url": "https://github.com/trek/pretender",
-        "tags": [
-            "JavaScript",
-            "library",
-            "HTTP",
-            "testing"
-        ],
-        "content": "HTTPモックライブラリ。\n\nXHRをFakeXHRにすり替えておき、リクエストに対するレスポンスを定義して、任意のリソースへのリクエストをテストするモックライブラリ。",
-        "relatedLinks": [
-            {
-                "title": "trek/FakeXMLHttpRequest",
-                "url": "https://github.com/trek/FakeXMLHttpRequest"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "github/time-elements",
-        "url": "https://github.com/github/time-elements",
-        "tags": [
-            "github",
-            "WebComponents"
-        ],
-        "content": "GitHubで使われている`<time>`のCustom Elementsライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Wisembly/basil.js",
-        "url": "https://github.com/Wisembly/basil.js",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "localstorage, cookie, session storage, in memoryにおいて統一的なAPIで扱えるメソッドを提供してくれるライブラリ。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "rakuten-nlp/rakutenma",
-        "url": "https://github.com/rakuten-nlp/rakutenma",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "形態素解析器ライブラリ。\n\n日本語と中国語の文から単語単位に分割し、品詞を付与出来る",
-        "relatedLinks": [
-            {
-                "title": "Twitter / rakuten",
-                "url": "https://twitter.com/rakuten_tech/status/496913434668064768"
-            }
-        ]
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "wu.js 2.0",
+            "url": "http://fitzgeraldnick.com/weblog/58/",
+            "tags": [
+                "ECMAScript",
+                "関数型プログラミング",
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "mapやreduceのような高階関数を提供するwu.js2.0リリース。\n\nES6に対応してGenerator関数なども受け取って処理することが出来るようになった。",
+            "relatedLinks": [
+                {
+                    "title": "wu.js 2.0",
+                    "url": "http://fitzgeraldnick.com/weblog/58/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "WebStorm 9 EAP is Open! | JetBrains WebStorm Blog",
+            "url": "http://blog.jetbrains.com/webstorm/2014/08/webstorm-9-eap/",
+            "tags": [
+                "WebStorm",
+                "ReleaseNote"
+            ],
+            "content": "WebStorm 9 EAPリリース。\n\nLive Editの強化、JavaScriptのトレーシングを行うSpy-jsがNode.jsに対応、PhoneGap対応、`.if`などを末尾から補完出来る、Postfix templates の追加、EditorConfig、Web Componentsの対応",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Server Sent Events(SSE)の使いどころと使い方 | GREE Engineers&#x27; Blog",
+            "url": "http://labs.gree.jp/blog/2014/08/11070/",
+            "tags": [
+                "JavaScript",
+                "W3C",
+                "XHR",
+                "WebSocket"
+            ],
+            "content": "Server Sent Eventsについての解説。\n\nCometと違い標準仕様が定義されている点や、WebSocketと違いHTTPを使うため通信的な互換性が高くあり、Polyfillが作れる事や現状の問題点について書かれている",
+            "relatedLinks": [
+                {
+                    "title": "Server Side Events",
+                    "url": "http://www.slideshare.net/thepilif/server-side-events"
+                },
+                {
+                    "title": "リアルタイムWebの栄光を願い",
+                    "url": "http://0-9.sakura.ne.jp/pub/HTML5han/start.html"
+                },
+                {
+                    "title": "Fanout Blog » You might not need a WebSocket",
+                    "url": "http://blog.fanout.io/2014/06/24/you-might-not-need-a-websocket/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "The State of the Componentised Web - Blog - Events, News, and Videos for Web Designers and Developers",
+            "url": "http://www.futureinsights.com/home/the-state-of-the-componentised-web.html",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "WebComponents"
+            ],
+            "content": "ウェブにおけるコンポーネントの流れについて。\n\nAngularやEmberなどがもつコンポーネントを作る機能の紹介とWeb Componentsについて簡単にまとまってる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Why Web Components Are Ready For Production -Telerik Developer Network",
+            "url": "http://developer.telerik.com/featured/web-components-ready-production/",
+            "tags": [
+                "WebComponents"
+            ],
+            "content": "Web Componentsは複雑で現時点ではpolyfillは難しいが、Custom Elementに関してはシンプルなAPIであるためPolyfillが簡単で、現実に使うことができるという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Best Practices for Building Angular.js Apps with BrowerifyModern Web",
+            "url": "http://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917",
+            "tags": [
+                "AngularJS",
+                "browserify"
+            ],
+            "content": "Angular.JSにはmodule機能があるため、BrowserifyやRequire.JSのようなビルドを使わなくてもconcatするだけでも問題ないという話。\n\nconcatでもsourcemapは対応できて、何よりシンプル。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Stay up-to-date with Internet Explorer - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/08/07/stay-up-to-date-with-internet-explorer.aspx",
+            "tags": [
+                "IE",
+                "ReleaseNote"
+            ],
+            "content": "2016年1月12日からWindows OSとIEのバージョンのサポートサイクルが変更される。\n\nOSごとの最新版のIEのみをサポート対象として、後方互換性はエンタープライズモードを使えという方針になった",
+            "relatedLinks": [
+                {
+                    "title": "Internet Explorer のサポートライフサイクルが変更されます ",
+                    "url": "http://hebikuzure.wordpress.com/2014/08/08/lifecycle-change-on-internet-explorer/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Speeding up AngularJS apps with simple optimizations - Tutorial - Binpress",
+            "url": "http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135",
+            "tags": [
+                "AngularJS",
+                "performance"
+            ],
+            "content": "AngularJSパフォーマンス改善Tips.\n\n一度きりのバインディング、$scope.$apply() と $scope.$digest()の違い、ng-repeat、ディレクティブ内でのDOM操作について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Using PDF.js web worker cross domain (CORS) | ColonelPanic",
+            "url": "http://colonelpanic.net/2014/08/using-pdf-js-web-worker-cross-domain-cors/",
+            "tags": [
+                "JavaScript",
+                "webworker"
+            ],
+            "content": "WebWorker内でXHRをして取得したリソースを、`URL.createObjectURL`でblob URLにして、blob URLを受け取って使うという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "tc39-notes/es6/2014-07 at master · rwaldron/tc39-notes",
+            "url": "https://github.com/rwaldron/tc39-notes/tree/master/es6/2014-07",
+            "tags": [
+                "ECMAScript",
+                "資料"
+            ],
+            "content": "2014年7月度のECMAScriptの仕様策定に関するTC39 Meeting Notesが公開された。\n\ntest262の大幅な改善、SIMD-128、指数演算子についてなど",
+            "relatedLinks": [
+                {
+                    "title": "bterlson/test262-harness",
+                    "url": "https://github.com/bterlson/test262-harness"
+                },
+                {
+                    "title": "simd-128-tc39.pdf",
+                    "url": "http://esdiscuss.org/notes/2014-07/simd-128-tc39.pdf"
+                },
+                {
+                    "title": "Exponentiation Operator: ",
+                    "url": "https://gist.github.com/rwaldron/ebe0f4d2d267370be882"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "trek/pretender",
+            "url": "https://github.com/trek/pretender",
+            "tags": [
+                "JavaScript",
+                "library",
+                "HTTP",
+                "testing"
+            ],
+            "content": "HTTPモックライブラリ。\n\nXHRをFakeXHRにすり替えておき、リクエストに対するレスポンスを定義して、任意のリソースへのリクエストをテストするモックライブラリ。",
+            "relatedLinks": [
+                {
+                    "title": "trek/FakeXMLHttpRequest",
+                    "url": "https://github.com/trek/FakeXMLHttpRequest"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "github/time-elements",
+            "url": "https://github.com/github/time-elements",
+            "tags": [
+                "github",
+                "WebComponents"
+            ],
+            "content": "GitHubで使われている`<time>`のCustom Elementsライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Wisembly/basil.js",
+            "url": "https://github.com/Wisembly/basil.js",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "localstorage, cookie, session storage, in memoryにおいて統一的なAPIで扱えるメソッドを提供してくれるライブラリ。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "rakuten-nlp/rakutenma",
+            "url": "https://github.com/rakuten-nlp/rakutenma",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "形態素解析器ライブラリ。\n\n日本語と中国語の文から単語単位に分割し、品詞を付与出来る",
+            "relatedLinks": [
+                {
+                    "title": "Twitter / rakuten",
+                    "url": "https://twitter.com/rakuten_tech/status/496913434668064768"
+                }
+            ]
+        }
+    ]
+}

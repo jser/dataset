@@ -1,393 +1,408 @@
-[
-    {
-        "category": "Headline",
-        "title": "Underscore.js",
-        "url": "http://underscorejs.org/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Underscore.js 1.8.0(現在1.8.2まで出てる)リリース。\nファイルサイズの削減、エイリアスとして使われていたメソッド名を一部変更、削除などのBreaking Changeを含んでいる。\n詳しくは下記のIssueを参照。\n1.8.0はIE8との互換性がないので、1.8.1と1.8.2で互換性の修正が行われている。",
-        "relatedLinks": [
-            {
-                "title": "Discuss latest changes to master before releasing · Issue #2061 · jashkenas/underscore",
-                "url": "https://github.com/jashkenas/underscore/issues/2061"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint 0.15.0 released - ESLint",
-        "url": "http://eslint.org/blog/2015/02/eslint-0.15.0-released/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "Tools"
-        ],
-        "content": "ESLint 0.15.0リリース。\nSpread operator、Rest parameters、Destructuringのサポート。\nES6についてはESTreeでASTの仕様の議論をしてるので、それに従う形で実装を進めて行く",
-        "relatedLinks": [
-            {
-                "title": "estree/estree",
-                "url": "https://github.com/estree/estree/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "node-browserify/changelog.markdown at 9.0.3 · substack/node-browserify",
-        "url": "https://github.com/substack/node-browserify/blob/9.0.3/changelog.markdown",
-        "tags": [
-            "browserify",
-            "ReleaseNote"
-        ],
-        "content": "Browserify 9.0.0リリース。\numd 3.0.0へのアップデート。`$`や`_`もモジュール名として利用できるようになったため`--standalone $foo_bar`のような指定をした時の挙動がBreaking Changeとなる",
-        "relatedLinks": [
-            {
-                "title": "umd/HISTORY.md at 3.0.0 · ForbesLindesay/umd",
-                "url": "https://github.com/ForbesLindesay/umd/blob/3.0.0/HISTORY.md"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "jsdom/Changelog.md at 4.0.0 · tmpvar/jsdom",
-        "url": "https://github.com/tmpvar/jsdom/blob/4.0.0/Changelog.md",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "library"
-        ],
-        "content": "jsdom 4.0.0リリース。\nio.jsの新しいvmモジュールに依存するため、4.xはio.jsでの動作のみで、Node.jsの場合は3.xを使うように推奨されてる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Wallaby.js hits version 1.0 · Artem Govorov",
-        "url": "http://dm.gl/2015/02/23/wallaby-version-one/",
-        "tags": [
-            "WebStorm",
-            "plugin",
-            "testing"
-        ],
-        "content": "JetBrains IDEのpluginとして動作するテストフレームワークwallaby.js 1.0リリース。\n今後は他のエディタサポートやAPIの公開、AltJSのサポートなどを予定している。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "New releases 4.13 and 5.0 - discuss.CodeMirror",
-        "url": "http://discuss.codemirror.net/t/new-releases-4-13-and-5-0/163",
+{
+    "meta": {
+        "title": "2015-02-23のJS: Underscore.js 1.8.0、CodeMirror 5.0、Web Audio入門",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-02-23T13:21:00.000Z",
+        "category": "JSer",
         "tags": [
             "JavaScript",
             "library",
-            "ReleaseNote"
-        ],
-        "content": "CodeMirror 4.13と5.0リリース。\n5.0ではcontentEditableを使ったモバイルブラウザのサポートが追加されてる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Knockout.js 3.3 Released - Knock Me Out",
-        "url": "http://www.knockmeout.net/2015/02/knockout-3-3-released.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Knockout.js 3.3リリース。\nComponentsの値を変更した時のレンダリングを同期か非同期の設定が可能に、`$component`の追加、computesが\"awake\"と\"sleep\"のイベントを通知するように",
-        "relatedLinks": [
-            {
-                "title": "Release Version 3.3.0 · knockout/knockout",
-                "url": "https://github.com/knockout/knockout/releases/tag/v3.3.0"
-            }
+            "Editor",
+            "WebAudio"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "rev9-ecma-402-draft-now-available",
-        "url": "https://esdiscuss.org/topic/rev9-ecma-402-draft-now-available",
-        "tags": [
-            "ecma",
-            "spec",
-            "i18n"
-        ],
-        "content": "ECMA-402(ECMA i18n API) 2.0ドラフト Rev 9リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "harmony:specification_drafts [ES Wiki]",
-        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#february_20_2015_rev_34_release_candidate_1",
-        "tags": [
-            "ECMAScript",
-            "spec",
-            "ReleaseNote"
-        ],
-        "content": "ES6 Draft RC1リリース(Rev 34)",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 0.7.0 · airportyh/testem",
-        "url": "https://github.com/airportyh/testem/releases/tag/v0.7.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "testem 0.7.0リリース。\nio.jsやNode.js 0.12のサポート、Windowsでもci-modeが動くように修正、実行ページをよりisolateに",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Flow | Flow Comments",
-        "url": "http://flowtype.org/blog/2015/02/20/Flow-Comments.html",
-        "tags": [
-            "flowtype",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "Flow 0.4.0でコメントによる型指定が追加された。\nhttps://github.com/jareware/flotate のプロジェクトのシンタックスがマージされた形",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Classes in ECMAScript 6 (final semantics)",
-        "url": "http://www.2ality.com/2015/02/es6-classes-final.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6 Classesについての詳しい解説。\nClassの挙動、使い方、Iterator、継承、`super()`、`new.target`の値、ES5では無理だったビルトインコンストラクタのサブクラスが可能になる点などについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "音を扱うJavaScriptライブラリや記事 - Qiita",
-        "url": "http://qiita.com/mohayonao/items/d79e9fc56b4e9c157be1",
-        "tags": [
-            "JavaScript",
-            "audio",
-            "library",
-            "まとめ"
-        ],
-        "content": "Web Audio API関連のライブラリやpolyfill、fallback実装などのリソースまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React Tips and Best Practices - ÆFLASH",
-        "url": "http://aeflash.com/2015-02/react-tips-and-best-practices.html",
-        "tags": [
-            "JavaScript",
-            "React",
-            "Tips"
-        ],
-        "content": "ReactのTips。\n`shouldComponentUpdate`とMixin、propTypesとプロダクション、component内のstateを避けて全体のデータフローを一方通行にする話など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "The npm Blog — Welcome, jQuery developers!",
-        "url": "http://blog.npmjs.org/post/111385956875/welcome-jquery-developers",
-        "tags": [
-            "jQuery",
-            "npm"
-        ],
-        "content": "jQuery plugin registryはread onlyモードとなり、pluginの公開にnpmを推奨してるのを受けて、jQuery pluginをnpmで公開する方法についてのサポートをしていくとの事",
-        "relatedLinks": [
-            {
-                "title": "【翻訳】Welcome, jQuery developers! — Medium",
-                "url": "https://medium.com/@watilde/%E7%BF%BB%E8%A8%B3-welcome-jquery-developers-3ae0075c19f6"
-            },
-            {
-                "title": "【翻訳】Publishing your jQuery plugin to npm, the quick and dirty way — Medium",
-                "url": "https://medium.com/@watilde/%E7%BF%BB%E8%A8%B3-publishing-your-jquery-plugin-to-npm-the-quick-and-dirty-way-8487344e2b3f"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "JSX - ESLintについての細かいあれこれ - Qiita",
-        "url": "http://qiita.com/suisho/items/8610d3806a3f94d7d1d0",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "ESLintの設定について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript - ぼくのかんがえたさいきょうのES6プロジェクトテンプレート - Qiita",
-        "url": "http://qiita.com/mohayonao/items/9b0655b8b4979bffda31",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6でのプロジェクト構成について。\nビルド、npm run-script、Browserify、テスト、Lint、コードカバレッジなどの設定について",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "HTML5で音を扱う3つの方法",
-        "url": "http://150217-html5sound.fnobi.com/",
-        "tags": [
-            "HTML",
-            "audio",
-            "API",
-            "スライド"
-        ],
-        "content": "Audioタグ、Web Audio API、MediaStream Processing APIについてのスライド。\nそれぞれがどのような用途や機能を持っているかについて書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Reactive Programming in JavaScript",
-        "url": "http://ahomu.github.io/s/150221-frontrend_conference/index.html#1",
-        "tags": [
-            "JavaScript",
-            "program",
-            "スライド"
-        ],
-        "content": "Reactiveプログラミングについてのスライド。\"Reactive = 片方の変化を他方に自動で伝播する仕組み\"\nActor、FRP等Reactiveは色々あるがFRPについて詳しく書かれている。\nRxJSやBacon.jsを使ったサンプルについて",
-        "relatedLinks": [
-            {
-                "title": "Reactive Programming in JavaScript - Frontrend Final Conference 資料 ::ハブろぐ",
-                "url": "http://havelog.ayumusato.com/develop/javascript/e657-reactive_programming_in_javascript.html"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Introduction to Service Worker // Speaker Deck",
-        "url": "https://speakerdeck.com/1000ch/introduction-to-service-worker",
-        "tags": [
-            "JavaScript",
-            "browser",
-            "スライド"
-        ],
-        "content": "オフラインを実現するために関連するAPI、主にService Workerについてのスライド。\nCache API、Push APIについて解説されている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Introduction To React // Speaker Deck",
-        "url": "https://speakerdeck.com/hokaccha/introduction-to-react",
-        "tags": [
-            "JavaScript",
-            "React",
-            "スライド"
-        ],
-        "content": "既存のDOMの再描画の流れとReactでのUI再描画の仕組みの違いについて。\n再描画のコストの違いや設計への影響、Fluxアーキテクチャへの流れが分かりやすく書かれているスライド",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Eric Elliott’s essential JavaScript links or The way of the parrot, not · Super-Script",
-        "url": "http://super-script.us/2015/essential-js-links.html",
-        "tags": [
-            "JavaScript",
-            "まとめ",
-            "links"
-        ],
-        "content": "JavaScriptについてのリソースリンク集。\nスクリーンショット付きで紹介してる",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "mking/react-hn",
-        "url": "https://github.com/mking/react-hn",
-        "tags": [
-            "React",
-            "サンプル",
-            "tutorial"
-        ],
-        "content": "Reactを使ったHackerNewsのクローン。\nどういうComponentの粒度になってるかや構造についての解説が書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mzabriskie/axios",
-        "url": "https://github.com/mzabriskie/axios",
-        "tags": [
-            "JavaScript",
-            "library",
-            "XHR"
-        ],
-        "content": "Node.js/ブラウザどちらでも動くPromiseベースのHTTPリクエストライブラリ。\nリクエスト/レスポンスに対してコールバックを呼ばれる前に処理を挟んだりすることも出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "yahoo/preceptor",
-        "url": "https://github.com/yahoo/preceptor",
-        "tags": [
-            "JavaScript",
-            "browser",
-            "testing",
-            "library"
-        ],
-        "content": "Mocha、Cucumberなどに対応したTest Runner。\n設定によりレポーターやテスト対象などを細かく設定することができ、何をテストするかはTaskという塊で定義でき、Taskを並列で動かすこともできる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "yahoo/kobold",
-        "url": "https://github.com/yahoo/kobold",
-        "tags": [
-            "JavaScript",
-            "browserify",
-            "testing"
-        ],
-        "content": "スクリーンショットを比較して視覚的なレグレッションがないかをテストするコマンドラインツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "hughsk/disc",
-        "url": "https://github.com/hughsk/disc",
-        "tags": [
-            "JavaScript",
-            "browserify",
-            "Tools",
-            "gurai"
-        ],
-        "content": "Browserifyでビルドしたコードから、ディレクトリ別(モジュール別)でファイルサイズやファイル数をグラフで可視化してくれるツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "gabelerner/canvg",
-        "url": "https://github.com/gabelerner/canvg",
-        "tags": [
-            "JavaScript",
-            "SVG",
-            "canvas"
-        ],
-        "content": "SVGをCanvasでレンダリングするライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: コーディングWebアクセシビリティ - WAI-ARIAで実現するマルチデバイス環境のWebアプリケーション: ヘイドン・ピカリング, Heydon Pickering, 伊原力也, 太田良典, 株式会社Bスプラウト",
-        "url": "http://www.amazon.co.jp/dp/4862462669?tag=amazon0abac-22",
-        "tags": [
-            "WAI-ARIA",
-            "book",
-            "翻訳"
-        ],
-        "content": "2015年3月30日発売\n\"Apps For All - Coding Accessible Web Applications\"の日本語版",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "The Pragmatic Bookshelf | CoffeeScript",
-        "url": "https://pragprog.com/book/tbcoffee2/coffeescript",
-        "tags": [
-            "CoffeeScript",
-            "book"
-        ],
-        "content": "CoffeeScriptについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Underscore.js",
+            "url": "http://underscorejs.org/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Underscore.js 1.8.0(現在1.8.2まで出てる)リリース。\nファイルサイズの削減、エイリアスとして使われていたメソッド名を一部変更、削除などのBreaking Changeを含んでいる。\n詳しくは下記のIssueを参照。\n1.8.0はIE8との互換性がないので、1.8.1と1.8.2で互換性の修正が行われている。",
+            "relatedLinks": [
+                {
+                    "title": "Discuss latest changes to master before releasing · Issue #2061 · jashkenas/underscore",
+                    "url": "https://github.com/jashkenas/underscore/issues/2061"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint 0.15.0 released - ESLint",
+            "url": "http://eslint.org/blog/2015/02/eslint-0.15.0-released/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools"
+            ],
+            "content": "ESLint 0.15.0リリース。\nSpread operator、Rest parameters、Destructuringのサポート。\nES6についてはESTreeでASTの仕様の議論をしてるので、それに従う形で実装を進めて行く",
+            "relatedLinks": [
+                {
+                    "title": "estree/estree",
+                    "url": "https://github.com/estree/estree/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "node-browserify/changelog.markdown at 9.0.3 · substack/node-browserify",
+            "url": "https://github.com/substack/node-browserify/blob/9.0.3/changelog.markdown",
+            "tags": [
+                "browserify",
+                "ReleaseNote"
+            ],
+            "content": "Browserify 9.0.0リリース。\numd 3.0.0へのアップデート。`$`や`_`もモジュール名として利用できるようになったため`--standalone $foo_bar`のような指定をした時の挙動がBreaking Changeとなる",
+            "relatedLinks": [
+                {
+                    "title": "umd/HISTORY.md at 3.0.0 · ForbesLindesay/umd",
+                    "url": "https://github.com/ForbesLindesay/umd/blob/3.0.0/HISTORY.md"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "jsdom/Changelog.md at 4.0.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/4.0.0/Changelog.md",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "content": "jsdom 4.0.0リリース。\nio.jsの新しいvmモジュールに依存するため、4.xはio.jsでの動作のみで、Node.jsの場合は3.xを使うように推奨されてる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Wallaby.js hits version 1.0 · Artem Govorov",
+            "url": "http://dm.gl/2015/02/23/wallaby-version-one/",
+            "tags": [
+                "WebStorm",
+                "plugin",
+                "testing"
+            ],
+            "content": "JetBrains IDEのpluginとして動作するテストフレームワークwallaby.js 1.0リリース。\n今後は他のエディタサポートやAPIの公開、AltJSのサポートなどを予定している。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "New releases 4.13 and 5.0 - discuss.CodeMirror",
+            "url": "http://discuss.codemirror.net/t/new-releases-4-13-and-5-0/163",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "CodeMirror 4.13と5.0リリース。\n5.0ではcontentEditableを使ったモバイルブラウザのサポートが追加されてる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Knockout.js 3.3 Released - Knock Me Out",
+            "url": "http://www.knockmeout.net/2015/02/knockout-3-3-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Knockout.js 3.3リリース。\nComponentsの値を変更した時のレンダリングを同期か非同期の設定が可能に、`$component`の追加、computesが\"awake\"と\"sleep\"のイベントを通知するように",
+            "relatedLinks": [
+                {
+                    "title": "Release Version 3.3.0 · knockout/knockout",
+                    "url": "https://github.com/knockout/knockout/releases/tag/v3.3.0"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "rev9-ecma-402-draft-now-available",
+            "url": "https://esdiscuss.org/topic/rev9-ecma-402-draft-now-available",
+            "tags": [
+                "ecma",
+                "spec",
+                "i18n"
+            ],
+            "content": "ECMA-402(ECMA i18n API) 2.0ドラフト Rev 9リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "harmony:specification_drafts [ES Wiki]",
+            "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#february_20_2015_rev_34_release_candidate_1",
+            "tags": [
+                "ECMAScript",
+                "spec",
+                "ReleaseNote"
+            ],
+            "content": "ES6 Draft RC1リリース(Rev 34)",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 0.7.0 · airportyh/testem",
+            "url": "https://github.com/airportyh/testem/releases/tag/v0.7.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "testem 0.7.0リリース。\nio.jsやNode.js 0.12のサポート、Windowsでもci-modeが動くように修正、実行ページをよりisolateに",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Flow | Flow Comments",
+            "url": "http://flowtype.org/blog/2015/02/20/Flow-Comments.html",
+            "tags": [
+                "flowtype",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "Flow 0.4.0でコメントによる型指定が追加された。\nhttps://github.com/jareware/flotate のプロジェクトのシンタックスがマージされた形",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Classes in ECMAScript 6 (final semantics)",
+            "url": "http://www.2ality.com/2015/02/es6-classes-final.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6 Classesについての詳しい解説。\nClassの挙動、使い方、Iterator、継承、`super()`、`new.target`の値、ES5では無理だったビルトインコンストラクタのサブクラスが可能になる点などについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "音を扱うJavaScriptライブラリや記事 - Qiita",
+            "url": "http://qiita.com/mohayonao/items/d79e9fc56b4e9c157be1",
+            "tags": [
+                "JavaScript",
+                "audio",
+                "library",
+                "まとめ"
+            ],
+            "content": "Web Audio API関連のライブラリやpolyfill、fallback実装などのリソースまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React Tips and Best Practices - ÆFLASH",
+            "url": "http://aeflash.com/2015-02/react-tips-and-best-practices.html",
+            "tags": [
+                "JavaScript",
+                "React",
+                "Tips"
+            ],
+            "content": "ReactのTips。\n`shouldComponentUpdate`とMixin、propTypesとプロダクション、component内のstateを避けて全体のデータフローを一方通行にする話など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "The npm Blog — Welcome, jQuery developers!",
+            "url": "http://blog.npmjs.org/post/111385956875/welcome-jquery-developers",
+            "tags": [
+                "jQuery",
+                "npm"
+            ],
+            "content": "jQuery plugin registryはread onlyモードとなり、pluginの公開にnpmを推奨してるのを受けて、jQuery pluginをnpmで公開する方法についてのサポートをしていくとの事",
+            "relatedLinks": [
+                {
+                    "title": "【翻訳】Welcome, jQuery developers! — Medium",
+                    "url": "https://medium.com/@watilde/%E7%BF%BB%E8%A8%B3-welcome-jquery-developers-3ae0075c19f6"
+                },
+                {
+                    "title": "【翻訳】Publishing your jQuery plugin to npm, the quick and dirty way — Medium",
+                    "url": "https://medium.com/@watilde/%E7%BF%BB%E8%A8%B3-publishing-your-jquery-plugin-to-npm-the-quick-and-dirty-way-8487344e2b3f"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "JSX - ESLintについての細かいあれこれ - Qiita",
+            "url": "http://qiita.com/suisho/items/8610d3806a3f94d7d1d0",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "ESLintの設定について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript - ぼくのかんがえたさいきょうのES6プロジェクトテンプレート - Qiita",
+            "url": "http://qiita.com/mohayonao/items/9b0655b8b4979bffda31",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6でのプロジェクト構成について。\nビルド、npm run-script、Browserify、テスト、Lint、コードカバレッジなどの設定について",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "HTML5で音を扱う3つの方法",
+            "url": "http://150217-html5sound.fnobi.com/",
+            "tags": [
+                "HTML",
+                "audio",
+                "API",
+                "スライド"
+            ],
+            "content": "Audioタグ、Web Audio API、MediaStream Processing APIについてのスライド。\nそれぞれがどのような用途や機能を持っているかについて書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Reactive Programming in JavaScript",
+            "url": "http://ahomu.github.io/s/150221-frontrend_conference/index.html#1",
+            "tags": [
+                "JavaScript",
+                "program",
+                "スライド"
+            ],
+            "content": "Reactiveプログラミングについてのスライド。\"Reactive = 片方の変化を他方に自動で伝播する仕組み\"\nActor、FRP等Reactiveは色々あるがFRPについて詳しく書かれている。\nRxJSやBacon.jsを使ったサンプルについて",
+            "relatedLinks": [
+                {
+                    "title": "Reactive Programming in JavaScript - Frontrend Final Conference 資料 ::ハブろぐ",
+                    "url": "http://havelog.ayumusato.com/develop/javascript/e657-reactive_programming_in_javascript.html"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Introduction to Service Worker // Speaker Deck",
+            "url": "https://speakerdeck.com/1000ch/introduction-to-service-worker",
+            "tags": [
+                "JavaScript",
+                "browser",
+                "スライド"
+            ],
+            "content": "オフラインを実現するために関連するAPI、主にService Workerについてのスライド。\nCache API、Push APIについて解説されている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Introduction To React // Speaker Deck",
+            "url": "https://speakerdeck.com/hokaccha/introduction-to-react",
+            "tags": [
+                "JavaScript",
+                "React",
+                "スライド"
+            ],
+            "content": "既存のDOMの再描画の流れとReactでのUI再描画の仕組みの違いについて。\n再描画のコストの違いや設計への影響、Fluxアーキテクチャへの流れが分かりやすく書かれているスライド",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Eric Elliott’s essential JavaScript links or The way of the parrot, not · Super-Script",
+            "url": "http://super-script.us/2015/essential-js-links.html",
+            "tags": [
+                "JavaScript",
+                "まとめ",
+                "links"
+            ],
+            "content": "JavaScriptについてのリソースリンク集。\nスクリーンショット付きで紹介してる",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "mking/react-hn",
+            "url": "https://github.com/mking/react-hn",
+            "tags": [
+                "React",
+                "サンプル",
+                "tutorial"
+            ],
+            "content": "Reactを使ったHackerNewsのクローン。\nどういうComponentの粒度になってるかや構造についての解説が書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mzabriskie/axios",
+            "url": "https://github.com/mzabriskie/axios",
+            "tags": [
+                "JavaScript",
+                "library",
+                "XHR"
+            ],
+            "content": "Node.js/ブラウザどちらでも動くPromiseベースのHTTPリクエストライブラリ。\nリクエスト/レスポンスに対してコールバックを呼ばれる前に処理を挟んだりすることも出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "yahoo/preceptor",
+            "url": "https://github.com/yahoo/preceptor",
+            "tags": [
+                "JavaScript",
+                "browser",
+                "testing",
+                "library"
+            ],
+            "content": "Mocha、Cucumberなどに対応したTest Runner。\n設定によりレポーターやテスト対象などを細かく設定することができ、何をテストするかはTaskという塊で定義でき、Taskを並列で動かすこともできる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "yahoo/kobold",
+            "url": "https://github.com/yahoo/kobold",
+            "tags": [
+                "JavaScript",
+                "browserify",
+                "testing"
+            ],
+            "content": "スクリーンショットを比較して視覚的なレグレッションがないかをテストするコマンドラインツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "hughsk/disc",
+            "url": "https://github.com/hughsk/disc",
+            "tags": [
+                "JavaScript",
+                "browserify",
+                "Tools",
+                "gurai"
+            ],
+            "content": "Browserifyでビルドしたコードから、ディレクトリ別(モジュール別)でファイルサイズやファイル数をグラフで可視化してくれるツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "gabelerner/canvg",
+            "url": "https://github.com/gabelerner/canvg",
+            "tags": [
+                "JavaScript",
+                "SVG",
+                "canvas"
+            ],
+            "content": "SVGをCanvasでレンダリングするライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: コーディングWebアクセシビリティ - WAI-ARIAで実現するマルチデバイス環境のWebアプリケーション: ヘイドン・ピカリング, Heydon Pickering, 伊原力也, 太田良典, 株式会社Bスプラウト",
+            "url": "http://www.amazon.co.jp/dp/4862462669?tag=amazon0abac-22",
+            "tags": [
+                "WAI-ARIA",
+                "book",
+                "翻訳"
+            ],
+            "content": "2015年3月30日発売\n\"Apps For All - Coding Accessible Web Applications\"の日本語版",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "The Pragmatic Bookshelf | CoffeeScript",
+            "url": "https://pragprog.com/book/tbcoffee2/coffeescript",
+            "tags": [
+                "CoffeeScript",
+                "book"
+            ],
+            "content": "CoffeeScriptについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

@@ -1,220 +1,235 @@
-[
-    {
-        "category": "Headline",
-        "title": "Node v4.0.0 (Stable) | Node.js",
-        "url": "https://nodejs.org/en/blog/release/v4.0.0/",
+{
+    "meta": {
+        "title": "2015-09-09のJS: Node.js 4.0.0、TypeScript 1.6β、React 0.14の変更点",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-09-09T14:16:00.000Z",
+        "category": "JSer",
         "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "io.jsと統合したNode.js 4.0.0リリース。\n長期間サポート(LTS)のバージョンが1年に1度リリースされ、12ヶ月アクティブ + 18ヶ月メンテナンスモードでサポートされるリリースサイクルとなる予定。",
-        "relatedLinks": [
-            {
-                "title": "All you need to know about Node.js 4.0.0 - Dynatrace APM Blog",
-                "url": "http://apmblog.dynatrace.com/2015/09/05/all-you-need-to-know-about-node-js-4-0/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "jshint/CHANGELOG.md at 2.9.0 · jshint/jshint",
-        "url": "https://github.com/jshint/jshint/blob/2.9.0/CHANGELOG.md",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "JSHint 2.9.0リリース。\n`esversion`のオプション追加、\"use strict\"をグローバルか関数かどこに書くかの設定を`strict: global`という形で指定できるように",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing TypeScript 1.6 Beta: React/JSX, better error checking, and more - TypeScript - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/typescript/archive/2015/09/02/announcing-typescript-1-6-beta-react-jsx-better-error-checking-and-more.aspx",
-        "tags": [
+            "Node.js",
+            "io.js",
             "TypeScript",
-            "ReleaseNote"
-        ],
-        "content": "TypeScript 1.6βリリース。\nTSX(JSX)サポート、tsconfig.jsonを作成する`--init`オプションの追加、`exclude`オプションの追加、abstruct classのサポートなど",
-        "relatedLinks": [
-            {
-                "title": "TypeScript 1.6.0-beta 変更点 - Qiita",
-                "url": "http://qiita.com/vvakame/items/072fa78f9fe496edd1f0"
-            }
+            "React"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Release 1.19.0 · jquery/qunit",
-        "url": "https://github.com/jquery/qunit/releases/tag/1.19.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "QUnit 1.19.0リリース。\nES6 MapとSetを対象としたassertのサポート、`QUnit.stack`の実装など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Ember.js - Ember Data v2.0 Released and v2.1 Beta Released",
-        "url": "http://emberjs.com/blog/2015/09/02/ember-data-2-0-released.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Ember Data 2.0リリース。\nEmber 2.0と同じように、1.xで非推奨となったメソッドの削除がメインとなるアップデート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Chromium Blog: Chrome 46 Beta: Flexible animations and improved loading performance",
-        "url": "http://blog.chromium.org/2015/09/chrome-46-beta-flexible-animations-and.html",
-        "tags": [
-            "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Chrome 46βリリース。\nCSS Motion Path、HTTP Client Hintsのサポート。\nES6 spread operator、`new.target`、`Event.isTrusted`、`CSS.escape()`の追加、iframeのsandbox改善など",
-        "relatedLinks": [
-            {
-                "title": "Future Use: CSS Motion Paths by Dan Wilson on CodePen",
-                "url": "http://codepen.io/danwilson/blog/css-motion-paths"
-            },
-            {
-                "title": "igrigorik/http-client-hints",
-                "url": "https://github.com/igrigorik/http-client-hints"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Typed Arrays in ECMAScript 6",
-        "url": "http://www.2ality.com/2015/09/typed-arrays.html",
-        "tags": [
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "Typed Arraysについての詳しい解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Angular 2 Survey Results",
-        "url": "http://angularjs.blogspot.com/2015/09/angular-2-survey-results.html",
-        "tags": [
-            "AngularJS"
-        ],
-        "content": "AngularJS 2に関するアンケート結果",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Flash-Free Clipboard for the Web ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/",
-        "tags": [
-            "JavaScript",
-            "クリップボード"
-        ],
-        "content": "`document.execCommand(\"copy\")`を使ってクリップボードへのコピーをJavaScriptで行うことについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "New React Developer Tools | React",
-        "url": "https://facebook.github.io/react/blog/2015/09/02/new-react-developer-tools.html",
-        "tags": [
-            "React",
-            "debug",
-            "firefox",
-            "Chrome"
-        ],
-        "content": "Reactの新しい開発者ツールが公開された。\nFirefoxとChromeに対応している。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Measuring JavaScript Functions&#x27; Performance",
-        "url": "http://www.sitepoint.com/measuring-javascript-functions-performance/",
-        "tags": [
-            "JavaScript",
-            "performance"
-        ],
-        "content": "JavaScriptで関数のパフォーマンスを計測するときに気をつけるべきことについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Reactjs v0.14 changes // Speaker Deck",
-        "url": "https://speakerdeck.com/koba04/reactjs-v0-dot-14-changes",
-        "tags": [
-            "React",
-            "スライド"
-        ],
-        "content": "React 0.14での変更点についてのスライド",
-        "relatedLinks": [
-            {
-                "title": "React.js meetup #2を開催しました - blog.koba04.com",
-                "url": "http://blog.koba04.com/post/2015/09/09/reactjs-meetup2/"
-            },
-            {
-                "title": "React.js meetup #2 - 資料一覧 - connpass",
-                "url": "http://reactjs-meetup.connpass.com/event/19504/presentation/"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Introduction to Redux // Speaker Deck",
-        "url": "https://speakerdeck.com/axross/introduction-to-redux",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "スライド"
-        ],
-        "content": "Reduxについてのスライド。\nReduxのデータフローについて解説されている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Substance",
-        "url": "http://substance.io/",
-        "tags": [
-            "JavaScript",
-            "editor",
-            "library"
-        ],
-        "content": "WYSIWYGエディタライブラリ。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "UpUp - The Offline First Library",
-        "url": "https://www.talater.com/upup/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ServiceWorker"
-        ],
-        "content": "Service Workersを使いオフラインでもコンテンツを表示できるようにするライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: JS+Node.jsによるWebクローラー/ネットエージェント開発テクニック: クジラ飛行机",
-        "url": "http://www.amazon.co.jp/dp/4883379930",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "book"
-        ],
-        "content": "クローラーや自動化などのツールとしてJavaScriptを扱う書籍",
-        "relatedLinks": [
-            {
-                "title": "Node.jsによるWebクローラー開発テクニック - クジラ机ブログ",
-                "url": "http://kujirahand.com/blog/index.php?Node.js%E3%81%AB%E3%82%88%E3%82%8BWeb%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC%E9%96%8B%E7%99%BA%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF"
-            }
-        ]
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Node v4.0.0 (Stable) | Node.js",
+            "url": "https://nodejs.org/en/blog/release/v4.0.0/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "io.jsと統合したNode.js 4.0.0リリース。\n長期間サポート(LTS)のバージョンが1年に1度リリースされ、12ヶ月アクティブ + 18ヶ月メンテナンスモードでサポートされるリリースサイクルとなる予定。",
+            "relatedLinks": [
+                {
+                    "title": "All you need to know about Node.js 4.0.0 - Dynatrace APM Blog",
+                    "url": "http://apmblog.dynatrace.com/2015/09/05/all-you-need-to-know-about-node-js-4-0/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "jshint/CHANGELOG.md at 2.9.0 · jshint/jshint",
+            "url": "https://github.com/jshint/jshint/blob/2.9.0/CHANGELOG.md",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "JSHint 2.9.0リリース。\n`esversion`のオプション追加、\"use strict\"をグローバルか関数かどこに書くかの設定を`strict: global`という形で指定できるように",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing TypeScript 1.6 Beta: React/JSX, better error checking, and more - TypeScript - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/typescript/archive/2015/09/02/announcing-typescript-1-6-beta-react-jsx-better-error-checking-and-more.aspx",
+            "tags": [
+                "TypeScript",
+                "ReleaseNote"
+            ],
+            "content": "TypeScript 1.6βリリース。\nTSX(JSX)サポート、tsconfig.jsonを作成する`--init`オプションの追加、`exclude`オプションの追加、abstruct classのサポートなど",
+            "relatedLinks": [
+                {
+                    "title": "TypeScript 1.6.0-beta 変更点 - Qiita",
+                    "url": "http://qiita.com/vvakame/items/072fa78f9fe496edd1f0"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 1.19.0 · jquery/qunit",
+            "url": "https://github.com/jquery/qunit/releases/tag/1.19.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "QUnit 1.19.0リリース。\nES6 MapとSetを対象としたassertのサポート、`QUnit.stack`の実装など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Ember.js - Ember Data v2.0 Released and v2.1 Beta Released",
+            "url": "http://emberjs.com/blog/2015/09/02/ember-data-2-0-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Ember Data 2.0リリース。\nEmber 2.0と同じように、1.xで非推奨となったメソッドの削除がメインとなるアップデート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Chromium Blog: Chrome 46 Beta: Flexible animations and improved loading performance",
+            "url": "http://blog.chromium.org/2015/09/chrome-46-beta-flexible-animations-and.html",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Chrome 46βリリース。\nCSS Motion Path、HTTP Client Hintsのサポート。\nES6 spread operator、`new.target`、`Event.isTrusted`、`CSS.escape()`の追加、iframeのsandbox改善など",
+            "relatedLinks": [
+                {
+                    "title": "Future Use: CSS Motion Paths by Dan Wilson on CodePen",
+                    "url": "http://codepen.io/danwilson/blog/css-motion-paths"
+                },
+                {
+                    "title": "igrigorik/http-client-hints",
+                    "url": "https://github.com/igrigorik/http-client-hints"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Typed Arrays in ECMAScript 6",
+            "url": "http://www.2ality.com/2015/09/typed-arrays.html",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "Typed Arraysについての詳しい解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Angular 2 Survey Results",
+            "url": "http://angularjs.blogspot.com/2015/09/angular-2-survey-results.html",
+            "tags": [
+                "AngularJS"
+            ],
+            "content": "AngularJS 2に関するアンケート結果",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Flash-Free Clipboard for the Web ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/",
+            "tags": [
+                "JavaScript",
+                "クリップボード"
+            ],
+            "content": "`document.execCommand(\"copy\")`を使ってクリップボードへのコピーをJavaScriptで行うことについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "New React Developer Tools | React",
+            "url": "https://facebook.github.io/react/blog/2015/09/02/new-react-developer-tools.html",
+            "tags": [
+                "React",
+                "debug",
+                "firefox",
+                "Chrome"
+            ],
+            "content": "Reactの新しい開発者ツールが公開された。\nFirefoxとChromeに対応している。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Measuring JavaScript Functions&#x27; Performance",
+            "url": "http://www.sitepoint.com/measuring-javascript-functions-performance/",
+            "tags": [
+                "JavaScript",
+                "performance"
+            ],
+            "content": "JavaScriptで関数のパフォーマンスを計測するときに気をつけるべきことについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Reactjs v0.14 changes // Speaker Deck",
+            "url": "https://speakerdeck.com/koba04/reactjs-v0-dot-14-changes",
+            "tags": [
+                "React",
+                "スライド"
+            ],
+            "content": "React 0.14での変更点についてのスライド",
+            "relatedLinks": [
+                {
+                    "title": "React.js meetup #2を開催しました - blog.koba04.com",
+                    "url": "http://blog.koba04.com/post/2015/09/09/reactjs-meetup2/"
+                },
+                {
+                    "title": "React.js meetup #2 - 資料一覧 - connpass",
+                    "url": "http://reactjs-meetup.connpass.com/event/19504/presentation/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Introduction to Redux // Speaker Deck",
+            "url": "https://speakerdeck.com/axross/introduction-to-redux",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "スライド"
+            ],
+            "content": "Reduxについてのスライド。\nReduxのデータフローについて解説されている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Substance",
+            "url": "http://substance.io/",
+            "tags": [
+                "JavaScript",
+                "editor",
+                "library"
+            ],
+            "content": "WYSIWYGエディタライブラリ。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "UpUp - The Offline First Library",
+            "url": "https://www.talater.com/upup/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ServiceWorker"
+            ],
+            "content": "Service Workersを使いオフラインでもコンテンツを表示できるようにするライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: JS+Node.jsによるWebクローラー/ネットエージェント開発テクニック: クジラ飛行机",
+            "url": "http://www.amazon.co.jp/dp/4883379930",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "book"
+            ],
+            "content": "クローラーや自動化などのツールとしてJavaScriptを扱う書籍",
+            "relatedLinks": [
+                {
+                    "title": "Node.jsによるWebクローラー開発テクニック - クジラ机ブログ",
+                    "url": "http://kujirahand.com/blog/index.php?Node.js%E3%81%AB%E3%82%88%E3%82%8BWeb%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC%E9%96%8B%E7%99%BA%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF"
+                }
+            ]
+        }
+    ]
+}

@@ -1,309 +1,325 @@
-[
-    {
-        "category": "Headline",
-        "title": "December Security Release Summary | Node.js",
-        "url": "https://nodejs.org/en/blog/vulnerability/december-2015-security-releases/",
+{
+    "meta": {
+        "title": "2015-12-07のJS: Jasmine 2.4.0、Redux入門、Firefox Platform Status",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-12-07T11:20:00.000Z",
+        "category": "JSer",
         "tags": [
-            "node.js",
-            "セキュリティ",
-            "ReleaseNote"
-        ],
-        "content": "Node.jsのセキュリティアップデートとして0.10、0.12、4.x、5.xのアップデートが公開された。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Chromium Blog: Chrome 48 Beta: Present to Cast, custom notification buttons, and network estimation",
-        "url": "http://blog.chromium.org/2015/12/chrome-48-beta-present-to-cast-devices_91.html",
-        "tags": [
-            "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Chrome 48 Betaリリース。\nPresentation API、WebRTCがVP9をサポート、`AudioNode#connect`をサポート、well-known symbolsとして`@@toPrimitive`のサポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 1.0.0 · dekujs/deku",
-        "url": "https://github.com/dekujs/deku/releases/tag/1.0.0",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Virtual DOMの実装を持つReactライクなComponentライブラリであるdeku 1.0.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "jsdom/Changelog.md at 7.2.0 · tmpvar/jsdom",
-        "url": "https://github.com/tmpvar/jsdom/blob/7.2.0/Changelog.md",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "ReleaseNote"
-        ],
-        "content": "jsdom 7.2.0リリース。\n`<input>`と`<textarea>`のselection APIがサポートされた",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "babel/CHANGELOG.md at master · babel/babel",
-        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#630",
-        "tags": [
-            "babel",
-            "ReleaseNote"
-        ],
-        "content": "Babel 6.3.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Flow | Version 0.19.0",
-        "url": "http://flowtype.org/blog/2015/12/01/Version-0.19.0.html",
-        "tags": [
-            "flowtype",
-            "ReleaseNote"
-        ],
-        "content": "FlowType 0.19.0リリース。\n`@noflow`の追加、宣言のみを集めた`.flow`ファイルの対応など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release ES2016 Draft 2015-12-01 · tc39/ecma262",
-        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151201",
-        "tags": [
-            "ECMAScript",
-            "spec",
-            "ReleaseNote"
-        ],
-        "content": "ES2016 Draft 2015-12-01リリース。\n`Promise.all/race`が`@@species`を参照しないように変更。\nPromiseのUnhandled Rejectionを検知するために必要な仕様がECMAScript側にも追加された",
-        "relatedLinks": [
-            {
-                "title": "domenic/unhandled-rejections-browser-spec",
-                "url": "https://github.com/domenic/unhandled-rejections-browser-spec"
-            },
-            {
-                "title": "Promise Error Handling",
-                "url": "http://azu.github.io/slide/error-handling/promise-error-handling.html"
-            }
+            "Jasmine",
+            "Testing",
+            "Redux",
+            "Firefox",
+            "Browser"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "jasmine/2.4.0.md at master · jasmine/jasmine",
-        "url": "https://github.com/jasmine/jasmine/blob/master/release_notes/2.4.0.md",
-        "tags": [
-            "jasmine",
-            "ReleaseNote"
-        ],
-        "content": "Jasmine 2.4.0リリース。\nテストがランダムな順番で実行されるように。レポーターにもランダム実行に関する情報が表示されるように。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Microsoft Edge’s JavaScript engine to go open-source | Microsoft Edge Dev Blog",
-        "url": "https://blogs.windows.com/msedgedev/2015/12/05/open-source-chakra-core/",
-        "tags": [
-            "MSEdge",
-            "JavaScript"
-        ],
-        "content": "MSEdgeのJavaScriptエンジンであるChakraがオープンソースとして2016年1月に公開予定。\n公開するのはコアであるChakraCore部分",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "デバッグの技術 | プログラミング | POSTD",
-        "url": "http://postd.cc/the-art-of-debug/",
-        "tags": [
-            "browser",
-            "debug",
-            "thought",
-            "翻訳"
-        ],
-        "content": "デバッグの考え方やアプローチについて。\nChromeの開発者ツールを使ったデバッグ方法についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Redux入門【ダイジェスト版】10分で理解するReduxの基礎 - Qiita",
-        "url": "http://qiita.com/kiita312/items/49a1f03445b19cf407b7",
-        "tags": [
-            "JavaScript",
-            "Flux"
-        ],
-        "content": "Reduxの構成要素、データフロー、Reduxの3原則について簡潔にまとまってる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Vue.jsにreduxを載せた話 | MMMブログ",
-        "url": "http://blog.mmmcorp.co.jp/blog/2015/12/03/vue-with-redux/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Vue.jsとReduxを組み合わせて利用する話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "WHATWG版とW3C版がある仕様たち - Unreviewed",
-        "url": "http://takenspc.hatenablog.com/entry/2015/12/03/235927",
-        "tags": [
-            "W3C",
-            "spec"
-        ],
-        "content": "W3CとWHATWGでそれぞれにある仕様の比較。\nW3C版はWHATWG版に追従できていない部分やメンテナンスされていないケースもあるという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Greenkeeper",
-        "url": "http://greenkeeper.io/",
-        "tags": [
-            "npm",
-            "webservice"
-        ],
-        "content": "npmで依存するライブラリのアップデートがあるなら、更新内容をPull Requestで通知してくれるウェブサービス",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Firefox Platform Status",
-        "url": "https://platform-status.mozilla.org/",
-        "tags": [
-            "firefox",
-            "browser",
-            "WebPlatformAPI",
-            "まとめ"
-        ],
-        "content": "Firefoxの機能ごとの実装状況をまとめたステータスページ。\nデータはGitHubで管理されている",
-        "relatedLinks": [
-            {
-                "title": "azu/browser-javascript-resource",
-                "url": "https://github.com/azu/browser-javascript-resource"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Flexbox Froggy - A game for learning CSS flexbox",
-        "url": "http://flexboxfroggy.com/",
-        "tags": [
-            "CSS",
-            "tutorial"
-        ],
-        "content": "CSS Flexboxについて実際の描画結果を見ながら学べるチュートリアル",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "nathancahill/Split.js",
-        "url": "https://github.com/nathancahill/Split.js",
-        "tags": [
-            "JavaScript",
-            "UI",
-            "library"
-        ],
-        "content": "サイズが可変可能なSplit Viewを作るUIライブラリ。\n要素同士を縦横に分割し、ドラッグでサイズを変更出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "vuejs/vuex",
-        "url": "https://github.com/vuejs/vuex",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "library"
-        ],
-        "content": "Vue.js向けのFluxライクなライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "airbnb/enzyme",
-        "url": "https://github.com/airbnb/enzyme",
-        "tags": [
-            "JavaScript",
-            "React",
-            "testing"
-        ],
-        "content": "React Componentをテストするための補助ライブラリ。\njsdomを使いレンダリングを再現した状態のテストも行える",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "eslint/typescript-eslint-parser",
-        "url": "https://github.com/eslint/typescript-eslint-parser",
-        "tags": [
-            "TypeScript",
-            "JavaScript",
-            "AST"
-        ],
-        "content": "TypeScript ASTをESTree ASTに変換するパーサ。\nESLintでTypeScriptのコードをLintする目的",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mozilla/oghliner",
-        "url": "https://github.com/mozilla/oghliner",
-        "tags": [
-            "ServiceWorker",
-            "Tools",
-            "github"
-        ],
-        "content": "GitHub Pagesをオフライン対応するためのテンプレートとデプロイツール。\nService Workerを使ってリソースをオフラインでも参照出来るようにしている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Jam3/hihat",
-        "url": "https://github.com/Jam3/hihat",
-        "tags": [
-            "Electron",
-            "Chrome",
-            "debug",
-            "testing"
-        ],
-        "content": "Electronを使ってChrome DevToolsを使ったNode REPLやテスト実行等を行えるツール。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "sebmck/lerna",
-        "url": "https://github.com/sebmck/lerna",
-        "tags": [
-            "npm",
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "Babelのような一つのリポジトリに複数のパッケージがある(monorepo)を扱うためのツール。\nnpm installやnpm publishの補助をしてくれる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "WebTorrent - Streaming browser torrent client",
-        "url": "https://webtorrent.io/",
-        "tags": [
-            "WebRTC",
-            "BitTorrent"
-        ],
-        "content": "torrentのストリーミングをWebRTCで行うライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "The Pragmatic Bookshelf | Reactive Programming with RxJS",
-        "url": "https://pragprog.com/book/smreactjs/reactive-programming-with-rxjs",
-        "tags": [
-            "Rx",
-            "JavaScript",
-            "book"
-        ],
-        "content": "RxJSについての書籍\nCycle.jsについても書かれている",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "December Security Release Summary | Node.js",
+            "url": "https://nodejs.org/en/blog/vulnerability/december-2015-security-releases/",
+            "tags": [
+                "node.js",
+                "セキュリティ",
+                "ReleaseNote"
+            ],
+            "content": "Node.jsのセキュリティアップデートとして0.10、0.12、4.x、5.xのアップデートが公開された。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Chromium Blog: Chrome 48 Beta: Present to Cast, custom notification buttons, and network estimation",
+            "url": "http://blog.chromium.org/2015/12/chrome-48-beta-present-to-cast-devices_91.html",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Chrome 48 Betaリリース。\nPresentation API、WebRTCがVP9をサポート、`AudioNode#connect`をサポート、well-known symbolsとして`@@toPrimitive`のサポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 1.0.0 · dekujs/deku",
+            "url": "https://github.com/dekujs/deku/releases/tag/1.0.0",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Virtual DOMの実装を持つReactライクなComponentライブラリであるdeku 1.0.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "jsdom/Changelog.md at 7.2.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/7.2.0/Changelog.md",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "ReleaseNote"
+            ],
+            "content": "jsdom 7.2.0リリース。\n`<input>`と`<textarea>`のselection APIがサポートされた",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "babel/CHANGELOG.md at master · babel/babel",
+            "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#630",
+            "tags": [
+                "babel",
+                "ReleaseNote"
+            ],
+            "content": "Babel 6.3.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Flow | Version 0.19.0",
+            "url": "http://flowtype.org/blog/2015/12/01/Version-0.19.0.html",
+            "tags": [
+                "flowtype",
+                "ReleaseNote"
+            ],
+            "content": "FlowType 0.19.0リリース。\n`@noflow`の追加、宣言のみを集めた`.flow`ファイルの対応など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release ES2016 Draft 2015-12-01 · tc39/ecma262",
+            "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151201",
+            "tags": [
+                "ECMAScript",
+                "spec",
+                "ReleaseNote"
+            ],
+            "content": "ES2016 Draft 2015-12-01リリース。\n`Promise.all/race`が`@@species`を参照しないように変更。\nPromiseのUnhandled Rejectionを検知するために必要な仕様がECMAScript側にも追加された",
+            "relatedLinks": [
+                {
+                    "title": "domenic/unhandled-rejections-browser-spec",
+                    "url": "https://github.com/domenic/unhandled-rejections-browser-spec"
+                },
+                {
+                    "title": "Promise Error Handling",
+                    "url": "http://azu.github.io/slide/error-handling/promise-error-handling.html"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "jasmine/2.4.0.md at master · jasmine/jasmine",
+            "url": "https://github.com/jasmine/jasmine/blob/master/release_notes/2.4.0.md",
+            "tags": [
+                "jasmine",
+                "ReleaseNote"
+            ],
+            "content": "Jasmine 2.4.0リリース。\nテストがランダムな順番で実行されるように。レポーターにもランダム実行に関する情報が表示されるように。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Microsoft Edge’s JavaScript engine to go open-source | Microsoft Edge Dev Blog",
+            "url": "https://blogs.windows.com/msedgedev/2015/12/05/open-source-chakra-core/",
+            "tags": [
+                "MSEdge",
+                "JavaScript"
+            ],
+            "content": "MSEdgeのJavaScriptエンジンであるChakraがオープンソースとして2016年1月に公開予定。\n公開するのはコアであるChakraCore部分",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "デバッグの技術 | プログラミング | POSTD",
+            "url": "http://postd.cc/the-art-of-debug/",
+            "tags": [
+                "browser",
+                "debug",
+                "thought",
+                "翻訳"
+            ],
+            "content": "デバッグの考え方やアプローチについて。\nChromeの開発者ツールを使ったデバッグ方法についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Redux入門【ダイジェスト版】10分で理解するReduxの基礎 - Qiita",
+            "url": "http://qiita.com/kiita312/items/49a1f03445b19cf407b7",
+            "tags": [
+                "JavaScript",
+                "Flux"
+            ],
+            "content": "Reduxの構成要素、データフロー、Reduxの3原則について簡潔にまとまってる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Vue.jsにreduxを載せた話 | MMMブログ",
+            "url": "http://blog.mmmcorp.co.jp/blog/2015/12/03/vue-with-redux/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Vue.jsとReduxを組み合わせて利用する話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "WHATWG版とW3C版がある仕様たち - Unreviewed",
+            "url": "http://takenspc.hatenablog.com/entry/2015/12/03/235927",
+            "tags": [
+                "W3C",
+                "spec"
+            ],
+            "content": "W3CとWHATWGでそれぞれにある仕様の比較。\nW3C版はWHATWG版に追従できていない部分やメンテナンスされていないケースもあるという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Greenkeeper",
+            "url": "http://greenkeeper.io/",
+            "tags": [
+                "npm",
+                "webservice"
+            ],
+            "content": "npmで依存するライブラリのアップデートがあるなら、更新内容をPull Requestで通知してくれるウェブサービス",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Firefox Platform Status",
+            "url": "https://platform-status.mozilla.org/",
+            "tags": [
+                "firefox",
+                "browser",
+                "WebPlatformAPI",
+                "まとめ"
+            ],
+            "content": "Firefoxの機能ごとの実装状況をまとめたステータスページ。\nデータはGitHubで管理されている",
+            "relatedLinks": [
+                {
+                    "title": "azu/browser-javascript-resource",
+                    "url": "https://github.com/azu/browser-javascript-resource"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Flexbox Froggy - A game for learning CSS flexbox",
+            "url": "http://flexboxfroggy.com/",
+            "tags": [
+                "CSS",
+                "tutorial"
+            ],
+            "content": "CSS Flexboxについて実際の描画結果を見ながら学べるチュートリアル",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "nathancahill/Split.js",
+            "url": "https://github.com/nathancahill/Split.js",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "library"
+            ],
+            "content": "サイズが可変可能なSplit Viewを作るUIライブラリ。\n要素同士を縦横に分割し、ドラッグでサイズを変更出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "vuejs/vuex",
+            "url": "https://github.com/vuejs/vuex",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "library"
+            ],
+            "content": "Vue.js向けのFluxライクなライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "airbnb/enzyme",
+            "url": "https://github.com/airbnb/enzyme",
+            "tags": [
+                "JavaScript",
+                "React",
+                "testing"
+            ],
+            "content": "React Componentをテストするための補助ライブラリ。\njsdomを使いレンダリングを再現した状態のテストも行える",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "eslint/typescript-eslint-parser",
+            "url": "https://github.com/eslint/typescript-eslint-parser",
+            "tags": [
+                "TypeScript",
+                "JavaScript",
+                "AST"
+            ],
+            "content": "TypeScript ASTをESTree ASTに変換するパーサ。\nESLintでTypeScriptのコードをLintする目的",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mozilla/oghliner",
+            "url": "https://github.com/mozilla/oghliner",
+            "tags": [
+                "ServiceWorker",
+                "Tools",
+                "github"
+            ],
+            "content": "GitHub Pagesをオフライン対応するためのテンプレートとデプロイツール。\nService Workerを使ってリソースをオフラインでも参照出来るようにしている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Jam3/hihat",
+            "url": "https://github.com/Jam3/hihat",
+            "tags": [
+                "Electron",
+                "Chrome",
+                "debug",
+                "testing"
+            ],
+            "content": "Electronを使ってChrome DevToolsを使ったNode REPLやテスト実行等を行えるツール。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "sebmck/lerna",
+            "url": "https://github.com/sebmck/lerna",
+            "tags": [
+                "npm",
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "Babelのような一つのリポジトリに複数のパッケージがある(monorepo)を扱うためのツール。\nnpm installやnpm publishの補助をしてくれる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "WebTorrent - Streaming browser torrent client",
+            "url": "https://webtorrent.io/",
+            "tags": [
+                "WebRTC",
+                "BitTorrent"
+            ],
+            "content": "torrentのストリーミングをWebRTCで行うライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "The Pragmatic Bookshelf | Reactive Programming with RxJS",
+            "url": "https://pragprog.com/book/smreactjs/reactive-programming-with-rxjs",
+            "tags": [
+                "Rx",
+                "JavaScript",
+                "book"
+            ],
+            "content": "RxJSについての書籍\nCycle.jsについても書かれている",
+            "relatedLinks": []
+        }
+    ]
+}

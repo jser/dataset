@@ -1,333 +1,347 @@
-[
-    {
-        "category": "Headline",
-        "title": "Chrome Releases: Stable Channel Update",
-        "url": "http://googlechromereleases.blogspot.com/2014/10/stable-channel-update.html",
+{
+    "meta": {
+        "title": "2014-10-14のJS: Chrome 38リリース、ES6をES5へお手軽に変換",
+        "author": "azu",
+        "layout": "post",
+        "date": "2014-10-14T10:40:00.000Z",
+        "category": "JSer",
         "tags": [
             "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Chrome 38リリース",
-        "relatedLinks": [
-            {
-                "title": "Chromium Blog: Chrome 38 Beta: New primitives for the next-generation web",
-                "url": "http://blog.chromium.org/2014/08/chrome-38-beta-new-primitives-for-next.html"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Visual Studio “14” CTP 4 and TypeScript 1.1 CTP Released - The Visual Studio Blog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/visualstudio/archive/2014/10/06/visual-studio-14-ctp-4-and-typescript-1-1-ctp-released.aspx",
-        "tags": [
-            "TypeScript",
-            "ReleaseNote"
-        ],
-        "content": "TypeScript 1.1リリース",
-        "relatedLinks": [
-            {
-                "title": "TypeScript 1.1.0 変更点 - Qiita",
-                "url": "http://qiita.com/vvakame/items/5e53c392867ebc604267"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "AngularJS 1.3.0 – superluminal-nudge",
-        "url": "http://angularjs.blogspot.com/2014/10/angularjs-130-superluminal-nudge.html",
-        "tags": [
-            "AngularJS",
-            "ReleaseNote"
-        ],
-        "content": "AngularJS 1.3.0リリース\n\nOne-time bindings、WAI-ARIAに対応するngAriaやStrict DI等の機能追加。\n\nまた1.3.0からはIE8は非サポートとなる",
-        "relatedLinks": [
-            {
-                "title": "AngularJS 1.3.0 リリース - AngularJS Ninja",
-                "url": "http://angularjsninja.com/blog/2014/10/14/angularjs-1.3.0-released/"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release v0.9.1: Release Release 0.9.1 (2014-10-08) Node 0.11.x support · twada/power-assert",
-        "url": "https://github.com/twada/power-assert/releases/tag/v0.9.1",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "power-assert 0.9.1リリース。\n\nNode.js 0.11サポート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ractive/CHANGELOG.md at master · ractivejs/ractive",
-        "url": "https://github.com/ractivejs/ractive/blob/master/CHANGELOG.md",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Ractive.js 0.6.0リリース。\n\n`init`の代わりに`onrender`となったり、色々なevent hooksが追加された。\n\nテンプレートエンジンへの機能追加等",
-        "relatedLinks": [
-            {
-                "title": "Version 0.6.0 - Google グループ",
-                "url": "https://groups.google.com/forum/#!topic/ractive-js/_VIdRH_pG3w"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Brackets 0.44 Release: Split View – Brackets Blog",
-        "url": "http://blog.brackets.io/2014/10/06/brackets-0-44-release-split-view/",
-        "tags": [
-            "JavaScript",
-            "editor",
-            "ReleaseNote"
-        ],
-        "content": "Brackets 0.44リリース。\n\n横並べで表示できるSplit Viewの追加、Vendor prefixなどについてのQuick Docsを追加",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Vue.js v0.11の変更点(予定)まとめ - blog.koba04.com",
-        "url": "http://blog.koba04.com/post/2014/10/07/vue-js-v011-changes/",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "library"
-        ],
-        "content": "Vue.js v0.11 RCの変更点のまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Dev.Opera — CSS: It was twenty years ago today — an interview with Håkon Wium Lie",
-        "url": "https://dev.opera.com/articles/css-twenty-years-hakon/",
-        "tags": [
-            "CSS",
-            "歴史",
-            "インタビュー"
-        ],
-        "content": "CSS20周年を記念してのインタビュー",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Lightweight ES6 Features That Pack A Punch | colintoh.com",
-        "url": "http://colintoh.com/blog/lightweight-es6-features",
-        "tags": [
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "ES6の機能紹介記事。\n\nES6Fiddleで実行出来るサンプルコードと共に紹介されてて分かりやすい",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript Beyond the Web in 2014",
-        "url": "http://www.sitepoint.com/javascript-beyond-web-2014/",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "JavaScriptとハードウェアについて。\n\nJavaScriptを使って触れるハードウェアについてまとめられている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript - 本当にあったTouchEventの怖い話 - Qiita",
-        "url": "http://qiita.com/damele0n/items/dc312bbf66da1d46dd6f",
-        "tags": [
-            "mobile",
-            "JavaScript",
-            "Android",
-            "ios"
-        ],
-        "content": "Android、iOSでのTouchEventを生成してdispatchする方法について。\n\n独自仕様の`initTouchEvent`についてやPolyfillについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "天使やカイザーと呼ばれて » オレ流AngularJSを使った設計ポリシー",
-        "url": "https://www.eisbahn.jp/yoichiro/2014/10/my_angularjs_design_policy.html",
-        "tags": [
-            "AngularJS",
-            "JavaScript"
-        ],
-        "content": "Chrome MySQL Adminを例としたAngularJSを使った設計のポリシーについて。\n\nコントローラやサービス、状態変化とイベントのやり取りについて等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "全国のSeleniumer必読 - Qiita",
-        "url": "http://qiita.com/oh_rusty_nail/items/b8ba525d31ea7c522856",
-        "tags": [
-            "Selenium",
-            "まとめ",
-            "Tips",
-            "browser"
-        ],
-        "content": "SeleniumのTips集、verifyとassertの使い分け、状況別の対処法等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Explorations In Automatically Fixing JavaScript Linting-errors",
-        "url": "http://addyosmani.com/blog/fixmyjs/",
-        "tags": [
-            "JavaScript",
-            "editor",
-            "Tools"
-        ],
-        "content": "FixMyJSを使ったJSHintの警告対象を自動的に修正する方法とSublime Text等のエディタ連携について",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "React: Flux Architecture - Video Tutorial Series @eggheadio",
-        "url": "https://egghead.io/series/react-flux-architecture",
-        "tags": [
-            "React",
-            "動画"
-        ],
-        "content": "Reactを使ったFluxアーキテクチャでのショッピングカートを作るスクリーンキャスト。\n\nReactでなくても実現できる事が中心なのでデザインのパターンとして見られる感じ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "WebRTC (概要から中の仕組みまで) // Speaker Deck",
-        "url": "https://speakerdeck.com/yosuke_furukawa/webrtc-gai-yao-karazhong-falseshi-zu-mimade",
-        "tags": [
-            "WebRTC",
-            "スライド"
-        ],
-        "content": "WebRTCの接続確立から通信するまでの流れとWebRTCのAPIについてのスライド。\n\nNAT、ICE(STUN、TURN)、DTLS、SRTP、SCTP、WebSocket APIとの類似性などについて",
-        "relatedLinks": [
-            {
-                "title": "WebRTCについての話を社内勉強会でしてきた - from scratch",
-                "url": "http://yosuke-furukawa.hatenablog.com/entry/2014/10/09/100629"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "INTRO TO D3.JS - Overview",
-        "url": "https://square.github.io//intro-to-d3/",
-        "tags": [
-            "JavaScript",
-            "d3.js",
-            "tutorial"
-        ],
-        "content": "Square社によるD3.jsチュートリアル",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "DevTools Tips",
-        "url": "http://devtoolstips.com/",
-        "tags": [
-            "Chrome",
-            "debug"
-        ],
-        "content": "Chrome DevToolsのTips投稿サイト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "sebmck/6to5",
-        "url": "https://github.com/sebmck/6to5",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "ES6のコードをランタイムなしのES5に変換するツール。\n\nSourceMap対応、BrowserifyやGrunt等のpluginが用意されてる。\n\n他のES6コード変換との比較表も載せている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Nightmare",
-        "url": "http://www.nightmarejs.org/",
-        "tags": [
-            "JavaScript",
-            "browserify",
-            "library"
-        ],
-        "content": "PhantomJS APIでの操作をメソッドチェーンで書いていけるライブラリ。\n\n`.run(callback)` にerrorオブジェクトが渡ってくる。\n\n操作をまとめたモジュールを作って`.use`で再利用できる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "React Bootstrap",
-        "url": "http://react-bootstrap.github.io/",
-        "tags": [
-            "React",
-            "CSS",
-            "design"
-        ],
-        "content": "Reactを使ったBootstrap 3のcomponent。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "angular/dart2es6",
-        "url": "https://github.com/angular/dart2es6",
-        "tags": [
-            "dart",
             "ECMAScript",
             "Tools"
-        ],
-        "content": "DartをES6に変換するtranspiler",
-        "relatedLinks": []
+        ]
     },
-    {
-        "category": "SoftwareLibrary",
-        "title": "cure53/jPurify",
-        "url": "https://github.com/cure53/jPurify",
-        "tags": [
-            "jQuery",
-            "DOM",
-            "XSS",
-            "library"
-        ],
-        "content": "jQueryでDOM Based XSSを引き起こす可能性があるメソッドを乗っ取って、サニタイズ的な処理を追加するライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ilyavolodin/eslint-plugin-backbone",
-        "url": "https://github.com/ilyavolodin/eslint-plugin-backbone",
-        "tags": [
-            "JavaScript",
-            "backbone.js",
-            "plugin"
-        ],
-        "content": "ESLintを使ったBackbone.jsに関するLintのルールセット",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "github/fetch · GitHub",
-        "url": "https://github.com/github/fetch",
-        "tags": [
-            "JavaScript",
-            "XHR",
-            "Promises",
-            "library"
-        ],
-        "content": "WHATWGで策定されてる`fetch`のpolyfillライブラリ。 \n\nXHRよりもシンプルなAPIでデータの取得、送信等が行える。\n\nfetchはPromiseを返すので別途Promiseのpolyfillが必要。\n\nformやArrayBuffer等まだ実装されていない部分がある。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "JavaScript… by Reginald Braithwaite [Leanpub PDF/iPad/Kindle]",
-        "url": "https://leanpub.com/javascript-spessore",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "JavaScriptのオブジェクト指向についての書籍。スケール出来るようなWebアプリケーションの作りを学ぶ。\n\nWeb版は無料で見られる",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Chrome Releases: Stable Channel Update",
+            "url": "http://googlechromereleases.blogspot.com/2014/10/stable-channel-update.html",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Chrome 38リリース",
+            "relatedLinks": [
+                {
+                    "title": "Chromium Blog: Chrome 38 Beta: New primitives for the next-generation web",
+                    "url": "http://blog.chromium.org/2014/08/chrome-38-beta-new-primitives-for-next.html"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Visual Studio “14” CTP 4 and TypeScript 1.1 CTP Released - The Visual Studio Blog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/visualstudio/archive/2014/10/06/visual-studio-14-ctp-4-and-typescript-1-1-ctp-released.aspx",
+            "tags": [
+                "TypeScript",
+                "ReleaseNote"
+            ],
+            "content": "TypeScript 1.1リリース",
+            "relatedLinks": [
+                {
+                    "title": "TypeScript 1.1.0 変更点 - Qiita",
+                    "url": "http://qiita.com/vvakame/items/5e53c392867ebc604267"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "AngularJS 1.3.0 – superluminal-nudge",
+            "url": "http://angularjs.blogspot.com/2014/10/angularjs-130-superluminal-nudge.html",
+            "tags": [
+                "AngularJS",
+                "ReleaseNote"
+            ],
+            "content": "AngularJS 1.3.0リリース\n\nOne-time bindings、WAI-ARIAに対応するngAriaやStrict DI等の機能追加。\n\nまた1.3.0からはIE8は非サポートとなる",
+            "relatedLinks": [
+                {
+                    "title": "AngularJS 1.3.0 リリース - AngularJS Ninja",
+                    "url": "http://angularjsninja.com/blog/2014/10/14/angularjs-1.3.0-released/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release v0.9.1: Release Release 0.9.1 (2014-10-08) Node 0.11.x support · twada/power-assert",
+            "url": "https://github.com/twada/power-assert/releases/tag/v0.9.1",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "power-assert 0.9.1リリース。\n\nNode.js 0.11サポート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ractive/CHANGELOG.md at master · ractivejs/ractive",
+            "url": "https://github.com/ractivejs/ractive/blob/master/CHANGELOG.md",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Ractive.js 0.6.0リリース。\n\n`init`の代わりに`onrender`となったり、色々なevent hooksが追加された。\n\nテンプレートエンジンへの機能追加等",
+            "relatedLinks": [
+                {
+                    "title": "Version 0.6.0 - Google グループ",
+                    "url": "https://groups.google.com/forum/#!topic/ractive-js/_VIdRH_pG3w"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Brackets 0.44 Release: Split View – Brackets Blog",
+            "url": "http://blog.brackets.io/2014/10/06/brackets-0-44-release-split-view/",
+            "tags": [
+                "JavaScript",
+                "editor",
+                "ReleaseNote"
+            ],
+            "content": "Brackets 0.44リリース。\n\n横並べで表示できるSplit Viewの追加、Vendor prefixなどについてのQuick Docsを追加",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Vue.js v0.11の変更点(予定)まとめ - blog.koba04.com",
+            "url": "http://blog.koba04.com/post/2014/10/07/vue-js-v011-changes/",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library"
+            ],
+            "content": "Vue.js v0.11 RCの変更点のまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Dev.Opera — CSS: It was twenty years ago today — an interview with Håkon Wium Lie",
+            "url": "https://dev.opera.com/articles/css-twenty-years-hakon/",
+            "tags": [
+                "CSS",
+                "歴史",
+                "インタビュー"
+            ],
+            "content": "CSS20周年を記念してのインタビュー",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Lightweight ES6 Features That Pack A Punch | colintoh.com",
+            "url": "http://colintoh.com/blog/lightweight-es6-features",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "ES6の機能紹介記事。\n\nES6Fiddleで実行出来るサンプルコードと共に紹介されてて分かりやすい",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript Beyond the Web in 2014",
+            "url": "http://www.sitepoint.com/javascript-beyond-web-2014/",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "JavaScriptとハードウェアについて。\n\nJavaScriptを使って触れるハードウェアについてまとめられている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript - 本当にあったTouchEventの怖い話 - Qiita",
+            "url": "http://qiita.com/damele0n/items/dc312bbf66da1d46dd6f",
+            "tags": [
+                "mobile",
+                "JavaScript",
+                "Android",
+                "ios"
+            ],
+            "content": "Android、iOSでのTouchEventを生成してdispatchする方法について。\n\n独自仕様の`initTouchEvent`についてやPolyfillについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "天使やカイザーと呼ばれて » オレ流AngularJSを使った設計ポリシー",
+            "url": "https://www.eisbahn.jp/yoichiro/2014/10/my_angularjs_design_policy.html",
+            "tags": [
+                "AngularJS",
+                "JavaScript"
+            ],
+            "content": "Chrome MySQL Adminを例としたAngularJSを使った設計のポリシーについて。\n\nコントローラやサービス、状態変化とイベントのやり取りについて等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "全国のSeleniumer必読 - Qiita",
+            "url": "http://qiita.com/oh_rusty_nail/items/b8ba525d31ea7c522856",
+            "tags": [
+                "Selenium",
+                "まとめ",
+                "Tips",
+                "browser"
+            ],
+            "content": "SeleniumのTips集、verifyとassertの使い分け、状況別の対処法等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Explorations In Automatically Fixing JavaScript Linting-errors",
+            "url": "http://addyosmani.com/blog/fixmyjs/",
+            "tags": [
+                "JavaScript",
+                "editor",
+                "Tools"
+            ],
+            "content": "FixMyJSを使ったJSHintの警告対象を自動的に修正する方法とSublime Text等のエディタ連携について",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "React: Flux Architecture - Video Tutorial Series @eggheadio",
+            "url": "https://egghead.io/series/react-flux-architecture",
+            "tags": [
+                "React",
+                "動画"
+            ],
+            "content": "Reactを使ったFluxアーキテクチャでのショッピングカートを作るスクリーンキャスト。\n\nReactでなくても実現できる事が中心なのでデザインのパターンとして見られる感じ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "WebRTC (概要から中の仕組みまで) // Speaker Deck",
+            "url": "https://speakerdeck.com/yosuke_furukawa/webrtc-gai-yao-karazhong-falseshi-zu-mimade",
+            "tags": [
+                "WebRTC",
+                "スライド"
+            ],
+            "content": "WebRTCの接続確立から通信するまでの流れとWebRTCのAPIについてのスライド。\n\nNAT、ICE(STUN、TURN)、DTLS、SRTP、SCTP、WebSocket APIとの類似性などについて",
+            "relatedLinks": [
+                {
+                    "title": "WebRTCについての話を社内勉強会でしてきた - from scratch",
+                    "url": "http://yosuke-furukawa.hatenablog.com/entry/2014/10/09/100629"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "INTRO TO D3.JS - Overview",
+            "url": "https://square.github.io//intro-to-d3/",
+            "tags": [
+                "JavaScript",
+                "d3.js",
+                "tutorial"
+            ],
+            "content": "Square社によるD3.jsチュートリアル",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "DevTools Tips",
+            "url": "http://devtoolstips.com/",
+            "tags": [
+                "Chrome",
+                "debug"
+            ],
+            "content": "Chrome DevToolsのTips投稿サイト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "sebmck/6to5",
+            "url": "https://github.com/sebmck/6to5",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "ES6のコードをランタイムなしのES5に変換するツール。\n\nSourceMap対応、BrowserifyやGrunt等のpluginが用意されてる。\n\n他のES6コード変換との比較表も載せている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Nightmare",
+            "url": "http://www.nightmarejs.org/",
+            "tags": [
+                "JavaScript",
+                "browserify",
+                "library"
+            ],
+            "content": "PhantomJS APIでの操作をメソッドチェーンで書いていけるライブラリ。\n\n`.run(callback)` にerrorオブジェクトが渡ってくる。\n\n操作をまとめたモジュールを作って`.use`で再利用できる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "React Bootstrap",
+            "url": "http://react-bootstrap.github.io/",
+            "tags": [
+                "React",
+                "CSS",
+                "design"
+            ],
+            "content": "Reactを使ったBootstrap 3のcomponent。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "angular/dart2es6",
+            "url": "https://github.com/angular/dart2es6",
+            "tags": [
+                "dart",
+                "ECMAScript",
+                "Tools"
+            ],
+            "content": "DartをES6に変換するtranspiler",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "cure53/jPurify",
+            "url": "https://github.com/cure53/jPurify",
+            "tags": [
+                "jQuery",
+                "DOM",
+                "XSS",
+                "library"
+            ],
+            "content": "jQueryでDOM Based XSSを引き起こす可能性があるメソッドを乗っ取って、サニタイズ的な処理を追加するライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ilyavolodin/eslint-plugin-backbone",
+            "url": "https://github.com/ilyavolodin/eslint-plugin-backbone",
+            "tags": [
+                "JavaScript",
+                "backbone.js",
+                "plugin"
+            ],
+            "content": "ESLintを使ったBackbone.jsに関するLintのルールセット",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "github/fetch · GitHub",
+            "url": "https://github.com/github/fetch",
+            "tags": [
+                "JavaScript",
+                "XHR",
+                "Promises",
+                "library"
+            ],
+            "content": "WHATWGで策定されてる`fetch`のpolyfillライブラリ。 \n\nXHRよりもシンプルなAPIでデータの取得、送信等が行える。\n\nfetchはPromiseを返すので別途Promiseのpolyfillが必要。\n\nformやArrayBuffer等まだ実装されていない部分がある。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "JavaScript… by Reginald Braithwaite [Leanpub PDF/iPad/Kindle]",
+            "url": "https://leanpub.com/javascript-spessore",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "JavaScriptのオブジェクト指向についての書籍。スケール出来るようなWebアプリケーションの作りを学ぶ。\n\nWeb版は無料で見られる",
+            "relatedLinks": []
+        }
+    ]
+}

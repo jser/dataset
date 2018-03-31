@@ -1,280 +1,294 @@
-[
-    {
-        "category": "Headline",
-        "title": "Node v8.2.0 (Current) | Node.js",
-        "url": "https://nodejs.org/en/blog/release/v8.2.0/",
+{
+    "meta": {
+        "title": "2017-07-25のJS: Node.js 8.2.0、TypeScriptへの漸進的移行、リファクタリングJavaScript",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-07-25T00:15:42.123Z",
+        "category": "JSer",
         "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node v8.2.0リリース。\n`async_hooks`のPromise対応改善、`npm`が5.3.0へアップデート(npxが同梱される)など。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Roadmap · Microsoft/ChakraCore Wiki",
-        "url": "https://github.com/Microsoft/ChakraCore/wiki/Roadmap#v160",
-        "tags": [
-            "ChakraCore",
-            "ReleaseNote",
-            "WebAssembly"
-        ],
-        "content": "ChakraCore 1.6.0リリース。\nWebAssembly/SharedArrayBuffer/Dynamic module importがデフォルトで有効に。\nSIMDサポートを削除など。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release Quantum Time · fuse-box/fuse-box",
-        "url": "https://github.com/fuse-box/fuse-box/releases/tag/v2.2.1",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "FuseBox 2.2.1リリース。\n`fuse.js`を変更した際にキャッシュを削除するように、`writeBundles`オプションでin-memoryビルドができるようになるなど。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Angular: Angular 4.3 Now Available",
-        "url": "http://angularjs.blogspot.com/2017/07/angular-43-now-available.html",
-        "tags": [
-            "Angular",
-            "ReleaseNote"
-        ],
-        "content": "Angular 4.3リリース。\n`HttpClient`の追加、routerのライフサイクルイベントの追加。\nまた、Shadow-Piercing descendant combinatorは非推奨であるため、 Angularの中の`/deep/`、`>>>`、`::ng-deep`も非推奨となった。\n`::ng-deep`はツール側で優先して扱うように。",
-        "relatedLinks": [
-            {
-                "title": "feat(compiler): add support ",
-                "url": "https://github.com/angular/angular/commit/b754e60"
-            },
-            {
-                "title": "angular/CHANGELOG.md at master · angular/angular",
-                "url": "https://github.com/angular/angular/blob/master/CHANGELOG.md#430-2017-07-14"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint v4.3.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2017/07/eslint-v4.3.0-released",
-        "tags": [
-            "ESLint",
-            "ReleaseNote"
-        ],
-        "content": "ESLint v4.3.0リリース。\n`eslint --init`した際にeslintのバージョンを利用してる場合に対話的にバージョン変更できるように。\n`prefer-destructuring`にオプションの追加、ルールの修正など。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Say hello to HTTP/2 for Node.js Core – Node.js Collection – Medium",
-        "url": "https://medium.com/the-node-js-collection/say-hello-to-http-2-for-node-js-core-261ba493846e",
-        "tags": [
-            "node.js",
-            "HTTP2",
-            "library"
-        ],
-        "content": "Nodeの`http2`対応について。\n初期実装のPull Requestが出された。",
-        "relatedLinks": [
-            {
-                "title": "http2: Introducing http/2 by jasnell · Pull Request #14239 · nodejs/node",
-                "url": "https://github.com/nodejs/node/pull/14239"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release Almin 0.13.10 - transaction on application layer · almin/almin",
-        "url": "https://github.com/almin/almin/releases/tag/almin%400.13.10",
-        "tags": [
-            "JavaScript",
-            "CQRS",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Almin 0.13.10リリース。\nIE9/10のサポート終了、`Store#onDispatch`が受け取れるpayloadを制限、Strict mode、トランザクションのサポート、`executor`の追加など。",
-        "relatedLinks": [
-            {
-                "title": "Almin 0.13リリース - アプリケーションレイヤーのトランザクション | Web Scratch",
-                "url": "http://efcl.info/2017/07/24/almin-0.13/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "JavaScriptのライブラリを徐々にTypeScriptに移行する | Web Scratch",
-        "url": "http://efcl.info/2017/07/17/JavaScript-to-TypeScript/",
-        "tags": [
-            "JavaScript",
-            "TypeScript"
-        ],
-        "content": "JavaScriptで書かれた既存のコードをTypeScriptへ移行する際の方法について。\nJavaScriptとTypeScriptを混在した状態で移行について。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Automated testing with Headless Chrome  |  Web  |  Google Developers",
-        "url": "https://developers.google.com/web/updates/2017/06/headless-karma-mocha-chai",
-        "tags": [
-            "Chrome",
-            "testing"
-        ],
-        "content": "Headless Chromeを使った自動テストについて。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Extracting Logic from React Components",
-        "url": "https://javascriptplayground.com/blog/2017/07/react-extracting-logic/",
-        "tags": [
-            "React",
-            "リファクタリング",
-            "JavaScript"
-        ],
-        "content": "Reactコンポーネントに内蔵されてしまったロジックをコンポーネントから分離するリファクタリングについて。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "がんばらないTypeScriptのはじめ方 - 角待ちは対空",
-        "url": "http://blog.yux3.net/entry/2017/07/18/110000",
-        "tags": [
-            "JavaScript",
+            "Node.js",
             "TypeScript",
-            "article"
-        ],
-        "content": "TypeSriptを緩く使う/JavaScriptからTypeScriptへの移行について。\nゆるく使う場合でも`noImplicitAny`と`strictNullChecks`を有効化することで防げるエラーがあることについて。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "NgRx: Patterns and Techniques – nrwl",
-        "url": "https://blog.nrwl.io/ngrx-patterns-and-techniques-f46126e2b1e5",
-        "tags": [
-            "Angular",
-            "Rx",
-            "article"
-        ],
-        "content": "NgRxを使ったパターンやTipsについての記事。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Rekit 2.0: new way of React development – Nate Wang – Medium",
-        "url": "https://medium.com/@nate_wang/rekit-2-0-next-generation-react-development-ce8bbba51e94",
-        "tags": [
-            "React",
-            "redux",
-            "Tools",
-            "article"
-        ],
-        "content": "React/Redux/React Routerをベースにしたウェブアプリ開発環境のRekit 2.0について。\nRekit PortalというComponent/Router/Actionの関係を可視化できるダッシュボードを持っている。",
-        "relatedLinks": [
-            {
-                "title": "supnate/rekit-portal: Web UI for managing a Rekit project.",
-                "url": "https://github.com/supnate/rekit-portal"
-            }
+            "JavaScript"
         ]
     },
-    {
-        "category": "WebsiteDocument",
-        "title": "Learn Next.js - Create SSR Enabled React Apps Easily",
-        "url": "https://learnnextjs.com/",
-        "tags": [
-            "React",
-            "tutorial"
-        ],
-        "content": "Next.jsについてのチュートリアルサイト。",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "create-react-app/README.md at master · facebookincubator/create-react-app",
-        "url": "https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md",
-        "tags": [
-            "React",
-            "document"
-        ],
-        "content": "`create-react-app`のユーザーガイド。\n典型的なウェブアプリケーションのクライアントにおける開発についてよくまとまっている。\nパッケージ管理方法、VCS、テスト、環境変数、エディタ、静的サーバ、デプロイ、SSR、パフォーマンス改善、分析など。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Enclose.IO: Compiling your application into a single executable",
-        "url": "http://enclose.io/",
-        "tags": [
-            "node.js",
-            "ruby",
-            "Tools"
-        ],
-        "content": "Node.jsやRubyのコードを実行可能なバイナリにパッケージング、自動更新できるようにするするウェブサービス。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "tsuyoshiwada/react-drip-form: HoC based React forms state manager, Support for validation and normalization.",
-        "url": "https://github.com/tsuyoshiwada/react-drip-form",
-        "tags": [
-            "React",
-            "JavaScript",
-            "library"
-        ],
-        "content": "High Order ComponentベースのReact Form/バリデーションライブラリ。",
-        "relatedLinks": [
-            {
-                "title": "もうReactのフォームで消耗したくないので、HoCベースのフォームライブラリを作った - wadackel.me",
-                "url": "https://blog.wadackel.me/2017/react-drip-form/"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "Results of the Ultimate CSS Survey 2017 — SitePoint",
-        "url": "https://www.sitepoint.com/results-ultimate-css-survey-2017/",
-        "tags": [
-            "CSS",
-            "アンケート"
-        ],
-        "content": "CSSについての開発者アンケート結果が公開された。 AltCSS、フレームワークの利用率、minify、reset/normalize、期待する機能、サポートしてるブラウザ、バグを見つけたことがあるかなど。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Refactoring JavaScript",
-        "url": "http://refactoringjs.com/",
-        "tags": [
-            "JavaScript",
-            "book",
-            "リファクタリング"
-        ],
-        "content": "JavaScriptのリファクタリングについての書籍。PDF版が無料で公開されている。\nES2015+な文法を使ったリファクタリング、テストの仕方、OOPやFPのアプローチを使ったリファクタリングなどについて解説されている。",
-        "relatedLinks": [
-            {
-                "title": "Refactoring JavaScript ",
-                "url": "https://www.safaribooksonline.com/library/view/refactoring-javascript/9781491964910/"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "azat-co/practicalnode: Practical Node.js, 1st and 2nd Editions \\[Apress\\]",
-        "url": "https://github.com/azat-co/practicalnode",
-        "tags": [
-            "node.js",
-            "book"
-        ],
-        "content": "Practical Node.jsの原稿(ドラフト)が公開された。\nKickstarterでキャンペーンをやっている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Practical Modern JavaScript: Dive into ES6 and the Future of JavaScript: Nicolas Bevacqua: 9781491943533: Amazon.com: Books",
-        "url": "https://www.amazon.com/Practical-Modern-JavaScript-Dive-Future/dp/149194353X",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "ES2015+についての書籍。",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Node v8.2.0 (Current) | Node.js",
+            "url": "https://nodejs.org/en/blog/release/v8.2.0/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node v8.2.0リリース。\n`async_hooks`のPromise対応改善、`npm`が5.3.0へアップデート(npxが同梱される)など。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Roadmap · Microsoft/ChakraCore Wiki",
+            "url": "https://github.com/Microsoft/ChakraCore/wiki/Roadmap#v160",
+            "tags": [
+                "ChakraCore",
+                "ReleaseNote",
+                "WebAssembly"
+            ],
+            "content": "ChakraCore 1.6.0リリース。\nWebAssembly/SharedArrayBuffer/Dynamic module importがデフォルトで有効に。\nSIMDサポートを削除など。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release Quantum Time · fuse-box/fuse-box",
+            "url": "https://github.com/fuse-box/fuse-box/releases/tag/v2.2.1",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "FuseBox 2.2.1リリース。\n`fuse.js`を変更した際にキャッシュを削除するように、`writeBundles`オプションでin-memoryビルドができるようになるなど。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Angular: Angular 4.3 Now Available",
+            "url": "http://angularjs.blogspot.com/2017/07/angular-43-now-available.html",
+            "tags": [
+                "Angular",
+                "ReleaseNote"
+            ],
+            "content": "Angular 4.3リリース。\n`HttpClient`の追加、routerのライフサイクルイベントの追加。\nまた、Shadow-Piercing descendant combinatorは非推奨であるため、 Angularの中の`/deep/`、`>>>`、`::ng-deep`も非推奨となった。\n`::ng-deep`はツール側で優先して扱うように。",
+            "relatedLinks": [
+                {
+                    "title": "feat(compiler): add support ",
+                    "url": "https://github.com/angular/angular/commit/b754e60"
+                },
+                {
+                    "title": "angular/CHANGELOG.md at master · angular/angular",
+                    "url": "https://github.com/angular/angular/blob/master/CHANGELOG.md#430-2017-07-14"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v4.3.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2017/07/eslint-v4.3.0-released",
+            "tags": [
+                "ESLint",
+                "ReleaseNote"
+            ],
+            "content": "ESLint v4.3.0リリース。\n`eslint --init`した際にeslintのバージョンを利用してる場合に対話的にバージョン変更できるように。\n`prefer-destructuring`にオプションの追加、ルールの修正など。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Say hello to HTTP/2 for Node.js Core – Node.js Collection – Medium",
+            "url": "https://medium.com/the-node-js-collection/say-hello-to-http-2-for-node-js-core-261ba493846e",
+            "tags": [
+                "node.js",
+                "HTTP2",
+                "library"
+            ],
+            "content": "Nodeの`http2`対応について。\n初期実装のPull Requestが出された。",
+            "relatedLinks": [
+                {
+                    "title": "http2: Introducing http/2 by jasnell · Pull Request #14239 · nodejs/node",
+                    "url": "https://github.com/nodejs/node/pull/14239"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release Almin 0.13.10 - transaction on application layer · almin/almin",
+            "url": "https://github.com/almin/almin/releases/tag/almin%400.13.10",
+            "tags": [
+                "JavaScript",
+                "CQRS",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Almin 0.13.10リリース。\nIE9/10のサポート終了、`Store#onDispatch`が受け取れるpayloadを制限、Strict mode、トランザクションのサポート、`executor`の追加など。",
+            "relatedLinks": [
+                {
+                    "title": "Almin 0.13リリース - アプリケーションレイヤーのトランザクション | Web Scratch",
+                    "url": "http://efcl.info/2017/07/24/almin-0.13/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "JavaScriptのライブラリを徐々にTypeScriptに移行する | Web Scratch",
+            "url": "http://efcl.info/2017/07/17/JavaScript-to-TypeScript/",
+            "tags": [
+                "JavaScript",
+                "TypeScript"
+            ],
+            "content": "JavaScriptで書かれた既存のコードをTypeScriptへ移行する際の方法について。\nJavaScriptとTypeScriptを混在した状態で移行について。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Automated testing with Headless Chrome  |  Web  |  Google Developers",
+            "url": "https://developers.google.com/web/updates/2017/06/headless-karma-mocha-chai",
+            "tags": [
+                "Chrome",
+                "testing"
+            ],
+            "content": "Headless Chromeを使った自動テストについて。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Extracting Logic from React Components",
+            "url": "https://javascriptplayground.com/blog/2017/07/react-extracting-logic/",
+            "tags": [
+                "React",
+                "リファクタリング",
+                "JavaScript"
+            ],
+            "content": "Reactコンポーネントに内蔵されてしまったロジックをコンポーネントから分離するリファクタリングについて。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "がんばらないTypeScriptのはじめ方 - 角待ちは対空",
+            "url": "http://blog.yux3.net/entry/2017/07/18/110000",
+            "tags": [
+                "JavaScript",
+                "TypeScript",
+                "article"
+            ],
+            "content": "TypeSriptを緩く使う/JavaScriptからTypeScriptへの移行について。\nゆるく使う場合でも`noImplicitAny`と`strictNullChecks`を有効化することで防げるエラーがあることについて。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "NgRx: Patterns and Techniques – nrwl",
+            "url": "https://blog.nrwl.io/ngrx-patterns-and-techniques-f46126e2b1e5",
+            "tags": [
+                "Angular",
+                "Rx",
+                "article"
+            ],
+            "content": "NgRxを使ったパターンやTipsについての記事。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Rekit 2.0: new way of React development – Nate Wang – Medium",
+            "url": "https://medium.com/@nate_wang/rekit-2-0-next-generation-react-development-ce8bbba51e94",
+            "tags": [
+                "React",
+                "redux",
+                "Tools",
+                "article"
+            ],
+            "content": "React/Redux/React Routerをベースにしたウェブアプリ開発環境のRekit 2.0について。\nRekit PortalというComponent/Router/Actionの関係を可視化できるダッシュボードを持っている。",
+            "relatedLinks": [
+                {
+                    "title": "supnate/rekit-portal: Web UI for managing a Rekit project.",
+                    "url": "https://github.com/supnate/rekit-portal"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Learn Next.js - Create SSR Enabled React Apps Easily",
+            "url": "https://learnnextjs.com/",
+            "tags": [
+                "React",
+                "tutorial"
+            ],
+            "content": "Next.jsについてのチュートリアルサイト。",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "create-react-app/README.md at master · facebookincubator/create-react-app",
+            "url": "https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md",
+            "tags": [
+                "React",
+                "document"
+            ],
+            "content": "`create-react-app`のユーザーガイド。\n典型的なウェブアプリケーションのクライアントにおける開発についてよくまとまっている。\nパッケージ管理方法、VCS、テスト、環境変数、エディタ、静的サーバ、デプロイ、SSR、パフォーマンス改善、分析など。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Enclose.IO: Compiling your application into a single executable",
+            "url": "http://enclose.io/",
+            "tags": [
+                "node.js",
+                "ruby",
+                "Tools"
+            ],
+            "content": "Node.jsやRubyのコードを実行可能なバイナリにパッケージング、自動更新できるようにするするウェブサービス。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "tsuyoshiwada/react-drip-form: HoC based React forms state manager, Support for validation and normalization.",
+            "url": "https://github.com/tsuyoshiwada/react-drip-form",
+            "tags": [
+                "React",
+                "JavaScript",
+                "library"
+            ],
+            "content": "High Order ComponentベースのReact Form/バリデーションライブラリ。",
+            "relatedLinks": [
+                {
+                    "title": "もうReactのフォームで消耗したくないので、HoCベースのフォームライブラリを作った - wadackel.me",
+                    "url": "https://blog.wadackel.me/2017/react-drip-form/"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Results of the Ultimate CSS Survey 2017 — SitePoint",
+            "url": "https://www.sitepoint.com/results-ultimate-css-survey-2017/",
+            "tags": [
+                "CSS",
+                "アンケート"
+            ],
+            "content": "CSSについての開発者アンケート結果が公開された。 AltCSS、フレームワークの利用率、minify、reset/normalize、期待する機能、サポートしてるブラウザ、バグを見つけたことがあるかなど。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Refactoring JavaScript",
+            "url": "http://refactoringjs.com/",
+            "tags": [
+                "JavaScript",
+                "book",
+                "リファクタリング"
+            ],
+            "content": "JavaScriptのリファクタリングについての書籍。PDF版が無料で公開されている。\nES2015+な文法を使ったリファクタリング、テストの仕方、OOPやFPのアプローチを使ったリファクタリングなどについて解説されている。",
+            "relatedLinks": [
+                {
+                    "title": "Refactoring JavaScript ",
+                    "url": "https://www.safaribooksonline.com/library/view/refactoring-javascript/9781491964910/"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "azat-co/practicalnode: Practical Node.js, 1st and 2nd Editions \\[Apress\\]",
+            "url": "https://github.com/azat-co/practicalnode",
+            "tags": [
+                "node.js",
+                "book"
+            ],
+            "content": "Practical Node.jsの原稿(ドラフト)が公開された。\nKickstarterでキャンペーンをやっている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Practical Modern JavaScript: Dive into ES6 and the Future of JavaScript: Nicolas Bevacqua: 9781491943533: Amazon.com: Books",
+            "url": "https://www.amazon.com/Practical-Modern-JavaScript-Dive-Future/dp/149194353X",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "ES2015+についての書籍。",
+            "relatedLinks": []
+        }
+    ]
+}

@@ -1,221 +1,236 @@
-[
-    {
-        "category": "Headline",
-        "title": "ESLint 0.18.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/03/eslint-0.18.0-released",
+{
+    "meta": {
+        "title": "2015-03-31のJS: Dart to JS、ES6 Generator、Reactでシングルページアプリケーション作成",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-03-31T13:04:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 0.18.0リリース。\nJSXの構文についての処理はESLintから完全に削除され、[eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react \"eslint-plugin-react\")へ移植された。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Ember.js - Ember.js 1.11.0 and 1.12 Beta Released",
-        "url": "http://emberjs.com/blog/2015/03/27/ember-1-11-0-released.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Ember.js 1.11リリース。\nHTMLBarsの構文強化やその構文の解説がされている。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Node v0.12.1 (Stable)",
-        "url": "http://blog.nodejs.org/2015/03/23/node-v0-12-1-stable/",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node v0.12.1リリース。\nOpenSSLのアップデート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Dart News &amp; Updates: Dart for the Entire Web",
-        "url": "http://news.dartlang.org/2015/03/dart-for-entire-web.html",
-        "tags": [
-            "dart",
-            "ReleaseNote"
-        ],
-        "content": "DartはDartVMをChromiumに載せることは諦めて、dart2jsに集中するとのこと。\nまた、Dart 1.9がリリースされている。",
-        "relatedLinks": [
-            {
-                "title": "Dart News & Updates: Dart 1.9: The release you’ve been await-ing for",
-                "url": "http://news.dartlang.org/2015/03/dart-19-release-youve-been-await-ing-for.html"
-            },
-            {
-                "title": "Dart 1.9.1リリースノート - Qiita",
-                "url": "http://qiita.com/laco0416/items/cd6685ab3cd115613d37"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "A Preview of WinJS 4.0",
-        "url": "http://blogs.windows.com/buildingapps/2015/03/27/a-preview-of-winjs-4-0/",
-        "tags": [
-            "windows",
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "WinJS 4.0のプレビュー版が公開された",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "&quot;Project Spartan&quot; in the Windows Technical Preview build 10049 - IEBlog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/ie/archive/2015/03/30/quot-project-spartan-quot-in-the-windows-technical-preview-build-10049.aspx",
-        "tags": [
-            "windows",
-            "IE",
-            "ReleaseNote"
-        ],
-        "content": "Project Spartanが入ったWindows 10のプレビュー版が公開された\nUserVoiceでアイデアへの投票を募集している。",
-        "relatedLinks": [
-            {
-                "title": "Project Spartan: Hot (33 ideas) – Feature Suggestions for Windows",
-                "url": "https://windows.uservoice.com/forums/285214-project-spartan"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Node.js Tools 1.0 for Visual Studio - The Visual Studio Blog - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/visualstudio/archive/2015/03/25/node-js-tools-1-0-for-visual-studio.aspx",
-        "tags": [
-            "node.js",
-            "IDE",
-            "ReleaseNote"
-        ],
-        "content": "Node.js Tools 1.0 for Visual Studioリリース。\nまたリポジトリがGitHubに移行した",
-        "relatedLinks": [
-            {
-                "title": "Microsoft/nodejstools",
-                "url": "https://github.com/Microsoft/nodejstools"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ES6 generators in depth",
-        "url": "http://www.2ality.com/2015/03/es6-generators.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6のGeneratorについての詳しい解説。\nGeneratorとは何か、構成要素、Iterator、Generatorの使い方、CSPなど幅広く書かれてる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "mikechau/react-primer-draft",
-        "url": "https://github.com/mikechau/react-primer-draft",
-        "tags": [
+            "Dart",
+            "ES6",
             "React",
-            "tutorial",
-            "book"
-        ],
-        "content": "Reactでシングルページアプリケーションを作るチュートリアル的な文章。\nReact.Componentについて詳しく書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Reusable Component UI Design // Speaker Deck",
-        "url": "https://speakerdeck.com/tyshgc/reusable-component-ui-design",
-        "tags": [
-            "React",
-            "スライド"
-        ],
-        "content": "再利用できるReact Componentについてのスライド",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Package Quality",
-        "url": "http://packagequality.com/",
-        "tags": [
-            "npm",
-            "webservice"
-        ],
-        "content": "npmのパッケージのクオリティチェック。\nissueの数やバージョンなどの情報を元に数値化してる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Microsoft/IEDiagnosticsAdapter",
-        "url": "https://github.com/Microsoft/IEDiagnosticsAdapter",
-        "tags": [
-            "Chrome",
-            "IE",
-            "debug",
-            "proxy",
-            "software"
-        ],
-        "content": "Chrome remote debug protocolを使ってIEをデバッグできるプロキシ。\nChromeでIEで見てるサイトをデバッグ出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "operasoftware/operachromiumdriver",
-        "url": "https://github.com/operasoftware/operachromiumdriver",
-        "tags": [
-            "Opera",
-            "Chrome",
-            "webdriver"
-        ],
-        "content": "OperaのWebDriver実装",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "bloomberg/brisket",
-        "url": "https://github.com/bloomberg/brisket",
-        "tags": [
-            "JavaScript",
-            "backbone.js",
-            "library"
-        ],
-        "content": "Bloombergのisomorphic JavaScriptフレームワーク。\nRendrと同じくBackboneをベースとしたサーバサイドレンダリングの仕組みを持つ。",
-        "relatedLinks": [
-            {
-                "title": "At Bloomberg We’ve Made Brisket. And It Can Make Anything. | Bloomberg L.P.",
-                "url": "http://www.bloomberg.com/company/2015-03-24/bloomberg-weve-made-brisket-can-make-anything/"
-            }
+            "tutorial"
         ]
     },
-    {
-        "category": "SoftwareLibrary",
-        "title": "cssnext/cssnext",
-        "url": "https://github.com/cssnext/cssnext",
-        "tags": [
-            "CSS",
-            "Tools",
-            "library"
-        ],
-        "content": "CSS4などの仕様をCSS3相当に変換するツールとライブラリ。",
-        "relatedLinks": [
-            {
-                "title": "Myth - CSS the way it was imagined.",
-                "url": "http://www.myth.io/"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: Front-End Architecture: A Modern Blueprint for Scalable and Sustainable Design Systems: Micah Godbolt",
-        "url": "http://www.amazon.com/dp/1491926783",
-        "tags": [
-            "JavaScript",
-            "HTML",
-            "book"
-        ],
-        "content": "2015年10月25日発売\nフロントエンドアーキテクチャ。\nJavaScriptやツール、CSSなど幅広く扱ってる",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "ESLint 0.18.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/03/eslint-0.18.0-released",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 0.18.0リリース。\nJSXの構文についての処理はESLintから完全に削除され、[eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react \"eslint-plugin-react\")へ移植された。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Ember.js - Ember.js 1.11.0 and 1.12 Beta Released",
+            "url": "http://emberjs.com/blog/2015/03/27/ember-1-11-0-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Ember.js 1.11リリース。\nHTMLBarsの構文強化やその構文の解説がされている。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Node v0.12.1 (Stable)",
+            "url": "http://blog.nodejs.org/2015/03/23/node-v0-12-1-stable/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node v0.12.1リリース。\nOpenSSLのアップデート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Dart News &amp; Updates: Dart for the Entire Web",
+            "url": "http://news.dartlang.org/2015/03/dart-for-entire-web.html",
+            "tags": [
+                "dart",
+                "ReleaseNote"
+            ],
+            "content": "DartはDartVMをChromiumに載せることは諦めて、dart2jsに集中するとのこと。\nまた、Dart 1.9がリリースされている。",
+            "relatedLinks": [
+                {
+                    "title": "Dart News & Updates: Dart 1.9: The release you’ve been await-ing for",
+                    "url": "http://news.dartlang.org/2015/03/dart-19-release-youve-been-await-ing-for.html"
+                },
+                {
+                    "title": "Dart 1.9.1リリースノート - Qiita",
+                    "url": "http://qiita.com/laco0416/items/cd6685ab3cd115613d37"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "A Preview of WinJS 4.0",
+            "url": "http://blogs.windows.com/buildingapps/2015/03/27/a-preview-of-winjs-4-0/",
+            "tags": [
+                "windows",
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "WinJS 4.0のプレビュー版が公開された",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "&quot;Project Spartan&quot; in the Windows Technical Preview build 10049 - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2015/03/30/quot-project-spartan-quot-in-the-windows-technical-preview-build-10049.aspx",
+            "tags": [
+                "windows",
+                "IE",
+                "ReleaseNote"
+            ],
+            "content": "Project Spartanが入ったWindows 10のプレビュー版が公開された\nUserVoiceでアイデアへの投票を募集している。",
+            "relatedLinks": [
+                {
+                    "title": "Project Spartan: Hot (33 ideas) – Feature Suggestions for Windows",
+                    "url": "https://windows.uservoice.com/forums/285214-project-spartan"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Node.js Tools 1.0 for Visual Studio - The Visual Studio Blog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/visualstudio/archive/2015/03/25/node-js-tools-1-0-for-visual-studio.aspx",
+            "tags": [
+                "node.js",
+                "IDE",
+                "ReleaseNote"
+            ],
+            "content": "Node.js Tools 1.0 for Visual Studioリリース。\nまたリポジトリがGitHubに移行した",
+            "relatedLinks": [
+                {
+                    "title": "Microsoft/nodejstools",
+                    "url": "https://github.com/Microsoft/nodejstools"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ES6 generators in depth",
+            "url": "http://www.2ality.com/2015/03/es6-generators.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6のGeneratorについての詳しい解説。\nGeneratorとは何か、構成要素、Iterator、Generatorの使い方、CSPなど幅広く書かれてる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "mikechau/react-primer-draft",
+            "url": "https://github.com/mikechau/react-primer-draft",
+            "tags": [
+                "React",
+                "tutorial",
+                "book"
+            ],
+            "content": "Reactでシングルページアプリケーションを作るチュートリアル的な文章。\nReact.Componentについて詳しく書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Reusable Component UI Design // Speaker Deck",
+            "url": "https://speakerdeck.com/tyshgc/reusable-component-ui-design",
+            "tags": [
+                "React",
+                "スライド"
+            ],
+            "content": "再利用できるReact Componentについてのスライド",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Package Quality",
+            "url": "http://packagequality.com/",
+            "tags": [
+                "npm",
+                "webservice"
+            ],
+            "content": "npmのパッケージのクオリティチェック。\nissueの数やバージョンなどの情報を元に数値化してる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Microsoft/IEDiagnosticsAdapter",
+            "url": "https://github.com/Microsoft/IEDiagnosticsAdapter",
+            "tags": [
+                "Chrome",
+                "IE",
+                "debug",
+                "proxy",
+                "software"
+            ],
+            "content": "Chrome remote debug protocolを使ってIEをデバッグできるプロキシ。\nChromeでIEで見てるサイトをデバッグ出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "operasoftware/operachromiumdriver",
+            "url": "https://github.com/operasoftware/operachromiumdriver",
+            "tags": [
+                "Opera",
+                "Chrome",
+                "webdriver"
+            ],
+            "content": "OperaのWebDriver実装",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "bloomberg/brisket",
+            "url": "https://github.com/bloomberg/brisket",
+            "tags": [
+                "JavaScript",
+                "backbone.js",
+                "library"
+            ],
+            "content": "Bloombergのisomorphic JavaScriptフレームワーク。\nRendrと同じくBackboneをベースとしたサーバサイドレンダリングの仕組みを持つ。",
+            "relatedLinks": [
+                {
+                    "title": "At Bloomberg We’ve Made Brisket. And It Can Make Anything. | Bloomberg L.P.",
+                    "url": "http://www.bloomberg.com/company/2015-03-24/bloomberg-weve-made-brisket-can-make-anything/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "cssnext/cssnext",
+            "url": "https://github.com/cssnext/cssnext",
+            "tags": [
+                "CSS",
+                "Tools",
+                "library"
+            ],
+            "content": "CSS4などの仕様をCSS3相当に変換するツールとライブラリ。",
+            "relatedLinks": [
+                {
+                    "title": "Myth - CSS the way it was imagined.",
+                    "url": "http://www.myth.io/"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: Front-End Architecture: A Modern Blueprint for Scalable and Sustainable Design Systems: Micah Godbolt",
+            "url": "http://www.amazon.com/dp/1491926783",
+            "tags": [
+                "JavaScript",
+                "HTML",
+                "book"
+            ],
+            "content": "2015年10月25日発売\nフロントエンドアーキテクチャ。\nJavaScriptやツール、CSSなど幅広く扱ってる",
+            "relatedLinks": []
+        }
+    ]
+}

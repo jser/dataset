@@ -1,347 +1,362 @@
-[
-    {
-        "category": "Headline",
-        "title": "Video.js 6.0 Release! | Video.js Blog",
-        "url": "http://blog.videojs.com/Video-js-6-0-Release/",
+{
+    "meta": {
+        "title": "2017-04-10のJS: React 15.5.0、ESLint 4.0.0α、Glimmer",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-04-10T12:54:13.922Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "video",
-            "ReleaseNote"
-        ],
-        "content": "Video.js 6.0リリース。\nFlashがコアから取り除かれた。\nmiddleware周りの変更、DOMメソッドを`videojs.dom`へ移動の予定など",
-        "relatedLinks": [
-            {
-                "title": "Video.js 6 Migration Guide · videojs/video.js Wiki",
-                "url": "https://github.com/videojs/video.js/wiki/Video.js-6-Migration-Guide"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "release: npm@5.0.0 by zkat · Pull Request #16244 · npm/npm",
-        "url": "https://github.com/npm/npm/pull/16244",
-        "tags": [
-            "npm",
-            "issue",
-            "ReleaseNote"
-        ],
-        "content": "今後リリース予定のnpm 5.0.0βについて。\n相対パスを`npm install`がsymlinkを作るように(`file:`ではなく`link:`へ)、キャッシュシステムの改善、`--prefer-offline`と`--offline`の追加。\n`git://`でもsemverを指定できるように、`npm install`の結果がサマリで出るように",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 0.19.0 · avajs/ava",
-        "url": "https://github.com/avajs/ava/releases/tag/v0.19.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "AVA 0.19.0リリース。\n一つもassertionが実行されないテストはデフォルトで落ちるように、`t.throws()`での非同期対応の改善、非同期テストでハングしているものを検知するようになるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v2.0.0-rc.0 · lerna/lerna",
-        "url": "https://github.com/lerna/lerna/releases/tag/v2.0.0-rc.0",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "monorepo管理ツールのlerna 2.0.0RCリリース。\n`--conventional-commits`でconventional-commitsベースのCHANGELOGを作れるようになるなど",
-        "relatedLinks": [
-            {
-                "title": "v2.0.0 Milestone",
-                "url": "https://github.com/lerna/lerna/milestone/1"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint v4.0.0-alpha.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2017/04/eslint-v4.0.0-alpha.0-released",
-        "tags": [
-            "JavaScript",
+            "React",
             "ESLint",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 4.0.0 αリリース。\n`eslint:recommended`の更新、`indent`ルールの変更、ASTのコメント周りの扱いの変更、公開APIの変更など",
-        "relatedLinks": [
-            {
-                "title": "Migrating to v4.0.0 - ESLint - Pluggable JavaScript linter",
-                "url": "http://eslint.org/docs/4.0.0/user-guide/migrating-to-4.0.0"
-            },
-            {
-                "title": "ESLint v4.0.0 の変更点まとめ - Qiita",
-                "url": "http://qiita.com/mysticatea/items/3d01452d76ea6c943793"
-            }
+            "Ember",
+            "Glimmer"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Release v1.6.0 · karma-runner/karma",
-        "url": "https://github.com/karma-runner/karma/releases/tag/v1.6.0",
-        "tags": [
-            "JavaScript",
-            "browser",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "Karma v1.6.0リリース。\n`browser_info`イベントの追加、`proxyRes`と`proxyReq`イベントをhookできるようになるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "React v15.5.0 - React Blog",
-        "url": "https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html",
-        "tags": [
-            "React",
-            "ReleaseNote"
-        ],
-        "content": "React 15.5.0リリース。\n同梱されていた`React.PropTypes`と`React.createClass`が非推奨となり、それぞれ別パッケージに別れた。\n`react-codemod`を使うことでマイグレーションできる。",
-        "relatedLinks": [
-            {
-                "title": "React 15.5へのアップデート手順(prop-typesとReact.createClass) - Qiita",
-                "url": "http://qiita.com/azu/items/9d1985bf0140576894aa"
-            },
-            {
-                "title": "All doc updates forv15.5 by flarnie · Pull Request #9359 · facebook/react",
-                "url": "https://github.com/facebook/react/pull/9359"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release Notes for Safari Technology Preview 27 | WebKit",
-        "url": "https://webkit.org/blog/7497/release-notes-for-safari-technology-preview-27/",
-        "tags": [
-            "safari",
-            "ReleaseNote",
-            "JavaScript"
-        ],
-        "content": "Safari Technology Preview Release 27リリース。\nObject spread/rest propertyの実装、`window.open`に`noopener`を実装、Web Inspectorの改善、Web Cryptography APIでSPKI/PKCS8に対応など",
-        "relatedLinks": [
-            {
-                "title": "ES proposal: Rest/Spread Properties",
-                "url": "http://2ality.com/2016/10/rest-spread-properties.html"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Ember.js - EmberConf 2017: State of the Union",
-        "url": "https://emberjs.com/blog/2017/04/05/emberconf-2017-state-of-the-union.html",
-        "tags": [
-            "JavaScript",
-            "歴史",
-            "library"
-        ],
-        "content": "Ember.jsの歴史とこれからについて。\nスタンドアローンで利用できるようになったコンポーネントレイヤーのGlimmerについてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Glimmer",
-        "url": "https://glimmerjs.com/",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "library",
-            "WebComponents"
-        ],
-        "content": "Emberとは独立したコンポーネントとして利用できるようになったGlimmerのサイト",
-        "relatedLinks": [
-            {
-                "title": "Why I’m excited about GlimmerJS – Hacker Noon",
-                "url": "https://hackernoon.com/why-im-excited-about-glimmerjs-3631bd0c95c4"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release 8.0.0 · developit/preact",
-        "url": "https://github.com/developit/preact/releases/tag/8.0.0",
-        "tags": [
-            "React",
-            "JavaScript",
-            "ReleaseNote"
-        ],
-        "content": "Preact 8.0.0(8.1.0)リリース\nPure Functional Componentsの書き直し、`linkState`、`className`のオブジェクトオプションはそれぞれ外部モジュールへと機能を移譲など",
-        "relatedLinks": [
-            {
-                "title": "Important changes coming in Preact 8",
-                "url": "https://gist.github.com/developit/89e0e6decb8fb5eb00def024b6fb7bd7"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release Version 3.0.0 · sweet-js/sweet.js",
-        "url": "https://github.com/sweet-js/sweet.js/releases/tag/v3.0.0",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "Hygienic Macrosを提供するsweet.js 3.0.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "How we built Twitter Lite | Twitter Blogs",
-        "url": "https://blog.twitter.com/2017/how-we-built-twitter-lite",
-        "tags": [
-            "twitter",
-            "mobile",
-            "React"
-        ],
-        "content": "Twitter Liteの技術スタックについて。\nReact, Redux, Normalizr, Globalize, Babel, Webpack, Jest, WebdriverIOなどを使っている。\nパフォーマンスのためにPRPLパターンを使い、`requestAnimationFrame`や`requestIdleCallback`を使ってのレンダリングの調整などについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Introducing ReactXP - ReactXP Blog",
-        "url": "https://microsoft.github.io/reactxp/blog/2017/04/06/introducing-reactxp.html",
-        "tags": [
-            "React",
-            "ReleaseNote",
-            "windows",
-            "ios",
-            "Android"
-        ],
-        "content": "React/React NativeベースのクロスプラットフォームなUIフレームワーク。\nクロスプラットフォームで共通したコンポーネントを利用できるようにするのが目的でMSのSkypeチームが作成している。",
-        "relatedLinks": [
-            {
-                "title": "Microsoft/reactxp: Library for cross-platform app development.",
-                "url": "https://github.com/microsoft/reactxp"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "GraphQL & React tutorial (part 1/6) – Chroma",
-        "url": "https://blog.hichroma.com/graphql-react-tutorial-part-1-6-d0691af25858",
-        "tags": [
-            "GraphQL",
-            "React",
-            "tutorial"
-        ],
-        "content": "GraphQLについての連載。\nコンポーネント駆動とスキーマファーストについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "How to Create a Reddit Client Using Angular 4.0 - Progur!",
-        "url": "http://progur.com/2017/03/how-to-create-reddit-client-with-angular-4.html",
-        "tags": [
-            "AngularJS",
-            "tutorial"
-        ],
-        "content": "Angular v4を使ってRedditのAPIを叩いて、リスト表示するチュートリアル",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "The Quest For Immer Mutable State Management",
-        "url": "https://immer-mutable-state.surge.sh/",
-        "tags": [
-            "JavaScript",
-            "slide"
-        ],
-        "content": "MobXでのSnapshot + mutable state treeについてのスライド。\nPull/Push-basedなcomputed property、Mutable StateでActionリプレイするために、どのような方法を取るのかについて",
-        "relatedLinks": [
-            {
-                "title": "Michel Weststrate: MobX: The Quest For Immer Mutable State Management - YouTube",
-                "url": "https://www.youtube.com/watch?v=ta8QKmNRXZM"
-            },
-            {
-                "title": "mobxjs/serializr: Serialize and deserialize complex object graphs to JSON",
-                "url": "https://github.com/mobxjs/serializr"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "ng-conf 2017 - YouTube",
-        "url": "https://www.youtube.com/watch?v=Nj9_p4qvm5U",
-        "tags": [
-            "AngularJS",
-            "イベント",
-            "video"
-        ],
-        "content": "ng-conf 2017の動画まとめ",
-        "relatedLinks": [
-            {
-                "title": "ng-conf 2017 Summary - Day 1",
-                "url": "https://auth0.com/blog/ngconf2017-summary-day1/"
-            },
-            {
-                "title": "ng-conf 2017 1日目 Keynoteメモ | ",
-                "url": "https://blog.lacolaco.net/post/ng-conf-2017-day-1-note/"
-            },
-            {
-                "title": "Long Term Support for Angular Announced at ng-conf 2017",
-                "url": "https://www.infoq.com/news/2017/04/ng-conf-2017-keynote"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Publish JavaScript packages on npm - Course by @trevordmiller @eggheadio",
-        "url": "https://egghead.io/courses/publish-javascript-packages-on-npm",
-        "tags": [
-            "npm",
-            "video",
-            "tutorial"
-        ],
-        "content": "npmのパッケージやscriptについてのスクリーンキャスト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Stylelint generator",
-        "url": "https://maximgatilin.github.io/stylelint-config/",
-        "tags": [
-            "CSS",
-            "設定",
-            "Tools"
-        ],
-        "content": "Stylelintの設定ファイルを選択式で作れるジェネレーター",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mobxjs/serializr: Serialize and deserialize complex object graphs to JSON",
-        "url": "https://github.com/mobxjs/serializr",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "クラスのオブジェクトシリアライズ/デシリアライズライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "MathJax CDN shutting down on April 30, 2017",
-        "url": "http://www.mathjax.org/cdn-shutting-down/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "news"
-        ],
-        "content": "MathJax CDNがシャットダウンされるため、ローカルにコピーするかcloudflareのものを利用するようにする必要がある",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "ukyo/wasm-usui-book: webassemblyの薄い本",
-        "url": "https://github.com/ukyo/wasm-usui-book",
-        "tags": [
-            "WebAssembly",
-            "ebook"
-        ],
-        "content": "wasmについての電子書籍。\nwasmの概要、WABTを使っての開発、バイナリフォーマットやテキストフォーマットなどについて",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Video.js 6.0 Release! | Video.js Blog",
+            "url": "http://blog.videojs.com/Video-js-6-0-Release/",
+            "tags": [
+                "JavaScript",
+                "video",
+                "ReleaseNote"
+            ],
+            "content": "Video.js 6.0リリース。\nFlashがコアから取り除かれた。\nmiddleware周りの変更、DOMメソッドを`videojs.dom`へ移動の予定など",
+            "relatedLinks": [
+                {
+                    "title": "Video.js 6 Migration Guide · videojs/video.js Wiki",
+                    "url": "https://github.com/videojs/video.js/wiki/Video.js-6-Migration-Guide"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "release: npm@5.0.0 by zkat · Pull Request #16244 · npm/npm",
+            "url": "https://github.com/npm/npm/pull/16244",
+            "tags": [
+                "npm",
+                "issue",
+                "ReleaseNote"
+            ],
+            "content": "今後リリース予定のnpm 5.0.0βについて。\n相対パスを`npm install`がsymlinkを作るように(`file:`ではなく`link:`へ)、キャッシュシステムの改善、`--prefer-offline`と`--offline`の追加。\n`git://`でもsemverを指定できるように、`npm install`の結果がサマリで出るように",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 0.19.0 · avajs/ava",
+            "url": "https://github.com/avajs/ava/releases/tag/v0.19.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "AVA 0.19.0リリース。\n一つもassertionが実行されないテストはデフォルトで落ちるように、`t.throws()`での非同期対応の改善、非同期テストでハングしているものを検知するようになるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v2.0.0-rc.0 · lerna/lerna",
+            "url": "https://github.com/lerna/lerna/releases/tag/v2.0.0-rc.0",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "monorepo管理ツールのlerna 2.0.0RCリリース。\n`--conventional-commits`でconventional-commitsベースのCHANGELOGを作れるようになるなど",
+            "relatedLinks": [
+                {
+                    "title": "v2.0.0 Milestone",
+                    "url": "https://github.com/lerna/lerna/milestone/1"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v4.0.0-alpha.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2017/04/eslint-v4.0.0-alpha.0-released",
+            "tags": [
+                "JavaScript",
+                "ESLint",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 4.0.0 αリリース。\n`eslint:recommended`の更新、`indent`ルールの変更、ASTのコメント周りの扱いの変更、公開APIの変更など",
+            "relatedLinks": [
+                {
+                    "title": "Migrating to v4.0.0 - ESLint - Pluggable JavaScript linter",
+                    "url": "http://eslint.org/docs/4.0.0/user-guide/migrating-to-4.0.0"
+                },
+                {
+                    "title": "ESLint v4.0.0 の変更点まとめ - Qiita",
+                    "url": "http://qiita.com/mysticatea/items/3d01452d76ea6c943793"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release v1.6.0 · karma-runner/karma",
+            "url": "https://github.com/karma-runner/karma/releases/tag/v1.6.0",
+            "tags": [
+                "JavaScript",
+                "browser",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "Karma v1.6.0リリース。\n`browser_info`イベントの追加、`proxyRes`と`proxyReq`イベントをhookできるようになるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "React v15.5.0 - React Blog",
+            "url": "https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html",
+            "tags": [
+                "React",
+                "ReleaseNote"
+            ],
+            "content": "React 15.5.0リリース。\n同梱されていた`React.PropTypes`と`React.createClass`が非推奨となり、それぞれ別パッケージに別れた。\n`react-codemod`を使うことでマイグレーションできる。",
+            "relatedLinks": [
+                {
+                    "title": "React 15.5へのアップデート手順(prop-typesとReact.createClass) - Qiita",
+                    "url": "http://qiita.com/azu/items/9d1985bf0140576894aa"
+                },
+                {
+                    "title": "All doc updates forv15.5 by flarnie · Pull Request #9359 · facebook/react",
+                    "url": "https://github.com/facebook/react/pull/9359"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release Notes for Safari Technology Preview 27 | WebKit",
+            "url": "https://webkit.org/blog/7497/release-notes-for-safari-technology-preview-27/",
+            "tags": [
+                "safari",
+                "ReleaseNote",
+                "JavaScript"
+            ],
+            "content": "Safari Technology Preview Release 27リリース。\nObject spread/rest propertyの実装、`window.open`に`noopener`を実装、Web Inspectorの改善、Web Cryptography APIでSPKI/PKCS8に対応など",
+            "relatedLinks": [
+                {
+                    "title": "ES proposal: Rest/Spread Properties",
+                    "url": "http://2ality.com/2016/10/rest-spread-properties.html"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Ember.js - EmberConf 2017: State of the Union",
+            "url": "https://emberjs.com/blog/2017/04/05/emberconf-2017-state-of-the-union.html",
+            "tags": [
+                "JavaScript",
+                "歴史",
+                "library"
+            ],
+            "content": "Ember.jsの歴史とこれからについて。\nスタンドアローンで利用できるようになったコンポーネントレイヤーのGlimmerについてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Glimmer",
+            "url": "https://glimmerjs.com/",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library",
+                "WebComponents"
+            ],
+            "content": "Emberとは独立したコンポーネントとして利用できるようになったGlimmerのサイト",
+            "relatedLinks": [
+                {
+                    "title": "Why I’m excited about GlimmerJS – Hacker Noon",
+                    "url": "https://hackernoon.com/why-im-excited-about-glimmerjs-3631bd0c95c4"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release 8.0.0 · developit/preact",
+            "url": "https://github.com/developit/preact/releases/tag/8.0.0",
+            "tags": [
+                "React",
+                "JavaScript",
+                "ReleaseNote"
+            ],
+            "content": "Preact 8.0.0(8.1.0)リリース\nPure Functional Componentsの書き直し、`linkState`、`className`のオブジェクトオプションはそれぞれ外部モジュールへと機能を移譲など",
+            "relatedLinks": [
+                {
+                    "title": "Important changes coming in Preact 8",
+                    "url": "https://gist.github.com/developit/89e0e6decb8fb5eb00def024b6fb7bd7"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release Version 3.0.0 · sweet-js/sweet.js",
+            "url": "https://github.com/sweet-js/sweet.js/releases/tag/v3.0.0",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "Hygienic Macrosを提供するsweet.js 3.0.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "How we built Twitter Lite | Twitter Blogs",
+            "url": "https://blog.twitter.com/2017/how-we-built-twitter-lite",
+            "tags": [
+                "twitter",
+                "mobile",
+                "React"
+            ],
+            "content": "Twitter Liteの技術スタックについて。\nReact, Redux, Normalizr, Globalize, Babel, Webpack, Jest, WebdriverIOなどを使っている。\nパフォーマンスのためにPRPLパターンを使い、`requestAnimationFrame`や`requestIdleCallback`を使ってのレンダリングの調整などについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Introducing ReactXP - ReactXP Blog",
+            "url": "https://microsoft.github.io/reactxp/blog/2017/04/06/introducing-reactxp.html",
+            "tags": [
+                "React",
+                "ReleaseNote",
+                "windows",
+                "ios",
+                "Android"
+            ],
+            "content": "React/React NativeベースのクロスプラットフォームなUIフレームワーク。\nクロスプラットフォームで共通したコンポーネントを利用できるようにするのが目的でMSのSkypeチームが作成している。",
+            "relatedLinks": [
+                {
+                    "title": "Microsoft/reactxp: Library for cross-platform app development.",
+                    "url": "https://github.com/microsoft/reactxp"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "GraphQL & React tutorial (part 1/6) – Chroma",
+            "url": "https://blog.hichroma.com/graphql-react-tutorial-part-1-6-d0691af25858",
+            "tags": [
+                "GraphQL",
+                "React",
+                "tutorial"
+            ],
+            "content": "GraphQLについての連載。\nコンポーネント駆動とスキーマファーストについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "How to Create a Reddit Client Using Angular 4.0 - Progur!",
+            "url": "http://progur.com/2017/03/how-to-create-reddit-client-with-angular-4.html",
+            "tags": [
+                "AngularJS",
+                "tutorial"
+            ],
+            "content": "Angular v4を使ってRedditのAPIを叩いて、リスト表示するチュートリアル",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "The Quest For Immer Mutable State Management",
+            "url": "https://immer-mutable-state.surge.sh/",
+            "tags": [
+                "JavaScript",
+                "slide"
+            ],
+            "content": "MobXでのSnapshot + mutable state treeについてのスライド。\nPull/Push-basedなcomputed property、Mutable StateでActionリプレイするために、どのような方法を取るのかについて",
+            "relatedLinks": [
+                {
+                    "title": "Michel Weststrate: MobX: The Quest For Immer Mutable State Management - YouTube",
+                    "url": "https://www.youtube.com/watch?v=ta8QKmNRXZM"
+                },
+                {
+                    "title": "mobxjs/serializr: Serialize and deserialize complex object graphs to JSON",
+                    "url": "https://github.com/mobxjs/serializr"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "ng-conf 2017 - YouTube",
+            "url": "https://www.youtube.com/watch?v=Nj9_p4qvm5U",
+            "tags": [
+                "AngularJS",
+                "イベント",
+                "video"
+            ],
+            "content": "ng-conf 2017の動画まとめ",
+            "relatedLinks": [
+                {
+                    "title": "ng-conf 2017 Summary - Day 1",
+                    "url": "https://auth0.com/blog/ngconf2017-summary-day1/"
+                },
+                {
+                    "title": "ng-conf 2017 1日目 Keynoteメモ | ",
+                    "url": "https://blog.lacolaco.net/post/ng-conf-2017-day-1-note/"
+                },
+                {
+                    "title": "Long Term Support for Angular Announced at ng-conf 2017",
+                    "url": "https://www.infoq.com/news/2017/04/ng-conf-2017-keynote"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Publish JavaScript packages on npm - Course by @trevordmiller @eggheadio",
+            "url": "https://egghead.io/courses/publish-javascript-packages-on-npm",
+            "tags": [
+                "npm",
+                "video",
+                "tutorial"
+            ],
+            "content": "npmのパッケージやscriptについてのスクリーンキャスト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Stylelint generator",
+            "url": "https://maximgatilin.github.io/stylelint-config/",
+            "tags": [
+                "CSS",
+                "設定",
+                "Tools"
+            ],
+            "content": "Stylelintの設定ファイルを選択式で作れるジェネレーター",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mobxjs/serializr: Serialize and deserialize complex object graphs to JSON",
+            "url": "https://github.com/mobxjs/serializr",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "クラスのオブジェクトシリアライズ/デシリアライズライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "MathJax CDN shutting down on April 30, 2017",
+            "url": "http://www.mathjax.org/cdn-shutting-down/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "news"
+            ],
+            "content": "MathJax CDNがシャットダウンされるため、ローカルにコピーするかcloudflareのものを利用するようにする必要がある",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "ukyo/wasm-usui-book: webassemblyの薄い本",
+            "url": "https://github.com/ukyo/wasm-usui-book",
+            "tags": [
+                "WebAssembly",
+                "ebook"
+            ],
+            "content": "wasmについての電子書籍。\nwasmの概要、WABTを使っての開発、バイナリフォーマットやテキストフォーマットなどについて",
+            "relatedLinks": []
+        }
+    ]
+}

@@ -1,239 +1,255 @@
-[
-    {
-        "category": "Headline",
-        "title": "ESLint v1.7.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/10/eslint-v1.7.0-released/",
+{
+    "meta": {
+        "title": "2015-10-25のJS: ESLint入門、ECMAScriptとは何か?、rollupとES6 modules",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-10-25T11:20:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint v1.7.0リリース。\neslintrcの`extends`にJavaScriptのファイルパスそのものを書いて設定を継承出来るようになった",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "jsdom/Changelog.md at 7.0.0 · tmpvar/jsdom",
-        "url": "https://github.com/tmpvar/jsdom/blob/7.0.0/Changelog.md",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "jsdom 7.0.0リリース。\nNode.js 4.0以降が必要になった。\nXMLHttpRequestの再実装、`HTMLTemplateElement.prototype.content`の追加など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "esprima/ChangeLog at 2.7.0 · jquery/esprima",
-        "url": "https://github.com/jquery/esprima/blob/2.7.0/ChangeLog",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "esprima 2.7.0リリース。\n`esprima.tokenize`にdelegatorオプションの追加など",
-        "relatedLinks": [
-            {
-                "title": "API: Token delegator · Issue #1332 · jquery/esprima",
-                "url": "https://github.com/jquery/esprima/issues/1332"
-            }
+            "ESLint",
+            "ECMAScript",
+            "Bundle",
+            "Browserify",
+            "rollup"
         ]
     },
-    {
-        "category": "Article",
-        "title": "JavaScript - ESLint 最初の一歩 - Qiita",
-        "url": "http://qiita.com/mysticatea/items/f523dab04a25f617c87d",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "ESLintの使い方、設定方法、ES6関連のルールについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ECMAScriptの仕様策定に関するカンニングペーパー | Web Scratch",
-        "url": "http://efcl.info/2015/10/18/ecmascript-paper/",
-        "tags": [
-            "ECMAScript",
-            "まとめ"
-        ],
-        "content": "ECMAScriptとは何か?からES2016の策定プロセス、進捗の確認方法、コントリビュートのやり方、TranspilerやPolyfillの役割など仕様策定に関する疑問をまとめたもの",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ecmascript-6-destructuring-gotcha",
-        "url": "https://www.nczonline.net/blog/2015/10/ecmascript-6-destructuring-gotcha/",
-        "tags": [
-            "ECMAScript",
-            "spec"
-        ],
-        "content": "`let {} = {};`がES6でvalidであるというのは混乱を起こすのではという話。\n現在、ECMAScript仕様のIssueとして修正するべきかが議論されている。",
-        "relatedLinks": [
-            {
-                "title": "Destructuring declarations that bind nothing should probably be an early error · Issue #97 · tc39/ecma262",
-                "url": "https://github.com/tc39/ecma262/issues/97"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "EventEmitter in ES6",
-        "url": "http://www.datchley.name/es6-eventemitter/",
-        "tags": [
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "ES6でシンプルにEventEmitterやObserverを実装しながら、ES6の機能について学ぶ話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "The struggles of publishing a JavaScript library | Read the Tea Leaves",
-        "url": "http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "bower、npm、jspmに対応したライブラリの公開方法と設定について。\nBrowserify、Webpack、rollup.jsでのライブラリのビルドについてなど",
-        "relatedLinks": [
-            {
-                "title": "nolanlawson/hello-javascript",
-                "url": "https://github.com/nolanlawson/hello-javascript"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Experimenting with Object.observe in JavaScript",
-        "url": "http://www.sitepoint.com/experimenting-object-observe-javascript-found-useful/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES.nextで提案されている`Object.observe`の現状について。\nブラウザのサポート状況、Polyfillについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "StrongLoop | Moving toward Express 5",
-        "url": "https://strongloop.com/strongblog/moving-toward-express-5/",
-        "tags": [
-            "node.js",
-            "library"
-        ],
-        "content": "Express 5αでの変更点についての解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "TypeScript 1.6時代の.d.ts管理について意見を述べておく - Qiita",
-        "url": "http://qiita.com/vvakame/items/72d22e33632178f7db24",
-        "tags": [
-            "TypeScript",
-            "まとめ"
-        ],
-        "content": "npmパッケージとTypeScriptのd.tsの管理について。",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "The Accessibility Project",
-        "url": "http://a11yproject.com/",
-        "tags": [
-            "アクセシビリティ",
-            "まとめ"
-        ],
-        "content": "ウェブ開発者向けにアクセシビリティについてまとめているサイト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "rollup.js",
-        "url": "http://rollupjs.org/",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "Tools"
-        ],
-        "content": "ES6 modulesをBrowserifyなどのようにbundleするツール。\n使用していない関数は無視したり、余計なラップする関数なしに結合が出来る。\nデフォルトではES6のみだがプラグインでCommonJSなども対応する。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Rich-Harris/magic-string",
-        "url": "https://github.com/Rich-Harris/magic-string",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "library"
-        ],
-        "content": "Source Mapをサポートしてるコード変換ライブラリ。\n文字列の上書き、追加、削除などを文字列操作のように変更を行うことができる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": ".eslintrc editor",
-        "url": "https://pirosikick.github.io/eslintrc-editor/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "設定"
-        ],
-        "content": "ESLintの設定をGUIでポチポチと作成することが出来るツール",
-        "relatedLinks": [
-            {
-                "title": "ESLintの設定ファイルをブラウザでポチポチして作るツールを作った - Qiita",
-                "url": "http://qiita.com/pirosikick/items/64cb38752fa252911501"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "cotejp/webmidi",
-        "url": "https://github.com/cotejp/webmidi",
-        "tags": [
-            "web",
-            "sound",
-            "library"
-        ],
-        "content": "Web MIDI APIをラップしたライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "dleitee/valid.js",
-        "url": "https://github.com/dleitee/valid.js",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "String、Number、Date、Boolなどにおけるバリデーションを組み合わせたバリデーション関数を作成できるライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "rodrigogs/kairos",
-        "url": "https://github.com/rodrigogs/kairos",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "時間同士の四則演算や比較を行うライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "SVG Text Layout - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920043072.do",
-        "tags": [
-            "SVG",
-            "book"
-        ],
-        "content": "SVGにおけるテキストのレイアウトについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "ESLint v1.7.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/10/eslint-v1.7.0-released/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint v1.7.0リリース。\neslintrcの`extends`にJavaScriptのファイルパスそのものを書いて設定を継承出来るようになった",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "jsdom/Changelog.md at 7.0.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/7.0.0/Changelog.md",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "jsdom 7.0.0リリース。\nNode.js 4.0以降が必要になった。\nXMLHttpRequestの再実装、`HTMLTemplateElement.prototype.content`の追加など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "esprima/ChangeLog at 2.7.0 · jquery/esprima",
+            "url": "https://github.com/jquery/esprima/blob/2.7.0/ChangeLog",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "esprima 2.7.0リリース。\n`esprima.tokenize`にdelegatorオプションの追加など",
+            "relatedLinks": [
+                {
+                    "title": "API: Token delegator · Issue #1332 · jquery/esprima",
+                    "url": "https://github.com/jquery/esprima/issues/1332"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript - ESLint 最初の一歩 - Qiita",
+            "url": "http://qiita.com/mysticatea/items/f523dab04a25f617c87d",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "ESLintの使い方、設定方法、ES6関連のルールについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ECMAScriptの仕様策定に関するカンニングペーパー | Web Scratch",
+            "url": "http://efcl.info/2015/10/18/ecmascript-paper/",
+            "tags": [
+                "ECMAScript",
+                "まとめ"
+            ],
+            "content": "ECMAScriptとは何か?からES2016の策定プロセス、進捗の確認方法、コントリビュートのやり方、TranspilerやPolyfillの役割など仕様策定に関する疑問をまとめたもの",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ecmascript-6-destructuring-gotcha",
+            "url": "https://www.nczonline.net/blog/2015/10/ecmascript-6-destructuring-gotcha/",
+            "tags": [
+                "ECMAScript",
+                "spec"
+            ],
+            "content": "`let {} = {};`がES6でvalidであるというのは混乱を起こすのではという話。\n現在、ECMAScript仕様のIssueとして修正するべきかが議論されている。",
+            "relatedLinks": [
+                {
+                    "title": "Destructuring declarations that bind nothing should probably be an early error · Issue #97 · tc39/ecma262",
+                    "url": "https://github.com/tc39/ecma262/issues/97"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "EventEmitter in ES6",
+            "url": "http://www.datchley.name/es6-eventemitter/",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "ES6でシンプルにEventEmitterやObserverを実装しながら、ES6の機能について学ぶ話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "The struggles of publishing a JavaScript library | Read the Tea Leaves",
+            "url": "http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "bower、npm、jspmに対応したライブラリの公開方法と設定について。\nBrowserify、Webpack、rollup.jsでのライブラリのビルドについてなど",
+            "relatedLinks": [
+                {
+                    "title": "nolanlawson/hello-javascript",
+                    "url": "https://github.com/nolanlawson/hello-javascript"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Experimenting with Object.observe in JavaScript",
+            "url": "http://www.sitepoint.com/experimenting-object-observe-javascript-found-useful/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES.nextで提案されている`Object.observe`の現状について。\nブラウザのサポート状況、Polyfillについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "StrongLoop | Moving toward Express 5",
+            "url": "https://strongloop.com/strongblog/moving-toward-express-5/",
+            "tags": [
+                "node.js",
+                "library"
+            ],
+            "content": "Express 5αでの変更点についての解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "TypeScript 1.6時代の.d.ts管理について意見を述べておく - Qiita",
+            "url": "http://qiita.com/vvakame/items/72d22e33632178f7db24",
+            "tags": [
+                "TypeScript",
+                "まとめ"
+            ],
+            "content": "npmパッケージとTypeScriptのd.tsの管理について。",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "The Accessibility Project",
+            "url": "http://a11yproject.com/",
+            "tags": [
+                "アクセシビリティ",
+                "まとめ"
+            ],
+            "content": "ウェブ開発者向けにアクセシビリティについてまとめているサイト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "rollup.js",
+            "url": "http://rollupjs.org/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools"
+            ],
+            "content": "ES6 modulesをBrowserifyなどのようにbundleするツール。\n使用していない関数は無視したり、余計なラップする関数なしに結合が出来る。\nデフォルトではES6のみだがプラグインでCommonJSなども対応する。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Rich-Harris/magic-string",
+            "url": "https://github.com/Rich-Harris/magic-string",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "library"
+            ],
+            "content": "Source Mapをサポートしてるコード変換ライブラリ。\n文字列の上書き、追加、削除などを文字列操作のように変更を行うことができる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": ".eslintrc editor",
+            "url": "https://pirosikick.github.io/eslintrc-editor/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "設定"
+            ],
+            "content": "ESLintの設定をGUIでポチポチと作成することが出来るツール",
+            "relatedLinks": [
+                {
+                    "title": "ESLintの設定ファイルをブラウザでポチポチして作るツールを作った - Qiita",
+                    "url": "http://qiita.com/pirosikick/items/64cb38752fa252911501"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "cotejp/webmidi",
+            "url": "https://github.com/cotejp/webmidi",
+            "tags": [
+                "web",
+                "sound",
+                "library"
+            ],
+            "content": "Web MIDI APIをラップしたライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "dleitee/valid.js",
+            "url": "https://github.com/dleitee/valid.js",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "String、Number、Date、Boolなどにおけるバリデーションを組み合わせたバリデーション関数を作成できるライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "rodrigogs/kairos",
+            "url": "https://github.com/rodrigogs/kairos",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "時間同士の四則演算や比較を行うライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "SVG Text Layout - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920043072.do",
+            "tags": [
+                "SVG",
+                "book"
+            ],
+            "content": "SVGにおけるテキストのレイアウトについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

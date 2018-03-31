@@ -1,279 +1,293 @@
-[
-    {
-        "category": "Headline",
-        "title": "Vue.js 1.0.0 Released - vue.js",
-        "url": "http://vuejs.org/2015/10/26/1.0.0-release/",
+{
+    "meta": {
+        "title": "2015-11-03のJS: Vue.js 1.0.0、Babel 6.0、Node.js 5.0",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-11-03T10:16:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Vue.js 1.0.0リリース。\nテンプレートの改善、非推奨なAPIを削除、初期表示の速度改善など",
-        "relatedLinks": [
-            {
-                "title": "Release 1.0.0 Evangelion · vuejs/vue",
-                "url": "https://github.com/vuejs/vue/releases/tag/1.0.0"
-            },
-            {
-                "title": "Vue.js 1.0.0 リリースしました - vue.js",
-                "url": "http://jp.vuejs.org/2015/10/26/1.0.0-release/"
-            },
-            {
-                "title": "Vue.js: a (re)introduction",
-                "url": "http://blog.evanyou.me/2015/10/25/vuejs-re-introduction/"
-            }
+            "Vue",
+            "Babel",
+            "Node.js"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "6.0.0 Released · Babel",
-        "url": "https://babeljs.io/blog/2015/10/29/6.0.0",
-        "tags": [
-            "babel",
-            "ReleaseNote"
-        ],
-        "content": "Babel 6.0.0リリース。\nまだ関連プラグインが追いついていないため扱いに注意。\nBabelの内部的に使っていたモジュールがそれぞれパッケージとして利用できるようになった。\nプラグインがオプトインとなり、同時にプラグインプリセットが用意された。\nまた変換の速度改善やプラグインのAPI変更が行われている。",
-        "relatedLinks": [
-            {
-                "title": "babel/CHANGELOG.md at master · babel/babel",
-                "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#600"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Node v5.0.0 (Stable) | Node.js",
-        "url": "https://nodejs.org/en/blog/release/v5.0.0/",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node.js 5.0.0リリース。\n`fs.readFile`がfile descriptorをサポート、npm 3.xがデフォルトへと変更、ALPNサポート、`util.inherits`がES6 Classesからも継承できるようになるなど",
-        "relatedLinks": [
-            {
-                "title": "ファイル記述子がfs.readFile()等でサポートへ - Weblog - Hail2u.net",
-                "url": "http://hail2u.net/blog/coding/file-descriptor-support-in-fs-file-functions.html"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "New in bluebird 3.0 | bluebird",
-        "url": "http://bluebirdjs.com/docs/new-in-bluebird-3.html",
-        "tags": [
-            "JavaScript",
-            "Promises",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Promiseライブラリであるbluebird 3.0リリース。\nCancellation APIのデザインを変更、 Promisificationの挙動を変更、`Promise.config`で警告についてを設定可能になるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Dev.Opera — Opera 33 released",
-        "url": "https://dev.opera.com/blog/opera-33/",
-        "tags": [
-            "Opera",
-            "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Opera 33リリース。\n`<link rel=preconnect>`、ES6 `new.target`、spread operator、DOMException、`CSS.escape`、HTTP Client Hintsなどのサポート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 1.20.0 · jquery/qunit",
-        "url": "https://github.com/jquery/qunit/releases/tag/1.20.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "QUnit 1.20.0リリース\n`assert.raises()`の追加、`Symbol`の比較をサポート、`QUnit.module`のネストに対応するなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "node-browserify/changelog.markdown at master · substack/node-browserify",
-        "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown#1200",
-        "tags": [
-            "browser",
-            "ReleaseNote"
-        ],
-        "content": "Browserify 12.0.0リリース。\nNode.js 4.xが対象となり、0.8はサポートから外れた。\nSource Mapで日本語などが化けないように、シンボリックリンクされたモジュールは変換の対象外へと変更など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint v1.8.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/10/eslint-v1.8.0-released/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint v1.8.0リリース。\n`--cache`でキャッシュを作るファイル・ディレクトリを指定できるように",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Vue.js: a (re)introduction",
-        "url": "http://blog.evanyou.me/2015/10/25/vuejs-re-introduction/",
-        "tags": [
-            "JavaScript",
-            "library",
-            "tutorial"
-        ],
-        "content": "Vue.js 1.0.0がリリースされたため、Vue.jsについて改めて紹介する記事",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "express実践入門",
-        "url": "https://gist.github.com/mitsuruog/fc48397a8e80f051a145",
-        "tags": [
-            "node.js",
-            "サーバー",
-            "tutorial"
-        ],
-        "content": "expressの入門記事\n基本的な使い方、ミドルウェア、プロジェクト構造、テンプレート、エラーハンドリング、ログの取り方などについて書かれている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Bitovi.com | DoneJS Release",
-        "url": "http://blog.bitovi.com/donejs-release/",
-        "tags": [
-            "JavaScript",
-            "MVC",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "JavaScriptMVCの後継であるDoneJSリリース。\nDoneJSの特徴について紹介されてる",
-        "relatedLinks": [
-            {
-                "title": "donejs - donejs",
-                "url": "http://donejs.com/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Firebug &amp; DevTools Integration ★ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/10/firebug-devtools-integration/",
-        "tags": [
-            "firefox",
-            "Firebug",
-            "debug"
-        ],
-        "content": "FirebugとFirefox開発者ツールについて。\nFirebug 3ではFirefox開発者ツール上で動くものとなる。\nHAR exportやServer側からconsole APIを利用できるChrome Loggerのプロトコルに対応するなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React+Flux can do in just 137 lines what jQuery can do in 10 | A geek with a hat",
-        "url": "http://swizec.com/blog/reactflux-can-do-in-just-137-lines-what-jquery-can-do-in-10/swizec/6740",
-        "tags": [
-            "JavaScript",
-            "設計",
-            "jQuery",
-            "React",
-            "Flux"
-        ],
-        "content": "メールを出すだけの機能を作るのにjQueryだと10行、React+Fluxだと137行となった。\n行数で見ると無駄に見えるが、\nFluxはパターンであるため他の人が見た時に理解がしやすかったり、新しい機能を追加しやすいなどの違いがあるという話。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES7: Async await",
-        "url": "http://tagtree.io/es7-async-await",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "動画"
-        ],
-        "content": "async/awaitについてのスクリーンキャスト。\nPromiseでGitHub APIを叩くものを書いて、それをasync/awaitに書き換えながら紹介している",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Easier Concurrent Programming in JavaScript with Async Functions",
-        "url": "http://amasad.me/2015/10/31/javascript-async-functions-for-easier-concurrent-programming/",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "自動販売機的なプログラミングを題材とした、非同期処理とレースコンディションについて\nステートマシンベースのもの、Promiseキューとasync/awaitを使ったものをそれぞれ見ていく話",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Vue.js入門",
-        "url": "http://www.slideshare.net/nazone/vuejs-54412741",
-        "tags": [
-            "JavaScript",
-            "library",
-            "スライド"
-        ],
-        "content": "Vue.jsについてのスライド\n1.0での変更点や基本的な使い方について",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "React Cheat Sheet",
-        "url": "http://reactcheatsheet.com/",
-        "tags": [
-            "React",
-            "チートシート",
-            "検索"
-        ],
-        "content": "ReactのAPIから該当ドキュメントへ移動出来るチートシート",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "codemix/fast.js",
-        "url": "https://github.com/codemix/fast.js",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "ArrayやStringなどのネイティブメソッドと似たような処理を実装し直してるライブラリ。\n100％の互換性ではなくエッジケースへの対応などは落とすことで速度を稼いでいる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "samccone/drool",
-        "url": "https://github.com/samccone/drool",
-        "tags": [
-            "Chrome",
-            "webdriver",
-            "debug"
-        ],
-        "content": "ChromeDriver(via selenium)を使ってメモリリークが起きてないかを自動チェックするためのツール。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Why Isomorphic JavaScript? - O&#x27;Reilly Media",
-        "url": "http://www.oreilly.com/web-platform/free/why-isomorphic-javascript.csp",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "Isomorphicについての薄い電子書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Learning JavaScript, 3rd Edition - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920035534.do",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "2016年1月発売\n初めてのJavaScript 第3版",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Vue.js 1.0.0 Released - vue.js",
+            "url": "http://vuejs.org/2015/10/26/1.0.0-release/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Vue.js 1.0.0リリース。\nテンプレートの改善、非推奨なAPIを削除、初期表示の速度改善など",
+            "relatedLinks": [
+                {
+                    "title": "Release 1.0.0 Evangelion · vuejs/vue",
+                    "url": "https://github.com/vuejs/vue/releases/tag/1.0.0"
+                },
+                {
+                    "title": "Vue.js 1.0.0 リリースしました - vue.js",
+                    "url": "http://jp.vuejs.org/2015/10/26/1.0.0-release/"
+                },
+                {
+                    "title": "Vue.js: a (re)introduction",
+                    "url": "http://blog.evanyou.me/2015/10/25/vuejs-re-introduction/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "6.0.0 Released · Babel",
+            "url": "https://babeljs.io/blog/2015/10/29/6.0.0",
+            "tags": [
+                "babel",
+                "ReleaseNote"
+            ],
+            "content": "Babel 6.0.0リリース。\nまだ関連プラグインが追いついていないため扱いに注意。\nBabelの内部的に使っていたモジュールがそれぞれパッケージとして利用できるようになった。\nプラグインがオプトインとなり、同時にプラグインプリセットが用意された。\nまた変換の速度改善やプラグインのAPI変更が行われている。",
+            "relatedLinks": [
+                {
+                    "title": "babel/CHANGELOG.md at master · babel/babel",
+                    "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#600"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Node v5.0.0 (Stable) | Node.js",
+            "url": "https://nodejs.org/en/blog/release/v5.0.0/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node.js 5.0.0リリース。\n`fs.readFile`がfile descriptorをサポート、npm 3.xがデフォルトへと変更、ALPNサポート、`util.inherits`がES6 Classesからも継承できるようになるなど",
+            "relatedLinks": [
+                {
+                    "title": "ファイル記述子がfs.readFile()等でサポートへ - Weblog - Hail2u.net",
+                    "url": "http://hail2u.net/blog/coding/file-descriptor-support-in-fs-file-functions.html"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "New in bluebird 3.0 | bluebird",
+            "url": "http://bluebirdjs.com/docs/new-in-bluebird-3.html",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Promiseライブラリであるbluebird 3.0リリース。\nCancellation APIのデザインを変更、 Promisificationの挙動を変更、`Promise.config`で警告についてを設定可能になるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Dev.Opera — Opera 33 released",
+            "url": "https://dev.opera.com/blog/opera-33/",
+            "tags": [
+                "Opera",
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Opera 33リリース。\n`<link rel=preconnect>`、ES6 `new.target`、spread operator、DOMException、`CSS.escape`、HTTP Client Hintsなどのサポート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 1.20.0 · jquery/qunit",
+            "url": "https://github.com/jquery/qunit/releases/tag/1.20.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "QUnit 1.20.0リリース\n`assert.raises()`の追加、`Symbol`の比較をサポート、`QUnit.module`のネストに対応するなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "node-browserify/changelog.markdown at master · substack/node-browserify",
+            "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown#1200",
+            "tags": [
+                "browser",
+                "ReleaseNote"
+            ],
+            "content": "Browserify 12.0.0リリース。\nNode.js 4.xが対象となり、0.8はサポートから外れた。\nSource Mapで日本語などが化けないように、シンボリックリンクされたモジュールは変換の対象外へと変更など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v1.8.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/10/eslint-v1.8.0-released/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint v1.8.0リリース。\n`--cache`でキャッシュを作るファイル・ディレクトリを指定できるように",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Vue.js: a (re)introduction",
+            "url": "http://blog.evanyou.me/2015/10/25/vuejs-re-introduction/",
+            "tags": [
+                "JavaScript",
+                "library",
+                "tutorial"
+            ],
+            "content": "Vue.js 1.0.0がリリースされたため、Vue.jsについて改めて紹介する記事",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "express実践入門",
+            "url": "https://gist.github.com/mitsuruog/fc48397a8e80f051a145",
+            "tags": [
+                "node.js",
+                "サーバー",
+                "tutorial"
+            ],
+            "content": "expressの入門記事\n基本的な使い方、ミドルウェア、プロジェクト構造、テンプレート、エラーハンドリング、ログの取り方などについて書かれている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Bitovi.com | DoneJS Release",
+            "url": "http://blog.bitovi.com/donejs-release/",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "JavaScriptMVCの後継であるDoneJSリリース。\nDoneJSの特徴について紹介されてる",
+            "relatedLinks": [
+                {
+                    "title": "donejs - donejs",
+                    "url": "http://donejs.com/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Firebug &amp; DevTools Integration ★ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/10/firebug-devtools-integration/",
+            "tags": [
+                "firefox",
+                "Firebug",
+                "debug"
+            ],
+            "content": "FirebugとFirefox開発者ツールについて。\nFirebug 3ではFirefox開発者ツール上で動くものとなる。\nHAR exportやServer側からconsole APIを利用できるChrome Loggerのプロトコルに対応するなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React+Flux can do in just 137 lines what jQuery can do in 10 | A geek with a hat",
+            "url": "http://swizec.com/blog/reactflux-can-do-in-just-137-lines-what-jquery-can-do-in-10/swizec/6740",
+            "tags": [
+                "JavaScript",
+                "設計",
+                "jQuery",
+                "React",
+                "Flux"
+            ],
+            "content": "メールを出すだけの機能を作るのにjQueryだと10行、React+Fluxだと137行となった。\n行数で見ると無駄に見えるが、\nFluxはパターンであるため他の人が見た時に理解がしやすかったり、新しい機能を追加しやすいなどの違いがあるという話。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES7: Async await",
+            "url": "http://tagtree.io/es7-async-await",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "動画"
+            ],
+            "content": "async/awaitについてのスクリーンキャスト。\nPromiseでGitHub APIを叩くものを書いて、それをasync/awaitに書き換えながら紹介している",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Easier Concurrent Programming in JavaScript with Async Functions",
+            "url": "http://amasad.me/2015/10/31/javascript-async-functions-for-easier-concurrent-programming/",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "自動販売機的なプログラミングを題材とした、非同期処理とレースコンディションについて\nステートマシンベースのもの、Promiseキューとasync/awaitを使ったものをそれぞれ見ていく話",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Vue.js入門",
+            "url": "http://www.slideshare.net/nazone/vuejs-54412741",
+            "tags": [
+                "JavaScript",
+                "library",
+                "スライド"
+            ],
+            "content": "Vue.jsについてのスライド\n1.0での変更点や基本的な使い方について",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "React Cheat Sheet",
+            "url": "http://reactcheatsheet.com/",
+            "tags": [
+                "React",
+                "チートシート",
+                "検索"
+            ],
+            "content": "ReactのAPIから該当ドキュメントへ移動出来るチートシート",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "codemix/fast.js",
+            "url": "https://github.com/codemix/fast.js",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "ArrayやStringなどのネイティブメソッドと似たような処理を実装し直してるライブラリ。\n100％の互換性ではなくエッジケースへの対応などは落とすことで速度を稼いでいる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "samccone/drool",
+            "url": "https://github.com/samccone/drool",
+            "tags": [
+                "Chrome",
+                "webdriver",
+                "debug"
+            ],
+            "content": "ChromeDriver(via selenium)を使ってメモリリークが起きてないかを自動チェックするためのツール。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Why Isomorphic JavaScript? - O&#x27;Reilly Media",
+            "url": "http://www.oreilly.com/web-platform/free/why-isomorphic-javascript.csp",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "Isomorphicについての薄い電子書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Learning JavaScript, 3rd Edition - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920035534.do",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "2016年1月発売\n初めてのJavaScript 第3版",
+            "relatedLinks": []
+        }
+    ]
+}

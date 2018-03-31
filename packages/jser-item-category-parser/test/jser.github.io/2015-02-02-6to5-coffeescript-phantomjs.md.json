@@ -1,255 +1,269 @@
-[
-    {
-        "category": "Headline",
-        "title": "React v0.13.0 Beta 1 | React",
-        "url": "http://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html",
+{
+    "meta": {
+        "title": "2015-02-02のJS: 6to5 Ver3.0、CoffeeScript 1.9.0、PhantomJS 2.0",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-02-02T11:09:00.000Z",
+        "category": "JSer",
         "tags": [
-            "React",
-            "ReleaseNote"
-        ],
-        "content": "React 0.13 β1リリース。\nES6 ClassでReact.Componentを書けるように",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "2to3 · 6to5",
-        "url": "https://6to5.org/blog/2015/01/27/2to3",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "React"
-        ],
-        "content": "6to5 3.0リリース。\nコマンドラインオプションに`--blacklist`と`--whitelist`の追加、パフォーマンス改善、細かいオプションの変更等。",
-        "relatedLinks": [
-            {
-                "title": "Name suggestions · Issue #596 · 6to5/6to5",
-                "url": "https://github.com/6to5/6to5/issues/596"
-            }
+            "ES6",
+            "CoffeeScript",
+            "webkit"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "CoffeeScript",
-        "url": "http://coffeescript.org",
-        "tags": [
-            "CoffeeScript",
-            "ReleaseNote"
-        ],
-        "content": "CoffeeScript 1.9.0リリース。\nES6 generatorsのサポート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Node v0.10.36 (Stable)",
-        "url": "http://blog.nodejs.org/2015/01/26/node-v0-10-36-stable/",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node v0.10.36リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Dev.Opera — Opera 27 released",
-        "url": "https://dev.opera.com/blog/opera-27/",
-        "tags": [
-            "Opera",
-            "ReleaseNote"
-        ],
-        "content": "Opera 27(based on Chromium 40)リリース。\nminlength属性、form要素の`reportValidity()`の実装、CSP Lv2の実装、Service Workers等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "PhantomJS 2.0 Release Notes | PhantomJS",
-        "url": "http://phantomjs.org/release-2.0.html",
-        "tags": [
-            "browser",
-            "ReleaseNote"
-        ],
-        "content": "ヘッドレスブラウザのPhantomJS 2.0リリース。QtとWebKitのアップデート、CoffeeScriptのデフォルトサポートを廃止",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Replace CoffeeScript with ES6",
-        "url": "http://robots.thoughtbot.com/replace-coffeescript-with-es6",
-        "tags": [
-            "CoffeeScript",
-            "JavaScript"
-        ],
-        "content": "CoffeeScriptのSyntaxをES6に書き換える方法について\n[eventualbuddha/decaffeinate](https://github.com/eventualbuddha/decaffeinate \"eventualbuddha/decaffeinate\")のようなツールではなくて、どういう対応のコードを示しながら解説している。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "New string features in ECMAScript 6",
-        "url": "http://www.2ality.com/2015/01/es6-strings.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript"
-        ],
-        "content": "ES6で追加されるString系のメソッドについて。\nTemplate strings、ユニコードコードポイントを正しく扱う方法、追加された便利メソッドについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Surfin&#x27; Safari - Blog Archive » Building WebKit for iOS Simulator",
-        "url": "https://www.webkit.org/blog/3457/building-webkit-for-ios-simulator/",
-        "tags": [
-            "ios",
-            "safari"
-        ],
-        "content": "iOSシミュレータ向けにWebKitをビルド出来るように",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Canvas 2D: New docs, Path2D objects, hit regions ✩ Mozilla Hacks – the Web developer blog",
-        "url": "http://hacks.mozilla.org/2015/01/canvas-2d-new-docs-path2d-hit-regions/",
-        "tags": [
-            "canvas"
-        ],
-        "content": "Canvas 2Dの機能として追加されたPath2Dについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "最近のASTパーサの動き",
-        "url": "http://azu.github.io/slide/crosushi/shift-ast.html",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "スライド"
-        ],
-        "content": "Esprima/Esprima-FB/espree、Shift AST、acorn/acorn-6to5とかのJS ASTパーサの近況についてのスライド。\nEsprimaがjQuery Foundationに移管した話についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "React.js Conf | January 28 &amp; 29 2015",
-        "url": "http://conf.reactjs.com/schedule.html",
-        "tags": [
-            "React",
-            "イベント",
-            "動画"
-        ],
-        "content": "React.js Confの動画まとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "React in 7 Minutes - React Video Tutorial #free @eggheadio",
-        "url": "https://egghead.io/lessons/react-react-in-7-minutes",
-        "tags": [
-            "React",
-            "動画"
-        ],
-        "content": "7分で分かるReact Componentのスクリーンキャスト。\nJSX、Componentのネスト、stateとprops、イベントハンドラについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "MaxArt2501/object-observe",
-        "url": "https://github.com/MaxArt2501/object-observe",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Object.observeの限定的なpolyfill",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Contracts.js",
-        "url": "http://www.contractsjs.org/",
-        "tags": [
-            "sweet.js",
-            "JavaScript"
-        ],
-        "content": "sweet.jsを使った実行時型チェック的な機能を提供するマクロ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "is.js - micro check library",
-        "url": "http://arasatasaygin.github.io/is.js/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "`is.*`というメソッドで色々な種類の値をチェック出来るライブラリ。\n型や正規表現、環境、時間等",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Fluxible | A Pluggable Container for Isomorphic Flux Applications | Fluxible",
-        "url": "http://www.fluxible.io/",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "library"
-        ],
-        "content": "Yahoo製のFlux実装ライブラリ。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Ramda Documentation",
-        "url": "http://ramdajs.com/",
-        "tags": [
-            "JavaScript",
-            "関数型プログラミング",
-            "library"
-        ],
-        "content": "Underscore.jsやlodashよりも関数型スタイル向けに沿った作りとする事を目的としたライブラリ。\nImmutable、副作用の排除、関数同士を組み合わせしやすいようなインターフェースにしているのが特徴。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Home | marty.js",
-        "url": "http://martyjs.org/",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "library"
-        ],
-        "content": "Fluxアーキテクチャ実装のライブラリ。\n基本的なStore、Dispatcher、Actionがあり、追加でConstant値の作成、Storageを指定して管理出来るStateが用意されてる。\nChromeのデバッグで流れを見られるようになってる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "israelidanny/ie8linter",
-        "url": "https://github.com/israelidanny/ie8linter",
-        "tags": [
-            "IE",
-            "Tools",
-            "browser"
-        ],
-        "content": "IE8でサポートしてないタグやCSSプロパティ等を検出するツール。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "douglasduteil/isparta",
-        "url": "https://github.com/douglasduteil/isparta",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "istanbulと6to5を使ったES6のコードカバレッジツール。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "timoxley/pkgfiles",
-        "url": "https://github.com/timoxley/pkgfiles",
-        "tags": [
-            "npm",
-            "Tools"
-        ],
-        "content": "npm publishでどのファイルが公開されるのかをチェック出来るツール",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "React v0.13.0 Beta 1 | React",
+            "url": "http://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html",
+            "tags": [
+                "React",
+                "ReleaseNote"
+            ],
+            "content": "React 0.13 β1リリース。\nES6 ClassでReact.Componentを書けるように",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "2to3 · 6to5",
+            "url": "https://6to5.org/blog/2015/01/27/2to3",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "React"
+            ],
+            "content": "6to5 3.0リリース。\nコマンドラインオプションに`--blacklist`と`--whitelist`の追加、パフォーマンス改善、細かいオプションの変更等。",
+            "relatedLinks": [
+                {
+                    "title": "Name suggestions · Issue #596 · 6to5/6to5",
+                    "url": "https://github.com/6to5/6to5/issues/596"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "CoffeeScript",
+            "url": "http://coffeescript.org",
+            "tags": [
+                "CoffeeScript",
+                "ReleaseNote"
+            ],
+            "content": "CoffeeScript 1.9.0リリース。\nES6 generatorsのサポート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Node v0.10.36 (Stable)",
+            "url": "http://blog.nodejs.org/2015/01/26/node-v0-10-36-stable/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node v0.10.36リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Dev.Opera — Opera 27 released",
+            "url": "https://dev.opera.com/blog/opera-27/",
+            "tags": [
+                "Opera",
+                "ReleaseNote"
+            ],
+            "content": "Opera 27(based on Chromium 40)リリース。\nminlength属性、form要素の`reportValidity()`の実装、CSP Lv2の実装、Service Workers等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "PhantomJS 2.0 Release Notes | PhantomJS",
+            "url": "http://phantomjs.org/release-2.0.html",
+            "tags": [
+                "browser",
+                "ReleaseNote"
+            ],
+            "content": "ヘッドレスブラウザのPhantomJS 2.0リリース。QtとWebKitのアップデート、CoffeeScriptのデフォルトサポートを廃止",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Replace CoffeeScript with ES6",
+            "url": "http://robots.thoughtbot.com/replace-coffeescript-with-es6",
+            "tags": [
+                "CoffeeScript",
+                "JavaScript"
+            ],
+            "content": "CoffeeScriptのSyntaxをES6に書き換える方法について\n[eventualbuddha/decaffeinate](https://github.com/eventualbuddha/decaffeinate \"eventualbuddha/decaffeinate\")のようなツールではなくて、どういう対応のコードを示しながら解説している。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "New string features in ECMAScript 6",
+            "url": "http://www.2ality.com/2015/01/es6-strings.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "content": "ES6で追加されるString系のメソッドについて。\nTemplate strings、ユニコードコードポイントを正しく扱う方法、追加された便利メソッドについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Surfin&#x27; Safari - Blog Archive » Building WebKit for iOS Simulator",
+            "url": "https://www.webkit.org/blog/3457/building-webkit-for-ios-simulator/",
+            "tags": [
+                "ios",
+                "safari"
+            ],
+            "content": "iOSシミュレータ向けにWebKitをビルド出来るように",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Canvas 2D: New docs, Path2D objects, hit regions ✩ Mozilla Hacks – the Web developer blog",
+            "url": "http://hacks.mozilla.org/2015/01/canvas-2d-new-docs-path2d-hit-regions/",
+            "tags": [
+                "canvas"
+            ],
+            "content": "Canvas 2Dの機能として追加されたPath2Dについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "最近のASTパーサの動き",
+            "url": "http://azu.github.io/slide/crosushi/shift-ast.html",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "スライド"
+            ],
+            "content": "Esprima/Esprima-FB/espree、Shift AST、acorn/acorn-6to5とかのJS ASTパーサの近況についてのスライド。\nEsprimaがjQuery Foundationに移管した話についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "React.js Conf | January 28 &amp; 29 2015",
+            "url": "http://conf.reactjs.com/schedule.html",
+            "tags": [
+                "React",
+                "イベント",
+                "動画"
+            ],
+            "content": "React.js Confの動画まとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "React in 7 Minutes - React Video Tutorial #free @eggheadio",
+            "url": "https://egghead.io/lessons/react-react-in-7-minutes",
+            "tags": [
+                "React",
+                "動画"
+            ],
+            "content": "7分で分かるReact Componentのスクリーンキャスト。\nJSX、Componentのネスト、stateとprops、イベントハンドラについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "MaxArt2501/object-observe",
+            "url": "https://github.com/MaxArt2501/object-observe",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Object.observeの限定的なpolyfill",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Contracts.js",
+            "url": "http://www.contractsjs.org/",
+            "tags": [
+                "sweet.js",
+                "JavaScript"
+            ],
+            "content": "sweet.jsを使った実行時型チェック的な機能を提供するマクロ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "is.js - micro check library",
+            "url": "http://arasatasaygin.github.io/is.js/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "`is.*`というメソッドで色々な種類の値をチェック出来るライブラリ。\n型や正規表現、環境、時間等",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Fluxible | A Pluggable Container for Isomorphic Flux Applications | Fluxible",
+            "url": "http://www.fluxible.io/",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "library"
+            ],
+            "content": "Yahoo製のFlux実装ライブラリ。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Ramda Documentation",
+            "url": "http://ramdajs.com/",
+            "tags": [
+                "JavaScript",
+                "関数型プログラミング",
+                "library"
+            ],
+            "content": "Underscore.jsやlodashよりも関数型スタイル向けに沿った作りとする事を目的としたライブラリ。\nImmutable、副作用の排除、関数同士を組み合わせしやすいようなインターフェースにしているのが特徴。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Home | marty.js",
+            "url": "http://martyjs.org/",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "library"
+            ],
+            "content": "Fluxアーキテクチャ実装のライブラリ。\n基本的なStore、Dispatcher、Actionがあり、追加でConstant値の作成、Storageを指定して管理出来るStateが用意されてる。\nChromeのデバッグで流れを見られるようになってる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "israelidanny/ie8linter",
+            "url": "https://github.com/israelidanny/ie8linter",
+            "tags": [
+                "IE",
+                "Tools",
+                "browser"
+            ],
+            "content": "IE8でサポートしてないタグやCSSプロパティ等を検出するツール。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "douglasduteil/isparta",
+            "url": "https://github.com/douglasduteil/isparta",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "istanbulと6to5を使ったES6のコードカバレッジツール。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "timoxley/pkgfiles",
+            "url": "https://github.com/timoxley/pkgfiles",
+            "tags": [
+                "npm",
+                "Tools"
+            ],
+            "content": "npm publishでどのファイルが公開されるのかをチェック出来るツール",
+            "relatedLinks": []
+        }
+    ]
+}

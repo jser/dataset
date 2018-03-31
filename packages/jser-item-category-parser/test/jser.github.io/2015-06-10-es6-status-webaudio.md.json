@@ -1,268 +1,284 @@
-[
-    {
-        "category": "Headline",
-        "title": "Node v0.12.4 (Stable)",
-        "url": "http://blog.nodejs.org/2015/05/22/node-v0-12-4-stable/",
+{
+    "meta": {
+        "title": "2015-06-10のJS: ブラウザとES6の状況、Web Audio APIチュートリアル",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-06-10T03:45:00.000Z",
+        "category": "JSer",
         "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node v0.12.4リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "babel/CHANGELOG.md at master · babel/babel",
-        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#550",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "Babel 5.5.0リリース。\nバグ修正が中心。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "What’s new in Babylon.js v2.1 - Eternal Coding - HTML5 / JavaScript / 3D development - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/eternalcoding/archive/2015/06/08/what-s-new-in-babylon-js-v2-1.aspx",
-        "tags": [
-            "JavaScript",
-            "library",
-            "WebGL",
-            "ReleaseNote"
-        ],
-        "content": "Babylon.js v2.1リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Chromium Blog: Chrome 44 Beta: Improvements to Notifications API and promoted add to homescreen",
-        "url": "http://blog.chromium.org/2015/06/chrome-44-beta-improvements-to.html",
-        "tags": [
+            "WebAudio",
+            "ES6",
+            "Safari",
             "Chrome",
-            "ReleaseNote"
-        ],
-        "content": "Chrome 44 Betaリリース。\nプッシュ通知の改善、`\\u{1F302}`のような[Unicodeエスケープのリテラル](https://googlechrome.github.io/samples/extended-unicode-escapes/index.html)、ES6 Computed Properties、`document.scrollingElement`のサポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Safari 9.0",
-        "url": "https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9.html",
-        "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "Safari 9.0での変更点としてTemplate Strings、Classes、WeakSet、SymbolなどのES6サポート、開発者ツールのデザインや機能追加などが行われている",
-        "relatedLinks": [
-            {
-                "title": "Safari 9.0の新機能の概要 - console.lealog();",
-                "url": "http://lealog.hateblo.jp/entry/2015/06/09/115905"
-            },
-            {
-                "title": "iOS9_changes · uupaa/WebKitChangeLog Wiki",
-                "url": "https://github.com/uupaa/WebKitChangeLog/wiki/iOS9_changes"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Changelog · winjs/winjs Wiki",
-        "url": "https://github.com/winjs/winjs/wiki/Changelog#v40",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "WinJS 4.0リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "New Performance Tools in Firefox Developer Edition 40 ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/06/new-performance-tools-in-firefox-developer-edition-40/",
-        "tags": [
-            "firefox",
-            "debug",
-            "Tools"
-        ],
-        "content": "Firefox 40の開発者ツールについて。\nパフォーマンスツールの改善、ネットワークモニタでPostデータのコピー、CSSドキュメントの表示連携など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Polymer エレメントの開発ツールと CI - 詩と創作・思索のひろば",
-        "url": "http://motemen.hatenablog.com/entry/2015/06/polymer-tools-and-ci",
-        "tags": [
-            "JavaScript",
-            "WebComponents",
-            "library",
-            "Tools"
-        ],
-        "content": "Polymerに関連するツールやライブラリの紹介。\nコンポーネントのドキュメントの作り方、開発時の補助ツール、配布向けのビルド作成、CIでのテストについてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React/dekuコンポーネントとthisのパターン | Web Scratch",
-        "url": "http://efcl.info/2015/06/05/this-component/",
-        "tags": [
-            "React",
-            "JavaScript"
-        ],
-        "content": "ReactのコンポーネントをES6 Classesで書くと`this`が多くなる問題とイベントハンドラの登録/解除の例。\nまた、関数的なアプローチを持つdekuのコンポーネントとの違いについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React: 保守しやすいハイパフォーマンスの UI コンポーネントを作成する",
-        "url": "http://www.ibm.com/developerworks/jp/web/library/wa-react-intro/index.html",
-        "tags": [
-            "JavaScript",
-            "React",
-            "tutorial"
-        ],
-        "content": "React、Component、Flux、デバッグツール、GraphQLとReactNative等の関連するプロジェクトなどReactの全般についてまとまってる記事",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "BlinkOn 4 One-Pager - http://bit.ly/blinkon4onepager - Google ドキュメント",
-        "url": "https://docs.google.com/document/d/1ga5lPyCxQ0G7deJWDZPSbVvewG7cRdT6Qi-pHXUDgkg/edit#heading=h.rx77pwie3tnj",
-        "tags": [
-            "blink",
-            "イベント"
-        ],
-        "content": "BlinkについてのイベントであるBlinkOn  4の動画とスライドまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Integrity protection for third-party JavaScript // Speaker Deck",
-        "url": "https://speakerdeck.com/fmarier/integrity-protection-for-third-party-javascript-1",
-        "tags": [
-            "browser",
-            "セキュリティ"
-        ],
-        "content": "ブラウザの実装してるサードパーティスクリプトに対するセキュリティについてのスライド。\nCSP、HSTS、SRIについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "▶ Asynchronous JavaScript at Netflix by Matthew Podwysowski at JSConf Budapest 2015 - YouTube",
-        "url": "https://www.youtube.com/watch?v=a8W5VVGO-jA",
-        "tags": [
-            "JavaScript",
-            "動画",
-            "スライド"
-        ],
-        "content": "RxやObservableについての発表。\n非同期においてはPromiseがあるがCancelができない問題があり、またNode Streamは最適ではないとして、そこを扱うAPIデザインとしてのObservable、Rxについて紹介している",
-        "relatedLinks": [
-            {
-                "title": "mattpodwysocki/jsconfbp-2015",
-                "url": "https://github.com/mattpodwysocki/jsconfbp-2015"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Web Audio School",
-        "url": "http://mmckegg.github.io/web-audio-school/",
-        "tags": [
-            "JavaScript",
-            "web",
-            "audio",
-            "tutorial"
-        ],
-        "content": "Web Audio APIについてのチュートリアルサイト。\nそれぞれのAudioNodeについての解説や実行結果を視覚的に分かるようにしているので分かりやすい",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "What&#x27;s New in JavaScript",
-        "url": "https://msdn.microsoft.com/en-us/library/ie/br212465(v=vs.94).aspx",
-        "tags": [
-            "JavaScript",
             "MSEdge"
-        ],
-        "content": "MSEdgeでのJavaScriptの新しい機能についてのページ",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "The Accessibility Cheatsheet - bitsofco.de",
-        "url": "http://bitsofco.de/2015/the-accessibility-cheatsheet",
-        "tags": [
-            "アクセシビリティ",
-            "チートシート"
-        ],
-        "content": "ウェブアクセシビリティチートシート",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "cssnext",
-        "url": "http://cssnext.io/",
-        "tags": [
-            "CSS",
-            "Tools"
-        ],
-        "content": "CSSの新しい構文等を現在のCSSに変換するTranspilerツール。\n一部仕様などにない拡張構文も含まれている",
-        "relatedLinks": [
-            {
-                "title": "cssnextでみる次世代CSSとPostCSS | Yucchiy",
-                "url": "http://blog.yucchiy.com/2015/04/22/cssnext-postcss-for-nextgeneration-of-css/"
-            }
         ]
     },
-    {
-        "category": "SoftwareLibrary",
-        "title": "TechnologyAdvice/Vers",
-        "url": "https://github.com/TechnologyAdvice/Vers",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "バージョニングを持ったモデルライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Verify.js - A powerful, customizable, asynchronous form validation library",
-        "url": "http://verifyjs.com/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "非同期でバリデーション出来るライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Performance Tools | CSS-Tricks",
-        "url": "https://css-tricks.com/performance-tools/",
-        "tags": [
-            "browser",
-            "performance"
-        ],
-        "content": "ウェブサイトパフォーマンス計測に関連するツールやサービスのまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "ECMAScript 2015… by Maciej Rzepiński [Leanpub PDF/iPad/Kindle]",
-        "url": "https://leanpub.com/ecmascript2015es6guide",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "電子書籍"
-        ],
-        "content": "ES6についての電子書籍",
-        "relatedLinks": [
-            {
-                "title": "Maciej Rzepiński — Medium",
-                "url": "https://medium.com/@mrzepinski"
-            }
-        ]
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Node v0.12.4 (Stable)",
+            "url": "http://blog.nodejs.org/2015/05/22/node-v0-12-4-stable/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node v0.12.4リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "babel/CHANGELOG.md at master · babel/babel",
+            "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#550",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "Babel 5.5.0リリース。\nバグ修正が中心。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "What’s new in Babylon.js v2.1 - Eternal Coding - HTML5 / JavaScript / 3D development - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/eternalcoding/archive/2015/06/08/what-s-new-in-babylon-js-v2-1.aspx",
+            "tags": [
+                "JavaScript",
+                "library",
+                "WebGL",
+                "ReleaseNote"
+            ],
+            "content": "Babylon.js v2.1リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Chromium Blog: Chrome 44 Beta: Improvements to Notifications API and promoted add to homescreen",
+            "url": "http://blog.chromium.org/2015/06/chrome-44-beta-improvements-to.html",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "content": "Chrome 44 Betaリリース。\nプッシュ通知の改善、`\\u{1F302}`のような[Unicodeエスケープのリテラル](https://googlechrome.github.io/samples/extended-unicode-escapes/index.html)、ES6 Computed Properties、`document.scrollingElement`のサポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Safari 9.0",
+            "url": "https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9.html",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "Safari 9.0での変更点としてTemplate Strings、Classes、WeakSet、SymbolなどのES6サポート、開発者ツールのデザインや機能追加などが行われている",
+            "relatedLinks": [
+                {
+                    "title": "Safari 9.0の新機能の概要 - console.lealog();",
+                    "url": "http://lealog.hateblo.jp/entry/2015/06/09/115905"
+                },
+                {
+                    "title": "iOS9_changes · uupaa/WebKitChangeLog Wiki",
+                    "url": "https://github.com/uupaa/WebKitChangeLog/wiki/iOS9_changes"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Changelog · winjs/winjs Wiki",
+            "url": "https://github.com/winjs/winjs/wiki/Changelog#v40",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "WinJS 4.0リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "New Performance Tools in Firefox Developer Edition 40 ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/06/new-performance-tools-in-firefox-developer-edition-40/",
+            "tags": [
+                "firefox",
+                "debug",
+                "Tools"
+            ],
+            "content": "Firefox 40の開発者ツールについて。\nパフォーマンスツールの改善、ネットワークモニタでPostデータのコピー、CSSドキュメントの表示連携など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Polymer エレメントの開発ツールと CI - 詩と創作・思索のひろば",
+            "url": "http://motemen.hatenablog.com/entry/2015/06/polymer-tools-and-ci",
+            "tags": [
+                "JavaScript",
+                "WebComponents",
+                "library",
+                "Tools"
+            ],
+            "content": "Polymerに関連するツールやライブラリの紹介。\nコンポーネントのドキュメントの作り方、開発時の補助ツール、配布向けのビルド作成、CIでのテストについてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React/dekuコンポーネントとthisのパターン | Web Scratch",
+            "url": "http://efcl.info/2015/06/05/this-component/",
+            "tags": [
+                "React",
+                "JavaScript"
+            ],
+            "content": "ReactのコンポーネントをES6 Classesで書くと`this`が多くなる問題とイベントハンドラの登録/解除の例。\nまた、関数的なアプローチを持つdekuのコンポーネントとの違いについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React: 保守しやすいハイパフォーマンスの UI コンポーネントを作成する",
+            "url": "http://www.ibm.com/developerworks/jp/web/library/wa-react-intro/index.html",
+            "tags": [
+                "JavaScript",
+                "React",
+                "tutorial"
+            ],
+            "content": "React、Component、Flux、デバッグツール、GraphQLとReactNative等の関連するプロジェクトなどReactの全般についてまとまってる記事",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "BlinkOn 4 One-Pager - http://bit.ly/blinkon4onepager - Google ドキュメント",
+            "url": "https://docs.google.com/document/d/1ga5lPyCxQ0G7deJWDZPSbVvewG7cRdT6Qi-pHXUDgkg/edit#heading=h.rx77pwie3tnj",
+            "tags": [
+                "blink",
+                "イベント"
+            ],
+            "content": "BlinkについてのイベントであるBlinkOn  4の動画とスライドまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Integrity protection for third-party JavaScript // Speaker Deck",
+            "url": "https://speakerdeck.com/fmarier/integrity-protection-for-third-party-javascript-1",
+            "tags": [
+                "browser",
+                "セキュリティ"
+            ],
+            "content": "ブラウザの実装してるサードパーティスクリプトに対するセキュリティについてのスライド。\nCSP、HSTS、SRIについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "▶ Asynchronous JavaScript at Netflix by Matthew Podwysowski at JSConf Budapest 2015 - YouTube",
+            "url": "https://www.youtube.com/watch?v=a8W5VVGO-jA",
+            "tags": [
+                "JavaScript",
+                "動画",
+                "スライド"
+            ],
+            "content": "RxやObservableについての発表。\n非同期においてはPromiseがあるがCancelができない問題があり、またNode Streamは最適ではないとして、そこを扱うAPIデザインとしてのObservable、Rxについて紹介している",
+            "relatedLinks": [
+                {
+                    "title": "mattpodwysocki/jsconfbp-2015",
+                    "url": "https://github.com/mattpodwysocki/jsconfbp-2015"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Web Audio School",
+            "url": "http://mmckegg.github.io/web-audio-school/",
+            "tags": [
+                "JavaScript",
+                "web",
+                "audio",
+                "tutorial"
+            ],
+            "content": "Web Audio APIについてのチュートリアルサイト。\nそれぞれのAudioNodeについての解説や実行結果を視覚的に分かるようにしているので分かりやすい",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "What&#x27;s New in JavaScript",
+            "url": "https://msdn.microsoft.com/en-us/library/ie/br212465(v=vs.94).aspx",
+            "tags": [
+                "JavaScript",
+                "MSEdge"
+            ],
+            "content": "MSEdgeでのJavaScriptの新しい機能についてのページ",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "The Accessibility Cheatsheet - bitsofco.de",
+            "url": "http://bitsofco.de/2015/the-accessibility-cheatsheet",
+            "tags": [
+                "アクセシビリティ",
+                "チートシート"
+            ],
+            "content": "ウェブアクセシビリティチートシート",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "cssnext",
+            "url": "http://cssnext.io/",
+            "tags": [
+                "CSS",
+                "Tools"
+            ],
+            "content": "CSSの新しい構文等を現在のCSSに変換するTranspilerツール。\n一部仕様などにない拡張構文も含まれている",
+            "relatedLinks": [
+                {
+                    "title": "cssnextでみる次世代CSSとPostCSS | Yucchiy",
+                    "url": "http://blog.yucchiy.com/2015/04/22/cssnext-postcss-for-nextgeneration-of-css/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "TechnologyAdvice/Vers",
+            "url": "https://github.com/TechnologyAdvice/Vers",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "バージョニングを持ったモデルライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Verify.js - A powerful, customizable, asynchronous form validation library",
+            "url": "http://verifyjs.com/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "非同期でバリデーション出来るライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Performance Tools | CSS-Tricks",
+            "url": "https://css-tricks.com/performance-tools/",
+            "tags": [
+                "browser",
+                "performance"
+            ],
+            "content": "ウェブサイトパフォーマンス計測に関連するツールやサービスのまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "ECMAScript 2015… by Maciej Rzepiński [Leanpub PDF/iPad/Kindle]",
+            "url": "https://leanpub.com/ecmascript2015es6guide",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "電子書籍"
+            ],
+            "content": "ES6についての電子書籍",
+            "relatedLinks": [
+                {
+                    "title": "Maciej Rzepiński — Medium",
+                    "url": "https://medium.com/@mrzepinski"
+                }
+            ]
+        }
+    ]
+}

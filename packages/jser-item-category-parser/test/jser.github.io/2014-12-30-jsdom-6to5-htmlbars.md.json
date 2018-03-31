@@ -1,284 +1,299 @@
-[
-    {
-        "category": "Headline",
-        "title": "Node v0.10.35 (Stable)",
-        "url": "http://blog.nodejs.org/2014/12/23/node-v0-10-35-stable/",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node v0.10.35リリース。\n\nhttp://d.hatena.ne.jp/jovi0608/20141222/1419265270 の修正が入った",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Ember.js - Ember.js 1.9.1 Released",
-        "url": "http://emberjs.com/blog/2014/12/23/ember-1-9-1-released.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote",
-            "XSS"
-        ],
-        "content": "Ember.js 1.9.1 リリース。\n\nHandlebarsテンプレートはタグのエスケープは自動でやるが、属性値にjavascript:等を指定した場合にXSSとなる可能性があったため自動的にエスケープされるように変更された",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v1.5.0 · eslint/espree",
-        "url": "https://github.com/eslint/espree/releases/tag/v1.5.0",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "esprima forkのespree 1.5.0リリース。\n\nJSXのパースをサポート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "jsdom/Changelog.md at 2.0.0 · tmpvar/jsdom",
-        "url": "https://github.com/tmpvar/jsdom/blob/2.0.0/Changelog.md",
+{
+    "meta": {
+        "title": "2014-12-30のJS: jsdom 2.0.0、6to5 2.0.0、HTMLBars",
+        "author": "azu",
+        "layout": "post",
+        "date": "2014-12-30T13:54:00.000Z",
+        "category": "JSer",
         "tags": [
             "JavaScript",
             "DOM",
-            "library"
-        ],
-        "content": "jsdom 2.0.0リリース。\n\nリファクタリング、内部構造を大きく変えていくリリース。\n\n`levels`という概念を捨ててLiving Standard Modelに従うように。\n\n非標準なAPIを標準化されたものへ変更など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "6to5/CHANGELOG.md at master · 6to5/6to5",
-        "url": "https://github.com/6to5/6to5/blob/master/CHANGELOG.md#200",
-        "tags": [
-            "JavaScript",
             "ECMAScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ES6のコードをES5に変換する6to5 2.0.0リリース。\n\nFlowTypeのサポート、polyfill等をcore-jsに変更、Performanceの改善、`6to5/register`に`cache`オプションの追加等",
-        "relatedLinks": [
-            {
-                "title": "Flow types · Issue #260 · 6to5/6to5",
-                "url": "https://github.com/6to5/6to5/issues/260"
-            },
-            {
-                "title": "zloirock/core-js",
-                "url": "https://github.com/zloirock/core-js"
-            },
-            {
-                "title": "Slow compilation · Issue #341 · 6to5/6to5",
-                "url": "https://github.com/6to5/6to5/issues/341"
-            }
+            "テンプレート"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
-        "url": "http://blog.brackets.io/2014/12/18/brackets-1-1-and-extract-for-brackets-0-6-now-available/",
-        "tags": [
-            "editor",
-            "ReleaseNote"
-        ],
-        "content": "Brackets 1.1リリース。\n\nクロスブラウザのLive Previewを実験的にサポート。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Shape Security Labs: Announcing the Shift JavaScript AST Specification",
-        "url": "http://engineering.shapesecurity.com/2014/12/announcing-shift-javascript-ast.html",
-        "tags": [
-            "JavaScript",
-            "AST",
-            "spec"
-        ],
-        "content": "SpiderMonkey ASTは内部表現として始まったので、ツールから扱いにくい部分やES6のサポートの問題がでてきた。 \"Shift\"プロジェクトではそのASTの仕様策定、パーサ、ジェネレータ、バリデータ、SpiderMonkey ASTからの変換ツール、Javaの実装などが公開されている。",
-        "relatedLinks": [
-            {
-                "title": "Shape Security",
-                "url": "https://github.com/shapesecurity"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Performance Calendar » Fast-Forward Performance – The Future Looks Bright",
-        "url": "http://calendar.perfplanet.com/2014/fast-forward-performance-the-future-looks-bright/",
-        "tags": [
-            "browser",
-            "JavaScript",
-            "API",
-            "performance"
-        ],
-        "content": "パフォーマンス改善に役立つAPI、測定をするためのAPIのまとめ。\n\nブラウザのサポート状態について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "HTMLBars - A Feature-by-Feature Review | colintoh.com",
-        "url": "http://colintoh.com/blog/htmlbars",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "Emberが採用する[HTMLBars](https://github.com/tildeio/htmlbars \"htmlbars\")について。\n\n以前のEmberのレンダリングは[Handlebars](http://handlebarsjs.com/ \"Handlebars\")をそのまま使っていたため\n\n> テンプレート -> AST -> HTML String -> DOM\n\nというレンダリングのフローとなっていて遅かった。\n\nHTMLBarsはHandlebarsのテンプレート記法を使うのは同様だが、上記のフローを以下のように行える。\n\n> テンプレート (HTMLBarsがコンパイル)-> JavaScript関数(DOM API) -> DOM\n\nこのようなフローとなった理由や仕組みについて書かれている。\n\n内部的にはHTMLBars ASTというものがあるが、レンダリングのフローではコンパイル結果の関数を使うので、HTML Stringのパースがなくなる点が大きな違い。",
-        "relatedLinks": [
-            {
-                "title": "htmlbars/ARCHITECTURE.md at master · tildeio/htmlbars",
-                "url": "https://github.com/tildeio/htmlbars/blob/master/ARCHITECTURE.md"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Symbols in ECMAScript 6",
-        "url": "http://www.2ality.com/2014/12/es6-symbols.html",
-        "tags": [
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "ES6のSymbolsについて。\n\nSymbolの使い方、const Symbol()でのユニーク値としての利用、WeakMapと合わせてのプライベート値、メタ値との利用、iframe、なぜ文字列じゃなくてSymbolなのかについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Smashing Magazineのパフォーマンス改善ケースが凄まじい件 — MOL",
-        "url": "http://t32k.me/mol/log/style-class-conference/",
-        "tags": [
-            "JavaScript",
-            "CSS",
-            "performance"
-        ],
-        "content": "Smashing Magazineのパフォーマンス改善について。\n\nCritical Rendering Pathの最適化、パフォーマンス改善の指標をSpeed Index <= 1000としている点について等",
-        "relatedLinks": [
-            {
-                "title": "Improving Smashing Magazine",
-                "url": "http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Functional Reactive Programming with the Power of Node.js Streams",
-        "url": "http://blog.risingstack.com/functional-reactive-programming-with-the-power-of-nodejs-streams/",
-        "tags": [
-            "node.js",
-            "stream",
-            "関数型プログラミング"
-        ],
-        "content": "NodeのStreamとFRPの導入的な記事。\n\nリアクティブプログラミングはどのようなケースで有用なのか、FRPのライブラリとしてRxJSやBacon等が既にある。\n\nまたNodeのStreamとの互換性を高めたHighland.jsというライブラリの紹介記事",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "The state of the Web Notifications API - Aurelio De Rosa blog",
-        "url": "http://aurelio.audero.it/blog/2014/10/18/state-web-notifications-api/",
-        "tags": [
-            "JavaScript",
-            "WebPlatformAPI"
-        ],
-        "content": "Web Notifications APIの`events`周りの仕様がW3CとWHATWGで異なるが、それぞれのブラウザの実装はどうなっているかについて。",
-        "relatedLinks": [
-            {
-                "title": "W3C vs. WhatWG HTML5 Specs - Differences Documented -Telerik Developer Network",
-                "url": "http://developer.telerik.com/featured/w3c-vs-whatwg-html5-specs-differences-documented/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Javascript-globalization by rxaviers",
-        "url": "http://rxaviers.github.io/javascript-globalization/",
-        "tags": [
-            "JavaScript",
-            "i18n",
-            "library",
-            "まとめ"
-        ],
-        "content": "ECMA i18n APIやFormatJS等の国際化ライブラリなどの特徴や機能比較のまとめ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Flux react現状確認会",
-        "url": "http://www.slideshare.net/VOYAGE_GROUP/flux-react",
-        "tags": [
-            "React",
-            "Flux",
-            "スライド"
-        ],
-        "content": "FluxとReactについてのスライド。\n\nアーキテクチャ = オブザーバパターン、データの一方通行性、メリット・デメリット、ViewライブラリとしてReactを選んだ理由について。\n\n実際にFlux的にやっての本家との違いについて",
-        "relatedLinks": [
-            {
-                "title": "Fluxとはなんだったのか + misc at 2014 - snyk",
-                "url": "http://saneyukis.hatenablog.com/entry/2014/12/24/014421"
-            }
-        ]
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Chrome 関連の動画に日本語字幕が付きました - Google Developer Japan Blog",
-        "url": "http://googledevjp.blogspot.com/2014/12/chrome.html",
-        "tags": [
-            "Chrome",
-            "翻訳"
-        ],
-        "content": "I/O Bytes 2014のChrome関係の動画に日本語字幕がついた",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "JSVerify — property based testing for JavaScript. Like QuickCheck.",
-        "url": "http://jsverify.github.io/#jsverify",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library"
-        ],
-        "content": "QuickCheckを行うライブラリ。\n\nMochaやJasmineとの連携も用意されている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "azu/textlint",
-        "url": "https://github.com/azu/textlint",
-        "tags": [
-            "JavaScript",
-            "Markdown",
-            "Tools",
-            "library",
-            "node.js"
-        ],
-        "content": "テキストやMarkdownをLintするツール。\n\nESLintのようにルールをJavaScriptで書いて拡張出来る。",
-        "relatedLinks": [
-            {
-                "title": "JavaScriptでルールを書けるテキスト/Markdownの校正ツール textlint を作った | Web Scratch",
-                "url": "http://efcl.info/2014/12/30/textlint/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mapbox/pbf",
-        "url": "https://github.com/mapbox/pbf",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "ファイルサイズの小さいprotocol buffersの実装ライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Knockout.js - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920035367.do",
-        "tags": [
-            "JavaScript",
-            "library",
-            "book"
-        ],
-        "content": "Knockout.jsについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Node v0.10.35 (Stable)",
+            "url": "http://blog.nodejs.org/2014/12/23/node-v0-10-35-stable/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node v0.10.35リリース。\n\nhttp://d.hatena.ne.jp/jovi0608/20141222/1419265270 の修正が入った",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Ember.js - Ember.js 1.9.1 Released",
+            "url": "http://emberjs.com/blog/2014/12/23/ember-1-9-1-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote",
+                "XSS"
+            ],
+            "content": "Ember.js 1.9.1 リリース。\n\nHandlebarsテンプレートはタグのエスケープは自動でやるが、属性値にjavascript:等を指定した場合にXSSとなる可能性があったため自動的にエスケープされるように変更された",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v1.5.0 · eslint/espree",
+            "url": "https://github.com/eslint/espree/releases/tag/v1.5.0",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "esprima forkのespree 1.5.0リリース。\n\nJSXのパースをサポート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "jsdom/Changelog.md at 2.0.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/2.0.0/Changelog.md",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "content": "jsdom 2.0.0リリース。\n\nリファクタリング、内部構造を大きく変えていくリリース。\n\n`levels`という概念を捨ててLiving Standard Modelに従うように。\n\n非標準なAPIを標準化されたものへ変更など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "6to5/CHANGELOG.md at master · 6to5/6to5",
+            "url": "https://github.com/6to5/6to5/blob/master/CHANGELOG.md#200",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ES6のコードをES5に変換する6to5 2.0.0リリース。\n\nFlowTypeのサポート、polyfill等をcore-jsに変更、Performanceの改善、`6to5/register`に`cache`オプションの追加等",
+            "relatedLinks": [
+                {
+                    "title": "Flow types · Issue #260 · 6to5/6to5",
+                    "url": "https://github.com/6to5/6to5/issues/260"
+                },
+                {
+                    "title": "zloirock/core-js",
+                    "url": "https://github.com/zloirock/core-js"
+                },
+                {
+                    "title": "Slow compilation · Issue #341 · 6to5/6to5",
+                    "url": "https://github.com/6to5/6to5/issues/341"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
+            "url": "http://blog.brackets.io/2014/12/18/brackets-1-1-and-extract-for-brackets-0-6-now-available/",
+            "tags": [
+                "editor",
+                "ReleaseNote"
+            ],
+            "content": "Brackets 1.1リリース。\n\nクロスブラウザのLive Previewを実験的にサポート。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Shape Security Labs: Announcing the Shift JavaScript AST Specification",
+            "url": "http://engineering.shapesecurity.com/2014/12/announcing-shift-javascript-ast.html",
+            "tags": [
+                "JavaScript",
+                "AST",
+                "spec"
+            ],
+            "content": "SpiderMonkey ASTは内部表現として始まったので、ツールから扱いにくい部分やES6のサポートの問題がでてきた。 \"Shift\"プロジェクトではそのASTの仕様策定、パーサ、ジェネレータ、バリデータ、SpiderMonkey ASTからの変換ツール、Javaの実装などが公開されている。",
+            "relatedLinks": [
+                {
+                    "title": "Shape Security",
+                    "url": "https://github.com/shapesecurity"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Performance Calendar » Fast-Forward Performance – The Future Looks Bright",
+            "url": "http://calendar.perfplanet.com/2014/fast-forward-performance-the-future-looks-bright/",
+            "tags": [
+                "browser",
+                "JavaScript",
+                "API",
+                "performance"
+            ],
+            "content": "パフォーマンス改善に役立つAPI、測定をするためのAPIのまとめ。\n\nブラウザのサポート状態について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "HTMLBars - A Feature-by-Feature Review | colintoh.com",
+            "url": "http://colintoh.com/blog/htmlbars",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "Emberが採用する[HTMLBars](https://github.com/tildeio/htmlbars \"htmlbars\")について。\n\n以前のEmberのレンダリングは[Handlebars](http://handlebarsjs.com/ \"Handlebars\")をそのまま使っていたため\n\n> テンプレート -> AST -> HTML String -> DOM\n\nというレンダリングのフローとなっていて遅かった。\n\nHTMLBarsはHandlebarsのテンプレート記法を使うのは同様だが、上記のフローを以下のように行える。\n\n> テンプレート (HTMLBarsがコンパイル)-> JavaScript関数(DOM API) -> DOM\n\nこのようなフローとなった理由や仕組みについて書かれている。\n\n内部的にはHTMLBars ASTというものがあるが、レンダリングのフローではコンパイル結果の関数を使うので、HTML Stringのパースがなくなる点が大きな違い。",
+            "relatedLinks": [
+                {
+                    "title": "htmlbars/ARCHITECTURE.md at master · tildeio/htmlbars",
+                    "url": "https://github.com/tildeio/htmlbars/blob/master/ARCHITECTURE.md"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Symbols in ECMAScript 6",
+            "url": "http://www.2ality.com/2014/12/es6-symbols.html",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "ES6のSymbolsについて。\n\nSymbolの使い方、const Symbol()でのユニーク値としての利用、WeakMapと合わせてのプライベート値、メタ値との利用、iframe、なぜ文字列じゃなくてSymbolなのかについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Smashing Magazineのパフォーマンス改善ケースが凄まじい件 — MOL",
+            "url": "http://t32k.me/mol/log/style-class-conference/",
+            "tags": [
+                "JavaScript",
+                "CSS",
+                "performance"
+            ],
+            "content": "Smashing Magazineのパフォーマンス改善について。\n\nCritical Rendering Pathの最適化、パフォーマンス改善の指標をSpeed Index <= 1000としている点について等",
+            "relatedLinks": [
+                {
+                    "title": "Improving Smashing Magazine",
+                    "url": "http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Functional Reactive Programming with the Power of Node.js Streams",
+            "url": "http://blog.risingstack.com/functional-reactive-programming-with-the-power-of-nodejs-streams/",
+            "tags": [
+                "node.js",
+                "stream",
+                "関数型プログラミング"
+            ],
+            "content": "NodeのStreamとFRPの導入的な記事。\n\nリアクティブプログラミングはどのようなケースで有用なのか、FRPのライブラリとしてRxJSやBacon等が既にある。\n\nまたNodeのStreamとの互換性を高めたHighland.jsというライブラリの紹介記事",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "The state of the Web Notifications API - Aurelio De Rosa blog",
+            "url": "http://aurelio.audero.it/blog/2014/10/18/state-web-notifications-api/",
+            "tags": [
+                "JavaScript",
+                "WebPlatformAPI"
+            ],
+            "content": "Web Notifications APIの`events`周りの仕様がW3CとWHATWGで異なるが、それぞれのブラウザの実装はどうなっているかについて。",
+            "relatedLinks": [
+                {
+                    "title": "W3C vs. WhatWG HTML5 Specs - Differences Documented -Telerik Developer Network",
+                    "url": "http://developer.telerik.com/featured/w3c-vs-whatwg-html5-specs-differences-documented/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Javascript-globalization by rxaviers",
+            "url": "http://rxaviers.github.io/javascript-globalization/",
+            "tags": [
+                "JavaScript",
+                "i18n",
+                "library",
+                "まとめ"
+            ],
+            "content": "ECMA i18n APIやFormatJS等の国際化ライブラリなどの特徴や機能比較のまとめ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Flux react現状確認会",
+            "url": "http://www.slideshare.net/VOYAGE_GROUP/flux-react",
+            "tags": [
+                "React",
+                "Flux",
+                "スライド"
+            ],
+            "content": "FluxとReactについてのスライド。\n\nアーキテクチャ = オブザーバパターン、データの一方通行性、メリット・デメリット、ViewライブラリとしてReactを選んだ理由について。\n\n実際にFlux的にやっての本家との違いについて",
+            "relatedLinks": [
+                {
+                    "title": "Fluxとはなんだったのか + misc at 2014 - snyk",
+                    "url": "http://saneyukis.hatenablog.com/entry/2014/12/24/014421"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Chrome 関連の動画に日本語字幕が付きました - Google Developer Japan Blog",
+            "url": "http://googledevjp.blogspot.com/2014/12/chrome.html",
+            "tags": [
+                "Chrome",
+                "翻訳"
+            ],
+            "content": "I/O Bytes 2014のChrome関係の動画に日本語字幕がついた",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "JSVerify — property based testing for JavaScript. Like QuickCheck.",
+            "url": "http://jsverify.github.io/#jsverify",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library"
+            ],
+            "content": "QuickCheckを行うライブラリ。\n\nMochaやJasmineとの連携も用意されている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "azu/textlint",
+            "url": "https://github.com/azu/textlint",
+            "tags": [
+                "JavaScript",
+                "Markdown",
+                "Tools",
+                "library",
+                "node.js"
+            ],
+            "content": "テキストやMarkdownをLintするツール。\n\nESLintのようにルールをJavaScriptで書いて拡張出来る。",
+            "relatedLinks": [
+                {
+                    "title": "JavaScriptでルールを書けるテキスト/Markdownの校正ツール textlint を作った | Web Scratch",
+                    "url": "http://efcl.info/2014/12/30/textlint/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mapbox/pbf",
+            "url": "https://github.com/mapbox/pbf",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "ファイルサイズの小さいprotocol buffersの実装ライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Knockout.js - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920035367.do",
+            "tags": [
+                "JavaScript",
+                "library",
+                "book"
+            ],
+            "content": "Knockout.jsについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

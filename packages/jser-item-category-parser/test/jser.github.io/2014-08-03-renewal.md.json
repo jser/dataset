@@ -1,1 +1,14 @@
-[]
+{
+    "meta": {
+        "title": "JSer.infoをTumblrからGitHub Pagesに移行しました",
+        "author": "azu",
+        "layout": "post",
+        "category": "雑記",
+        "tags": [
+            "Jekyll",
+            "GitHub"
+        ],
+        "date": "2014-09-02T15:00:00.000Z"
+    },
+    "items": []
+}

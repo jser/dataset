@@ -3,7 +3,7 @@
 const fs = require("fs");
 const assert = require("assert");
 const path = require("path");
-const { parse } = require("../src/index");
+const { parseDetails } = require("../src/index");
 
 const fixturesDir = path.join(__dirname, "jser.github.io");
 describe("Snapshot testing", () => {
@@ -15,8 +15,7 @@ describe("Snapshot testing", () => {
         .forEach(caseName => {
             it(`Test ${caseName}`, function() {
                 const postMarkdownFile = path.join(fixturesDir, caseName);
-                const actualContent = fs.readFileSync(postMarkdownFile, "utf-8");
-                const actual = parse(actualContent);
+                const actual = parseDetails(postMarkdownFile);
                 const expectedFilePath = `${postMarkdownFile}.json`;
                 // UPDATE_SNAPSHOT=1 npm test で呼び出したときはスナップショットを更新
                 if (process.env.UPDATE_SNAPSHOT) {

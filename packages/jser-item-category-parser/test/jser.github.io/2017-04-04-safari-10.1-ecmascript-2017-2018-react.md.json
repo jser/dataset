@@ -1,278 +1,294 @@
-[
-    {
-        "category": "Headline",
-        "title": "normalize.css/CHANGELOG.md at master · necolas/normalize.css",
-        "url": "https://github.com/necolas/normalize.css/blob/master/CHANGELOG.md",
+{
+    "meta": {
+        "title": "2017-04-04のJS: Safari 10.1、ECMAScript 2017-2018、Reactのパフォーマンス計測/改善",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-04-04T00:17:15.589Z",
+        "category": "JSer",
         "tags": [
-            "CSS",
-            "ReleaseNote",
-            "library"
-        ],
-        "content": "normalize.css 6.0.0リリース。\nHTML要素やform要素への`font-family`、`line-height`などのopinionated rulesを削除",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "TC39: Ecma-402 updates | Rafael Xavier",
-        "url": "http://rafael.xavier.blog.br/2017/03/23/tc39-ecma-402-updates/",
-        "tags": [
+            "Safari",
             "ECMAScript",
-            "i18n",
-            "proposal"
-        ],
-        "content": "Ecma-402(ECMAScript i18n API)のProposalやステータスについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release 2.3.0 · qunitjs/qunit",
-        "url": "https://github.com/qunitjs/qunit/releases/tag/2.3.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "QUnit 2.3.0リリース。\nQUnit CLIの追加、CLIからQUnitを実行でき、reporterなどを指定できる。",
-        "relatedLinks": [
-            {
-                "title": "CLI: Introduce QUnit CLI by trentmwillis · Pull Request #1115 · qunitjs/qunit",
-                "url": "https://github.com/qunitjs/qunit/pull/1115"
-            },
-            {
-                "title": "Introduce CLI tool · Issue #1024 · qunitjs/qunit",
-                "url": "https://github.com/qunitjs/qunit/issues/1024"
-            }
+            "ES2017",
+            "ES2018",
+            "React"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "New Web Features in Safari 10.1 | WebKit",
-        "url": "https://webkit.org/blog/7477/new-web-features-in-safari-10-1/",
-        "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "Safari 10.1リリース。\nFetch API、CSS Grid、ES2016+、IndexedDB 2.0、Custom Elements、Gamepad、Pointer Lock、Input Events、`download`属性、HTML Media Captureなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Node v7.8.0 (Current) | Node.js",
-        "url": "https://nodejs.org/en/blog/release/v7.8.0/",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node.js 7.8.0リリース。\nnpm 4.2.0へアップデート、async functionの修正のバックポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "TestCafe v0.14.0 Released | TestCafe",
-        "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-14-0-released.html",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "E2E",
-            "ReleaseNote"
-        ],
-        "content": "TestCafe v0.14.0リリース。\n`Role`でログイン情報を決めることができるように、BrowserStackサポート、`t.debug()`で`debugger;`的なデバッグができるように、`file://`に対してもテストできるように、`Selector`にカスタムメソッドを定義できるようになるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Flow: A Static Type Checker for JavaScript",
-        "url": "https://flow.org/en/",
-        "tags": [
-            "flowtype"
-        ],
-        "content": "Flowの公式サイトがリニューアル公開された",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release Almin.js 0.11 · almin/almin",
-        "url": "https://github.com/almin/almin/releases/tag/0.11.0",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Almin 0.11リリース。\nFunctional UseCaseのサポート、APIドキュメントの更新、Reactバインディングの追加など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Announcing free Microsoft Edge testing in partnership with BrowserStack - Microsoft Edge Dev BlogMicrosoft Edge Dev Blog",
-        "url": "https://blogs.windows.com/msedgedev/2017/03/30/free-edge-testing-browserstack/",
-        "tags": [
-            "MSEdge",
-            "webservice"
-        ],
-        "content": "BrowserStackでテスト目的のMSEdgeが無料で利用できるように",
-        "relatedLinks": [
-            {
-                "title": "Free Edge Testing on Windows 10",
-                "url": "https://www.browserstack.com/test-on-microsoft-edge-browser#live-cloud"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ZEIT – Next.js 2.0",
-        "url": "https://zeit.co/blog/next2",
-        "tags": [
-            "JavaScript",
-            "React",
-            "library",
-            "サーバー",
-            "ReleaseNote"
-        ],
-        "content": "Reactを使ったフレームワークであるNext.js 2.0リリース。\n動的なルーティングができるように、`next/css`は非推奨となり代わりに`styled-jsx`を導入、`<Link>`の`prefetch`サポート、サンプルの追加、`babel`の設定などを行えるようになるなど",
-        "relatedLinks": [
-            {
-                "title": "zeit/styled-jsx: Full CSS support for JSX without compromises",
-                "url": "https://github.com/zeit/styled-jsx"
-            },
-            {
-                "title": "Migrating from next css · zeit/next.js Wiki",
-                "url": "https://github.com/zeit/next.js/wiki/Migrating-from-next-css"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "V8 JavaScript Engine: Help us test the future of V8!",
-        "url": "https://v8project.blogspot.com/2017/02/help-us-test-future-of-v8.html",
-        "tags": [
-            "Chrome",
-            "V8",
-            "article"
-        ],
-        "content": "V8の新しいコンパイラーパイプラインであるIgnition interpreterとTurbofan compilerを有効化する方法について。\nまたバグを見つけた時の報告先について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Writing Better JavaScript with Flow — SitePoint",
-        "url": "https://www.sitepoint.com/writing-better-javascript-with-flow/",
-        "tags": [
-            "flowtype",
-            "tutorial",
-            "article"
-        ],
-        "content": "Flowの基本的な使い方についての解説記事。\n型の付け方、ライブラリの型、型アノテーションの取り除き方について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React is Slow, React is Fast: Optimizing React Apps in Practice",
-        "url": "http://marmelab.com/blog/2017/02/06/react-is-slow-react-is-fast.html",
-        "tags": [
-            "React",
-            "performance"
-        ],
-        "content": "Reactのパフォーマンス計測と改善について。\n`?react_perf`を使いコンポーネントプロファイル、`why-did-you-update`でのコンポーネントの更新時間の計測。\nshouldComponentUpdateでの無駄な更新を排除することでの改善、RecomposeやReselect、React/JSXの使い方での改善について",
-        "relatedLinks": [
-            {
-                "title": "garbles/why-did-you-update: Puts your console on blast when React is making unnecessary updates.",
-                "url": "https://github.com/garbles/why-did-you-update"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "Svelte ナメてたけど結構スゴい - Qiita",
-        "url": "http://qiita.com/jgs/items/2d985894ea07f48b74fb",
-        "tags": [
-            "JavaScript",
-            "UI",
-            "library"
-        ],
-        "content": "HTML/CSS/JSをセットで書いたコンポーネントをJavaScript+小さなランタイムに変換するUIフレームワークであるSvelteについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Regular Expressions in a post-ES6 world",
-        "url": "https://ponyfoo.com/articles/regular-expressions-post-es6",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "proposal"
-        ],
-        "content": "ES2015以降の正規表現の追加された仕様とProposalの仕様について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Vue.js Tutorial: A Prerendered, SEO-Friendly Example \\[Live Demo\\] - Snipcart",
-        "url": "https://snipcart.com/blog/vuejs-tutorial-seo-example",
-        "tags": [
-            "JavaScript",
-            "Vue",
-            "tutorial",
-            "article"
-        ],
-        "content": "Vue.jsのチュートリアル。 PrerenderSpaPluginを使うことで、静的なHTMLを吐けるようにするところまでを行う話",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ECMAScript proposal updates @ 2017-03 | ECMAScript Daily",
-        "url": "https://ecmascript-daily.github.io/ecmascript/2017/04/04/ecmascript-proposals-status",
-        "tags": [
-            "ECMAScript",
-            "proposal"
-        ],
-        "content": "ECMAScript Proposalの最新の変更まとめ。\n正規表現系のProposalがStage 3になった。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "君はyarn.lockをコミットしているか？",
-        "url": "https://www.slideshare.net/teppeis/do-you-commit-yarnlock",
-        "tags": [
-            "yarn",
-            "slide"
-        ],
-        "content": "ライブラリでyarn.lockをコミットすることによるdevDepsの固定のメリットについて。\ndevDepsの方がBreaking Changeは起きやすいため固定することによるメリットがあるという話",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Vue.js Tutorial: A Prerendered, SEO-Friendly Example \\[Live Demo\\] - Snipcart",
-        "url": "https://snipcart.com/blog/vuejs-tutorial-seo-example",
-        "tags": [
-            "JavaScript",
-            "Vue",
-            "tutorial"
-        ],
-        "content": "Vue.jsのチュートリアル。\nPrerenderSpaPluginを使うことで、静的なHTMLを吐けるようにするところまでを行う話",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "sdgluck/mewt: Immutability in under one kilobyte",
-        "url": "https://github.com/sdgluck/mewt",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "Proxyを使ったシンプルなImmutableラッパーライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "はじめに | Reset CSSフレンズ",
-        "url": "http://friends.o2p.jp/",
-        "tags": [
-            "CSS",
-            "ebook"
-        ],
-        "content": "ユーザーエージェントによるCSSの特徴を上書きしていくReset CSSやnormalize.cssなどがどのようなスタイルを当てているかについての解説",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "normalize.css/CHANGELOG.md at master · necolas/normalize.css",
+            "url": "https://github.com/necolas/normalize.css/blob/master/CHANGELOG.md",
+            "tags": [
+                "CSS",
+                "ReleaseNote",
+                "library"
+            ],
+            "content": "normalize.css 6.0.0リリース。\nHTML要素やform要素への`font-family`、`line-height`などのopinionated rulesを削除",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "TC39: Ecma-402 updates | Rafael Xavier",
+            "url": "http://rafael.xavier.blog.br/2017/03/23/tc39-ecma-402-updates/",
+            "tags": [
+                "ECMAScript",
+                "i18n",
+                "proposal"
+            ],
+            "content": "Ecma-402(ECMAScript i18n API)のProposalやステータスについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release 2.3.0 · qunitjs/qunit",
+            "url": "https://github.com/qunitjs/qunit/releases/tag/2.3.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "QUnit 2.3.0リリース。\nQUnit CLIの追加、CLIからQUnitを実行でき、reporterなどを指定できる。",
+            "relatedLinks": [
+                {
+                    "title": "CLI: Introduce QUnit CLI by trentmwillis · Pull Request #1115 · qunitjs/qunit",
+                    "url": "https://github.com/qunitjs/qunit/pull/1115"
+                },
+                {
+                    "title": "Introduce CLI tool · Issue #1024 · qunitjs/qunit",
+                    "url": "https://github.com/qunitjs/qunit/issues/1024"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "New Web Features in Safari 10.1 | WebKit",
+            "url": "https://webkit.org/blog/7477/new-web-features-in-safari-10-1/",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "Safari 10.1リリース。\nFetch API、CSS Grid、ES2016+、IndexedDB 2.0、Custom Elements、Gamepad、Pointer Lock、Input Events、`download`属性、HTML Media Captureなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Node v7.8.0 (Current) | Node.js",
+            "url": "https://nodejs.org/en/blog/release/v7.8.0/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node.js 7.8.0リリース。\nnpm 4.2.0へアップデート、async functionの修正のバックポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "TestCafe v0.14.0 Released | TestCafe",
+            "url": "http://devexpress.github.io/testcafe/blog/testcafe-v0-14-0-released.html",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "E2E",
+                "ReleaseNote"
+            ],
+            "content": "TestCafe v0.14.0リリース。\n`Role`でログイン情報を決めることができるように、BrowserStackサポート、`t.debug()`で`debugger;`的なデバッグができるように、`file://`に対してもテストできるように、`Selector`にカスタムメソッドを定義できるようになるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Flow: A Static Type Checker for JavaScript",
+            "url": "https://flow.org/en/",
+            "tags": [
+                "flowtype"
+            ],
+            "content": "Flowの公式サイトがリニューアル公開された",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release Almin.js 0.11 · almin/almin",
+            "url": "https://github.com/almin/almin/releases/tag/0.11.0",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Almin 0.11リリース。\nFunctional UseCaseのサポート、APIドキュメントの更新、Reactバインディングの追加など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Announcing free Microsoft Edge testing in partnership with BrowserStack - Microsoft Edge Dev BlogMicrosoft Edge Dev Blog",
+            "url": "https://blogs.windows.com/msedgedev/2017/03/30/free-edge-testing-browserstack/",
+            "tags": [
+                "MSEdge",
+                "webservice"
+            ],
+            "content": "BrowserStackでテスト目的のMSEdgeが無料で利用できるように",
+            "relatedLinks": [
+                {
+                    "title": "Free Edge Testing on Windows 10",
+                    "url": "https://www.browserstack.com/test-on-microsoft-edge-browser#live-cloud"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ZEIT – Next.js 2.0",
+            "url": "https://zeit.co/blog/next2",
+            "tags": [
+                "JavaScript",
+                "React",
+                "library",
+                "サーバー",
+                "ReleaseNote"
+            ],
+            "content": "Reactを使ったフレームワークであるNext.js 2.0リリース。\n動的なルーティングができるように、`next/css`は非推奨となり代わりに`styled-jsx`を導入、`<Link>`の`prefetch`サポート、サンプルの追加、`babel`の設定などを行えるようになるなど",
+            "relatedLinks": [
+                {
+                    "title": "zeit/styled-jsx: Full CSS support for JSX without compromises",
+                    "url": "https://github.com/zeit/styled-jsx"
+                },
+                {
+                    "title": "Migrating from next css · zeit/next.js Wiki",
+                    "url": "https://github.com/zeit/next.js/wiki/Migrating-from-next-css"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "V8 JavaScript Engine: Help us test the future of V8!",
+            "url": "https://v8project.blogspot.com/2017/02/help-us-test-future-of-v8.html",
+            "tags": [
+                "Chrome",
+                "V8",
+                "article"
+            ],
+            "content": "V8の新しいコンパイラーパイプラインであるIgnition interpreterとTurbofan compilerを有効化する方法について。\nまたバグを見つけた時の報告先について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Writing Better JavaScript with Flow — SitePoint",
+            "url": "https://www.sitepoint.com/writing-better-javascript-with-flow/",
+            "tags": [
+                "flowtype",
+                "tutorial",
+                "article"
+            ],
+            "content": "Flowの基本的な使い方についての解説記事。\n型の付け方、ライブラリの型、型アノテーションの取り除き方について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React is Slow, React is Fast: Optimizing React Apps in Practice",
+            "url": "http://marmelab.com/blog/2017/02/06/react-is-slow-react-is-fast.html",
+            "tags": [
+                "React",
+                "performance"
+            ],
+            "content": "Reactのパフォーマンス計測と改善について。\n`?react_perf`を使いコンポーネントプロファイル、`why-did-you-update`でのコンポーネントの更新時間の計測。\nshouldComponentUpdateでの無駄な更新を排除することでの改善、RecomposeやReselect、React/JSXの使い方での改善について",
+            "relatedLinks": [
+                {
+                    "title": "garbles/why-did-you-update: Puts your console on blast when React is making unnecessary updates.",
+                    "url": "https://github.com/garbles/why-did-you-update"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Svelte ナメてたけど結構スゴい - Qiita",
+            "url": "http://qiita.com/jgs/items/2d985894ea07f48b74fb",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "library"
+            ],
+            "content": "HTML/CSS/JSをセットで書いたコンポーネントをJavaScript+小さなランタイムに変換するUIフレームワークであるSvelteについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Regular Expressions in a post-ES6 world",
+            "url": "https://ponyfoo.com/articles/regular-expressions-post-es6",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "proposal"
+            ],
+            "content": "ES2015以降の正規表現の追加された仕様とProposalの仕様について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Vue.js Tutorial: A Prerendered, SEO-Friendly Example \\[Live Demo\\] - Snipcart",
+            "url": "https://snipcart.com/blog/vuejs-tutorial-seo-example",
+            "tags": [
+                "JavaScript",
+                "Vue",
+                "tutorial",
+                "article"
+            ],
+            "content": "Vue.jsのチュートリアル。 PrerenderSpaPluginを使うことで、静的なHTMLを吐けるようにするところまでを行う話",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ECMAScript proposal updates @ 2017-03 | ECMAScript Daily",
+            "url": "https://ecmascript-daily.github.io/ecmascript/2017/04/04/ecmascript-proposals-status",
+            "tags": [
+                "ECMAScript",
+                "proposal"
+            ],
+            "content": "ECMAScript Proposalの最新の変更まとめ。\n正規表現系のProposalがStage 3になった。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "君はyarn.lockをコミットしているか？",
+            "url": "https://www.slideshare.net/teppeis/do-you-commit-yarnlock",
+            "tags": [
+                "yarn",
+                "slide"
+            ],
+            "content": "ライブラリでyarn.lockをコミットすることによるdevDepsの固定のメリットについて。\ndevDepsの方がBreaking Changeは起きやすいため固定することによるメリットがあるという話",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Vue.js Tutorial: A Prerendered, SEO-Friendly Example \\[Live Demo\\] - Snipcart",
+            "url": "https://snipcart.com/blog/vuejs-tutorial-seo-example",
+            "tags": [
+                "JavaScript",
+                "Vue",
+                "tutorial"
+            ],
+            "content": "Vue.jsのチュートリアル。\nPrerenderSpaPluginを使うことで、静的なHTMLを吐けるようにするところまでを行う話",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "sdgluck/mewt: Immutability in under one kilobyte",
+            "url": "https://github.com/sdgluck/mewt",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "Proxyを使ったシンプルなImmutableラッパーライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "はじめに | Reset CSSフレンズ",
+            "url": "http://friends.o2p.jp/",
+            "tags": [
+                "CSS",
+                "ebook"
+            ],
+            "content": "ユーザーエージェントによるCSSの特徴を上書きしていくReset CSSやnormalize.cssなどがどのようなスタイルを当てているかについての解説",
+            "relatedLinks": []
+        }
+    ]
+}

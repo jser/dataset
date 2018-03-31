@@ -1,272 +1,287 @@
-[
-    {
-        "category": "Headline",
-        "title": "Grunt, Rebooted | Official jQuery Blog",
-        "url": "http://blog.jquery.com/2015/11/19/grunt-rebooted/",
+{
+    "meta": {
+        "title": "2015-11-23のJS: JSDoc 3.4.0、Grunt/Bowerの今後、JavaScriptトレンド",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-11-23T11:40:00.000Z",
+        "category": "JSer",
         "tags": [
+            "JSDoc",
             "Grunt",
-            "jQuery",
-            "issue"
-        ],
-        "content": "GruntはjQuery Foundationに移管され、新たなメンテナーを求める形で再始動するとのこと",
-        "relatedLinks": [
-            {
-                "title": "Grunt needs your help! · Issue #1403 · gruntjs/grunt",
-                "url": "https://github.com/gruntjs/grunt/issues/1403"
-            },
-            {
-                "title": "Grunt project tasks for jQuery Foundation transition · Issue #1404 · gruntjs/grunt",
-                "url": "https://github.com/gruntjs/grunt/issues/1404"
-            }
+            "Bower",
+            "JSer"
         ]
     },
-    {
-        "category": "Headline",
-        "title": "ESLint v1.10.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/11/eslint-v1.10.0-released/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint v1.10.0リリース。\n設定ファイルとして`.eslintrc.yml`等も認識するように、`--init`で幾つかのデフォルトスタイルを選べるようになど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "jest/CHANGELOG.md at 0.8.0 · facebook/jest",
-        "url": "https://github.com/facebook/jest/blob/0.8.0/CHANGELOG.md",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "JavaScriptテストフレームワークのJest 0.8.0リリース。\nJasmine 2に対応するなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "babel/CHANGELOG.md at master · babel/babel",
-        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#620",
-        "tags": [
-            "babel",
-            "ReleaseNote"
-        ],
-        "content": "Babel 6.2.0リリース。\nES.next Stage 2の`function.sent`のサポート、コメントに関するバグの修正など",
-        "relatedLinks": [
-            {
-                "title": "ESideas/Generator metaproperty.md at master · allenwb/ESideas",
-                "url": "https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release JSDoc 3.4.0 · jsdoc3/jsdoc",
-        "url": "https://github.com/jsdoc3/jsdoc/releases/tag/3.4.0",
-        "tags": [
-            "JavaScript",
-            "document",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "JSDoc 3.4.0リリース。\nES6で書かれたコードのサポート、JSXのサポート、Rhinoのサポート終了など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "protractor/CHANGELOG.md at 3.0.0 · angular/protractor",
-        "url": "https://github.com/angular/protractor/blob/3.0.0/CHANGELOG.md",
-        "tags": [
-            "E2E",
-            "testing",
-            "AngularJS",
-            "ReleaseNote"
-        ],
-        "content": "E2EテストフレームワークのProtractor 3.0.0リリース。\nJasmine 2.xへのアップデート、Cucumberはデフォルトではなくなり、BrowserStackのサポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Node v5.1.0 (Stable) | Node.js",
-        "url": "https://nodejs.org/en/blog/release/v5.1.0/",
-        "tags": [
-            "node.js",
-            "ReleaseNote"
-        ],
-        "content": "Node.js 5.1.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Ember.js - Ember.js 2.2 and 2.3 Beta Released",
-        "url": "http://emberjs.com/blog/2015/11/16/ember-2-2-released.html",
-        "tags": [
-            "JavaScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Ember.js 2.2と2.3 Betaリリース。\n2.3 Betaではcontextual componentsの機能が追加された",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "W3C Highlights - October 2015",
-        "url": "http://www.w3.org/2015/10/w3c-highlights/",
-        "tags": [
-            "W3C",
-            "まとめ"
-        ],
-        "content": "2015年10月のW3Cハイライト。\nWGの議論場としてDiscourse、リポジトリ管理にGitHubを使うケースが増えた。\nW3C Document Licenseが作られた。\nMOOCsのプラットフォームであるedXと連携してオンライン講座を開設するなど",
-        "relatedLinks": [
-            {
-                "title": "W3Cx - Free Courses from The World Wide Web Consortium (W3C) | edX",
-                "url": "https://www.edx.org/school/w3cx"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "React - Redux 基礎：Action 編 - Qiita",
-        "url": "http://qiita.com/yasuhiro-okada-aktsk/items/09ab40af831c6d73491b",
-        "tags": [
-            "JavaScript",
-            "Flux",
-            "tutorial"
-        ],
-        "content": "Reduxの基本的な使い方について紹介している記事。\nRedux内に出てくるパターンについても書かれている",
-        "relatedLinks": [
-            {
-                "title": "React - Redux 基礎：Reducer 編 - Qiita",
-                "url": "http://qiita.com/yasuhiro-okada-aktsk/items/9d9025cb58ffba35f864"
-            },
-            {
-                "title": "React - Redux 基礎：Middleware 編 - Qiita",
-                "url": "http://qiita.com/yasuhiro-okada-aktsk/items/1fe3df267a6034d970c1"
-            },
-            {
-                "title": "yasuhiro-okada-aktsk/sample",
-                "url": "https://github.com/yasuhiro-okada-aktsk/sample_redux"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "&#x60;redux&#x60;と&#x60;flux&#x60;を比べてみたときの個人的な感想",
-        "url": "http://www.slideshare.net/ssusera7b1a1/reduxflux",
-        "tags": [
-            "React",
-            "Flux",
-            "スライド"
-        ],
-        "content": "Reduxとfluxについての比較",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Node.jsのセキュリティ・チェックリスト | プログラミング | POSTD",
-        "url": "http://postd.cc/node-js-security-checklist/",
-        "tags": [
-            "node.js",
-            "セキュリティ",
-            "翻訳"
-        ],
-        "content": "Node.jsで書かれたウェブアプリケーションのセキュリティチェックリストについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Flexbox For Interfaces All The Way: Tracks Case Study – Smashing Magazine",
-        "url": "http://www.smashingmagazine.com/2015/11/flexbox-interfaces-tracks-case-study/",
-        "tags": [
-            "CSS"
-        ],
-        "content": "Flexboxにおけるパターンの解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES.stage3: Object.entries() and Object.values()",
-        "url": "http://www.2ality.com/2015/11/stage3-object-entries.html",
-        "tags": [
-            "ECMAScript"
-        ],
-        "content": "Stage 3の`Object.entries()`と`Object.values()`について。\n`Object.keys()`に対応する関係なので配列を返す。\nIteratorはReflect APIの方を利用する",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Announcing Visual Studio Code Beta - Visual Studio Code - Site Home - MSDN Blogs",
-        "url": "http://blogs.msdn.com/b/vscode/archive/2015/11/17/announcing-visual-studio-code-beta.aspx",
-        "tags": [
-            "TypeScript",
-            "editor",
-            "ReleaseNote"
-        ],
-        "content": "VS Codeがオープンソースとして公開され、Extensionの仕組みなども提供されてる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "JavaScript Air",
-        "url": "http://javascriptair.com/",
-        "tags": [
-            "JavaScript",
-            "podcast"
-        ],
-        "content": "JavaScriptポッドキャスト。\nHangoutsでのライブ配信も行う。\n初回はBrendan Eichがゲストの予定。",
-        "relatedLinks": [
-            {
-                "title": "Introducing JavaScript Air — Medium",
-                "url": "https://medium.com/@kentcdodds/introducing-javascript-air-46700561f38d#.v9ty44vkg"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Plotly.js Open-Source Announcement",
-        "url": "https://plot.ly/javascript/open-source-announcement/",
-        "tags": [
-            "JavaScript",
-            "グラフ",
-            "library"
-        ],
-        "content": "D3.jsとstack.glをベースにしたグラフライブラリ。",
-        "relatedLinks": [
-            {
-                "title": "plotly/plotly.js",
-                "url": "https://github.com/plotly/plotly.js"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "ally.js",
-        "url": "http://allyjs.io/",
-        "tags": [
-            "JavaScript",
-            "アクセシビリティ",
-            "library"
-        ],
-        "content": "DOM要素のフォーカスとタブ移動に関するブラウザ差異の吸収ライブラリ。\n`:focus-within`のpolyfill提供など",
-        "relatedLinks": [
-            {
-                "title": "What does ",
-                "url": "http://allyjs.io/what-is-focusable.html"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "sapegin/react-styleguidist",
-        "url": "https://github.com/sapegin/react-styleguidist",
-        "tags": [
-            "React",
-            "UI",
-            "document"
-        ],
-        "content": "React Componentのコードからスタイルガイドを生成するツール",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Grunt, Rebooted | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2015/11/19/grunt-rebooted/",
+            "tags": [
+                "Grunt",
+                "jQuery",
+                "issue"
+            ],
+            "content": "GruntはjQuery Foundationに移管され、新たなメンテナーを求める形で再始動するとのこと",
+            "relatedLinks": [
+                {
+                    "title": "Grunt needs your help! · Issue #1403 · gruntjs/grunt",
+                    "url": "https://github.com/gruntjs/grunt/issues/1403"
+                },
+                {
+                    "title": "Grunt project tasks for jQuery Foundation transition · Issue #1404 · gruntjs/grunt",
+                    "url": "https://github.com/gruntjs/grunt/issues/1404"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v1.10.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/11/eslint-v1.10.0-released/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint v1.10.0リリース。\n設定ファイルとして`.eslintrc.yml`等も認識するように、`--init`で幾つかのデフォルトスタイルを選べるようになど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "jest/CHANGELOG.md at 0.8.0 · facebook/jest",
+            "url": "https://github.com/facebook/jest/blob/0.8.0/CHANGELOG.md",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "JavaScriptテストフレームワークのJest 0.8.0リリース。\nJasmine 2に対応するなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "babel/CHANGELOG.md at master · babel/babel",
+            "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#620",
+            "tags": [
+                "babel",
+                "ReleaseNote"
+            ],
+            "content": "Babel 6.2.0リリース。\nES.next Stage 2の`function.sent`のサポート、コメントに関するバグの修正など",
+            "relatedLinks": [
+                {
+                    "title": "ESideas/Generator metaproperty.md at master · allenwb/ESideas",
+                    "url": "https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release JSDoc 3.4.0 · jsdoc3/jsdoc",
+            "url": "https://github.com/jsdoc3/jsdoc/releases/tag/3.4.0",
+            "tags": [
+                "JavaScript",
+                "document",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "JSDoc 3.4.0リリース。\nES6で書かれたコードのサポート、JSXのサポート、Rhinoのサポート終了など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "protractor/CHANGELOG.md at 3.0.0 · angular/protractor",
+            "url": "https://github.com/angular/protractor/blob/3.0.0/CHANGELOG.md",
+            "tags": [
+                "E2E",
+                "testing",
+                "AngularJS",
+                "ReleaseNote"
+            ],
+            "content": "E2EテストフレームワークのProtractor 3.0.0リリース。\nJasmine 2.xへのアップデート、Cucumberはデフォルトではなくなり、BrowserStackのサポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Node v5.1.0 (Stable) | Node.js",
+            "url": "https://nodejs.org/en/blog/release/v5.1.0/",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "content": "Node.js 5.1.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Ember.js - Ember.js 2.2 and 2.3 Beta Released",
+            "url": "http://emberjs.com/blog/2015/11/16/ember-2-2-released.html",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Ember.js 2.2と2.3 Betaリリース。\n2.3 Betaではcontextual componentsの機能が追加された",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "W3C Highlights - October 2015",
+            "url": "http://www.w3.org/2015/10/w3c-highlights/",
+            "tags": [
+                "W3C",
+                "まとめ"
+            ],
+            "content": "2015年10月のW3Cハイライト。\nWGの議論場としてDiscourse、リポジトリ管理にGitHubを使うケースが増えた。\nW3C Document Licenseが作られた。\nMOOCsのプラットフォームであるedXと連携してオンライン講座を開設するなど",
+            "relatedLinks": [
+                {
+                    "title": "W3Cx - Free Courses from The World Wide Web Consortium (W3C) | edX",
+                    "url": "https://www.edx.org/school/w3cx"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "React - Redux 基礎：Action 編 - Qiita",
+            "url": "http://qiita.com/yasuhiro-okada-aktsk/items/09ab40af831c6d73491b",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "tutorial"
+            ],
+            "content": "Reduxの基本的な使い方について紹介している記事。\nRedux内に出てくるパターンについても書かれている",
+            "relatedLinks": [
+                {
+                    "title": "React - Redux 基礎：Reducer 編 - Qiita",
+                    "url": "http://qiita.com/yasuhiro-okada-aktsk/items/9d9025cb58ffba35f864"
+                },
+                {
+                    "title": "React - Redux 基礎：Middleware 編 - Qiita",
+                    "url": "http://qiita.com/yasuhiro-okada-aktsk/items/1fe3df267a6034d970c1"
+                },
+                {
+                    "title": "yasuhiro-okada-aktsk/sample",
+                    "url": "https://github.com/yasuhiro-okada-aktsk/sample_redux"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "&#x60;redux&#x60;と&#x60;flux&#x60;を比べてみたときの個人的な感想",
+            "url": "http://www.slideshare.net/ssusera7b1a1/reduxflux",
+            "tags": [
+                "React",
+                "Flux",
+                "スライド"
+            ],
+            "content": "Reduxとfluxについての比較",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Node.jsのセキュリティ・チェックリスト | プログラミング | POSTD",
+            "url": "http://postd.cc/node-js-security-checklist/",
+            "tags": [
+                "node.js",
+                "セキュリティ",
+                "翻訳"
+            ],
+            "content": "Node.jsで書かれたウェブアプリケーションのセキュリティチェックリストについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Flexbox For Interfaces All The Way: Tracks Case Study – Smashing Magazine",
+            "url": "http://www.smashingmagazine.com/2015/11/flexbox-interfaces-tracks-case-study/",
+            "tags": [
+                "CSS"
+            ],
+            "content": "Flexboxにおけるパターンの解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES.stage3: Object.entries() and Object.values()",
+            "url": "http://www.2ality.com/2015/11/stage3-object-entries.html",
+            "tags": [
+                "ECMAScript"
+            ],
+            "content": "Stage 3の`Object.entries()`と`Object.values()`について。\n`Object.keys()`に対応する関係なので配列を返す。\nIteratorはReflect APIの方を利用する",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Announcing Visual Studio Code Beta - Visual Studio Code - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/vscode/archive/2015/11/17/announcing-visual-studio-code-beta.aspx",
+            "tags": [
+                "TypeScript",
+                "editor",
+                "ReleaseNote"
+            ],
+            "content": "VS Codeがオープンソースとして公開され、Extensionの仕組みなども提供されてる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "JavaScript Air",
+            "url": "http://javascriptair.com/",
+            "tags": [
+                "JavaScript",
+                "podcast"
+            ],
+            "content": "JavaScriptポッドキャスト。\nHangoutsでのライブ配信も行う。\n初回はBrendan Eichがゲストの予定。",
+            "relatedLinks": [
+                {
+                    "title": "Introducing JavaScript Air — Medium",
+                    "url": "https://medium.com/@kentcdodds/introducing-javascript-air-46700561f38d#.v9ty44vkg"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Plotly.js Open-Source Announcement",
+            "url": "https://plot.ly/javascript/open-source-announcement/",
+            "tags": [
+                "JavaScript",
+                "グラフ",
+                "library"
+            ],
+            "content": "D3.jsとstack.glをベースにしたグラフライブラリ。",
+            "relatedLinks": [
+                {
+                    "title": "plotly/plotly.js",
+                    "url": "https://github.com/plotly/plotly.js"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "ally.js",
+            "url": "http://allyjs.io/",
+            "tags": [
+                "JavaScript",
+                "アクセシビリティ",
+                "library"
+            ],
+            "content": "DOM要素のフォーカスとタブ移動に関するブラウザ差異の吸収ライブラリ。\n`:focus-within`のpolyfill提供など",
+            "relatedLinks": [
+                {
+                    "title": "What does ",
+                    "url": "http://allyjs.io/what-is-focusable.html"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "sapegin/react-styleguidist",
+            "url": "https://github.com/sapegin/react-styleguidist",
+            "tags": [
+                "React",
+                "UI",
+                "document"
+            ],
+            "content": "React Componentのコードからスタイルガイドを生成するツール",
+            "relatedLinks": []
+        }
+    ]
+}

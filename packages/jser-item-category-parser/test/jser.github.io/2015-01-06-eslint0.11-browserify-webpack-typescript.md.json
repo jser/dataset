@@ -1,294 +1,311 @@
-[
-    {
-        "category": "Headline",
-        "title": "ESLint 0.11.0 released - ESLint",
-        "url": "http://eslint.org/blog/2014/12/eslint-0.11.0-released/",
+{
+    "meta": {
+        "title": "2015-01-06のJS: ESLint 0.11.0、Browserifyとwebpack、TypeScriptの本",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-01-06T13:24:00.000Z",
+        "category": "JSer",
         "tags": [
-            "ECMAScript",
             "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 0.11.0リリース。\n\nJavaScriptパーサがesprimaからEspreeへと変更された。\n\nまたES5がデフォルトとなり、ES3のコードとしてLintしたい場合はオプションを変更する必要がある",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v2.2.0 · less/less.js",
-        "url": "https://github.com/less/less.js/releases/tag/v2.2.0",
-        "tags": [
-            "CSS",
-            "JavaScript",
-            "ReleaseNote"
-        ],
-        "content": "less 2.2.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release Bulleit Bottle · sass/libsass",
-        "url": "https://github.com/sass/libsass/releases/tag/3.1.0",
-        "tags": [
-            "Sass",
-            "ReleaseNote"
-        ],
-        "content": "libsass 3.1.0リリース。\n\n`@debug`、`@error`等のデバッグ系の実装、`random()`等の関数の実装や修正など。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ECMAScript 6: maps and sets",
-        "url": "http://www.2ality.com/2015/01/es6-maps-sets.html",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "まとめ",
-            "tutorial"
-        ],
-        "content": "Map, WeakMap, Set, WeakSetの挙動についての解説。\n\nそれぞれのAPIの解説、WeakMapを使ったプライベートデータ、spread operatorとあわせた使い方等について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "browserify for webpack users",
-        "url": "https://gist.github.com/substack/68f8d502be42d5cd4942",
-        "tags": [
-            "browserify",
-            "webpack"
-        ],
-        "content": "Browserifyとwebpackのそれぞれの機能対応について。\n\nwebpackは多くの機能が同梱されているため、その機能に対応するBrowserify pluginの紹介や設計思想の違い等について",
-        "relatedLinks": [
-            {
-                "title": "webpack for browserify users",
-                "url": "http://webpack.github.io/docs/webpack-for-browserify-users.html"
-            },
-            {
-                "title": "substack/browserify-handbook",
-                "url": "https://github.com/substack/browserify-handbook"
-            }
+            "Lint",
+            "tools",
+            "Browserify",
+            "webpack",
+            "TypeScript"
         ]
     },
-    {
-        "category": "Article",
-        "title": "Advanced unit testing tools for Node.js",
-        "url": "http://blog.wercker.com/2014/12/23/Testing-in-Node.html",
-        "tags": [
-            "JavaScript",
-            "testing"
-        ],
-        "content": "TAP形式とtapeを使ってのNodeのテストについて。\n\nproxyquireを使ってのStubなど",
-        "relatedLinks": [
-            {
-                "title": "thlorenz/proxyquire",
-                "url": "https://github.com/thlorenz/proxyquire"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "KeyboardEvent.keyを利用する前に知っておくべき事 - WebStudio",
-        "url": "http://www.d-toybox.com/studio/weblog/show.php?mode=single;id=2015010100",
-        "tags": [
-            "DOM",
-            "event",
-            "キーボード"
-        ],
-        "content": "DOM 3 KeyboardEventについて。 \n\nKeyboardEvent.keyCodeの問題点やKeyboardEvent.keyは入力される文字となり直感的に分かるようになっている点について。\n\nまた、KeyboardEvent.codeはキー自体を示し、クロスブラウザでのキーイベント対応について等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ES6 Generatorを使ってasync/awaitを実装するメモ - maru source",
-        "url": "http://blog.h13i32maru.jp/entry/2015/01/02/225457",
-        "tags": [
-            "JavaScript",
-            "Promises",
-            "tutorial"
-        ],
-        "content": "ES6 GeneratorとPromiseを使ってcoライクな実装をするまでをステップ・バイ・ステップで",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Multi-User Video Conference with WebRTC – Minko Gechev&#x27;s blog",
-        "url": "http://blog.mgechev.com/2014/12/26/multi-user-video-conference-webrtc-angularjs-yeoman",
-        "tags": [
-            "JavaScript",
-            "WebRTC",
-            "AngularJS",
-            "tutorial"
-        ],
-        "content": "AngularJS+WebRTC+socket.ioを使ってビデオチャットを作るチュートリアル。\n\nYeomanのジェネレータを使ってAngularJSのコードベースを生成してる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "A Brief Introduction to SVG | Treehouse Blog",
-        "url": "http://blog.teamtreehouse.com/brief-introduction-svg",
-        "tags": [
-            "SVG",
-            "動画"
-        ],
-        "content": "SVGとは何かというのが簡単にまとめられたスクリーンキャスト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "The jsdom",
-        "url": "http://www.slideshare.net/domenicdenicola/the-jsdom",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "スライド"
-        ],
-        "content": "jsdomの実装、将来についてのスライド。\n\nまたWebIDLから実装に落としていくツールについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Front-end Dev Weekly",
-        "url": "https://frontenddevweekly.curated.co/",
-        "tags": [
-            "web",
-            "Tools",
-            "mail"
-        ],
-        "content": "フロントエンド開発のニュース、ツールについての週間のメールマガジン",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Frontend Weekly",
-        "url": "http://studiomohawk.us2.list-manage.com/subscribe?u=0c8604ec46b9f779a3f5b6a1c&id=9af01549dd",
-        "tags": [
-            "web",
-            "mail"
-        ],
-        "content": "フロントエンドに関連する記事、チュートリアル、動画/スライドを紹介する週間のメールマガジン",
-        "relatedLinks": [
-            {
-                "title": "”今の”フロントエンド開発を知るためのメルマガ：Frontend Weekly — MOL",
-                "url": "http://t32k.me/mol/log/frontend-weekly/"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Optimizing Performance — Web Fundamentals",
-        "url": "https://developers.google.com/web/fundamentals/performance/",
-        "tags": [
-            "翻訳",
-            "Brackets",
-            "performance"
-        ],
-        "content": "Web Fundamentalsの一部が翻訳されてる",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "deSVG",
-        "url": "http://benhowdle.im/deSVG/",
-        "tags": [
-            "SVG",
-            "CSS",
-            "JavaScript",
-            "library"
-        ],
-        "content": "SVGをインラインに展開してCSSでスタイリング出来るようにするライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mauriciosoares/core.js",
-        "url": "https://github.com/mauriciosoares/core.js",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "`Core.register`で要素指定しその要素に関連する処理を書いたコンポーネントの作成、コンポーネント同士はlistenとnotifyのpub/subでやり取りする事で疎結合な構成を作るライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "fraction/set-timer",
-        "url": "https://github.com/fraction/set-timer",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "setTimeout、setIntervalをラップしたTimer APIライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "STRML/JSXHint",
-        "url": "https://github.com/STRML/JSXHint",
-        "tags": [
-            "JavaScript",
-            "Tools"
-        ],
-        "content": "JSXシンタックスを含んだファイルもLint出来るJSHintラッパツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "bearcat",
-        "url": "http://bearcatjs.org/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "モジュール定義部分をbearcatの書き方にすることで、DI、非同期ロード、AOPに対応出来るライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "型の国のTypeScript",
-        "url": "http://typescript.ninja/typescript-in-definitelyland/",
-        "tags": [
-            "TypeScript",
-            "book",
-            "電子書籍"
-        ],
-        "content": "TypeScriptについての書籍\n\n無料で公開されている。",
-        "relatedLinks": [
-            {
-                "title": "TypeScript in Definitelyland 発行",
-                "url": "http://typescript.ninja/2015/01/01/typescript-in-definitelyland.html"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "Pro Express.js",
-        "url": "http://www.apress.com/9781484200384",
-        "tags": [
-            "node.js",
-            "book"
-        ],
-        "content": "Express.jsについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "CSS Refactoring - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920033998.do",
-        "tags": [
-            "CSS",
-            "book"
-        ],
-        "content": "2015年3月発売\n\nCSSのリファクタリング本",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Beautiful JavaScript - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920030706.do",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "2015年3月発売\n\nJavaScript全体のエコシステムやどうやって問題にアプローチしていくのかなどについて",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "ESLint 0.11.0 released - ESLint",
+            "url": "http://eslint.org/blog/2014/12/eslint-0.11.0-released/",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 0.11.0リリース。\n\nJavaScriptパーサがesprimaからEspreeへと変更された。\n\nまたES5がデフォルトとなり、ES3のコードとしてLintしたい場合はオプションを変更する必要がある",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v2.2.0 · less/less.js",
+            "url": "https://github.com/less/less.js/releases/tag/v2.2.0",
+            "tags": [
+                "CSS",
+                "JavaScript",
+                "ReleaseNote"
+            ],
+            "content": "less 2.2.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release Bulleit Bottle · sass/libsass",
+            "url": "https://github.com/sass/libsass/releases/tag/3.1.0",
+            "tags": [
+                "Sass",
+                "ReleaseNote"
+            ],
+            "content": "libsass 3.1.0リリース。\n\n`@debug`、`@error`等のデバッグ系の実装、`random()`等の関数の実装や修正など。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ECMAScript 6: maps and sets",
+            "url": "http://www.2ality.com/2015/01/es6-maps-sets.html",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "まとめ",
+                "tutorial"
+            ],
+            "content": "Map, WeakMap, Set, WeakSetの挙動についての解説。\n\nそれぞれのAPIの解説、WeakMapを使ったプライベートデータ、spread operatorとあわせた使い方等について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "browserify for webpack users",
+            "url": "https://gist.github.com/substack/68f8d502be42d5cd4942",
+            "tags": [
+                "browserify",
+                "webpack"
+            ],
+            "content": "Browserifyとwebpackのそれぞれの機能対応について。\n\nwebpackは多くの機能が同梱されているため、その機能に対応するBrowserify pluginの紹介や設計思想の違い等について",
+            "relatedLinks": [
+                {
+                    "title": "webpack for browserify users",
+                    "url": "http://webpack.github.io/docs/webpack-for-browserify-users.html"
+                },
+                {
+                    "title": "substack/browserify-handbook",
+                    "url": "https://github.com/substack/browserify-handbook"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "Advanced unit testing tools for Node.js",
+            "url": "http://blog.wercker.com/2014/12/23/Testing-in-Node.html",
+            "tags": [
+                "JavaScript",
+                "testing"
+            ],
+            "content": "TAP形式とtapeを使ってのNodeのテストについて。\n\nproxyquireを使ってのStubなど",
+            "relatedLinks": [
+                {
+                    "title": "thlorenz/proxyquire",
+                    "url": "https://github.com/thlorenz/proxyquire"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "KeyboardEvent.keyを利用する前に知っておくべき事 - WebStudio",
+            "url": "http://www.d-toybox.com/studio/weblog/show.php?mode=single;id=2015010100",
+            "tags": [
+                "DOM",
+                "event",
+                "キーボード"
+            ],
+            "content": "DOM 3 KeyboardEventについて。 \n\nKeyboardEvent.keyCodeの問題点やKeyboardEvent.keyは入力される文字となり直感的に分かるようになっている点について。\n\nまた、KeyboardEvent.codeはキー自体を示し、クロスブラウザでのキーイベント対応について等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ES6 Generatorを使ってasync/awaitを実装するメモ - maru source",
+            "url": "http://blog.h13i32maru.jp/entry/2015/01/02/225457",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "tutorial"
+            ],
+            "content": "ES6 GeneratorとPromiseを使ってcoライクな実装をするまでをステップ・バイ・ステップで",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Multi-User Video Conference with WebRTC – Minko Gechev&#x27;s blog",
+            "url": "http://blog.mgechev.com/2014/12/26/multi-user-video-conference-webrtc-angularjs-yeoman",
+            "tags": [
+                "JavaScript",
+                "WebRTC",
+                "AngularJS",
+                "tutorial"
+            ],
+            "content": "AngularJS+WebRTC+socket.ioを使ってビデオチャットを作るチュートリアル。\n\nYeomanのジェネレータを使ってAngularJSのコードベースを生成してる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "A Brief Introduction to SVG | Treehouse Blog",
+            "url": "http://blog.teamtreehouse.com/brief-introduction-svg",
+            "tags": [
+                "SVG",
+                "動画"
+            ],
+            "content": "SVGとは何かというのが簡単にまとめられたスクリーンキャスト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "The jsdom",
+            "url": "http://www.slideshare.net/domenicdenicola/the-jsdom",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "スライド"
+            ],
+            "content": "jsdomの実装、将来についてのスライド。\n\nまたWebIDLから実装に落としていくツールについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Front-end Dev Weekly",
+            "url": "https://frontenddevweekly.curated.co/",
+            "tags": [
+                "web",
+                "Tools",
+                "mail"
+            ],
+            "content": "フロントエンド開発のニュース、ツールについての週間のメールマガジン",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Frontend Weekly",
+            "url": "http://studiomohawk.us2.list-manage.com/subscribe?u=0c8604ec46b9f779a3f5b6a1c&id=9af01549dd",
+            "tags": [
+                "web",
+                "mail"
+            ],
+            "content": "フロントエンドに関連する記事、チュートリアル、動画/スライドを紹介する週間のメールマガジン",
+            "relatedLinks": [
+                {
+                    "title": "”今の”フロントエンド開発を知るためのメルマガ：Frontend Weekly — MOL",
+                    "url": "http://t32k.me/mol/log/frontend-weekly/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Optimizing Performance — Web Fundamentals",
+            "url": "https://developers.google.com/web/fundamentals/performance/",
+            "tags": [
+                "翻訳",
+                "Brackets",
+                "performance"
+            ],
+            "content": "Web Fundamentalsの一部が翻訳されてる",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "deSVG",
+            "url": "http://benhowdle.im/deSVG/",
+            "tags": [
+                "SVG",
+                "CSS",
+                "JavaScript",
+                "library"
+            ],
+            "content": "SVGをインラインに展開してCSSでスタイリング出来るようにするライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mauriciosoares/core.js",
+            "url": "https://github.com/mauriciosoares/core.js",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "`Core.register`で要素指定しその要素に関連する処理を書いたコンポーネントの作成、コンポーネント同士はlistenとnotifyのpub/subでやり取りする事で疎結合な構成を作るライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "fraction/set-timer",
+            "url": "https://github.com/fraction/set-timer",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "setTimeout、setIntervalをラップしたTimer APIライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "STRML/JSXHint",
+            "url": "https://github.com/STRML/JSXHint",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "content": "JSXシンタックスを含んだファイルもLint出来るJSHintラッパツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "bearcat",
+            "url": "http://bearcatjs.org/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "モジュール定義部分をbearcatの書き方にすることで、DI、非同期ロード、AOPに対応出来るライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "型の国のTypeScript",
+            "url": "http://typescript.ninja/typescript-in-definitelyland/",
+            "tags": [
+                "TypeScript",
+                "book",
+                "電子書籍"
+            ],
+            "content": "TypeScriptについての書籍\n\n無料で公開されている。",
+            "relatedLinks": [
+                {
+                    "title": "TypeScript in Definitelyland 発行",
+                    "url": "http://typescript.ninja/2015/01/01/typescript-in-definitelyland.html"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Pro Express.js",
+            "url": "http://www.apress.com/9781484200384",
+            "tags": [
+                "node.js",
+                "book"
+            ],
+            "content": "Express.jsについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "CSS Refactoring - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920033998.do",
+            "tags": [
+                "CSS",
+                "book"
+            ],
+            "content": "2015年3月発売\n\nCSSのリファクタリング本",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Beautiful JavaScript - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920030706.do",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "2015年3月発売\n\nJavaScript全体のエコシステムやどうやって問題にアプローチしていくのかなどについて",
+            "relatedLinks": []
+        }
+    ]
+}

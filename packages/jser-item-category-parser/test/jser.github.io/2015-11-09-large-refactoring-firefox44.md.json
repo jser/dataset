@@ -1,211 +1,225 @@
-[
-    {
-        "category": "Headline",
-        "title": "Release v3.4.0 · npm/npm",
-        "url": "https://github.com/npm/npm/releases/tag/v3.4.0",
-        "tags": [
-            "npm",
-            "ReleaseNote"
-        ],
-        "content": "npm 3.4.0で`npm install && npm test`を行う`npm install-test`というコマンドが追加された。\n`--dry-run`などと組み合わせて、依存モジュールのアップデートテストに活用出来る",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "PEP 0.4.0 | Official jQuery Blog",
-        "url": "http://blog.jquery.com/2015/11/05/pep-0-4-0/",
-        "tags": [
-            "jQuery",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "Pointer Events Polyfill 0.4.0リリース",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release ES2016 Draft 2015-11-03 · tc39/ecma262",
-        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151103",
-        "tags": [
-            "ECMAScript",
-            "ReleaseNote"
-        ],
-        "content": "ES2016 Draft 2015-11-03リリース。\nabstract operationであるReturnIfAbruptのシンタックスシュガーである`?`の導入。\n仕様書のバグ修正や実在する実装に合わせて`__proto__`がstrict modeでも許可されるようになるなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint v1.9.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/11/eslint-v1.9.0-released/",
+{
+    "meta": {
+        "title": "2015-11-09のJS: 巨大なJavaScriptのリファクタリング、Firefox 44の開発者ツール",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-11-09T13:03:00.000Z",
+        "category": "JSer",
         "tags": [
             "JavaScript",
-            "ECMAScript",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "ESLint v1.9.0リリース。\nnpm 3の対応改善など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "7 Things You Should Know About WebAssembly",
-        "url": "https://auth0.com/blog/2015/10/14/7-things-you-should-know-about-web-assembly/",
-        "tags": [
-            "WebAssembly"
-        ],
-        "content": "WebAssemblyについてよくある疑問に対する分かりやすい解説",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Javascript quiz. ES6 edition. — Perfection Kills",
-        "url": "http://perfectionkills.com/javascript-quiz-es6/",
-        "tags": [
-            "ECMAScript",
-            "JavaScript"
-        ],
-        "content": "ES6についてのJavaScriptクイズ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "フロントエンドに秩序を取り戻す方法 // Speaker Deck",
-        "url": "https://speakerdeck.com/fand/hurontoendonizhi-xu-woqu-rili-sufang-fa",
-        "tags": [
-            "JavaScript",
-            "スライド"
-        ],
-        "content": "昔ながらの名前空間風で管理されconcatして扱うJavaScriptをどうやってモジュール管理出来るようにリファクタリングしていくかという話。\nまた、Reactなどのライブラリ導入における議論やリファクタリングとE2E/ユニットテストについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Developer Edition 44: New visual editing and memory management tools ★ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2015/11/developer-edition-44-creative-tools-and-more/",
-        "tags": [
-            "firefox",
+            "Firefox",
             "debug"
-        ],
-        "content": "Firefox 44での開発者ツールについて。\nアニメーションパネル、 pixel rulers、メモリ消費量のスナップショット、WebSocketのデバッグ機能の追加など",
-        "relatedLinks": [
-            {
-                "title": "Developer Edition 44：新しいスタイル調整機能とメモリー管理ツール | Mozilla Japan ブログ",
-                "url": "http://www.mozilla.jp/blog/entry/10510/"
-            }
         ]
     },
-    {
-        "category": "SlideVideo",
-        "title": "What&#x27;s new in Chrome DevTools? // Speaker Deck",
-        "url": "https://speakerdeck.com/addyosmani/whats-new-in-chrome-devtools",
-        "tags": [
-            "Chrome",
-            "debug"
-        ],
-        "content": "Chrome開発者ツールの新しい機能についてのスライド",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Javascript Unit Testing - Early Release - O&#x27;Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920042594.do",
-        "tags": [
-            "JavaScript",
-            "動画"
-        ],
-        "content": "ユニットテストについてのスクリーンキャスト",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "npmcdn",
-        "url": "https://npmcdn.com/",
-        "tags": [
-            "npm",
-            "library",
-            "webservice"
-        ],
-        "content": "npmにあるものをブラウザで読み込めるように配信するCDN的なサービス",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "DevTools Challenger",
-        "url": "http://devtoolschallenger.com/",
-        "tags": [
-            "firefox",
-            "debug"
-        ],
-        "content": "Firefoxの開発者ツールの使い方についてを学べるサイト。\nアニメーション制御やカラーピッカーなどのFirefox 44で新しく追加された機能について扱ってる。",
-        "relatedLinks": [
-            {
-                "title": "Developer Edition 44: New visual editing and memory management tools ★ Mozilla Hacks – the Web developer blog",
-                "url": "https://hacks.mozilla.org/2015/11/developer-edition-44-creative-tools-and-more/"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "lepture/vui · GitHub",
-        "url": "https://github.com/lepture/vui",
-        "tags": [
-            "JavaScript",
-            "UI",
-            "library"
-        ],
-        "content": "Vue.jsベースのUIフレームワーク",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "neal-react - Declarative landing pages for react.js",
-        "url": "http://www.nealjs.com/",
-        "tags": [
-            "React",
-            "UI",
-            "library"
-        ],
-        "content": "Reactを使ったランディングページでよく使われるUIをまとめたComponent集",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Scooter - Welcome to Scooter",
-        "url": "http://dropbox.github.io/scooter/",
-        "tags": [
-            "dropbox",
-            "Sass",
-            "library"
-        ],
-        "content": "DropboxのSassフレームワーク",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: 確かな力が身につくJavaScript「超」入門 (Informatics &amp; IDEA): 狩野 祐東",
-        "url": "http://www.amazon.co.jp/dp/4797383585",
-        "tags": [
-            "JavaScript",
-            "初心者",
-            "book"
-        ],
-        "content": "プログラミング初心者向けのJavaScriptについての書籍",
-        "relatedLinks": [
-            {
-                "title": "確かな力が身につくJavaScript「超」入門 | 狩野祐東の本 solidpanda.com",
-                "url": "http://www.solidpanda.com/book/title/js-beginner/"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "Selenium - O'Reilly Media",
-        "url": "http://shop.oreilly.com/product/0636920042853.do",
-        "tags": [
-            "Selenium",
-            "book"
-        ],
-        "content": "2016年1月発売\nSeleniumについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Release v3.4.0 · npm/npm",
+            "url": "https://github.com/npm/npm/releases/tag/v3.4.0",
+            "tags": [
+                "npm",
+                "ReleaseNote"
+            ],
+            "content": "npm 3.4.0で`npm install && npm test`を行う`npm install-test`というコマンドが追加された。\n`--dry-run`などと組み合わせて、依存モジュールのアップデートテストに活用出来る",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "PEP 0.4.0 | Official jQuery Blog",
+            "url": "http://blog.jquery.com/2015/11/05/pep-0-4-0/",
+            "tags": [
+                "jQuery",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "Pointer Events Polyfill 0.4.0リリース",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release ES2016 Draft 2015-11-03 · tc39/ecma262",
+            "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151103",
+            "tags": [
+                "ECMAScript",
+                "ReleaseNote"
+            ],
+            "content": "ES2016 Draft 2015-11-03リリース。\nabstract operationであるReturnIfAbruptのシンタックスシュガーである`?`の導入。\n仕様書のバグ修正や実在する実装に合わせて`__proto__`がstrict modeでも許可されるようになるなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v1.9.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/11/eslint-v1.9.0-released/",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "ESLint v1.9.0リリース。\nnpm 3の対応改善など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "7 Things You Should Know About WebAssembly",
+            "url": "https://auth0.com/blog/2015/10/14/7-things-you-should-know-about-web-assembly/",
+            "tags": [
+                "WebAssembly"
+            ],
+            "content": "WebAssemblyについてよくある疑問に対する分かりやすい解説",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Javascript quiz. ES6 edition. — Perfection Kills",
+            "url": "http://perfectionkills.com/javascript-quiz-es6/",
+            "tags": [
+                "ECMAScript",
+                "JavaScript"
+            ],
+            "content": "ES6についてのJavaScriptクイズ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "フロントエンドに秩序を取り戻す方法 // Speaker Deck",
+            "url": "https://speakerdeck.com/fand/hurontoendonizhi-xu-woqu-rili-sufang-fa",
+            "tags": [
+                "JavaScript",
+                "スライド"
+            ],
+            "content": "昔ながらの名前空間風で管理されconcatして扱うJavaScriptをどうやってモジュール管理出来るようにリファクタリングしていくかという話。\nまた、Reactなどのライブラリ導入における議論やリファクタリングとE2E/ユニットテストについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Developer Edition 44: New visual editing and memory management tools ★ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2015/11/developer-edition-44-creative-tools-and-more/",
+            "tags": [
+                "firefox",
+                "debug"
+            ],
+            "content": "Firefox 44での開発者ツールについて。\nアニメーションパネル、 pixel rulers、メモリ消費量のスナップショット、WebSocketのデバッグ機能の追加など",
+            "relatedLinks": [
+                {
+                    "title": "Developer Edition 44：新しいスタイル調整機能とメモリー管理ツール | Mozilla Japan ブログ",
+                    "url": "http://www.mozilla.jp/blog/entry/10510/"
+                }
+            ]
+        },
+        {
+            "category": "SlideVideo",
+            "title": "What&#x27;s new in Chrome DevTools? // Speaker Deck",
+            "url": "https://speakerdeck.com/addyosmani/whats-new-in-chrome-devtools",
+            "tags": [
+                "Chrome",
+                "debug"
+            ],
+            "content": "Chrome開発者ツールの新しい機能についてのスライド",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Javascript Unit Testing - Early Release - O&#x27;Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920042594.do",
+            "tags": [
+                "JavaScript",
+                "動画"
+            ],
+            "content": "ユニットテストについてのスクリーンキャスト",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "npmcdn",
+            "url": "https://npmcdn.com/",
+            "tags": [
+                "npm",
+                "library",
+                "webservice"
+            ],
+            "content": "npmにあるものをブラウザで読み込めるように配信するCDN的なサービス",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "DevTools Challenger",
+            "url": "http://devtoolschallenger.com/",
+            "tags": [
+                "firefox",
+                "debug"
+            ],
+            "content": "Firefoxの開発者ツールの使い方についてを学べるサイト。\nアニメーション制御やカラーピッカーなどのFirefox 44で新しく追加された機能について扱ってる。",
+            "relatedLinks": [
+                {
+                    "title": "Developer Edition 44: New visual editing and memory management tools ★ Mozilla Hacks – the Web developer blog",
+                    "url": "https://hacks.mozilla.org/2015/11/developer-edition-44-creative-tools-and-more/"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "lepture/vui · GitHub",
+            "url": "https://github.com/lepture/vui",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "library"
+            ],
+            "content": "Vue.jsベースのUIフレームワーク",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "neal-react - Declarative landing pages for react.js",
+            "url": "http://www.nealjs.com/",
+            "tags": [
+                "React",
+                "UI",
+                "library"
+            ],
+            "content": "Reactを使ったランディングページでよく使われるUIをまとめたComponent集",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Scooter - Welcome to Scooter",
+            "url": "http://dropbox.github.io/scooter/",
+            "tags": [
+                "dropbox",
+                "Sass",
+                "library"
+            ],
+            "content": "DropboxのSassフレームワーク",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: 確かな力が身につくJavaScript「超」入門 (Informatics &amp; IDEA): 狩野 祐東",
+            "url": "http://www.amazon.co.jp/dp/4797383585",
+            "tags": [
+                "JavaScript",
+                "初心者",
+                "book"
+            ],
+            "content": "プログラミング初心者向けのJavaScriptについての書籍",
+            "relatedLinks": [
+                {
+                    "title": "確かな力が身につくJavaScript「超」入門 | 狩野祐東の本 solidpanda.com",
+                    "url": "http://www.solidpanda.com/book/title/js-beginner/"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Selenium - O'Reilly Media",
+            "url": "http://shop.oreilly.com/product/0636920042853.do",
+            "tags": [
+                "Selenium",
+                "book"
+            ],
+            "content": "2016年1月発売\nSeleniumについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}

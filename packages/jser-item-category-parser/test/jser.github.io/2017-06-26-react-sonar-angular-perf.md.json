@@ -1,237 +1,252 @@
-[
-    {
-        "category": "Headline",
-        "title": "Dev.Opera — What’s new in Chromium 59 and Opera 46",
-        "url": "https://dev.opera.com/blog/opera-46/",
-        "tags": [
-            "Opera",
-            "ReleaseNote"
-        ],
-        "content": "Opera 46 (based on Chromium 59)リリース。\nAnimation PNG、SVGファビコン、バックグラウンドタブのスロットリング、`MediaError.message`のサポートなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "New Release: 2.9.5",
-        "url": "http://jshint.com/blog/2017-06-22/release-2-9-5/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "JSHint 2.9.5リリース。\n`trailingcomma`オプションの追加、バグ修正など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ESLint v4.1.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2017/06/eslint-v4.1.0-released",
-        "tags": [
-            "ESLint",
-            "ReleaseNote"
-        ],
-        "content": "ESLint 4.1.0リリース。 globベースの`overrides`設定の追加、無視ファイルを`package.json`に定義できるように",
-        "relatedLinks": [
-            {
-                "title": "ESLint v4.1.0 - Qiita",
-                "url": "http://qiita.com/mysticatea/items/e758c9a9a7dfb8b9cdb1"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "JS scope: static, dynamic, and runtime-augmented – Dmitry Soshnikov – Medium",
-        "url": "https://medium.com/@DmitrySoshnikov/js-scope-static-dynamic-and-runtime-augmented-5abfee6223fe",
-        "tags": [
-            "JavaScript"
-        ],
-        "content": "JavaScriptのスコープについて。\n作ったときに参照が解決できるStatic scope、呼び出し元によって参照が決まるDynamic scope、`witH`や`eval`によるRuntime-augmented scopeについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "React Express",
-        "url": "http://www.react.express/",
+{
+    "meta": {
+        "title": "2017-06-26のJS: React入門、sonar - linting for web、Angularパフォーマンス改善",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-06-26T08:55:22.360Z",
+        "category": "JSer",
         "tags": [
             "React",
-            "tutorial",
-            "document"
-        ],
-        "content": "Reactのチュートリアルサイト。\n実行できるサンプルと共にReactの使い方や、npm/webpack/ES2015など関連するツールや知識について解説してる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Redux Architecture Guidelines | joeellis.la",
-        "url": "http://joeellis.la/redux-architecture/",
-        "tags": [
-            "redux",
-            "opinion",
-            "article"
-        ],
-        "content": "ケースバイケースではあるけど、Reduxを使ったアーキテクチャのガイドライン。\nstateのネストを避けるためにnormalizeする、stateにはsourceとなるデータを入れる、ReactのstateよりReduxのState。\nStandard Action、Container componentについてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Aligned Input Events  |  Web  |  Google Developers",
-        "url": "https://developers.google.com/web/updates/2017/06/aligning-input-events",
-        "tags": [
-            "JavaScript",
-            "event",
-            "article",
-            "Android"
-        ],
-        "content": "Pointer Eventsの`getCoalescedEvents`について。\n入力デバイスは60-120Hzに対して、モニタが60Hzである場合にポインタのイベントをすべて処理するのは無駄となる。\nその無駄を回避するためにイベントをまとめてくれる`getCoalescedEvents()`について",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Codemods: A Quick and Easy Way to Automate Code Refactoring — SitePoint",
-        "url": "https://www.sitepoint.com/getting-started-with-codemods/",
-        "tags": [
-            "JavaScript",
-            "Tools",
-            "article",
-            "AST"
-        ],
-        "content": "codemodを使ったリファクタリングツールの作り方についての記事",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "✨Locally Scoped CSS Variables: What, How, and Why | Una Kravets Online✨",
-        "url": "https://una.im/local-css-vars/",
-        "tags": [
-            "CSS",
-            "JavaScript",
-            "article"
-        ],
-        "content": "CSS Custom Propertiesについて。\n利用方法、ローカルスコープ、サポート状況についてなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "High Performance JS in V8 - Google スライド",
-        "url": "https://docs.google.com/presentation/d/1KCcA-WAyhGs0SEOrfU21fjaTWTxvNxYLwmNlGIbuZFw/edit#slide=id.p",
-        "tags": [
-            "V8",
-            "performance",
-            "slide"
-        ],
-        "content": "V8のES2015+のパフォーマンスについてのスライド。\nCrankshaftはES2015を最適化しないため遅かった。またtry-catchなどがあると最適化できなかった。\n新しいpipelineのIgnition + Turbofanではその部分が改善されているという話。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "Improve SPA Performance with Angular App // Speaker Deck",
-        "url": "https://speakerdeck.com/manakuro/improve-spa-performance-with-angular-app",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "performance",
-            "Angular",
-            "slide"
-        ],
-        "content": "メモリリークのパターン、Chromeの開発者ツールを使っての計測方法について。\nAngularにおける意図しないメモリリークを避ける方法やChange Detectionのコストを削減する方法についてなど",
-        "relatedLinks": [
-            {
-                "title": "mgechev/angular-performance-checklist: Cheatsheet for developing ⚡lightning⚡ fast progressive Angular applications.",
-                "url": "https://github.com/mgechev/angular-performance-checklist"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "mgechev/angular-performance-checklist: Cheatsheet for developing ⚡lightning⚡ fast progressive Angular applications.",
-        "url": "https://github.com/mgechev/angular-performance-checklist",
-        "tags": [
-            "Angular",
-            "performance",
-            "document"
-        ],
-        "content": "Angularのパフォーマンスチェックリスト",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "faceyspacey/redux-first-router: 🎖 seamless redux-first routing -- just dispatch actions",
-        "url": "https://github.com/faceyspacey/redux-first-router",
-        "tags": [
-            "redux",
-            "JavaScript",
-            "library"
-        ],
-        "content": "Redux向けのルーターライブラリ。\nURLパターンにマッチしたActionを発行することをベースにしてルーティングできるようにしている",
-        "relatedLinks": [
-            {
-                "title": "Pre Release: Redux-First Router — A Step Beyond Redux-Little-Router",
-                "url": "https://medium.com/faceyspacey/pre-release-redux-first-router-a-step-beyond-redux-little-router-cd2716576aea"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "sonar, a linting tool for the web",
-        "url": "https://sonarwhal.com/",
-        "tags": [
-            "JavaScript",
+            "Lint",
             "ESLint",
-            "Tools"
-        ],
-        "content": "ウェブサイト(URL)に対するESLintのようなLintツール。\nカスタムルールを自分で定義することができ、axeやSSL Server Testなど既存のツールを簡単に統合して利用できるようにする目的。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "await-to-js - NMOTW",
-        "url": "http://nmotw.in//github/await-to-js/",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "awaitと組み合わせて使うことで、go言語のように`[error, value]`の値を返すようにするライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "medikoo/date-from-timezone: Construct dates with timezone context",
-        "url": "https://github.com/medikoo/date-from-timezone",
-        "tags": [
-            "JavaScript",
-            "i18n",
-            "library"
-        ],
-        "content": "`Intl.DateTimeFormat`を使うことで、JavaScriptでタイムゾーン情報を付与して`new Date`を行うライブラリ",
-        "relatedLinks": [
-            {
-                "title": "Add timezone data to Date",
-                "url": "https://esdiscuss.org/topic/add-timezone-data-to-date#content-6"
-            }
-        ]
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "OptimalBits/redbird: A modern reverse proxy for node",
-        "url": "https://github.com/OptimalBits/redbird",
-        "tags": [
-            "node.js",
-            "proxy"
-        ],
-        "content": "HTTPSやHTTP/2に対応したNode.jsでのリバースプロキシライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "O'Reilly Japan - アイソモーフィックJavaScript",
-        "url": "https://www.oreilly.co.jp/books/9784873118079/",
-        "tags": [
-            "JavaScript",
-            "book",
-            "React",
             "Angular"
-        ],
-        "content": "2017年7月4日発売\nIsomorphic JavaScriptについての書籍。\n実現する方法や各種フレームワークReact/Angular/Brisketを使った方法、ケーススタディなど",
-        "relatedLinks": []
-    }
-]
+        ]
+    },
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Dev.Opera — What’s new in Chromium 59 and Opera 46",
+            "url": "https://dev.opera.com/blog/opera-46/",
+            "tags": [
+                "Opera",
+                "ReleaseNote"
+            ],
+            "content": "Opera 46 (based on Chromium 59)リリース。\nAnimation PNG、SVGファビコン、バックグラウンドタブのスロットリング、`MediaError.message`のサポートなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "New Release: 2.9.5",
+            "url": "http://jshint.com/blog/2017-06-22/release-2-9-5/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "JSHint 2.9.5リリース。\n`trailingcomma`オプションの追加、バグ修正など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ESLint v4.1.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2017/06/eslint-v4.1.0-released",
+            "tags": [
+                "ESLint",
+                "ReleaseNote"
+            ],
+            "content": "ESLint 4.1.0リリース。 globベースの`overrides`設定の追加、無視ファイルを`package.json`に定義できるように",
+            "relatedLinks": [
+                {
+                    "title": "ESLint v4.1.0 - Qiita",
+                    "url": "http://qiita.com/mysticatea/items/e758c9a9a7dfb8b9cdb1"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "JS scope: static, dynamic, and runtime-augmented – Dmitry Soshnikov – Medium",
+            "url": "https://medium.com/@DmitrySoshnikov/js-scope-static-dynamic-and-runtime-augmented-5abfee6223fe",
+            "tags": [
+                "JavaScript"
+            ],
+            "content": "JavaScriptのスコープについて。\n作ったときに参照が解決できるStatic scope、呼び出し元によって参照が決まるDynamic scope、`witH`や`eval`によるRuntime-augmented scopeについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "React Express",
+            "url": "http://www.react.express/",
+            "tags": [
+                "React",
+                "tutorial",
+                "document"
+            ],
+            "content": "Reactのチュートリアルサイト。\n実行できるサンプルと共にReactの使い方や、npm/webpack/ES2015など関連するツールや知識について解説してる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Redux Architecture Guidelines | joeellis.la",
+            "url": "http://joeellis.la/redux-architecture/",
+            "tags": [
+                "redux",
+                "opinion",
+                "article"
+            ],
+            "content": "ケースバイケースではあるけど、Reduxを使ったアーキテクチャのガイドライン。\nstateのネストを避けるためにnormalizeする、stateにはsourceとなるデータを入れる、ReactのstateよりReduxのState。\nStandard Action、Container componentについてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Aligned Input Events  |  Web  |  Google Developers",
+            "url": "https://developers.google.com/web/updates/2017/06/aligning-input-events",
+            "tags": [
+                "JavaScript",
+                "event",
+                "article",
+                "Android"
+            ],
+            "content": "Pointer Eventsの`getCoalescedEvents`について。\n入力デバイスは60-120Hzに対して、モニタが60Hzである場合にポインタのイベントをすべて処理するのは無駄となる。\nその無駄を回避するためにイベントをまとめてくれる`getCoalescedEvents()`について",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Codemods: A Quick and Easy Way to Automate Code Refactoring — SitePoint",
+            "url": "https://www.sitepoint.com/getting-started-with-codemods/",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "article",
+                "AST"
+            ],
+            "content": "codemodを使ったリファクタリングツールの作り方についての記事",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "✨Locally Scoped CSS Variables: What, How, and Why | Una Kravets Online✨",
+            "url": "https://una.im/local-css-vars/",
+            "tags": [
+                "CSS",
+                "JavaScript",
+                "article"
+            ],
+            "content": "CSS Custom Propertiesについて。\n利用方法、ローカルスコープ、サポート状況についてなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "High Performance JS in V8 - Google スライド",
+            "url": "https://docs.google.com/presentation/d/1KCcA-WAyhGs0SEOrfU21fjaTWTxvNxYLwmNlGIbuZFw/edit#slide=id.p",
+            "tags": [
+                "V8",
+                "performance",
+                "slide"
+            ],
+            "content": "V8のES2015+のパフォーマンスについてのスライド。\nCrankshaftはES2015を最適化しないため遅かった。またtry-catchなどがあると最適化できなかった。\n新しいpipelineのIgnition + Turbofanではその部分が改善されているという話。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "Improve SPA Performance with Angular App // Speaker Deck",
+            "url": "https://speakerdeck.com/manakuro/improve-spa-performance-with-angular-app",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "performance",
+                "Angular",
+                "slide"
+            ],
+            "content": "メモリリークのパターン、Chromeの開発者ツールを使っての計測方法について。\nAngularにおける意図しないメモリリークを避ける方法やChange Detectionのコストを削減する方法についてなど",
+            "relatedLinks": [
+                {
+                    "title": "mgechev/angular-performance-checklist: Cheatsheet for developing ⚡lightning⚡ fast progressive Angular applications.",
+                    "url": "https://github.com/mgechev/angular-performance-checklist"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "mgechev/angular-performance-checklist: Cheatsheet for developing ⚡lightning⚡ fast progressive Angular applications.",
+            "url": "https://github.com/mgechev/angular-performance-checklist",
+            "tags": [
+                "Angular",
+                "performance",
+                "document"
+            ],
+            "content": "Angularのパフォーマンスチェックリスト",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "faceyspacey/redux-first-router: 🎖 seamless redux-first routing -- just dispatch actions",
+            "url": "https://github.com/faceyspacey/redux-first-router",
+            "tags": [
+                "redux",
+                "JavaScript",
+                "library"
+            ],
+            "content": "Redux向けのルーターライブラリ。\nURLパターンにマッチしたActionを発行することをベースにしてルーティングできるようにしている",
+            "relatedLinks": [
+                {
+                    "title": "Pre Release: Redux-First Router — A Step Beyond Redux-Little-Router",
+                    "url": "https://medium.com/faceyspacey/pre-release-redux-first-router-a-step-beyond-redux-little-router-cd2716576aea"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "sonar, a linting tool for the web",
+            "url": "https://sonarwhal.com/",
+            "tags": [
+                "JavaScript",
+                "ESLint",
+                "Tools"
+            ],
+            "content": "ウェブサイト(URL)に対するESLintのようなLintツール。\nカスタムルールを自分で定義することができ、axeやSSL Server Testなど既存のツールを簡単に統合して利用できるようにする目的。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "await-to-js - NMOTW",
+            "url": "http://nmotw.in//github/await-to-js/",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "awaitと組み合わせて使うことで、go言語のように`[error, value]`の値を返すようにするライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "medikoo/date-from-timezone: Construct dates with timezone context",
+            "url": "https://github.com/medikoo/date-from-timezone",
+            "tags": [
+                "JavaScript",
+                "i18n",
+                "library"
+            ],
+            "content": "`Intl.DateTimeFormat`を使うことで、JavaScriptでタイムゾーン情報を付与して`new Date`を行うライブラリ",
+            "relatedLinks": [
+                {
+                    "title": "Add timezone data to Date",
+                    "url": "https://esdiscuss.org/topic/add-timezone-data-to-date#content-6"
+                }
+            ]
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "OptimalBits/redbird: A modern reverse proxy for node",
+            "url": "https://github.com/OptimalBits/redbird",
+            "tags": [
+                "node.js",
+                "proxy"
+            ],
+            "content": "HTTPSやHTTP/2に対応したNode.jsでのリバースプロキシライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "O'Reilly Japan - アイソモーフィックJavaScript",
+            "url": "https://www.oreilly.co.jp/books/9784873118079/",
+            "tags": [
+                "JavaScript",
+                "book",
+                "React",
+                "Angular"
+            ],
+            "content": "2017年7月4日発売\nIsomorphic JavaScriptについての書籍。\n実現する方法や各種フレームワークReact/Angular/Brisketを使った方法、ケーススタディなど",
+            "relatedLinks": []
+        }
+    ]
+}

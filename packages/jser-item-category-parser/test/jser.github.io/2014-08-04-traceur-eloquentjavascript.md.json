@@ -1,257 +1,272 @@
-[
-    {
-        "category": "Headline",
-        "title": "Announcing Scala.js 0.5.3",
-        "url": "http://www.scala-js.org/news/2014/07/30/announcing-scalajs-0.5.3/",
+{
+    "meta": {
+        "title": "2014-08-04のJS: traceur-compiler入門、Eloquent JavaScript第二版",
+        "category": "JSer",
+        "author": "azu",
+        "layout": "post",
         "tags": [
-            "JavaScript",
-            "scala",
-            "ReleaseNote"
+            "ES6",
+            "traceur",
+            "book",
+            "JSer.info"
         ],
-        "content": "Scala.js 0.5.3 リリース。\n\nパフォーマンスの改善",
-        "relatedLinks": []
+        "date": "2014-09-03T15:00:00.000Z"
     },
-    {
-        "category": "Headline",
-        "title": "V8 Memory Corruption and Stack Overflow (fixed in Node v0.8.28 and v0.10.30)",
-        "url": "http://blog.nodejs.org/2014/07/31/v8-memory-corruption-stack-overflow/",
-        "tags": [
-            "node.js",
-            "ReleaseNote",
-            "セキュリティ"
-        ],
-        "content": "Node 0.10.xと0.8.xのsecurity fix.",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Vue.js 0.10.6, and what&#x27;s next - vue.js",
-        "url": "http://vuejs.org/2014/07/29/vue-next/",
-        "tags": [
-            "JavaScript",
-            "ReleaseNote",
-            "library"
-        ],
-        "content": "Vue.js 0.10.6リリース。\n\nVue-nextについても書かれている。\n\nスクラッチで書きなおしている理由として、デザインの問題とコードの質の改善を上げてる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Brackets 0.42 Release (Themes!) – Brackets Blog",
-        "url": "http://blog.brackets.io/2014/08/01/brackets-0-42-release-themes/",
-        "tags": [
-            "JavaScript",
-            "IDE",
-            "ReleaseNote"
-        ],
-        "content": "Brackets 0.42リリース。\n\n言語切替とテーマのサポート",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "JavaScript and V8 TurboFan",
-        "url": "http://ariya.ofilabs.com/2014/08/javascript-and-v8-turbofan.html",
-        "tags": [
-            "JavaScript",
-            "V8"
-        ],
-        "content": "V8にlandedしたばかりの新しいOptimizing compilerであるTurboFanについての解説。\n\nCrankshaftの後任的なものでまだ開発が始まったばかり",
-        "relatedLinks": [
-            {
-                "title": "[",
-                "url": "https://groups.google.com/forum/#!msg/v8-dev/ab8V5Z58_70/5-05DvysCt8J"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "3 New JavaScript APIs You May Want to Follow",
-        "url": "http://www.sitepoint.com/3-new-javascript-apis-may-want-follow/",
-        "tags": [
-            "WebPlatformAPI",
-            "JavaScript"
-        ],
-        "content": "最近ドラフトがリリースされたWeb Alarms API, Presentation API, Standby APIについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Event listeners popup, @media sidebar, Cubic bezier editor + more – Firefox Developer Tools Episode 33 ✩ Mozilla Hacks – the Web developer blog",
-        "url": "https://hacks.mozilla.org/2014/07/event-listeners-popup-media-sidebar-cubic-bezier-editor-more-firefox-developer-tools-episode-33/",
-        "tags": [
-            "firefox",
-            "debug",
-            "tools"
-        ],
-        "content": "Firefox33に入る開発者ツールの機能紹介。\n\nDOMから関連するイベントリスナーの表示、media queryのルール表示、イージングエディタ、コマンドの追加、min.jsをデバッグの対象外にする機能等",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Using ECMAScript 6 today",
-        "url": "http://www.2ality.com/2014/08/es6-today.html",
-        "tags": [
-            "JavaScript",
-            "ECMAScript",
-            "Tools"
-        ],
-        "content": "今日から使えるES6について。\n\nES6の機能のハイライトやライブラリやツール、Traceur等のTranspilerについて。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "traceur-compiler 入門 - from scratch",
-        "url": "http://yosuke-furukawa.hatenablog.com/entry/2014/07/31/093041",
-        "tags": [
-            "ECMAScript",
-            "JavaScript",
-            "tools",
-            "google"
-        ],
-        "content": "traceur-compilerについての解説。\n\nES6のコードをES5で実行出来るように変換(要runtime)、対応してるES6の構文、ExperimentalなES7の機能、メリット・デメリット、類似ツールについて。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Atom Shell vs Node-Webkit - 牛角堂",
-        "url": "http://blog.iwege.com/posts/atom-shell-vs-node-webkit.html",
-        "tags": [
-            "atom",
-            "node-webkit"
-        ],
-        "content": "Atom Shellとnode-webkitの比較(中国語)\n\nentry-pointの違い、Chromiumアップデートの対応(ビルドシステム)、マルチコンテキスト、プロセス分離とコミュニケーション、パッケージ管理などについてよくまとまってる。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "EcmaScript 6 Template Strings | mozintern",
-        "url": "http://mozintern.wordpress.com/2014/07/31/ecmascript-6-template-strings-2/",
-        "tags": [
-            "firefox",
-            "JavaScript"
-        ],
-        "content": "Firefox34あたりで入るTemplate Stringsについて",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "AngularJS入門の巻",
-        "url": "http://www.slideshare.net/itokami1123/angularjs-34533999",
-        "tags": [
-            "AngularJS",
-            "スライド"
-        ],
-        "content": "AngularJSのデータバインディング、モジュール、スコープとデータの反映についてのスライド。",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "CSS Triggers...",
-        "url": "http://csstriggers.com/",
-        "tags": [
-            "CSS",
-            "検索",
-            "まとめ"
-        ],
-        "content": "CSSプロパティ別にreflowやrepaintの発生、Compositeが可能かどうかが一覧出来る。\n\nChrome DevToolsで調べた結果を元にしてる。",
-        "relatedLinks": [
-            {
-                "title": "Aerotwist - CSS Triggers",
-                "url": "http://aerotwist.com/blog/css-triggers/"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Opinionated AngularJS styleguide for teams",
-        "url": "http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/",
-        "tags": [
-            "AngularJS",
-            "JavaScript"
-        ],
-        "content": "AngularJSのコーディングスタイルガイド。",
-        "relatedLinks": [
-            {
-                "title": "AngularJS styleguide 日本語訳 - AngularJS Ninja",
-                "url": "http://angularjsninja.com/blog/2014/07/29/angularjs-styleguide-in-Japanese/"
-            }
-        ]
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Highlights from recent Chromium, Blink, Skia and v8 commits",
-        "url": "http://commits.peter.sh/",
-        "tags": [
-            "Chrome",
-            "blink",
-            "V8",
-            "git"
-        ],
-        "content": "Chromium,Blink,Skia,V8のコミットハイライトをまとめてるpeterさんのサイト。\n\nRSSも追加された",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "flerro/jop",
-        "url": "https://github.com/flerro/jop",
-        "tags": [
-            "JSON",
-            "console",
-            "Tools"
-        ],
-        "content": "Node.js製のJSONを扱うコマンドラインツール。\n\n整形表示、データのフィルタリング、カウント、グループング、変換等。jq的なツール",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "facebook/immutable-js",
-        "url": "https://github.com/facebook/immutable-js",
-        "tags": [
-            "JavaScript",
-            "関数型プログラミング",
-            "library"
-        ],
-        "content": "immutableなVector、Map、Set等を提供してくれるライブラリ。\n\nそれぞれ同名のオブジェクトと同じメソッドを提供してくれるのと、遅延シーケンスに対応してる。\n\nES6で書かれていて、変換したものを配布している。",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "DOM Event Delegation without jQuery | Matt Andrews",
-        "url": "https://mattandre.ws/2014/08/small-beautiful-dom-delegation/",
-        "tags": [
-            "DOM",
-            "JavaScript",
-            "library"
-        ],
-        "content": "依存がないシンプルなDOM delegateライブラリ。\n\nelementを取って、そこに対してイベントを設定出来る",
-        "relatedLinks": [
-            {
-                "title": "ftlabs/ftdomdelegate",
-                "url": "https://github.com/ftlabs/ftdomdelegate"
-            }
-        ]
-    },
-    {
-        "category": "Book",
-        "title": "Eloquent JavaScript",
-        "url": "http://eloquentjavascript.net/",
-        "tags": [
-            "JavaScript",
-            "book"
-        ],
-        "content": "Eloquent JavaScript第二版がリリースされた",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "Amazon: 入門Backbone.js (Programmer&#x27;s SELECTION): James Sugrue",
-        "url": "http://www.amazon.co.jp/dp/479813712X?tag=amazon0abac-22",
-        "tags": [
-            "backbone.js",
-            "翻訳",
-            "book"
-        ],
-        "content": "2014年8月29日発売\n\n<a href='http://www.apress.com/9781430263340'>http://www.apress.com/9781430263340</a> の翻訳本",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Announcing Scala.js 0.5.3",
+            "url": "http://www.scala-js.org/news/2014/07/30/announcing-scalajs-0.5.3/",
+            "tags": [
+                "JavaScript",
+                "scala",
+                "ReleaseNote"
+            ],
+            "content": "Scala.js 0.5.3 リリース。\n\nパフォーマンスの改善",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "V8 Memory Corruption and Stack Overflow (fixed in Node v0.8.28 and v0.10.30)",
+            "url": "http://blog.nodejs.org/2014/07/31/v8-memory-corruption-stack-overflow/",
+            "tags": [
+                "node.js",
+                "ReleaseNote",
+                "セキュリティ"
+            ],
+            "content": "Node 0.10.xと0.8.xのsecurity fix.",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Vue.js 0.10.6, and what&#x27;s next - vue.js",
+            "url": "http://vuejs.org/2014/07/29/vue-next/",
+            "tags": [
+                "JavaScript",
+                "ReleaseNote",
+                "library"
+            ],
+            "content": "Vue.js 0.10.6リリース。\n\nVue-nextについても書かれている。\n\nスクラッチで書きなおしている理由として、デザインの問題とコードの質の改善を上げてる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Brackets 0.42 Release (Themes!) – Brackets Blog",
+            "url": "http://blog.brackets.io/2014/08/01/brackets-0-42-release-themes/",
+            "tags": [
+                "JavaScript",
+                "IDE",
+                "ReleaseNote"
+            ],
+            "content": "Brackets 0.42リリース。\n\n言語切替とテーマのサポート",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "JavaScript and V8 TurboFan",
+            "url": "http://ariya.ofilabs.com/2014/08/javascript-and-v8-turbofan.html",
+            "tags": [
+                "JavaScript",
+                "V8"
+            ],
+            "content": "V8にlandedしたばかりの新しいOptimizing compilerであるTurboFanについての解説。\n\nCrankshaftの後任的なものでまだ開発が始まったばかり",
+            "relatedLinks": [
+                {
+                    "title": "[",
+                    "url": "https://groups.google.com/forum/#!msg/v8-dev/ab8V5Z58_70/5-05DvysCt8J"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "3 New JavaScript APIs You May Want to Follow",
+            "url": "http://www.sitepoint.com/3-new-javascript-apis-may-want-follow/",
+            "tags": [
+                "WebPlatformAPI",
+                "JavaScript"
+            ],
+            "content": "最近ドラフトがリリースされたWeb Alarms API, Presentation API, Standby APIについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Event listeners popup, @media sidebar, Cubic bezier editor + more – Firefox Developer Tools Episode 33 ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2014/07/event-listeners-popup-media-sidebar-cubic-bezier-editor-more-firefox-developer-tools-episode-33/",
+            "tags": [
+                "firefox",
+                "debug",
+                "tools"
+            ],
+            "content": "Firefox33に入る開発者ツールの機能紹介。\n\nDOMから関連するイベントリスナーの表示、media queryのルール表示、イージングエディタ、コマンドの追加、min.jsをデバッグの対象外にする機能等",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Using ECMAScript 6 today",
+            "url": "http://www.2ality.com/2014/08/es6-today.html",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools"
+            ],
+            "content": "今日から使えるES6について。\n\nES6の機能のハイライトやライブラリやツール、Traceur等のTranspilerについて。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "traceur-compiler 入門 - from scratch",
+            "url": "http://yosuke-furukawa.hatenablog.com/entry/2014/07/31/093041",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "tools",
+                "google"
+            ],
+            "content": "traceur-compilerについての解説。\n\nES6のコードをES5で実行出来るように変換(要runtime)、対応してるES6の構文、ExperimentalなES7の機能、メリット・デメリット、類似ツールについて。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Atom Shell vs Node-Webkit - 牛角堂",
+            "url": "http://blog.iwege.com/posts/atom-shell-vs-node-webkit.html",
+            "tags": [
+                "atom",
+                "node-webkit"
+            ],
+            "content": "Atom Shellとnode-webkitの比較(中国語)\n\nentry-pointの違い、Chromiumアップデートの対応(ビルドシステム)、マルチコンテキスト、プロセス分離とコミュニケーション、パッケージ管理などについてよくまとまってる。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "EcmaScript 6 Template Strings | mozintern",
+            "url": "http://mozintern.wordpress.com/2014/07/31/ecmascript-6-template-strings-2/",
+            "tags": [
+                "firefox",
+                "JavaScript"
+            ],
+            "content": "Firefox34あたりで入るTemplate Stringsについて",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "AngularJS入門の巻",
+            "url": "http://www.slideshare.net/itokami1123/angularjs-34533999",
+            "tags": [
+                "AngularJS",
+                "スライド"
+            ],
+            "content": "AngularJSのデータバインディング、モジュール、スコープとデータの反映についてのスライド。",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "CSS Triggers...",
+            "url": "http://csstriggers.com/",
+            "tags": [
+                "CSS",
+                "検索",
+                "まとめ"
+            ],
+            "content": "CSSプロパティ別にreflowやrepaintの発生、Compositeが可能かどうかが一覧出来る。\n\nChrome DevToolsで調べた結果を元にしてる。",
+            "relatedLinks": [
+                {
+                    "title": "Aerotwist - CSS Triggers",
+                    "url": "http://aerotwist.com/blog/css-triggers/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Opinionated AngularJS styleguide for teams",
+            "url": "http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/",
+            "tags": [
+                "AngularJS",
+                "JavaScript"
+            ],
+            "content": "AngularJSのコーディングスタイルガイド。",
+            "relatedLinks": [
+                {
+                    "title": "AngularJS styleguide 日本語訳 - AngularJS Ninja",
+                    "url": "http://angularjsninja.com/blog/2014/07/29/angularjs-styleguide-in-Japanese/"
+                }
+            ]
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Highlights from recent Chromium, Blink, Skia and v8 commits",
+            "url": "http://commits.peter.sh/",
+            "tags": [
+                "Chrome",
+                "blink",
+                "V8",
+                "git"
+            ],
+            "content": "Chromium,Blink,Skia,V8のコミットハイライトをまとめてるpeterさんのサイト。\n\nRSSも追加された",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "flerro/jop",
+            "url": "https://github.com/flerro/jop",
+            "tags": [
+                "JSON",
+                "console",
+                "Tools"
+            ],
+            "content": "Node.js製のJSONを扱うコマンドラインツール。\n\n整形表示、データのフィルタリング、カウント、グループング、変換等。jq的なツール",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "facebook/immutable-js",
+            "url": "https://github.com/facebook/immutable-js",
+            "tags": [
+                "JavaScript",
+                "関数型プログラミング",
+                "library"
+            ],
+            "content": "immutableなVector、Map、Set等を提供してくれるライブラリ。\n\nそれぞれ同名のオブジェクトと同じメソッドを提供してくれるのと、遅延シーケンスに対応してる。\n\nES6で書かれていて、変換したものを配布している。",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "DOM Event Delegation without jQuery | Matt Andrews",
+            "url": "https://mattandre.ws/2014/08/small-beautiful-dom-delegation/",
+            "tags": [
+                "DOM",
+                "JavaScript",
+                "library"
+            ],
+            "content": "依存がないシンプルなDOM delegateライブラリ。\n\nelementを取って、そこに対してイベントを設定出来る",
+            "relatedLinks": [
+                {
+                    "title": "ftlabs/ftdomdelegate",
+                    "url": "https://github.com/ftlabs/ftdomdelegate"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Eloquent JavaScript",
+            "url": "http://eloquentjavascript.net/",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "content": "Eloquent JavaScript第二版がリリースされた",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: 入門Backbone.js (Programmer&#x27;s SELECTION): James Sugrue",
+            "url": "http://www.amazon.co.jp/dp/479813712X?tag=amazon0abac-22",
+            "tags": [
+                "backbone.js",
+                "翻訳",
+                "book"
+            ],
+            "content": "2014年8月29日発売\n\n<a href='http://www.apress.com/9781430263340'>http://www.apress.com/9781430263340</a> の翻訳本",
+            "relatedLinks": []
+        }
+    ]
+}

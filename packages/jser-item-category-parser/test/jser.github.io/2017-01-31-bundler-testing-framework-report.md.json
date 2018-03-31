@@ -1,1 +1,17 @@
-[]
+{
+    "meta": {
+        "title": "JSerレポート #1 Bundlerの未来、テスティングフレームワークの現状",
+        "author": "azu",
+        "layout": "report",
+        "date": "2017-01-31T01:12:00.000Z",
+        "category": "report",
+        "tags": [
+            "webpack",
+            "bundler",
+            "testing",
+            "report"
+        ],
+        "toc": true
+    },
+    "items": []
+}

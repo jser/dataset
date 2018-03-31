@@ -1,246 +1,261 @@
-[
-    {
-        "category": "Headline",
-        "title": "Safari 10.1",
-        "url": "https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html",
+{
+    "meta": {
+        "title": "2017-01-30のJS: Safari 10.1 pre、Firefox51.0、徐々に型を付けてのリファクタリング",
+        "author": "azu",
+        "layout": "post",
+        "date": "2017-01-30T14:30:24.488Z",
+        "category": "JSer",
         "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "afari 10.1 プレリリース。\nFetch API、IndexedDB 2.0、Custom Elements、Pointer Lock/Gamepad API、ES2016,2017のサポートなど。\nまた`<a>`要素の`download`属性,\nCSS Gridなどのサポート\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "# Firefox — Notes (51.0) — Mozilla\n",
-        "url": "https://www.mozilla.org/en-US/firefox/51.0/releasenotes/",
-        "tags": [
-            "firefox",
-            "ReleaseNote"
-        ],
-        "content": "refox 51.0リリース。\nWebGL 2、IndexedDB 2、XHRの仕様追従、FLAC形式のサポート、` DOMImplementation.hasFeature()`は常に`true`を返すように、非標準なAPIを削除など\n\n",
-        "relatedLinks": [
-            {
-                "title": "Firefox 51 for developers - Mozilla | MDN",
-                "url": "https://developer.mozilla.org/en-US/Firefox/Releases/51"
-            },
-            {
-                "title": "Firefox 51 Site Compatibility | Firefox Site Compatibility",
-                "url": "https://www.fxsitecompat.com/en-CA/versions/51/"
-            }
+            "Firefox",
+            "Safari",
+            "TypeScript",
+            "Flow"
         ]
     },
-    {
-        "category": "Headline",
-        "title": " node-browserify/changelog.markdown at master · substack/node-browserify\n[",
-        "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown",
-        "tags": [
-            "browserify",
-            "ReleaseNote"
-        ],
-        "content": "wserify 14.0.0リリース。\nbufferのpolyfillがアップグレードされ、IE10以下のサポートが終了。\nbufferパッケージがTypedArrayを利用しているため。\n\n-",
-        "relatedLinks": [
-            {
-                "title": "Update ",
-                "url": "https://github.com/substack/node-browserify/pull/1678"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release Notes for Safari Technology Preview 22 | WebKit\n[w",
-        "url": "https://webkit.org/blog/7354/release-notes-for-safari-technology-preview-22/",
-        "tags": [
-            "safari",
-            "ReleaseNote"
-        ],
-        "content": "ri Technology Preview Release 22リリース。\n`scroll-snap-type:proximity`のサポート、`innerText`の仕様追従、`URLSearchParams`がiterableとなるなど\n\n--",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "ideo.js 6.0.0-RC.0: The first Release Candidate | Video.js Blog\n[bl",
-        "url": "http://blog.videojs.com/Video-js-6-0-0-RC-0-The-first-RC/",
-        "tags": [
-            "JavaScript",
-            "video",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": ".js v6.0 RCリリース。\nFlashをCoreから取り除き、Reactインスパイアなプラグインアーキテクチャの追加、accessiblityの改善など\n- [T",
-        "relatedLinks": [
-            {
-                "title": "The End of ",
-                "url": "http://blog.videojs.com/the-end-of-html-first/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "factoring 30000 lines of JS with types - Reaktor.com\n[www",
-        "url": "https://www.reaktor.com/blog/refactoring-30000-lines-js-types/",
-        "tags": [
-            "JavaScript",
-            "リファクタリング"
-        ],
-        "content": "vaScriptをリファクタリングしたアプローチについて。\n逐次的な型付のアプローチについて。\nFlowのweek modeとコメントでの型付けを使った方法と問題点。\nTypeScriptを使った名前空間オブジェクトへのアプローチとメリット/デメリット。\n最終的にTypeScriptを使ったがそのときに遭遇した問題について\n\n----",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ing touch scrolling fast by default  |  Web  |  Google Developers\n[deve",
-        "url": "https://developers.google.com/web/updates/2017/01/scrolling-intervention",
-        "tags": [
-            "Chrome",
-            "JavaScript",
-            "event"
-        ],
-        "content": "56からtouch eventをlistenすると\n`{passive: true}`がデフォルトとなる。\nデフォルトでは`touchstart`の中で`event.preventDefault()`を呼ぶと無視され警告がコンソールに表示される。\n- [Eve",
-        "relatedLinks": [
-            {
-                "title": "Event.defaultPrevented - Web APIs | MDN",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/API/Event/defaultPrevented"
-            },
-            {
-                "title": "Chrome Platform Status",
-                "url": "https://www.chromestatus.com/features/5093566007214080"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ing React Applications with Jest\n[auth0",
-        "url": "https://auth0.com/blog/testing-react-applications-with-jest/",
-        "tags": [
-            "React",
-            "testing",
-            "tutorial"
-        ],
-        "content": "Reactのテストについての解説。\nインストールからテストの書き方、モックなどについて書かれている。\n\n----\n\n",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "oposal: Shared memory and atomics\n[www.2a",
-        "url": "http://www.2ality.com/2017/01/shared-array-buffer.html",
-        "tags": [
-            "ECMAScript",
-            "proposal",
-            "spec"
-        ],
-        "content": "ことが決まったShared memory and atomicsについての解説。\nShared Array BuffersでWorker(agent)とデータを共有することができる。\n\n----\n\n#",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ent a JavaScript reactive programming library — part 1 – Medium\n[medium.",
-        "url": "https://medium.com/@bohou/implement-a-javascript-reactive-programming-library-part-1-f564ac6ad789",
-        "tags": [
-            "JavaScript",
-            "library"
-        ],
-        "content": "avaScriptライブラリを実装する連載記事。\n- [bhou/b",
-        "relatedLinks": [
-            {
-                "title": "bhou/bouton.js: A framework to build your asynchronous reactive library.",
-                "url": "https://github.com/bhou/bouton.js"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ut for Undefined State\n[davecedd",
-        "url": "https://daveceddia.com/watch-out-for-undefined-state/",
-        "tags": [
-            "React"
-        ],
-        "content": "トでコンポーネント内のstateに依存しているものを、propsへ移動するリファクタリングの例。\nコンポーネントのデフォルトstateはundefinedであるという話\n\n----\n\n## ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "ise of a Burger Party - Mariko Kosaka\n[kosamari.",
-        "url": "http://kosamari.com/notes/the-promise-of-a-burger-party",
-        "tags": [
-            "JavaScript",
-            "Promises",
-            "図"
-        ],
-        "content": "ショップを例にして解説している記事。\n図解をしながらPromiseのresolveとrejectの動きについて書かれている\n\n\n----\n\n## ",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": " text in an image on the web in real-time - Tales of a Developer Advocate by Paul Kinlan\n[paul.kinla",
-        "url": "https://paul.kinlan.me/detecting-text-in-an-image/",
-        "tags": [
-            "Chrome",
-            "WebPlatformAPI"
-        ],
-        "content": "ド認識、画像からテキスト認識するブラウザAPIについて\n- [Accelerat",
-        "relatedLinks": [
-            {
-                "title": "Accelerated Shape Detection in Images",
-                "url": "https://wicg.github.io/shape-detection-api/"
-            }
-        ]
-    },
-    {
-        "category": "Article",
-        "title": "ing the Critical Rendering Path\n[bitsofco.de",
-        "url": "https://bitsofco.de/understanding-the-critical-rendering-path/",
-        "tags": [
-            "browser",
-            "CSS",
-            "JavaScript"
-        ],
-        "content": "とは何かという解説。\nブラウザがどのようなフローでレンダリングまでを行うか。\nまた、開発者ツールを使ってレンダリングフローで起きているイベントを見ていく話。\n\n----\n\n## ECM",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "proposal updates @ 2017-01 | ECMAScript Daily\n[ecmascript-d",
-        "url": "https://ecmascript-daily.github.io/ecmascript/2017/01/30/ecmascript-proposals-status",
-        "tags": [
-            "ECMAScript",
-            "proposal"
-        ],
-        "content": "ScriptのProposalのStageまとめ。 2017年1月のミーティングで5つのProposalが追加され、Shared memory and atomicsはES2017に入った。\n\n---\n\n## Optim",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "he Performance of Your React Application\n[auth0.com/blo",
-        "url": "https://auth0.com/blog/optimizing-react/",
-        "tags": [
-            "React",
-            "performance"
-        ],
-        "content": "rf`を使いReactコンポーネントのパフォーマンス計測を行う話。\nまた`React.PureComponent`を使い`shouldComponentUpdate`の判定がきちんと行われるようにしてパフォーマンス改善するという話。\n\n----\n\n\n----\n<h",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": " Package chromedp is a faster, simpler way to drive browsers (Chrome, Edge, Safari, Android, etc) without external dependencies (ie, Selenium, PhantomJS, etc).\n[github.com/knq",
-        "url": "https://github.com/knq/chromedp",
-        "tags": [
-            "Chrome",
-            "debug",
-            "golang"
-        ],
-        "content": "rotocolを使ったブラウザ操作ツール\n\n----\n<h1 class=",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "orphic Development with JavaScript\n[www.manning.com",
-        "url": "https://www.manning.com/books/isomorphic-development-with-javascript",
-        "tags": [
-            "JavaScript",
-            "isomorphic",
-            "book"
-        ],
-        "content": "iptについての書籍。\nブラウザとNode.jsで共有しながら、ウェブアプリケーションを作る話。\nReact + Redux、Angular 2やEmberを題材にしている。\n\n----\n",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "Safari 10.1",
+            "url": "https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "afari 10.1 プレリリース。\nFetch API、IndexedDB 2.0、Custom Elements、Pointer Lock/Gamepad API、ES2016,2017のサポートなど。\nまた`<a>`要素の`download`属性,\nCSS Gridなどのサポート\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "# Firefox — Notes (51.0) — Mozilla\n",
+            "url": "https://www.mozilla.org/en-US/firefox/51.0/releasenotes/",
+            "tags": [
+                "firefox",
+                "ReleaseNote"
+            ],
+            "content": "refox 51.0リリース。\nWebGL 2、IndexedDB 2、XHRの仕様追従、FLAC形式のサポート、` DOMImplementation.hasFeature()`は常に`true`を返すように、非標準なAPIを削除など\n\n",
+            "relatedLinks": [
+                {
+                    "title": "Firefox 51 for developers - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/en-US/Firefox/Releases/51"
+                },
+                {
+                    "title": "Firefox 51 Site Compatibility | Firefox Site Compatibility",
+                    "url": "https://www.fxsitecompat.com/en-CA/versions/51/"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": " node-browserify/changelog.markdown at master · substack/node-browserify\n[",
+            "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown",
+            "tags": [
+                "browserify",
+                "ReleaseNote"
+            ],
+            "content": "wserify 14.0.0リリース。\nbufferのpolyfillがアップグレードされ、IE10以下のサポートが終了。\nbufferパッケージがTypedArrayを利用しているため。\n\n-",
+            "relatedLinks": [
+                {
+                    "title": "Update ",
+                    "url": "https://github.com/substack/node-browserify/pull/1678"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release Notes for Safari Technology Preview 22 | WebKit\n[w",
+            "url": "https://webkit.org/blog/7354/release-notes-for-safari-technology-preview-22/",
+            "tags": [
+                "safari",
+                "ReleaseNote"
+            ],
+            "content": "ri Technology Preview Release 22リリース。\n`scroll-snap-type:proximity`のサポート、`innerText`の仕様追従、`URLSearchParams`がiterableとなるなど\n\n--",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "ideo.js 6.0.0-RC.0: The first Release Candidate | Video.js Blog\n[bl",
+            "url": "http://blog.videojs.com/Video-js-6-0-0-RC-0-The-first-RC/",
+            "tags": [
+                "JavaScript",
+                "video",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": ".js v6.0 RCリリース。\nFlashをCoreから取り除き、Reactインスパイアなプラグインアーキテクチャの追加、accessiblityの改善など\n- [T",
+            "relatedLinks": [
+                {
+                    "title": "The End of ",
+                    "url": "http://blog.videojs.com/the-end-of-html-first/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "factoring 30000 lines of JS with types - Reaktor.com\n[www",
+            "url": "https://www.reaktor.com/blog/refactoring-30000-lines-js-types/",
+            "tags": [
+                "JavaScript",
+                "リファクタリング"
+            ],
+            "content": "vaScriptをリファクタリングしたアプローチについて。\n逐次的な型付のアプローチについて。\nFlowのweek modeとコメントでの型付けを使った方法と問題点。\nTypeScriptを使った名前空間オブジェクトへのアプローチとメリット/デメリット。\n最終的にTypeScriptを使ったがそのときに遭遇した問題について\n\n----",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ing touch scrolling fast by default  |  Web  |  Google Developers\n[deve",
+            "url": "https://developers.google.com/web/updates/2017/01/scrolling-intervention",
+            "tags": [
+                "Chrome",
+                "JavaScript",
+                "event"
+            ],
+            "content": "56からtouch eventをlistenすると\n`{passive: true}`がデフォルトとなる。\nデフォルトでは`touchstart`の中で`event.preventDefault()`を呼ぶと無視され警告がコンソールに表示される。\n- [Eve",
+            "relatedLinks": [
+                {
+                    "title": "Event.defaultPrevented - Web APIs | MDN",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Event/defaultPrevented"
+                },
+                {
+                    "title": "Chrome Platform Status",
+                    "url": "https://www.chromestatus.com/features/5093566007214080"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ing React Applications with Jest\n[auth0",
+            "url": "https://auth0.com/blog/testing-react-applications-with-jest/",
+            "tags": [
+                "React",
+                "testing",
+                "tutorial"
+            ],
+            "content": "Reactのテストについての解説。\nインストールからテストの書き方、モックなどについて書かれている。\n\n----\n\n",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "oposal: Shared memory and atomics\n[www.2a",
+            "url": "http://www.2ality.com/2017/01/shared-array-buffer.html",
+            "tags": [
+                "ECMAScript",
+                "proposal",
+                "spec"
+            ],
+            "content": "ことが決まったShared memory and atomicsについての解説。\nShared Array BuffersでWorker(agent)とデータを共有することができる。\n\n----\n\n#",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ent a JavaScript reactive programming library — part 1 – Medium\n[medium.",
+            "url": "https://medium.com/@bohou/implement-a-javascript-reactive-programming-library-part-1-f564ac6ad789",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "content": "avaScriptライブラリを実装する連載記事。\n- [bhou/b",
+            "relatedLinks": [
+                {
+                    "title": "bhou/bouton.js: A framework to build your asynchronous reactive library.",
+                    "url": "https://github.com/bhou/bouton.js"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ut for Undefined State\n[davecedd",
+            "url": "https://daveceddia.com/watch-out-for-undefined-state/",
+            "tags": [
+                "React"
+            ],
+            "content": "トでコンポーネント内のstateに依存しているものを、propsへ移動するリファクタリングの例。\nコンポーネントのデフォルトstateはundefinedであるという話\n\n----\n\n## ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "ise of a Burger Party - Mariko Kosaka\n[kosamari.",
+            "url": "http://kosamari.com/notes/the-promise-of-a-burger-party",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "図"
+            ],
+            "content": "ショップを例にして解説している記事。\n図解をしながらPromiseのresolveとrejectの動きについて書かれている\n\n\n----\n\n## ",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": " text in an image on the web in real-time - Tales of a Developer Advocate by Paul Kinlan\n[paul.kinla",
+            "url": "https://paul.kinlan.me/detecting-text-in-an-image/",
+            "tags": [
+                "Chrome",
+                "WebPlatformAPI"
+            ],
+            "content": "ド認識、画像からテキスト認識するブラウザAPIについて\n- [Accelerat",
+            "relatedLinks": [
+                {
+                    "title": "Accelerated Shape Detection in Images",
+                    "url": "https://wicg.github.io/shape-detection-api/"
+                }
+            ]
+        },
+        {
+            "category": "Article",
+            "title": "ing the Critical Rendering Path\n[bitsofco.de",
+            "url": "https://bitsofco.de/understanding-the-critical-rendering-path/",
+            "tags": [
+                "browser",
+                "CSS",
+                "JavaScript"
+            ],
+            "content": "とは何かという解説。\nブラウザがどのようなフローでレンダリングまでを行うか。\nまた、開発者ツールを使ってレンダリングフローで起きているイベントを見ていく話。\n\n----\n\n## ECM",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "proposal updates @ 2017-01 | ECMAScript Daily\n[ecmascript-d",
+            "url": "https://ecmascript-daily.github.io/ecmascript/2017/01/30/ecmascript-proposals-status",
+            "tags": [
+                "ECMAScript",
+                "proposal"
+            ],
+            "content": "ScriptのProposalのStageまとめ。 2017年1月のミーティングで5つのProposalが追加され、Shared memory and atomicsはES2017に入った。\n\n---\n\n## Optim",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "he Performance of Your React Application\n[auth0.com/blo",
+            "url": "https://auth0.com/blog/optimizing-react/",
+            "tags": [
+                "React",
+                "performance"
+            ],
+            "content": "rf`を使いReactコンポーネントのパフォーマンス計測を行う話。\nまた`React.PureComponent`を使い`shouldComponentUpdate`の判定がきちんと行われるようにしてパフォーマンス改善するという話。\n\n----\n\n\n----\n<h",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": " Package chromedp is a faster, simpler way to drive browsers (Chrome, Edge, Safari, Android, etc) without external dependencies (ie, Selenium, PhantomJS, etc).\n[github.com/knq",
+            "url": "https://github.com/knq/chromedp",
+            "tags": [
+                "Chrome",
+                "debug",
+                "golang"
+            ],
+            "content": "rotocolを使ったブラウザ操作ツール\n\n----\n<h1 class=",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "orphic Development with JavaScript\n[www.manning.com",
+            "url": "https://www.manning.com/books/isomorphic-development-with-javascript",
+            "tags": [
+                "JavaScript",
+                "isomorphic",
+                "book"
+            ],
+            "content": "iptについての書籍。\nブラウザとNode.jsで共有しながら、ウェブアプリケーションを作る話。\nReact + Redux、Angular 2やEmberを題材にしている。\n\n----\n",
+            "relatedLinks": []
+        }
+    ]
+}

@@ -1,237 +1,253 @@
-[
-    {
-        "category": "Headline",
-        "title": "ESLint v1.3.0 released - ESLint - Pluggable JavaScript linter",
-        "url": "http://eslint.org/blog/2015/08/eslint-v1.3.0-released",
+{
+    "meta": {
+        "title": "2015-09-02のJS: MSEdgeとasm.js、単方向データフローのアーキテクチャ、CSS仕様書の読み方",
+        "author": "azu",
+        "layout": "post",
+        "date": "2015-09-02T12:38:00.000Z",
+        "category": "JSer",
         "tags": [
-            "JavaScript",
-            "Tools",
-            "ReleaseNote"
-        ],
-        "content": "ESLint v1.3.0リリース。\n`SourceCode`オブジェクトのAPIを追加、HTMLフォーマッターを追加、ルールの修正など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "V8 JavaScript Engine: V8 Release 4.6",
-        "url": "http://v8project.blogspot.com/2015/08/v8-release-46.html",
-        "tags": [
-            "V8",
-            "ReleaseNote"
-        ],
-        "content": "V8 4.6リリース。\nES6のSpread operator、`new.target`の対応、TypedArrayの改善など",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v2.0.0 · rackt/redux",
-        "url": "https://github.com/rackt/redux/releases/tag/v2.0.0",
-        "tags": [
-            "JavaScript",
             "Flux",
-            "library"
-        ],
-        "content": "Redux 2.0.0リリース。\nHot Reloadingのためだけにあった`getReducer()`を削除、`compose()`の動作を修正するなど",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "mocha/HISTORY.md at master · mochajs/mocha",
-        "url": "https://github.com/mochajs/mocha/blob/master/HISTORY.md#230--2015-08-30",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "Mocha 2.3.0リリース。\nテストのエラーが起きた時に自動的にキャッチしないでスルーできる`--allowUncaught`の追加、非同期のテストのみ許可する`--async-only`でのPromiseの動作を修正",
-        "relatedLinks": [
-            {
-                "title": "Added option to allow unhandled exceptions to propagate in the browser by amsul · Pull Request #1659 · mochajs/mocha",
-                "url": "https://github.com/mochajs/mocha/pull/1659"
-            }
-        ]
-    },
-    {
-        "category": "Headline",
-        "title": "Release version 10532 [PC] : Microsoft Edge Dev",
-        "url": "http://dev.modern.ie/platform/changelog/10532-pc/",
-        "tags": [
+            "MVC",
             "MSEdge",
-            "ReleaseNote"
-        ],
-        "content": "Microsoft Edge 10532リリース。\nPointer Lock、Canvas blending modesのサポート、asm.jsとES6 Classesがデフォルトで有効に。\nまたAsync Functions、Destructuringがフラグ付きで導入された",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "jsdom/Changelog.md at 6.2.0 · tmpvar/jsdom",
-        "url": "https://github.com/tmpvar/jsdom/blob/6.2.0/Changelog.md",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "library",
-            "ReleaseNote"
-        ],
-        "content": "jsdom 6.2.0リリース。\n`Element.prototype.classList`のサポートやバグ修正",
-        "relatedLinks": []
-    },
-    {
-        "category": "Headline",
-        "title": "Release v1.0.0: The first stable release (2015-08-26) · power-assert-js/power-assert",
-        "url": "https://github.com/power-assert-js/power-assert/releases/tag/v1.0.0",
-        "tags": [
-            "JavaScript",
-            "testing",
-            "ReleaseNote"
-        ],
-        "content": "assertが失敗した時に表示する情報量を増やすpower-assert 1.0.0リリース。",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "André Staltz - Unidirectional User Interface Architectures",
-        "url": "http://staltz.com/unidirectional-user-interface-architectures.html",
-        "tags": [
-            "Flux",
-            "JavaScript",
-            "設計"
-        ],
-        "content": "Flux、Redux、Famous、Elm、Cycle.jsそれぞれのアーキテクチャについてまとめた記事。\n構成要素、データーフロー、特徴について簡潔にまとめられている",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "Using requestIdleCallback — Google Web Updates",
-        "url": "https://developers.google.com/web/updates/2015/08/27/using-requestidlecallback",
-        "tags": [
-            "WebPlatformAPI",
-            "JavaScript",
-            "Chrome"
-        ],
-        "content": "requestIdleCallbackについての解説。\nIdleな期間に非同期でコールバックを呼び出す事ができ、第二引数で一定時間内には必ず呼び出す`timeout`を指定できる",
-        "relatedLinks": []
-    },
-    {
-        "category": "Article",
-        "title": "fizzbuzz",
-        "url": "http://ditam.github.io/posts/fizzbuzz.html",
-        "tags": [
-            "JavaScript",
-            "アルゴリズム"
-        ],
-        "content": "JavaScriptで20種類のFizzBuzzの実装",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "基本の前の基礎知識 - Back to Basics CSS 2015-08-30",
-        "url": "http://unformedbuilding.com/slide/back-to-basics-2015-08-30/#/",
-        "tags": [
             "CSS",
-            "spec",
-            "スライド"
-        ],
-        "content": "CSSの仕様の読み方についてのスライド。\n仕様に出てくる構文の読み方や単位についてまとめられている",
-        "relatedLinks": []
-    },
-    {
-        "category": "SlideVideo",
-        "title": "npm3 ❓ // Speaker Deck",
-        "url": "https://speakerdeck.com/watilde/npm3",
-        "tags": [
-            "npm",
-            "スライド"
-        ],
-        "content": "npm3で追加された機能や変更点などについてのスライド",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "Thimble by Mozilla - An online code editor for learners &amp; educators.",
-        "url": "https://thimble.mozilla.org/",
-        "tags": [
-            "Mozilla",
-            "webservice",
-            "editor"
-        ],
-        "content": "オンラインでウェブサイトを作れるサービス。\nJSFiddle的なエディタ&プレビューとファイルツリー。\nまた、任意のファイルをアップロードできるのでHTMLで公開するのに便利そう",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "mattdesl/promise-cookbook",
-        "url": "https://github.com/mattdesl/promise-cookbook",
-        "tags": [
-            "JavaScript",
-            "Promises",
-            "book"
-        ],
-        "content": "Promiseの基本的な使い方、メソッドについて解説したCookbook",
-        "relatedLinks": []
-    },
-    {
-        "category": "WebsiteDocument",
-        "title": "JS.ORG | NEWS",
-        "url": "http://news.js.org/",
-        "tags": [
-            "JavaScript",
-            "news"
-        ],
-        "content": "ユーザー投稿のJavaScriptニュースを扱うサイト",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "Izzimach/react-pixi",
-        "url": "https://github.com/Izzimach/react-pixi",
-        "tags": [
-            "React",
-            "canvas",
-            "library"
-        ],
-        "content": "Reactを使ってPixi.jsのCanvasを操作するライブラリ",
-        "relatedLinks": []
-    },
-    {
-        "category": "SoftwareLibrary",
-        "title": "mysticatea/npm-run-all",
-        "url": "https://github.com/mysticatea/npm-run-all",
-        "tags": [
-            "npm",
-            "console",
-            "Tools"
-        ],
-        "content": "npm run-scriptで定義したものの並列実行や逐次実行等の補助を行うコマンドラインツール。\nNodeモジュールとしても利用できる",
-        "relatedLinks": [
-            {
-                "title": "npm-run-all と concurrently を試す | アカベコマイリ",
-                "url": "http://akabeko.me/blog/2015/08/npm-run-all-and-concurrently/"
-            }
+            "Spec"
         ]
     },
-    {
-        "category": "Book",
-        "title": "Amazon: Reactive Programming with Rxjs: Untangle Your Asynchronous JavaScript Code: Sergi Mansilla",
-        "url": "http://www.amazon.com/dp/1680501291?tag=amazon0abac-22",
-        "tags": [
-            "JavaScript",
-            "Rx",
-            "library",
-            "book"
-        ],
-        "content": "2016年3月25日発売\nRxJSでのリアクティブプログラミングについての書籍",
-        "relatedLinks": []
-    },
-    {
-        "category": "Book",
-        "title": "SurviveJS - Webpack and React",
-        "url": "http://survivejs.com/",
-        "tags": [
-            "webpack",
-            "React",
-            "book"
-        ],
-        "content": "WebpackとReactについての書籍",
-        "relatedLinks": []
-    }
-]
+    "items": [
+        {
+            "category": "Headline",
+            "title": "ESLint v1.3.0 released - ESLint - Pluggable JavaScript linter",
+            "url": "http://eslint.org/blog/2015/08/eslint-v1.3.0-released",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "content": "ESLint v1.3.0リリース。\n`SourceCode`オブジェクトのAPIを追加、HTMLフォーマッターを追加、ルールの修正など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "V8 JavaScript Engine: V8 Release 4.6",
+            "url": "http://v8project.blogspot.com/2015/08/v8-release-46.html",
+            "tags": [
+                "V8",
+                "ReleaseNote"
+            ],
+            "content": "V8 4.6リリース。\nES6のSpread operator、`new.target`の対応、TypedArrayの改善など",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v2.0.0 · rackt/redux",
+            "url": "https://github.com/rackt/redux/releases/tag/v2.0.0",
+            "tags": [
+                "JavaScript",
+                "Flux",
+                "library"
+            ],
+            "content": "Redux 2.0.0リリース。\nHot Reloadingのためだけにあった`getReducer()`を削除、`compose()`の動作を修正するなど",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "mocha/HISTORY.md at master · mochajs/mocha",
+            "url": "https://github.com/mochajs/mocha/blob/master/HISTORY.md#230--2015-08-30",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "Mocha 2.3.0リリース。\nテストのエラーが起きた時に自動的にキャッチしないでスルーできる`--allowUncaught`の追加、非同期のテストのみ許可する`--async-only`でのPromiseの動作を修正",
+            "relatedLinks": [
+                {
+                    "title": "Added option to allow unhandled exceptions to propagate in the browser by amsul · Pull Request #1659 · mochajs/mocha",
+                    "url": "https://github.com/mochajs/mocha/pull/1659"
+                }
+            ]
+        },
+        {
+            "category": "Headline",
+            "title": "Release version 10532 [PC] : Microsoft Edge Dev",
+            "url": "http://dev.modern.ie/platform/changelog/10532-pc/",
+            "tags": [
+                "MSEdge",
+                "ReleaseNote"
+            ],
+            "content": "Microsoft Edge 10532リリース。\nPointer Lock、Canvas blending modesのサポート、asm.jsとES6 Classesがデフォルトで有効に。\nまたAsync Functions、Destructuringがフラグ付きで導入された",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "jsdom/Changelog.md at 6.2.0 · tmpvar/jsdom",
+            "url": "https://github.com/tmpvar/jsdom/blob/6.2.0/Changelog.md",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library",
+                "ReleaseNote"
+            ],
+            "content": "jsdom 6.2.0リリース。\n`Element.prototype.classList`のサポートやバグ修正",
+            "relatedLinks": []
+        },
+        {
+            "category": "Headline",
+            "title": "Release v1.0.0: The first stable release (2015-08-26) · power-assert-js/power-assert",
+            "url": "https://github.com/power-assert-js/power-assert/releases/tag/v1.0.0",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "ReleaseNote"
+            ],
+            "content": "assertが失敗した時に表示する情報量を増やすpower-assert 1.0.0リリース。",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "André Staltz - Unidirectional User Interface Architectures",
+            "url": "http://staltz.com/unidirectional-user-interface-architectures.html",
+            "tags": [
+                "Flux",
+                "JavaScript",
+                "設計"
+            ],
+            "content": "Flux、Redux、Famous、Elm、Cycle.jsそれぞれのアーキテクチャについてまとめた記事。\n構成要素、データーフロー、特徴について簡潔にまとめられている",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "Using requestIdleCallback — Google Web Updates",
+            "url": "https://developers.google.com/web/updates/2015/08/27/using-requestidlecallback",
+            "tags": [
+                "WebPlatformAPI",
+                "JavaScript",
+                "Chrome"
+            ],
+            "content": "requestIdleCallbackについての解説。\nIdleな期間に非同期でコールバックを呼び出す事ができ、第二引数で一定時間内には必ず呼び出す`timeout`を指定できる",
+            "relatedLinks": []
+        },
+        {
+            "category": "Article",
+            "title": "fizzbuzz",
+            "url": "http://ditam.github.io/posts/fizzbuzz.html",
+            "tags": [
+                "JavaScript",
+                "アルゴリズム"
+            ],
+            "content": "JavaScriptで20種類のFizzBuzzの実装",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "基本の前の基礎知識 - Back to Basics CSS 2015-08-30",
+            "url": "http://unformedbuilding.com/slide/back-to-basics-2015-08-30/#/",
+            "tags": [
+                "CSS",
+                "spec",
+                "スライド"
+            ],
+            "content": "CSSの仕様の読み方についてのスライド。\n仕様に出てくる構文の読み方や単位についてまとめられている",
+            "relatedLinks": []
+        },
+        {
+            "category": "SlideVideo",
+            "title": "npm3 ❓ // Speaker Deck",
+            "url": "https://speakerdeck.com/watilde/npm3",
+            "tags": [
+                "npm",
+                "スライド"
+            ],
+            "content": "npm3で追加された機能や変更点などについてのスライド",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "Thimble by Mozilla - An online code editor for learners &amp; educators.",
+            "url": "https://thimble.mozilla.org/",
+            "tags": [
+                "Mozilla",
+                "webservice",
+                "editor"
+            ],
+            "content": "オンラインでウェブサイトを作れるサービス。\nJSFiddle的なエディタ&プレビューとファイルツリー。\nまた、任意のファイルをアップロードできるのでHTMLで公開するのに便利そう",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "mattdesl/promise-cookbook",
+            "url": "https://github.com/mattdesl/promise-cookbook",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "book"
+            ],
+            "content": "Promiseの基本的な使い方、メソッドについて解説したCookbook",
+            "relatedLinks": []
+        },
+        {
+            "category": "WebsiteDocument",
+            "title": "JS.ORG | NEWS",
+            "url": "http://news.js.org/",
+            "tags": [
+                "JavaScript",
+                "news"
+            ],
+            "content": "ユーザー投稿のJavaScriptニュースを扱うサイト",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "Izzimach/react-pixi",
+            "url": "https://github.com/Izzimach/react-pixi",
+            "tags": [
+                "React",
+                "canvas",
+                "library"
+            ],
+            "content": "Reactを使ってPixi.jsのCanvasを操作するライブラリ",
+            "relatedLinks": []
+        },
+        {
+            "category": "SoftwareLibrary",
+            "title": "mysticatea/npm-run-all",
+            "url": "https://github.com/mysticatea/npm-run-all",
+            "tags": [
+                "npm",
+                "console",
+                "Tools"
+            ],
+            "content": "npm run-scriptで定義したものの並列実行や逐次実行等の補助を行うコマンドラインツール。\nNodeモジュールとしても利用できる",
+            "relatedLinks": [
+                {
+                    "title": "npm-run-all と concurrently を試す | アカベコマイリ",
+                    "url": "http://akabeko.me/blog/2015/08/npm-run-all-and-concurrently/"
+                }
+            ]
+        },
+        {
+            "category": "Book",
+            "title": "Amazon: Reactive Programming with Rxjs: Untangle Your Asynchronous JavaScript Code: Sergi Mansilla",
+            "url": "http://www.amazon.com/dp/1680501291?tag=amazon0abac-22",
+            "tags": [
+                "JavaScript",
+                "Rx",
+                "library",
+                "book"
+            ],
+            "content": "2016年3月25日発売\nRxJSでのリアクティブプログラミングについての書籍",
+            "relatedLinks": []
+        },
+        {
+            "category": "Book",
+            "title": "SurviveJS - Webpack and React",
+            "url": "http://survivejs.com/",
+            "tags": [
+                "webpack",
+                "React",
+                "book"
+            ],
+            "content": "WebpackとReactについての書籍",
+            "relatedLinks": []
+        }
+    ]
+}
