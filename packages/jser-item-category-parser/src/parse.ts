@@ -3,6 +3,7 @@
 import { ContentParser } from "./content-parser";
 import { addLineBreakAfterHTML } from "./patch/add-line-break-after-html";
 import * as path from "path";
+import moment = require("moment");
 
 const unified = require("unified");
 const markdown = require("remark-parse");
@@ -57,8 +58,8 @@ export interface ParseMetaResult {
     author: string;
     layout: string;
     category: string;
-    // unix time
-    date?: number;
+    // iso string
+    date?: string;
     tag: string[];
 }
 
@@ -93,7 +94,7 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
     const frontMatter = select.one(AST, "yaml");
     const meta = jsYaml.safeLoad(frontMatter.value, "utf8");
     if (meta.date) {
-        meta.date = new Date(meta.date).getTime();
+        meta.date = moment.utc(meta.date).toISOString();
     } else if (options && options.filePath) {
         const fileName = path.basename(options.filePath);
         const result = fileName.match(/(\d{4})-(\d{2})-(\d{2})/);
@@ -103,7 +104,7 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
         const year = Number(result[1]);
         const month = Number(result[2]);
         const day = Number(result[3]);
-        meta.date = new Date(Date.UTC(year, month, day)).getTime();
+        meta.date = moment(`${year}-${month}-${day}`, "YYYY-MM-DD").toISOString();
     }
     const allCategory = select(AST, "html[value*=<h1]");
     const results: ParseItemResult[] = [];
