@@ -57,7 +57,8 @@ export interface ParseMetaResult {
     author: string;
     layout: string;
     category: string;
-    date?: string;
+    // unix time
+    date?: number;
     tag: string[];
 }
 
@@ -92,7 +93,7 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
     const frontMatter = select.one(AST, "yaml");
     const meta = jsYaml.safeLoad(frontMatter.value, "utf8");
     if (meta.date) {
-        meta.date = new Date(meta.date).toUTCString();
+        meta.date = new Date(meta.date).getTime();
     } else if (options && options.filePath) {
         const fileName = path.basename(options.filePath);
         const result = fileName.match(/(\d{4})-(\d{2})-(\d{2})/);
@@ -102,7 +103,7 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
         const year = Number(result[1]);
         const month = Number(result[2]);
         const day = Number(result[3]);
-        meta.date = new Date(Date.UTC(year, month, day)).toUTCString();
+        meta.date = new Date(Date.UTC(year, month, day)).getTime();
     }
     const allCategory = select(AST, "html[value*=<h1]");
     const results: ParseItemResult[] = [];
