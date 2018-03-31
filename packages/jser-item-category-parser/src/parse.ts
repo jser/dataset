@@ -102,7 +102,7 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
         const year = Number(result[1]);
         const month = Number(result[2]);
         const day = Number(result[3]);
-        meta.date = new Date(year, month, day).toISOString();
+        meta.date = new Date(Date.UTC(year, month, day)).toISOString();
     }
     const allCategory = select(AST, "html[value*=<h1]");
     const results: ParseItemResult[] = [];
