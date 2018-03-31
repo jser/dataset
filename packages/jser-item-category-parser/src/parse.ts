@@ -104,7 +104,7 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
         const year = Number(result[1]);
         const month = Number(result[2]);
         const day = Number(result[3]);
-        meta.date = moment(`${year}-${month}-${day}`, "YYYY-MM-DD").toISOString();
+        meta.date = moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").toISOString();
     }
     const allCategory = select(AST, "html[value*=<h1]");
     const results: ParseItemResult[] = [];
