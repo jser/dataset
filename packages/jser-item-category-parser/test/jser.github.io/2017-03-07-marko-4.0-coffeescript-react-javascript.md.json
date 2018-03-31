@@ -1,0 +1,290 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release v3.5.0 · petkaantonov/bluebird",
+        "url": "https://github.com/petkaantonov/bluebird/releases/tag/v3.5.0",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "luebird v3.5.0リリース。\ncatch時に処理を行いエラー自体はそのまま次のcatchへ渡す`.tapCatch`の追加など\n",
+        "relatedLinks": [
+            {
+                "title": "add tapError by benjamingr · Pull Request #1220 · petkaantonov/bluebird",
+                "url": "https://github.com/petkaantonov/bluebird/pull/1220"
+            },
+            {
+                "title": ".tapCatch | bluebird",
+                "url": "http://bluebirdjs.com/docs/api/tapcatch.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "# Marko 4.0 is here 🚀 🎉 – Medium\n",
+        "url": "https://medium.com/@mlrawlings/marko-4-0-is-here-837884c5f60d",
+        "tags": [
+            "JavaScript",
+            "template",
+            "library",
+            "ReleaseNote",
+            "VirtualDOM"
+        ],
+        "content": "rko 4.0リリース。\nコンポーネントベースのUIライブラリ(テンプレート)で、クライアントとサーバのそれぞれのモードを持っているため、サーバサイドレンダリングが高速。\n\n",
+        "relatedLinks": [
+            {
+                "title": "Server-side Rendering Shootout with Marko, Preact, Rax, React and Vue",
+                "url": "https://hackernoon.com/server-side-rendering-shootout-with-marko-preact-rax-react-and-vue-25e1ae17800f#.6r2g5rwgk"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": " Node.js - Quality with Speed | Node.js\n[",
+        "url": "https://nodejs.org/en/blog/community/quality-with-speed/",
+        "tags": [
+            "node.js",
+            "opinion"
+        ],
+        "content": "e.jsの開発プロセスやリリースサイクル、またそれらを支えるテスト基盤について。\n\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint v3.17.0 released - ESLint - Pluggable JavaScript linter\n[e",
+        "url": "http://eslint.org/blog/2017/03/eslint-v3.17.0-released",
+        "tags": [
+            "ESLint",
+            "ReleaseNote"
+        ],
+        "content": "nt 3.17.0リリース。\nルール開発者向けの機能追加、`no-compare-neg-zero`と`nonblock-statement-body-position`のルールを追加など\n\n- ",
+        "relatedLinks": [
+            {
+                "title": "ESLint v3.17.0 - Qiita",
+                "url": "http://qiita.com/mysticatea/items/a2d72c76671c2197c712"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "elease v0.22.0 · yarnpkg/yarn\n[gi",
+        "url": "https://github.com/yarnpkg/yarn/releases/tag/v0.22.0",
+        "tags": [
+            "npm",
+            "node.js",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "0.22.0 プレリリース。\n`--non-interactive`のオプションを追加、`v8-compile-cache`を利用し起動速度を改善、Docker image(`yarnpkg/node-yarn`)の追加など\n\n- [",
+        "relatedLinks": [
+            {
+                "title": "zertosh/v8-compile-cache: Require hook for automatic V8 compile cache persistence",
+                "url": "https://github.com/zertosh/v8-compile-cache"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "rtosh/v8-compile-cache: Require hook for automatic V8 compile cache persistence\n[git",
+        "url": "https://github.com/zertosh/v8-compile-cache",
+        "tags": [
+            "V8",
+            "node.js",
+            "library"
+        ],
+        "content": "5.7.0から導入されたV8のcode cacheを保持するrequire hookを提供するライブラリ。\nyarnやnuclideなどの起動速度改善に使われてる\n\n\n---",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ら始めるJavaScript入門 ： DESIGNMAP\n[desi",
+        "url": "http://designmap.info/category/lecture/javascript-introduction/",
+        "tags": [
+            "ECMAScript",
+            "tutorial",
+            "JavaScript"
+        ],
+        "content": "ースにしたJavaScript入門チュートリアル\n\n\n----",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ep-By-Step Guide for Building Master-Detail User Interfaces with AngularTelerik Developer Network\n[devel",
+        "url": "http://developer.telerik.com/content-types/tutorials/step-step-guide-building-master-detail-user-interfaces-angular/",
+        "tags": [
+            "AngularJS",
+            "JavaScript",
+            "tutorial"
+        ],
+        "content": "よくあるリストビューと詳細ビューからなるアプリを作るチュートリアル\n\n\n----\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "rogressive Web Apps）の現状とその開発方法 | フロントエンドBlog | ミツエーリンクス\n[www.mi",
+        "url": "https://www.mitsue.co.jp/knowledge/blog/frontend/201702/23_2217.html",
+        "tags": [
+            "ProgressiveWebApp",
+            "article"
+        ],
+        "content": "てまとめられた記事。\nGoogleによるケーススタディや開発方法について\n\n\n----\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ript void Keyword\n[cmichel",
+        "url": "http://cmichel.io/javascript-void-keyword/",
+        "tags": [
+            "JavaScript",
+            "article"
+        ],
+        "content": "の`void`キーワードについて。\n`if(condition) { return void console.log(\"\"); }`のようなケースで利用できるという話。\n\n\n----\n\n#",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": " Blog - Converting a large React Codebase from Coffeescript to ES6\n[blog.bug",
+        "url": "http://blog.bugsnag.com/converting-a-large-react-codebase-from-coffeescript-to-es6/",
+        "tags": [
+            "CoffeeScript",
+            "JavaScript",
+            "React",
+            "article"
+        ],
+        "content": "t(cjsx)からJavaScriptへのマイグレーションについての記事。\ndecaffeinateはcjsxをサポートしていないため、`React.createElement`ベースのJSに変換し、react codemod toolでJSXに再変換する。\n変換したコードベースを`prettier`で整形し、`eslint`で細かいところを直す。\nそれらをまとめた`Depercolator`というツールを作った話\n\n- [jsdf/c",
+        "relatedLinks": [
+            {
+                "title": "jsdf/coffee-react-transform: DEPRECATED – Provides React JSX support for Coffeescript",
+                "url": "https://github.com/jsdf/coffee-react-transform"
+            },
+            {
+                "title": "reactjs/react-codemod: React codemod scripts",
+                "url": "https://github.com/reactjs/react-codemod#create-element-to-jsx"
+            },
+            {
+                "title": "bugsnag/depercolator: Tool for converting coffeescript to idiomatic javascript and JSX",
+                "url": "https://github.com/bugsnag/depercolator"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "nd the Scenes (February Edition feat. A tale of TurboFan) | Benedikt Meurer\n[benediktm",
+        "url": "http://benediktmeurer.de/2017/03/01/v8-behind-the-scenes-february-edition/",
+        "tags": [
+            "V8",
+            "JavaScript",
+            "article"
+        ],
+        "content": "Fanプロジェクトの歴史について。\n2013年から開始したプロジェクトで、Crankshaftはfast pathにフォーカスしていたが、TurboFanはslow pathにもフォーカスしているという話。\nV8において予測できないパフォーマンス問題を作っていたFunction#bindやPromiseの話。\nTurboFanのアーキテクチャについての解説など\n\n\n----\n\n## ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "pentype.js: Read and write OpenType fonts using JavaScript.\n[github.com",
+        "url": "https://github.com/nodebox/opentype.js",
+        "tags": [
+            "JavaScript",
+            "fonts",
+            "library"
+        ],
+        "content": "読み書きを行うライブラリ\n\n\n----\n\n## H",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "imize CPU-Intensive Work in Node.js – Medium\n[medium.com/",
+        "url": "https://medium.com/@graeme_boy/how-to-optimize-cpu-intensive-work-in-node-js-cdc09099ed41",
+        "tags": [
+            "node.js",
+            "tutorial",
+            "article"
+        ],
+        "content": "ドなプログラムを別プロセスで処理する方法について。\n`child_process`の扱い方について書かれた記事\n\n\n----\n\n## A ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "=preload Analysis From the Chrome Data Saver Team – reloading – Medium\n[medium.com/r",
+        "url": "https://medium.com/reloading/a-link-rel-preload-analysis-from-the-chrome-data-saver-team-5edf54b08715",
+        "tags": [
+            "browser",
+            "Chrome",
+            "HTTP2",
+            "article"
+        ],
+        "content": "reload`がどのように動いているのかの解説記事。\nクリティカルリソースを宣言的に先読みするもので、優先度については仕様では未定義。\nChromeにおけるpreloadの優先度やpreloadとasync属性の違いなどについて\n\n\n----\n\n## A D",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ntroduction To Webpack – Smashing Magazine\n[www.smashingm",
+        "url": "https://www.smashingmagazine.com/2017/02/a-detailed-introduction-to-webpack/",
+        "tags": [
+            "webpack",
+            "tutorial"
+        ],
+        "content": "リアル。\nloader、動的ロード、コード分割について\n\n\n----\n<h1 clas",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Snyk's public vulnerability database\n[github.com/sny",
+        "url": "https://github.com/snyk/vulndb",
+        "tags": [
+            "security",
+            "npm",
+            "webservice"
+        ],
+        "content": "mの脆弱性についてを集めたデータベース。\n\n- [VulnDB | Sny",
+        "relatedLinks": [
+            {
+                "title": "VulnDB | Snyk",
+                "url": "https://snyk.io/vuln"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "modern load testing toolkit\n[artillery.io/](",
+        "url": "https://artillery.io/",
+        "tags": [
+            "testing",
+            "performance",
+            "HTTP"
+        ],
+        "content": "テストを行うことができるツール。\nシナリオを元にしたテストもできる。\n\n\n----\n\n## typico",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": ": Prevents publishing a module with bad paths\n[github.com/typic",
+        "url": "https://github.com/typicode/pkg-ok",
+        "tags": [
+            "npm",
+            "Tools",
+            "console"
+        ],
+        "content": "`と`bin`が正しいかをチェックするツール。\n\n- [maxogden/depen",
+        "relatedLinks": [
+            {
+                "title": "maxogden/dependency-check: checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json",
+                "url": "https://github.com/maxogden/dependency-check"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "c: Use JSDoc to represent Flow annotations\n[github.com/Kegsay",
+        "url": "https://github.com/Kegsay/flow-jsdoc",
+        "tags": [
+            "JSDoc",
+            "flowtype",
+            "Tools"
+        ],
+        "content": "テーションへ変換するツール\n\n\n----\n",
+        "relatedLinks": []
+    }
+]

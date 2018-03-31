@@ -1,0 +1,342 @@
+[
+    {
+        "category": "Headline",
+        "title": "Intern 2.2 released | Blog | SitePen",
+        "url": "http://www.sitepen.com/blog/2014/12/05/intern-2-2-released/",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Intern 2.2リリース。\n\nコンソールレポーターの表示改善、テストが失敗した時にオブジェクトのDiff表示が出来るようになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 40 Beta: Powerful Offline and Lightspeed Loading with Service Workers",
+        "url": "http://blog.chromium.org/2014/12/chrome-40-beta-powerful-offline-and.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 40β リリース。\n\nService WorkersとCSP Lv2の部分的サポート、`element.closest()`のサポート等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Firefox — Notes (34.0) — Mozilla",
+        "url": "https://www.mozilla.org/en-US/firefox/34.0/releasenotes/",
+        "tags": [
+            "firefox",
+            "ReleaseNote"
+        ],
+        "content": "Firefox 34リリース。\n\nCSS Fonts Level 3 の実験的な実装、ES6のObject.assign()やtemplate strings、メソッド定義の短縮記法等の実装、開発者ツールの改善等",
+        "relatedLinks": [
+            {
+                "title": "Firefox 34 for developers - Mozilla | MDN",
+                "url": "https://developer.mozilla.org/ja/Firefox/Releases/34"
+            },
+            {
+                "title": "WebIDE, Storage inspector, jQuery events, iframe switcher + more – Firefox Developer Tools Episode 34 ✩ Mozilla Hacks – the Web developer blog",
+                "url": "https://hacks.mozilla.org/2014/09/webide-storage-inspector-jquery-events-iframe-switcher-more-firefox-developer-tools-episode-34/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Dev.Opera — Opera 26 released",
+        "url": "https://dev.opera.com/blog/opera-26/",
+        "tags": [
+            "Opera",
+            "ReleaseNote"
+        ],
+        "content": "Opera 26 (based on Chromium 39)リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "qunit/History.md at 1.16.0 · jquery/qunit",
+        "url": "https://github.com/jquery/qunit/blob/1.16.0/History.md",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "QUnit 1.16.0リリース。\n\n`done()`呼び出しでの非同期テストを行う`assert.async`の追加、Promiseのサポート、setup/teardownをbeforeEach/afterEachにリネーム、HTML Reporterの改善等",
+        "relatedLinks": [
+            {
+                "title": "async() | QUnit API Documentation",
+                "url": "http://api.qunitjs.com/async/"
+            },
+            {
+                "title": "Async: Make tests Promise-aware by JamesMGreene · Pull Request #634 · jquery/qunit",
+                "url": "https://github.com/jquery/qunit/pull/634"
+            },
+            {
+                "title": "QUnit 2.x Upgrade Guide | QUnit",
+                "url": "http://qunitjs.com/upgrade-guide-2.x/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Introduction to Service Worker: How to use Service Worker - HTML5 Rocks",
+        "url": "http://www.html5rocks.com/en/tutorials/service-worker/introduction/",
+        "tags": [
+            "JavaScript",
+            "tutorial"
+        ],
+        "content": "Service Workerのライフサイクル、Service Workerへのスクリプトの登録方法や基本的な使い方、どうやってキャッシュを更新するか、注意点について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Top 10 Mistakes Node.js Developers Make",
+        "url": "https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make",
+        "tags": [
+            "node.js",
+            "まとめ"
+        ],
+        "content": "Node.jsで開発時にやってしまう間違いとそれを改善する方法や参考リソース。\n\n半分以上JavaScriptで同様の事が当てはまりそう",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "bassistance.de » jQuery Foundation 2014 roundup",
+        "url": "http://bassistance.de/2014/12/01/jquery-foundation-2014-roundup/",
+        "tags": [
+            "jQuery",
+            "まとめ"
+        ],
+        "content": "2014年のjQueryの活動についてのまとめ。\n\n- jQuery Coreの3.0の方針やPromises等の標準へ合わせる変更について\n- jQuery UIのUIレイヤーの標準化活動、パフォーマンステストの実施。\n- QUnitを始めとするテストフレームワークのレポーターの標準化活動。\n- 国際化に使うCLDRのJSON版の管理など\n\nなどjQuery Foundationとしての活動がまとめられています。",
+        "relatedLinks": [
+            {
+                "title": "Roadmap · jquery/jquery Wiki",
+                "url": "https://github.com/jquery/jquery/wiki/Roadmap"
+            },
+            {
+                "title": "jquery/css-framework",
+                "url": "https://github.com/jquery/css-framework"
+            },
+            {
+                "title": "js-reporters/js-reporters",
+                "url": "https://github.com/js-reporters/js-reporters/"
+            },
+            {
+                "title": "jquery/globalize",
+                "url": "https://github.com/jquery/globalize/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Moving from PhantomJS to node-webkit - Todd Wolfson",
+        "url": "http://twolfson.com/2014-11-22-moving-from-phantomjs-to-node-webkit",
+        "tags": [
+            "browser",
+            "node-webkit",
+            "testing"
+        ],
+        "content": "node-webkitを使いスクリーンショットを取って画像diffのレグレッションテストを行う話。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "生WebGL入門:初音ミクの美麗3Dモデルを表示する(前編) » nmi.jp",
+        "url": "http://nmi.jp/archives/582",
+        "tags": [
+            "WebGL",
+            "tutorial",
+            "JavaScript"
+        ],
+        "content": "WebGLを使ってMMDの3Dモデルを表示するまでを丁寧に解説している\n\nWebGLでのポリゴンの表示、3Dで必須な行列や座標、モデルデータの読み込みについて等",
+        "relatedLinks": [
+            {
+                "title": "tkihira/webgl-miku-sample",
+                "url": "https://github.com/tkihira/webgl-miku-sample"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "JavaScript - Direct Proxiesでmethod missing的なことをやる - Qiita",
+        "url": "http://qiita.com/hokaccha/items/3a3ea6180e94e70bc335",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "Direct Proxiesを使ったmethod missingの実装について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "webpackを使い倒す - Thujikun blog",
+        "url": "http://thujikun.github.io/blog/2014/12/07/webpack",
+        "tags": [
+            "webpack"
+        ],
+        "content": "webpackのloader紹介、`resolve`フィールドの指定による`require`のパス解決、pluginsの紹介、Webpack Dev Server、非同期読み込みについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "QUnit 2.xで変わること",
+        "url": "http://azu.github.io/slide/chatwork/qunit2.html",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "スライド"
+        ],
+        "content": "QUnit 2.xでの変更点についてのスライド。\n\nモジュール化、`done`スタイルの非同期テストサポート、スマートなPromiseテストサポート、レポーターの標準化活動など",
+        "relatedLinks": [
+            {
+                "title": "QUnit 2.x Upgrade Guide | QUnit",
+                "url": "http://qunitjs.com/upgrade-guide-2.x/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "The npm Blog — Getting Started with npm",
+        "url": "http://blog.npmjs.org/post/104272486560/getting-started-with-npm",
+        "tags": [
+            "npm",
+            "動画"
+        ],
+        "content": "npmのサイトのGetting Startedに動画チュートリアルが追加された",
+        "relatedLinks": [
+            {
+                "title": "Getting Started",
+                "url": "https://docs.npmjs.com/getting-started/what-is-npm"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Netflix JavaScript Talks - Version 7: The Evolution of JavaScript - YouTube",
+        "url": "https://www.youtube.com/watch?v=DqMFX91ToLw",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "動画",
+            "スライド"
+        ],
+        "content": "ES7のAsync Generatorについて紹介する発表。\n\nObject.observeの変更通知とイベントループの話から始まり、\nPromises、Generator、またES7のasync/await、さらに発展してObservableを返すAsync Generatorについて話されている。\n\n発表内容は[jhusain/asyncgenerator](https://github.com/jhusain/asyncgenerator \"jhusain/asyncgenerator\")にも一部同様の事が書かれている",
+        "relatedLinks": [
+            {
+                "title": "ES7 Async Generator from azu on Twitter",
+                "url": "https://twitter.com/azu_re/timelines/541204375696191488"
+            },
+            {
+                "title": "jhusain/asyncgenerator",
+                "url": "https://github.com/jhusain/asyncgenerator"
+            },
+            {
+                "title": "Version 7: The Evolution of JavaScript- Eventbrite",
+                "url": "https://www.eventbrite.com/e/version-7-the-evolution-of-javascript-tickets-14284664817#m_1_100"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "js-reporters/js-reporters",
+        "url": "https://github.com/js-reporters/js-reporters",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "issue"
+        ],
+        "content": "JavaScriptテストフレームワーク/Runnerのレポーターの共通フォーマットについて議論してるコミュニティ",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Understanding JSON Schema — Understanding JSON Schema 1.0 documentation",
+        "url": "http://spacetelescope.github.io/understanding-json-schema/",
+        "tags": [
+            "JSON",
+            "book",
+            "tutorial"
+        ],
+        "content": "JSON Schema draft 4について解説しているサイト。\n\nJSON Schemaの書き方やリファレンス等が用意されている",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Tweene :: JavaScript Animation Proxy",
+        "url": "http://tweene.com/",
+        "tags": [
+            "JavaScript",
+            "animation",
+            "library"
+        ],
+        "content": "JavaScriptアニメーションプロキシライブラリ。\n\n既にアニメーション機能を実装してるGSAP、Velocity.js、Transit、jQuery等のライブラリを共通のAPIで利用できるようにするラッパライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "lafikl/RWDPerf",
+        "url": "https://github.com/lafikl/RWDPerf",
+        "tags": [
+            "design",
+            "performance",
+            "Tools"
+        ],
+        "content": "画面サイズやUA等のシミュレートをして、あるURLで使ってない要素や画像の検出、通信量などのデータを一覧出来るパフォーマンス測定ツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "a11y.css by Gaël Poupard",
+        "url": "http://ffoodd.github.io/a11y.css/",
+        "tags": [
+            "CSS",
+            "アクセシビリティ",
+            "HTML",
+            "ブックマークレット"
+        ],
+        "content": "CSSを使ったHTMLのビジュアルLintツール。\n\nHTML要素における記述のミスなどへの警告やエラーを表示する事ができる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "rejs – Vanilla JS Module Builderの紹介 | GREE Engineers&#x27; Blog",
+        "url": "http://labs.gree.jp/blog/2014/12/12311/",
+        "tags": [
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "名前空間オブジェクトを使うJavaScriptファイルを、名前空間のプロパティにアクセスできるようにソートして結合出来るコマンドラインツール",
+        "relatedLinks": [
+            {
+                "title": "Moncader/rejs",
+                "url": "https://github.com/Moncader/rejs"
+            }
+        ]
+    },
+    {
+        "category": "Book",
+        "title": "JavaScript Cookbook, 2nd Edition - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/0636920033455.do",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "2015年2月 発売\n\nJavaScript Cookbookの第二版",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Learn JavaScript &amp; jQuery - a book about interactive front-end web development",
+        "url": "http://www.javascriptbook.com/",
+        "tags": [
+            "JavaScript",
+            "jQuery",
+            "book"
+        ],
+        "content": "HTML & CSS: Design and Build WebsitesのJavaScript編",
+        "relatedLinks": []
+    }
+]

@@ -1,0 +1,406 @@
+[
+    {
+        "category": "Headline",
+        "title": "Intern 2.1 released | Blog | SitePen",
+        "url": "http://www.sitepen.com/blog/2014/09/12/intern-2-1-released/",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Intern 2.1リリース。\n\nHTMLレポーター/JUnit XMLレポーターの追加。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 3.1 “Satyameva Jayate” · postcss/autoprefixer",
+        "url": "https://github.com/postcss/autoprefixer/releases/tag/3.1.0",
+        "tags": [
+            "CSS",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "autoprefixer 3.1リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "V8 Installation and d8 shell usage",
+        "url": "https://gist.github.com/kevincennis/0cd2138c78a07412ef21",
+        "tags": [
+            "V8",
+            "console",
+            "Tools",
+            "tutorial"
+        ],
+        "content": "d8コマンドをインストールして、最適化/非最適化、プロファイリング、GCのトレース、Hidden Class等のチェック方法などについてまとまってるチュートリアル",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "V8の最適化とIRHydraでの可視化とベンチマークについてのメモ | Web Scratch",
+        "url": "http://efcl.info/2014/09/13/v8-optimization-memo/",
+        "tags": [
+            "JavaScript",
+            "V8",
+            "performance",
+            "Tools",
+            "まとめ"
+        ],
+        "content": "V8のHidden Class等のJavaScriptの最適化やhot codeについて。\n\nIRHydra2を使った最適化されてない事の可視化や参考リソースについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "「for やめろ」またはイベントループと nextTick() - Block Rockin’ Codes",
+        "url": "http://jxck.hatenablog.com/entry/for-with-eventloop",
+        "tags": [
+            "JavaScript",
+            "node.js"
+        ],
+        "content": "node.jsにおけるイベントループとブロックについて。\n\nsetTimeout、process.nextTick、setImmediateの意味の違い。\n\nI/Oイベントとそれぞれの実行タイミングについて分かりやすく解説してる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Integrating D3.js visualizations in a React app - Nicolas Hery",
+        "url": "http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/",
+        "tags": [
+            "d3.js",
+            "DOM"
+        ],
+        "content": "D3.jsのデータ・ドリブンのデータ更新とReactのVirtual DOMを組み合わせた話",
+        "relatedLinks": [
+            {
+                "title": "D3.js の Data-Driven な DOM 操作がおもしろい - てっく煮ブログ",
+                "url": "http://tech.nitoyon.com/ja/blog/2013/10/24/d3js/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Firefox Add-on Enables Web Development Across Browsers and Devices ✩ Mozilla Hacks – the Web developer blog",
+        "url": "https://hacks.mozilla.org/2014/09/firefox-tools-adapter/",
+        "tags": [
+            "firefox",
+            "debug",
+            "Chrome",
+            "addon"
+        ],
+        "content": "Firefoxの開発者ツールを使ってChromeやSafariで表示してるページをデバッグするアダプタのアドオン。\n\nremotedebug.org と似ているが、共有のプロトコルの提供ではなく、Firefoxのプロトコルをベースとしてる",
+        "relatedLinks": [
+            {
+                "title": "Firefox Tools Adapter - Firefox Developer Tools | MDN",
+                "url": "https://developer.mozilla.org/en-US/docs/Tools/Firefox_Tools_Adapter"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Intro to Broccoli",
+        "url": "http://aexmachina.info/assets/talks/intro-to-broccoli/#1",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "スライド"
+        ],
+        "content": "ビルドツールであるBroccoliについてのスライド。 Railsで言えばBroccoliはasset pipelineで、GruntやGulpはrakeに当たるツール。\n\nビルドに焦点をおいているという特徴がある",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Talk talks_12C5ADD371A9A5D4 - Ember Fest!",
+        "url": "https://emberfest.eu/talks/talks_12C5ADD371A9A5D4",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "動画"
+        ],
+        "content": "JavaScriptベースのビルドツールであるBroccoliについての動画\n\n<a href='https://github.com/broccolijs/broccoli'>https://github.com/broccolijs/broccoli</a>\n\nBroccoliがどのようなプロセスでファイルを処理するかについて話されてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "9 anti-patterns for node.js teams",
+        "url": "http://www.slideshare.net/jeharrell/9-antipatterns-for-nodejs-teams",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "スライド"
+        ],
+        "content": "node.jsにおける9つのアンチパターンについてのスライド <a href='http://efcl.hatenablog.com/entry/2014/09/11/212846'>http://efcl.hatenablog.com/entry/2014/09/11/212846</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "2014-09-09-performance-in-css-hikalab-yuya-saito.pdf • Droplr",
+        "url": "http://d.pr/f/sP4H",
+        "tags": [
+            "CSS",
+            "browser",
+            "performance",
+            "スライド"
+        ],
+        "content": "CSSとパフォーマンスについてのスライド。CSSのスタイル変更がどのようなレンダリングツリーの変更/再描画を起こしてるか、それを計測する方法、回避する方法について詳しく書かれてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "OSCON - React Architecture // Speaker Deck",
+        "url": "https://speakerdeck.com/vjeux/oscon-react-architecture",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "スライド"
+        ],
+        "content": "Reactの歴史とReactのDOM Diffについてのスライド\n\n<a href='https://www.youtube.com/watch?v=eCf5CquV_Bw'>https://www.youtube.com/watch?v=eCf5CquV_Bw</a>\n\nReactのVirtual DOM = DOMのバージョン管理という話やVirtual DOMのdiffの仕組みについて解説されてる",
+        "relatedLinks": [
+            {
+                "title": "JavaScript’s History and How it Led To ReactJS | The New Stack",
+                "url": "http://thenewstack.io/javascripts-history-and-how-it-led-to-reactjs/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Building high quality services at Uber",
+        "url": "http://raynos.github.io/nodeconfeu2014-talk/#/",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "スライド"
+        ],
+        "content": "Uber社のnode.jsを使ったプロダクションを運用するにあたってのスライド。\n\nログ、モニター、設定の管理、例外のログ、プロファイル、初期設定のscaffolding等のツールについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Asynchronous JavaScript &amp; Promises",
+        "url": "http://www.innoarchitech.com/asynchronous-javascript-promises/",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "スライド",
+            "動画"
+        ],
+        "content": "JavaScriptの非同期処理、Promiseについての動画とスライド。\n\nPromiseとはどういうものかについて",
+        "relatedLinks": [
+            {
+                "title": "Asynchronous JavaScript ",
+                "url": "http://slides.com/alexcastrounis/async-js-promises#/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "BSidesLA Managing Content Security Policy // Speaker Deck",
+        "url": "https://speakerdeck.com/oreoshake/bsidesla-managing-content-security-policy",
+        "tags": [
+            "セキュリティ",
+            "CSP",
+            "browser",
+            "スライド"
+        ],
+        "content": "CSPについてのスライド。\n\nCSPとは何か、どうやって適応するか、どうやって管理するかについてTwitterの人が発表した内容。\n\nCSP Lv2のscript hashについてやCSPレポート解析と <a href='http://caspr.io/'>http://caspr.io/</a> について",
+        "relatedLinks": [
+            {
+                "title": "Caspr",
+                "url": "http://caspr.io/#/"
+            },
+            {
+                "title": "This blog uses CSP level 2 script hash support | blawg",
+                "url": "https://blog.matatall.com/2014/08/this-blog-uses-csp-level-2-script-hash-support/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Polyfill service",
+        "url": "https://cdn.polyfill.io/v1/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "polyfillライブラリを配信してくれるCDNサービス。\n\nクエリでfeaturesやuaを指定してそれに対するpolyfillをまとめくれたものを配信してくれる",
+        "relatedLinks": [
+            {
+                "title": "Polyfills as a service | FT Labs",
+                "url": "http://labs.ft.com/2014/09/polyfills-as-a-service/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "srcset と sizes",
+        "url": "http://terkel.github.io/srcset-sizes/",
+        "tags": [
+            "HTML",
+            "画像",
+            "CSS",
+            "翻訳"
+        ],
+        "content": "srcset と sizes 属性の入門の翻訳\n\n<a href='http://ericportis.com/posts/2014/srcset-sizes/'>http://ericportis.com/posts/2014/srcset-sizes/</a>",
+        "relatedLinks": [
+            {
+                "title": "Srcset and sizes の日本語訳 · terkel.jp",
+                "url": "http://terkel.jp/archives/2014/09/srcset-sizes/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "thlorenz/v8-perf",
+        "url": "https://github.com/thlorenz/v8-perf",
+        "tags": [
+            "Chrome",
+            "V8",
+            "performance",
+            "まとめ"
+        ],
+        "content": "V8のパフォーマンスに関するレポートや資料のまとめ。\n\nData type、コンパイラ、最適化、GC、メモリ、CPUプロファイリング。\n\nまたfast objectであるかどうかの確認方法やプロファイルの取り方などについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Speed Hall of Fame - The Chromium Projects",
+        "url": "http://www.chromium.org/developers/speed-hall-of-fame",
+        "tags": [
+            "V8",
+            "Chrome",
+            "まとめ"
+        ],
+        "content": "ChromiumやV8のパフォーマンスの最適化/向上のIssue(内容)とその結果についてまとめられてるページ",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "DartLanguageSpecification_Japanese.pdf",
+        "url": "http://www.cresc.co.jp/tech/java/Google_Dart/DartLanguageSpecification_Japanese.pdf",
+        "tags": [
+            "dart",
+            "spec",
+            "翻訳"
+        ],
+        "content": "Dartの仕様書日本語訳\n\nECMA-408版",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ES6 right now",
+        "url": "http://johnkpaul.github.io/presentations/jqcon/2014/es6-now/#/",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "スライド"
+        ],
+        "content": "ES6の動かせるサンプルと共に機能紹介と今スグ使う設定についてのスライド\n\ntraceur(+grunt/gulp/broccoli/browserify)やes6-shimの紹介",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "davidmarkclements/decofun",
+        "url": "https://github.com/davidmarkclements/decofun",
+        "tags": [
+            "JavaScript",
+            "debug",
+            "Tools"
+        ],
+        "content": "無名関数を自動的にそのコンテキストに応じた名前を付けるデバッグツール。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "GraftJS/jschan · GitHub",
+        "url": "https://github.com/GraftJS/jschan",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "libchanのJavaScriptポート。\n\nネットワークを超えてChannel同士でやり取りをする。\n\nWebSocketsとSPDYをサポートしていて、msgpackを使う",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "uupaa/WMCache.js",
+        "url": "https://github.com/uupaa/WMCache.js",
+        "tags": [
+            "JavaScript",
+            "library",
+            "Chrome",
+            "safari"
+        ],
+        "content": "FileSystem, IndexedDB, Quota Management APIを使って100MB超えのテンポラリなストレージを管理するライブラリ",
+        "relatedLinks": [
+            {
+                "title": "WMCache · uupaa/WMCache.js Wiki",
+                "url": "https://github.com/uupaa/WMCache.js/wiki/WMCache"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "hello.js - Javascript API for OAuth2 authentication and REST services",
+        "url": "http://adodson.com/hello.js/",
+        "tags": [
+            "JavaScript",
+            "OAuth",
+            "library"
+        ],
+        "content": "OAuth 2対応のアプリの認証やAPIを叩く機能を持ったライブラリ。\n\n<a href='https://auth-server.herokuapp.com/'>https://auth-server.herokuapp.com/</a> という認証のサーバを使っていて、クライアントサイドを書くだけでGitHubやFacebook等のAPIを利用できる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "BlackDice/lill",
+        "url": "https://github.com/BlackDice/lill",
+        "tags": [
+            "JavaScript",
+            "library",
+            "node.js"
+        ],
+        "content": "es6-symbolを使った linked-listの実装ライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ブラウザ内で安全に文字列からDOMを組み立てるためのRickDOMというライブラリを書いた - 葉っぱ日記",
+        "url": "http://d.hatena.ne.jp/hasegawayosuke/20140912/p1",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "library"
+        ],
+        "content": "DOMParserやcreateHTMLDocumentを使って文字列から安全にDOMを組み立てるライブラリ",
+        "relatedLinks": [
+            {
+                "title": "hasegawayosuke/rickdom",
+                "url": "https://github.com/hasegawayosuke/rickdom"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "thlorenz/proxyquireify",
+        "url": "https://github.com/thlorenz/proxyquireify",
+        "tags": [
+            "browserify",
+            "plugin",
+            "testing",
+            "library"
+        ],
+        "content": "`require`をラップして読み込んだモジュールのメソッドのstubを行えるbrowserify plugin。\n\n変換によってDIが行われるので元モジュールに特殊な仕組みが必要ない",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "JavaScript: Novice to Ninja - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/9780992461225.do",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "2014年10月 発売\n\n基礎から学ぶJavaScript",
+        "relatedLinks": []
+    }
+]

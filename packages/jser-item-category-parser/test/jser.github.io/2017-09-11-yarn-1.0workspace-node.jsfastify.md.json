@@ -1,0 +1,294 @@
+[
+    {
+        "category": "Headline",
+        "title": "Node v6.11.3 (LTS) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v6.11.3/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node v6.11.3(LTS)リリース\nhash floodingの脆弱性の為無効になっていたV8のSnapshotsが再度有効化された。",
+        "relatedLinks": [
+            {
+                "title": "V8 JavaScript Engine: About that hash flooding vulnerability in Node.js…",
+                "url": "https://v8project.blogspot.jp/2017/08/about-that-hash-flooding-vulnerability.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "AngularDart 4",
+        "url": "http://news.dartlang.org/2017/09/angulardart-4.html",
+        "tags": [
+            "Angular",
+            "dart"
+        ],
+        "content": "AngularDart 4リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "New in Chrome 61  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/09/nic61",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 61リリース。\n`<script type=module>`、`navigator.share`、WebUSB APIのサポートなど",
+        "relatedLinks": [
+            {
+                "title": "Chrome Platform Status",
+                "url": "https://www.chromestatus.com/features#browsers.chrome.desktop%3D61"
+            },
+            {
+                "title": "Chromium Blog: Chrome 61 Beta: JavaScript modules, Payment Request API on desktop, Web Share API, and WebUSB",
+                "url": "https://blog.chromium.org/2017/08/chrome-61-beta-javascript-modules.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release Notes for Safari Technology Preview 39 | WebKit",
+        "url": "https://webkit.org/blog/7913/release-notes-for-safari-technology-preview-39/",
+        "tags": [
+            "safari",
+            "ReleaseNote"
+        ],
+        "content": "Safari Technology Preview Release 39リリース。\nBeacon APIの改善、`FetchRequest.body`のサポート、Stage 3のRegExp `dotAll`のサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "AssemblyScript/assemblyscript: A subset of TypeScript that compiles to WebAssembly.",
+        "url": "https://github.com/AssemblyScript/assemblyscript",
+        "tags": [
+            "TypeScript",
+            "WebAssembly"
+        ],
+        "content": "TypeScriptのサブセットとして定義された言語。\nWebAssemblyへコンパイルすることができる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React 16 RC · Issue #10294 · facebook/react",
+        "url": "https://github.com/facebook/react/issues/10294",
+        "tags": [
+            "React",
+            "ReleaseNote",
+            "issue"
+        ],
+        "content": "React 16 RCリリース。 `Map`/`Set`に依存してるのでpolyfillが必要、コアの書き直し(Fiber)。Stream SSRのサポート、`componentDidCatch`で子コンポーネントのエラーをキャッチできるように、bundleとして提供するようになるなど。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing Yarn 1.0 | Engineering Blog | Facebook Code",
+        "url": "https://code.facebook.com/posts/274518539716230",
+        "tags": [
+            "yarn",
+            "ReleaseNote"
+        ],
+        "content": "Yarn 1.0リリース。\nYarn Workspaceがデフォルトで有効化、`yarn.lock`のパーサをモジュールに分離、`--cwd`のサポート、`yarn.lock`のコンフリクトを自動的に解消できるように。\n暗黙的な`file:`依存に警告を出すように、`yarn clean`が`yarn autoclean`へリネームなど",
+        "relatedLinks": [
+            {
+                "title": "Release v1.0.0 ! 🎉 · yarnpkg/yarn",
+                "url": "https://github.com/yarnpkg/yarn/releases/tag/v1.0.0"
+            },
+            {
+                "title": "@yarnpkg/lockfile",
+                "url": "https://www.npmjs.com/package/@yarnpkg/lockfile"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.6.0 · sonarwhal/sonar",
+        "url": "https://github.com/sonarwhal/sonar/releases/tag/0.6.0",
+        "tags": [
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "sonar v0.6.0リリース。\n`apple-touch-icon`のチェックツールの追加、`summary`フォーマッターを追加など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release Workbox v2.0.0 · GoogleChrome/workbox",
+        "url": "https://github.com/GoogleChrome/workbox/releases/tag/v2.0.0",
+        "tags": [
+            "ServiceWorker",
+            "ReleaseNote"
+        ],
+        "content": "Workbox v2.0.0リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "続・Webブラウザのカラーマネジメント対応まとめ : やんま まのblog（仮）",
+        "url": "http://blog.livedoor.jp/yamma_ma/archives/38413741.html",
+        "tags": [
+            "browser",
+            "color"
+        ],
+        "content": "ブラウザのカラーマネージメント/プロファイルの対応についてのまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Angular vs. React vs. Vue: A 2017 comparison – unicorn.supplies – Medium",
+        "url": "https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176",
+        "tags": [
+            "JavaScript",
+            "library",
+            "opinion",
+            "article"
+        ],
+        "content": "JavaScriptフレームワークの比較記事。\nAngular、React、Vueについてを色々な面から比較している。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Learn How To Debug JavaScript with Chrome DevTools – codeburst",
+        "url": "https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db",
+        "tags": [
+            "JavaScript",
+            "Chrome",
+            "debug",
+            "article"
+        ],
+        "content": "Chromeの開発者ツールを使ったデバッグ方法について。\nデバッガーでのブレークポイントを貼ったデバッグ方法についてをステップバイステップで解説している。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Polymer Summit 2017 - YouTube",
+        "url": "https://www.youtube.com/watch?v=tNulrEbTQf8",
+        "tags": [
+            "JavaScript",
+            "イベント",
+            "video"
+        ],
+        "content": "Polymer Summit 2017の動画一覧",
+        "relatedLinks": [
+            {
+                "title": "Polymer Summit 2017",
+                "url": "https://summit.polymer-project.org/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Google Developer Days Europe 2017 - YouTube",
+        "url": "http://www.youtube.com/playlist?list=PLOU2XLYxmsIJz-cYWfjQP8SV7n8C-PTVm",
+        "tags": [
+            "google",
+            "ProgressiveWebApp",
+            "イベント",
+            "video"
+        ],
+        "content": "Google Developer Days Europeの動画一覧",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ウェブブラウザ向け深層学習モデル高速実行フレームワーク「WebDNN」 // Speaker Deck",
+        "url": "https://speakerdeck.com/kiikurage/uebuburauzaxiang-keshen-ceng-xue-xi-moderugao-su-shi-xing-huremuwaku-webdnn",
+        "tags": [
+            "slide",
+            "JavaScript",
+            "browser",
+            "機械学習"
+        ],
+        "content": "WebDNNについてのスライド。\nWebGPU/WebGL/WebAssemblyなどを使ったウェブブラウザでの計算バックエンドについて。\nKerasやTensorFlowなどの学習モデルが変換可能で、クライアントサイドで高速な計算処理を行うにおいての最適化などについて",
+        "relatedLinks": [
+            {
+                "title": "MIL WebDNN",
+                "url": "https://mil-tokyo.github.io/webdnn/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "JavaScript conferences in 2017 | Confs.tech",
+        "url": "https://confs.tech/",
+        "tags": [
+            "JavaScript",
+            "イベント",
+            "まとめ"
+        ],
+        "content": "JavaScriptのカンファレンスまとめサイト",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "pinterest/service-workers: A collection of utilities for creating/testing/experimenting with service workers.",
+        "url": "https://github.com/pinterest/service-workers",
+        "tags": [
+            "ServiceWorker",
+            "Tools",
+            "library"
+        ],
+        "content": "pinterestのService Workerツールチェイン。\nService Workerでキャッシュするファイルの管理、webpackプラグイン、テストなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Transform | All important transforms at one place.",
+        "url": "https://transform.now.sh/",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "webservice"
+        ],
+        "content": "JSONからReact PropTypesやHTMLからJSX、GraphQLからTypeScriptなど色々な変換を行うツール。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "fastify/fastify: Fast and low overhead web framework, for Node.js",
+        "url": "https://github.com/fastify/fastify",
+        "tags": [
+            "library",
+            "node.js",
+            "サーバー"
+        ],
+        "content": "Node.jsのウェブフレームワーク。 オーバーヘッドが小さなルーティング、Schemaベースなシリアライズ、express/connect互換のmiddlewareなどを持っている",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "antonmedv/jsize: Find out minified and gzipped npm package size",
+        "url": "https://github.com/antonmedv/jsize",
+        "tags": [
+            "JavaScript",
+            "npm",
+            "node.js",
+            "Tools"
+        ],
+        "content": "npmモジュールのサイズ(gzip)を見ることができるツール。\n複数のモジュールを`+`で組み合わせると重複したモジュールも考慮した合計サイズを取得できる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "allegro/node-worker-nodes: A node.js library to run cpu-intensive tasks in a separate processes and not block the event loop.",
+        "url": "https://github.com/allegro/node-worker-nodes",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "Node.jsで複数のプロセスに分割してcpu-intensiveな処理を扱うライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "O'Reilly Japan - 初めての自動テスト",
+        "url": "https://www.oreilly.co.jp/books/9784873118161/",
+        "tags": [
+            "browser",
+            "testing",
+            "book"
+        ],
+        "content": "2017年9月21日発売\nUIテスト、結合テスト、ユニットテスト、TDDなどウェブブラウザにおけるテストについての書籍",
+        "relatedLinks": []
+    }
+]

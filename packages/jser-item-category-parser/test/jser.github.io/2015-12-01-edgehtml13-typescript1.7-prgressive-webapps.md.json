@@ -1,0 +1,278 @@
+[
+    {
+        "category": "Headline",
+        "title": "AngularJS 1.5.0-beta.2 and 1.4.8 have been released",
+        "url": "http://angularjs.blogspot.jp/2015/11/angularjs-15-beta2-and-14-releases.html",
+        "tags": [
+            "AngularJS",
+            "ReleaseNote"
+        ],
+        "content": "AngularJS 1.5.0-beta.2と1.4.8リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "V8 JavaScript Engine: V8 Release 4.8",
+        "url": "http://v8project.blogspot.jp/2015/11/v8-release-48.html",
+        "tags": [
+            "V8",
+            "ReleaseNote"
+        ],
+        "content": "V8 4.8リリース(Chrome 48で搭載)。\nwell-known symbolsの追加、 ArrayメソッドがArray-likeなオブジェクトを扱う際にES6の仕様へ準拠するように",
+        "relatedLinks": [
+            {
+                "title": "Issue 3087 - v8 - ES6: Array.prototype.slice and friends should use ToLength instead of ToUint32 - V8 JavaScript Engine - Google Project Hosting",
+                "url": "https://code.google.com/p/v8/issues/detail?id=3087"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Introducing EdgeHTML 13, our first platform update for Microsoft Edge | Microsoft Edge Dev Blog",
+        "url": "http://blogs.windows.com/msedgedev/2015/11/16/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge/",
+        "tags": [
+            "MSEdge",
+            "ReleaseNote"
+        ],
+        "content": "EdgeHTML 13の変更点について。\nHTMLやCSS関連では、\nCSS `initial`と`unset`、`a[download]`、`input[type=time]`、`<picture>`、ORTC、`<template>`のサポート。\n\nJavaScript関連では、ES6 Classesとasm.jsをデフォルトサポート。\nフラグ付きでasync/await、Exponentiation operator、Destructuringのサポート。",
+        "relatedLinks": [
+            {
+                "title": "Release version 10586 : Microsoft Edge Dev",
+                "url": "https://dev.windows.com/en-us/microsoft-edge/platform/changelog/desktop/10586/?compareWith=10240"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing TypeScript 1.7 - TypeScript - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/typescript/archive/2015/11/30/announcing-typescript-1-7.aspx",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 1.7リリース。\nasync/awaitはフラグなしで利用できるように、Exponentiation operatorをサポート、`--target ES6`と`--module`が併用可能になるなど",
+        "relatedLinks": [
+            {
+                "title": "Roadmap · Microsoft/TypeScript Wiki",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/Roadmap#17"
+            },
+            {
+                "title": "What",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript#typescript-17"
+            },
+            {
+                "title": "TypeScript 1.7.3 変更点 - Qiita",
+                "url": "http://qiita.com/vvakame/items/0441f248b349eba9e267"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Introducing Pokedex.org: a progressive webapp for Pokémon fans — Pocket JavaScript",
+        "url": "http://www.pocketjavascript.com/blog/2015/11/23/introducing-pokedex-org",
+        "tags": [
+            "JavaScript",
+            "performance"
+        ],
+        "content": "Progressive Web Apps(アプリになっていくウェブ)を実現する色々。\nオフラインでも動作するようにしたり、\n60FPSスクロールを実現するためにVirtual DOMのdiff/patchをWeb WorkerでUIから重たい処理を省き、CSSアニメーションを活用するなど",
+        "relatedLinks": [
+            {
+                "title": "Progressive Web Apps: Escaping Tabs Without Losing Our Soul – Infrequently Noted",
+                "url": "https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/"
+            },
+            {
+                "title": "Progressive Web Appsとは - fragmentary",
+                "url": "http://myakura.hatenablog.com/entry/2015/11/18/053939"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Don't lose user and app state, use Page Visibility - igvita.com",
+        "url": "https://www.igvita.com/2015/11/20/dont-lose-user-and-app-state-use-page-visibility/",
+        "tags": [
+            "JavaScript",
+            "まとめ",
+            "event"
+        ],
+        "content": "pagehideやvisibilityChangeなどの画面表示関連のイベント対応表。\n各ブラウザでのサポート状況について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "From Karma to Mocha, with a taste of jsdom — Podio Engineering Blog — Medium",
+        "url": "https://medium.com/podio-engineering-blog/from-karma-to-mocha-with-a-taste-of-jsdom-c9c703a06b21",
+        "tags": [
+            "JavaScript",
+            "testing"
+        ],
+        "content": "KarmaからMocha+jsdomへテストを移行した話。\nIsolationの仕組み、全テストの実行時間、単独のテストケース実行、監視などそれぞれの項目における比較が書かれている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Configuring Babel 6",
+        "url": "http://www.2ality.com/2015/11/configuring-babel6.html",
+        "tags": [
+            "babel",
+            "設定"
+        ],
+        "content": "Babel 6で細分化されたパッケージと基本的な使い方について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "RailsのAsset PipelineとPrecompileをNode.jsのみで処理できるgulp-sprocketsを作った - yo_waka&#x27;s blog",
+        "url": "http://waka.github.io/2015/11/25/gulp_sprockets.html",
+        "tags": [
+            "gulp",
+            "rails"
+        ],
+        "content": "Sprocketsの独自ディレクティブもパースして、gulp上でビルド出来るようにするgulpプラグイン",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Chrome 47 WebRTC: media recording, secure origins &amp; proxy handling | Web Updates - Google Developers",
+        "url": "https://developers.google.com/web/updates/2015/10/chrome-47-webrtc",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 47のWebRTC関連のアップデートについて。\nMediaStreamRecorderをフラグ付きで実装、`getUserMedia()`がHTTPSのみで利用可能となるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Node.js へのcontributeの仕方 - from scratch",
+        "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/12/01/093433",
+        "tags": [
+            "node.js",
+            "community",
+            "OSS"
+        ],
+        "content": "Node.jsへコントリビュートする場合のポイントについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Chrome Dev Summit 2015 - YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLNYkxOF6rcICcHeQY02XLvoGL34rZFWZn",
+        "tags": [
+            "Chrome",
+            "動画",
+            "イベント",
+            "まとめ"
+        ],
+        "content": "Chrome Dev Summit 2015の動画一覧",
+        "relatedLinks": [
+            {
+                "title": "Chrome Dev Summit 2015",
+                "url": "https://developer.chrome.com/devsummit"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "React.js Conf | February 22 &amp; 23 2016",
+        "url": "http://conf.reactjs.com/",
+        "tags": [
+            "React",
+            "イベント"
+        ],
+        "content": "2016年2月22-23日にReact.js Confが開催",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "OrKoN/jsperf",
+        "url": "https://github.com/OrKoN/jsperf",
+        "tags": [
+            "JavaScript",
+            "performance",
+            "node.js"
+        ],
+        "content": "jsperf.comのコードをNode.jsで実行できるツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "kdzwinel/betwixt",
+        "url": "https://github.com/kdzwinel/betwixt",
+        "tags": [
+            "HTTP",
+            "proxy",
+            "Chrome",
+            "node.js"
+        ],
+        "content": "通信内容をキャプチャしてデバッグに利用できるローカルプロキシ。\nChrome開発者ツールのネットワークパネル風UIで通信内容を見ることが出来る。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "What are the best JavaScript IDEs? - Slant",
+        "url": "http://www.slant.co/topics/1686/~javascript-ides",
+        "tags": [
+            "JavaScript",
+            "editor",
+            "まとめ"
+        ],
+        "content": "JavaScriptのエディタ/IDEまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mweststrate/ts-npm-lint",
+        "url": "https://github.com/mweststrate/ts-npm-lint",
+        "tags": [
+            "TypeScript",
+            "npm",
+            "Tools"
+        ],
+        "content": "TypeScriptで書かれたモジュールを公開するときに`package.json`の内容などをチェック、修正するツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Home | phina.js",
+        "url": "http://phinajs.com/",
+        "tags": [
+            "JavaScript",
+            "game",
+            "library"
+        ],
+        "content": "tmlib.jsの後継となるゲームライブラリ。\nCanvasを使った描画、サウンド、入力系などゲーム作成に必要なものをサポートしてる",
+        "relatedLinks": [
+            {
+                "title": "本日 JavaScript ゲームライブラリ『phina.js』をリリースしました! | phiary",
+                "url": "http://phiary.me/phinajs-release/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mo · js - Motion Graphics For The Web",
+        "url": "http://mojs.io/",
+        "tags": [
+            "JavaScript",
+            "animation",
+            "SVG",
+            "library"
+        ],
+        "content": "モーショングラフィックライブラリ。\nSVGとCSS animationを使ったアニメーションライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Amazon: What Every JavaScript Developer Should Know About ECMAScript 2015 (OdeToCode Programming Series): K. Scott Allen",
+        "url": "http://www.amazon.com/dp/B018D12X0C?tag=amazon0abac-22",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "book",
+            "kindle"
+        ],
+        "content": "ES6についてのKindle本\n100ページ程で追加された構文やオブジェクト、メソッドについて解説されてる。",
+        "relatedLinks": []
+    }
+]

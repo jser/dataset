@@ -1,0 +1,297 @@
+[
+    {
+        "category": "Headline",
+        "title": "Node v8.5.0 (Current) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v8.5.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js v8.5.0リリース。\nV8 Snapshotを再有効化、`console.group`の実装、`fs.copyFile`の追加、`--experimental-modules`フラグでES modulesをサポート、Performance Timing APIのサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "V8 JavaScript Engine: V8 Release 6.2",
+        "url": "https://v8project.blogspot.com/2017/09/v8-release-62.html",
+        "tags": [
+            "V8",
+            "ReleaseNote"
+        ],
+        "content": "V8 v6.2リリース。\n`Object#toString()`、ES Proxyのパフォーマンス改善、RegExpの`dotAll`モードのサポート、FullCodeGen関連のコードを削除など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "What's Coming in EdgeHTML 16 - Microsoft Edge Development | Microsoft Docs",
+        "url": "https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/whats-new/edgehtml-16",
+        "tags": [
+            "MSEdge",
+            "ReleaseNote"
+        ],
+        "content": "MSEdge(EdgeHTML) 16の変更点について。\nCSS Gridのサポート、Payment Request APIのサポート、WebVRのサポート、Service Workerの対応など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 1.7.0: JSX tweaks, Pragma, TypeScript and CSS fixes · prettier/prettier",
+        "url": "https://github.com/prettier/prettier/releases/tag/1.7.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "Prettier 1.7.0リリース。\nJSXのフォーマット変更、CSSの大文字小文字の統一、`@prettier`のpragmaをサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing CoffeeScript 2",
+        "url": "http://coffeescript.org/announcing-coffeescript-2/",
+        "tags": [
+            "CoffeeScript",
+            "ReleaseNote"
+        ],
+        "content": "CoffeeScript 2リリース。 \nES2015+に準拠した変更が含まれる。`class`や`=>`がES2015と同等に、 一行コメントが出力されるようになり、Async function、JSX、ES module、for...ofの対応など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Zero-config code transformation with babel-macros · Babel",
+        "url": "https://babeljs.io/blog/2017/09/11/zero-config-with-babel-macros",
+        "tags": [
+            "babel",
+            "article",
+            "plugin"
+        ],
+        "content": "babel-macrosを使ったコンパイル時のマクロ処理について。\nコンパイル時にfsで取得したSVGをインライン化などに利用できる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Tumblr Engineering — Flow and TypeScript",
+        "url": "https://javascript.tumblr.com/post/165082071937/flow-and-typescript",
+        "tags": [
+            "TypeScript",
+            "flowtype"
+        ],
+        "content": "TypeScriptとFlowの型エラーメッセージにについての比較",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Deploying ES2015+ Code in Production Today — Philip Walton",
+        "url": "https://philipwalton.com/articles/deploying-es2015-code-in-production-today/",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "browser",
+            "webpack"
+        ],
+        "content": "moduleをサポートしてるブラウザ向けとそれ以外でビルドしたファイルを分けて配信する方法について。\nwebpack/babelの設定、ファイルサイズやパース時間の違いなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "A React And Preact Progressive Web App Performance Case Study: Treebo",
+        "url": "https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299",
+        "tags": [
+            "React",
+            "article",
+            "performance"
+        ],
+        "content": "Reactなアプリの起動速度を改善したケーススタディ。\nサーバーサイドレンダリング、ルーティングとコード分割、HTMLのストリーミング配信、CSSのクリティカルパス、SWの利用、Preactへの移行、プレースホルダ表示などについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Planning for 7.0 · Babel",
+        "url": "https://babeljs.io/blog/2017/09/12/planning-for-7.0",
+        "tags": [
+            "babel",
+            "article",
+            "opinion"
+        ],
+        "content": "現在βがでているBabel 7.0の予定について。主な変更点やプロジェクトのゴールについて。",
+        "relatedLinks": [
+            {
+                "title": "Upgrade to Babel 7 (WIP) · Babel",
+                "url": "https://babeljs.io/blog/2017/03/01/upgrade-to-babel-7"
+            },
+            {
+                "title": "Upgrade to Babel 7 for Tool Authors (WIP) · Babel",
+                "url": "https://babeljs.io/blog/2017/03/01/upgrade-to-babel-7-for-tool-authors"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Autoplay Policy Changes  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/09/autoplay-policy-changes",
+        "tags": [
+            "Chrome",
+            "video",
+            "article"
+        ],
+        "content": "Chromeデスクトップの自動再生ポリシーの変更について。\nSafari 11と同様に音がある動画はユーザーインタラクションや幾つかの条件を満たした場合のみ自動再生が可能になる。\nMedia Engagement Indexやiframeの`gesture=\"media\"`属性についてなど",
+        "relatedLinks": [
+            {
+                "title": "Auto-Play Policy Changes for macOS | WebKit",
+                "url": "https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/"
+            },
+            {
+                "title": "Chromium Blog: Unified autoplay",
+                "url": "https://blog.chromium.org/2017/09/unified-autoplay.html"
+            },
+            {
+                "title": "Autoplay - The Chromium Projects",
+                "url": "https://sites.google.com/a/chromium.org/dev/audio-video/autoplay"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Building the DOM faster: speculative parsing, async, defer and preload ★ Mozilla Hacks – the Web developer blog",
+        "url": "https://hacks.mozilla.org/2017/09/building-the-dom-faster-speculative-parsing-async-defer-and-preload/",
+        "tags": [
+            "DOM",
+            "browser",
+            "JavaScript"
+        ],
+        "content": "JavaScriptやCSSなどのリソースのロードについて。\n`async`属性、`defer`属性、`rel=preload`でのロードの違いについての解説。\nリソースのロードとレンダリングのブロッキングについてを図解している。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Finally the Promise.prototype.finally() is available",
+        "url": "https://hospodarets.com/promise.prototype.finally",
+        "tags": [
+            "Promises",
+            "JavaScript",
+            "ECMAScript",
+            "proposal"
+        ],
+        "content": "現在Stage 3のPromise#finallyについての解説。\nPromise#finallyのユースケースについてデモを交えての解説している。またasync/awaitとtry/catch/finallyの組み合わせとの類似点について。",
+        "relatedLinks": [
+            {
+                "title": "tc39/proposal-promise-finally: ECMAScript Proposal, specs, and reference implementation for Promise.prototype.finally",
+                "url": "https://github.com/tc39/proposal-promise-finally"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Service Worker Lifecycle by Suguru Inatomi",
+        "url": "http://slides.com/laco/2017-09-14_sw-lifecycle#/",
+        "tags": [
+            "ServiceWorker",
+            "slide"
+        ],
+        "content": "Service Workerのライフサイクルについてのスライド。\nService Workerの登録から削除までのライフサイクルやWorkerの状態について。\nデモアプリで実際に実行して確認することができる。",
+        "relatedLinks": [
+            {
+                "title": "Service Worker のライフサイクル  |  Web  |  Google Developers",
+                "url": "https://developers.google.com/web/fundamentals/instant-and-offline/service-worker/lifecycle"
+            },
+            {
+                "title": "SwLifecycleSandbox",
+                "url": "https://sw-lifecycle-sandbox.firebaseapp.com/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Getting up and running with GraphQL - Pusher Blog",
+        "url": "https://blog.pusher.com/getting-up-and-running-with-graphql/",
+        "tags": [
+            "GraphQL",
+            "tutorial"
+        ],
+        "content": "GraphQLのチュートリアル。\nGraphQLの基本的な機能について",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.",
+        "url": "https://github.com/ai/size-limit",
+        "tags": [
+            "JavaScript",
+            "library",
+            "npm"
+        ],
+        "content": "パッケージのサイズが一定以上になると例外を投げるCLIツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "egoist/package-size: Get the bundle size of an npm package.",
+        "url": "https://github.com/egoist/package-size",
+        "tags": [
+            "npm",
+            "library",
+            "Tools"
+        ],
+        "content": "npmパッケージのbundleサイズを取得できるツール。\nbundleしたファイルサイズ、minified(webpack)、gzipのサイズを一覧できる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "hiproxy/hiproxy: 🛠 hiproxy is a lightweight proxy tool for Front-End developers based on Node.js that supports an NGINX-like configuration. 🔥",
+        "url": "https://github.com/hiproxy/hiproxy",
+        "tags": [
+            "node.js",
+            "proxy",
+            "library",
+            "Tools"
+        ],
+        "content": "フロントエンドの開発向けProxyツール。\nNginxライクな設定ファイル、HTTPSの対応など",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Quasar Framework",
+        "url": "http://quasar-framework.org/",
+        "tags": [
+            "Vue",
+            "UI",
+            "library"
+        ],
+        "content": "Vueを使ったUIフレームワーク",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Learning React Native: Building Native Mobile Apps with JavaScript: Bonnie Eisenman: 9781491989142: Amazon.com: Books",
+        "url": "https://www.amazon.com/Learning-React-Native-Building-JavaScript/dp/1491989149",
+        "tags": [
+            "React",
+            "book",
+            "ios",
+            "Android"
+        ],
+        "content": "2017年11月25日発売\nReact Native本の第二版",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Pro TypeScript: Application-Scale JavaScript Development: Steve Fenton: 9781484232484: Amazon.com: Books",
+        "url": "https://www.amazon.com/dp/1484232488",
+        "tags": [
+            "TypeScript",
+            "book"
+        ],
+        "content": "2018年5月26日発売\nTypeScriptでの開発についての本",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "作りながら学ぶ React入門 | 吉田裕美 |本 | 通販 | Amazon",
+        "url": "https://www.amazon.co.jp/dp/479805075X",
+        "tags": [
+            "React",
+            "book"
+        ],
+        "content": "Reactについての入門書。\n電子版も発売予定 via <https://github.com/jser/ping/issues/74>",
+        "relatedLinks": []
+    }
+]

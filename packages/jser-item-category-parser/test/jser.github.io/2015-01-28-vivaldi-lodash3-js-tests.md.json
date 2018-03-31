@@ -1,0 +1,333 @@
+[
+    {
+        "category": "Headline",
+        "title": "Vivaldi - A new browser for our friends",
+        "url": "https://vivaldi.com/",
+        "tags": [
+            "browser",
+            "Opera",
+            "blink"
+        ],
+        "content": "元Opera CEOが始めたブラウザ。\nChromium(Blink)をベースにしていて、UIにReact等ウェブの技術を使用している。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 41 Beta: New ES6 Features and Improved DevTools for Service Workers and Web Animations",
+        "url": "http://blog.chromium.org/2015/01/chrome-41-beta-new-es6-features-and.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 41βリリース。\nES6 Template Literals、Web Animationsのデバッグ機能、image-rendering: pixelatedのサポート等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 2.5.0 · groupon-testium/testium",
+        "url": "https://github.com/groupon-testium/testium/releases/tag/v2.5.0",
+        "tags": [
+            "E2E",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "Integration Testフレームワークのtestium 2.5.0リリース。\n日本語などの入力ができない問題の修正やエラー表示の改善、`Element.prototype.getElement`の実装など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 3.0.0 · lodash/lodash",
+        "url": "https://github.com/lodash/lodash/releases/tag/3.0.0",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "lodash v3.0.0リリース。\nString関係のメソッドの追加、関数型スタイルで使いやすいメソッドの追加、個々のモジュールとして入れた時の依存関係をシンプルに、パフォーマンスの改善、lazy chainingの導入等",
+        "relatedLinks": [
+            {
+                "title": "Changelog · lodash/lodash Wiki",
+                "url": "https://github.com/lodash/lodash/wiki/Changelog#compatibility-warnings"
+            },
+            {
+                "title": "How to Speed Up Lo-Dash ×100? Introducing Lazy Evaluation. | Filip Zawada",
+                "url": "http://filimanjaro.com/blog/2014/introducing-lazy-evaluation/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release JSHint 2.6.0 · jshint/jshint",
+        "url": "https://github.com/jshint/jshint/releases/tag/2.6.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "JSHint 2.6.0リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint 0.13.0 released - ESLint",
+        "url": "http://eslint.org/blog/2015/01/eslint-0.13.0-released/",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint 0.13.0リリース。\nTemplate strings、デフォルトパラメータ等のES6サポート改善、ブロックスコープの挙動を修正等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "テストできないコードをE2Eテストを使ってリファクタリングしよう | Web Scratch",
+        "url": "http://efcl.info/2015/01/24/testium-e2e-refactoring/",
+        "tags": [
+            "JavaScript",
+            "E2E",
+            "testing",
+            "browser"
+        ],
+        "content": "E2EテストフレームワークのTestiumの紹介とリファクタリングについて。\nMocha+Testium+power-assertでユニットテストと同じようにE2Eテストを書くための設定やサンプル",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Fetch API in action",
+        "url": "http://blog.gospodarets.com/fetch_in_action",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "API",
+            "XHR"
+        ],
+        "content": "Fetch APIについての紹介。\nレスポンスのステータスコード、レスポンスのJSONパース、タイムアウトの問題、使い方、polyfillについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Destructuring and parameter handling in ECMAScript 6",
+        "url": "http://www.2ality.com/2015/01/es6-destructuring.html",
+        "tags": [
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "ES6のDestructuring(分割代入、構造化代入)と引数時の扱いについて。\nまたSpread operatorを使った値の展開についても書かれてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Strange JavaScript Errors and How to Fix Them",
+        "url": "http://davidwalsh.name/fix-javascript-errors",
+        "tags": [
+            "JavaScript",
+            "debug"
+        ],
+        "content": "JavaScriptのエラーメッセージとそれがどのようなときに起きてるエラーなのか、また修正方法について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "addyosmani/es6-equivalents-in-es5",
+        "url": "https://github.com/addyosmani/es6-equivalents-in-es5",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "tutorial",
+            "document"
+        ],
+        "content": "ES6で書かれたものとES5で同等の事を行うコードを並べて、ES6の機能について紹介",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Getting Literal With ES6 Template Strings",
+        "url": "http://updates.html5rocks.com/2015/01/ES6-Template-Strings",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "ES6 Template Stringsについての解説",
+        "relatedLinks": [
+            {
+                "title": "TemplateStrings.md",
+                "url": "https://gist.github.com/kuu/b7eb679a3ad48d980ed3"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "5分でわかる正しい Web サイト常時 SSL 化のための基礎知識 | WWW WATCH",
+        "url": "http://hyper-text.org/archives/2015/01/full_time_ssl_website_quick_start.shtml",
+        "tags": [
+            "HTTP",
+            "SSL",
+            "まとめ"
+        ],
+        "content": "SSLの効果 - メリットとデメリット、SSL証明書の種類と取得方法、外部リソースの読み込みとMixed Content、HTTPSに接続を強制する方法 - HSTS、リダイレクト、CookieのSecure属性などについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ES6 Module Gotchas | geedew",
+        "url": "http://www.geedew.com/2014/12/26/es6-module-gotchas/",
+        "tags": [
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "ES6 modulesのアンチパターンについて。\n静的なものを扱うデザインであるという話、オブジェクトをexportした場合の問題、副作用を目的としたモジュールの読込方法、export defaultを出来るだけ使うべき等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "New animation controls in Chrome Canary | Val Head - Designer",
+        "url": "http://www.valhead.com/2015/01/06/quick-tip-chrome-animation-controls/",
+        "tags": [
+            "CSS",
+            "Chrome",
+            "debug"
+        ],
+        "content": "ChromeのCSS animationのデバッグ機能についての紹介",
+        "relatedLinks": [
+            {
+                "title": "New animation inspector panel in Firefox 37 - YouTube",
+                "url": "https://www.youtube.com/watch?v=3UZdsbmYduQ"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "What the Virtual Viewport?",
+        "url": "http://updates.html5rocks.com/2015/01/virtual-viewport",
+        "tags": [
+            "Chrome",
+            "browser"
+        ],
+        "content": "Chrome 39と40でviewportの仕組みが変わった。\n40からLayout ViewportとVisual Viewportに分かれて処理されるようになった。(IEと同様)\nズーム時にposition: fixedな要素等の動作の違いがでる。",
+        "relatedLinks": [
+            {
+                "title": "Chrome Viewports - Google スライド",
+                "url": "https://docs.google.com/presentation/d/1nJvJqL2dw5STi5FFpR6tP371vSpDWWs5Beksbfitpzc/present"
+            },
+            {
+                "title": "A tale of two viewports — part two",
+                "url": "http://www.quirksmode.org/mobile/viewports2.html"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "A Journey Through Client-Side Testing with JavaScript -Telerik Developer Network",
+        "url": "http://developer.telerik.com/featured/journey-client-side-testing-javascript/",
+        "tags": [
+            "JavaScript",
+            "testing"
+        ],
+        "content": "JavaScriptのテスト全体について書かれた記事。\nテストフレームワーク、Assertionライブラリ、Test Runnerなどテストを構成する要素。\nmocha-phantom、karma、DalekJS、Atomusでの実行方法について",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Functional programming in javascript (intro) // Speaker Deck",
+        "url": "https://speakerdeck.com/geekingfrog/functional-programming-in-javascript-intro",
+        "tags": [
+            "JavaScript",
+            "スライド",
+            "関数型プログラミング"
+        ],
+        "content": "JavaScriptと関数型プログラミングについてのスライド。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Web Componentsのアクセシビリティ",
+        "url": "http://www.slideshare.net/mlca11y/web-components-43883982",
+        "tags": [
+            "WebComponents",
+            "WAI-ARIA",
+            "アクセシビリティ",
+            "スライド"
+        ],
+        "content": "Web Componentsとアクセシビリティについてのスライド。\n既存要素があるケースと独自要素の場合はWAI-ARIAを使うことについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "CSS Flexbox Please!",
+        "url": "http://demo.agektmr.com/flexbox/",
+        "tags": [
+            "CSS",
+            "demo"
+        ],
+        "content": "CSS Flexboxのプロパティをその場で変更したりして動作を試せるデモページ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Diet.js",
+        "url": "http://dietjs.com/",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "Node.jsのウェブアプリケーションフレームワーク",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "yoshuawuyts/promise-each",
+        "url": "https://github.com/yoshuawuyts/promise-each",
+        "tags": [
+            "Promises",
+            "library"
+        ],
+        "content": "Promiseと組み合わせて使えるeach、every、filter、map、reduce、some等の関数をそれぞれモジュール化したもの",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Home | Aurelia",
+        "url": "http://aurelia.io/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Durandalの次世代となるJavaScriptフレームワーク。 ES6(or AltJS) + jspm、two-way binding、DI、ルーティング等を盛り込んだフレームワーク。\n元AngularJSチームの人が開発してる",
+        "relatedLinks": [
+            {
+                "title": "Introducing Aurelia",
+                "url": "http://blog.durandal.io/2015/01/26/introducing-aurelia/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "shiwano/typhen",
+        "url": "https://github.com/shiwano/typhen",
+        "tags": [
+            "TypeScript",
+            "Tools"
+        ],
+        "content": "d.tsからJSON Schemaを作ったり、Handlebarsを使ったテンプレートでコードやドキュメントを出力できるツール",
+        "relatedLinks": [
+            {
+                "title": "TypeScript の型定義からコードを自動生成するツールを作った - Qiita",
+                "url": "http://qiita.com/shiwano/items/dd769ead84e0da2d349a"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Wallaby - intelligent test runner for JavaScript",
+        "url": "http://wallabyjs.com/",
+        "tags": [
+            "JetBrains",
+            "IDE",
+            "JavaScript",
+            "testing"
+        ],
+        "content": "JetBrains IDE等と統合して使えるTest Runner。\nMocha、QUnit、Jasmine等が使えて、コードカバレッジをエディタ上に表示、テストケースを一部だけ実行などが出来る。\nspy-jsの人が作ってる",
+        "relatedLinks": []
+    }
+]

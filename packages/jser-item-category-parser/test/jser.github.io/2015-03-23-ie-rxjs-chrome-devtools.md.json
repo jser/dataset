@@ -1,0 +1,300 @@
+[
+    {
+        "category": "Headline",
+        "title": "Rendering engine updates in March for the Windows 10 Technical Preview - IEBlog - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/ie/archive/2015/03/18/rendering-engine-updates-in-march-for-the-windows-10-technical-preview.aspx",
+        "tags": [
+            "IE",
+            "ReleaseNote"
+        ],
+        "content": "Windows 10 Technical Previewのアップデートが行われて、ブラウザのレンダリングエンジンもアップデートされている。\nWAI-ARIA Landmark Roles、Web Audio API、Touch Events、Fullscreen APIなどのサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "flow/Changelog at v0.7.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/v0.7.0/Changelog",
+        "tags": [
+            "JavaScript",
+            "flowtype",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "FlowType 0.7.0リリース。\nES6 modulesのサポート開始、null/undefinedとの比較するケースの対応改善、`hasOwnProperty`を呼び出してるケースの対応改善",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v0.13.1 | React",
+        "url": "http://facebook.github.io/react/blog/2015/03/16/react-v0.13.1.html",
+        "tags": [
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "React v0.13.1リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "harmony:specification_drafts [ES Wiki]",
+        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#march_17_2015_rev_36_release_candidate_3",
+        "tags": [
+            "ECMAScript",
+            "ReleaseNote"
+        ],
+        "content": "ES6仕様書RC3リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Explore React",
+        "url": "http://x-team.github.io/explore-react/",
+        "tags": [
+            "React",
+            "コードリーディング"
+        ],
+        "content": "Reactのコードリーディングをしながら内部的な仕組みを見ていく話",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Moving Codecademy to ECMAScript 6, Webpack, and React",
+        "url": "http://artur.co/articles/moving-codecademy-to-es6-webpack-and-react/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "React"
+        ],
+        "content": "Codecademyのクライアントサイドのアーキテクチャの変遷について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Chromium Blog: New JavaScript techniques for rapid page loads",
+        "url": "http://blog.chromium.org/2015/03/new-javascript-techniques-for-rapid.html",
+        "tags": [
+            "Chrome",
+            "JavaScript"
+        ],
+        "content": "Chrome 41で`async`属性をつけたスクリプトはダウンロードが始まった瞬間にパーサ用の別スレッドでパースされるためより高速になるとの話",
+        "relatedLinks": [
+            {
+                "title": "レンダリングを妨げる JavaScript を削除する - PageSpeed Insights — Google Developers",
+                "url": "https://developers.google.com/speed/docs/insights/BlockingJS"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "「RxJS」初心者入門 - JavaScriptの非同期処理の常識を変えるライブラリ | 株式会社LIG",
+        "url": "http://liginc.co.jp/web/js/151272",
+        "tags": [
+            "JavaScript",
+            "Rx"
+        ],
+        "content": "RxJSの入門記事。\nRxのパラダイム的な話やサンプルなどがまとまってる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ES5の範囲でOption型を表すライブラリ、option-t を作った - snyk_s log",
+        "url": "http://saneyukis.hatenablog.com/entry/2015/03/20/191424",
+        "tags": [
+            "JavaScript",
+            "library",
+            "Rust",
+            "Promises"
+        ],
+        "content": "(初期状態)未選択を状態として保存したい時に使うOption typeの実装ライブラリ(like Rust)",
+        "relatedLinks": [
+            {
+                "title": "saneyuki/option-t.js",
+                "url": "https://github.com/saneyuki/option-t.js"
+            },
+            {
+                "title": "「値が無い」ということをどう表現するか、あるいはOption型について - Line 1: Error: Invalid Blog(",
+                "url": "http://bugrammer.hateblo.jp/entry/2013/07/30/134120"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "JavaScript - 4パターンのWebWorker生成方法とインラインワーカーの技法 - Qiita",
+        "url": "http://qiita.com/mohayonao/items/872166cf364e007cf83d",
+        "tags": [
+            "JavaScript",
+            "webworker"
+        ],
+        "content": "WebWorkerの生成方法についてのまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "material-fluxというFluxライブラリをREADME駆動で開発した | Web Scratch",
+        "url": "http://efcl.info/2015/03/17/material-flux/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "Flux",
+            "ECMAScript"
+        ],
+        "content": "特殊なハックをできるだけ排除したFluxライブラリを作った話とREADME駆動について。\nまたES6 ClassesをベースとしたAPIについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "RemoteDebug and cross-browser DevTools. One year later. — Kenneth Auchenberg",
+        "url": "https://kenneth.io/blog/2015/03/12/remotedebug-one-year-later",
+        "tags": [
+            "JavaScript",
+            "browser",
+            "debug"
+        ],
+        "content": "ブラウザ間の共通デバッグプロトコルを作るプロジェクトであるRemoteDebugを公開して1年経ってどのような変化があったかについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "DevTools: State Of The Union 2015 // Speaker Deck",
+        "url": "https://speakerdeck.com/addyosmani/devtools-state-of-the-union-2015",
+        "tags": [
+            "Chrome",
+            "debug",
+            "Tools",
+            "スライド"
+        ],
+        "content": "Chromeの開発者ツールの新しい機能や実際のパフォーマンス計測、問題の見つけ方について。\nWikipediaとjQueryの例、一つの処理が100ms以上取ってるなら危険、`hide()`のボトルネック、まずは計測することから始めるという話",
+        "relatedLinks": [
+            {
+                "title": "jQuery UK Conference - Oxford 2015",
+                "url": "http://jqueryuk.com/2015/videos.php?s=devtools-state-of-the-union"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Using npm link to use node modules that are &quot;in progress&quot; - Node.js Video Tutorial #free @eggheadio",
+        "url": "https://egghead.io/lessons/node-js-using-npm-link-to-use-node-modules-that-are-in-progress",
+        "tags": [
+            "node.js",
+            "npm",
+            "動画"
+        ],
+        "content": "npm linkを使った開発についてのスクリーンキャスト",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "jQuery UK Conference - Oxford 2015",
+        "url": "http://jqueryuk.com/2015/videos.php",
+        "tags": [
+            "jQuery",
+            "動画",
+            "まとめ"
+        ],
+        "content": "jQuery UK 2015の動画が公開された",
+        "relatedLinks": [
+            {
+                "title": "Coverage of jQuery UK 2015 | Lanyrd",
+                "url": "http://lanyrd.com/2015/jquery-uk/coverage/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ウェブパフォーマンスの基礎とこれから",
+        "url": "http://www.slideshare.net/kawada_hiroshi/ss-46149727",
+        "tags": [
+            "web",
+            "performance",
+            "スライド"
+        ],
+        "content": "通信についてを中心に扱うパフォーマンスについてのスライド\nウェブサイトの表示までにどういう通信が起きてるか、ブラウザ上でどうやって計測するかやPerformance Timelineなどの仕様について、HTTP/2での戦略の違いなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Jank Free: Let&#x27;s Make the Web Silky Smooth!",
+        "url": "http://jankfree.org/",
+        "tags": [
+            "JavaScript",
+            "browser",
+            "Chrome",
+            "V8",
+            "performance",
+            "動画",
+            "まとめ"
+        ],
+        "content": "ウェブサイトで60FPSの描画をするためのパフォーマンスチューニング等についてのスライド、動画や記事のまとめサイト。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "eatcodeplay/Konsole.js",
+        "url": "https://github.com/eatcodeplay/Konsole.js",
+        "tags": [
+            "JavaScript",
+            "debug",
+            "library"
+        ],
+        "content": "画面内にコンソールを表示できるFirebug Lite的なライブラリ。\nconsole APIの上書き、DOMのインスペクト、CSSの操作、FPSの表示など",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Hamsa",
+        "url": "http://gethamsa.com/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "`Object.observe()`(又はpolyfill)を使ったモデルライブラリ。\nスキーマ的なプロパティの型やデフォルト値の定義、class継承、`Object.observe()`を使った変更監視、find系の探査メソッドを持つ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "O&#x27;Reilly Japan - 入門 React",
+        "url": "http://www.oreilly.co.jp/books/9784873117195/",
+        "tags": [
+            "React",
+            "book"
+        ],
+        "content": "2015年03月27日発売\nDeveloping a React Edgeの翻訳本。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "HTML5 &amp; CSS3 For The Real World, 2nd Edition - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/9780987467485.do",
+        "tags": [
+            "HTML5",
+            "CSS",
+            "book"
+        ],
+        "content": "広義のHTMLとCSSの新しいAPIなどを見ていく書籍",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Functional Programming in JavaScript - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/9781784398224.do",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "2015年3月発売。\n関数型JavaScriptについての書籍",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "React+d3.js by Swizec Teller [Leanpub PDF/iPad/Kindle]",
+        "url": "https://leanpub.com/reactd3js",
+        "tags": [
+            "React",
+            "d3.js",
+            "book"
+        ],
+        "content": "ReactとD3.jsについての書籍",
+        "relatedLinks": []
+    }
+]

@@ -1,0 +1,285 @@
+[
+    {
+        "category": "Headline",
+        "title": "io.js/CHANGELOG.md at v1.5.0 · iojs/io.js",
+        "url": "https://github.com/iojs/io.js/blob/v1.5.0/CHANGELOG.md",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "io.js 1.5.0リリース。",
+        "relatedLinks": [
+            {
+                "title": "io.js ウィークリーアップデート 2015/03/06",
+                "url": "http://blog.iojs.jp/2015-03-06.html"
+            },
+            {
+                "title": "Release v2.7.0 · npm/npm",
+                "url": "https://github.com/npm/npm/releases/tag/v2.7.0"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "NW.js v0.12.0 released - Google グループ",
+        "url": "https://groups.google.com/forum/#!msg/nwjs-general/NJA-Up4MFug/1jmBPjzklSUJ",
+        "tags": [
+            "node-webkit",
+            "ReleaseNote"
+        ],
+        "content": "NW.js 0.12.0リリース。\n`webview`タグの追加、chrome.webrequest APIの追加、`bg-script`フィールドの追加、ソースコードを難読化するnwjcツールの追加など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint 0.16.0 released - ESLint",
+        "url": "http://eslint.org/blog/2015/03/eslint-0.16.0-released/",
+        "tags": [
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "ESLint 0.16.0リリース。\nClasses、Moduleのサポートが追加されES6のサポート(パース)がひとまず完了。\n// コメントでルール設定を無効化できるように",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v0.13 RC2 | React",
+        "url": "http://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html",
+        "tags": [
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "React v0.13 RC2リリース。\n`React.cloneElement`の追加など",
+        "relatedLinks": [
+            {
+                "title": "reactjs - React v0.13 RC - 気になる点を検証 - Qiita",
+                "url": "http://qiita.com/kenfdev/items/dbe10e2f0256e22945ca"
+            },
+            {
+                "title": "React.js v0.13 changes - blog.koba04.com",
+                "url": "http://blog.koba04.com/post/2015/03/05/react-js-v013-changes/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "harmony:specification_drafts [ES Wiki]",
+        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#march_4_2015_rev_35_release_candidate_2",
+        "tags": [
+            "ECMAScript",
+            "spec",
+            "ReleaseNote"
+        ],
+        "content": "ES6 RC2(Rev 35)リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Brackets Blog - The Free, Open Source Code Editor for the Web",
+        "url": "http://blog.brackets.io/2015/03/02/brackets-1-2-now-available/",
+        "tags": [
+            "JavaScript",
+            "editor",
+            "ReleaseNote"
+        ],
+        "content": "Brackets 1.2リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing Orion 8.0 | Orion News",
+        "url": "http://planetorion.org/news/2015/02/announcing-orion-8-0/",
+        "tags": [
+            "JavaScript",
+            "IDE",
+            "ReleaseNote"
+        ],
+        "content": "WebIDEのOrion 8.0リリース。\nJavaScriptのLint、補完、JSDoc、Quickfix、CSSのLintの強化などが入ってる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "mocha/HISTORY.md at 2.2.0 · mochajs/mocha",
+        "url": "https://github.com/mochajs/mocha/blob/2.2.0/HISTORY.md",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "Mocha 2.2.0リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "The Flux Quick Start Guide",
+        "url": "http://www.jackcallister.com/2015/02/26/the-flux-quick-start-guide.html",
+        "tags": [
+            "Flux",
+            "JavaScript"
+        ],
+        "content": "Fluxアーキテクチャのコンセプトについて登場要素ごとに順を追って解説されてる。\n併せて小さなstarter-kitも用意されているので、動かして試すことができる",
+        "relatedLinks": [
+            {
+                "title": "jarsbe/flux-starter-kit",
+                "url": "https://github.com/jarsbe/flux-starter-kit"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "今話題のReact.jsはどのようなWebアプリケーションに適しているか？ Introduction To React─ Frontrend Conference | HTML5Experts.jp",
+        "url": "http://html5experts.jp/hokaccha/13301/",
+        "tags": [
+            "JavaScript",
+            "React"
+        ],
+        "content": "Reactの概念をわかりやすく解説してる。 \nどのようなサイクルでレンダリングがおこなわれるかをBackboneなどと比較しながらReactの設計思想について解説されてる。",
+        "relatedLinks": [
+            {
+                "title": "▶ Introduction To React by Kazuhito Hokamura - YouTube",
+                "url": "https://www.youtube.com/watch?v=Biam884qSjg"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Comparing Angular 1.x &amp; 2.0",
+        "url": "http://shmck.com/comparing-angular-1-x-2-0/",
+        "tags": [
+            "AngularJS",
+            "JavaScript"
+        ],
+        "content": "AngularJSの1.xと2.0でどのような部分が異なるかについて。\n変更監視、コンポーネント、スコープ、モジュール、DirectivesとComponents、Router、テンプレート、アノテーション等について",
+        "relatedLinks": [
+            {
+                "title": "AngularJS: AngularJS 2.0",
+                "url": "https://blog.angularjs.org/2014/03/angular-20.html"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Angular 2: Built on TypeScript - TypeScript - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/typescript/archive/2015/03/05/angular-2-0-built-on-typescript.aspx",
+        "tags": [
+            "AngularJS",
+            "TypeScript"
+        ],
+        "content": "TypeScriptにアノテーションを実装していく方針になったのでAtScript自体はなくなるという話。\n\n[Welcome Brad Green and Igor Minar - YouTube](https://www.youtube.com/watch?v=QHulaj5ZxbI \"Welcome Brad Green and Igor Minar - YouTube\")の20:00ぐらいからAtScriptについての話。",
+        "relatedLinks": [
+            {
+                "title": "Angular、TypeScript、Javascript、AtScript、Dart、なんてこった (Angular.ts.js.at.dart.wtf) - Qiita",
+                "url": "http://qiita.com/Cat_sushi/items/04abb9a1d248131bf5c0"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Comparison of 4 popular JavaScript MV* frameworks (part 2) - Developer Economics",
+        "url": "http://www.developereconomics.com/comparison-4-popular-javascript-mv-frameworks-part-2/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Ember、AngularJS、Backbone、React比較。\nそれぞれのデータを可視化して紹介してる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "poteto/emberconf-2015",
+        "url": "https://github.com/poteto/emberconf-2015",
+        "tags": [
+            "JavaScript",
+            "イベント",
+            "スライド"
+        ],
+        "content": "EmberConf 2015のスライドや動画、ブログのまとめ",
+        "relatedLinks": [
+            {
+                "title": "EmberConf 2015",
+                "url": "http://emberconf.com/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Frontrend Final Conference 2015 - YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLTo9gQMPMgGaVv9e-ZsrzhWvu5BgyWpi-",
+        "tags": [
+            "JavaScript",
+            "CSS",
+            "イベント",
+            "動画"
+        ],
+        "content": "Frontrend Final Conference 2015の動画が公開された",
+        "relatedLinks": [
+            {
+                "title": "Frontrend Conference - A conference for front-end developer（2015年2月21日開催）",
+                "url": "http://frontrend.github.io/conference/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Angular — ng-conf 2015 media — AngularJs Meetup — South London — Medium",
+        "url": "https://medium.com/angularjs-meetup-south-london/angular-ng-conf-2015-media-25dbe6250154",
+        "tags": [
+            "AngularJS",
+            "イベント",
+            "動画",
+            "スライド"
+        ],
+        "content": "ng-conf 2015の動画とスライドまとめ",
+        "relatedLinks": [
+            {
+                "title": "ng-conf 2015 - The World",
+                "url": "http://www.ng-conf.org/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "flexbox in 5 minutes",
+        "url": "http://flexboxin5.com/",
+        "tags": [
+            "CSS",
+            "サンプル"
+        ],
+        "content": "flexboxについて動かしながら学べるサイト",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jeffposnick/sw-precache · GitHub",
+        "url": "https://github.com/jeffposnick/sw-precache",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ServiceWorker"
+        ],
+        "content": "Service Workerでキャッシュするデータを定義したコードを生成してくれるNode.jsモジュール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "royriojas/eslint-friendly-formatter",
+        "url": "https://github.com/royriojas/eslint-friendly-formatter",
+        "tags": [
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "ESLintのLint結果を該当コードの行と合わせて表示できるESLintのformatter",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "timoxley/chimes",
+        "url": "https://github.com/timoxley/chimes",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Iterableなオブジェクトに対するArray.forEachやsome、reduce等の関数を提供するライブラリ",
+        "relatedLinks": []
+    }
+]

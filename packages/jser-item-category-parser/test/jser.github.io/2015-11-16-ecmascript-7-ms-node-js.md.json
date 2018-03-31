@@ -1,0 +1,231 @@
+[
+    {
+        "category": "Headline",
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#614",
+        "tags": [
+            "babel",
+            "ReleaseNote"
+        ],
+        "content": "Babel 6.1.4リリース。\n`babel/register`が`babel-register`というパッケージに分離、ブラウザ向けの`babel-browser`パッケージの追加、バグ修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "What’s in ECMAScript 2016 (ES7)?",
+        "url": "http://www.2ality.com/2015/11/tc39-process.html",
+        "tags": [
+            "ECMAScript",
+            "spec"
+        ],
+        "content": "ECMAScriptに関する用語解説やES.nextにおける策定プロセスの解説。\nまた“ES7 features”のような紹介は間違っているかもしれないという話や現状の策定状況についてなど",
+        "relatedLinks": [
+            {
+                "title": "Introduction | ECMAScriptとは何か？",
+                "url": "http://azu.github.io/slide-what-is-ecmascript/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Haskell in ES6: Part 1- casual javascript",
+        "url": "http://casualjavascript.com/javascript/es6/haskell/native/implementation/2015/11/12/haskell-in-es6-part-1.html",
+        "tags": [
+            "JavaScript",
+            "関数型プログラミング"
+        ],
+        "content": "JavaScriptでHaskellの関数を実装していく話",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Anatomy of a large Angular application — Medium",
+        "url": "https://medium.com/@bojzi/anatomy-of-a-large-angular-application-f098e5e36994",
+        "tags": [
+            "AngularJS",
+            "JavaScript",
+            "設計"
+        ],
+        "content": "大きなAngularJSアプリの構造について。\nTypeScriptで書いてBrowserifyでビルド、コードの構造のレイヤー分けやデータフローなどの設計について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Microsoft/nodejs-guidelines",
+        "url": "https://github.com/Microsoft/nodejs-guidelines",
+        "tags": [
+            "MS",
+            "node.js",
+            "windows",
+            "tutorial"
+        ],
+        "content": "Windows向けのNode.js入門的なガイドライン",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "KeitaMoromizato/js-study-front-test",
+        "url": "https://github.com/KeitaMoromizato/js-study-front-test",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "tutorial"
+        ],
+        "content": "Node.jsでのテストとKarmaなどを使ったブラウザテストの違いや仕組みについて。\n実際に試せるサンプルと共に紹介されているので分かりやすい。",
+        "relatedLinks": [
+            {
+                "title": "社内JavaScript勉強会で作ったコンテンツまとめ - Qiita",
+                "url": "http://qiita.com/KeitaMoromizato/items/82679e98add1345646c6"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Kinoma now shipping JavaScript 6th Edition (ES6) support | Kinoma Notes - Blog of Kinoma team",
+        "url": "http://blog.kinoma.com/2015/10/es6_support/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "KinomaのIoTデバイス向けのJavaScriptエンジンXS6がES6 Compat tableで96％の実装率を持っているという話",
+        "relatedLinks": [
+            {
+                "title": "ECMAScript 6 compatibility table",
+                "url": "http://kangax.github.io/compat-table/es6/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ES6 in Practice",
+        "url": "http://www.slideshare.net/teppeis/es6-in-practice",
+        "tags": [
+            "ECMAScript",
+            "スライド"
+        ],
+        "content": "ECMAScriptの策定プロセスやES6 Modulesについてのスライド。\nES6 Modulesのメリット、現状の問題について書かれている。\n現状では構文とセマンティクスのみが決定している。\n読み込み方などについて、BabelなどのTranspilerは独自の解釈があることについての問題提起",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "BlinkOn 5 One Pager - Google ドキュメント",
+        "url": "https://docs.google.com/document/d/1BtfsTBVt7KZekH69dCXK0nOCn-W_kkv23lqjqTJ_sYY/edit#heading=h.rx77pwie3tnj",
+        "tags": [
+            "blink",
+            "イベント",
+            "まとめ"
+        ],
+        "content": "BlinkOn 5のスライドと動画まとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Porting C/C++ to Web - Google スライド",
+        "url": "https://docs.google.com/presentation/d/1liKVavDBbcg0w8izutvVopCWKGu5M7EJPvst1JlpN_s/present#slide=id.p",
+        "tags": [
+            "JavaScript",
+            "C言語",
+            "C++",
+            "スライド"
+        ],
+        "content": "ブラウザのプラグイン(ネイティブコード)とJavaScriptについてのスライド。\nC/C++をemscriptenで変換する方法やasm.js、wasmについての解説。\nまたそれぞれの現段階での実行速度について",
+        "relatedLinks": [
+            {
+                "title": "Web Assembly BlinkOn 5 - Google スライド",
+                "url": "https://docs.google.com/presentation/d/19gdTwicIb-tkZ1bg8117pKVJ5oLnBbf1FsRUfDuFSQg/present#slide=id.g40421410250356b_1"
+            },
+            {
+                "title": "ハイパフォーマンスなWebを実現するasm.js／WebAssemblyとは――Mozillaのルーク・ワグナー氏に聞く：CodeZine（コードジン）",
+                "url": "http://codezine.jp/article/detail/9072"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "鉄腕アニメーション",
+        "url": "http://people.mozilla.org/~bbirtles/pres/201511-astro-animation/#/title-screen",
+        "tags": [
+            "firefox",
+            "animation",
+            "スライド"
+        ],
+        "content": "Web Animationについてのスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Schedule - View Source",
+        "url": "https://viewsourceconf.org/schedule/",
+        "tags": [
+            "browser",
+            "イベント",
+            "スライド",
+            "まとめ"
+        ],
+        "content": "ViewSource Conferenceの動画とスライドまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Jeff Morrison - Flow or how I learned to stop worrying and typecheck my React code - YouTube",
+        "url": "https://www.youtube.com/watch?v=9U4_hlnaFEE",
+        "tags": [
+            "React",
+            "flowtype",
+            "動画"
+        ],
+        "content": "ReactとFlowTypeを使った開発についての動画",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jaredreich/notie.js",
+        "url": "https://github.com/jaredreich/notie.js",
+        "tags": [
+            "JavaScript",
+            "UI",
+            "library"
+        ],
+        "content": "依存がないNotification UIライブラリ。\n画面上部に被さる形の通知UI",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "danvk/source-map-explorer · GitHub",
+        "url": "https://github.com/danvk/source-map-explorer",
+        "tags": [
+            "sourcemap",
+            "debug"
+        ],
+        "content": "Source Mapから利用情報を可視化してファイルサイズやサイズの割合などを調べるツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mweststrate/mobservable",
+        "url": "https://github.com/mweststrate/mobservable",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "配列やオブジェクトなどをラップして変更監視が出来るライブラリ。\ngetterとsetterを使い変更を監視するためプロパティの代入による変更を通知出来る",
+        "relatedLinks": [
+            {
+                "title": "Object.observe is dead. Long live Mobservable.observe — Medium",
+                "url": "https://medium.com/@mweststrate/object-observe-is-dead-long-live-mobservable-observe-ad96930140c5"
+            }
+        ]
+    },
+    {
+        "category": "Book",
+        "title": "Client-Side Data Storage - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/0636920043676.do",
+        "tags": [
+            "browser",
+            "JavaScript",
+            "book"
+        ],
+        "content": "2016年1月発売\nクライアントサイドのストレージについての書籍",
+        "relatedLinks": []
+    }
+]

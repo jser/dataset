@@ -1,6 +1,7 @@
 // MIT © 2017 azu
 "use strict";
 import { ContentParser } from "./content-parser";
+import { addLineBreakAfterHTML } from "./patch/add-line-break-after-html";
 
 const remarkAbstract = require("remark");
 const remark = remarkAbstract();
@@ -59,7 +60,7 @@ export interface ParseResult {
  * @returns {[*]}
  */
 export function parse(content: string): ParseResult[] {
-    const AST = remark.parse(content);
+    const AST = remark.parse(addLineBreakAfterHTML(content));
     const allCategory = select(AST, "html[value*=<h1]");
     const results: ParseResult[] = [];
     allCategory.forEach((categoryNode: any, index: number) => {

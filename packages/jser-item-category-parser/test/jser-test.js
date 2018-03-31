@@ -5,18 +5,38 @@ const assert = require("assert");
 const path = require("path");
 const { parse } = require("../src/index");
 
-describe("JSDoc plugin", () => {
-    const fixturesDir = path.join(__dirname, "jser.github.io");
-    fs.readdirSync(fixturesDir).map(caseName => {
-        it(`should parse ${caseName.replace(/-/g, " ")}`, () => {
-            const actualPath = path.join(fixturesDir, caseName);
-            const content = fs.readFileSync(actualPath, "utf-8");
-            try {
-                const actual = parse(content);
-            } catch (error) {
-                console.log(`at ${actualPath}:1:1`);
-                assert.ifError(error);
-            }
+const fixturesDir = path.join(__dirname, "jser.github.io");
+describe("Snapshot testing", () => {
+    fs
+        .readdirSync(fixturesDir)
+        .filter(filePath => {
+            return path.extname(filePath) === ".md";
+        })
+        .forEach(caseName => {
+            it(`Test ${caseName}`, function() {
+                const postMarkdownFile = path.join(fixturesDir, caseName);
+                const actualContent = fs.readFileSync(postMarkdownFile, "utf-8");
+                const actual = parse(actualContent);
+                const expectedFilePath = `${postMarkdownFile}.json`;
+                // UPDATE_SNAPSHOT=1 npm test で呼び出したときはスナップショットを更新
+                if (process.env.UPDATE_SNAPSHOT) {
+                    fs.writeFileSync(expectedFilePath, JSON.stringify(actual, null, 4));
+                    this.skip(); // スキップ
+                    return;
+                }
+                // inputとoutputを比較する
+                const expected = JSON.parse(fs.readFileSync(expectedFilePath, "utf-8"));
+                assert.deepEqual(
+                    actual,
+                    expected,
+                    `
+
+    at ${postMarkdownFile}:1:1
+
+${JSON.stringify(actual)}
+
+`
+                );
+            });
         });
-    });
 });

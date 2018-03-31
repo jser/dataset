@@ -1,0 +1,307 @@
+[
+    {
+        "category": "Headline",
+        "title": "Node v7.5.0 (Current) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v7.5.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "ode v7.5.0リリース。\nnpmのアップデート、`NODE_NO_WARNINGS`の環境変数(`--no-warnings`と同等)を追加など\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "# Release 0.18.0 · avajs/ava\n",
+        "url": "https://github.com/avajs/ava/releases/tag/v0.18.0",
+        "tags": [
+            "JavaScript",
+            "testing"
+        ],
+        "content": "A 0.18.0リリース。\nNode.js 0.10と0.12のサポート終了、Snapshot testing(JSX)、Magic assertの追加など\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": " Announcing TypeScript 2.2 RC | TypeScript\n[",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2017/02/02/announcing-typescript-2-2-rc/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "eScript 2.2 RCリリース。\nプリミティブ型以外を表現する`object` typeの追加、class expressionを使ったmixinの表現をサポート、JSXのreact-nativeのサポートなど\n\n-",
+        "relatedLinks": [
+            {
+                "title": "Roadmap · Microsoft/TypeScript Wiki",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/Roadmap#22-february-2017"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 57 Beta: CSS Grid Layout, Improved Add to Home screen, Media Session API\n[b",
+        "url": "https://blog.chromium.org/2017/02/chrome-57-beta-css-grid-layout-improved.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "me 57 Betaリリース。\nCSS Grid、_Media Session API_、`String#padStart`のサポート。\n`setTimeout()`が条件によりthrottleされるように、XSS Auditor(フィルター)がデフォルトでmode blockとなるように\n\n- ",
+        "relatedLinks": [
+            {
+                "title": "\"",
+                "url": "https://github.com/WICG/interventions/issues/9"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "ithril.js/change-log.md at rewrite · lhorie/mithril.js\n[gi",
+        "url": "https://github.com/lhorie/mithril.js/blob/rewrite/docs/change-log.md",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "ReleaseNote",
+            "library"
+        ],
+        "content": "il 1.0リリース。\nライフサイクルメソッドの追加、コンポーネントは渡す際に`m()`でwrapが必須に、`m.sync`の削除、同期的なredrawの削除など多くの変更がされている。\n\n- [",
+        "relatedLinks": [
+            {
+                "title": "Rewrite Status · Issue #1090 · lhorie/mithril.js",
+                "url": "https://github.com/lhorie/mithril.js/issues/1090"
+            },
+            {
+                "title": "Introduction - Mithril.js",
+                "url": "http://mithril.js.org/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "tive ECMAScript modules: the new features and differences from Webpack modules\n[blo",
+        "url": "https://blog.hospodarets.com/native-ecmascript-modules-new-features",
+        "tags": [
+            "ECMAScript",
+            "module",
+            "webpack"
+        ],
+        "content": "kなどのモジュールとネイティブのES moduleの違いについてまとめられた記事。 モジュールパス、CORS、`script`要素の属性、エラー判定、ES moduleの挙動、feature detectionの方法、fallback、`script`要素の`type`の取得についてなど\n\n\n---",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "eginners Guide to Webpack 2 and Module Bundling\n[www.",
+        "url": "https://www.sitepoint.com/beginners-guide-to-webpack-2-and-module-bundling/",
+        "tags": [
+            "webpack",
+            "tutorial"
+        ],
+        "content": "の基本的な使い方についての解説。\nmoduleの扱い方、loader、plugin、コード分割、dev server、Hot reloadingについて\n\n\n----",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": " on Next.js\n[jsman",
+        "url": "https://jsmantra.com/next-on-next-js-1a134505f346",
+        "tags": [
+            "JavaScript",
+            "React",
+            "サーバー"
+        ],
+        "content": "たフレームワークであるNext.js 2βについて。\nルーティング、コード分割、webpack 2のサポート、webpackやbabelの設定のカスタマイズなどの変更点について\n\n\n----\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "rid – Table layout is back. Be there and be square.  |  Web  |  Google Developers\n[develo",
+        "url": "https://developers.google.com/web/updates/2017/01/css-grid",
+        "tags": [
+            "CSS"
+        ],
+        "content": "概要解説記事\n\n\n----\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": " set up E2E browser testing for your GitHub project\n[hackern",
+        "url": "https://hackernoon.com/how-to-set-up-e2e-browser-testing-for-your-github-project-89c24e15a84",
+        "tags": [
+            "E2E",
+            "testing",
+            "tutorial",
+            "article"
+        ],
+        "content": "ってのE2Eテストの設定方法について。 PageObjectパターン、Travis CIやSauce Labsとの連携について\n\n\n----\n\n#",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "recations and Removals in Chrome 57  |  Web  |  Google Developers\n[develope",
+        "url": "https://developers.google.com/web/updates/2017/02/chrome-57-deprecations",
+        "tags": [
+            "Chrome",
+            "article"
+        ],
+        "content": "非推奨/削除されるAPIについて。 Vendor-prefix付きの`cancelAnimationFrame`、`IndexedDB`、`AudioContext`の削除。 `BluetoothDevice.uuids`、`<keygen>`、`OfflineAudioContext`の削除など\n\n\n----\n\n##",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ure-detection.js\n[gist.gith",
+        "url": "https://gist.github.com/DaBs/89ccc2ffd1d435efdacff05248514f38",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "library"
+        ],
+        "content": "大体サポートしているかを判定する数行のスニペットコード。\n\n\n----\n<h1 ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": " Information - Google ドキュメント\n[docs.googl",
+        "url": "https://docs.google.com/document/d/1jlpsfv0kXCveOEX5l75aATgRXbcAvwyse4Tn6jVprWs/edit#",
+        "tags": [
+            "イベント",
+            "V8",
+            "Chrome",
+            "google"
+        ],
+        "content": "n7のイベントまとめ。\nスライドがまとめられている\n\n\n----\n\n## H",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": " npm Scripts as Your Build Tool - Course by @elijahmanor @eggheadio\n[egghead.io/",
+        "url": "https://egghead.io/courses/how-to-use-npm-scripts-as-your-build-tool",
+        "tags": [
+            "npm",
+            "video",
+            "tutorial"
+        ],
+        "content": "ビルドを行う話についてのスクリーンキャスト\n\n\n----\n\n## JS",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "code it like it's 1999\n[jsmpeg.com/]",
+        "url": "http://jsmpeg.com/",
+        "tags": [
+            "JavaScript",
+            "video",
+            "library"
+        ],
+        "content": "criptでデコードするライブラリ。\nWebSocketsを使った動画のストリーム配信をする目的で作られている。\n\n\n----\n<h1 cla",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": " · GitBook\n[vuex.vuejs.or",
+        "url": "https://vuex.vuejs.org/ja/",
+        "tags": [
+            "Vue",
+            "library",
+            "document",
+            "翻訳"
+        ],
+        "content": "----\n\n## Web ",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Tests Dashboard\n[wptdashboard.a",
+        "url": "https://wptdashboard.appspot.com/",
+        "tags": [
+            "browser",
+            "testing",
+            "DOM",
+            "WebPlatformAPI"
+        ],
+        "content": "-tests: Test Suites for Web Platform specifications—including WHATWG, W3C and others](https://github.com/w3c/web-platform-tests \"w3c/web-platform-tests: Test Suites for Web Platform specifications—including WHATWG, W3C and others\")をブラウザ別で実行した結果がまとめられているページ\n\n- [Web Platform",
+        "relatedLinks": [
+            {
+                "title": "Web Platform Tests in Blink and Beyond - Google スライド",
+                "url": "https://docs.google.com/presentation/d/1s2Dick89wvJsuNJb4ia3pPt84NtMv8rZr0E_GFXJLrk/edit#slide=id.p"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Your guide to Virtual Reality in the browser.\n[webvr.rocks/](h",
+        "url": "https://webvr.rocks/",
+        "tags": [
+            "web ",
+            "VR"
+        ],
+        "content": "ト状況をまとめたサイト\n\n\n----\n<h1 class=",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mp: An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.\n[github.com/olive",
+        "url": "https://github.com/oliver-moran/jimp",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "リサイズや加工などができる。\n\n\n----\n\n## egoist/",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ristic scaffolding tool.\n[github.com/egoist",
+        "url": "https://github.com/egoist/sao",
+        "tags": [
+            "github",
+            "Tools",
+            "console"
+        ],
+        "content": "元にしてプロジェクトを生成出来るscaffoldingツール\n\n\n----\n\n## ide/mux:",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "a promise that waits for the promises in nested data structures and resolves to data structures of the same form. It recursively traverses the input data structure and multiplexes its promises.\n[github.com/ide/mux",
+        "url": "https://github.com/ide/mux",
+        "tags": [
+            "JavaScript",
+            "library",
+            "Promises"
+        ],
+        "content": "ティのPromiseを解決し、その結果を同じ構造で返せるライブラリ\n\n\n----\n<h1 class=\"si",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "ng Aurelia\" from Packt Publishing\n[blog.aurelia.io/201",
+        "url": "http://blog.aurelia.io/2017/02/01/announcing-learning-aurelia-from-packt-publishing/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "book"
+        ],
+        "content": "rning Aurelia ",
+        "relatedLinks": [
+            {
+                "title": "Learning Aurelia | PACKT Books",
+                "url": "https://www.packtpub.com/web-development/learning-aurelia"
+            }
+        ]
+    },
+    {
+        "category": "Book",
+        "title": "d ES2017\n[exploringjs.com/es20",
+        "url": "http://exploringjs.com/es2016-es2017.html",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "book"
+        ],
+        "content": "ての書籍。\nExploringJSの続編\n\n- [Exploring ES2016 a",
+        "relatedLinks": [
+            {
+                "title": "Exploring ES2016 and… by Axel Rauschmayer ",
+                "url": "https://leanpub.com/exploring-es2016-es2017"
+            }
+        ]
+    }
+]

@@ -1,0 +1,494 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release v1.11.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v1.11.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "jscs v1.11.0リリース。\n既存のファイルの用意されてるプリセットでチェックして、自動で設定ファイルを作成出来る`--auto-configure`のオプションの追加、ルールの追加修正など。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "jQuery UI 1.11.3 | jQuery UI Blog",
+        "url": "http://blog.jqueryui.com/2015/02/jquery-ui-1-11-3/",
+        "tags": [
+            "jQuery",
+            "UI",
+            "ReleaseNote"
+        ],
+        "content": "jQuery UI 1.11.3リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Changelog · lodash/lodash Wiki",
+        "url": "https://github.com/lodash/lodash/wiki/Changelog#v320",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "lodash v3.2.0リリース。\n`_.fill`や`_.spread`等の追加、lazyサポートの修正や対応メソッドの追加",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "BrowserSync 2.0 - JH",
+        "url": "http://www.wearejh.com/news/browsersync-2-0/",
+        "tags": [
+            "JavaScript",
+            "browser",
+            "debug",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "LiveReloadなどが入った開発用サーバであるBrowserSync 2.0リリース。\nデバッグのUI画面が追加され、履歴、接続してる端末一覧、CSSでデバッグ用にアウトライン表示などの機能が追加されている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Download RequireJS",
+        "url": "http://requirejs.org/docs/download.html#2-1-16",
+        "tags": [
+            "JavaScript",
+            "AMD",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "RequireJS 2.1.16リリース。\n依存関係のパースをするのにEsprima 2.0を使うように、r.jsがNashornをサポート、UMDサポートのアップデート",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release Pure 0.6.0-rc-1 – New Pure Menus · yahoo/pure",
+        "url": "https://github.com/yahoo/pure/releases/tag/v0.6.0-rc-1",
+        "tags": [
+            "CSS",
+            "ReleaseNote"
+        ],
+        "content": "Pure 0.6.0-rc-1リリース。\nMenusの書き直し、Normalizeのアップデート(IE 7以下はサポート廃止)など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "js2coffee/New_in_2.0.md at master · js2coffee/js2coffee",
+        "url": "https://github.com/js2coffee/js2coffee/blob/master/notes/New_in_2.0.md",
+        "tags": [
+            "JavaScript",
+            "CoffeeScript",
+            "ReleaseNote"
+        ],
+        "content": "JavaScriptをCoffeeScriptに変換するJs2coffee 2.0リリース。\nエディタや警告の表示、ASTの表示、SourceMap対応など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "harmony:specification_drafts [ES Wiki]",
+        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "tags": [
+            "ECMAScript",
+            "ReleaseNote"
+        ],
+        "content": "ECMAScript 2015 (ES6)  Draft Rev 33リリース。\n`super()`に関する制約の記述の追加、module周りのリファクタリング",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Not Born to Die · Babel",
+        "url": "https://babeljs.io/blog/2015/02/15/not-born-to-die",
+        "tags": [
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "6to5が\"Babel\"にリネームされた。\n多くのツールがparsersとtranspilersに依存しているため、Babelプロジェクトではこの部分を解決していく。\nESTreeというASTの仕様の標準化作業にも協力していくとのこと",
+        "relatedLinks": [
+            {
+                "title": "Project scope and future · Issue #568 · babel/babel",
+                "url": "https://github.com/babel/babel/issues/568"
+            },
+            {
+                "title": "estree/estree",
+                "url": "https://github.com/estree/estree"
+            },
+            {
+                "title": "Name suggestions · Issue #596 · babel/babel",
+                "url": "https://github.com/babel/babel/issues/596"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "estree/estree · GitHub",
+        "url": "https://github.com/estree/estree",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "AST"
+        ],
+        "content": "SpiderMonkey Parser APIのASTのドキュメントがGitHubに移行し、ES6についてのドキュメント化が開始された。\n現行の多くのツールがこれに依存していて、明文化されてないASTについてを仕様に落とすのが目的。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "JSCS in use",
+        "url": "http://varya.me/en/posts/jscs-in-use/",
+        "tags": [
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "JavaScriptのコードスタイルチェックツールであるJSCSの使い方について",
+        "relatedLinks": [
+            {
+                "title": "JavaScript CodeStyle. Automatically!",
+                "url": "http://varya.me/jscs-talk/"
+            },
+            {
+                "title": "JSCS: JavaScript Code Style — Frontend Babel",
+                "url": "http://frontendbabel.info/articles/jscs-javascript-code-style/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Extensible Web を支える低レベル API 群 - Block Rockin’ Codes",
+        "url": "http://jxck.hatenablog.com/entry/extensible-lowlevel-api",
+        "tags": [
+            "JavaScript",
+            "WebPlatformAPI"
+        ],
+        "content": "現在策定や実装が進んでいる低レベルなAPIとしてどのようなものがあるかについてのまとめ",
+        "relatedLinks": [
+            {
+                "title": "Extensible web",
+                "url": "http://www.slideshare.net/Jxck/extensible-web"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Change Detection in Angular 2 | Victor Savkin",
+        "url": "http://victorsavkin.com/post/110170125256/change-detection-in-angular-2",
+        "tags": [
+            "AngularJS",
+            "アルゴリズム"
+        ],
+        "content": "Angular 2の変更検知の仕組みについての解説。\n基本的にはComponentツリーを上から走査して変更を検知するが、Reactの`shouldComponentUpdate()`のように子への探索を減らす仕組みが導入されている",
+        "relatedLinks": [
+            {
+                "title": "リアルな DOM はなぜ遅いのか - steps to phantasien",
+                "url": "http://steps.dodgson.org/b/2014/12/11/why-is-real-dom-slow/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Year in review: Spidermonkey part 1 | H4writer",
+        "url": "http://h4writer.com/?p=14",
+        "tags": [
+            "firefox",
+            "歴史"
+        ],
+        "content": "2014年のFirefoxに入ったAPI、機能や改善点等の振り返り",
+        "relatedLinks": [
+            {
+                "title": "Year in review: Spidermonkey in 2014 part 2 | H4writer",
+                "url": "http://h4writer.com/?p=40"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "TouchDevelop - TouchDevelop goes open-source",
+        "url": "https://www.touchdevelop.com/blog/touchdevelopgoesopensource",
+        "tags": [
+            "JavaScript",
+            "TypeScript",
+            "MS",
+            "オープンソース"
+        ],
+        "content": "タッチ操作でアプリを開発出来るウェブアプリである TouchDevelopがオープンソースとして公開された。\nTypeScriptで書かれている",
+        "relatedLinks": [
+            {
+                "title": "TouchDevelop",
+                "url": "https://github.com/Microsoft/TouchDevelop"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "A Guide To ES6 Classes - I Like Kill Nerds",
+        "url": "http://ilikekillnerds.com/2015/02/a-guide-to-es6-classes/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "ES6 Classesについて。\nES5ではどのように\"クラス\"を書いてたかと、ES6ではどのように書けるかについて。\n継承や`super()`についても触れている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Flux solutions compared by example - Pixelhunter.me | Dmitri Voronianski&#x27;s blog",
+        "url": "http://pixelhunter.me/post/110248593059/flux-solutions-compared-by-example",
+        "tags": [
+            "Flux",
+            "サンプル",
+            "JavaScript"
+        ],
+        "content": "Flux実装のライブラリは多種多様で、小さなサンプルをそれぞれのライブラリを使って分かった事について。\n通信でデータ取得はどこですべきか、\nIsomorphicとシングルトン、ComponentをラップしたContainerのレイヤーを設ける事についてなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "60fps on the mobile web — Flipboard Engineering",
+        "url": "http://engineering.flipboard.com/2015/02/mobile-web/",
+        "tags": [
+            "JavaScript",
+            "canvas",
+            "React",
+            "DOM"
+        ],
+        "content": "React Canvasについて。\ncanvas要素でUIを作ることで60FPSのスクロールを実現する。\n宣言的にUIを作れるためDOM的な抽象レイヤーとしてReactを使い、内部的にCanvasでレンダリングするReact Canvasを開発した話",
+        "relatedLinks": [
+            {
+                "title": "Flipboard/react-canvas",
+                "url": "https://github.com/flipboard/react-canvas"
+            },
+            {
+                "title": "Flipboard – React Canvas Accessibility | The Paciello Group – Your Accessibility Partner (WCAG 2.0/508 audits, VPAT, usability and accessible user experience)",
+                "url": "http://www.paciellogroup.com/blog/2015/02/flipboard-react-canvas-accessibility/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "maxogden/maintenance-modules",
+        "url": "https://github.com/maxogden/maintenance-modules",
+        "tags": [
+            "JavaScript",
+            "npm",
+            "Tools"
+        ],
+        "content": "npmでモジュールを公開するのを補助する色々なツールの紹介。\nTravis CIの設定、gh-pagesへのデプロイスクリプト、package.jsonの整形、npm release、依存パッケージのチェックなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Detect JavaScript Problems with ESLint",
+        "url": "http://davidwalsh.name/eslint",
+        "tags": [
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "ESLintを使ったJavaScriptのLintについて。\nオプションの設定方法",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ES6 at PayPal",
+        "url": "http://www.slideshare.net/JamundFerguson/es6-at-paypal",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "スライド"
+        ],
+        "content": "ES6を使ってみようという感じのスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Asynchronous Programming: The End of The Loop - Video Tutorial Series @eggheadio",
+        "url": "https://egghead.io/series/mastering-asynchronous-programming-the-end-of-the-loop",
+        "tags": [
+            "JavaScript",
+            "動画"
+        ],
+        "content": "NetflixのJafar HusainさんによるJavaScriptの非同期プログラミングについてのスクリーンキャスト。\n聞きやすくて、分かりやすくて、書き起こしもある",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Tagtree course: Expert ES6",
+        "url": "http://tagtree.io/courses/expert-es6/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "tutorial"
+        ],
+        "content": "ES6について学べる講座。\nES6の新しい機能についての解説と練習問題を解いて学べる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "nodefest 2014 - YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL42hYWKFRfN689rx3pVReAkYjs2F05Kum",
+        "tags": [
+            "node.js",
+            "イベント",
+            "動画"
+        ],
+        "content": "東京Node学園祭2014 http://nodefest.jp/2014/ の動画が公開された",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "npm/how-to-npm",
+        "url": "https://github.com/npm/how-to-npm",
+        "tags": [
+            "node.js",
+            "npm",
+            "tutorial"
+        ],
+        "content": "npmについてコマンドラインで学べるインタラクティブな教材",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "css2scss - from css to scss",
+        "url": "http://sebastianpontow.de/css2compass",
+        "tags": [
+            "CSS",
+            "Sass",
+            "webservice"
+        ],
+        "content": "CSSからSCSSの機能を使ったものを変換したり、色見本を作ってくれるサービス。",
+        "relatedLinks": [
+            {
+                "title": "汚いcssを整形するWebアプリ「css2scss」でリファクタリングした際、「ヤバい」と感じた３つの機能と３つの点 - Qiita",
+                "url": "http://qiita.com/koh-taka@github/items/bf638dd64c7c09e93557"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "wooorm/eslint-md",
+        "url": "https://github.com/wooorm/eslint-md",
+        "tags": [
+            "JavaScript",
+            "Markdown",
+            "Tools"
+        ],
+        "content": "Markdownの中にあるCodeBlockのJavaScriptをESLintでチェックできるツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Phoenixmatrix/phoenixmatrix-proxy",
+        "url": "https://github.com/Phoenixmatrix/phoenixmatrix-proxy",
+        "tags": [
+            "node-webkit",
+            "proxy",
+            "app"
+        ],
+        "content": "node-webkit(nw.js)で書かれたプロキシアプリ。\nSSLにもCharlesみたいに証明書を使ってプロキシ出来る。Fiddlerとかみたいにスクリプタブルなデバッグプロキシとなるのが目的",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "wix/react-templates",
+        "url": "https://github.com/wix/react-templates",
+        "tags": [
+            "React",
+            "template",
+            "library"
+        ],
+        "content": "ReactのJSXへ変換できるテンプレートとコンパイラ。\nJetBrains IDEで動くプラグインが用意されている\nhttps://github.com/idok/react-templates-plugin",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Flipboard/react-canvas",
+        "url": "https://github.com/flipboard/react-canvas",
+        "tags": [
+            "React",
+            "canvas",
+            "library"
+        ],
+        "content": "CanvasのレンダリングをするReact components。\n基本的な要素、Events、Text sizing、css-layout(パフォーマンス優先なのでなくなるかも?)、Accessibilityへの配慮が予定されてる",
+        "relatedLinks": [
+            {
+                "title": "60fps on the mobile web — Flipboard Engineering",
+                "url": "http://engineering.flipboard.com/2015/02/mobile-web/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Reapp - Hybrid apps, fast",
+        "url": "http://reapp.io/",
+        "tags": [
+            "React",
+            "mobile",
+            "library"
+        ],
+        "content": "ReactベースのモバイルUIフレームワーク",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "maxogden/wzrd",
+        "url": "https://github.com/maxogden/wzrd",
+        "tags": [
+            "JavaScript",
+            "browserify",
+            "debug",
+            "library"
+        ],
+        "content": "beefyみたいなBrowserifyを使ったローカルサーバを立てるコマンドラインツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "typicode/jsop",
+        "url": "https://github.com/typicode/jsop",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "Object.observeを使って読み込んだJSONを書き換えたら自動的に保存するNode.jsモジュール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "acdlite/flummox",
+        "url": "https://github.com/acdlite/flummox",
+        "tags": [
+            "Flux",
+            "JavaScript",
+            "library"
+        ],
+        "content": "Flux実装ライブラリ。\nコアとなるFlummoxクラスを継承して、そこにStoreとActionを登録することでシングルトンを避ける作りになっている。ES6 Classesやasync/awaitを使った書き方等が考慮されている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "fdecampredon/jsx-typescript",
+        "url": "https://github.com/fdecampredon/jsx-typescript",
+        "tags": [
+            "TypeScript",
+            "React"
+        ],
+        "content": "TypeScript + React(JSX)なTypeScript fork.",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Exploring ES6: Upgrade to the next version of JavaScript",
+        "url": "http://exploringjs.com/",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "book"
+        ],
+        "content": "Speaking JavaScriptの著者でもあるDr. AxelによるES6についての書籍",
+        "relatedLinks": [
+            {
+                "title": "First details of my upcoming book on ES6",
+                "url": "http://www.2ality.com/2015/02/es6-book.html"
+            }
+        ]
+    }
+]

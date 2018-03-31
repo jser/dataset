@@ -1,0 +1,233 @@
+[
+    {
+        "category": "Headline",
+        "title": "6.23.0 Released · Babel",
+        "url": "https://babeljs.io/blog/2017/02/13/6.23.0",
+        "tags": [
+            "babel",
+            "ReleaseNote"
+        ],
+        "content": "abel 6.23.0リリース。\n`transform-es2015-block-scoping`に`throwIfClosureRequired`オプションの追加、`babel-preset-flow`の追加。\nReactの最適化プラグインのバグ修正、`babel-traverse`に隣接Nodeを取得するAPIの追加など\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "# Release v0.39.0 · facebook/flow\n",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.39.0",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": "ow v0.39.0リリース。\n`--no-suppressions`のサポート、typeをJSON printできる`$Flow$DebugPrint` typeの追加など\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": " Release Safari IndexedDB support! · localForage/localForage\n[",
+        "url": "https://github.com/localForage/localForage/releases/tag/1.5.0",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "alForage 1.5.0リリース。\nSafari 10.1からはIndexedDBを使うように変更された。\n\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "node の security checkをするなら nsp が便利 - from scratch\n[y",
+        "url": "http://yosuke-furukawa.hatenablog.com/entry/2017/02/14/113910",
+        "tags": [
+            "node.js",
+            "security",
+            "Tools"
+        ],
+        "content": "クトに依存しているモジュールに脆弱性がないかをチェックするツール\nNode Security Platformに公開されている脆弱性を元にチェックする\n\n\n-",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ative ECMAScript modules: dynamic import()\n[bl",
+        "url": "https://blog.hospodarets.com/native-ecmascript-modules-dynamic-import",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "browser"
+        ],
+        "content": "ic `import()` Proposalについての解説。\n`import()`はPromiseベースのAPIである点について、`import()`のfeature detectとpolyfill、Babelやwebpack 2での利用方法など\n\n---",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "eed up Service Worker with Navigation Preloads  |  Web  |  Google Developers\n[dev",
+        "url": "https://developers.google.com/web/updates/2017/02/navigation-preload",
+        "tags": [
+            "ServiceWorker",
+            "Chrome"
+        ],
+        "content": " 57からOrigin-Trialで試験的に使える ServiceWorkerのnavigation preloadについて。\n今まではServiceWorkerが起動してからリクエストが開始されていたため、起動時間がボトルネックとなるケースがあった。\nServiceWorkerをパラレルに扱うことができ、preloadされているリクエストを取得できるAPIについて\n\n- [O",
+        "relatedLinks": [
+            {
+                "title": "OriginTrials/developer-guide.md at gh-pages · jpchase/OriginTrials",
+                "url": "https://github.com/jpchase/OriginTrials/blob/gh-pages/developer-guide.md"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "text in ReactJS Applications\n[java",
+        "url": "http://javascriptplayground.com/blog/2017/02/context-in-reactjs-applications/",
+        "tags": [
+            "React",
+            "tutorial"
+        ],
+        "content": "ontextがどのように動いているかの解説。Contextのメリットとデメリットについて。\nContextの値の流れ、テストの難しさ、ライブラリでの利用について\n\n\n----",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "fill のあり方と Web の進化と協調するためのガイドライン | blog.jxck.io\n[blog.",
+        "url": "https://blog.jxck.io/entries/2017-02-17/polyfill-implementation-guideline.html",
+        "tags": [
+            "polyfill",
+            "JavaScript",
+            "WebPlatformAPI"
+        ],
+        "content": "の役割と、早すぎたpolyfillの実装は仕様変更を難しくするSpeculative Polyfillの問題について。\n間違ったpolyfillの実装、別名での回避事例、\npolyfillを実装するタイミングなどついて書かれてたW3C TAGのドキュメントについて。\n\n- [Pol",
+        "relatedLinks": [
+            {
+                "title": "Polyfills and the evolution of the Web",
+                "url": "https://w3ctag.github.io/polyfills/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "書き方 from JavaScript - Qiita\n[qiita.",
+        "url": "http://qiita.com/mrasu/items/92971c09b6190fdfd45e",
+        "tags": [
+            "i18n",
+            "JavaScript",
+            "library",
+            "article"
+        ],
+        "content": "リがどのような事をしているのかや、言語による違いにはどのようなものがあるかについて。\nいくつかのi18nライブラリを例に多言語化のやり方について解説されている記事\n\n\n----\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "aScript Engine: High-performance ES2015 and beyond\n[v8proje",
+        "url": "https://v8project.blogspot.com/2017/02/high-performance-es2015-and-beyond.html",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "V8",
+            "article"
+        ],
+        "content": "のパフォーマンス改善の取り組みについて。 Babelで変換されたコードサイズの問題やES5で同等の事を行う時の速度の違いについてなど\n\n\n----\n<h",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": " Tutorial | HTML & CSS Is Hard\n[internet",
+        "url": "https://internetingishard.com/html-and-css/flexbox/",
+        "tags": [
+            "CSS"
+        ],
+        "content": "の解説。\nFlexboxのそれぞれのプロパティについてどのようなレイアウトを実現できるかについて書かれてる。\n\n\n----\n\n##",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "pt 日本語ハンドブック | js STUDIO\n[js.studio",
+        "url": "http://js.studio-kingdom.com/typescript/",
+        "tags": [
+            "TypeScript",
+            "翻訳",
+            "document"
+        ],
+        "content": "ドブックの翻訳\n\n\n----\n\n## ",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "rence - A free guide to all HTML elements and attributes.\n[htmlrefere",
+        "url": "http://htmlreference.io/",
+        "tags": [
+            "HTML",
+            "リファレンス"
+        ],
+        "content": "サイト。\nそれぞれのタグごとに動作するサンプルがあり、block/inline/self-closing/metaで大きく分類されている。\n\n\n----\n\n## O",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": " the front end for the browser\n[hackernoon.",
+        "url": "https://hackernoon.com/optimising-the-front-end-for-the-browser-f2f51a29c572",
+        "tags": [
+            "browser",
+            "performance"
+        ],
+        "content": "についての記事。\nHTMLの取得、ネットワーク、DOM、CSSOM、JavaScriptの処理。\nまたこれらの処理の最適化やそのメリットについて\n\n\n----\n<h1 cl",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Born to build better enterprise frameworks and apps with Node.js & koa\n[github.com/e",
+        "url": "https://github.com/eggjs/egg",
+        "tags": [
+            "node.js",
+            "JavaScript",
+            "library"
+        ],
+        "content": "レームワーク。\nconvention over configurationを重視したフレームワーク\n\n\n----\n\n## Rou",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ughjs.com/]",
+        "url": "https://roughjs.com/",
+        "tags": [
+            "JavaScript",
+            "canvas",
+            "SVG",
+            "library"
+        ],
+        "content": "vasライブラリ。\nSVG pathも手描き風に描画することができる。\n\n\n----\n\n## tunn",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ibon: :1st\\_place\\_medal: Functional client-side router in ~570 bytes, built on HTML5 History API.\n[github.com/tun",
+        "url": "https://github.com/tunnckoCore/gibon",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "--\n\n## Jianru",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "bda-view: A New Tool for Reading JavaScript Code\n[github.com/Jian",
+        "url": "https://github.com/Jianru-Lin/lambda-view",
+        "tags": [
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "に読むことを支援するビューアツール。\nスコープ単位でコードを展開して見ていくことができる\n\n----\n<h1 class=\"",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "iven Development, 2nd Edition - O'Reilly Media\n[shop.oreilly.com",
+        "url": "http://shop.oreilly.com/product/9781786465474.do",
+        "tags": [
+            "AngularJS",
+            "book",
+            "testing"
+        ],
+        "content": "-\n",
+        "relatedLinks": []
+    }
+]

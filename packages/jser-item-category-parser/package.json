@@ -16,6 +16,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "mocha 'test/**/*.js'",
+    "test:updateSnapshot": "cross-env UPDATE_SNAPSHOT=1 mocha 'test/**/*.js'",
     "build": "cross-env NODE_ENV=production tsc -p .",
     "watch": "tsc -p . --watch",
     "prepublish": "npm run --if-present build",
@@ -41,7 +42,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^7.0.1",
     "mocha": "^5.0.5",
-    "power-assert": "^1.4.2",
+    "power-assert": "^1.5.0",
     "prettier": "^1.11.1",
     "ts-node": "^5.0.1",
     "typescript": "^2.5.3"

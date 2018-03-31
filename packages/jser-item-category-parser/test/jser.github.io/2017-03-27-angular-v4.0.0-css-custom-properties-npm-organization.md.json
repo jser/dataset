@@ -1,0 +1,284 @@
+[
+    {
+        "category": "Headline",
+        "title": "moment/CHANGELOG.md at 2.18.0 · moment/moment",
+        "url": "https://github.com/moment/moment/blob/2.18.0/CHANGELOG.md",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "moment 2.18.0リリース・\nRFC 2822のパースをサポート、1-24時表示を行う`k`と`kk`フォーマットのサポート、CJK time formatの改善など",
+        "relatedLinks": [
+            {
+                "title": "moment 2.18.0 changelog",
+                "url": "https://gist.github.com/ichernev/78920c5a1e419fb28c6e4546d1b7235c"
+            },
+            {
+                "title": "RFC 2822の日付形式",
+                "url": "https://wiki.suikawiki.org/n/RFC%202822%E3%81%AE%E6%97%A5%E4%BB%98%E5%BD%A2%E5%BC%8F"
+            },
+            {
+                "title": "[",
+                "url": "https://github.com/moment/moment/pull/3608"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Ember.js - Ember 2.12 and 2.13 Beta Released",
+        "url": "http://emberjs.com/blog/2017/03/19/ember-2-12-released.html",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Ember 2.12と2.13βリリース。\n`factoryFor` APIの追加、`Ember.K`が非推奨へになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 5.25.0 - Announce - discuss.CodeMirror",
+        "url": "http://discuss.codemirror.net/t/release-5-25-0/1175",
+        "tags": [
+            "JavaScript",
+            "editor",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "CodeMirror 5.25.0リリース。\n最初のコミットから10周年のリリース。\n`contentEditable`周りの修正、`lint` addonがPromiseをサポートするなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing Scala.js 0.6.15 - Scala.js",
+        "url": "https://www.scala-js.org/news/2017/03/21/announcing-scalajs-0.6.15/",
+        "tags": [
+            "scala",
+            "JavaScript",
+            "ReleaseNote"
+        ],
+        "content": "Scala.js 0.6.15リリース。\n`@JSExportStatic`の追加、`@JSExportTopLevel`をfieldに対しても利用できるように、Symbolを表現する`js.Symbol`などの追加、\nマイグレーションツールとしてscalafixも公開されている。",
+        "relatedLinks": [
+            {
+                "title": "scalafix - a Scala rewrite tool",
+                "url": "https://scalacenter.github.io/scalafix/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 58 Beta: IndexedDB 2.0, an improvement to iframe navigation, and immersive full screen for PWAs",
+        "url": "https://blog.chromium.org/2017/03/chrome-58-beta-indexeddb-20_21.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 58 Betaリリース。\nIndexedDB 2.0、iframe sandboxで`allow-top-navigation-by-user-activation`をサポート、`display: flow-root`のサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release Notes for Safari Technology Preview 26 | WebKit",
+        "url": "https://webkit.org/blog/7474/release-notes-for-safari-technology-preview-26/",
+        "tags": [
+            "safari",
+            "ReleaseNote"
+        ],
+        "content": "Safari Technology Preview Release 26リリース。\nWebGPUの試験的サポート、`history.scrollRestoration`のサポート、CSS `stroke-width`プロパティのサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Angular: Angular 4.0.0 Now Available",
+        "url": "http://angularjs.blogspot.com/2017/03/angular-400-now-available.html",
+        "tags": [
+            "AngularJS",
+            "ReleaseNote"
+        ],
+        "content": "Angular 4リリース。\nバージョンを合わせるためにv3を飛ばしてv4へ。\nAOTコンパイルによるViewのコード量の削減、TypeScript 2.1/2.2対応、テンプレートのSource Map対応など。\nAngular CLIも合わせて1.0.0を公開。",
+        "relatedLinks": [
+            {
+                "title": "angular/CHANGELOG.md at 4.0.0 · angular/angular",
+                "url": "https://github.com/angular/angular/blob/4.0.0/CHANGELOG.md"
+            },
+            {
+                "title": "stories 1.0 update · angular/angular-cli Wiki",
+                "url": "https://github.com/angular/angular-cli/wiki/stories-1.0-update"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Cyclow",
+        "url": "http://cyclow.js.org/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "DOM"
+        ],
+        "content": "Cycle.jsライクなコンポーネントフレームワーク",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "mnot’s blog: The State of Browser Caching, Revisited",
+        "url": "https://www.mnot.net/blog/2017/03/16/browser-caching",
+        "tags": [
+            "browser",
+            "HTTP",
+            "article"
+        ],
+        "content": "各ブラウザのHTTPリクエスト/レスポンスとキャッシュの実装についての調査。\nStatus Code別のキャッシュ、`Cache-Control` header、`Vary` headerについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Learn Redux by coding a Mini-Redux – Jakob Lind",
+        "url": "http://blog.jakoblind.no/2017/03/13/learn-redux-by-coding-a-mini-redux/",
+        "tags": [
+            "JavaScript",
+            "redux",
+            "tutorial",
+            "article"
+        ],
+        "content": "小さなReduxを作ってReduxについて学ぶ記事。",
+        "relatedLinks": [
+            {
+                "title": "Redux · JavaScript Plugin Architecture",
+                "url": "https://azu.gitbooks.io/javascript-plugin-architecture/content/ja/Redux/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "ES6 Features - 10 Use Cases for Proxy",
+        "url": "http://dealwithjs.io/es6-features-10-use-cases-for-proxy/",
+        "tags": [
+            "JavaScript",
+            "proxy",
+            "article"
+        ],
+        "content": "ES Proxyのユースケース紹介。\nデフォルト値、private、enum、observer、cache、`in`演算子、シングルトン、バリデーションとrevocable proxy、Python likeなSubscriptionなど。\nまたProxyをした際のパフォーマンスについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "CSS Custom Properties in Microsoft Edge - Microsoft Edge Dev BlogMicrosoft Edge Dev Blog",
+        "url": "https://blogs.windows.com/msedgedev/2017/03/24/css-custom-properties/",
+        "tags": [
+            "MSEdge",
+            "CSS"
+        ],
+        "content": "MSEdgeがCSS Custom Propertyをサポート。\nCSS Custom Propertyの使い方、`@support`を使ったfeature detect、JavaScriptからの操作方法について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Common Async/Await Design Patterns in Node.js | www.thecodebarbarian.com",
+        "url": "http://thecodebarbarian.com/common-async-await-design-patterns-in-node.js.html",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "article"
+        ],
+        "content": "Async/Awaitのパターンについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Angular DIスキ // Speaker Deck",
+        "url": "https://speakerdeck.com/kozake/angular-disuki",
+        "tags": [
+            "AngularJS",
+            "slide"
+        ],
+        "content": "Angular 2.xのDIの仕組みについてのスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "The npm Blog — announcing free Orgs",
+        "url": "http://blog.npmjs.org/post/158718200065/announcing-free-orgs",
+        "tags": [
+            "npm",
+            "webservice"
+        ],
+        "content": "npm orgでfree organizationが作成できるように。\n既存ユーザーをorganizationを変換することもできる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "myshov/history-of-javascript: Project \"History of JavaScript\"",
+        "url": "https://github.com/myshov/history-of-javascript",
+        "tags": [
+            "JavaScript",
+            "歴史",
+            "article"
+        ],
+        "content": "JavaScriptの歴史を振り返る連載",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "pubkey/rxdb: Client-Side Database for Browsers, NodeJS, electron, cordova, react-native and every other javascript-runtime",
+        "url": "https://github.com/pubkey/rxdb",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "ブラウザ、Node.js、Electron、cordova、react-nativeで動作するクライアントサイドデータベースライブラリ。\nJSON Schemaベースで、mongo likeなクエリを利用でき、rxjsと連携することができる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "minireset.css: a tiny modern CSS reset",
+        "url": "http://jgthms.com/minireset.css/",
+        "tags": [
+            "CSS",
+            "library"
+        ],
+        "content": "小さなreset.cssライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Simple counter: different implementations...",
+        "url": "https://gist.github.com/srdjan/1d10cbd42a2d695f696dee6b47fdc5e0",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "いろんな言語、フレームワークでのカウンターの実装のコレクション",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "GoogleChrome/ui-element-samples: A collection of prototyped UI elements",
+        "url": "https://github.com/GoogleChrome/ui-element-samples",
+        "tags": [
+            "UI",
+            "JavaScript",
+            "example"
+        ],
+        "content": "いろんなWebPlatform APIを使ったUIのサンプル集",
+        "relatedLinks": [
+            {
+                "title": "Building performant expand ",
+                "url": "https://developers.google.com/web/updates/2017/03/performant-expand-and-collapse"
+            }
+        ]
+    },
+    {
+        "category": "Book",
+        "title": "A journey to functional JavaScript: Part 1 – fundamentals – Grzegorz Ziółkowski",
+        "url": "https://gziolo.pl/2017/03/24/refactoring-to-functional-javascript-part-1-fundamentals/",
+        "tags": [
+            "JavaScript",
+            "関数型プログラミング",
+            "article"
+        ],
+        "content": "JavaScriptでの関数型プログラミングについての記事シリーズ。\n関数型プログラミングに出てくる用語について",
+        "relatedLinks": []
+    }
+]

@@ -1,0 +1,235 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release v3.0.1 · rackt/redux",
+        "url": "https://github.com/rackt/redux/releases/tag/v3.0.1",
+        "tags": [
+            "JavaScript",
+            "Flux",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Redux 3.0.1リリース。\nActionオブジェクトは`type`を持つことを必須とする破壊的な変更が含まれている。\n`combineReducers()`にチェックする仕組みを追加。",
+        "relatedLinks": [
+            {
+                "title": "Release v3.0.0 · rackt/redux",
+                "url": "https://github.com/rackt/redux/releases/tag/v3.0.0"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release 1.2.0 - 2015.09.27 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v1.2.0",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "core-js 1.2.0リリース。\nPromiseにUnhandled Rejection Trackingを実装、`IsRegExp`のalgorithmの修正、`String#leftPad`のプロポーザルへの追従など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v2.2.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v2.2.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "JSCS 2.2.0リリース。\n設定ファイルにYAMLを利用できるように、HTML内のスクリプトタグ内のコードをチェックできるように、ルールやプリセットの追加と修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ECMAScript 2015(ES6)の概要と次世代JavaScriptの新たな機能 | HTML5Experts.jp",
+        "url": "https://html5experts.jp/1000ch/16984/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "ES6で追加された構文とオブジェクトの簡単な解説",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ES6 Promises in Depth",
+        "url": "http://ponyfoo.com/articles/es6-promises-in-depth",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "Promises"
+        ],
+        "content": "Promiseの動きをビジュアライズしながら、`.then`や`.catch`がどのようなフローで処理されるかを解説している記事。\nPromiseを返すFetch APIを使った例を元に解説している。",
+        "relatedLinks": [
+            {
+                "title": "Promisees · Courtesy of ponyfoo.com",
+                "url": "http://bevacqua.github.io/promisees/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "ES6 Modules in Depth",
+        "url": "http://ponyfoo.com/articles/es6-modules-in-depth",
+        "tags": [
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "ES6 Modulesの構文についての解説",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Automated testing in Yahoo Mail | Yahoo Engineering",
+        "url": "http://yahooeng.tumblr.com/post/115664629471/automated-testing-in-yahoo-mail",
+        "tags": [
+            "Yahoo",
+            "browser",
+            "React",
+            "testing",
+            "JavaScript"
+        ],
+        "content": "Yahoo Mailにおけるテストについて。\nUnit Tests、Functional Tests、Smoke TestsとIntegration Testsそれぞれでやっていることについて書かれている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Typed React and Redux — Jack Hsu",
+        "url": "http://jaysoo.ca/2015/09/26/typed-react-and-redux/",
+        "tags": [
+            "TypeScript",
+            "React",
+            "Flux"
+        ],
+        "content": "TypeScriptとReact、Reduxを組み合わせて使う事について\n型による早期エラーの発見、`interface`と`react.PropTypes`の違い、Reduxを扱う際にunion typesをモデルとして使うことについてなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Debugging Node.js Applications for Memory Leaks | Toptal",
+        "url": "http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications",
+        "tags": [
+            "node.js",
+            "debug"
+        ],
+        "content": "Node.jsアプリのメモリリークをデバッグする方法やツールについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ORTC API is now available in Microsoft Edge | Microsoft Edge Dev Blog",
+        "url": "http://blogs.windows.com/msedgedev/2015/09/18/ortc-api-is-now-available-in-microsoft-edge/",
+        "tags": [
+            "MSEdge",
+            "WebRTC"
+        ],
+        "content": "MSEdgeにORTC APIが実装されたことについて",
+        "relatedLinks": [
+            {
+                "title": "ORTC が切り開く SVC サイマルキャストと WebRTC NV - Block Rockin’ Codes",
+                "url": "http://jxck.hatenablog.com/entry/ortc-to-webrtcnv"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Mastering the filesystem in Node.js — Medium",
+        "url": "https://medium.com/@yoshuawuyts/mastering-the-filesystem-in-node-js-4706b7cb0801",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "Node.jsでファイルを作成/削除、ディレクトリを作成、ファイルを検索する方法についてまとめられている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "What forces layout/reflow. The comprehensive list.",
+        "url": "https://gist.github.com/paulirish/5d52fb081b3570c81e3a",
+        "tags": [
+            "まとめ",
+            "browser",
+            "CSS",
+            "JavaScript"
+        ],
+        "content": "reflowを強制的に起こすCSSプロパティやJavaScriptのメソッドのまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "NW.js &amp; Electron Compared | TangibleJS",
+        "url": "http://tangiblejs.com/posts/nw-js-electron-compared",
+        "tags": [
+            "node-webkit",
+            "Electron",
+            "まとめ"
+        ],
+        "content": "NW.jsとElectronの比較",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "How to Write an Open Source JavaScript Library - Video Tutorial Series @eggheadio",
+        "url": "https://egghead.io/series/how-to-write-an-open-source-javascript-library",
+        "tags": [
+            "JavaScript",
+            "library",
+            "動画",
+            "tutorial"
+        ],
+        "content": "JavaScriptライブラリを書いてGitHubに公開し、npmにpublishすることについてのスクリーンキャスト。\nES6で書く方法やsemverについてなど幅広い内容について解説されてる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "TechBuzz 第17回 HTML5+JS勉強会資料",
+        "url": "http://kenju.github.io/techbuzz_htmljs_20150924/",
+        "tags": [
+            "JavaScript",
+            "webworker"
+        ],
+        "content": "Web Workerを使ったサンプルと共にWeb Workerについて解説しているスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "New animation inspector features in Firefox 43 - YouTube",
+        "url": "https://www.youtube.com/watch?v=T2jykykN3yc",
+        "tags": [
+            "firefox",
+            "animation",
+            "debug",
+            "動画"
+        ],
+        "content": "Firefox 43に実装された開発者ツールのアニメーションインスペクタについて動画",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "clipboard.js — Copy to clipboard without Flash",
+        "url": "http://zenorocha.github.io/clipboard.js/",
+        "tags": [
+            "JavaScript",
+            "クリップボード",
+            "library"
+        ],
+        "content": "`execCommand`を使ったクリップボードへのコピーを行うライブラリ。\nユーザーのインタラクションに対して文字列のコピーとカットが行える",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Rune.js Documentation",
+        "url": "http://runemadsen.github.io/rune.js/",
+        "tags": [
+            "JavaScript",
+            "SVG",
+            "VirtualDOM",
+            "library"
+        ],
+        "content": "virtual-domライブラリを使ったSVG描画ライブラリ。\nGridシステムを持っているのが特徴的",
+        "relatedLinks": []
+    }
+]

@@ -1,0 +1,265 @@
+[
+    {
+        "category": "Headline",
+        "title": "ECMAScript 2015 is now an Ecma Standard",
+        "url": "https://esdiscuss.org/topic/ecmascript-2015-is-now-an-ecma-standard",
+        "tags": [
+            "ECMAScript",
+            "spec",
+            "ReleaseNote"
+        ],
+        "content": "ECMAScript 2015(ES6)正式リリース。",
+        "relatedLinks": [
+            {
+                "title": "ECMAScript 2015 Language Specification – ECMA-262 6th Edition",
+                "url": "http://www.ecma-international.org/ecma-262/6.0/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#560",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "Babel 5.6.0リリース。\n`--watch`開始時にパースエラーが起きてもCLIを停止しないように、transformerの一部をpluginとして分離するなど",
+        "relatedLinks": [
+            {
+                "title": "transformers",
+                "url": "https://github.com/babel/babel/commit/3247851019dd350504689ad57c42ef45eb2381c7"
+            },
+            {
+                "title": "Babel Plugins",
+                "url": "https://github.com/babel-plugins"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "qooxdoo 5.0 released | qooxdoo News",
+        "url": "http://news.qooxdoo.org/qooxdoo-5-0-released",
+        "tags": [
+            "JavaScript",
+            "UI",
+            "library"
+        ],
+        "content": "JavaScriptのRIAフレームワークであるqooxdoo 5.0リリース。\nqx.Website widgetsの追加、MSEdgeの対応、Pointer Eventsなどの対応、SVG、Fullscreen APIの対応、WebDriverを使ってテストの導入など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Node v0.12.5 (Stable)",
+        "url": "http://blog.nodejs.org/2015/06/22/node-v0-12-5-stable/",
+        "tags": [
+            "node.js",
+            "セキュリティ",
+            "ReleaseNote"
+        ],
+        "content": "Node v0.12.5リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release JSHint 2.8.0 · jshint/jshint",
+        "url": "https://github.com/jshint/jshint/releases/tag/2.8.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "JSHint 2.8.0リリース。\n`module`でコードをES6 moduleとみなしてチェック出来るように、バグ修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Node.js Foundation Advances Community Collaboration, Announces New Members and Ratified Technical Governance | The Linux Foundation",
+        "url": "http://www.linuxfoundation.org/news-media/announcements/2015/06/nodejs-foundation-advances-community-collaboration-announces-new",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js Foundationについての公式アナウンス。\nNode.jsとio.jsのマージやガバナンスモデルについての同意がとれて、Linux FoundationのコラボレーションプロジェクトとしてNode.js Foundationが誕生した。",
+        "relatedLinks": [
+            {
+                "title": "Node.js Foundation がコミュニティのコラボレーションを進化: 新メンバーと運用指針となる技術ガバナンスを発表 | The Linux Foundation",
+                "url": "http://www.linuxfoundation.jp/news-media/announcements/2015/06/jp_nodejs-foundation-advances-community-collaboration-announces-new"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Brendan Eich » Blog Archive » From ASM.JS to WebAssembly",
+        "url": "https://brendaneich.com/2015/06/from-asm-js-to-webassembly/",
+        "tags": [
+            "WebAssembly",
+            "asm.js",
+            "JavaScript"
+        ],
+        "content": "ブラウザ向けのバイナリフォーマットの標準化プロジェクトとしてWebAssemblyが公開された。\nサイズやデコードの効率化を目的としたバイナリフォーマットで、第一段階の目標としてはasm.jsのバイナリ版相当の機能を予定している。\n\nJavaScriptを置き換えるものではなく、JavaScriptが苦手な部分を補完できるような立ち位置であることなどが[FAQ](https://github.com/WebAssembly/design/blob/master/FAQ.md \"FAQ\")にかかれています。",
+        "relatedLinks": [
+            {
+                "title": "主要ブラウザで実行可能なバイナリ形式「WebAssembly」の開発がスタート。Chrome、WebKit、Firefox、Microsoft Edge、LLVM、Unityらがサポートを相次いで表明 － Publickey",
+                "url": "http://www.publickey1.jp/blog/15/webassembly.html"
+            },
+            {
+                "title": "design/HighLevelGoals.md at master · WebAssembly/design",
+                "url": "https://github.com/WebAssembly/design/blob/master/HighLevelGoals.md"
+            },
+            {
+                "title": "design/FAQ.md at master · WebAssembly/design",
+                "url": "https://github.com/WebAssembly/design/blob/master/FAQ.md"
+            },
+            {
+                "title": "Rebuild: 97: Minimum Viable Standard (omo)",
+                "url": "http://rebuild.fm/97/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "WebAssembly: a binary format for the web",
+        "url": "http://www.2ality.com/2015/06/web-assembly.html",
+        "tags": [
+            "WebAssembly"
+        ],
+        "content": "WebAssemblyの概要解説",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ES6 In Depth: Collections ✩ Mozilla Hacks – the Web developer blog",
+        "url": "https://hacks.mozilla.org/2015/06/es6-in-depth-collections/",
+        "tags": [
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "SetとMapについて。\nそれぞれのメソッドの解説、JSと他の言語でのMapの特性の違い、列挙の順序問題、WeakSet、WeakMapが何故必要になるのかについてなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "A Practical Guide to SVGs on the web",
+        "url": "https://svgontheweb.com/",
+        "tags": [
+            "SVG",
+            "browser"
+        ],
+        "content": "SVGの使い方ガイドライン。\n最適化、使い方、表示方法のまとめ、CSSやJavaScriptからの操作方法、レスポンシブ、アニメーションなどSVGについてまとまってる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "MIDI,JavaScript - JavaScriptでMIDIファイルを解析してみる 1 - Qiita",
+        "url": "http://qiita.com/PianoScoreJP/items/2f03ae61d91db0334d45",
+        "tags": [
+            "JavaScript",
+            "audio"
+        ],
+        "content": "JavaScriptでMIDIファイル(SMF)を解析してヘッダ情報やトラックを取り出すチュートリアル",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "JSConf US 2015 - YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL37ZVnwpeshEkVjFZlLm1krvx0mPYPOoq",
+        "tags": [
+            "JavaScript",
+            "イベント",
+            "動画"
+        ],
+        "content": "JSConf US 2015の動画が公開された。\nそれぞれの動画の文字起こしをしたGistも公開されている",
+        "relatedLinks": [
+            {
+                "title": "JSConf US 2015 - The best conference for JS and the Web. Period",
+                "url": "http://2015.jsconf.us/"
+            },
+            {
+                "title": "una/js-conf-notes",
+                "url": "https://github.com/una/js-conf-notes"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "JavaScript Live",
+        "url": "https://jslive.com/",
+        "tags": [
+            "JavaScript",
+            "news"
+        ],
+        "content": "RubyFlowみたいなJavaScriptのコミュニティニュースサイト",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "JavaScript.com",
+        "url": "https://www.javascript.com/",
+        "tags": [
+            "JavaScript",
+            "tutorial"
+        ],
+        "content": "CodeSchoolによるJavaScript初心者向けの学習リソースの紹介、コミュニティによる記事紹介などをしているサイト",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Custom Elements - Explore the world of Web Components",
+        "url": "https://customelements.io/",
+        "tags": [
+            "WebComponents",
+            "検索"
+        ],
+        "content": "Bowerかnpmのキーワードにweb-componentsがついてるものを検索出来るサイト",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "oceanhouse21/dokker",
+        "url": "https://github.com/oceanhouse21/dokker",
+        "tags": [
+            "JavaScript",
+            "document",
+            "Tools"
+        ],
+        "content": "JSDocのコメントからlodashのようなドキュメントページ/Markdownを生成してくれるツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "trueadm/t7",
+        "url": "https://github.com/trueadm/t7",
+        "tags": [
+            "JavaScript",
+            "React",
+            "VirtualDOM"
+        ],
+        "content": "Template Stringsを使ったテンプレートライブラリ。\n結果をReactやその他のvirtual-domライブラリを使ってるもの向けへ出力できる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "sighjs/sigh",
+        "url": "https://github.com/sighjs/sigh",
+        "tags": [
+            "JavaScript",
+            "gulp",
+            "Tools"
+        ],
+        "content": "JavaScriptビルドツール。\ngulp pluginをサポートしていて、デフォルトで並列タスク、インクリメンタルリビルド、Source Mapの対応など他のビルドツールの特徴も持たせてる\nhttp://sighjs.github.io/",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "eorroe/NodeList-Prototype-Extension",
+        "url": "https://github.com/eorroe/NodeList-Prototype-Extension",
+        "tags": [
+            "DOM",
+            "library"
+        ],
+        "content": "DOM NodeのCollectionに対して操作出来るライブラリ",
+        "relatedLinks": []
+    }
+]

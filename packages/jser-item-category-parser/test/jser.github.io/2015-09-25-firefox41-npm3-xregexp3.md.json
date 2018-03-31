@@ -1,0 +1,263 @@
+[
+    {
+        "category": "Headline",
+        "title": "Firefox 41.0 リリースノート",
+        "url": "http://www.mozilla.jp/firefox/41.0/releasenotes/",
+        "tags": [
+            "firefox",
+            "ReleaseNote"
+        ],
+        "content": "Firefox 41.0リリース。\n縦書きレイアウトの機能がデフォルトで有効に、`Symbol.species`、`new.target`のサポート、Web Workerの中でNotifications APIなどが利用できるようになるなど",
+        "relatedLinks": [
+            {
+                "title": "Firefox 41 for developers - Mozilla | MDN",
+                "url": "https://developer.mozilla.org/ja/Firefox/Releases/41"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Node v4.1.0 (Stable) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v4.1.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js v4.1.0リリース。\nBuffer作成の改善、fs.WriteStreamの書き込み速度の改善など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "The npm Blog — npm weekly #29: npm 3 out of beta, Nick out of the...",
+        "url": "http://blog.npmjs.org/post/129378362260/npm-weekly-29-npm-3-out-of-beta-nick-out-of-the",
+        "tags": [
+            "npm",
+            "ReleaseNote"
+        ],
+        "content": "npm 3.xがlatestとしてリリースされた。\n`npm install -g npm`でnpm 3.xがインストールされるようになった",
+        "relatedLinks": [
+            {
+                "title": "Release v3.0.0 · npm/npm",
+                "url": "https://github.com/npm/npm/releases/tag/v3.0.0"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing TypeScript 1.6 - TypeScript - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/typescript/archive/2015/09/16/announcing-typescript-1-6.aspx",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 1.6リリース。\nJSX(TSX)、Class expressions、User defined type guards、Intersection types、Abstract classes、モジュール解決アルゴリズムの改善など",
+        "relatedLinks": [
+            {
+                "title": "Breaking Changes · Microsoft/TypeScript Wiki",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/Breaking-Changes#typescript-16"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release 1.0 · bosonic/bosonic",
+        "url": "https://github.com/bosonic/bosonic/releases/tag/v1.0",
+        "tags": [
+            "WebComponents",
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Web Componentsを扱うライブラリであるBosonic 1.0リリース",
+        "relatedLinks": [
+            {
+                "title": "Bosonic Web Component",
+                "url": "http://bosonic.github.io/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Flagrant Badassery » XRegExp 3.0.0!",
+        "url": "http://blog.stevenlevithan.com/archives/xregexp-3-0-0",
+        "tags": [
+            "JavaScript",
+            "正規表現",
+            "library",
+            "Electron"
+        ],
+        "content": "正規表現の拡張ライブラリであるXRegExp 3.0.0リリース。\nUnicode周りのサポート改善、`A`(astral)フラグの追加、ES6に追従した変更など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "RxJS/CHANGELOG.md at 5.0.0-alpha.1 · ReactiveX/RxJS",
+        "url": "https://github.com/ReactiveX/RxJS/blob/5.0.0-alpha.1/CHANGELOG.md",
+        "tags": [
+            "Rx",
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "ReactiveX/RxJS 5.0.0αリリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "リリース バージョン 10547 : Microsoft Edge Dev",
+        "url": "https://dev.modern.ie/platform/changelog/desktop/10547/",
+        "tags": [
+            "MSEdge",
+            "ReleaseNote"
+        ],
+        "content": "MSEdge Build 10547リリース。\n`<template>`、`<picture>`の追加、`<a download>`の対応、SVGで外部コンテンツのロード、フラグ付きでAsync Function、`**`演算子の対応など",
+        "relatedLinks": [
+            {
+                "title": "Microsoft Edge の変更ログ - Windows 10 Insider Preview Build 10547 - Browser",
+                "url": "http://browser.hatenablog.com/entry/2015/09/21/180947"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint v1.5.0 released - ESLint - Pluggable JavaScript linter",
+        "url": "http://eslint.org/blog/2015/09/eslint-v1.5.0-released/",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint v1.5.0リリース。\n`--fix`に対応するルールの追加、`--debug`フラグの追加など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release ES2016 Draft 1 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-1",
+        "tags": [
+            "ECMAScript",
+            "ReleaseNote"
+        ],
+        "content": "ES2016 Draft 1リリース。\n仕様書がWordからEcmarkupで書かれるようになり、GitHubでリリースされた。",
+        "relatedLinks": [
+            {
+                "title": "New in ECMAScript 2016, JavaScript",
+                "url": "http://www.infoq.com/presentations/ecmascript-2016"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "React.js v0.14 changes - blog.koba04.com",
+        "url": "http://blog.koba04.com/post/2015/09/22/react-js-v014-changes/",
+        "tags": [
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "React 0.14の変更点について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Pointer Events Will Make Cross-Browser Touch Support Easy",
+        "url": "http://www.sitepoint.com/pointer-events-will-make-cross-browsers-touch-support-easy/",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "Pointer Eventsのコンセプト、実際にどう使うかについての解説記事。\nfeature detectionの方法、ジェスチャーを扱うMSGesture objectについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "ESDoc Hosting Service - hosts documentation for JavaScript(ES6) with ESDoc",
+        "url": "https://doc.esdoc.org/",
+        "tags": [
+            "JSDoc",
+            "document"
+        ],
+        "content": "[ESDoc](https://esdoc.org)で書かれたドキュメントをホスティングするサービス。\nGitHubリポジトリのURLを登録するとESDocによるドキュメントが生成される。`esdoc.json`の設定ファイルがない場合も自動的に`src/`のコードを元に生成される。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mantoni/eslint_d.js",
+        "url": "https://github.com/mantoni/eslint_d.js",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "サーバー"
+        ],
+        "content": "ESLintをサーバとして立ててLintを行うツール。\n初回起動のオーバーヘッドがなくなるので高速に実行出来る",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ConquestArrow/dtsmake · GitHub",
+        "url": "https://github.com/ConquestArrow/dtsmake",
+        "tags": [
+            "TypeScript",
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "JavaScriptを与えるとd.tsを生成するツール",
+        "relatedLinks": [
+            {
+                "title": "TypeScript型定義ファイルのコツと生成ツール dtsmake - Qiita",
+                "url": "http://qiita.com/ConquestArrow/items/450f961c3d54bc932cf3"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "fireball-x/editor-framework",
+        "url": "https://github.com/fireball-x/editor-framework",
+        "tags": [
+            "editor",
+            "library",
+            "Electron"
+        ],
+        "content": "ElectronとPolymerをベースとしたエディタ向けのフレームワーク",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Release the docs!",
+        "url": "http://sassdoc.com/",
+        "tags": [
+            "Sass",
+            "document",
+            "Tools",
+            "JSDoc"
+        ],
+        "content": "コメントでアノテーションを書いたSassのコードからドキュメントを生成するツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Amazon: 速習ECMAScript6: 次世代の標準JavaScriptを今すぐマスター！ [Kindle版]: 山田祥寛",
+        "url": "http://www.amazon.co.jp/dp/B014MS5XWK?tag=amazon0abac-22",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "book"
+        ],
+        "content": "ES6についてのKindle本",
+        "relatedLinks": [
+            {
+                "title": "【新刊紹介】『速習 ECMAScript 6』発売、次期JavaScript仕様を短期間でキャッチアップ！：CodeZine（コードジン）",
+                "url": "http://codezine.jp/article/detail/8963"
+            }
+        ]
+    },
+    {
+        "category": "Book",
+        "title": "Building Isomorphic JavaScript Apps: From Concept to Implementation to Real-World Solutions: Jason Strimpel, Maxime Najim: 9781491932933: Amazon.com: Books",
+        "url": "http://www.amazon.com/dp/1491932937/",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "2016年4月30日発売\nIsomorphicについてのO'Reilly本",
+        "relatedLinks": []
+    }
+]

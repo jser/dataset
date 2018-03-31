@@ -1,0 +1,241 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release 0.11.0-rc · yyx990803/vue",
+        "url": "https://github.com/yyx990803/vue/releases/tag/0.11.0-rc",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Vue.js 0.11.0-rcリリース。\n\nBreakingな変更も含め多数の変更が予定されてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Virtual DOMのアルゴリズムが知りたくてvirtual-domのコードを読んだ話 - snyk_s log",
+        "url": "http://saneyukis.hatenablog.com/entry/2014/09/03/134858",
+        "tags": [
+            "VirualDOM",
+            "アルゴリズム",
+            "JavaScript"
+        ],
+        "content": "VirtualDOMの構成要素やdiffのアルゴリズムについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "JavaScript - BrowserifyからWebpackへの移行時の注意点 - Qiita",
+        "url": "http://qiita.com/derui@github/items/5233b4ef8fbde1e80d33",
+        "tags": [
+            "JavaScript",
+            "browserify"
+        ],
+        "content": "Browserifyから見たWebpackのメリットについて。 Browserifyはデフォルトでは1ビルドに1ファイル出力、一方Webpackは最初から複数のファイルを吐き出せる。\n(Browserifyは[factor-bundle](https://github.com/substack/factor-bundle \"factor-bundle\")などが必要)\n\nまた、Webpackはデフォルトで賢いビルドをするため高速にビルド出来る。\n(BrowserifyはAdvanced Optionsなどで細かい指定やビルドの工夫が必要)\n\nどちらもビルド時間の多くをSourceMap出力が占めている傾向がある。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Get Started React.js // Speaker Deck",
+        "url": "https://speakerdeck.com/koba04/get-started-react-dot-js",
+        "tags": [
+            "JavaScript",
+            "VirualDOM",
+            "library",
+            "スライド"
+        ],
+        "content": "React.jsについて詳しく書かれたスライド。\n\nJSXの使い方、Viewの構成、ImmutableなPropと状態を表すState、Component同士のやり取りやライフサイクル、CSSやアニメーション、Fluxアーキテクチャ、サーバサイドレンダリングなど",
+        "relatedLinks": [
+            {
+                "title": "Fluxアーキテクチャの覚え書きを書いた - snyk",
+                "url": "http://saneyukis.hatenablog.com/entry/2014/09/26/174750"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Testing Flux Applications | React",
+        "url": "http://facebook.github.io/react/blog/2014/09/24/testing-flux-applications.html",
+        "tags": [
+            "JavaScript",
+            "testing"
+        ],
+        "content": "FluxアーキテクチャをJestでテストする話。",
+        "relatedLinks": [
+            {
+                "title": "Flux | Application Architecture for Building User Interfaces",
+                "url": "http://facebook.github.io/flux/"
+            },
+            {
+                "title": "Jest | Painless JavaScript Unit Testing",
+                "url": "http://facebook.github.io/jest/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "ECMAScript 6 promises (1/2): foundations",
+        "url": "http://www.2ality.com/2014/09/es6-promises-foundations.html",
+        "tags": [
+            "JavaScript",
+            "Promises"
+        ],
+        "content": "ES6 Promiseについての連載。\n\nJavaScriptにおける非同期処理に関連するコールスタック、イベントループ、コールバックについての解説がされている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Preparing for ECMAScript 6: New String Methods",
+        "url": "http://www.sitepoint.com/preparing-ecmascript-6-new-string-methods/",
+        "tags": [
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "ES6で入るString周りのメソッドについての解説",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "async vs defer attributes - Growing with the Web",
+        "url": "http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html",
+        "tags": [
+            "HTML",
+            "JavaScript"
+        ],
+        "content": "script要素のasync属性とdefer属性の動作の違いを図解にしたもの",
+        "relatedLinks": [
+            {
+                "title": "サイトに適したリソース配置とasync/defer完全マスター – レンダリング優先のグッド・プラクティス | ゆっくりと…",
+                "url": "http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/resource-potitioning-best-practice/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Dev.Opera — Better @font-face with Font Load Events",
+        "url": "https://dev.opera.com/articles/better-font-face/",
+        "tags": [
+            "fonts",
+            "Promises",
+            "CSS"
+        ],
+        "content": "CSS Font Loadingを使ってウェブフォントを読み込んでから適応して、FOUTを回避する事について",
+        "relatedLinks": [
+            {
+                "title": "CSS Font Loading Module Level 3を試してみた - console.blog(self);",
+                "url": "http://sadah.hatenablog.com/entry/2014/06/30/211944"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Using ServiceWorker in Chrome today - JakeArchibald.com",
+        "url": "http://jakearchibald.com/2014/using-serviceworker-today/",
+        "tags": [
+            "Chrome"
+        ],
+        "content": "Chromeでフラグ付きで実装されたService Workerを動かす方法やオフラインキャッシュのデモ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "The State of Grunt",
+        "url": "http://cowboy.github.io/state-of-grunt-fe-summit-2014-talk/#1",
+        "tags": [
+            "Grunt",
+            "スライド"
+        ],
+        "content": "Gruntの現状と未来についてのスライド。\n\nGrunt 0.4ではGulpやBroccoliのプラグインも使えるようにすることやstream/promiseベースのTaskのパイプラインのサポート。\n\nGrunt/Gulp/Broccoliの目的の違いについてまとめられてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Dropbox - guiding-through-the-javascript-frameworks.pdf",
+        "url": "https://www.dropbox.com/s/hjl3cfs36b31jja/guiding-through-the-javascript-frameworks.pdf?dl=0",
+        "tags": [
+            "JavaScript",
+            "MVC",
+            "library",
+            "スライド"
+        ],
+        "content": "JavaScriptのAngular、Ember、Backbone、React、Ampersand.jsなどのライブラリの特徴、またそれらを使って何を解決するのかというガイドラインを示すスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "▶ Tale of npm, css and html - YouTube",
+        "url": "https://www.youtube.com/watch?v=27GYm6nRv6E",
+        "tags": [
+            "npm",
+            "browserify",
+            "CSS",
+            "動画"
+        ],
+        "content": "Browserifyとnpmを使った開発、またBrowserifyのcss版と言えるparcelifyについてのスクリーンキャスト\n\n<a href='https://github.com/rotundasoftware/parcelify'>https://github.com/rotundasoftware/parcelify</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "JavaScriptが実行できるリアルタイムオンラインエディタ作ってみました | 圧縮電子どうのこうの",
+        "url": "http://polygon-planet-log.blogspot.com/2014/09/javascript-online-synchronize-editor.html",
+        "tags": [
+            "JavaScript",
+            "editor",
+            "webservice"
+        ],
+        "content": "コラボレーション出来るjsfiddle的なウェブサービス。\n\n複数人で編集できカーソル位置の可視化、JavaScriptコンソールやHTMLのプレビューなどがある",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mohayonao/neume.js · GitHub",
+        "url": "https://github.com/mohayonao/neume.js",
+        "tags": [
+            "JavaScript",
+            "audio",
+            "library"
+        ],
+        "content": "Web Audio APIを扱うライブラリ。\n\nパフォーマンスや試行錯誤がしやすいインタフェースを目的にしている\n\n<a href='http://mohayonao.hatenablog.com/entry/2014/09/29/123242'>http://mohayonao.hatenablog.com/entry/2014/09/29/123242</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Amazon.co.jp： JavaScriptエンジニア養成読本 [Webアプリ開発の定番構成Backbone.js+CoffeeScript+Gruntを1冊で習得! ] （Software Design plus）: 吾郷 協, 山田 順久, 竹馬 光太郎, 和智 大二郎: 本",
+        "url": "http://www.amazon.co.jp/dp/4774167975/",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "2014年10月18日 発売\n\nJavaScript開発のムック本",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Developing a React.js Edge - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/9781939902122.do",
+        "tags": [
+            "VirualDOM",
+            "JavaScript",
+            "library",
+            "book"
+        ],
+        "content": "React.jsについての書籍\n\n<a href='https://github.com/rtfeldman/bleeding-edge-sample-app'>https://github.com/rtfeldman/bleeding-edge-sample-app</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "“There Are More Bugs In Mobile Than... Particles In The Universe!” | Smashing Magazine",
+        "url": "http://www.smashingmagazine.com/2014/09/30/mobile-web-handbook-release/",
+        "tags": [
+            "ios",
+            "Android",
+            "mobile",
+            "web",
+            "JavaScript",
+            "CSS",
+            "book"
+        ],
+        "content": "PPKによるモバイル周りのJSやCSSのバグや混乱する挙動などについてのガイドラインを提供する本。\n\nviewportや300msの遅延、ズームの動作、Touch Event、Androidなどのハマりどころについて書かれてる",
+        "relatedLinks": []
+    }
+]

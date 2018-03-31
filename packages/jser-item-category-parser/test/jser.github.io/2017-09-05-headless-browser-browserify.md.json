@@ -1,0 +1,241 @@
+[
+    {
+        "category": "Headline",
+        "title": "Announcing TypeScript 2.5 | TypeScript",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2017/08/31/announcing-typescript-2-5/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 2.5リリース。\nOptinal-catch-bindingのサポート、エディタ連携の改善、重複/aliasなパッケージの扱いを改善、`--preserveSymlinks`のサポートなど",
+        "relatedLinks": [
+            {
+                "title": "Typescript 2.5 リリース - abcdefGets",
+                "url": "http://abcdef.gets.b6n.ch/entry/2017/09/01/143601"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Ember.js - Ember 2.15 and 2.16 Beta Released",
+        "url": "https://emberjs.com/blog/2017/09/01/ember-2-15-released.html",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Ember 2.15リリース。\n`Ember.Router`のスーパーセットである`router` serviceの公開など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Concurrent JavaScript: It can work! | WebKit",
+        "url": "https://webkit.org/blog/7846/concurrent-javascript-it-can-work/",
+        "tags": [
+            "JavaScript",
+            "webkit"
+        ],
+        "content": "`SharedArrayBuffer`が追加されるため、JavaScriptでThreadをサポートした場合にどうなるのかという思考実験についての記事。\n現在のJavaScript VMはシングルスレッドであることを利用しているので、マルチスレッドの場合のVMのパフォーマンスなどについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "🏁 Release: Iteration 10 – 10th developer preview · Issue #177 · ckeditor/ckeditor5-design",
+        "url": "https://github.com/ckeditor/ckeditor5-design/issues/177",
+        "tags": [
+            "JavaScript",
+            "editor",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "CKEditor 5 v0.10.0リリース。\nMSEdgeのサポート、ツールチップメニューの改善、クリップボードの改善など",
+        "relatedLinks": [
+            {
+                "title": "CKEditor 5 Developer Preview (v0.10.0)",
+                "url": "https://ckeditor5.github.io/"
+            },
+            {
+                "title": "CKEditor 5 – Roadmap to 1.0.0 and beyond · Issue #172 · ckeditor/ckeditor5-design",
+                "url": "https://github.com/ckeditor/ckeditor5-design/issues/172"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "What's New In DevTools (Chrome 62)  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/08/devtools-release-notes",
+        "tags": [
+            "Chrome",
+            "article"
+        ],
+        "content": "Chrome 62の開発者ツールの更新点について。\nTop-level `await`がコンソールで利用可能に、特定のnodeのスクリーンショットを取れるように、CSS Gridのハイライト、コンソールフィルタの改善。\nまたHARをインポートできるようになり、キャッシュデータの閲覧ができるように",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Form Validation with Web Audio | CSS-Tricks",
+        "url": "https://css-tricks.com/form-validation-web-audio/",
+        "tags": [
+            "web ",
+            "audio",
+            "accessibility",
+            "article"
+        ],
+        "content": "Web Audio APIとフォームバリデーションを組み合わせる話。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Measuring performance gains — AngularJS to React (with Redux or Mobx)",
+        "url": "https://medium.com/@guptagaruda/measuring-performance-gains-angularjs-to-react-with-redux-or-mobx-fb221517455",
+        "tags": [
+            "React",
+            "Angular"
+        ],
+        "content": "3つのベンチマークアプリを元にAngular 1.xとReact/Redux/Mobxを比較した記事。\n現在も多くのエンタープライズアプリがAngular 1.xで動いているため、Reactに移ることでどのようなメリットがあるのかを計測する目的",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Decaffeinating a Large CoffeeScript Codebase Without Losing Sleep · DataFox Tech Blog",
+        "url": "http://eng.datafox.com/javascript/2017/07/18/decaffeinating-large-coffeescript-codebase/",
+        "tags": [
+            "CoffeeScript",
+            "JavaScript"
+        ],
+        "content": "bulk-decaffeinateを使ったCoffeeScriptからJavaScriptへの移行手順についての記事。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "React + RxJSで始める状態管理 - VOYAGE GROUP techlog",
+        "url": "http://techlog.voyagegroup.com/entry/2017/08/31/102915",
+        "tags": [
+            "JavaScript",
+            "TypeScript",
+            "almin",
+            "設計"
+        ],
+        "content": "Write層とRead層を分けることでのメリットとデメリットについて。 \n複雑さに対する責務の分離と依存局所化について",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Headless mode - Mozilla | MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Headless_mode",
+        "tags": [
+            "firefox",
+            "document"
+        ],
+        "content": "Firefoxのheadless modeについてのドキュメント",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Rendering on Google Search  |  Search  |  Google Developers",
+        "url": "https://developers.google.com/search/docs/guides/rendering",
+        "tags": [
+            "Chrome",
+            "google",
+            "SEO",
+            "browser"
+        ],
+        "content": "Google Search Botのレンダリングサブシステムで利用してるChromeのバージョンやサポートしてない(無効化されている)機能について書かれてる。\n2017年9月4日現在はChrome 41をベースにしている",
+        "relatedLinks": [
+            {
+                "title": "来日したGoogleゲイリーに何でも聞いてみた――プロジェクトOWL、検索アナリティクス、PWA etc. #inhouseseo | 海外SEO情報ブログ",
+                "url": "https://www.suzukikenichi.com/blog/ama-with-gary/amp/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Kea vs setState, Redux, Mobx, Dva, JumpState, Apollo, etc.",
+        "url": "https://medium.com/@mariusandra/kea-vs-setstate-redux-mobx-dva-jumpstate-apollo-etc-4aa26ea11d02",
+        "tags": [
+            "JavaScript",
+            "React",
+            "redux"
+        ],
+        "content": "React向けのステート管理ライブラリのKeaについての記事。",
+        "relatedLinks": [
+            {
+                "title": "Kea",
+                "url": "https://kea.js.org/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "help wanted · Issue #5 · browserify/discuss",
+        "url": "https://github.com/browserify/discuss/issues/5",
+        "tags": [
+            "browserify",
+            "issue"
+        ],
+        "content": "browserifyのissueと今後(ES Moduleやhmrなど)について。\nbrowserify organizationにそれぞれのパッケージが移されまとめて管理されるようになった",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "phantombuster/nickjs: Web scraping library made by the Phantombuster team. Modern, simple & works on all websites.",
+        "url": "https://github.com/phantombuster/nickjs",
+        "tags": [
+            "JavaScript",
+            "browser",
+            "library"
+        ],
+        "content": "Headless ChromeとPhantomJSをサポートしてるスクレイピングライブラリ",
+        "relatedLinks": [
+            {
+                "title": "Phantombuster: API-fy the Web",
+                "url": "https://phantombuster.com/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "react-tools/react-move: React Move 🌀 Beautiful, data-driven animations for React",
+        "url": "https://github.com/react-tools/react-move",
+        "tags": [
+            "React",
+            "animation",
+            "library"
+        ],
+        "content": "Reactでデータドリブンなアニメーションを行うライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "lukechilds/keyv: Simple key-value store with support for multiple backends",
+        "url": "https://github.com/lukechilds/keyv",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "Redis、MySQLなどさまざまなバックエンドに対応してるシンプルなKVSライブラリ。\nMap的なAPIを実装したadpterを使うことでバックエンドを変更できる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "React for Real - O'Reilly Media",
+        "url": "http://shop.oreilly.com/product/9781680502633.do",
+        "tags": [
+            "React",
+            "book"
+        ],
+        "content": "Reactについての書籍",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "New Javascript Books",
+        "url": "https://newjavascriptbooks.com/",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "JavaScriptについての新書をまとめてるサイト",
+        "relatedLinks": []
+    }
+]

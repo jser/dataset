@@ -1,0 +1,383 @@
+[
+    {
+        "category": "Headline",
+        "title": "The npm Blog — npm@2.0.0",
+        "url": "http://blog.npmjs.org/post/98131109725/npm-2-0-0",
+        "tags": [
+            "npm",
+            "ReleaseNote"
+        ],
+        "content": "npm 2.0.0リリース。\n\nリリースプロセスのドキュメント化、semverの挙動の変更、企業など社内モジュールの管理等に使えるscopeという機能を追加、npm runが引数を取れるようになるなど",
+        "relatedLinks": [
+            {
+                "title": "Release Process · npm/npm Wiki",
+                "url": "https://github.com/npm/npm/wiki/Release-Process"
+            },
+            {
+                "title": "npm-scope",
+                "url": "https://www.npmjs.org/doc/misc/npm-scope.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "WinJS Everywhere",
+        "url": "http://blogs.windows.com/buildingapps/2014/09/17/winjs-everywhere/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "WinJS 3.0リリース。\n\nクロスプラットフォームのデザイン互換性周りの修正が中心",
+        "relatedLinks": [
+            {
+                "title": "WinJS3.0 がリリースされました。 - monoe",
+                "url": "http://blogs.msdn.com/b/osamum/archive/2014/09/19/winjs3-0.aspx"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Node v0.10.32 (Stable)",
+        "url": "http://blog.nodejs.org/2014/09/16/node-v0-10-32-stable/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node v0.10.32 リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v0.11.2 | React",
+        "url": "http://facebook.github.io/react/blog/2014/09/16/react-v0.11.2.html",
+        "tags": [
+            "facebook",
+            "JavaScript",
+            "DOM",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "React v0.11.2リリース。\n\ndialogとpicture要素のサポート、flowの型チェックツール用のアノテーションを取り除くフラグをjsxコマンドに追加",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Polymer 0.4.1 Released!",
+        "url": "http://blog.polymer-project.org/releases/2014/09/18/release-0.4.1/",
+        "tags": [
+            "JavaScript",
+            "WebComponents",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Polymer 0.4.1リリース。\n\nWAI-ARIAについての`core-a11y-keys`要素を追加、iOS8のバグに対するworkaroundを追加",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Updates to our platform roadmap - IEBlog - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/ie/archive/2014/09/18/updates-to-our-platform-roadmap.aspx",
+        "tags": [
+            "IE",
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "IEの開発中、検討中の機能について",
+        "relatedLinks": [
+            {
+                "title": "Internet Explorer Web Platform Status and Roadmap - status.modern.IE",
+                "url": "http://status.modern.ie/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "iOS 8 and iPhone 6 for web developers and designers: next evolution for Safari and native webapps | Breaking the Mobile Web",
+        "url": "http://www.mobilexweb.com/blog/safari-ios8-iphone6-web-developers-designers",
+        "tags": [
+            "ios",
+            "safari",
+            "まとめ",
+            "JavaScript",
+            "CSS"
+        ],
+        "content": "iPhone6とiPhone6 plusの仕様やviewportまわりの違いについて。\nまた、iOS8 SafariでサポートされたAPIやCSSサポート、minimal-uiの廃止、Safariの追加機能、UIWebViewとWKWebVIewの違い、バグについて詳しくまとめられている",
+        "relatedLinks": [
+            {
+                "title": "iOS8 presents serious issues that prevent file uploading | Blog",
+                "url": "http://blog.fineuploader.com/2014/09/10/ios8-presents-serious-issues-that-prevent-file-uploading/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Apple Shows Love for HTML5 with iOS 8 | Blog | Sencha",
+        "url": "http://www.sencha.com/blog/apple-shows-love-for-html5-with-ios-8",
+        "tags": [
+            "ios",
+            "safari",
+            "まとめ",
+            "performance"
+        ],
+        "content": "iOS8のSafariでサポートされた新しい機能について。\n\nまた今までのWebViewと新しく追加されたWebKitの機能がちゃんと使えるWKWebViewのパフォーマンスの比較。\n\n既知のバグについても書かれてる",
+        "relatedLinks": [
+            {
+                "title": "iOS 8 に Apple の HTML5 への愛を見た | 株式会社ゼノフィ",
+                "url": "https://www.xenophy.com/sencha-blog/11578"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Node.jsエンジニアなら2014年内に知っておきたいPromise入門 | Tokyo Otaku Mode Tech Blog",
+        "url": "http://blog.otakumode.com/2014/09/17/nodejs-promise/",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "Promises",
+            "tutorial"
+        ],
+        "content": "JavaScript Promiseの基本的な使い方、async.jsを使っていた場合にそれをPromiseに書き換える実装方法について。\n\nPromiseについてよくまとまってるチュートリアル",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "JavaScript Promiseを使うウェブの仕様を調べてみた | Web Scratch",
+        "url": "http://efcl.info/2014/09/16/promises-spec-ref-list/",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "spec",
+            "検索"
+        ],
+        "content": "Promiseの仕様を前提にしてる仕様の一覧。また、仕様をどうやって調べるかについて。W3CやWHATWGの仕様をまとめてダウンロードして検索する方法について書かれてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Node.js Best Practices",
+        "url": "http://blog.risingstack.com/node-js-best-practices/",
+        "tags": [
+            "node.js",
+            "開発環境"
+        ],
+        "content": "Node.jsにおけるコーディングルール的なのとエラーについて。\n\ncallbackのerrorはチェックする事と早期return、Operational errorとProgrammer errorsの違いと対処、npmを使ったWorkflowについて書かれてる",
+        "relatedLinks": [
+            {
+                "title": "Error Handling in Nodejs - Developer Center - Joyent",
+                "url": "http://www.joyent.com/developers/node/design/errors"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Traceur, Gulp, Browserify and ES6 - Matt Greer",
+        "url": "http://www.mattgreer.org/articles/traceur-gulp-browserify-es6/",
+        "tags": [
+            "JavaScript",
+            "gulp",
+            "browserify"
+        ],
+        "content": "Gulp+TraceurでES6のコードを使う方法と、Browserify + es6ifyでTraceurを使う方法について。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "透過PNGをSVGを利用して軽くするテクニック - Weblog - Hail2u.net",
+        "url": "http://hail2u.net/blog/webdesign/with-svg.html",
+        "tags": [
+            "SVG",
+            "画像"
+        ],
+        "content": "JPG画像とマスクとなるPNG画像をSVGのmask要素によって合わせる事で擬似アルファチャンネルをやる事について。\n\n単体の透過PNGよりファイルサイズが軽量に出来る話。\n\n<a href='http://blog.jackadam.net/2010/alpha-jpegs/'>http://blog.jackadam.net/2010/alpha-jpegs/</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "CSSセレクターマッチングのコスト - Unreviewed",
+        "url": "http://takenspc.hatenablog.com/entry/2014/09/16/152157",
+        "tags": [
+            "CSS",
+            "webkit"
+        ],
+        "content": "CSSセレクタは要素とセレクタの数だけ判定を行う回数が増えるため、そのコストを減らすアプローチについて。\n\nまた、CSSセレクタのマッチ判定の手順について結合子別に詳しく解説してる。",
+        "relatedLinks": [
+            {
+                "title": "WebKit CSS JIT Internals - Constellation Scorpius",
+                "url": "http://constellation.github.io/blog/2014/07/14/webkit-css-jit-internals/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "WebStorm 9 EAP, 138.2406: spy-js code completion, CSS3 enhancements, Scratch files and… JSX | JetBrains WebStorm Blog",
+        "url": "http://blog.jetbrains.com/webstorm/2014/09/webstorm-9-eap-138-2406/",
+        "tags": [
+            "WebStorm",
+            "ReleaseNote",
+            "node.js"
+        ],
+        "content": "spy.jsを実行した結果を使ったコード補完が行えるように。また、今までは引数や返り値のみだったが、式にも対応した。\n\nemacsみたいなScratchファイルの機能を追加、indexingの範囲をデフォルトではnode_modulesまでに限定、JSX(React)のサポート改善等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "WebIDE、ストレージインスペクタ、jQuery イベント、iframe 切り替えなど – Firefox 開発ツール エピソード 34 | Mozilla Developer Street (modest)",
+        "url": "https://dev.mozilla.jp/2014/09/webide-storage-inspector-jquery-events-iframe-switcher-more-firefox-developer-tools-episode-34/",
+        "tags": [
+            "firefox",
+            "debug",
+            "Tools"
+        ],
+        "content": "Firefox 34 で追加されてる開発ツールの機能について",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Slide decks of JSConf 2014",
+        "url": "https://gist.github.com/nikcorg/1fe60d2da6e22653806c",
+        "tags": [
+            "JavaScript",
+            "event",
+            "スライド"
+        ],
+        "content": "JSConf.eu 2014のスライドまとめ\n\n<a href='http://2014.jsconf.eu/'>http://2014.jsconf.eu/</a>\n\n<a href='https://www.youtube.com/user/jsconfeu/'>https://www.youtube.com/user/jsconfeu/</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "A Quick Introduction to BrowserSync - Tuts+ Web Design Tutorial",
+        "url": "http://webdesign.tutsplus.com/tutorials/a-quick-introduction-to-browsersync--cms-22135",
+        "tags": [
+            "browser",
+            "動画",
+            "Tools"
+        ],
+        "content": "BrowserSyncについて紹介するスクリーンキャスト",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Syncing Async",
+        "url": "http://www.slideshare.net/fitc_slideshare/syncingasync",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "スライド"
+        ],
+        "content": "非同期処理とPromiseについてのスライド。\n\nコールバックのネストの問題、PromiseやGeneratorで考える非同期で逐次的な処理について。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "CORS для тестирования и для жизни. Константин Якушев. MoscowJS 14",
+        "url": "http://www.slideshare.net/moscowjs/cors-moscowjs-14",
+        "tags": [
+            "XHR",
+            "スライド"
+        ],
+        "content": "CORSのHTTPヘッダの設定と動作について分かりやすくまとめられてる。 \n\n指定する値の書き方についてが分かりやすい\n\nCORS in Actionの人。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Componentization for Reality",
+        "url": "http://ja.slideshare.net/ygoto3q/componentization-for-reality",
+        "tags": [
+            "JavaScript",
+            "スライド"
+        ],
+        "content": "コンポーネントベースで考えるウェブ開発についてのスライド。\n\nディレクトリ単位だとバラけてしまうのでコンポーネント単位でまとめる。\n\nジェネレータ、webpack、insertCSS、Angular",
+        "relatedLinks": [
+            {
+                "title": "俺の話を聞け、5分だけでもいい　ーJavaScriptだいすきな男たちとJavaScriptを学ぼう！【JSオジサン#3】 JSオジサン 先生 - 無料動画学習｜schoo（スクー）",
+                "url": "https://schoo.jp/class/1190"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "wingify/dom-comparator",
+        "url": "https://github.com/wingify/dom-comparator",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "testing",
+            "library"
+        ],
+        "content": "2つのDOM文字列を比較した結果を取得するライブラリ。\n\nCSSやNodeにどういう操作が行われたかの情報が取れる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ConradIrwin/async-profile",
+        "url": "https://github.com/ConradIrwin/async-profile",
+        "tags": [
+            "JavaScript",
+            "performance",
+            "library",
+            "node.js"
+        ],
+        "content": "Node.jsで非同期処理のプロファイルを取るためのライブラリ。\n\ncallback待ちにどれくらいの時間を使ってるかの表示、非同期処理の結果をネスト表示も出来る",
+        "relatedLinks": [
+            {
+                "title": "A CPU Profiler for Node.js - Bugsnag",
+                "url": "https://bugsnag.com/blog/async-profile"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "matthew-andrews/denodeify",
+        "url": "https://github.com/matthew-andrews/denodeify/",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "library"
+        ],
+        "content": "Node.jsスタイルで書かれた関数(error, response)をPromiseラッパにするライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "deloreanjs/delorean",
+        "url": "https://github.com/deloreanjs/delorean",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Flux patternの実装ライブラリ\n\ndispatcherとstore、ComponentとしてReactやFlight、Ractiveなどと組み合わせて使うことができる",
+        "relatedLinks": [
+            {
+                "title": "Fluxxor - Home",
+                "url": "http://fluxxor.com/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "fat/bean",
+        "url": "https://github.com/fat/bean",
+        "tags": [
+            "JavaScript",
+            "library",
+            "event"
+        ],
+        "content": "JavaScriptのDOMイベントを簡単に扱える小さなライブラリ。\n\non/off/fire/one/cloneが用意されている。cloneではNodeと共にeventをコピーすることができる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "inikulin/dmn",
+        "url": "https://github.com/inikulin/dmn",
+        "tags": [
+            "npm",
+            "node.js",
+            "console",
+            "Tools"
+        ],
+        "content": "プロジェクトで使ってるファイルから.npmignoreを生成するコマンドラインツール。\n\nまた、インストール済みのnode_modulesから不要なファイルを削除する事も出来る。",
+        "relatedLinks": []
+    }
+]

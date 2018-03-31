@@ -1,0 +1,255 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release v3.0.0-rc.0 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/releases/tag/v3.0.0-rc.0",
+        "tags": [
+            "webpack",
+            "ReleaseNote"
+        ],
+        "content": "webpack 3.0.0 RC0リリース。\nRollupのようなScope Hoisting(inlining)を行うプラグインの追加、`output.libraryExport`のサポート、`node: false`でnode関係はまとめて無効化できるようになるなど",
+        "relatedLinks": [
+            {
+                "title": "The cost of small modules | Read the Tea Leaves",
+                "url": "https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Safari 11.0",
+        "url": "https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Safari_11_0/Safari_11_0.html",
+        "tags": [
+            "safari",
+            "ReleaseNote"
+        ],
+        "content": "Safari 11.0 (プレ)リリース。\nWebRTC、WebAssermbly、Media Capture API、WebCrypto APIのアルゴリズム追加、Resource timing APIのサポート。\nCSSではVariable fonts、CSS strokeのサポート。\nホームスクリーンアプリでWebKitの機能をサポート、追跡Cookieの削除/隔離など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 1.4.0: TypeScript and CSS support · prettier/prettier",
+        "url": "https://github.com/prettier/prettier/releases/tag/1.4.0",
+        "tags": [
+            "JavaScript",
+            "TypeScript",
+            "CSS",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "prettier 1.4.0リリース。\nTypeScript(`.ts`と`.tsx`)、CSS、Less、SCSSをサポート。\nエディタ向けに`cursorOffset`を追加、整形周りの細かい修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release Release v1.0.0 · yahoo/pure",
+        "url": "https://github.com/yahoo/pure/releases/tag/v1.0.0",
+        "tags": [
+            "CSS",
+            "ReleaseNote"
+        ],
+        "content": "PureCSS 1.0.0リリース。\n互換性はあるので1.0.0へバージョンを上げただけの変更",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Microsoft Edge build 16215 changelog - Microsoft Edge Development",
+        "url": "https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/16215/",
+        "tags": [
+            "MSEdge",
+            "ReleaseNote"
+        ],
+        "content": "Windows 10 build 16215/MSEdgeリリース。\nShared Memory、Passive Event、`object-fit`、`position: sticky`、`object-position`のサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "V8 JavaScript Engine: V8 Release 6.0",
+        "url": "https://v8project.blogspot.com/2017/06/v8-release-60.html",
+        "tags": [
+            "V8",
+            "ReleaseNote"
+        ],
+        "content": "V8 6.0リリース。\nSharedArrayBuffer、Object rest/spread properties、パフォーマンス改善など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint v4.0.0 released - ESLint - Pluggable JavaScript linter",
+        "url": "http://eslint.org/blog/2017/06/eslint-v4.0.0-released",
+        "tags": [
+            "ESLint",
+            "ReleaseNote"
+        ],
+        "content": "ESLint 4.0.0リリース。\n`eslint:recommended`の更新、設定ファイルの厳密化、`indent`ルールなどの挙動変更、ルール向けのAPI変更など",
+        "relatedLinks": [
+            {
+                "title": "ESLint v4.0.0 の変更点まとめ - Qiita",
+                "url": "http://qiita.com/mysticatea/items/3d01452d76ea6c943793"
+            },
+            {
+                "title": "Migrating to v4.0.0 - ESLint - Pluggable JavaScript linter",
+                "url": "http://eslint.org/docs/user-guide/migrating-to-4.0.0"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Safari Technology Preview 32, with WebRTC, is Now Available | WebKit",
+        "url": "https://webkit.org/blog/7627/safari-technology-preview-32/",
+        "tags": [
+            "safari",
+            "ReleaseNote"
+        ],
+        "content": "Safari Technology Preview Release 32リリース。\nSafari 11相当でWebRTC、WebAssemblyなどのサポート",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "esprima/ChangeLog at 4.0.0 · jquery/esprima",
+        "url": "https://github.com/jquery/esprima/blob/4.0.0/ChangeLog",
+        "tags": [
+            "JavaScript",
+            "AST",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Esprima 4.0.0リリース。\nES2017 async/await、関数引数の末尾カンマのサポート、仕様の追従など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Node.js 8: \\`util.promisify()\\`",
+        "url": "http://2ality.com/2017/05/util-promisify.html",
+        "tags": [
+            "node.js",
+            "Promises"
+        ],
+        "content": "Node.js 8.0.0で追加された`util.promisify`についての解説。\n基本的なPromiseへの変換方法、`symbol util.promisify`のsymbolを使った`util.promisify`対応の関数定義についてなど",
+        "relatedLinks": [
+            {
+                "title": "util.promisify が追加された - from scratch",
+                "url": "http://yosuke-furukawa.hatenablog.com/entry/2017/05/10/101752"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "WebAssembly 101: a developer's first steps",
+        "url": "http://blog.openbloc.fr/webassembly-first-steps/",
+        "tags": [
+            "WebAssembly",
+            "tutorial"
+        ],
+        "content": "WebAssembly入門。\nJavaScriptとの連携方法やベンチマークについてを簡潔に解説",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "React/Redux/Node.jsのSSR/SPAを速くする6つのチューニングポイント (1/3) - ＠IT",
+        "url": "http://www.atmarkit.co.jp/ait/articles/1706/08/news011.html",
+        "tags": [
+            "React",
+            "サーバー",
+            "performance",
+            "article"
+        ],
+        "content": "Reactのサーバサイドレンダリングのパフォーマンス・チューニングについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Deprecations and Removals in Chrome 60  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/06/chrome-60-deprecations",
+        "tags": [
+            "Chrome"
+        ],
+        "content": "Chrome 60で非推奨、削除されるAPIについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "piotrwitek/react-redux-typescript-guide: A comprehensive guide to static typing \"React & Redux\" apps using TypeScript",
+        "url": "https://github.com/piotrwitek/react-redux-typescript-guide",
+        "tags": [
+            "React",
+            "redux",
+            "TypeScript"
+        ],
+        "content": "React、ReduxをTypeScriptで書く際のガイド",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Javascript unit testing tools",
+        "url": "http://mo.github.io/2017/06/05/javascript-unit-testing.html",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "opinion"
+        ],
+        "content": "JavaScriptのテストツールの比較。\nそれぞれのツールの簡単な比較とアクティビティについて。\n利用者はMocha > Karma > Jasmineだが、Jestがアクティブに開発されてる様子がでている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Introduction to Storybook – Chroma",
+        "url": "https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7",
+        "tags": [
+            "React",
+            "Tools",
+            "article"
+        ],
+        "content": "Reactコンポーネントの開発環境であるStorybookの入門記事",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Auto-Play Policy Changes for macOS | WebKit",
+        "url": "https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/",
+        "tags": [
+            "article",
+            "audio",
+            "safari",
+            "video"
+        ],
+        "content": "Mac Safariもmobile safariなどと同様にMediaElementの自動再生がユーザー起因でないといけなくする変更。\nplay()がPromiseを返し、失敗の場合はrejectされる。 Video/Audio/サイト毎に許可が決まるので、複数の要素を作るのではなく一つのsrcを変更して使うことを推奨してる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Upgrading from Node 6 to Node 8: a real-world performance comparison",
+        "url": "https://hackernoon.com/upgrading-from-node-6-to-node-8-a-real-world-performance-comparison-3dfe1fbc92a3",
+        "tags": [
+            "node.js",
+            "performance"
+        ],
+        "content": "Node.js v6とv8のパフォーマンスを比較した記事。\nReactの`renderToString`、Jestの実行時間、webpackのビルド時間、npmのインストール時間などで比較している",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "kt3k/kocha: Modern, simpler Mocha clone, no globals, lint friendly",
+        "url": "https://github.com/kt3k/kocha",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library"
+        ],
+        "content": "Mochaと互換APIを持つテストフレームワーク。\nMochaではグローバルに定義されている`describe`などがモジュールから`require`して利用できる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "florinn/typemoq: A simple mocking library for TypeScript",
+        "url": "https://github.com/florinn/typemoq",
+        "tags": [
+            "TypeScript",
+            "C# ",
+            "testing",
+            "library"
+        ],
+        "content": "C#のmoqのTypeScript/JavaScript版。\nモックライブラリ",
+        "relatedLinks": []
+    }
+]

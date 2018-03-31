@@ -1,0 +1,266 @@
+[
+    {
+        "category": "Headline",
+        "title": "ESLint 0.19.0 released - ESLint - Pluggable JavaScript linter",
+        "url": "http://eslint.org/blog/2015/04/eslint-0.19.0-released",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint 0.19.0リリース。\nASTのコミュニティ標準であるESTreeの仕様への追従が中心。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#510",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "Babel 5.1.0リリース。\ntrailing-function-commasのサポート、オブジェクトリテラルのメソッドに対するdecoratorsのサポートなど",
+        "relatedLinks": [
+            {
+                "title": "Decorators in object literals trigger SyntaxError · Issue #1154 · babel/babel",
+                "url": "https://github.com/babel/babel/issues/1154"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "The npm Blog — npm private modules are here!",
+        "url": "http://blog.npmjs.org/post/116379479775/npm-private-modules-are-here",
+        "tags": [
+            "npm",
+            "webservice"
+        ],
+        "content": "npmのprivate modulesがオープン。\nnpmjsにscoped modulesをpublishすることが出来るようになり、それらのモジュールをprivateで利用できる$7/monthのサービス",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Rapid Prototyping in JavaScript",
+        "url": "http://mattdesl.svbtle.com/rapid-prototyping",
+        "tags": [
+            "JavaScript",
+            "debug",
+            "開発環境"
+        ],
+        "content": "Browserify、wzrd、budoを使ったプロトタイピングについて。\nブラウザのリロードなしで変更を反映出来るHot Reloadingが出来るbudoをローカルサーバにして開発する流れ",
+        "relatedLinks": [
+            {
+                "title": "mattdesl/budo",
+                "url": "https://github.com/mattdesl/budo"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "eval ソースをデバッグする - 開発ツール | MDN",
+        "url": "https://developer.mozilla.org/ja/docs/Tools/Debugger/How_to/Debug_eval_sources",
+        "tags": [
+            "firefox",
+            "sourcemap",
+            "debug"
+        ],
+        "content": "FirefoxやChromeの開発者ツールはevalやnew Function経由で実行されるコードに//# sourceURL=my-foo.js のような識別子があると通常のスクリプトと同等に扱えるので、ブレークポイントなどが可能になる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "John Resig - Annotated Version of the Original jQuery Release",
+        "url": "http://ejohn.org/blog/annotated-version-of-the-original-jquery-release/",
+        "tags": [
+            "jQuery",
+            "歴史",
+            "JavaScript"
+        ],
+        "content": "jQuery作者によるjQueryの初期バージョンのコードにコメントをしたものが公開されてる。\nメソッドチェインの仕組み、CSSセレクタとなるもの、文字列からのDOM要素作成など多くのライブラリに影響を与えたものがどういう考えで作られたのかが書かれていて面白い",
+        "relatedLinks": [
+            {
+                "title": "Genius | Annotate the world",
+                "url": "http://genius.it/ejohn.org/files/jquery-original.html"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Measuring Performance",
+        "url": "http://davidwalsh.name/measuring-performance",
+        "tags": [
+            "JavaScript",
+            "performance",
+            "browser"
+        ],
+        "content": "Navigation Timing API、Resource Timing APIといったパフォーマンス測定のためのブラウザAPIやWebPageTestなどの計測ツールやネットワーク環境のテストについての紹介",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Deploying ECMAScript 6",
+        "url": "http://www.2ality.com/2015/04/deploying-es6.html",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "Tools",
+            "まとめ"
+        ],
+        "content": "ES6関係のツール、試し方の簡潔なまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Timer APIs(Date.getTime, Date.now, performance.now, setTimeout, setInterval, requestAnimationFrame, setImmediate) with Canvas Animation - Qiita",
+        "url": "http://qiita.com/TypoScript/items/ae07b7fe5d5d8d526110",
+        "tags": [
+            "JavaScript",
+            "animation"
+        ],
+        "content": "JavaScriptの時刻を取得するAPIについて詳しい記事。\nタイマーの分解能やベースクロックという考え方について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "A Detailed Explanation of JavaScript Game Loops and Timing | Isaac Sukin",
+        "url": "http://www.isaacsukin.com/news/2015/01/detailed-explanation-javascript-game-loops-and-timing",
+        "tags": [
+            "JavaScript",
+            "game",
+            "library"
+        ],
+        "content": "JavaScriptで正しいメインループを実装するにはどうするかについて。",
+        "relatedLinks": [
+            {
+                "title": "IceCreamYou/MainLoop.js",
+                "url": "https://github.com/IceCreamYou/MainLoop.js"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "関数型なAltJS、PureScriptの入門書を邦訳しました。 - Qiita",
+        "url": "http://qiita.com/hiruberuto/items/f1e048fc9a8ca51eddb2",
+        "tags": [
+            "JavaScript",
+            "book",
+            "翻訳"
+        ],
+        "content": "PureScriptの入門書の翻訳",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Browser",
+        "url": "http://browser.hatenablog.com/",
+        "tags": [
+            "IE",
+            "blog",
+            "browser"
+        ],
+        "content": "IEやSpartan等の情報を追ってるブログ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "alfredkam/yakojs",
+        "url": "https://github.com/alfredkam/yakojs",
+        "tags": [
+            "JavaScript",
+            "グラフ",
+            "SVG"
+        ],
+        "content": "DOM-lessなグラフライブラリ。\nSVGグラフを吐き出せるようにすることでサーバサイドでも同じ出力結果を出せるようにする目的",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "MUI - Material Design CSS Framework",
+        "url": "https://www.muicss.com/",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "library"
+        ],
+        "content": "Material Design guidelinesに則ったデザインをするためのフレームワーク",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "yahoo/blink-diff",
+        "url": "https://github.com/yahoo/blink-diff",
+        "tags": [
+            "画像",
+            "testing",
+            "library",
+            "JavaScript",
+            "node.js"
+        ],
+        "content": "画像を比較してその差を出したり、一致するかをテストできるJavaScriptライブラリ。\nどれくらいの差を許すか等も設定できる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "cburgmer/csscritic",
+        "url": "https://github.com/cburgmer/csscritic",
+        "tags": [
+            "CSS",
+            "testing",
+            "library"
+        ],
+        "content": "CSSのレグレッションテストフレームワーク",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mojo-js/obj-stream",
+        "url": "https://github.com/mojo-js/obj-stream",
+        "tags": [
+            "JavaScript",
+            "library",
+            "browser"
+        ],
+        "content": "Stream的なAPIを持ったライブラリ。\nオブジェクトをStreamに流すことができ、EventEmitterを使ったStream的なものなのでブラウザでも動作する",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "WebRx - Dynamic JavaScript User-Interfaces with ReactiveX",
+        "url": "http://webrxjs.org/",
+        "tags": [
+            "Rx",
+            "JavaScript",
+            "MVC",
+            "library"
+        ],
+        "content": "RxJSを使ったMVVMフレームワーク。\nAngularやKnockoutJSからインスパイアしている部分がある。TypeScriptで書かれている",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "mattdesl/budo",
+        "url": "https://github.com/mattdesl/budo",
+        "tags": [
+            "JavaScript",
+            "サーバー",
+            "開発環境",
+            "Tools"
+        ],
+        "content": "Live Reloadする開発用のローカルサーバ。\nhttps://github.com/caspervonb/amok のように、ブラウザの更新なしで変更を反映するHot Reloadingを行う拡張も持っている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "RQ",
+        "url": "http://www.rq.crockford.com/",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "library"
+        ],
+        "content": "Douglas Crockford製のPromiseハンドリングライブラリ。\nsequence、parallel、race、fallbackなどの複数のPromiseの流れを扱うライブラリ",
+        "relatedLinks": []
+    }
+]

@@ -1,0 +1,259 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release v5.2.0 (2017-07-05) · npm/npm",
+        "url": "https://github.com/npm/npm/releases/tag/v5.2.0",
+        "tags": [
+            "npm",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "npm 5.2.0リリース\n`npx`コマンドが同梱されるようになった。`npx`はnpm registryやgistに登録されているCLIツールのパッケージをコマンド一つでダウンロードから実行までを行えるツール。\nまた`-p`オプションで特定バージョンのNode.jsでnpm scriptsなども実行できる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v5.1.0 · npm/npm",
+        "url": "https://github.com/npm/npm/releases/tag/v5.1.0",
+        "tags": [
+            "npm",
+            "ReleaseNote"
+        ],
+        "content": "npm v5.1.0リリース。\n`package-lock.json`に`requires`フィールドを追加、`preferGlobal`オプションを非推奨にし警告は出さないように、`npm build`を間違えて呼び出した場合に警告するように、バグ修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint v4.2.0 released - ESLint - Pluggable JavaScript linter",
+        "url": "http://eslint.org/blog/2017/07/eslint-v4.2.0-released",
+        "tags": [
+            "ESLint",
+            "ReleaseNote"
+        ],
+        "content": "ESLint v4.2.0リリース。\n`linter.verifyAndFix`が関数を受け付けるように、`getter-return`ルールの追加など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v2.0.0 · lerna/lerna",
+        "url": "https://github.com/lerna/lerna/releases/tag/v2.0.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "monorepo管理ツールのlerna v2.0.0リリース。\n`yarn workspace`のサポート、`--canary`オプションの改善など。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v3.1.0 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/releases/tag/v3.1.0",
+        "tags": [
+            "ReleaseNote",
+            "webpack"
+        ],
+        "content": "webpack 3.1.0リリース。 `cacheWithContext`オプションが追加され(デフォルトオフ)パフォーマンスの改善、設定を関数の配列として書けるようになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v1.6.0 · babel/babel-preset-env",
+        "url": "https://github.com/babel/babel-preset-env/releases/tag/v1.6.0",
+        "tags": [
+            "babel",
+            "plugin",
+            "ReleaseNote"
+        ],
+        "content": "babel-preset-env v1.6.0リリース。\nNode.js 8に対応したcompat-tableへ更新、`targets`の`chromeandroid`に対応など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release JSDoc 3.5.0 · jsdoc3/jsdoc",
+        "url": "https://github.com/jsdoc3/jsdoc/releases/tag/3.5.0",
+        "tags": [
+            "JSDoc",
+            "ReleaseNote"
+        ],
+        "content": "JSDoc 3.5.0 リリース。\nsemverではないので破壊的変更も含まれる。\nJSDocのパースにBabylonを利用するようになり、JSXなどもサポート。\nNode.js 4.2.0未満のサポート終了など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "これからのレイアウトはGrid Layoutで決まり？特徴で使い分けたいCSSレイアウト手法 - ICS MEDIA",
+        "url": "https://ics.media/entry/15921",
+        "tags": [
+            "CSS"
+        ],
+        "content": "float、flexbox、grid layoutの使い分けについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "The WHATWG Blog — Progressing Streams",
+        "url": "https://blog.whatwg.org/progressing-streams",
+        "tags": [
+            "WHATWG",
+            "stream"
+        ],
+        "content": "WHATWG Streamについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "A Closer Look Into WebRTC | WebKit",
+        "url": "https://webkit.org/blog/7763/a-closer-look-into-webrtc/",
+        "tags": [
+            "safari",
+            "WebRTC"
+        ],
+        "content": "Safari 11でサポートされる予定のWebRTCについての解説。\n開発者向けの設定、後方互換性とadapter.js、audio-videoの送信例、Media Captureについてなど",
+        "relatedLinks": [
+            {
+                "title": "webrtc/adapter: Shim to insulate apps from spec changes and prefix differences. Latest adapter.js release:",
+                "url": "https://github.com/webrtc/adapter"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Experimenting with the background fetch API | Phil Nash",
+        "url": "https://philna.sh/blog/2017/07/04/experimenting-with-the-background-fetch-api/",
+        "tags": [
+            "ServiceWorker",
+            "JavaScript",
+            "WebPlatformAPI"
+        ],
+        "content": "ServiceWorkerのbackground-fetching APIについて。\nバックグラウンドでダウンロードやファイルのアップロードを行うことを目的としたAPI",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Getting started with PreactJS — A Step By Step Guide",
+        "url": "https://blog.codeinfuse.com/getting-started-with-preactjs-a-step-by-step-guide-f3197f871753",
+        "tags": [
+            "React",
+            "tutorial",
+            "JavaScript",
+            "article"
+        ],
+        "content": "preact-cliを使ったpreact入門記事。\nReactとの違いや互換性についてや、preact-cliを使ったビルドやそのファイルサイズなどについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Node.js FoundationとNode.jsについて - 技術探し",
+        "url": "http://abouthiroppy.hatenablog.jp/entry/2017/07/05/090952",
+        "tags": [
+            "node.js",
+            "組織"
+        ],
+        "content": "Node.js Foundationを構成するワーキンググループや技術委員会についての解説。\nどのようなワーキンググループがあり、どのように議論が行われているかについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Upcoming Regular Expression Features  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/07/upcoming-regexp-features",
+        "tags": [
+            "ECMAScript",
+            "JavaScript",
+            "V8",
+            "正規表現"
+        ],
+        "content": "現在Stage 3である正規表現の拡張Proposalの紹介記事。\nNamed Captures、`/./s` dotAll、Unicode Property Escapes、Lookbehind Assertionsについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "VueConf EU - YouTube",
+        "url": "https://www.youtube.com/watch?v=lG0Ys-2d4MA",
+        "tags": [
+            "Vue",
+            "イベント",
+            "video"
+        ],
+        "content": "VueConf EUの動画",
+        "relatedLinks": [
+            {
+                "title": "VueConf 2017 – 21–23 June, 2017 in Wrocław, Poland",
+                "url": "https://conf.vuejs.org/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Capability of React Fiber // Speaker Deck",
+        "url": "https://speakerdeck.com/koba04/capability-of-react-fiber",
+        "tags": [
+            "React",
+            "slide"
+        ],
+        "content": "React Fiberについてのスライド。\nFilberにおけるスタック、スケジューリング、カスタムレンダラーについてなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Faao - ドメイン駆動設計で作るGitHub Issue Client -",
+        "url": "http://azu.github.io/slide/2017/teppeis-sushi/client-side-ddd-on-github.html",
+        "tags": [
+            "DDD",
+            "JavaScript",
+            "TypeScript",
+            "slide",
+            "testing",
+            "document"
+        ],
+        "content": "クライアントサイドDDDとLiving Documentationについてのスライド。\n遠回りのモデリング、妥協あり/なしのRepositoryでの永続化、ユースケース図、ドキュメントのコード化、デバッグについてなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "siddharthkp/bundlesize: Keep your bundle size in check",
+        "url": "https://github.com/siddharthkp/bundlesize",
+        "tags": [
+            "webservice",
+            "CI",
+            "node.js",
+            "github"
+        ],
+        "content": "CIからGitHubのステータスにbundleしたファイルサイズを通知、一定サイズを超えたらエラーとすることができるツール/GitHub App",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "sverweij/dependency-cruiser: Validate and visualize dependencies. With your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD.",
+        "url": "https://github.com/sverweij/dependency-cruiser",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "Tools"
+        ],
+        "content": "JavaScriptコード間の依存関係グラフを元に、指定したパスから指定したパスへの参照を禁止するルールなどを設定することができる。\nまた循環参照や存在しないモジュールの参照などもチェックできる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "kentcdodds/babel-plugin-preval: Pre-evaluate code at build-time",
+        "url": "https://github.com/kentcdodds/babel-plugin-preval",
+        "tags": [
+            "babel",
+            "plugin"
+        ],
+        "content": "Babelでコンパイル時に評価して評価結果を埋め込むことができるプラグイン",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Amazon.com: Mastering Immutable.js eBook: Adam Boduch: Kindle Store",
+        "url": "https://www.amazon.com/Mastering-Immutable-js-Adam-Boduch-ebook/dp/B073RMMCL9",
+        "tags": [
+            "JavaScript",
+            "book",
+            "library"
+        ],
+        "content": "2018年2月6日発売\nimmutable.jsについての書籍",
+        "relatedLinks": []
+    }
+]

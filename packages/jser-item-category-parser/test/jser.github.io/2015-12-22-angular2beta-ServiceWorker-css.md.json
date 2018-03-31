@@ -1,0 +1,266 @@
+[
+    {
+        "category": "Headline",
+        "title": "Angular 2 Beta",
+        "url": "http://angularjs.blogspot.jp/2015/12/angular-2-beta.html",
+        "tags": [
+            "AngularJS",
+            "ReleaseNote"
+        ],
+        "content": "AngularJS 2βリリース。\nAngularJS 1からのアップグレードガイドも公開されている",
+        "relatedLinks": [
+            {
+                "title": "Upgrading from 1.x - ts",
+                "url": "https://angular.io/docs/ts/latest/guide/upgrade.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "RxJS/CHANGELOG.md at 5.0.0-beta.0 · ReactiveX/RxJS",
+        "url": "https://github.com/ReactiveX/RxJS/blob/5.0.0-beta.0/CHANGELOG.md",
+        "tags": [
+            "JavaScript",
+            "Rx",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "RxJS 5.0.0-beta.0リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Firefox 43.0 リリースノート",
+        "url": "http://www.mozilla.jp/firefox/43.0/releasenotes/",
+        "tags": [
+            "firefox",
+            "ReleaseNote"
+        ],
+        "content": "Firefox 43リリース。\nES2016の`Array.prototype.includes`がデフォルトで有効、Subresource integrityの対応など",
+        "relatedLinks": [
+            {
+                "title": "Firefox 43 for developers - Mozilla | MDN",
+                "url": "https://developer.mozilla.org/ja/Firefox/Releases/43"
+            },
+            {
+                "title": "Firefox 43 サイト互換性情報 | Firefox サイト互換性情報",
+                "url": "https://www.fxsitecompat.com/ja/versions/43/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Node v5.3.0 (Stable) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v5.3.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js v5.3.0リリース。\n`Buffer.prototype.includes()`の追加、REPLで外部モジュールを`require`できないバグを修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "flow/Changelog.md at master · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/master/Changelog.md#v0200",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": "Flow 0.20.0リリース。\n`this`型のサポート、`.json`ファイルロードの解釈に対応、エラーメッセージの改善など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release ES2016 Draft 2015-12-20 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151220",
+        "tags": [
+            "ECMAScript",
+            "ReleaseNote"
+        ],
+        "content": "ES2016 Draft 2015-12-20リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "総行数57,000の巨大CSS群をLessに書き換えた軌跡 - mixi Engineers&#x27; Blog",
+        "url": "http://alpha.mixi.co.jp/entry/2015/12/20/000000",
+        "tags": [
+            "CSS",
+            "LESS",
+            "webkit"
+        ],
+        "content": "-webkit- prefixから標準への書き換えを行った話。\nCSS:fixmeで標準記法へ直し、Autoprefixerでプレフィックス対応し、Lessを使い構造的に管理しやすくしていく",
+        "relatedLinks": [
+            {
+                "title": "マルチブラウザやりました (DMM.Study Night)",
+                "url": "http://www.slideshare.net/sugibigmuff/dmmstudy-night"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "An Intro To Using npm and ES6 Modules for Front End Development | Wes Bos",
+        "url": "http://wesbos.com/javascript-modules/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "ES6 modulesの使い方についてまとまっている。\nどのようにパスを解決したりするかはECMAScriptで定義されていないため、今のところbundlerの機能でしかないという点についても触れている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "HTTP/2のNode.js実装node-http2を読む - Qiita",
+        "url": "http://qiita.com/takaaki7/items/70898443050ca260e94c",
+        "tags": [
+            "node.js",
+            "HTTP2",
+            "stream"
+        ],
+        "content": "node-http2の実装について。\nNode Streamを使い、それをフロー制御している",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Beyond Offline ★ Mozilla Hacks – the Web developer blog",
+        "url": "https://hacks.mozilla.org/2015/12/beyond-offline/",
+        "tags": [
+            "ServiceWorker"
+        ],
+        "content": "Service Workerをオフライン対応以外の用途で使う方法について。\nクックブック形式で色々なパターンを紹介している",
+        "relatedLinks": [
+            {
+                "title": "ServiceWorker Cookbook",
+                "url": "https://serviceworke.rs/"
+            },
+            {
+                "title": "the-offline-cookbook-ja/ja.md at master · kuu/the-offline-cookbook-ja",
+                "url": "https://github.com/kuu/the-offline-cookbook-ja/blob/master/ja.md"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "FluxのActionとStoreをちゃんと分ける話 - pixiv inside",
+        "url": "http://inside.pixiv.net/entry/2015/12/19/113746",
+        "tags": [
+            "Flux",
+            "JavaScript"
+        ],
+        "content": "Actionでデータを構築し、StoreへDispatchする。\nまたDispatchするデータは`Entity`にすることで、役割を分けるという話",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "deku で Virtual DOM を使う | スマホ神 – JavaScript 受託開発 –",
+        "url": "http://smart.ataglance.jp/2015-12-17-use-virtual-dom-with-deku/",
+        "tags": [
+            "JavaScript",
+            "VirtualDOM",
+            "library"
+        ],
+        "content": "dekuの使い方について。\nJSXで書いてBabelで変換する方法",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "More Responsive Tapping on iOS | WebKit",
+        "url": "https://webkit.org/blog/5610/more-responsive-tapping-on-ios/",
+        "tags": [
+            "safari",
+            "webkit",
+            "ios"
+        ],
+        "content": "iOSのWebKitでもタップの350ms遅延が解消される。\nviewportのwidthなど特定の条件では遅延がなくなる。",
+        "relatedLinks": [
+            {
+                "title": "300ms tap delay, gone away | Web Updates - Google Developers",
+                "url": "https://developers.google.com/web/updates/2013/12/300ms-tap-delay-gone-away"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "ServiceWorker Cookbook",
+        "url": "https://serviceworke.rs/",
+        "tags": [
+            "ServiceWorker",
+            "document"
+        ],
+        "content": "Service Workerのパターンを集めたクックブック。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "A-Frame – Building Blocks for the VR Web",
+        "url": "https://aframe.io/",
+        "tags": [
+            "VR",
+            "HTML",
+            "WebComponents"
+        ],
+        "content": "WebVRをCustom Elementのタグを書くだけで出来るライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jaredly/treed",
+        "url": "https://github.com/jaredly/treed",
+        "tags": [
+            "JavaScript",
+            "UI",
+            "editor",
+            "library"
+        ],
+        "content": "ツリーエディタライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "pzavolinsky/react-unit",
+        "url": "https://github.com/pzavolinsky/react-unit",
+        "tags": [
+            "React",
+            "testing",
+            "library"
+        ],
+        "content": "React Componentをテストするためのライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "paldepind/snabbdom",
+        "url": "https://github.com/paldepind/snabbdom",
+        "tags": [
+            "JavaScript",
+            "VirtualDOM",
+            "library"
+        ],
+        "content": "Virtual DOMライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Amazon: ゲームで学ぶJavaScript入門 HTML5&amp;CSSも身に付く!: 田中 賢一郎",
+        "url": "http://www.amazon.co.jp/dp/4844339788",
+        "tags": [
+            "JavaScript",
+            "game",
+            "book"
+        ],
+        "content": "ゲームを作りながらJavaScriptについて学ぶ書籍",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Learning React Native - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/0636920041511.do",
+        "tags": [
+            "React",
+            "book"
+        ],
+        "content": "React Nativeについての書籍",
+        "relatedLinks": []
+    }
+]

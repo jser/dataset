@@ -1,0 +1,249 @@
+[
+    {
+        "category": "Headline",
+        "title": "Node v8.4.0 (Current) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v8.4.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node v8.4.0リリース。\nフラグ付きで`http2`をサポート、`util.format`がオブジェクトを扱う`%o`と`%O`をサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 0.22.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v0.22.0",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "AVA 0.22.0リリース。\nデフォルトのconcurrencyをCPUコア数に合わせるように、`t.log`の追加など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 61 Beta: JavaScript modules, Payment Request API on desktop, Web Share API, and WebUSB",
+        "url": "https://blog.chromium.org/2017/08/chrome-61-beta-javascript-modules.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrom 61βリリース。\n`<script type=module>`のサポート、Payment Request API、Web Share API、WebUSB APIのサポート。\nExpect-CT HTTP headerのサポート、HTTPリクエストURLに`>`や`\\n`が含まれている場合にブロックするように",
+        "relatedLinks": [
+            {
+                "title": "Expect-CT Extension for HTTP",
+                "url": "http://httpwg.org/http-extensions/expect-ct.html"
+            },
+            {
+                "title": "Prevent requests to HTTP(S) URLs containing raw ",
+                "url": "https://github.com/whatwg/fetch/issues/546"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "flow/Changelog.md at v0.53.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/v0.53.0/Changelog.md",
+        "tags": [
+            "flowtype",
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "Flow 0.53.0リリース。\nReactのモデルに対する型の改善。互換性のない変更も含まれるため`flow-upgrade`コマンドでマイグレーションできるようになっている",
+        "relatedLinks": [
+            {
+                "title": "flow-upgrade | Yarn",
+                "url": "https://yarnpkg.com/en/package/flow-upgrade"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing TypeScript 2.5 RC | TypeScript",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2017/08/17/announcing-typescript-2-5-rc/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 2.5 RCリリース。\n現在ProposalのOptional catchのサポート、`npm link`などで定義が重複した場合にコンパイルエラーとなる問題を修正、`--preserveSymlinks`のサポートなど",
+        "relatedLinks": [
+            {
+                "title": "Duplicate type declarations with npm link · Issue #6496 · Microsoft/TypeScript",
+                "url": "https://github.com/Microsoft/TypeScript/issues/6496"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v6.0.0 · h5bp/html5-boilerplate",
+        "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/6.0.0",
+        "tags": [
+            "HTML5",
+            "ReleaseNote"
+        ],
+        "content": "html5-boilerplate 6.0.0リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release DOMPurify 1.0.0 · cure53/DOMPurify",
+        "url": "https://github.com/cure53/DOMPurify/releases/tag/1.0.0",
+        "tags": [
+            "DOM",
+            "ReleaseNote",
+            "JavaScript"
+        ],
+        "content": "XSSサニタイズライブラリのDMOPurify 1.0.0リリース。\nコードベースをES2015にし、rollupしたものを配布するように。バグ修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Accessibility Testing with pa11y",
+        "url": "https://bitsofco.de/pa11y/",
+        "tags": [
+            "accessibility",
+            "article",
+            "Tools"
+        ],
+        "content": "アクセシビリティテストツールのpa11yについての記事。\n基本的な使い方について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Rethinking drag and drop – Alex Reardon – Medium",
+        "url": "https://medium.com/@alexandereardon/rethinking-drag-and-drop-d9f5770b4e6b",
+        "tags": [
+            "React",
+            "JavaScript",
+            "library",
+            "article"
+        ],
+        "content": "React向けの縦横リストのD&Dライブラリであるreact-beautiful-dndについて。\nどのようにアクセシビリティやパフォーマンスに気をつけて実装しているかについて書かれている",
+        "relatedLinks": [
+            {
+                "title": "atlassian/react-beautiful-dnd: Beautiful, accessible drag and drop for lists with React.js",
+                "url": "https://github.com/atlassian/react-beautiful-dnd"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "The State of CSS in Angular – Angular Blog",
+        "url": "https://blog.angular.io/the-state-of-css-in-angular-4a52d4bd2700",
+        "tags": [
+            "CSS",
+            "Angular",
+            "article"
+        ],
+        "content": "AngularのCSSについて。\nコンポーネントのカプセルCSS、Shadow DOMを使ったnativeのカプセル化、非推奨となった`/deep/`や`:ng-deep`について",
+        "relatedLinks": [
+            {
+                "title": "The New Angular ::ng-deep and the Shadow-Piercing Combinators Drop",
+                "url": "https://hackernoon.com/the-new-angular-ng-deep-and-the-shadow-piercing-combinators-deep-and-drop-4b088dbe459"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "HTTP/2 Server Push with Node.js | @RisingStack",
+        "url": "http://blog.risingstack.com/node-js-http-2-push/",
+        "tags": [
+            "node.js",
+            "HTTP2",
+            "article"
+        ],
+        "content": "`--expose-http2`フラグで有効化できるNode.jsのHTTP/2でサーバプッシュを行う方法についてのサンプル",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Ava Test Runner - A Fresh Take On JavaScript Testing and Growing an Open-Source Project - Sessions by Pusher",
+        "url": "https://pusher.com/sessions/meetup/the-js-roundabout/ava-test-runner-a-fresh-take-on-javascript-testing-and-growing-an-open-source-project",
+        "tags": [
+            "node.js",
+            "testing",
+            "video"
+        ],
+        "content": "Node.jsのテストフレームワークであるAVAについてを紹介する発表動画。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "plouc/nivo: Make dataviz fun again",
+        "url": "https://github.com/plouc/nivo",
+        "tags": [
+            "JavaScript",
+            "React",
+            "d3.js",
+            "library",
+            "グラフ"
+        ],
+        "content": "D3.jsとReactを使ったデータビジュアライズコンポーネント。 SVGの出力の対応やサーバサイドレンダリングをしてSVGを取得するHTTP APIなども用意されている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jiayihu/pretty-algorithms: 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests",
+        "url": "https://github.com/jiayihu/pretty-algorithms",
+        "tags": [
+            "JavaScript",
+            "アルゴリズム",
+            "library",
+            "TypeScript"
+        ],
+        "content": "検索、ソート、カウントなどのよくあるアルゴリズムを実装したライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "GoogleChrome/puppeteer: Headless Chrome Node API",
+        "url": "https://github.com/GoogleChrome/puppeteer",
+        "tags": [
+            "Chrome",
+            "Tools",
+            "library"
+        ],
+        "content": "Headless Chromeを扱うライブラリ。\nChromeチームが開発している。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "google/songbird: Spatial Audio Encoding on the Web",
+        "url": "https://github.com/google/songbird",
+        "tags": [
+            "audio",
+            "JavaScript",
+            "library"
+        ],
+        "content": "Web Audio APIを使ったSpatial Audio Encodingライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "shellscape/mocha-chrome: Run Mocha tests using headless Google Chrome",
+        "url": "https://github.com/shellscape/mocha-chrome",
+        "tags": [
+            "Chrome",
+            "Tools",
+            "browser",
+            "testing"
+        ],
+        "content": "MochaをHeadless chromeで動かすツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "streamich/memfs: In-memory filesystem with Node's API",
+        "url": "https://github.com/streamich/memfs",
+        "tags": [
+            "node.js",
+            "JavaScript",
+            "library"
+        ],
+        "content": "Node.jsの`fs`モジュール互換のメモリファイルシステムライブラリ。\nブラウザでも動作する",
+        "relatedLinks": []
+    }
+]

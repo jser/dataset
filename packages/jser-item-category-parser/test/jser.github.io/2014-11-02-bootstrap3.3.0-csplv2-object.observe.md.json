@@ -1,0 +1,328 @@
+[
+    {
+        "category": "Headline",
+        "title": "HTML5勧告–オープン・ウェブ・プラットフォームの重要なマイルストーンを達成",
+        "url": "http://www.w3.org/2014/10/html5-rec.html.ja",
+        "tags": [
+            "HTML5",
+            "ReleaseNote"
+        ],
+        "content": "W3C HTML5が勧告された",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Bootstrap 3.3.0 released · Bootstrap Blog",
+        "url": "http://blog.getbootstrap.com/2014/10/29/bootstrap-3-3-0-released/",
+        "tags": [
+            "CSS",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Bootstrap 3.3.0リリース。\n\nHTML lintをするbootlintや4.0についても書かれている",
+        "relatedLinks": [
+            {
+                "title": "twbs/bootlint",
+                "url": "https://github.com/twbs/bootlint"
+            },
+            {
+                "title": "Web開発のためのツール集の最新版「Bootstrap 3.3.0」リリース、「Bootstrap 4」も近日登場：CodeZine",
+                "url": "http://codezine.jp/article/detail/8248"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Meteor",
+        "url": "https://www.meteor.com/blog/2014/10/28/meteor-1-0",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Meteor 1.0リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v0.12 | React",
+        "url": "http://facebook.github.io/react/blog/2014/10/28/react-v0.12.html",
+        "tags": [
+            "React",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "React 0.12正式リリース。\n\n用語やAPIの変更、JSXの変更、ChromeのDevTools拡張の改善、ライセンスがApache 2から修正BSDに変更",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release JSHint 2.5.7 · jshint/jshint",
+        "url": "https://github.com/jshint/jshint/releases/tag/2.5.7",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "JSHint 2.5.7リリース。\n\nES6のSymbol、Reflect、System、ComputedPropertyNamesに対応等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Socket.IO — Socket.IO 1.2.0",
+        "url": "http://socket.io/blog/socket-io-1-2-0/",
+        "tags": [
+            "node.js",
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Socket.IO 1.2.0リリース。\n\nサーバとクライアントのバグ修正。\n\nIE10みたいにXDRとXHR Lv2がある場合はXHRを優先するように、PhantomJSのサポート等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Sinon.JS/Changelog.txt at v1.11.1 · cjohansen/Sinon.JS",
+        "url": "https://github.com/cjohansen/Sinon.JS/blob/v1.11.1/Changelog.txt",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "ReleaseNote",
+            "library"
+        ],
+        "content": "Sinon.JS 1.11.0リリース。\n\nAMDサポートの改善、xhrに`.response`プロパティの追加、バグ修正",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release RxJS Version 2.3 · Reactive-Extensions/RxJS",
+        "url": "https://github.com/Reactive-Extensions/RxJS/releases/tag/v2.3.12",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "RxJS 2.3リリース。\n\nPromise、Generatorのサポート。\n\nまたES6以降のArray.fromといったメソッドと同等の機能の提供など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release Son of Dragon · sass/libsass",
+        "url": "https://github.com/sass/libsass/releases/tag/3.0.1",
+        "tags": [
+            "Sass",
+            "ReleaseNote"
+        ],
+        "content": "libsass 3.0.1リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Spy-js 2.0: New level of JavaScript tracing | JetBrains WebStorm Blog",
+        "url": "http://blog.jetbrains.com/webstorm/2014/10/spy-js-2-0-new-level-of-javascript-tracing/",
+        "tags": [
+            "WebStorm",
+            "node.js",
+            "JavaScript"
+        ],
+        "content": "WebStorm 9のspy-js 2.0について。\n\n実行時の結果からコードの補完候補の追加、breakpointを貼らなくてもinspectionで変数の中身を見られるように、Node.jsサポート、トレース結果の共有、ES6サポート等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Getting To Know Flux, the React.js Architecture ♥ Scotch",
+        "url": "http://scotch.io/tutorials/javascript/getting-to-know-flux-the-react-js-architecture",
+        "tags": [
+            "JavaScript",
+            "Flux",
+            "React"
+        ],
+        "content": "Fluxアーキテクチャについて分かりやすく解説されてる。\n\nStoreが複数ある場合にwatiForを使って依存関係を解決する方法やどのようなフローで処理を行うかを図を用いて分かりやすくまとめている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Class構文が実装された - JS.next",
+        "url": "http://js-next.hatenablog.com/entry/2014/11/01/034607",
+        "tags": [
+            "JavaScript",
+            "V8",
+            "ECMAScript"
+        ],
+        "content": "ES6のclass syntaxについて。\n\nprototypeの糖衣構文であることや継承、匿名クラス、class内はstrict modeになる点について書かれている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "For and against &#x27;let&#x27;",
+        "url": "http://davidwalsh.name/for-and-against-let",
+        "tags": [
+            "ECMAScript"
+        ],
+        "content": "ES6の`let`について詳しく書かれてる。\n\nletによるブロックスコープや使い方について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Introducing SIMD.js ✩ Mozilla Hacks – the Web developer blog",
+        "url": "https://hacks.mozilla.org/2014/10/introducing-simd-js/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "performance"
+        ],
+        "content": "SIMD APIについて。 SIMDとは何か、polyfillのSIMD.jsについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Why we should stop using Grunt &amp; Gulp",
+        "url": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
+        "tags": [
+            "JavaScript",
+            "Grunt",
+            "gulp",
+            "Tools"
+        ],
+        "content": "GruntやGulpのようなTask Runnerではなく、npm runを使う話。\n\nTask Runnerはそれ自体のアップデート変更や別の選択肢が出てきた時のコストやpluginの挙動の不満等からnpm runで行う事について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Building single page apps using web components - Polymer",
+        "url": "https://www.polymer-project.org/articles/spa.html",
+        "tags": [
+            "WebComponents",
+            "tutorial"
+        ],
+        "content": "Web Componentsを使ってシングルページアプリケーションを作るチュートリアル",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "The Fine Art of JavaScript Error Tracking — Medium",
+        "url": "https://medium.com/@jico/the-fine-art-of-javascript-error-tracking-bc031f24c659",
+        "tags": [
+            "JavaScript",
+            "debug",
+            "webservice"
+        ],
+        "content": "JavaScriptのエラーレポートを集めるサービスについて。\n\nまたエラーレポートはノイズにも成り得る。Sentryでは重要と思われるエラーを優先的表示やどのブラウザなのかについて表示してくれる",
+        "relatedLinks": [
+            {
+                "title": "Application Performance Management ",
+                "url": "http://newrelic.com/"
+            },
+            {
+                "title": "Error Monitoring, Error Tracking, and Notification for Ruby on Rails 2, 3 and 4 - Honeybadger - Honeybadger",
+                "url": "https://www.honeybadger.io/"
+            },
+            {
+                "title": "{",
+                "url": "http://trackjs.com/"
+            },
+            {
+                "title": "Sentry: Track exceptions with modern error logging for JavaScript, Python, Ruby, Java, and Node.js",
+                "url": "https://getsentry.com/welcome/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "CSP Lv.2の話",
+        "url": "http://ja.slideshare.net/yagihashoo/csp-lv2",
+        "tags": [
+            "CSP",
+            "スライド",
+            "セキュリティ"
+        ],
+        "content": "CSP Level2の機能についての紹介スライド。\n\nPath matching、Nonce source、Source hash、frame-ancestors、referrer、sandbox等についてよくまとまっている",
+        "relatedLinks": [
+            {
+                "title": "Content-Security-Policy と nonce の話 - blog.64p.org",
+                "url": "http://blog.64p.org/entry/2014/09/25/201424"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Model-View-Intent and the Virtual DOM",
+        "url": "http://staltz.com/mvi-freaklies/#/",
+        "tags": [
+            "VirualDOM",
+            "JavaScript",
+            "スライド",
+            "MVC"
+        ],
+        "content": "Reactiveなパターンについてのスライド。\n\nMVCが絡み合って複雑になるのをイベントバスを使ってどう解決するか。\n\nModel、View(Virtual DOM)、Intentでのアーキテクチャについて",
+        "relatedLinks": [
+            {
+                "title": "MVI Example",
+                "url": "http://staltz.com/mvi-example/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "A State of Change — On the future of Object.observe",
+        "url": "https://markdalgleish.github.io/presentation-a-state-of-change-object-observe/",
+        "tags": [
+            "JavaScript",
+            "スライド"
+        ],
+        "content": "Object.observeについてのスライド。\n\nObject.observeはオブジェクトの変更を監視できるが、Imuutabilityとは逆の事になってしまう。\n\nImmutableなしくみを提供するmori等のライブラリや同様にDOMでもStatelessなDOMを提供するReactやVirtual DOMがある。\n\n現在のシンプルなバインディングはMutableデータをStateful DOMへ結びつける。\n未来のレンダリングはImmutableデータをStateless DOMにする?",
+        "relatedLinks": [
+            {
+                "title": "The Future of JavaScript MVC Frameworks",
+                "url": "http://swannodette.github.io/2013/12/17/the-future-of-javascript-mvcs/"
+            },
+            {
+                "title": "presentation-a-state-of-change-object-observe/REFERENCES.md at master · markdalgleish/presentation-a-state-of-change-object-observe",
+                "url": "https://github.com/markdalgleish/presentation-a-state-of-change-object-observe/blob/master/REFERENCES.md"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ブラウザーに優しくて、アニメーションを滑らかに",
+        "url": "http://people.mozilla.org/~bbirtles/pres/html5j-2014/#/",
+        "tags": [
+            "JavaScript",
+            "CSS",
+            "SVG",
+            "animation",
+            "スライド"
+        ],
+        "content": "Web Animationについてのスライド。\n\nどのようなフローでスタイルが決定され、レンダリングが行われているか。\n\nまたどうすれば、レンダリングやレイアウトのコストを減らせるかについて等の最適化について。\n\nレイヤーや`will-change`などについても触れている",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jwerle/w625",
+        "url": "https://github.com/jwerle/w625",
+        "tags": [
+            "JavaScript",
+            "console",
+            "Tools"
+        ],
+        "content": "6to5を使ってES6で書けるREPLの実装。\n\n特定のウェブサイトに繋いで、コンソール的に使うことも出来る",
+        "relatedLinks": [
+            {
+                "title": "sebmck/6to5",
+                "url": "https://github.com/sebmck/6to5"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Zolmeister/promiz",
+        "url": "https://github.com/Zolmeister/promiz",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "library"
+        ],
+        "content": "ES6 Promisesのpolyfill。",
+        "relatedLinks": []
+    }
+]

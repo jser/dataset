@@ -1,0 +1,296 @@
+[
+    {
+        "category": "Headline",
+        "title": "April 14, 2015 Rev 38 Final Draft - Draft Specification for ES.next (Ecma-262 Edition 6)",
+        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#april_14_2015_rev_38_final_draft",
+        "tags": [],
+        "content": "ECMAScript 2015(ES6)の最終ドラフトがリリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v0.13.2 | React",
+        "url": "http://facebook.github.io/react/blog/2015/04/18/react-v0.13.2.html",
+        "tags": [
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "React v0.13.2リリース。\nreact toolsに`--es6module`のオプションを追加など",
+        "relatedLinks": [
+            {
+                "title": "Document new es6module flag in react-tools README by TimeBomb · Pull Request #3618 · facebook/react",
+                "url": "https://github.com/facebook/react/pull/3618"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release electron v0.24.0 · atom/electron",
+        "url": "https://github.com/atom/electron/releases/tag/v0.24.0",
+        "tags": [
+            "atom",
+            "ReleaseNote"
+        ],
+        "content": "Atom Shell 0.24.0リリース。\nAtom ShellはElectronにリネームされた",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "jsdom/Changelog.md at master · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/master/Changelog.md#500",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "jsdom 5.0.0リリース。\n`document.cookie`周りの修正が中心",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.8.0 · airportyh/testem",
+        "url": "https://github.com/airportyh/testem/releases/tag/v0.8.0",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "Testem 0.8.0リリース。\nSauce Labsのようにリモートとつないで実行する場合の挙動を改善",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.11.0: ES6 support (2015-04-18) · twada/power-assert",
+        "url": "https://github.com/twada/power-assert/releases/tag/v0.11.0",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "power-assert 0.11.0リリース。\nES6の構文をサポート",
+        "relatedLinks": [
+            {
+                "title": "ES6 support by twada · Pull Request #17 · twada/power-assert",
+                "url": "https://github.com/twada/power-assert/pull/17"
+            },
+            {
+                "title": "twada/babel-plugin-espower",
+                "url": "https://github.com/twada/babel-plugin-espower"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 43 Beta: Web MIDI and upgrading legacy sites to HTTPS",
+        "url": "http://blog.chromium.org/2015/04/chrome-43-beta-web-midi-and-upgrading.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 43 Betaリリース。\nWeb MIDI APIがデフォルトで有効に、Permissions APIのサポート、DOM属性がprototype chainに移動、Flashなしでもクリップボードへのコピーが出来るように、Fetchでレスポンスをストリーミング出来るようになるなど",
+        "relatedLinks": [
+            {
+                "title": "Permissions API for the Web",
+                "url": "http://updates.html5rocks.com/2015/04/permissions-api-for-the-web"
+            },
+            {
+                "title": "DOM Attributes now on the prototype chain",
+                "url": "http://updates.html5rocks.com/2015/04/DOM-attributes-now-on-the-prototype"
+            },
+            {
+                "title": "Cut and Copy Commands",
+                "url": "http://updates.html5rocks.com/2015/04/cut-and-copy-commands"
+            },
+            {
+                "title": "yutakahirano/fetch-with-streams",
+                "url": "https://github.com/yutakahirano/fetch-with-streams/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Getting started with Node.js and Mocha - Semaphore",
+        "url": "https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha",
+        "tags": [
+            "node.js",
+            "testing",
+            "JavaScript",
+            "tutorial"
+        ],
+        "content": "Mochaを使ったテストについて。\nMochaの基本的な使い方やexpressを使って実装したウェブサーバのテストについて簡潔にまとめられている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Fullscreen API と 闇 - Browser",
+        "url": "http://browser.hatenablog.com/entry/2015/04/18/121248",
+        "tags": [
+            "JavaScript",
+            "browser"
+        ],
+        "content": "ブラウザ間のFullscreen APIの挙動の違いについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Permissions API for the Web",
+        "url": "http://updates.html5rocks.com/2015/04/permissions-api-for-the-web",
+        "tags": [
+            "JavaScript",
+            "WebPlatformAPI"
+        ],
+        "content": "パーミッションを確認するAPI。\n`navigator.permissions`について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "JavaScriptでフルスクラッチゲーム開発しよう 第1回 準備編 - Qiita",
+        "url": "http://qiita.com/zukkun/items/4ea9542a6dde45c6a9fd",
+        "tags": [
+            "game",
+            "JavaScript"
+        ],
+        "content": "一からJavaScriptでゲーム(ゲームエンジン)を作る連載。\nフレームごとの更新、Canvasを使った描画、画像の読み込みなどゲームフレームワークは使わずに書いていく話",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Controllable React Components // Speaker Deck",
+        "url": "https://speakerdeck.com/lettertwo/controllable-react-components",
+        "tags": [
+            "React",
+            "スライド"
+        ],
+        "content": "ReactでES6 Classesを使ったComponentを作るスライド。\nComponent内では常にstateじゃなくpropsを使いたい、FormのControlled Componentでもpropsを使うための高階関数について",
+        "relatedLinks": [
+            {
+                "title": "Forms | React",
+                "url": "http://facebook.github.io/react/docs/forms.html#controlled-components"
+            },
+            {
+                "title": "matthewwithanm/react-controllables",
+                "url": "https://github.com/matthewwithanm/react-controllables"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "ES Weekly Newsletter",
+        "url": "http://esweekly.com/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "mail"
+        ],
+        "content": "ECMAScriptについての週刊のメールマガジン",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "mixi-inc/JavaScriptTraining",
+        "url": "https://github.com/mixi-inc/JavaScriptTraining",
+        "tags": [
+            "JavaScript",
+            "tutorial"
+        ],
+        "content": "mixi社のJavaScript研修資料。\nテストを通すことで進んでいけるような内容になっている。\nDOM操作、DOMイベント、非同期処理、PromiseとFetch API、bowerを使ったパッケージ管理などについて",
+        "relatedLinks": [
+            {
+                "title": "2日でできる！JavaScript トレーニング - mixi Engineers",
+                "url": "http://alpha.mixi.co.jp/entry/2015/04/17/155003"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "ARIA in HTML 日本語訳",
+        "url": "http://momdo.github.io/html-aria/",
+        "tags": [
+            "HTML",
+            "WAI-ARIA",
+            "spec"
+        ],
+        "content": "HTMLとWAI-ARIAの属性についての要件をまとめた仕様。\nある要素のデフォルトのARIAセマンティクスと使用してもよいARIAロールについて簡潔にまとめられている",
+        "relatedLinks": [
+            {
+                "title": "ARIA in HTML 日本語訳を公開した - 水底の血",
+                "url": "http://momdo.hatenablog.jp/entry/20150418/1429345964"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Hacklone/private-bower",
+        "url": "https://github.com/Hacklone/private-bower",
+        "tags": [
+            "JavaScript",
+            "オープンソース"
+        ],
+        "content": "Private bower registry",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "HAR Resources | A community curated list of resources, tools, projects and applications that support HTTP Archive (HAR)",
+        "url": "https://ahmadnassri.github.io/har-resources",
+        "tags": [
+            "HTTP",
+            "performance",
+            "Tools",
+            "まとめ"
+        ],
+        "content": "HTTP Archive(HAR)を扱うツールやリソースのまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "acornejo/jjv",
+        "url": "https://github.com/acornejo/jjv",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "JSON",
+            "library"
+        ],
+        "content": "JSON Schemaの定義とバリデーションを行うライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "caiogondim/logdown",
+        "url": "https://github.com/caiogondim/logdown",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "library"
+        ],
+        "content": "ロガー + Markdownなライブラリ。\nブラウザ、Node.jsどちらでも動作する",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "T3 JavaScript Framework - T3 JavaScript Framework",
+        "url": "http://t3js.org/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Box社のJavaScriptフレームワーク。\nAngularJS 1.x系みたいなモジュールの仕組みだが、基本はコンパクトでコールスタックもかなり浅くなるように作られている。`debug`オプションを有効にすることでエラーが取りやすいように設計されている",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "vdemedes/interaptor",
+        "url": "https://github.com/vdemedes/interaptor",
+        "tags": [
+            "node.js",
+            "HTTP",
+            "testing",
+            "library"
+        ],
+        "content": "mitmを使ったHTTP stubライブラリ。\n特定のリクエストに対して任意のレスポンスを定義して返せる",
+        "relatedLinks": []
+    }
+]

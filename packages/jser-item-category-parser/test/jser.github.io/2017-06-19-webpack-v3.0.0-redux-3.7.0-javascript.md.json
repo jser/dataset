@@ -1,0 +1,276 @@
+[
+    {
+        "category": "Headline",
+        "title": "Announcing TypeScript 2.4 RC | TypeScript",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2017/06/12/announcing-typescript-2-4-rc/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 2.4 RCリリース。\nDynamic import、Promiseなどのgeneric type同士の扱いが厳密に、すべてがオプショナルなI/F(weak types)のチェックを厳密化。\nString Enumのサポートなど",
+        "relatedLinks": [
+            {
+                "title": "なぜ TypeScript の型システムが健全性を諦めているか - Qiita",
+                "url": "http://qiita.com/na-o-ys/items/aa56d678cdf0de2bdd79"
+            },
+            {
+                "title": "Breaking Changes · Microsoft/TypeScript Wiki",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/Breaking-Changes#typescript-24"
+            },
+            {
+                "title": "What",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Node v8.1.0 (Current) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v8.1.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js 8.1.0リリース。\nnpm 5.0.3へアップデート、`--inspect=0`でランダムポートができるように。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Firefox — Notes (54.0) — Mozilla",
+        "url": "https://www.mozilla.org/en-US/firefox/54.0/releasenotes/",
+        "tags": [
+            "firefox",
+            "ReleaseNote"
+        ],
+        "content": "Firefox 54.0リリース。\nマルチプロセス化(e10s)、`URL.toJSON`の実装、`URLSearchParams`が`USVString`を受け入れるように、`event.timeStamp`が高精度に、ホスト名のないURL(`http://`のみなど)は不正な値として扱われるように",
+        "relatedLinks": [
+            {
+                "title": "Firefox 54 for developers - Mozilla | MDN",
+                "url": "https://developer.mozilla.org/ja/Firefox/Releases/54"
+            },
+            {
+                "title": "Firefox 54 サイト互換性情報 | Firefox サイト互換性情報",
+                "url": "https://www.fxsitecompat.com/ja/versions/54/"
+            },
+            {
+                "title": "ホスト名が付かない URL は不正なものとして扱われるようになりました (影響あり) | Firefox サイト互換性情報",
+                "url": "https://www.fxsitecompat.com/ja/docs/2017/urls-with-no-host-name-are-now-treated-as-invalid/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 60 Beta: Paint Timing API, CSS font-display, and Credential Management API improvements",
+        "url": "https://blog.chromium.org/2017/06/chrome-60-beta-paint-timing-api-css.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 60βリリース。\nPaint Timing API、CSS font-display、Object rest/spread propertiesのサポート。\nまた、Payment Request APIをデスクトップ版もサポートするなど",
+        "relatedLinks": [
+            {
+                "title": "Leveraging the Performance Metrics that Most Affect User Experience  |  Web  |  Google Developers",
+                "url": "https://developers.google.com/web/updates/2017/06/user-centric-performance-metrics#first_paint_and_fist_contentful_paint"
+            },
+            {
+                "title": "WICG/paint-timing: A proposal for a Time To First Paint specification.",
+                "url": "https://github.com/wicg/paint-timing"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release 4.0.0 / 2017-05-26 · chaijs/chai",
+        "url": "https://github.com/chaijs/chai/releases/tag/4.0.0",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Chai 4.0.0リリース。\nNode.js 0.12のサポート終了、`Map`、`Set`の対応、`deep`の挙動を変更、ES6 Proxyを使ったundefined safeなチェインの実装など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v3.7.0 · reactjs/redux",
+        "url": "https://github.com/reactjs/redux/releases/tag/v3.7.0",
+        "tags": [
+            "JavaScript",
+            "ReleaseNote",
+            "library",
+            "redux"
+        ],
+        "content": "Redux 3.7.0リリース。 RollupでbundleしたUMDバンドルを配布するように。 余計な関数コールが減るためファイルサイズなどが改善される。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "rxjs/CHANGELOG.md at 6.0.0-alpha.0 · ReactiveX/rxjs",
+        "url": "https://github.com/ReactiveX/rxjs/blob/6.0.0-alpha.0/CHANGELOG.md",
+        "tags": [
+            "Rx",
+            "JavaScript",
+            "ReleaseNote"
+        ],
+        "content": "RxJS 6.0.0-alpha.0リリース。\n`find`、`buffer`、`first`などの変更が含まれる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v3.0.0 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/releases/tag/v3.0.0",
+        "tags": [
+            "webpack",
+            "ReleaseNote"
+        ],
+        "content": "webpack 3.0.0リリース。\nScope Hoisting (`webpack.optimize.ModuleConcatenationPlugin`)の追加、`node: false`でnode関係の機能をまとめて無効化できるように、Source Map周りの変更など",
+        "relatedLinks": [
+            {
+                "title": "🍾🚀 webpack 3: Official Release!! 🚀🍾 – webpack – Medium",
+                "url": "https://medium.com/webpack/webpack-3-official-release-15fd2dd8f07b"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Angular: Angular 4.2 Now Available",
+        "url": "http://angularjs.blogspot.com/2017/06/angular-42-now-available.html",
+        "tags": [
+            "AngularJS",
+            "ReleaseNote"
+        ],
+        "content": "Angular 4.2リリース。\nangular.ioのサイトが刷新された。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Auto-Play Policy Changes for macOS | WebKit",
+        "url": "https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/",
+        "tags": [
+            "article",
+            "audio",
+            "safari",
+            "video"
+        ],
+        "content": "Mac Safariもmobile safariなどと同様にMediaElementの自動再生がユーザー起因でないといけなくする変更。\nplay()がPromiseを返し、失敗の場合はrejectされる。 Video/Audio/サイト毎に許可が決まるので、複数の要素を作るのではなく一つのsrcを変更して使うことを推奨してる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Choo, architecture & performance – Yoshua Wuyts – Medium",
+        "url": "https://medium.com/@yoshuawuyts/choo-architecture-performance-f6f0c44e8a6a",
+        "tags": [
+            "JavaScript",
+            "library",
+            "opinion",
+            "architecture",
+            "article"
+        ],
+        "content": "ウェブフロントを作成する小さなフレームワークであるChooのアーキテクチャについての解説。\nChooを構成する小さなライブラリやなぜそれを選択しているかやパフォーマンスについての記事",
+        "relatedLinks": [
+            {
+                "title": "yoshuawuyts/choo: - sturdy 4kb frontend framework",
+                "url": "https://github.com/yoshuawuyts/choo"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "TypeScript 2.3: Type-Checking JavaScript Files with --checkJs | Marius Schulz",
+        "url": "https://blog.mariusschulz.com/2017/06/16/typescript-2-3-type-checking-javascript-files-with-checkjs",
+        "tags": [
+            "JavaScript",
+            "TypeScript",
+            "article"
+        ],
+        "content": "TypeScriptの`--checkJs`でのJavaScriptからTypeScriptへのマイグレーション手法について。 ホワイトリスト、ブラックリストそれぞれのアプローチ方法について",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Handling Long and Unexpected Content in CSS | CSS-Tricks",
+        "url": "https://css-tricks.com/handling-long-unexpected-content-css/",
+        "tags": [
+            "CSS"
+        ],
+        "content": "長いコンテンツ(文章)などによる意図しないはみ出しやレイアウト崩れ、表示被りをどう対処するかについてのパターン",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ng-japan 2017 セッション資料の一覧 - Qiita",
+        "url": "http://qiita.com/goto63/items/362cef58e16198e20f56",
+        "tags": [
+            "AngularJS",
+            "イベント",
+            "slide",
+            "video"
+        ],
+        "content": "ng-japan 2017の発表動画、スライドまとめ",
+        "relatedLinks": [
+            {
+                "title": "ng-japan - The Angular conference in Tokyo, Japan (2017/6/17)",
+                "url": "http://ngjapan.org/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Up and running with Preact - Course by @shaneosbourne @eggheadio",
+        "url": "https://egghead.io/courses/up-and-running-with-preact",
+        "tags": [
+            "React",
+            "video",
+            "tutorial"
+        ],
+        "content": "Preactについてのスクリーンキャスト",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "JS MythBusters, A JavaScript optimization handbook from a high level point of view.",
+        "url": "https://mythbusters.js.org/",
+        "tags": [
+            "JavaScript",
+            "performance",
+            "ebook"
+        ],
+        "content": "JavaScriptの最適化ハンドブック。\nV8の最適化手法についてやアルゴリズム的な最適化、よくある最適化についての解説などがまとまっている",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "AmplitudeJS: The HTML Audio Player For The Modern Era",
+        "url": "https://521dimensions.com/open-source/amplitudejs",
+        "tags": [
+            "JavaScript",
+            "music",
+            "library"
+        ],
+        "content": "Web Audio APIを使った依存のない音楽プレイヤーライブラリ。\n音楽、プレイリストのデータを設定することで再生プレイヤーを作れる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Angelmmiguel/svgi: 🔎 The SVG inspection tool",
+        "url": "https://github.com/Angelmmiguel/svgi",
+        "tags": [
+            "SVG",
+            "debug"
+        ],
+        "content": "SVG inspectionツール。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "25th-floor/spected: Validation library",
+        "url": "https://github.com/25th-floor/spected",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "オブジェクトに対するバリデーションルールを作成して、バリデーションを行うライブラリ",
+        "relatedLinks": []
+    }
+]

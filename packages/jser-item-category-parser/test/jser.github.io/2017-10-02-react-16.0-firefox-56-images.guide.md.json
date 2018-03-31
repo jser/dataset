@@ -1,0 +1,270 @@
+[
+    {
+        "category": "Headline",
+        "title": "React v16.0 - React Blog",
+        "url": "https://facebook.github.io/react/blog/2017/09/26/react-v16.0.html",
+        "tags": [
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "React 16.0リリース。\n15.6.2と共にMITライセンスへ変更された。\nAPIの基本的な互換は持ちつつコアを書き変え(Fiber)、\n`render`がフラグメントや文字列を返せるように、コンポーネントのエラーハンドリングの改善、`ReactDOM.createPortal`の追加、SSRの改善など。\n`Map`/`Set`/`requestAnimationFrame`に依存する。",
+        "relatedLinks": [
+            {
+                "title": "What’s New With Server-Side Rendering in React 16 – Sasha Aickin – Medium",
+                "url": "https://medium.com/@aickin/whats-new-with-server-side-rendering-in-react-16-9b0d78585d67"
+            },
+            {
+                "title": "React v15.6.2 - React Blog",
+                "url": "https://facebook.github.io/react/blog/2017/09/25/react-v15.6.2.html"
+            },
+            {
+                "title": "React 16: A look inside an API-compatible rewrite of our frontend UI library | Engineering Blog | Facebook Code",
+                "url": "https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Node v8.6.0 (Current) | Node.js",
+        "url": "https://nodejs.org/en/blog/release/v8.6.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.js v8.6.0リリース\nN-APIがフラグなしで利用できるようになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.56.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.56.0",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": "Flow 0.56.0リリース。\n`$Rest` typeの追加、`Object.create(null)`のような`null`プロトタイプのサポート、`__proto__`のサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Path validation vulnerability, September 2017 | Node.js",
+        "url": "https://nodejs.org/en/blog/vulnerability/september-2017-path-validation/",
+        "tags": [
+            "node.js",
+            "security",
+            "ReleaseNote"
+        ],
+        "content": "Node.js 8.5.0にはpathの`..`の扱いに脆弱性があるため8.6.0で修正されたリリースがされている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Firefox — Notes (56.0) — Mozilla",
+        "url": "https://www.mozilla.org/en-US/firefox/56.0/releasenotes/",
+        "tags": [
+            "firefox",
+            "ReleaseNote"
+        ],
+        "content": "Firefox 56リリース。\nCSS Grid DevToolsの追加、`<link rel=\"preload\">`のサポート、Intl APIがAndroid版で有効化。\n`setTimeout(fn, 0)`の仕様に合わせて4msに変更など",
+        "relatedLinks": [
+            {
+                "title": "Firefox 56 for developers - Mozilla | MDN",
+                "url": "https://developer.mozilla.org/ja/Firefox/Releases/56"
+            },
+            {
+                "title": "Master CSS Grid with Firefox DevTools – Mozilla Tech – Medium",
+                "url": "https://medium.com/mozilla-tech/master-css-grid-with-firefox-devtools-e3420a8d58fd"
+            },
+            {
+                "title": "WindowOrWorkerGlobalScope.setTimeout() - Web APIs | MDN",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout#Timeouts_throttled_to_%3E4ms"
+            },
+            {
+                "title": "Firefox 56 サイト互換性情報 | Firefox サイト互換性情報",
+                "url": "https://www.fxsitecompat.com/ja/versions/56/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "React v16 changes - blog.koba04.com",
+        "url": "http://blog.koba04.com/post/2017/09/27/react-v16-changes/",
+        "tags": [
+            "React",
+            "article"
+        ],
+        "content": "React 16の変更点について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "JavaScript ♥ C++: Modern Ways to Use C++ in JavaScript Projects",
+        "url": "https://medium.com/@zandaqo/javascript-c-modern-ways-to-use-c-in-javascript-projects-a19003c5a9ff",
+        "tags": [
+            "node.js",
+            "WebAssembly"
+        ],
+        "content": "C++で書かれたコードをNode.jsで扱う方法について。\nN-APIを使ったネイティブモジュールとWebAssemblyを使った方法について。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Abortable fetch  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/09/abortable-fetch",
+        "tags": [
+            "Fetch",
+            "API",
+            "Promises",
+            "article"
+        ],
+        "content": "Fetch APIなどでリクエストのキャンセルを行う`AbortController`と`AbortSignal`について。\n`fetch(url, { signal })`のようにFetch APIに渡す使い方やAPIの歴史的経緯についてなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Let’s Build a Pokedex with React: Part 1 – CloudBoost",
+        "url": "https://blog.cloudboost.io/lets-build-a-pokedex-with-react-part-1-e1ba0b9387a7",
+        "tags": [
+            "React",
+            "tutorial",
+            "article"
+        ],
+        "content": "Reactを使ってPokedexというサイトをつくっていく連載記事。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Next.js 3.0 Release: What's New?",
+        "url": "https://auth0.com/blog/nextjs-3-release-what-is-new/",
+        "tags": [
+            "React",
+            "JavaScript",
+            "server",
+            "article"
+        ],
+        "content": "Next.js 3.0の変更点についての解説。\nDynamic Import/Dynacmic Loading Component、Static Export、エラーメッセージ表示の改善、起動速度の改善など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "How to write reliable browser tests using Selenium and Node.js",
+        "url": "https://medium.freecodecamp.org/how-to-write-reliable-browser-tests-using-selenium-and-node-js-c3fdafdca2a9",
+        "tags": [
+            "node.js",
+            "Selenium",
+            "article"
+        ],
+        "content": "Seleniumを扱う時なぜ`sleep`を避けるべきかについて。\nNode.jsのselenium-webdriverを例に紹介してる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "How to drop Bower support? · Bower blog",
+        "url": "https://bower.io/blog/2017/how-to-drop-bower-support/",
+        "tags": [
+            "JavaScript",
+            "article"
+        ],
+        "content": "ライブラリの開発者はどのようにBowerサポートを終了するべきかについて。\nリポジトリからbower.jsonなど関連ファイルを削除し、majorアップデートを行い、`bower unregister`はしないことについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "webpack-dev-server/middleware security issues – webpack – Medium",
+        "url": "https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a",
+        "tags": [
+            "webpack",
+            "server",
+            "security",
+            "ReleaseNote"
+        ],
+        "content": "webpack-dev-serverにいくつか脆弱性があるため1.xと2.xそれぞれsecurity fixのリリースが行われた。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ECMAScript proposal updates @ 2017-09 | ECMAScript Daily",
+        "url": "https://ecmascript-daily.github.io/ecmascript/2017/10/02/ecmascript-proposal-updates-2017-09",
+        "tags": [
+            "ECMAScript",
+            "proposal",
+            "babel"
+        ],
+        "content": "2017-09に行われたTC39ミーティング結果のProposal変更まとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "CSS Grid PlayGround | Terminology | Mozilla",
+        "url": "https://mozilladevelopers.github.io/playground/",
+        "tags": [
+            "CSS",
+            "tutorial",
+            "document",
+            "firefox"
+        ],
+        "content": "CSS Gridの解説サイト。\nCSS Gridの用語や基本的な使い方、Firefoxの開発者ツールでのデバッグ、`fr`という単位、Template Area、Named Lineなどについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "cherow/cherow: A fast, Typescript-based Javascript parser",
+        "url": "https://github.com/cherow/cherow",
+        "tags": [
+            "TypeScript",
+            "JavaScript",
+            "ECMAScript",
+            "library"
+        ],
+        "content": "TypeScriptで書かれたJavaScriptパーサ。\nESTree互換のASTを生成し、ES.nextなProposal仕様もサポートしている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "roman01la/closure-compiler-handbook: How to use Google's Closure Compiler",
+        "url": "https://github.com/roman01la/closure-compiler-handbook",
+        "tags": [
+            "JavaScript",
+            "JSDoc",
+            "Tools",
+            "book"
+        ],
+        "content": "Closure Compilerの使い方について書かれたハンドブック",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Shopify/draggable: The JavaScript Drag & Drop library your grandparents warned you about.",
+        "url": "https://github.com/Shopify/draggable",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "D&Dライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Strudel.js | Lightweight component framework",
+        "url": "http://strudeljs.org/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "UI"
+        ],
+        "content": "AngularのようなDecoratorを使ったコンポーネントライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Essential Image Optimization",
+        "url": "https://images.guide/",
+        "tags": [
+            "book",
+            "browser",
+            "画像"
+        ],
+        "content": "ウェブサイトにおける画像の最適化についての書籍。\nどのようなフォーマットを選び、サイズとパフォーマンスへの影響について。\n各フォーマットやエンコーダーの最適化手法、ブラウザのデコード時間や最適化手法、モニタリングツールなどについて\nJPEG、PNG、WebP、GIF/Videoの比較、SVG",
+        "relatedLinks": []
+    }
+]

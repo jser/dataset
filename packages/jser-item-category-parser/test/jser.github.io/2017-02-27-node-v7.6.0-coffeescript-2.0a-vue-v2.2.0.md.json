@@ -1,0 +1,346 @@
+[
+    {
+        "category": "Headline",
+        "title": "🃏 Jest 19: Immersive Watch Mode & Test Platform Improvements · Jest",
+        "url": "https://facebook.github.io/jest/blog/2017/02/21/jest-19-immersive-watch-mode-test-platform-improvements.html",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "est 19プレリリース。\nWatchモードの改善、Snapshotテストで`test`prefixが不要に。\n`expect.stringContaining()`と` expect.toMatchObject()`のサポート。\n`eslint-plugin-jest`は公式プラグイン、設定をチェックできる`jest-validate`の公開\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "# Release v1.5.0 · karma-runner/karma\n",
+        "url": "https://github.com/karma-runner/karma/releases/tag/v1.5.0",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "rma v1.5.0リリース。\nテストをクライアントと同じ`window`で実行する`runInParent`オプションとクライアントページのHTMLを指定できる`customClientContextFile`オプションの追加など\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": " Node v7.6.0 (Current) | Node.js\n[",
+        "url": "https://nodejs.org/en/blog/release/v7.6.0/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "e v7.6.0リリース。\nV8 5.5にアップデートされasync/awaitのサポート、`url.format`がWHATWG URLをサポートするようになるなど\n\n-",
+        "relatedLinks": [
+            {
+                "title": "V8 JavaScript Engine: V8 Release 5.5",
+                "url": "https://v8project.blogspot.jp/2016/10/v8-release-55.html"
+            },
+            {
+                "title": "node/CHANGELOG",
+                "url": "https://github.com/nodejs/node/blob/v7.6.0/doc/changelogs/CHANGELOG_V7.md#7.6.0"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Progress as of February 2017: 2.0.0-alpha1! · Issue #71 · coffeescript6/discuss\n[g",
+        "url": "https://github.com/coffeescript6/discuss/issues/71",
+        "tags": [
+            "CoffeeScript",
+            "ReleaseNote",
+            "issue"
+        ],
+        "content": "eeScript 2.0.0-alpha1リリース。\nES2015+に準拠した変更を取り入れていっているバージョンであるため、既存のものとは非互換な部分がある。\n`class`や`=>`がES2015と同等に、\nsplatsはspreadへコンパイルされるように、Tagged Template literal、async/await、`for...of`のサポートなど\n\n- ",
+        "relatedLinks": [
+            {
+                "title": "CoffeeScript",
+                "url": "https://rawgit.com/jashkenas/coffeescript/2/docs/v2/index.html#breaking-changes"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "nnouncing TypeScript 2.2 | TypeScript\n[bl",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2017/02/22/announcing-typescript-2-2/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "cript 2.2リリース。\nlanguage serviceの改善、`object` typeの追加、string index、mixin class、`new.target`のサポートなど\n\n- [",
+        "relatedLinks": [
+            {
+                "title": "Roadmap · Microsoft/TypeScript Wiki",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/Roadmap#22-february-2017"
+            },
+            {
+                "title": "Breaking Changes · Microsoft/TypeScript Wiki",
+                "url": "https://github.com/Microsoft/TypeScript/wiki/Breaking-Changes#typescript-22"
+            },
+            {
+                "title": "TypeScript 2.2.1 変更点 - Qiita",
+                "url": "http://qiita.com/vvakame/items/eb6c054360868b88f9b1"
+            },
+            {
+                "title": "TypeScript 2.2: The object Type | Marius Schulz",
+                "url": "https://blog.mariusschulz.com/2017/02/24/typescript-2-2-the-object-type"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "lease Notes for Safari Technology Preview 24 | WebKit\n[web",
+        "url": "https://webkit.org/blog/7423/release-notes-for-safari-technology-preview-24/",
+        "tags": [
+            "safari",
+            "ReleaseNote"
+        ],
+        "content": " Technology Preview Release 24リリース。\n`PerformanceObserver`、`<link preload>`の試験的サポート、`URL`オブジェクトに`toJSON()`の実装、dynamic `import()`のサポートなど\n\n\n---",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "AScript 2016+ in Firefox | JavaScript\n[blog",
+        "url": "https://blog.mozilla.org/javascript/2017/02/22/ecmascript-2016plus-in-firefox/",
+        "tags": [
+            "firefox",
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": " Nightly 54 でES2016+ Compat tableが100％実装されたとのこと。\nES2016の`**`や`Array#include`などの追加やGenerator Constructorの仕様変更の追従、ES2017の実装について\n\n\n----",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ase v4.4.0 · npm/npm\n[githu",
+        "url": "https://github.com/npm/npm/releases/tag/v4.4.0",
+        "tags": [
+            "npm",
+            "ReleaseNote"
+        ],
+        "content": "0公開。\n起動時に最新のnpmがあるかを通知するように、`npm run-script`のエラーメッセージが短くなるようになるなど\n\n\n----\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "se v6.16.0 · babel/babylon\n[github",
+        "url": "https://github.com/babel/babylon/releases/tag/v6.16.0",
+        "tags": [
+            "JavaScript",
+            "babel",
+            "AST",
+            "ReleaseNote"
+        ],
+        "content": ".16.0リリース。\nESTree互換モードを提供するプラグインの追加、Flowでpritimitive typeを上書する問題を修正するなど\n\n\n----\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "e v0.40.0 · facebook/flow\n[github.",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.40.0",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": ".0リリース。\n`this`や`super`をデフォルト引数に利用できるように、built-in libraryの更新、union type周りの最適化など\n\n\n----\n\n#",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "/CHANGELOG.md at 4.0.0-rc.1 · angular/angular\n[github.c",
+        "url": "https://github.com/angular/angular/blob/4.0.0-rc.1/CHANGELOG.md",
+        "tags": [
+            "AngularJS",
+            "ReleaseNote"
+        ],
+        "content": ".0 RC1リリース。\nAOTコンパイルしたViewのコード量を削減、コードベースがTypeScript 2.1ベースでStrictNullChecksが有効化された。\nあわせてAngularをサーバサイドでも動かせるUniversalも更新されるなど\n\n- [angula",
+        "relatedLinks": [
+            {
+                "title": "angular/RELEASE",
+                "url": "https://github.com/angular/angular/blob/master/docs/RELEASE_SCHEDULE.md"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "v2.2.0 · vuejs/vue\n[github.co",
+        "url": "https://github.com/vuejs/vue/releases/tag/v2.2.0",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "0リリース。\nテンプレートで閉じタグがない場合にエラーを投げるように、PropsやComputedプロパティはインスタンスではなくprototypeへ定義されるように。\nサーバサイドレンダリング向けに`template`オプションの追加、`errorHandler`や`renderError`でエラーがキャッチできるように。\nReact Context的な値を差し込める`provide`と`inject`のDI機構の追加など\n\n\n----\n<h1 ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "set-env: a preset that configures Babel for you\n[www.2ality",
+        "url": "http://www.2ality.com/2017/02/babel-preset-env.html",
+        "tags": [
+            "JavaScript",
+            "babel",
+            "browser"
+        ],
+        "content": "文でサポートブラウザやNode.jsのバージョンなどのターゲットを指定して、その設定を元にBabelの変換やpolyfillを展開してくれるbabel-preset-envについて\n\n\n----\n\n## R",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ybook: Develop Beautiful User Interfaces with Ease\n[www.sitepoi",
+        "url": "https://www.sitepoint.com/react-storybook-develop-beautiful-user-interfaces-with-ease/",
+        "tags": [
+            "React",
+            "testing"
+        ],
+        "content": "助ツールであるReact StoryBookについて。\n`getstorybook`を使ってのセットアップや使い方、Storyの書き方、カスタマイズ方法、デバッグ、自動テストについて\n\n- [mthuret/s",
+        "relatedLinks": [
+            {
+                "title": "mthuret/storybook-addon-specifications: Write tests next to your stories and display their results inside storybook interface",
+                "url": "https://github.com/mthuret/storybook-addon-specifications"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Errors and Stack Traces in Depth\n[lucasfcosta.",
+        "url": "http://lucasfcosta.com/2017/02/17/JavaScript-Errors-and-Stack-Traces.html",
+        "tags": [
+            "JavaScript",
+            "article",
+            "testing"
+        ],
+        "content": "トレースをどうやって操作するかという話。\nChaiにおける`Error.captureStackTrace`を使ったスタックトレース操作を例にしている。\nスタックトレースはどのようにできているか、`Error.captureStackTrace`の使い方について\n\n\n----\n\n## Rea",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Real World Examples 〜先人から学ぶReact Reduxの知恵〜\n[blog.tai2.net",
+        "url": "http://blog.tai2.net/real-world-redux.html",
+        "tags": [
+            "redux",
+            "React",
+            "article"
+        ],
+        "content": "例を元に、そのアプリのStoreやComponentがどのような構成になっているかを紐解いていった記事\n\n\n----\n\n## Vend",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "de splitting in webpack 2 – Medium\n[medium.com/@ad",
+        "url": "https://medium.com/@adamrackis/vendor-and-code-splitting-in-webpack-2-6376358f1923",
+        "tags": [
+            "webpack",
+            "article"
+        ],
+        "content": "ついて。\n`import()`での動的ロードと分割、BundleAnalyzerPluginでの分析、CommonsChunkでの分割\n\n\n----\n\n## 逆引き！フ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ドキパフォーマンス改善 - 青空コメントアウト\n[www.aocomme.com",
+        "url": "http://www.aocomme.com/entry/2017/01/18/185753",
+        "tags": [
+            "browser",
+            "performance",
+            "article",
+            "WebPlatformAPI"
+        ],
+        "content": "を考慮したAPIや先読みについて。\n`will-change`、CSS Containment、`requestIdleCallback`、Passive EventListener、`<link rel=preload>`についての紹介\n\n\n----\n<h1 class=",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": " Node.js test framework\n[github.com/light",
+        "url": "https://github.com/lighterio/exam",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "testing",
+            "library"
+        ],
+        "content": "escribe`や`it`とベンチマーク向けの`bench`、assertionとして`is`、モックを行う`mock`など持つJavaScriptのテストフレームワーク。\nマルチプロセスでテストを実行できるオプションを持っている\n\n\n----\n\n## niieani",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "pt-vs-flowtype: Differences between Flowtype and TypeScript 2.1 -- syntax and usability\n[github.com/niiean",
+        "url": "https://github.com/niieani/typescript-vs-flowtype",
+        "tags": [
+            "TypeScript",
+            "flowtype"
+        ],
+        "content": "比較。\nシンタックスや型定義、それぞれ異なる部分についてなどをまとめたもの\n\n\n----\n\n## developi",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": ": Bare minimum fetch polyfill in 500 bytes.\n[github.com/develop",
+        "url": "https://github.com/developit/unfetch",
+        "tags": [
+            "JavaScript",
+            "Fetch",
+            "library"
+        ],
+        "content": "ブラリ。\n\n\n----\n\n## debitoor/",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "immutable: Immutable version of dot-prop with some extensions\n[github.com/debitoor",
+        "url": "https://github.com/debitoor/dot-prop-immutable",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "te操作を行うシンプルなライブラリ\n\n\n----\n<h1 class=\"sit",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "ript for Web Developers: Matt Frisbie: 9781119366447: Amazon.com: Books\n[www.amazon.com/Profe",
+        "url": "https://www.amazon.com/Professional-JavaScript-Developers-Matt-Frisbie/dp/1119366445",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "al JavaScript for Web Developersの4版\n\n\n----\n\n## Security an",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "d Performance - O'Reilly Media\n[www.oreilly.com/webop",
+        "url": "http://www.oreilly.com/webops-perf/free/security-and-frontend-performance.csp",
+        "tags": [
+            "browser",
+            "security",
+            "performance",
+            "book"
+        ],
+        "content": "スとセキュリティについての無料の書籍。\nHSTS、CSP/script要素/iframe、リファラポリシー、link要素、難読化、ServiceWorker、メトリクスなど\n\n\n----\n\n## O'Reilly Jap",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "tビギナーズガイド\n[www.oreilly.co.jp/book",
+        "url": "http://www.oreilly.co.jp/books/9784873117881/",
+        "tags": [
+            "React",
+            "book"
+        ],
+        "content": " Runningの翻訳本\n\n\n----\n\n## はじめてのCSS設計 フロ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "アが教えるメンテナブルなCSS設計手法 | 田辺 丈士, 大江 遼, 藤岡 龍太, 安 光太郎, 株式会社アイ・エム・ジェイ |本 | 通販 | Amazon\n[www.amazon.co.jp/%E3%81",
+        "url": "https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AECSS%E8%A8%AD%E8%A8%88-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8C%E6%95%99%E3%81%88%E3%82%8B%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%96%E3%83%AB%E3%81%AACSS%E8%A8%AD%E8%A8%88%E6%89%8B%E6%B3%95-%E7%94%B0%E8%BE%BA-%E4%B8%88%E5%A3%AB/dp/4798143154",
+        "tags": [
+            "CSS",
+            "book"
+        ],
+        "content": "\n\n\n----\n",
+        "relatedLinks": []
+    }
+]

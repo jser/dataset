@@ -1,0 +1,189 @@
+[
+    {
+        "category": "Headline",
+        "title": "ESLint 0.21.0 released - ESLint - Pluggable JavaScript linter",
+        "url": "http://eslint.org/blog/2015/05/eslint-0.21.0-released",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint 0.21.0リリース。\n`eslint --init`で設定ファイルの作成をインタラクティブに行えるように、外部の設定ファイルを継承出来るようになり、また[Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs \"Shareable Configs\")というドキュメントが追加された",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v0.13.3 | React",
+        "url": "https://facebook.github.io/react/blog/2015/05/08/react-v0.13.3.html",
+        "tags": [
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "React v0.13.3リリース。\nES6 Classesを使った時に非推奨メソッドの警告を改善、\n`dangerouslySetInnerHTML`で値がundefinedの時に例外を投げないようになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Rubyist Magazine - 2015 年の JavaScript と babel の話",
+        "url": "http://magazine.rubyist.net/?0050-ECMAScript2015",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "ES6の概要を紹介する記事",
+        "relatedLinks": [
+            {
+                "title": "Hello, ES6 ~これから迎えるJSのミライ~ - @yoshiko_pg",
+                "url": "http://yoshiko-pg.github.io/slides/20150425-jsfes/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Deku: How we built our functional alternative to React",
+        "url": "https://segment.com/blog/deku-our-functional-alternative-to-react/",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "UI",
+            "library"
+        ],
+        "content": "Virtual DOMを持ち、Reactのようなライフサイクルを持つコンポーネントライブラリ。\nES6 Classesではなくライフサイクルに対応する関数をexportする形式となっていて`this`を気にせず書くことができる。\nBabelのオプションを使いJSXで書くこともでき、Node.js上でも動作するためサーバサイドレンダリングが行える。\nファイルサイズが10kb程度。",
+        "relatedLinks": [
+            {
+                "title": "segmentio/deku",
+                "url": "https://github.com/segmentio/deku"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Milliseconds Matter Modern JavaScript libraries: the isomorphic way",
+        "url": "https://blog.algolia.com/modern-javascript-libraries-the-isomorphic-way/",
+        "tags": [
+            "JavaScript",
+            "tutorial"
+        ],
+        "content": "Node.jsとブラウザどちらでも動くライブラリを書いていく記事。\nfaux-jaxを使ったXHRのテストをzuulで動かす。コールバックとPromiseのサポートについてやBrowserify等を使ったモジュールの変換、後方互換ガイドの書き方についてなど",
+        "relatedLinks": [
+            {
+                "title": "algolia/faux-jax",
+                "url": "https://github.com/algolia/faux-jax"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Immutability in JavaScript",
+        "url": "http://www.sitepoint.com/immutability-javascript/",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "immutable.jsを使ったJavaScriptでのImmutabilityの実現について。\n実行コストはどうなのか、逆にどういう点でコストが小さくなるのか",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "The Core Concepts of Angular 2 | Victor Savkin",
+        "url": "http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2",
+        "tags": [
+            "AngularJS",
+            "設計"
+        ],
+        "content": "AngularJS 2のコアコンセプトについて。\nテンプレート、ライフサイクル、DI、コンポーネントなどの構成要素について。",
+        "relatedLinks": [
+            {
+                "title": "angular/zone.js",
+                "url": "https://github.com/angular/zone.js"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "A break from the past, part 2: Saying goodbye to ActiveX, VBScript, attachEvent…",
+        "url": "https://blogs.windows.com/msedgedev/2015/05/06/a-break-from-the-past-part-2-saying-goodbye-to-activex-vbscript-attachevent/",
+        "tags": [
+            "MSEdge",
+            "IE"
+        ],
+        "content": "MSEdgeで削除されたIE特有の機能などについて。(IEから引き継がなかった機能)\n逆に`-webkit-border-radius`のようなものを既存のウェブサイトの互換性のためにサポートしている",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "npm update -g npm // Speaker Deck",
+        "url": "https://speakerdeck.com/watilde/npm-update-g-npm",
+        "tags": [
+            "npm",
+            "スライド"
+        ],
+        "content": "npmの最近の変更点についてのスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Front-end Dev Weekly JP",
+        "url": "http://front-end-dev-weekly-jp.github.io/",
+        "tags": [
+            "browser",
+            "翻訳",
+            "blog"
+        ],
+        "content": "Front-end Dev Weeklyの翻訳",
+        "relatedLinks": [
+            {
+                "title": "Front-end Dev Weekly",
+                "url": "https://frontenddevweekly.curated.co/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jQuery - The Write Less, Do More, JavaScript Library",
+        "url": "http://cyokodog.github.io/JS_STUDY/web-audio/presen/",
+        "tags": [
+            "JavaScript",
+            "audio",
+            "動画",
+            "スライド"
+        ],
+        "content": "Web Audio API、MediaStream Processing API、Web Speech API、Speech Recognition APIの紹介的なスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "getify/es-feature-tests",
+        "url": "https://github.com/getify/es-feature-tests",
+        "tags": [
+            "JavaScript",
+            "library",
+            "testing"
+        ],
+        "content": "ECMAScript 6以降の機能についてfeature detectを実行して結果を取得するライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Challenger.js",
+        "url": "http://rileyjshaw.com/challenger/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "AST"
+        ],
+        "content": "練習問題などを作るライブラリ。\n期待する結果をコードで書いて検証でき、また入力されるコードをASTのNode名などを使ったwhitelist、blacklist方式で制限できる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "nkzawa/hyperd",
+        "url": "https://github.com/nkzawa/hyperd",
+        "tags": [
+            "JavaScript",
+            "UI",
+            "library"
+        ],
+        "content": "virtual-domを使ったUIコンポーネントライブラリ。\nhtml-to-domでHTMLからvirtual-domへの変換をすることで任意のテンプレートエンジンを使える。\nまた、コンポーネント自体がEventEmitterを継承している。",
+        "relatedLinks": []
+    }
+]

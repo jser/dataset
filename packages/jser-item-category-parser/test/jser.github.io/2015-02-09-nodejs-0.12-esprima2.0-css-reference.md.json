@@ -1,0 +1,398 @@
+[
+    {
+        "category": "Headline",
+        "title": "Node v0.12.0 (Stable)",
+        "url": "http://blog.nodejs.org/2015/02/06/node-v0-12-0-stable/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node v0.12.0リリース。\nStreams 3、maxSocketsのデフォルト値がInfinityになった、spawnSync/execSyncの追加、ECMA i18n APIのサポートなど",
+        "relatedLinks": [
+            {
+                "title": "StrongLoop | What’s New in io.js 1.0 Beta? – Streams3",
+                "url": "http://strongloop.com/strongblog/whats-new-io-js-beta-streams3/"
+            },
+            {
+                "title": "Stream今昔物語 - from scratch",
+                "url": "http://yosuke-furukawa.hatenablog.com/entry/2014/12/01/155303"
+            },
+            {
+                "title": "Node-v0.12の新機能について",
+                "url": "http://www.slideshare.net/shigeki_ohtsu/node-v012tng12"
+            },
+            {
+                "title": "StrongLoop | Node.js v0.12 is Now Available With Improvements to Clustering and Performance",
+                "url": "http://strongloop.com/strongblog/node-js-v0-12-released/"
+            },
+            {
+                "title": "Node.js v0.12 がリリースされました。 - from scratch",
+                "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/02/07/185002"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "io.js/CHANGELOG.md at v1.1.0 · iojs/io.js",
+        "url": "https://github.com/iojs/io.js/blob/v1.1.0/CHANGELOG.md",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "io.js 1.1.0リリース。\ncryptoのパフォーマンス改善、エラーメッセージを作るときに`JSON.stringify()`だと循環参照でエラーとなるため、`util.inspect()`を使うように変更された",
+        "relatedLinks": [
+            {
+                "title": "DailyJS | Node 0.11.16 と io.js 1.1.0 がリリース | JSお散歩",
+                "url": "http://panda.node.ws/?p=2152"
+            },
+            {
+                "title": "assert: use util.inspect() to create error messages by cjihrig · Pull Request #668 · iojs/io.js",
+                "url": "https://github.com/iojs/io.js/pull/668"
+            },
+            {
+                "title": "iojs-jp/2015-02-06.md at master · iojs/iojs-jp",
+                "url": "https://github.com/iojs/iojs-jp/blob/master/weekly/2015-02-06.md"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Scala.js no longer experimental | The Scala Programming Language",
+        "url": "http://scala-lang.org/news/2015/02/05/scala-js-no-longer-experimental.html",
+        "tags": [
+            "scala",
+            "JavaScript"
+        ],
+        "content": "Scala.js v0.6.0リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Ember.js - Ember.js 1.10.0 and 1.11 Beta Released",
+        "url": "http://emberjs.com/blog/2015/02/07/ember-1-10-0-released.html",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Ember.js 1.10.0と1.11βリリース。\n1.10でHTMLBarsをテンプレートエンジンとして利用するようになった",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Releases · google/closure-compiler Wiki",
+        "url": "https://github.com/google/closure-compiler/wiki/Releases#february-2-2015-v20150126",
+        "tags": [
+            "JavaScript",
+            "ReleaseNote"
+        ],
+        "content": "closure-compiler v20150126リリース。\nTypeScript的な型アノテーションのサポートを開始、ES6のサポート改善",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 0.11.5 · yyx990803/vue",
+        "url": "https://github.com/yyx990803/vue/releases/tag/0.11.5",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Vue.js 0.11.5リリース。\n`Vue.nextTick`でMutationObserverが使える時は使うように、`v-with`で親子間でバインディングが働くように",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint 0.14.0 released - ESLint",
+        "url": "http://eslint.org/blog/2015/02/eslint-0.14.0-released/",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint 0.14.0リリース。\nArrow Functionのサポート、インデントルールの追加(JSCSからのポート)",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "WebStorm 10 EAP | JetBrains WebStorm Blog",
+        "url": "http://blog.jetbrains.com/webstorm/2015/02/webstorm-10-eap/",
+        "tags": [
+            "WebStorm",
+            "ReleaseNote"
+        ],
+        "content": "WebStorm 10 EAPリリース。\nJavaScriptサポートの改善、spy-jsが多段SourceMapに対応しAltJSなどでも元ソースへジャンプできるように、Firefoxでのデバッグに再対応",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "flow/Changelog at v0.2.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/v0.2.0/Changelog",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "Flow v0.2.0リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Esprima 2.0 Released | Official jQuery Blog",
+        "url": "http://blog.jquery.com/2015/02/06/esprima-2-0-released/",
+        "tags": [
+            "JavaScript",
+            "AST",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "jQuery Fundationに移管したEsprimaのVer 2.0がリリース。\n\"harmony\"ブランチをマージしたリリースとなりES6の機能を多く含んでいる。\nまた、IssueのメインがGoogle CodeからGitHubへ移行した。",
+        "relatedLinks": [
+            {
+                "title": "最近のASTパーサの動き",
+                "url": "http://azu.github.io/slide/crosushi/shift-ast.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "harmony:specification_drafts [ES Wiki]",
+        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#february_2_2015_draft_rev_32",
+        "tags": [
+            "ECMAScript",
+            "spec",
+            "ReleaseNote"
+        ],
+        "content": "ES6 Draft Rev 32リリース。\nclass syntax周りの記述の更新が中心。\nclassで定義されたmethodがnon-enumerableに変更。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Google SoundScript: faster OOP for JavaScript",
+        "url": "http://www.2ality.com/2015/02/soundscript.html",
+        "tags": [
+            "JavaScript",
+            "google",
+            "AngularJS"
+        ],
+        "content": "JavaScriptエンジンのHidden class等の典型的な最適化とSoundScriptについて。\nSoundScriptは最適化が効きやすいようなstrict modeの拡張的な話",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ES6時代のJavaScript - クックパッド開発者ブログ",
+        "url": "http://techlife.cookpad.com/entry/2015/02/02/094607",
+        "tags": [
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "ES6で入る機能や構文の一部を紹介する記事。\n具体的にどういう目的で使うかについて書かれてる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Variables and scoping in ECMAScript 6",
+        "url": "http://www.2ality.com/2015/02/es6-scoping.html",
+        "tags": [
+            "ECMAScript",
+            "JavaScript"
+        ],
+        "content": "letやconstのスコープやconstでのimmutableデータの扱いについて。\nconstとObject.freeze、TDZ、デフォルトパラメータとスコープ、グローバル空間でのvar/functionとlet/const/classの違いについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Temporal Dead Zone (TDZ) demystified - ES6 Rocks",
+        "url": "http://es6rocks.com/2015/01/temporal-dead-zone-tdz-demystified/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "ES6のTDZ(Temporal Dead Zone)について。\nES6では`let`によりlexical scopeが増えた、また`var`と違い変数宣言は巻き上げされないため、宣言より前方などには変数にアクセスできない領域(TDZ)が存在する事について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Tech — Switching from immutable.js to seamless-immutable",
+        "url": "http://noredinktech.tumblr.com/post/107617838018/switching-from-immutable-js-to-seamless-immutable",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "immutable.jsは専用のオブジェクトになるため、既存のライブラリと連携がしにくい、またAPIも独特。\nその辺を扱いやすく使えるseamless-immutableというライブラリについて",
+        "relatedLinks": [
+            {
+                "title": "rtfeldman/seamless-immutable",
+                "url": "https://github.com/rtfeldman/seamless-immutable#asmutable"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "BroadcastChannel API in Firefox 38 ✩ Mozilla Hacks – the Web developer blog",
+        "url": "http://hacks.mozilla.org/2015/02/broadcastchannel-api-in-firefox-38/",
+        "tags": [
+            "JavaScript",
+            "WebPlatformAPI"
+        ],
+        "content": "BroadcastChannelについて。\nタブやウィンドウをまたぎsame origin間でメッセージングでやり取りするAPI。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Measuring Client-side JavaScript Test Coverage With Istanbul | Quick Left",
+        "url": "https://quickleft.com/blog/measuring-clientside-javascript-test-coverage-istanbul/",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "mocha-phantomjs + istanbulでコードカバレッジを取る方法について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Muscula/json-schema-benchmark",
+        "url": "https://github.com/Muscula/json-schema-benchmark",
+        "tags": [
+            "node.js",
+            "JavaScript",
+            "JSON",
+            "benchmark"
+        ],
+        "content": "JSONスキーマバリデーターのベンチマーク比較。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "VOYAGE GROUP　エンジニアブログ : 今、クライアントサイドのJavaScriptを書く前に知っておきたいこと ~ 2014年トレンド総まとめ",
+        "url": "http://tech.voyagegroup.com/archives/8046369.html",
+        "tags": [
+            "JavaScript",
+            "スライド"
+        ],
+        "content": "2014年のJavaScriptのパラダイムの変化についてまとめられたスライド。\nAltJSとES6、非同期処理、モジュールパッケージ管理とビルドツール、テスト、ライブラリについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "CSS Reference | Codrops",
+        "url": "http://tympanus.net/codrops/css_reference/",
+        "tags": [
+            "CSS",
+            "リファレンス"
+        ],
+        "content": "CSSのリファレンスサイト。\n擬似クラスやプロパティ、Flexboxといったコンセプトや@mediaなどのruleなどそれぞれ詳しく書かれていて網羅的",
+        "relatedLinks": [
+            {
+                "title": "I Wrote A CSS ",
+                "url": "http://sarasoueidan.com/blog/codrops-css-reference/"
+            },
+            {
+                "title": "codrops/css-reference-issues",
+                "url": "https://github.com/codrops/css-reference-issues"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Try Flow online — Typechecker for Javascript by Facebook",
+        "url": "https://tryflow.org/",
+        "tags": [
+            "flowtype",
+            "JavaScript",
+            "editor"
+        ],
+        "content": "Flowによる型チェックをオンラインで試せるサイト",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "NativeScript for Cross-Platform Native App Development with JavaScript",
+        "url": "http://www.telerik.com/nativescript",
+        "tags": [
+            "JavaScript",
+            "mobile",
+            "app"
+        ],
+        "content": "JavaScript + CSS + XMLを使ったクロスプラットフォームなモバイルアプリを開発できるツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jareware/flotate",
+        "url": "https://github.com/jareware/flotate",
+        "tags": [
+            "JavaScript",
+            "flowtype",
+            "Tools"
+        ],
+        "content": "FlowTypeの型アノテーションをコメントで書けるようにするツールとライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "CSS polyfills from the future | GSS",
+        "url": "http://gridstylesheets.org/",
+        "tags": [
+            "CSS"
+        ],
+        "content": "CSSのGrid Layoutを扱うCSS preprocessor。CocoaのAutoLayoutのVisual Format LanguageみたいなVisual Grid Languageを持ちGridを扱う。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "js-data/js-data",
+        "url": "https://github.com/js-data/js-data",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "データストア部分をadapterで変更出来るモデルライブラリ。\nobserve-jsを使ってdirtyチェックをするため、特別なgetter/settterなしでバインディングを行える。\nEmber DataのようなREST APIをバックエンドとするhttp adapterも持っている。",
+        "relatedLinks": [
+            {
+                "title": "Polymer/observe-js",
+                "url": "https://github.com/Polymer/observe-js"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "voronianski/flux-comparison",
+        "url": "https://github.com/voronianski/flux-comparison",
+        "tags": [
+            "Flux",
+            "library",
+            "サンプル"
+        ],
+        "content": "FluxライブラリのTodoMVCみたいな感じのサンプル実装集。\nオンラインショップカートをサンプルケースとして実装されてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jquense/react-widgets",
+        "url": "https://github.com/jquense/react-widgets",
+        "tags": [
+            "React",
+            "UI",
+            "library"
+        ],
+        "content": "Reactを使ったUI widgets。\nカレンダーやドロップダウンリスト等のUIコンポーネント集",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Make: JavaScript Robotics - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/0636920031390.do",
+        "tags": [
+            "JavaScript",
+            "ハードウェア",
+            "book"
+        ],
+        "content": "JavaScriptとハードウェアの組み合わせについての書籍",
+        "relatedLinks": [
+            {
+                "title": "NodeBots - The Rise of JS Robotics",
+                "url": "http://nodebots.io/"
+            }
+        ]
+    }
+]

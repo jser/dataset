@@ -1,0 +1,330 @@
+[
+    {
+        "category": "Headline",
+        "title": "Migrating to v2.0",
+        "url": "http://sinonjs.org/releases/v2.0.0/migrating-to-2.0/",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "inon.js 2.0リリース。\n`sinon.log`や`sinon.logError`は削除、`sinon.test`と`sinon.testCase`がコアから削除され別モジュールへ分離。\nInternalなメソッドが非推奨になるなど\n",
+        "relatedLinks": [
+            {
+                "title": "sinon/Changelog.txt at v2.0.0 · sinonjs/sinon",
+                "url": "https://github.com/sinonjs/sinon/blob/v2.0.0/Changelog.txt"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "# jQuery 3.2.0 Is Out! | Official jQuery Blog\n",
+        "url": "https://blog.jquery.com/2017/03/16/jquery-3-2-0-is-out/",
+        "tags": [
+            "jQuery",
+            "ReleaseNote"
+        ],
+        "content": "uery 3.2.0リリース。\n`$.css`がCSS Custom Propertyをサポート、transformされた要素の`.width()`、`.height()`の値がおかしい問題を修正、`<template>`要素をサポートなど\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": " Release react-router@4.0.0: Publish · ReactTraining/react-router\n[",
+        "url": "https://github.com/ReactTraining/react-router/releases/tag/react-router%404.0.0",
+        "tags": [
+            "React",
+            "ReleaseNote",
+            "library"
+        ],
+        "content": "ct Router 4.0.0リリース。\n書き直されたバージョンであり、既存のものとは互換性がないためマイグレーションガイドは用意されていない。\n\n-",
+        "relatedLinks": [
+            {
+                "title": "https://github.com/ReactTraining/react-router/tree/v4.0.0-beta.8#why-a-major-version-bump",
+                "url": "https://github.com/ReactTraining/react-router/tree/v4.0.0-beta.8#why-a-major-version-bump"
+            },
+            {
+                "title": "Migration guide v3 -",
+                "url": "https://github.com/ReactTraining/react-router/issues/4738"
+            },
+            {
+                "title": "v4 FAQ",
+                "url": "https://github.com/ReactTraining/react-router/tree/v4.0.0-beta.8#why-a-major-version-bump"
+            },
+            {
+                "title": "react-router@v4対応したので雑に晒す - Qiita",
+                "url": "http://qiita.com/Jey/items/dae2074427547e63569b"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.42.0 · facebook/flow\n[g",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.42.0",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": " 0.42.0リリース。\nObject type spread `type TypeB = { ...TypeA }` の追加。`flow ide`コマンドの追加など\n\n\n-",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "SLint v3.18.0 released - ESLint - Pluggable JavaScript linter\n[es",
+        "url": "http://eslint.org/blog/2017/03/eslint-v3.18.0-released",
+        "tags": [
+            "ESLint",
+            "ReleaseNote"
+        ],
+        "content": "t 3.18.0リリース。\nesqueryベースのASTセレクタに対応しルール内でセレクタを指定できるようになるなど\n\n- [",
+        "relatedLinks": [
+            {
+                "title": "estools/esquery: ECMAScript AST query library.",
+                "url": "https://github.com/estools/esquery"
+            },
+            {
+                "title": "Selectors - ESLint - Pluggable JavaScript linter",
+                "url": "http://eslint.org/docs/developer-guide/selectors"
+            },
+            {
+                "title": "ESLint v3.18.0 - Qiita",
+                "url": "http://qiita.com/mysticatea/items/264e59b3d28e13b633df"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "sting Service Workers – Dev Channel – Medium\n[med",
+        "url": "https://medium.com/dev-channel/testing-service-workers-318d7b016b19",
+        "tags": [
+            "ServiceWorker",
+            "testing"
+        ],
+        "content": "eWorkerのスクリプトに対するユニットテストについて。\nTests in SW、イベントのエミュレート、Push Eventのテストについてなど\n\n\n---",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": " Proxy をつかって堅牢なオブジェクトをつくるTips\n[aloe",
+        "url": "https://aloerina01.github.io/javascript/2017/03/14/1.html",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "Proxyを使ったImmutableやSingletonなどを例にした、オブジェクトの拡張方法について。\nProxyのtrapやReflect APIについて\n\n\n----",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "meでReactコンポーネントのテストを書こう - DMM.comラボエンジニアブログ\n[labot",
+        "url": "http://labotech.dmm.com/entry/2017/03/07/180449",
+        "tags": [
+            "React",
+            "testing",
+            "tutorial",
+            "article"
+        ],
+        "content": "ったReactコンポーネントのテスト方法について\n\n\n----\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "round Tabs in Chrome 57  |  Web  |  Google Developers\n[develo",
+        "url": "https://developers.google.com/web/updates/2017/03/background_tabs",
+        "tags": [
+            "Chrome"
+        ],
+        "content": "クグラウンドタブにおける制限について。 \nChrome 57からは、timerやrequestAnimationFrameに加えて、budget-basedの制限が加わる。\nバックグラウンドにいるかはPage visibility APIで判定できる。 テスト時などは`--disable-background-timer-throttling`のフラグで無効化できる。\n\n\n----\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Fluxアーキテクチャをやってみる | Web Scratch\n[efcl.in",
+        "url": "http://efcl.info/2017/03/17/almin-introduction/",
+        "tags": [
+            "JavaScript",
+            "redux",
+            "Flux",
+            "library",
+            "tutorial"
+        ],
+        "content": "ウンターアプリを書きながら、どのようにFlux的な一方通行のデータフローを行うかについての記事。\n開発用のロガーやブラウザ拡張との連携について\n\n\n----\n\n#",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "internals #1: the easy parts – Medium\n[medium.c",
+        "url": "https://medium.com/@asolove/preact-internals-1-the-easy-parts-3a081fa36205",
+        "tags": [
+            "JavaScript",
+            "React",
+            "article"
+        ],
+        "content": "についての連載記事\n\n\n----\n\n##",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ive Web App Libraries in Production – Dev Channel – Medium\n[medium.co",
+        "url": "https://medium.com/dev-channel/progressive-web-app-libraries-in-production-b52cad37d34",
+        "tags": [
+            "ProgressiveWebApp",
+            "article",
+            "ServiceWorker"
+        ],
+        "content": "rを使ったキャッシュ周りなどを導入するツールであるsw-precache、 sw-toolbox、offline-analyticsの紹介記事\n\n\n----\n\n## ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ux+Express+MongoDBでものすごくシンプルなCRUDアプリをつくる - Qiita\n[qiita.com/",
+        "url": "http://qiita.com/m_yama6/items/573247b12ff0bc4e5d3c",
+        "tags": [
+            "React",
+            "article",
+            "node.js",
+            "redux",
+            "tutorial"
+        ],
+        "content": "-app`を使いReact+Reduxのセットアップを行いフロントを書き、Express+MongoDB+mongooseでバックエンドを書いていくチュートリアル記事。 フロントエンドとバックエンドの接続部分も丁寧にかかれている。\n\n\n----\n\n## T",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "e | Our Thinking | testdouble.js 2.0\n[blog.testdo",
+        "url": "http://blog.testdouble.com/posts/2017-03-13-testdouble-2.0.html",
+        "tags": [
+            "JavaScript",
+            "library",
+            "testing"
+        ],
+        "content": "stdouble.js 2.0リリース。 `td.object`ではES2015 Proxyを使い存在しないプロパティなどのアクセスもキャッチ出来るようになるなど、非同期stubのサポート、`td.verify`の改善など\n\n- [Test Doub",
+        "relatedLinks": [
+            {
+                "title": "Test Double | Our Thinking | testdouble.js vs. sinon.js",
+                "url": "http://blog.testdouble.com/posts/2016-03-13-testdouble-vs-sinon.html"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ue.js - 算出プロパティはどうやって動いているか\n[kitak.github",
+        "url": "https://kitak.github.io/slides/170316-vue-meetup/#",
+        "tags": [
+            "slide",
+            "Vue"
+        ],
+        "content": " propertyの変更検知の仕組みについてのスライド\n\n\n----\n\n## Rea",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "017 - YouTube\n[www.youtube.c",
+        "url": "http://www.youtube.com/playlist?list=PLb0IAmt7-GS3fZ46IGFirdqKTIxlws7e0",
+        "tags": [
+            "React",
+            "video",
+            "まとめ"
+        ],
+        "content": "動画が公開された\n\n- [React Conf ",
+        "relatedLinks": [
+            {
+                "title": "React Conf 2017",
+                "url": "http://conf.reactjs.org/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": " full-stack React+GraphQL framework\n[vulcanjs.org/]",
+        "url": "http://vulcanjs.org/",
+        "tags": [
+            "React",
+            "GraphQL",
+            "library"
+        ],
+        "content": "タックフレームワーク。\n元々React+MeteorのTelscopeだったもの。\n\n- [Vulcan: A Ne",
+        "relatedLinks": [
+            {
+                "title": "Vulcan: A New Direction For Telescope – VulcanJS – Medium",
+                "url": "https://medium.com/vulcanjs/vulcan-a-new-direction-for-telescope-93df1f8712f3#.w9qocegs0"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "ck-tricks: Tips and tricks in using Webpack\n[github.com/rsta",
+        "url": "https://github.com/rstacruz/webpack-tricks",
+        "tags": [
+            "webpack",
+            "Tips",
+            "document"
+        ],
+        "content": "の削減やビルドの設定、開発向け/本番向けの設定などのTipsをまとめたドキュメント\n\n\n----\n<h1 class=",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "act-loadable: A higher order component for loading components with promises.\n[github.com/theja",
+        "url": "https://github.com/thejameskyle/react-loadable",
+        "tags": [
+            "React",
+            "library"
+        ],
+        "content": "数のReactコンポーネント。 Promiseが解決されるまでのローディングやエラー表示を行う\n\n- [Introducing Re",
+        "relatedLinks": [
+            {
+                "title": "Introducing React Loadable – Medium",
+                "url": "https://medium.com/@thejameskyle/react-loadable-2674c59de178"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "-runtime-analyzer: Webpack 1.x/2.x plugin for analyzing internal processes, state and structure of bundles.\n[github.com/smeluk",
+        "url": "https://github.com/smelukov/webpack-runtime-analyzer",
+        "tags": [
+            "webpack",
+            "Tools"
+        ],
+        "content": "ateや構造をビジュアライズするwebpack plugin。\nモジュール、依存関係グラフ、ファイルサイズなど\n\n\n----\n\n## FranckFr",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "module-invalidate: Invalidate node.js modules loaded through require()\n[github.com/FranckF",
+        "url": "https://github.com/FranckFreiburger/module-invalidate",
+        "tags": [
+            "node.js",
+            "library"
+        ],
+        "content": "んだキャッシュを無効化したり、モジュール側で無効化することを宣言できるモジュール\n\n\n----\n<h1 class=\"si",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "'Reilly Media\n[shop.oreilly.com/pr",
+        "url": "http://shop.oreilly.com/product/0636920045335.do",
+        "tags": [
+            "SVG",
+            "animation"
+        ],
+        "content": "--\n\n## 徹底マスター Jav",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "科書　プログラミングの教養から、言語仕様、開発技法までが正しく身につく | 磯 博 | インターネット・Web開発 | Kindleストア | Amazon\n[www.amazon.co.jp/dp/",
+        "url": "https://www.amazon.co.jp/dp/B06XNQCW7B",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "ての書籍。\nES2015に対応している内容\n\n- [SBクリエイティブ:徹底マスター J",
+        "relatedLinks": [
+            {
+                "title": "SBクリエイティブ:徹底マスター JavaScriptの教科書",
+                "url": "http://www.sbcr.jp/products/4797388640.html"
+            }
+        ]
+    }
+]

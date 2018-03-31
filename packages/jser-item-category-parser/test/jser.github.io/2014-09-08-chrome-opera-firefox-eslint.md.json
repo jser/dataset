@@ -1,0 +1,351 @@
+[
+    {
+        "category": "Headline",
+        "title": "Dev.Opera — Opera 24 released",
+        "url": "https://dev.opera.com/blog/opera-24/",
+        "tags": [
+            "Opera",
+            "ReleaseNote"
+        ],
+        "content": "Opera 24リリース。\n\nWindowsでのフォントレンダリングの改善、CSSの`all`プロパティのサポート、`navigator.hardwareConcurrency`でCPUコア数の取得、Web Cryptography APIのサポート等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Firefox — Notes (32.0) — Mozilla",
+        "url": "http://www.mozilla.org/en-US/firefox/32.0/releasenotes/",
+        "tags": [
+            "firefox",
+            "ReleaseNote",
+            "セキュリティ"
+        ],
+        "content": "Firefox 32リリース。\n\nposition:stickyがデフォルト有効に、imgのsrcset属性を試験サポート、`Array.from()`、Public Key Pinningの対応",
+        "relatedLinks": [
+            {
+                "title": "Firefox 32 が正式リリース、position: sticky; や srcset 属性への対応、開発ツールの機能追加など | WWW WATCH",
+                "url": "http://hyper-text.org/archives/2014/09/firefox_32_release.shtml"
+            },
+            {
+                "title": "Firefox 32 for developers - Mozilla | MDN",
+                "url": "https://developer.mozilla.org/ja/docs/Mozilla/Firefox/Releases/32"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release SCSS-Lint 0.28.0 · causes/scss-lint",
+        "url": "https://github.com/causes/scss-lint/releases/tag/v0.28.0",
+        "tags": [
+            "Sass",
+            "ReleaseNote"
+        ],
+        "content": "SCSS-Lint 0.28.0リリース。\n\nSass 3.4に対応",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Brackets 0.43 Release – Brackets Blog",
+        "url": "http://blog.brackets.io/2014/09/04/brackets-0-43-release/",
+        "tags": [
+            "editor",
+            "ReleaseNote"
+        ],
+        "content": "Brackets 0.43リリース。\n\nSass/Lessのサポート、検索UIの改善、シンタックスの言語切替ができるように",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "mathjs/HISTORY.md at v1.0.0 · josdejong/mathjs",
+        "url": "https://github.com/josdejong/mathjs/blob/v1.0.0/HISTORY.md",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "既存のMathと互換性のある関数や数値演算、数式のパーサを持つライブラリであるmath.js 1.0.0リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint 0.8.0 released - ESLint",
+        "url": "http://eslint.org/blog/2014/09/eslint-0.8.0-released/",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint 0.8.0リリース。\n\nプラグインの仕組みがstableになって、作り方、テスト方法、命名ルール等が公開された。\n\nignorefileの`node_modules/`と書いた時の挙動を変更、パフォーマンスの改善等",
+        "relatedLinks": [
+            {
+                "title": "Working with Plugins",
+                "url": "http://eslint.org/docs/developer-guide/working-with-plugins.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.9.0: Release 0.9.0 (2014-09-02) multi-stage sourcemaps · twada/power-assert",
+        "url": "https://github.com/twada/power-assert/releases/tag/v0.9.0",
+        "tags": [
+            "JavaScript",
+            "library",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "power-assert 0.9.0リリース。\n\nAltJS等を使っている時に、元ファイルの正しいエラー行数を表示するために多段SourceMapに対応",
+        "relatedLinks": [
+            {
+                "title": "多段SourceMapの対応方法とライブラリ | Web Scratch",
+                "url": "http://efcl.info/2014/09/03/multi-stage-sourcemap/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Socket.IO — Socket.IO 1.1.0",
+        "url": "http://socket.io/blog/socket-io-1-1-0/",
+        "tags": [
+            "node.js",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Socket.IO 1.1.0リリース。\n\nnamespaceの指定が`/`から始まるかどうかはどちらでも良くなった。バグ修正等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "A Fond Farewell to YUI | Blog | Sencha",
+        "url": "http://www.sencha.com/blog/a-fond-farewell-to-yui/",
+        "tags": [
+            "JavaScript",
+            "歴史",
+            "library"
+        ],
+        "content": "Ext JS 1.0より前はYUIに依存してて、その後は3.0までアダプタ的なものを提供していた。\n\nまたエンタープライズウェブアプリの今後についてや、AngularJS等とExt JSがカバーしてる範囲の違いと用途への適正等の話",
+        "relatedLinks": [
+            {
+                "title": "YUI との別れを惜しむ | 株式会社ゼノフィ",
+                "url": "https://www.xenophy.com/sencha-blog/11463"
+            },
+            {
+                "title": "Enterprise Web Development: From Desktop to Mobile",
+                "url": "http://enterprisewebbook.com/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "多段SourceMapの対応方法とライブラリ | Web Scratch",
+        "url": "http://efcl.info/2014/09/03/multi-stage-sourcemap/",
+        "tags": [
+            "sourcemap",
+            "JavaScript",
+            "library",
+            "node.js"
+        ],
+        "content": "多段SourceMapといわれてるものについての問題と、それをマッピングし直すことでその問題を解決するモジュールについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Making the web “just work” with any input: Mouse, Touch, and Pointer Events - IEBlog - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/ie/archive/2014/09/05/making-the-web-just-work-with-any-input.aspx",
+        "tags": [
+            "IE",
+            "browser",
+            "mobile"
+        ],
+        "content": "IE 11のアップデートでTouch Eventsのサポートが入り、Mouse/Touch/Pointerの3つのモデルが存在するようになった。\n\nそれらのモデルの比較とfeature detectによる互換性のない実装がよくみられる事について等",
+        "relatedLinks": [
+            {
+                "title": "The Mobile Web should just work for everyone - IEBlog - Site Home - MSDN Blogs",
+                "url": "http://blogs.msdn.com/b/ie/archive/2014/07/31/the-mobile-web-should-just-work-for-everyone.aspx"
+            },
+            {
+                "title": "IE11: 現在そして将来の Web に対応するタッチ ブラウジング - IEBlog 日本語 - Site Home - MSDN Blogs",
+                "url": "http://blogs.msdn.com/b/ie_ja/archive/2013/08/06/ie11-touch-browsing-for-todays-web-and-beyond.aspx"
+            },
+            {
+                "title": "Issue 162757 - chromium - Implement pointer events in Chrome behind experimental flag - An open-source project to help move the web forward. - Google Project Hosting",
+                "url": "https://code.google.com/p/chromium/issues/detail?id=162757#c64"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "From AngularJS to React: the isomorphic way",
+        "url": "http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/",
+        "tags": [
+            "JavaScript",
+            "AngularJS"
+        ],
+        "content": "SEO的な視点からAngularJSからReactにした話。\n\nAngularではkoa-prerenderでプリレンダリングをしていた。\n\nReactを使うことでクライアントもサーバも同じコード(Isomorphic JavaScript)を使ってViewができるようになった",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ECMAScript 6 modules: the final syntax",
+        "url": "http://www.2ality.com/2014/09/es6-modules-final.html",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "ES6 modulesの構文について。\n\n構文の仕様は固まり、CommonJSのような同期的な形とAMDのような非同期的な呼び出しどちらでも使える。\n\nES6 modulesの構文、基本的な使い方、default exportやSystem.importについて等まとまってる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "An Introduction to WebDriver Using the JavaScript Bindings - Tuts+ Code Tutorial",
+        "url": "http://code.tutsplus.com/tutorials/an-introduction-to-webdriver-using-the-javascript-bindings--cms-21855",
+        "tags": [
+            "Selenium",
+            "webdriver",
+            "node.js"
+        ],
+        "content": "WebDriverJSのバインディングについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Supersonic JavaScript // Speaker Deck",
+        "url": "https://speakerdeck.com/ariya/supersonic-javascript",
+        "tags": [
+            "JavaScript",
+            "performance",
+            "スライド"
+        ],
+        "content": "JavaScriptエンジンの最適化についてのスライド。\n\nコンストラクタ関数の最適化(Shape、Hidden class)を妨げない書き方、短絡評価、段階的なアプローチ、GCについてなど",
+        "relatedLinks": [
+            {
+                "title": "JavaScript Memory Management Masterclass // Speaker Deck",
+                "url": "https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "コーディングガイド by @mdo",
+        "url": "http://kia-king.com/code-guide/",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "翻訳"
+        ],
+        "content": "<a href='http://codeguide.co/'>http://codeguide.co/</a> の訳\n\nHTMLやCSSやJavaScriptそれぞれを書く時のルールの統一感を持つためのガイドライン",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "macbre/phantomas",
+        "url": "https://github.com/macbre/phantomas",
+        "tags": [
+            "JavaScript",
+            "browser",
+            "performance",
+            "Tools"
+        ],
+        "content": "PhantomJSを使ったパフォーマンスメトリクス、モニタリングツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "TimBeyer/html-to-vdom",
+        "url": "https://github.com/TimBeyer/html-to-vdom",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "library"
+        ],
+        "content": "HTML文字列をVirtual DOM(vTree)に変換するライブラリ。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "btwael/locallydb",
+        "url": "https://github.com/btwael/locallydb",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "node、node-webkitで使えるNoSQLなデータベースライブラリ。\n\nJSONファイルベース",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "zendesk/cross-storage",
+        "url": "https://github.com/zendesk/cross-storage",
+        "tags": [
+            "JavaScript",
+            "Promises",
+            "library"
+        ],
+        "content": "postMessageを使ったクロスドメインでデータを共有出来るlocalStorageラッパライブラリ。\n\nES6 Promisesを使ったPromiseベースのAPIになってる",
+        "relatedLinks": [
+            {
+                "title": "DailyJS: Cross-Storage: Share Local Data Across Domains",
+                "url": "http://dailyjs.com/2014/09/05/cross-storage/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "RReverser/acorn-csp",
+        "url": "https://github.com/RReverser/acorn-csp",
+        "tags": [
+            "JavaScript",
+            "library",
+            "AST"
+        ],
+        "content": "acornのCSP対応版を生成するツール。\n\n`new Function`を使っている所に対して、AST変換を使ったインライン展開的な事をして対応していて興味深い",
+        "relatedLinks": [
+            {
+                "title": "Acorn-cspのできた流れ - efcl’s blog",
+                "url": "http://efcl.hatenablog.com/entry/2014/09/07/022914"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "pioneer.js - javascript integration testing",
+        "url": "http://pioneerjs.com/",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "Selenium",
+            "webdriver",
+            "library"
+        ],
+        "content": "Cucumber的なDSLと、そのDSLに対応した処理をJavaScriptで書けるStep、どこをテストするのかのDOMをラップしたWidgetsの3層構造のテストフレームワーク。\n\nWebDriverを使ってブラウザ自動テストが出来る",
+        "relatedLinks": [
+            {
+                "title": "Pioneerのお試しステップ - efcl’s blog",
+                "url": "http://efcl.hatenablog.com/entry/2014/09/08/212101"
+            }
+        ]
+    },
+    {
+        "category": "Book",
+        "title": "Amazon: AngularJSリファレンス",
+        "url": "http://www.amazon.co.jp/dp/4844336681?tag=amazon0abac-22",
+        "tags": [
+            "AngularJS",
+            "book"
+        ],
+        "content": "2014年9月5日発売\n\nAngularJSの脱初心者〜中級者向けの書籍\n\n<a href='http://zoetrope.hatenablog.jp/entry/2014/09/01/201056'>http://zoetrope.hatenablog.jp/entry/2014/09/01/201056</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "O&#x27;Reilly Japan - 実践 Selenium WebDriver",
+        "url": "http://www.oreilly.co.jp/books/9784873116952/",
+        "tags": [
+            "Selenium",
+            "book",
+            "ios",
+            "Android"
+        ],
+        "content": "2014年9月18日発売\n\nSeleniumについての書籍。\n\nブラウザやiOS/Androidのテストについて扱う",
+        "relatedLinks": []
+    }
+]

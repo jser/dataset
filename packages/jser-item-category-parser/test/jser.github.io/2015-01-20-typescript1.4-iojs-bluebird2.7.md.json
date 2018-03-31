@@ -1,0 +1,290 @@
+[
+    {
+        "category": "Headline",
+        "title": "Socket.IO — Socket.IO 1.3.0",
+        "url": "http://socket.io/blog/socket-io-1-3-0/",
+        "tags": [
+            "node.js",
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Socket.IO 1.3.0リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "harmony:specification_drafts [ES Wiki]",
+        "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#january_15_2015_draft_rev_31",
+        "tags": [
+            "ECMAScript",
+            "spec",
+            "ReleaseNote"
+        ],
+        "content": "ECMAScript 6のDraft Rev 31リリース。\n議論検討する`super()`についての記述の変更が中心",
+        "relatedLinks": [
+            {
+                "title": "ecma262/ES6-super-construct=proposal.md at master · tc39/ecma262",
+                "url": "https://github.com/tc39/ecma262/blob/master/workingdocs/ES6-super-construct%3Dproposal.md"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint 0.12.0 released - ESLint",
+        "url": "http://eslint.org/blog/2015/01/eslint-0.12.0-released/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint  0.12.0リリース。\nES6の一部をサポート、JSXのフルサポート。\nそれに併せてルールがJSXでも動くように修正等",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 1.17.0 · jquery/qunit",
+        "url": "https://github.com/jquery/qunit/releases/tag/1.17.0",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "QUnit 1.17.0リリース。\nHTMLレポータの改善。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Announcing TypeScript 1.4 - TypeScript - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/typescript/archive/2015/01/16/announcing-typescript-1-4.aspx",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 1.4リリース。\nUnion Types、Type Aliases、Const Enumsの追加。\nES6の構文サポートの改善、ES6のコードを出力するモードの追加等",
+        "relatedLinks": [
+            {
+                "title": "TypeScript 1.4.1 変更点 - Qiita",
+                "url": "http://qiita.com/vvakame/items/69efc1c6a3b91876330d"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "io.js/CHANGELOG.md at v1.x · iojs/io.js",
+        "url": "https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#2015-01-14-version-101",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node.jsのforkであるio.js 1.0リリース。",
+        "relatedLinks": [
+            {
+                "title": "IO.js Overview",
+                "url": "http://blog.risingstack.com/iojs-overview/"
+            },
+            {
+                "title": "io.js-v1.0.0のリリースによせて - ぼちぼち日記",
+                "url": "http://d.hatena.ne.jp/jovi0608/20150115/1421312947"
+            },
+            {
+                "title": "io.jsについて知っていること - from scratch",
+                "url": "http://yosuke-furukawa.hatenablog.com/entry/2014/12/25/104300"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v2.7.0 · petkaantonov/bluebird",
+        "url": "https://github.com/petkaantonov/bluebird/releases/tag/v2.7.0",
+        "tags": [
+            "Promises",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "bluebird 2.7.0リリース。\n`process.on(\"unhandledRejection\", fn)`という感じでグローバルにunhandled Rejectionをキャッチ出来るイベントを登録できるように。",
+        "relatedLinks": [
+            {
+                "title": "Promise unhandled rejection tracking global handler hook",
+                "url": "https://gist.github.com/benjamingr/0237932cee84712951a2"
+            },
+            {
+                "title": "[",
+                "url": "http://lists.w3.org/Archives/Public/public-whatwg-archive/2014Sep/0024.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v1.10.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v1.10.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "JavaScriptコードスタイルチェックツールjscs 1.10.0リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 5.0 “Pravda vítězí” · postcss/autoprefixer",
+        "url": "https://github.com/postcss/autoprefixer/releases/tag/5.0.0",
+        "tags": [
+            "CSS",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "autoprefixer 5.0リリース。\nPostCSS 4.0とBrowserslistを使用するように、`object-fit`やCSS Shapesなどの新しいプロパティに対応",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ServiceWorker を使った XHR のモックテスト - Block Rockin’ Codes",
+        "url": "http://jxck.hatenablog.com/entry/response-injection",
+        "tags": [
+            "JavaScript",
+            "ServiceWorker"
+        ],
+        "content": "ServiceWorkerを使ったXHRのモック。\n`onfetch`に登録すれば、XHR等のリクエストに対してhookができるので、事前に定義しておいたレスポンスを返すようにする。\nServiceWorkerの登録プロセスについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "What&#x27;s new in CSS Selectors 4 | grack",
+        "url": "https://grack.com/blog/2015/01/11/css-selectors-4/",
+        "tags": [
+            "CSS"
+        ],
+        "content": "CSS Selectors Level 4で追加された要素についての紹介",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "embona – ブラウザで動くBonanzaを作ってみた(その1) » nmi.jp",
+        "url": "http://nmi.jp/archives/763",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "Emscriptenを使って将棋プログラムを移植するまでの流れ。\nヒープメモリ不足、ファイルの読み込み、デバッグ方法、標準入出力の扱い、Asyncifyでのメインループ処理など",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "VersionEye - Notification System for Software Packages",
+        "url": "https://www.versioneye.com/",
+        "tags": [
+            "package",
+            "webservice"
+        ],
+        "content": "npmやgem等色々な言語のライブラリの更新チェック、依存関係のチェック等が出来るサービス。\nファイルアップロードとかAPI等もある。\nパッケージをフォローしてRSSで見たりできる",
+        "relatedLinks": [
+            {
+                "title": "Continuous Updating // Speaker Deck",
+                "url": "https://speakerdeck.com/reiz/continuous-updating"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Esperanto demo",
+        "url": "http://esperantojs.org/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "library",
+            "node.js",
+            "Tools"
+        ],
+        "content": "ES6 modulesのコードをCommonJS、AMD、UMDに変換するコマンドラインツール。Node.jsモジュールとしても利用できる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "fdecampredon/rx-flux",
+        "url": "https://github.com/fdecampredon/rx-flux",
+        "tags": [
+            "Flux",
+            "library"
+        ],
+        "content": "RxJSベースのFluxアーキテクチャの実装ライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "RubaXa/Sortable",
+        "url": "https://github.com/RubaXa/Sortable",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "D&Dで要素を動かせるsortableライブラリ。\njQuery等の依存がないライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ECharts · Home",
+        "url": "http://ecomfe.github.io/echarts/index-en.html",
+        "tags": [
+            "JavaScript",
+            "グラフ",
+            "library"
+        ],
+        "content": "Baidu EFEのグラフライブラリ。\n種類が豊富に用意されていて、Canvasを管理するのにZRenderというライブラリを使っている",
+        "relatedLinks": [
+            {
+                "title": "ZRender",
+                "url": "http://ecomfe.github.io/zrender/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "winterbe/streamjs",
+        "url": "https://github.com/winterbe/streamjs",
+        "tags": [
+            "JavaScript",
+            "Java",
+            "library"
+        ],
+        "content": "Java 8 Streams APIをインスパイアなStreamライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "eventualbuddha/decaffeinate",
+        "url": "https://github.com/eventualbuddha/decaffeinate",
+        "tags": [
+            "CoffeeScript",
+            "JavaScript"
+        ],
+        "content": "CoffeeScript to ES6に変換するツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "gobblejs/gobble",
+        "url": "https://github.com/gobblejs/gobble",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "Grunt"
+        ],
+        "content": "JavaScriptビルドツール。\nGruntはビルドツールではないため、Gruntと共存する形でも使える。\nまたデバッガビリティを優先して開発していて、pluginも変に複雑化しないように役割をシンプルにしてる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ForbesLindesay/sync-request",
+        "url": "https://github.com/ForbesLindesay/sync-request",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "HTTP",
+            "library"
+        ],
+        "content": "同期的なHTTPリクエストを行うライブラリ",
+        "relatedLinks": []
+    }
+]

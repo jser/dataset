@@ -1,0 +1,378 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release 0.9.0 · marijnh/acorn",
+        "url": "https://github.com/marijnh/acorn/releases/tag/0.9.0",
+        "tags": [
+            "JavaScript",
+            "AST",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "JavaScriptパーサのacorn 0.9.0リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "node-browserify/changelog.markdown at 6.0.0 · substack/node-browserify",
+        "url": "https://github.com/substack/node-browserify/blob/6.0.0/changelog.markdown",
+        "tags": [
+            "browserify",
+            "ReleaseNote",
+            "sourcemap"
+        ],
+        "content": "Browserify 6.0.0リリース。\n\nSourceMapのファイルパスがベースURLからの相対パスとなった。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v1.3.0 - UI Improvements · yeoman/yo",
+        "url": "https://github.com/yeoman/yo/releases/tag/v1.3.0",
+        "tags": [
+            "JavaScript",
+            "console",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "yo v1.3.0リリース。\n\nコマンドラインUIの改善",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Google Developers Blog: Promises in the Google APIs JavaScript Client Library",
+        "url": "http://googledevelopers.blogspot.com/2014/10/promises-in-google-apis-javascript.html",
+        "tags": [
+            "google",
+            "Promises",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Google APIのクライアントライブラリがPromise/A+ベースのものとなった",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release Stable API · mozilla/localForage",
+        "url": "https://github.com/mozilla/localForage/releases/tag/1.0.0",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "IndexedDB, WebSQL, localStorageを同じインタフェースで使えるlocalForage 1.0.0リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "【JavaScript】 MutationObserverの使い方 個人的まとめ - はりをきば",
+        "url": "http://blog.gutyan.jp/entry/2014/09/06/MutationObserver",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "MutationObserverの使い方、オプションについての解説",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Node.js Security Tips",
+        "url": "http://blog.risingstack.com/node-js-security-tips/",
+        "tags": [
+            "node.js",
+            "セキュリティ"
+        ],
+        "content": "Node.jsとセキュリティについて\n\neval、strict mode、sudoしない、シェルを叩いてコマンドを実行しない、一時ファイル、XSS、HttpOnly、CSP等の扱いについて書かれている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "npm 2.0.0でローカルモジュールを使ってrequire(&#x27;../../../&#x27;)を回避する | Web Scratch",
+        "url": "http://efcl.info/2014/10/04/npm2-local-module/",
+        "tags": [
+            "npm",
+            "node.js",
+            "JavaScript"
+        ],
+        "content": "npm 2.0.0からdependenciesにローカルパスを指定出来るようになり、プロジェクトだけで使うUtilsを読み込みやすくなった話",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "HTML5Rocks の日本語記事まとめ - Google Developer Relations Japan Blog",
+        "url": "http://googledevjp.blogspot.com/2014/10/html5rocks.html",
+        "tags": [
+            "翻訳",
+            "まとめ"
+        ],
+        "content": "HTML5 Rocksに現在公開されている翻訳記事のまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "レスポンシブイメージのネイティブサポート - HTML5 Rocks",
+        "url": "http://www.html5rocks.com/ja/tutorials/responsive/picture-element/",
+        "tags": [
+            "HTML",
+            "画像"
+        ],
+        "content": "レスポンシブに画像を扱うpicture要素について。\n\nmedia queryでの分岐、srcset属性での解像度対応、読み込む画像の種類によるfallback",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "viljamis/Molten-Leading",
+        "url": "https://github.com/viljamis/Molten-Leading",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "jQueryで実装されてたMolten Leadingのpure JavaScript版。\n\nline-heightを要素の幅に併せて変更してくれるライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "React Apps Using Flux and Backbone | Toptal",
+        "url": "http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone",
+        "tags": [
+            "React",
+            "backbone.js",
+            "JavaScript"
+        ],
+        "content": "Fluxアーキテクチャのフローについて。\n\nDispatcherでイベントとState管理、Store(EventEmitter)がブロードキャストしたイベントをキャッチしてViewをレンダリングするという流れ。\n\nこれをBackbone.jsとReactを使った実装について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ECMAScript 6 promises (2/2): the API",
+        "url": "http://www.2ality.com/2014/10/es6-promises-api.html",
+        "tags": [
+            "Promises",
+            "tutorial"
+        ],
+        "content": "ES6 Promiseについて詳しい解説。基本的な使い方やどのようなフローで動くか、エラーハンドリング、メリット/デメリット、デバッグ、Promiseラッパの書き方、他の機能と強調した書き方についてなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "まだmechanizeで消耗してるの? WebDriverで銀行をスクレイピング（ProtractorとWebdriverIOを例に） - 詩と創作・思索のひろば (Poetry, Writing and Contemplation)",
+        "url": "http://motemen.hatenablog.com/entry/2014/10/01/scrape-by-protractor-webdriverio",
+        "tags": [
+            "AngularJS",
+            "testing",
+            "Tools"
+        ],
+        "content": "AngularJS向けのE2EテストフレームワークであるProtractorを使ったスクレイピングについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "A primer on Content Security Policy // Speaker Deck",
+        "url": "https://speakerdeck.com/polarblau/a-primer-on-content-security-policy",
+        "tags": [
+            "CSP",
+            "スライド"
+        ],
+        "content": "XSSの動く仕組み、そのXSSを防止するためのエスケープや必要な事の多さとその一つとしてのCSPについてのスライド。\n\nCSPのルールについての紹介",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "React - A JavaScript library for building user interfaces // Speaker Deck",
+        "url": "https://speakerdeck.com/helielson/react-a-javascript-library-for-building-user-interfaces",
+        "tags": [
+            "React",
+            "JavaScript",
+            "library",
+            "スライド"
+        ],
+        "content": "React入門的なスライド。\n\nrender、state、componentのライフサイクル、テストについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Ampersand.js – Minimalistic Approach to not so minimalistic Problems // Speaker Deck",
+        "url": "https://speakerdeck.com/kamilogorek/ampersand-dot-js-minimalistic-approach-to-not-so-minimalistic-problems",
+        "tags": [
+            "JavaScript",
+            "MVC",
+            "library",
+            "スライド"
+        ],
+        "content": "Ampersand.jsの紹介スライド",
+        "relatedLinks": [
+            {
+                "title": "▶ Kamil Ogórek – Ampersand.js – Minimalistic Approach to not so minimalistic Problems ",
+                "url": "https://www.youtube.com/watch?v=2Rzxn-xaFkg&index=5&list=PL37ZVnwpeshF8Sr8JZNFU6boKMmod9YBw"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ES6: the future is now // Speaker Deck",
+        "url": "https://speakerdeck.com/jsist/es6-the-future-is-now",
+        "tags": [
+            "ECMAScript",
+            "スライド"
+        ],
+        "content": "ECMAScriptのタイムライン、ES6の機能紹介のスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "TypeScript: coding JavaScript without the pain",
+        "url": "http://www.slideshare.net/SanderMak/typescript-coding-javascript-without-the-pain",
+        "tags": [
+            "TypeScript",
+            "スライド"
+        ],
+        "content": "TypeScriptの特徴について紹介しているスライド",
+        "relatedLinks": [
+            {
+                "title": "sandermak/typescript-presentation",
+                "url": "https://github.com/sandermak/typescript-presentation"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Localize your frontend // slidr.io",
+        "url": "http://slidr.io/klyrr/localize-your-frontend##1",
+        "tags": [
+            "JavaScript",
+            "i18n",
+            "library",
+            "スライド",
+            "AngularJS"
+        ],
+        "content": "jimdo.com のローカライズについてのスライド。数字フォーマットの問題に対してAngularJS、Closure LibraryやECMA i18n API(とpolyfill)等について",
+        "relatedLinks": [
+            {
+                "title": "▶ Tina Umlandt – Localize your frontend! ",
+                "url": "https://www.youtube.com/watch?v=Lu4mholN2lA&index=3&list=PL37ZVnwpeshF8Sr8JZNFU6boKMmod9YBw"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Reject.JS 2014 - YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL37ZVnwpeshF8Sr8JZNFU6boKMmod9YBw",
+        "tags": [
+            "JavaScript",
+            "動画",
+            "まとめ"
+        ],
+        "content": "Reject.JS 2014 の動画が公開された\n\n<a href='http://rejectjs.org/speakers/'>http://rejectjs.org/speakers/</a>",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Steady.js",
+        "url": "http://lafikl.github.io/steady.js/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "scrollイベントを扱うライブラリ。\n\nonscrollをthrottleしたり、topからの位置で反応するイベントをつけたりスクロール周りの処理を扱いやすくしてくれる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "JavaScript Promises Essentials | Packt",
+        "url": "https://www.packtpub.com/application-development/javascript-promises-essentials",
+        "tags": [
+            "JavaScript",
+            "book",
+            "電子書籍"
+        ],
+        "content": "JavaScript Promiseについての書籍。\n\nWinJSのPromiseについても扱ってる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "verb - A CAD Library for the Web",
+        "url": "http://verbnurbs.com/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "CADライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "yahoo/gifshot",
+        "url": "https://github.com/yahoo/gifshot",
+        "tags": [
+            "JavaScript",
+            "画像",
+            "library"
+        ],
+        "content": "複数枚の画像や動画からgifを作成するJavaScriptライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Mozilla Brick",
+        "url": "http://brick.mozilla.io/",
+        "tags": [
+            "Mozilla",
+            "WebComponents",
+            "library"
+        ],
+        "content": "Web Componentsを使ったUIコンポーネントライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "shakiba/svgexport",
+        "url": "https://github.com/shakiba/svgexport",
+        "tags": [
+            "node.js",
+            "SVG",
+            "画像",
+            "console",
+            "Tools"
+        ],
+        "content": "PhantomJSを使ってSVGをPNG/JPEG/PDFなどに変換出来るコマンドラインツール。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "SweetAlert",
+        "url": "http://tristanedwards.me/sweetalert",
+        "tags": [
+            "JavaScript",
+            "UI",
+            "library"
+        ],
+        "content": "ダイアログUIライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Developing a Gulp.js Edge - O&#x27;Reilly Media",
+        "url": "http://shop.oreilly.com/product/9781939902146.do",
+        "tags": [
+            "gulp",
+            "book"
+        ],
+        "content": "JavaScriptのStreamベースのビルドシステムであるGulpについての書籍",
+        "relatedLinks": [
+            {
+                "title": "gulp.js - the streaming build system",
+                "url": "http://gulpjs.com/"
+            }
+        ]
+    },
+    {
+        "category": "Book",
+        "title": "Amazon.co.jp: Webアプリ構築のためのAngularJS 電子書籍: 外村 和仁, CodeGrid: Kindleストア",
+        "url": "http://www.amazon.co.jp/dp/B00O4RMZ4O/",
+        "tags": [
+            "AngularJS",
+            "book",
+            "kindle"
+        ],
+        "content": "2014年10月6日発売\n\n<a href='https://app.codegrid.net/'>https://app.codegrid.net/</a> の攻略！AngularJSの連載を元にした書籍",
+        "relatedLinks": []
+    }
+]

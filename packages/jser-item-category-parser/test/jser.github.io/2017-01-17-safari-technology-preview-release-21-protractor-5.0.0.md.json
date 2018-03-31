@@ -1,0 +1,235 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release v1.4.0 · karma-runner/karma",
+        "url": "https://github.com/karma-runner/karma/releases/tag/v1.4.0",
+        "tags": [
+            "testing",
+            "ReleaseNote"
+        ],
+        "content": "Karma v1.4.0リリース。\nHTTP moduleを設定することで`node-http2`などを利用できるように、定数を`karma.constants`としてexportするようになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "mobx/CHANGELOG.md at 3.0.0 · mobxjs/mobx",
+        "url": "https://github.com/mobxjs/mobx/blob/3.0.0/CHANGELOG.md",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "MobX 3リリース。\n`observable`が各type毎にファクトリメソッドを追加、受け取ったオブジェクトをcloneするように、エラーハンドリングの改善など",
+        "relatedLinks": [
+            {
+                "title": "MobX 3.0.0 の変更点について - console.lealog();",
+                "url": "http://lealog.hateblo.jp/entry/2017/01/11/140607"
+            },
+            {
+                "title": "MobX 3 released: Unpeeling the onion – Medium",
+                "url": "https://medium.com/@mweststrate/mobx-3-released-unpeeling-the-onion-ca877382f443"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release Notes for Safari Technology Preview 21 | WebKit",
+        "url": "https://webkit.org/blog/7265/release-notes-for-safari-technology-preview-21/",
+        "tags": [
+            "ReleaseNote",
+            "webkit",
+            "safari"
+        ],
+        "content": "Safari Technology Preview Release 21リリース。\nConcurrent GCの有効化、`<script type=\"module\">`の有効化、`global`がサポートされたがbreak the webのためbackoutなど",
+        "relatedLinks": [
+            {
+                "title": "チェンジセット 210570 – WebKit",
+                "url": "https://trac.webkit.org/changeset/210570"
+            },
+            {
+                "title": "global breaks flickr.com · Issue #20 · tc39/proposal-global",
+                "url": "https://github.com/tc39/proposal-global/issues/20"
+            },
+            {
+                "title": "Native ECMAScript modules - the first overview",
+                "url": "https://blog.hospodarets.com/native-ecmascript-modules-the-first-overview"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "protractor/CHANGELOG.md at 5.0.0 · angular/protractor",
+        "url": "https://github.com/angular/protractor/blob/5.0.0/CHANGELOG.md",
+        "tags": [
+            "test",
+            "ReleaseNote"
+        ],
+        "content": "Protractor 5.0.0リリース。\n`selenium-webdriver` 3.0.xへのアップデートに伴う破壊的変更、未知のフラグはエラーを投げるようになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "TypeScript: the missing introduction",
+        "url": "https://toddmotto.com/typescript-the-missing-introduction",
+        "tags": [
+            "JavaScript",
+            "TypeScript"
+        ],
+        "content": "TypeScriptという言語がどのような仕組みで動いているのか、JavaScriptに対してどのような役割をもっているのかという言語入門以前の話を丁寧にかかれている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Practical Redux · Mark&#x27;s Dev Blog",
+        "url": "http://blog.isquaredsoftware.com/series/practical-redux/",
+        "tags": [
+            "redux",
+            "tutorial"
+        ],
+        "content": "ゲームの管理ツールを題材にしたReduxについての連載。\n`Redux-ORM`を使ったモデルの作成、Semantic-UIでのUI作成、ディレクトリ構造、デバッグ方法、コンポーネントのリファクタリングなどについて扱っている",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Side Effects in JS Promise chains – Medium",
+        "url": "https://medium.com/@gabrielcatalin/side-effects-in-js-promise-chains-7db50b6302f3",
+        "tags": [
+            "JavaScript",
+            "Promises"
+        ],
+        "content": "Promise chainに副作用がある処理を含める際に処理が途切れてしまう問題について。\n`passThrough()`のような高階関数を用意し副作用を扱うことで、明示しつつバグを減らす方法について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "TypedArray or DataView: Understanding byte order ★ Mozilla Hacks – the Web developer blog",
+        "url": "https://hacks.mozilla.org/2017/01/typedarray-or-dataview-understanding-byte-order/",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "`ArrayBuffer`、`TypedArray`、`DataView`についての解説。\n`ArrayBuffer`がバイナリのデータ構造であり、*view*として`TypedArray`と`DataView`があるという話",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Web Components v1 - the next generation  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/01/webcomponents-org",
+        "tags": [
+            "WebComponents"
+        ],
+        "content": "Web Components v1に伴い、\nwebcomponents.org がアップデートされた",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "arqex/freezer: A tree data structure that emits events on updates, even if the modification is triggered by one of the leaves, making it easier to think in a reactive way.",
+        "url": "https://github.com/arqex/freezer",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Immutable.jsのようなImmutableなデータ構造を扱うライブラリ。\n変更を通知するイベントやImmutable.jsよりもファイルサイズが小さい。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Siema - Lightweight and simple carousel with no dependencies",
+        "url": "https://pawelgrzybek.com/siema/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "依存がないカヌーセルライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "angus-c/just: A library of dependency-free utilities that do just do one thing.",
+        "url": "https://github.com/angus-c/just",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "依存がない小さなユーティリティライブラリ集。\nそれぞれの機能を個別のモジュールとしてインストールして利用できる。\nそれぞれの`just-*`モジュール間でも依存関係がない作りとなっている。",
+        "relatedLinks": [
+            {
+                "title": "Why I wrote Just. – Medium",
+                "url": "https://medium.com/@angustweets/just-a12d54221f65"
+            },
+            {
+                "title": "Just vs lodash · Issue #4 · angus-c/just",
+                "url": "https://github.com/angus-c/just/issues/4"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "yamafaktory/shrimpit: Shrimpit is a small CLI analysis tool for checking unused JavaScript, JSX &amp; Vue templates ES6 exports in your project.",
+        "url": "https://github.com/yamafaktory/shrimpit",
+        "tags": [
+            "JavaScript",
+            "library",
+            "Tools"
+        ],
+        "content": "各モジュールのimport/exportを一覧し、未使用なモジュールを表示出来るCLI",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "katat/vbot: JSON based visual regression testing tool, particularly useful for SPA or complicated web app",
+        "url": "https://github.com/katat/vbot",
+        "tags": [
+            "browser",
+            "testing"
+        ],
+        "content": "JSONベースのリグレッションテストツール。\nJSONでシナリオを作成して、スクリーンショットの画像比較ができる",
+        "relatedLinks": [
+            {
+                "title": "vbot - JSON based visual regression tester - Kata Tech Life",
+                "url": "http://katat.github.io/2017/01/09/vbot/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Landmarks browser extension",
+        "url": "http://matatk.agrip.org.uk/landmarks/",
+        "tags": [
+            "firefox",
+            "Chrome",
+            "WAI-ARIA",
+            "Extension"
+        ],
+        "content": "WAI-ARIAのlandmarkナビゲーションを有効化するブラウザ拡張",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "tsayen/dom-to-image: Generates an image from a DOM node using HTML5 canvas",
+        "url": "https://github.com/tsayen/dom-to-image",
+        "tags": [
+            "HTML",
+            "canvas",
+            "SVG",
+            "library"
+        ],
+        "content": "SVGの`<foreignObject>`を使いHTMLを描画したものをCanvas経由で画像として取得するライブラリ",
+        "relatedLinks": [
+            {
+                "title": "DOM オブジェクトを Canvas に描画する - HTML | MDN",
+                "url": "https://developer.mozilla.org/ja/docs/Web/HTML/Canvas/Drawing_DOM_objects_into_a_canvas"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "ModClean/modclean: Remove unwanted files and directories from your node_modules folder",
+        "url": "https://github.com/ModClean/modclean",
+        "tags": [
+            "node.js",
+            "Tools"
+        ],
+        "content": "node_modulesから不要なファイルを削除することができるツール",
+        "relatedLinks": []
+    }
+]

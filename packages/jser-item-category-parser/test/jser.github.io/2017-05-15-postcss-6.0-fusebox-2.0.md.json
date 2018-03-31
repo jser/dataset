@@ -1,0 +1,242 @@
+[
+    {
+        "category": "Headline",
+        "title": "Nest FINAL release is here! Node.js framework built on top of TypeScript | Kamil Mysliwiec",
+        "url": "https://kamilmysliwiec.com/nest-final-release-is-here-node-js-framework-built-top-of-typescript/",
+        "tags": [
+            "TypeScript",
+            "node.js",
+            "library"
+        ],
+        "content": "Node.jsのサーバフレームワークであるNest.jsについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.46.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.46.0",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": "Flow v0.46.0リリース。\nstrict arity checkの試験的実装など\n`experimental.strict_call_arity=true`",
+        "relatedLinks": [
+            {
+                "title": "Flow: A Static Type Checker for JavaScript",
+                "url": "https://flow.org/blog/2017/05/07/Strict-Function-Call-Arity/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release 6.0 “Marquis Orias” · postcss/postcss",
+        "url": "https://github.com/postcss/postcss/releases/tag/6.0.0",
+        "tags": [
+            "PostCSS",
+            "ReleaseNote"
+        ],
+        "content": "PostCSS 6.0リリース。\nNode.js 0.12のサポート終了、`@apply`のサポート、APIの修正と改善、パーサの書き直しでメモリ消費量の改善など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "JQuery Mobile 1.5.0-alpha.1 Released | jQuery Mobile",
+        "url": "http://blog.jquerymobile.com/2017/05/11/jquery-mobile-1-5-0-alpha-1-released/",
+        "tags": [
+            "jQuery",
+            "mobile",
+            "ReleaseNote"
+        ],
+        "content": "JQuery Mobile 1.5.0-alpha.1リリース。\n`controlgroup`と`checkboxradio`のwidgetsを追加、既存widgetsのパフォーマンス改善、npmの正式サポート、jQuery 3.xのサポート、IE10以下/Android 4.0未満のサポート終了など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Refer to the spec: What is all that stuff at the top of the spec?",
+        "url": "https://rachelandrew.co.uk/archives/2017/04/24/refer-to-the-spec-what-is-all-that-stuff-at-the-top-of-the-spec/",
+        "tags": [
+            "CSS",
+            "spec",
+            "article"
+        ],
+        "content": "CSSの仕様の読み方についての連載",
+        "relatedLinks": [
+            {
+                "title": "Refer to the spec",
+                "url": "https://rachelandrew.co.uk/archives/2017/04/11/refer-to-the-spec/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "ES6 Modules in Chrome Canary (M60+) – Dev Channel – Medium",
+        "url": "https://medium.com/dev-channel/es6-modules-in-chrome-canary-m60-ba588dfb8ab7",
+        "tags": [
+            "JavaScript",
+            "browser",
+            "ECMAScript",
+            "module"
+        ],
+        "content": "ES modulesについて。 nonmodule属性とrollupを使って、未対応のブラウザと対応ブラウザでの配布方法の分岐について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "The :focus-within pseudo class | Ian Devlin",
+        "url": "https://www.iandevlin.com/blog/2017/04/css/the-focus-within-pseudo-class",
+        "tags": [
+            "CSS",
+            "article"
+        ],
+        "content": "`:focus-within`擬似クラスについて。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "FuseBox 2.0 — The beast reborn – fusebox – Medium",
+        "url": "https://medium.com/fusebox/fusebox-2-0-the-beast-reborn-e4ec0443b782",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "serverless"
+        ],
+        "content": "FuseBox 2.0リリース。\nConfiguration APIの変更、メソッドチェインでAPIを書けるように、Code Splitting  APIを追加、プラグインの追加、ドキュメントの更新など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Idiomatic Redux · Mark's Dev Blog",
+        "url": "http://blog.isquaredsoftware.com/series/idiomatic-redux/",
+        "tags": [
+            "redux",
+            "article"
+        ],
+        "content": "Reduxのパターンについての連載",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "An Overview of JavaScript Testing in 2017 – powtoon-engineering – Medium",
+        "url": "https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library"
+        ],
+        "content": "JavaScriptのテストツールについてのまとめ記事。\nUnit Tests/Integration Tests/Functional Testsといったテスト分類やテストツールの種類ごとにテストツールを紹介してる",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "仕事で WebRTC",
+        "url": "https://gist.github.com/voluntas/379e48807635ed18ebdbcedd5f3beefa",
+        "tags": [
+            "WebRTC",
+            "opinion",
+            "article",
+            "JavaScript"
+        ],
+        "content": "WebRTCのクライアントとサーバの選択についてのガイドライン",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ジャスト・イン・タイム (JIT) コンパイラの短期集中コース | Mozilla Developer Street (modest)",
+        "url": "https://dev.mozilla.jp/2017/05/%e3%82%b8%e3%83%a3%e3%82%b9%e3%83%88%e3%83%bb%e3%82%a4%e3%83%b3%e3%83%bb%e3%82%bf%e3%82%a4%e3%83%a0-jit-%e3%82%b3%e3%83%b3%e3%83%91%e3%82%a4%e3%83%a9%e3%81%ae%e3%82%af%e3%83%a9%e3%83%83%e3%82%b7/",
+        "tags": [
+            "JIT",
+            "JavaScript",
+            "翻訳",
+            "article"
+        ],
+        "content": "JavaScriptのJITコンパイラの仕組みについて簡単に解説している記事。 何をどのようにどのようなタイミングで最適化するのかについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Testing Made Easy: Better, Faster, Stronger Unit Tests and Integration Tests - Sessions by Pusher",
+        "url": "https://pusher.com/sessions/meetup/js-monthly-london/testing-made-easy-better-faster-stronger-unit-tests-and-integration-tests",
+        "tags": [
+            "JavaScript",
+            "browser",
+            "testing",
+            "video"
+        ],
+        "content": "JavaScriptのテストについて。\nJestやCypress、StoryBookなどのユニットテスト/E2Eテストについての動画",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Profiling Paint Perf 🔎 🎨 - YouTube",
+        "url": "https://www.youtube.com/watch?v=Wfxm56ttAmE",
+        "tags": [
+            "performance",
+            "video",
+            "browser"
+        ],
+        "content": "`element.left`によってスタイルを変更した時に、1Frame内に余計なレンダリングの処理が発生しているのを改善していくスクリーンキャスト。\nCSS Triggersを参照し、`transform`にすること改善できることを見ていき修正する流れについて",
+        "relatedLinks": [
+            {
+                "title": "CSS Triggers",
+                "url": "https://csstriggers.com/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "JSConf EU 2017 \\[More videos added daily\\] - YouTube",
+        "url": "https://www.youtube.com/watch?v=NpKLt_YO3o8&list=PL37ZVnwpeshFmAPr65sU2O5WMs7_CGjs_",
+        "tags": [
+            "JavaScript",
+            "イベント",
+            "video"
+        ],
+        "content": "JSConf EU 2017の動画",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "What's new in ChakraCore | Build 2017 | Channel 9",
+        "url": "https://channel9.msdn.com/Events/Build/2017/P4103",
+        "tags": [
+            "ChakraCore",
+            "video"
+        ],
+        "content": "ChakraCoreの最近の変更点について発表動画",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "hshoff/vx: react + d3 = vx | visualization components",
+        "url": "https://github.com/hshoff/vx",
+        "tags": [
+            "React",
+            "d3.js",
+            "library"
+        ],
+        "content": "React + D3.jsのビジュアライズコンポーネントライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "WebReflection/introspected: Introspection for serializable arrays and JSON friendly objects.",
+        "url": "https://github.com/WebReflection/introspected",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Proxyや`Symbol.toPrimitive`を使って、オブジェクトに変更検知、Null Propagation的な機能を持たせるラッパーライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "きちんとわかる! JavaScript とことん入門 | 大津 真 |本 | 通販 | Amazon",
+        "url": "https://www.amazon.co.jp/%E3%81%8D%E3%81%A1%E3%82%93%E3%81%A8%E3%82%8F%E3%81%8B%E3%82%8B-JavaScript-%E3%81%A8%E3%81%93%E3%81%A8%E3%82%93%E5%85%A5%E9%96%80-%E5%A4%A7%E6%B4%A5-%E7%9C%9F/dp/4774190004",
+        "tags": [
+            "JavaScript",
+            "book"
+        ],
+        "content": "2017年6月7日発売\nJavaScriptの入門書",
+        "relatedLinks": []
+    }
+]

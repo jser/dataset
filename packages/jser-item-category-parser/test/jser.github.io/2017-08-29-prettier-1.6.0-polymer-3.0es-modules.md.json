@@ -1,0 +1,209 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release Notes for Safari Technology Preview 38 | WebKit",
+        "url": "https://webkit.org/blog/7877/release-notes-for-safari-technology-preview-38/",
+        "tags": [
+            "safari",
+            "ReleaseNote"
+        ],
+        "content": "Safari Technology Preview Release 38リリース。\nBeacon APIのサポート、Web Paymentsを試験的にサポート、`font-display`/`caret-color`の対応、`input`要素の`accept`属性のサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release Inferno 3.8.0 · infernojs/inferno",
+        "url": "https://github.com/infernojs/inferno/releases/tag/v3.8.0",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Inferno 3.8.0リリース。\n`inferno-router`が非同期データ取得をサポート、`dangerouslySetInnerHtml`のバグ修正など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "bumped/bumped: Makes easy release software",
+        "url": "https://github.com/bumped/bumped",
+        "tags": [
+            "npm",
+            "node.js",
+            "Tools"
+        ],
+        "content": "npm publishまわりの補助ツール。\nsemverに対するサブコマンドの対応、publishライフサイクルに対するパイプライン処理を書ける、プラグインでの拡張など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.4.0 · sonarwhal/sonar",
+        "url": "https://github.com/sonarwhal/sonar/releases/tag/0.4.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "web "
+        ],
+        "content": "sonar v0.4.0リリース。\n`Strict-Transport-Security`/`Set-Cookie`ヘッダーをチェックするルール、`viewport`の値をチェックするルールの追加など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release 1.6.0: Config File, JSX · prettier/prettier",
+        "url": "https://github.com/prettier/prettier/releases/tag/1.6.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "prettier 1.6.0リリース。\n`.prettierrc`、`.prettierignore`の設定ファイルをサポート。\nJSXのサポート改善、TypeScript 2.5RCのサポート、CLIの引数でignoreパターンをサポートなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Polymer 3.0 preview: npm and ES6 Modules - Polymer Project",
+        "url": "https://www.polymer-project.org/blog/2017-08-22-npm-modules",
+        "tags": [
+            "WebComponents",
+            "library",
+            "article"
+        ],
+        "content": "Polymer 3.0での変更点の予定について書かれている。\nBowerは止めnpmをサポート、HTML Importsを止めES modulesへと変更する予定",
+        "relatedLinks": [
+            {
+                "title": "Polymer Developer Summit 2017 - Live Stream Day 1 - YouTube",
+                "url": "https://www.youtube.com/watch?v=yTASiOaXlck"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Custom Elements Everywhere",
+        "url": "https://custom-elements-everywhere.com/",
+        "tags": [
+            "WebComponents"
+        ],
+        "content": "AngularやReact、Vueなど各種Viewを含むフレームワークがCustom Elementsとどの程度協調処理できているかをまとめたテストスイート",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Unit testing with Angular and ineeda – Default to Open – Medium",
+        "url": "https://medium.com/default-to-open/unit-testing-with-angular-and-ineeda-76746a0c8f58",
+        "tags": [
+            "JavaScript",
+            "Angular",
+            "testing",
+            "TypeScript"
+        ],
+        "content": "ineedaというES Proxyを利用したモックライブラリについて。\nAngularを例にネストモックやTypeScriptの型定義について書かれている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Using React v16 to create self-destructing components",
+        "url": "https://medium.com/@gajus/using-react-v16-to-create-self-destructing-components-de8e4eb61d0f",
+        "tags": [
+            "React",
+            "article"
+        ],
+        "content": "React 16から利用できるself-destructing componentsについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Google Dev Tools are X-Rays Specs For Code – codeburst",
+        "url": "https://codeburst.io/google-dev-tools-are-x-rays-specs-for-code-db3e7e17f801",
+        "tags": [
+            "Chrome",
+            "debug",
+            "article"
+        ],
+        "content": "Chromeの開発者ツールを使ってコールスタックトレースとスコープの読み方について",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ReactNativeでの開発を通じて得た知見 - razokulover publog",
+        "url": "http://razokulover.hateblo.jp/entry/2017/08/28/173807",
+        "tags": [
+            "React",
+            "JavaScript",
+            "ios",
+            "Android"
+        ],
+        "content": "ReactNativeでのアプリ開発で気をつけたことについて。\nコンポーネント、ステート管理、非同期処理、ルーティング、スタイルなどについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "SF WebPerf Meetup: Building for Resilience & Performance - Google スライド",
+        "url": "https://docs.google.com/presentation/d/11FJdFFWlFOS6QtjjU-YWQ0ltRjmxgRhQqU1CLZTxzeA/present?token=AC4w5ViQ3m5H0R1Zr_C21LlP3f9X1vsTEg%3A1503931823319&includes_info_params=1#slide=id.g1e42364cea_0_119",
+        "tags": [
+            "Chrome",
+            "browser",
+            "slide"
+        ],
+        "content": "Client HintとRUMについてのスライド。 クライアント/デバイスの状態に合わせてコンテンツを提供するためのHint APIとRUMについて。 Device MemoryやNetInfo Extension、RUMを計測する方法と低スペックなデバイスではLong Taskがロードタイム",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "🤖 NEW: Selenium IDE for Chrome (Open-Source), plus additional features = Kantu for Chrome",
+        "url": "https://a9t9.com/kantu/web-automation/chrome",
+        "tags": [
+            "Chrome",
+            "Selenium",
+            "Extension"
+        ],
+        "content": "操作を記録して再生できるChrome拡張。\nSelecnium IDEのようなものを目指している。",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "tsuyoshiwada/storybook-chrome-screenshot: A Storybook addon, Save the screenshot image of your stories via puppeteer.",
+        "url": "https://github.com/tsuyoshiwada/storybook-chrome-screenshot",
+        "tags": [
+            "Chrome",
+            "testing",
+            "スクリーンショット"
+        ],
+        "content": "StorybookのスクリーンショットをHeadless Chromeでキャプチャするツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "phenomnomnominal/ineeda: ineeda - auto-mocking for JavaScript with Proxies!",
+        "url": "https://github.com/phenomnomnominal/ineeda",
+        "tags": [
+            "JavaScript",
+            "TypeScript",
+            "testing",
+            "library"
+        ],
+        "content": "ES Proxyを使ったモックライブラリ。\n処理のintercept、処理の追加、TypeScriptとの型定義。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "fmsouza/wcode: Monaco-based code editor which runs inside a browser.",
+        "url": "https://github.com/fmsouza/wcode",
+        "tags": [
+            "editor",
+            "library",
+            "JavaScript"
+        ],
+        "content": "Monacoベースのエディタをブラウザで動かすツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "D3 in Depth",
+        "url": "http://d3indepth.com/",
+        "tags": [
+            "d3.js",
+            "book"
+        ],
+        "content": "D3.jsについての電子書籍",
+        "relatedLinks": []
+    }
+]

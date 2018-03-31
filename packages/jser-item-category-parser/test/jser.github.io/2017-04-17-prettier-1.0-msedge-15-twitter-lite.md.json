@@ -1,0 +1,288 @@
+[
+    {
+        "category": "Headline",
+        "title": "Announcing TypeScript 2.3 RC | TypeScript",
+        "url": "https://blogs.msdn.microsoft.com/typescript/2017/04/10/announcing-typescript-2-3-rc/",
+        "tags": [
+            "TypeScript",
+            "ReleaseNote"
+        ],
+        "content": "TypeScript 2.3RCリリース。\n`noImplicitAny`, `strictNullChecks`,`noImplicitThis`などをまとめた`strict`オプションの追加.\n\nGenerator/IteratorをES3/ES5互換のコードへ変換できるように、Async Generator/Iteratorの対応、 Generic defaultsの対応など",
+        "relatedLinks": [
+            {
+                "title": "TypeScript 2.3 RC 変更点 - Qiita",
+                "url": "http://qiita.com/vvakame/items/d926f0e1b02397dbd5df"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "What’s new in Microsoft Edge in the Windows 10 Creators Update - Microsoft Edge Dev BlogMicrosoft Edge Dev Blog",
+        "url": "https://blogs.windows.com/msedgedev/2017/04/11/introducing-edgehtml-15/",
+        "tags": [
+            "MSEdge",
+            "ReleaseNote"
+        ],
+        "content": "EdgeHTML 15(Windows 10 Creators Update)のリリースノート。\nBrotli、CSS Custom Properties、Intersection Observer、Payment Request API、Web VR、CSP Lv2のサポートなど。",
+        "relatedLinks": [
+            {
+                "title": "Dev guide - Microsoft Edge Development | Microsoft Docs",
+                "url": "https://docs.microsoft.com/en-us/microsoft-edge/dev-guide"
+            },
+            {
+                "title": "Microsoft Edge build 14986 changelog - Microsoft Edge Development",
+                "url": "https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/14986/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Releasing Prettier 1.0",
+        "url": "http://jlongster.com/prettier-1.0",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote",
+            "opinion"
+        ],
+        "content": "JavaScriptやFlowに対応した整形ツールのPrettier 1.0リリース。\nPrettierはできるだけオプションを持たないopinionatedな整形ツールだが、相反する人が多いセミコロンやタブ/スペースなどについてはオプションが用意されている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.44.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.44.0",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": "Flow v0.44.0リリース。\nパフォーマンスの改善など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v15.5(6) and v16 - blog.koba04.com",
+        "url": "http://blog.koba04.com/post/2017/04/14/react-dot-js-v155-and-v16/",
+        "tags": [
+            "React"
+        ],
+        "content": "React 15.5と16での変更点について。\nv15.5で非推奨となった機能やパッケージ、\nv16でv15の互換モードで導入されるFiberについて",
+        "relatedLinks": [
+            {
+                "title": "koba04/react-fiber-resources: resources for ReactFiber",
+                "url": "https://github.com/koba04/react-fiber-resources"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v2.4.0 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/releases/tag/v2.4.0",
+        "tags": [
+            "webpack",
+            "ReleaseNote"
+        ],
+        "content": "webpack v2.4.0リリース。\n`import()`にコメントでchunk nameを指定できるように、`require.ensure`にエラーコールバックを指定できるようになるなど",
+        "relatedLinks": [
+            {
+                "title": "Feature: Add named chunk for ",
+                "url": "https://github.com/webpack/webpack/pull/4573"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "Introducing Moon – Hacker Noon",
+        "url": "https://hackernoon.com/introducing-moon-1d44a99635f0",
+        "tags": [
+            "JavaScript",
+            "Vue",
+            "library"
+        ],
+        "content": "Vue版Preact的なライブラリであるMoonについて。\nVueのようなAPIを持ち、Vueよりファイルサイズが小さい。",
+        "relatedLinks": [
+            {
+                "title": "Moon",
+                "url": "http://moonjs.ga/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "What's New In DevTools (Chrome 59)  |  Web  |  Google Developers",
+        "url": "https://developers.google.com/web/updates/2017/04/devtools-release-notes",
+        "tags": [
+            "Chrome",
+            "debug"
+        ],
+        "content": "Chrome 59で入る開発者ツール周りの機能について。\nカバレッジ、フルページスクリーンショット、Block Request、Workspaceの改善など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Debugging Tips and Tricks | CSS-Tricks",
+        "url": "https://css-tricks.com/debugging-tips-tricks/",
+        "tags": [
+            "JavaScript",
+            "CSS",
+            "debug"
+        ],
+        "content": "ウェブサイト、JavaScript、CSSなど色々なデバッグTipsについて。\nCSS animation、CSS Gridのデバッグ、回線速度のデバッグ、timed debugger、シミュレーターなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "React London 2017 - YouTube",
+        "url": "https://www.youtube.com/channel/UCV4LIEkC0S9KUAPDm2g4mNQ",
+        "tags": [
+            "React",
+            "video",
+            "イベント"
+        ],
+        "content": "React London 2017の動画一覧",
+        "relatedLinks": [
+            {
+                "title": "React London",
+                "url": "https://react.london/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "An Introduction to Flow - Sessions by Pusher",
+        "url": "https://pusher.com/sessions/meetup/js-monthly-london/flow",
+        "tags": [
+            "JavaScript",
+            "flowtype",
+            "video",
+            "slide"
+        ],
+        "content": "Flowについての発表動画。\nFlowの基本的な使い方について",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "React + FLUX + Redux + Redux Saga のお話",
+        "url": "https://www.slideshare.net/yossy222/react-flux-redux-redux-saga",
+        "tags": [
+            "redux",
+            "JavaScript",
+            "Flux"
+        ],
+        "content": "redux-sagaについてのスライド。\nFlux、Redux、redux-sagaのフローについて。\nまたredux-sagaを導入した際に、Actionが必ずsagaを通るようにする設計について",
+        "relatedLinks": [
+            {
+                "title": "Using React (-Native) with Redux and Redux-Saga. A new proposal?",
+                "url": "https://medium.com/@marcelschulze/using-react-native-with-redux-and-redux-saga-a-new-proposal-ba71f151546f"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Twitter Lite and High Performance React Progressive Web Apps at Scale",
+        "url": "https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3",
+        "tags": [
+            "webpack",
+            "React",
+            "performance",
+            "redux"
+        ],
+        "content": "webpackのCommonsChunkPluginを使った分割、jankのない無限スクロールの実装。\nReactにおいては`shouldComponentUpdate`での最適化、`componentWillMount`から`componentDidMount`への処理の移動。\n`dangerouslySetInnerHTML`を避ける、遅延描画など。\nReduxにおいては、テキスト入力毎のStoreの更新を避ける、Batch Actionでの最適化など。\nSWでのロードキャッシュについてなど実践的な最適化手法について書かれている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Intercepting new Image().src requests / Stoyan's phpied.com",
+        "url": "http://www.phpied.com/intercepting-new-image-src-requests/",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "ES Proxyを使って`Image`のFake版を作成する話。",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "Eruda: Console for Mobile browsers",
+        "url": "http://eruda.liriliri.io/",
+        "tags": [
+            "mobile",
+            "debug",
+            "JavaScript",
+            "browser",
+            "ブックマークレット"
+        ],
+        "content": "モバイルサイト向けのデバッグコンソールツール/ブックマークレット。\nコンソール、FPS表示、要素選択、ネットワーク、リソースなど色々な情報を扱うページ内開発者ツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "E2E Testing React applications with TestCafe – Hacker Noon",
+        "url": "https://hackernoon.com/e2e-testing-react-applications-with-testcafe-8edb605ec66c",
+        "tags": [
+            "React",
+            "E2E",
+            "testing"
+        ],
+        "content": "TestCafe + ReactでのE2Eテストについて。\nhttps://github.com/DevExpress/testcafe-react-selectors を使うことでReactコンポーネントに対する検索ができる。",
+        "relatedLinks": [
+            {
+                "title": "DevExpress/testcafe-react-selectors: TesCafe selector extensions for React apps.",
+                "url": "https://github.com/DevExpress/testcafe-react-selectors"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "DmitrySoshnikov/regexp-tree: Regular expressions processor in JavaScript",
+        "url": "https://github.com/dmitrysoshnikov/regexp-tree",
+        "tags": [
+            "正規表現",
+            "AST",
+            "JavaScript",
+            "library"
+        ],
+        "content": "正規表現をパースしてASTにしたり、traversaや変換、正規表現の最適化などを行うことができるライブラリ。",
+        "relatedLinks": [
+            {
+                "title": "RegExp Tree: a regular expressions processor – Dmitry Soshnikov – Medium",
+                "url": "https://medium.com/@DmitrySoshnikov/regexp-tree-a-regular-expressions-parser-with-a-simple-ast-format-bcd4d5580df6"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "somesocks/vet: A Javascript library for data validation.",
+        "url": "https://github.com/somesocks/vet",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "色々な判定をまとめたライブラリ。\n`is*`な関数の集まり",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "nickpisacane/maybe-you-meant: Catch deceptive prop typos in your react apps",
+        "url": "https://github.com/nickpisacane/maybe-you-meant",
+        "tags": [
+            "React",
+            "debug",
+            "JavaScript",
+            "library"
+        ],
+        "content": "Reactコンポーネントのpropsのtypoなどを検知して、\"もしかして\"を出してくれるデバッグ補助ライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Introduction · react-indepth",
+        "url": "https://developmentarc.gitbooks.io/react-indepth/content/",
+        "tags": [
+            "React",
+            "ebook",
+            "book"
+        ],
+        "content": "Reactのコンポーネントやライフサイクルイベントについて詳しく書かれた電子書籍",
+        "relatedLinks": []
+    }
+]

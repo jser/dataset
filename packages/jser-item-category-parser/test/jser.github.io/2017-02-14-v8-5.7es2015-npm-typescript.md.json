@@ -1,0 +1,225 @@
+[
+    {
+        "category": "Headline",
+        "title": "V8 JavaScript Engine: V8 Release 5.7",
+        "url": "http://v8project.blogspot.com/2017/02/v8-release-57.html",
+        "tags": [
+            "V8",
+            "ReleaseNote",
+            "WebAssembly"
+        ],
+        "content": "8 5.7リリース。\nasync/awaitやES2015のパフォーマンス改善、`String#padStart`、`Intl.DateTimeFormat#formatToParts`のサポート。\nwasmがデフォルトで有効化など\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "# Release v4.3.0 · npm/npm\n",
+        "url": "https://github.com/npm/npm/releases/tag/v4.3.0",
+        "tags": [
+            "npm",
+            "ReleaseNote"
+        ],
+        "content": "m 4.3.0プレリリース。\n`--auth-type`の追加、起動速度の改善など\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": " JS1k 2017 - A magical JavaScript golfing competition\n[",
+        "url": "http://js1k.com/2017-magic/",
+        "tags": [
+            "JavaScript",
+            "イベント"
+        ],
+        "content": "4bytesでJavaScriptのデモを作るコンテンストであるJS1kの2017年の募集が開始された\n\n-",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "npm for Beginners: A Guide for Front-end Developers\n[w",
+        "url": "https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/",
+        "tags": [
+            "npm",
+            "tutorial",
+            "article"
+        ],
+        "content": "は何か、npmの使い方のチュートリアル。\nよく見るプロジェクトのディレクトリ構造、`node_modules`ディレクトリ、npmコマンドとオプションについて\n\n\n-",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "napshot testing the hard way | Better world by better software\n[gl",
+        "url": "https://glebbahmutov.com/blog/snapshot-testing/",
+        "tags": [
+            "JavaScript",
+            "testing"
+        ],
+        "content": "はSnapshotテストがあるが、テストフレームワークに依存しないでSnapshotテストを行う方法について\n\n- [",
+        "relatedLinks": [
+            {
+                "title": "bahmutov/snap-shot: Jest-like snapshot feature for the rest of us, works magically by finding the right caller function",
+                "url": "https://github.com/bahmutov/snap-shot"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "TypeScriptとの関わり方ガイドライン - 角待ちは対空\n[blo",
+        "url": "http://blog.yux3.net/entry/2017/02/05/000805",
+        "tags": [
+            "TypeScript",
+            "tutorial"
+        ],
+        "content": "Scriptを使って書いてる人向けのTypeScriptの考え方について。\n典型的なエラーの意味や、コンパイラオプション、`_` prefixや`this`へ型付けなど特殊な部分について。\nまた、TypeScript特有のキーワードや参考となるドキュメントについて\n\n\n---",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "aScript Start-up Performance – Dev Channel – Medium\n[medi",
+        "url": "https://medium.com/@addyosmani/javascript-start-up-performance-69200f43b201",
+        "tags": [
+            "JavaScript",
+            "performance"
+        ],
+        "content": "iptの起動速度について。\nモバイル等CPU処理速度が遅いとパースとコンパイルに時間がかかる。\nそのため、ファイルサイズやパース、コンパイル時間は重要となる。\n開発者ツールを使っての計測方法、User Timing API、V8のCode Caching、scriptのロード方法の最適化などについて\n\n- [V8",
+        "relatedLinks": [
+            {
+                "title": "V8 Stats in Chrome - Google スライド",
+                "url": "https://docs.google.com/presentation/d/1Lq2DD28CGa7bxawVH_2OcmyiTiBn74dvC6vn2essroY/edit#slide=id.g1a504e63c9_2_84"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "駆動型サービス実行基盤としての Service Worker - Qiita\n[qiita",
+        "url": "http://qiita.com/nhiroki/items/65efc9e41ec1d928afcd",
+        "tags": [
+            "JavaScript",
+            "ServiceWorker",
+            "歴史",
+            "opinion"
+        ],
+        "content": "ppCacheから始まったService Workerが、ページに依存しない生存期間へ変化していき、fetch以外のイベントもハンドリングできる基盤となっていった変遷について。\n\n\n----\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "up: Vue.js State Management Libraries ← Alligator.io\n[alliga",
+        "url": "https://alligator.io/vuejs/roundup-state-management-libraries/",
+        "tags": [
+            "JavaScript",
+            "Vue",
+            "library",
+            "article"
+        ],
+        "content": "るステート管理ライブラリの比較。 特徴やメリット・デメリットについてそれぞれ書かれている\n\n\n----\n\n",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ed JavaScript ES2015 Template Strings with Tagged Templates | appendTo\n[appendt",
+        "url": "https://appendto.com/2017/02/advanced-javascript-es2015-template-strings-with-tagged-templates/",
+        "tags": [
+            "JavaScript",
+            "template",
+            "article"
+        ],
+        "content": "plate Literalについての解説。 サンプルを用いながら、タグ関数の引数について解説してる\n\n\n----\n<h",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "sive Transpilation at Netflix and the road to running native ES2015 in production // Speaker Deck\n[speakerd",
+        "url": "https://speakerdeck.com/betaorbust/progressive-transpilation-at-netflix-and-the-road-to-running-native-es2015-in-production",
+        "tags": [
+            "JavaScript",
+            "slide",
+            "ECMAScript",
+            "browser"
+        ],
+        "content": "ザ別にTranspileしたJavaScriptを配信するためにやっていることについて。\nモダンなブラウザはES2015に対応しているため、変換やpolyfillなどの分として20-40％程度payloadが小さくできる。\n一方、圧縮ツールやES2015対応してるかの判定方法などの問題について\n\n\n----\n\n##",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "s\n[avacasts.",
+        "url": "http://avacasts.com/",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "video"
+        ],
+        "content": "ンキャスト\n\n\n----\n<h1 ",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "snap-shot: Jest-like snapshot feature for the rest of us, works magically by finding the right caller function\n[github.com",
+        "url": "https://github.com/bahmutov/snap-shot",
+        "tags": [
+            "JavaScript",
+            "React",
+            "library",
+            "testing"
+        ],
+        "content": "hotテストを行うテストライブラリ\n\n\n----\n\n## M",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "[yomguithere",
+        "url": "https://yomguithereal.github.io/mnemonist/",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "avaScriptライブラリ。\nQueue、Trie、Linked List、Bloom Filterなど\n\n\n----\n<h1 cl",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "vet: A simple CLI tool for vetting npm package versions\n[github.com/h",
+        "url": "https://github.com/harksys/npmvet",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "Tools",
+            "console",
+            "npm"
+        ],
+        "content": "`node_modules`にインストールされているパッケージのバージョンを比較/ロックされているかをチェック出来るツール。\n手元と毎回新規インストールされるCIにおけるバージョンを揃えるのが目的\n\n- [NPM Vet, a",
+        "relatedLinks": [
+            {
+                "title": "NPM Vet, a simple CLI tool for checking npm package versions - Hark.",
+                "url": "https://harksys.com/labs/npm-vet-a-simple-cli-tool-for-checking-npm-package-versions/"
+            },
+            {
+                "title": "mgol/check-dependencies: Checks if currently installed npm dependencies are installed in the exact same versions that are specified in package.json",
+                "url": "https://github.com/mgol/check-dependencies"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "stics\n[simplestatist",
+        "url": "http://simplestatistics.org/",
+        "tags": [
+            "JavaScript",
+            "統計",
+            "library"
+        ],
+        "content": "JavaScriptライブラリ\n\n\n----\n\n## abra",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "esh/npm-module-stats: Get recursive file size and dependencies of any NPM module without installing the module\n[github.com/abr",
+        "url": "https://github.com/abrahamjagadeesh/npm-module-stats",
+        "tags": [
+            "npm",
+            "Tools",
+            "library"
+        ],
+        "content": "pmモジュールのファイルサイズを一覧できるツール\n\n\n----\n\n## david",
+        "relatedLinks": []
+    }
+]

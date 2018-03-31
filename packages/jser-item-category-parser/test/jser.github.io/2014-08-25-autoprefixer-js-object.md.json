@@ -1,0 +1,266 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release 3.0 “Liberté, Égalité, Fraternité” · postcss/autoprefixer",
+        "url": "https://github.com/postcss/autoprefixer/releases/tag/3.0.0",
+        "tags": [
+            "CSS",
+            "node.js",
+            "Tools"
+        ],
+        "content": "Autoprefixer 3.0リリース。\n\n`autoprefixer()`のAPIの変更、coreは分離、CoffeeからES6で書き直し、リポジトリがpostcssに移動した",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Node v0.10.31 (Stable)",
+        "url": "http://blog.nodejs.org/2014/08/19/node-v0-10-31-stable/",
+        "tags": [
+            "node.js",
+            "ReleaseNote"
+        ],
+        "content": "Node v0.10.31 リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Sass 3.4 is Out!",
+        "url": "http://www.sitepoint.com/sass-3-4-is-out/",
+        "tags": [
+            "Sass"
+        ],
+        "content": "Sass3.4の更新内容について。\n\nparent selector 、selector function、 `@error` ディレクティブなどについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Advanced objects in JavaScript",
+        "url": "http://bjorn.tipling.com/advanced-objects-in-javascript",
+        "tags": [
+            "JavaScript",
+            "ECMAScript",
+            "tutorial"
+        ],
+        "content": "JSのオブジェクトについて幅広く解説されてる。\n\ngetter/setter、definePropertyとPropertyDescriptor、Object.create、valueOfとtoString、ES6のProxyとSymbolについて",
+        "relatedLinks": [
+            {
+                "title": "Web Reflection: What Books Didn",
+                "url": "http://webreflection.blogspot.jp/2014/03/what-books-wont-tell-you-about-es5.html"
+            },
+            {
+                "title": "ES5, Property Descriptor解説 - 枕を欹てて聴く",
+                "url": "http://constellation.hatenablog.com/entry/20101205/1291564928"
+            },
+            {
+                "title": "Revisiting JavaScript Objects | LakTEK (Lakshan Perera)",
+                "url": "http://www.laktek.com/2012/12/29/revisiting-javascript-objects/"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "ストリーム表現とその変換 - ✘╹◡╹✘",
+        "url": "http://r7kamura.hatenablog.com/entry/2014/08/21/113654",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "リアクティブプログラミングにおけるストリームの実装ライブラリと、ストリームについての解説。\n\nストリームの作成、ストリームを変換するmap、filter、scanについて",
+        "relatedLinks": [
+            {
+                "title": "【翻訳】あなたが求めていたリアクティブプログラミング入門 - ninjinkun",
+                "url": "http://ninjinkun.hatenablog.com/entry/introrxja"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "WebStorm+Spy-jsの使い方 - Qiita",
+        "url": "http://qiita.com/laco0416/items/985044f0019ebef6cb2c",
+        "tags": [
+            "WebStorm",
+            "Tools"
+        ],
+        "content": "WebStormから使えるspy-jsの機能や使い方について",
+        "relatedLinks": [
+            {
+                "title": "WebStorm - Node.jsでもSpy-jsを使ってみる - Qiita",
+                "url": "http://qiita.com/laco0416/items/6a45b08da45385dda746"
+            }
+        ]
+    },
+    {
+        "category": "Article",
+        "title": "WebRTC で動く Chord DHT の実装 webrtc-chord を公開しました - tsujio’s blog",
+        "url": "http://ntsujio.hatenablog.com/entry/2014/07/03/221023",
+        "tags": [
+            "JavaScript",
+            "WebRTC"
+        ],
+        "content": "WebRTCを使った分散ハッシュテーブル (DHT: Distributed Hash Table) の実装",
+        "relatedLinks": [
+            {
+                "title": "tsujio/webrtc-chord",
+                "url": "https://github.com/tsujio/webrtc-chord"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "bevacqua/js",
+        "url": "https://github.com/bevacqua/js/",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "&quot;JavaScript Quality Guide&quot;\n\nJavaScriptコーディングスタイルガイド。",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "ECMAScript 6 support in Mozilla - JavaScript | MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla",
+        "tags": [
+            "firefox",
+            "ECMAScript",
+            "まとめ"
+        ],
+        "content": "FirefoxのES6サポート状況についてまとまってるページ",
+        "relatedLinks": []
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "5 Minutes of JavaScript - The latest news in the JavaScript community",
+        "url": "http://five-js.envylabs.com/episodes/42-episode-41-august-21st-2014",
+        "tags": [
+            "podcast",
+            "JavaScript"
+        ],
+        "content": "週間JavaScriptなPodcast",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "slap-editor/slap",
+        "url": "https://github.com/slap-editor/slap",
+        "tags": [
+            "node.js",
+            "console",
+            "editor"
+        ],
+        "content": "node.js製のターミナル上で動くテキストエディタ。\n\nSublimeText的なファイルリスト、マウス対応、キーバインドの対応などデフォルトでもそのまま使えるような感じで面白い",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Duo",
+        "url": "http://duojs.org/",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "GoLang",
+            "browserify"
+        ],
+        "content": "Componentライクなパッケージ管理ツール。component.jsonでまとめられたコンポーネントからビルドしたjsやcssを生成出来る。またGo言語のようにrequireに直接GitHubのレポジトリを指定して使うことも出来る",
+        "relatedLinks": [
+            {
+                "title": "the future of component? · Issue #594 · component/component",
+                "url": "https://github.com/component/component/issues/594"
+            },
+            {
+                "title": "duo? · Issue #27 · normalize/discussions",
+                "url": "https://github.com/normalize/discussions/issues/27"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "normalize.io - an ES6 module, Web Component, and SPDY/HTTP2 Push frontend development worfklow",
+        "url": "https://normalize.github.io/",
+        "tags": [
+            "node.js",
+            "CSS",
+            "JavaScript",
+            "Tools"
+        ],
+        "content": "ES6 moudle/HTML Import/CSS importで書いてimportしたものをビルド出来るパッケージ管理ツール。\n\nnpm、URL、components等に対応してて、パッケージをURLで指定するという原則を持ってる",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Ment.io examples",
+        "url": "http://jeff-collins.github.io/ment.io/#/",
+        "tags": [
+            "JavaScript",
+            "library",
+            "AngularJS"
+        ],
+        "content": "Content Editableとかテキストエリアにおいて、GitHubのような@によるmentionの補完が出来るライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "styledown/styledown · GitHub",
+        "url": "https://github.com/styledown/styledown",
+        "tags": [
+            "CSS",
+            "Markdown",
+            "document"
+        ],
+        "content": "CSSスタイルガイド生成ツール。 \n\nコメントにmarkdownで書いてスタイルガイドを生成する事が出来る。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "hail2u/node-csswring",
+        "url": "https://github.com/hail2u/node-csswring/",
+        "tags": [
+            "CSS",
+            "Tools"
+        ],
+        "content": "CSSから余分な記述を取り除いたり、書き換える事で圧縮するツール。\n\nSourceMapに対応してる",
+        "relatedLinks": [
+            {
+                "title": "CSSWring v1.1.0 - Weblog - Hail2u.net",
+                "url": "http://hail2u.net/blog/webdesign/node-csswring-v1.1.0.html"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "soliton4/nodeMirror",
+        "url": "https://github.com/soliton4/nodeMirror",
+        "tags": [
+            "node.js",
+            "editor",
+            "JavaScript",
+            "library"
+        ],
+        "content": "node.js + CodeMirrorなブラウザで動くIDE。\n\nローカルサーバを立ち上げて、ブラウザで使う。hexエディタ、ターミナル、HTMLの表示などが出来る",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "joyent/node-vstream",
+        "url": "https://github.com/joyent/node-vstream",
+        "tags": [
+            "node.js",
+            "stream",
+            "library"
+        ],
+        "content": "node streamをラップして、データのダンプやチェック機能等を付けられるモジュール。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "browserify-loader 介绍 - 寸志 - SegmentFault",
+        "url": "http://blog.segmentfault.com/zhicun/1190000000640242",
+        "tags": [
+            "browserify",
+            "AMD",
+            "CommonJS",
+            "library"
+        ],
+        "content": "<a href='https://github.com/island205/browserify-loader'>https://github.com/island205/browserify-loader</a> についての紹介記事。\n\nrequrejsのように`main`属性で読み込むものを指定して使うローダーライブラリ",
+        "relatedLinks": []
+    }
+]

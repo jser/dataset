@@ -1,0 +1,231 @@
+[
+    {
+        "category": "Headline",
+        "title": "Release 1.0.0 - 2015.07.22 · zloirock/core-js · GitHub",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v1.0.0",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "Babelにも同梱されてるES5、ES6、ES.nextのpolyfillであるcore-js 1.0.0リリース。",
+        "relatedLinks": [
+            {
+                "title": "Polyfill · Babel",
+                "url": "https://babeljs.io/docs/usage/polyfill/"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Chromium Blog: Chrome 45 Beta: New ES2015 features, service worker improvements, and media controls",
+        "url": "http://blog.chromium.org/2015/07/chrome-45-beta-new-es2015-features.html",
+        "tags": [
+            "Chrome",
+            "ReleaseNote"
+        ],
+        "content": "Chrome 45 Betaリリース。\nArrow FunctionやObject.assignなどのサポート、Subresource Integrityのサポート、SVGアニメーションを行うSMILを非推奨に、Service WorkerからページへpostMessageしたときのメッセージ配送先オブジェクトの変更など",
+        "relatedLinks": [
+            {
+                "title": "Subresource Integrity Sample",
+                "url": "https://googlechrome.github.io/samples/subresource-integrity/index.html"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Introducing TypeScript npm nightlies - TypeScript - Site Home - MSDN Blogs",
+        "url": "http://blogs.msdn.com/b/typescript/archive/2015/07/27/introducing-typescript-nightlies.aspx",
+        "tags": [
+            "TypeScript"
+        ],
+        "content": "TypeScriptのnightly buildが公開された。\n\n`npm install -g typescript@next`\n\nでインストールできるようになっている。",
+        "relatedLinks": [
+            {
+                "title": "Create a 'publish-nightly' task in our Jakefile by DanielRosenwasser · Pull Request #3875 · Microsoft/TypeScript",
+                "url": "https://github.com/Microsoft/TypeScript/pull/3875"
+            }
+        ]
+    },
+    {
+        "category": "Headline",
+        "title": "Release v0.9.0 · airportyh/testem",
+        "url": "https://github.com/airportyh/testem/releases/tag/v0.9.0",
+        "tags": [
+            "JavaScript",
+            "testing",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "Test Runnerツールのtestem 0.9.0リリース",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Bringing automated testing to Microsoft Edge through WebDriver | Microsoft Edge Dev Blog",
+        "url": "http://blogs.windows.com/msedgedev/2015/07/23/bringing-automated-testing-to-microsoft-edge-through-webdriver/",
+        "tags": [
+            "MSEdge",
+            "webdriver"
+        ],
+        "content": "MSEdgeがWebDriverをサポート。\nMicrosoftWebDriver serverが公開された。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "channikhabra/yarr",
+        "url": "https://github.com/channikhabra/yarr",
+        "tags": [
+            "JavaScript",
+            "rss",
+            "tutorial"
+        ],
+        "content": "クライアントのみで動くRSSリーダーを題材としたJavaScriptアプリのチュートリアル。\nBabel、dexie、jQuery、Rx、virtual-domで作られている。\nまた、どういう手順で作成するのかというのをGit tagでバージョン毎に見られるようにして、それぞれのバージョン毎に解説が書かれている。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "jdalton/polyfill-guide",
+        "url": "https://github.com/jdalton/polyfill-guide",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "polyfillの書き方のガイド",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Building Plugins for React Apps",
+        "url": "https://nylas.com/blog/react-plugins",
+        "tags": [
+            "React",
+            "Flux",
+            "tutorial"
+        ],
+        "content": "React Componentの独立性を保つにはどうするかという話\nStore同士に複雑な依存があると大変なので中央で管理するOmniStoreという概念の導入、Componentがただのデータであることを利用したDIする仕組み、Componentの独立性を確保するパターンについて等",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "ECMAScript 6 Features - ALPROSYS",
+        "url": "http://www.alprosys.com/es6/es6_features_ol.html",
+        "tags": [
+            "ECMAScript",
+            "チートシート"
+        ],
+        "content": "ES6の新しい構文についてES3、5ではどのように書くことができたのかを比較しながら見られるチートシート的なスライド",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "Chrome Tech Talk Night #8 レポート | 株式会社サイバーエージェント",
+        "url": "https://www.cyberagent.co.jp/techinfo_detail/id=10782",
+        "tags": [
+            "Chrome",
+            "動画",
+            "イベント"
+        ],
+        "content": "Chrome Tech Talk Night #8の動画とスライドまとめ",
+        "relatedLinks": [
+            {
+                "title": "Chrome Tech Talk Night #8 - connpass",
+                "url": "http://connpass.com/event/17312/"
+            }
+        ]
+    },
+    {
+        "category": "SlideVideo",
+        "title": "▶ TXJS 2015 Livestream - YouTube",
+        "url": "https://www.youtube.com/watch?v=6lEbk7xdlsQ",
+        "tags": [
+            "JavaScript",
+            "イベント"
+        ],
+        "content": "TXJS 2015の動画",
+        "relatedLinks": [
+            {
+                "title": "Texas JavaScript Conference 2015 | TXJS",
+                "url": "https://2015.texasjavascript.com/"
+            },
+            {
+                "title": "Texas JavaScript 2015 | Chris Missal",
+                "url": "https://lostechies.com/chrismissal/2015/07/27/texas-javascript-2015/"
+            }
+        ]
+    },
+    {
+        "category": "WebsiteDocument",
+        "title": "ECMAScript 6 Tutorial",
+        "url": "http://ccoenraets.github.io/es6-tutorial/index.html",
+        "tags": [
+            "ECMAScript",
+            "tutorial"
+        ],
+        "content": "ES6について学ぶチュートリアルサイト。\nそれぞれの機能毎に学ぶ形式になってる。",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "schteppe/p2.js",
+        "url": "https://github.com/schteppe/p2.js",
+        "tags": [
+            "JavaScript",
+            "library"
+        ],
+        "content": "2D物理エンジンライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "JavaScript engine for Internet of Things",
+        "url": "http://samsung.github.io/jerryscript/",
+        "tags": [
+            "JavaScript"
+        ],
+        "content": "サムスンの組み込み向けJavaScriptエンジン。ファイルサイズが小さめでIoT向け。iotjsというNode.js的なフレームワークも作ってる。\n\n- JerryScript : V8\n- iotjs : Node.js\n\nのような関係",
+        "relatedLinks": [
+            {
+                "title": "Platform for Internet of Things with JavaScript",
+                "url": "http://samsung.github.io/iotjs/"
+            }
+        ]
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "s-a/iron-node",
+        "url": "https://github.com/s-a/iron-node",
+        "tags": [
+            "JavaScript",
+            "node.js",
+            "debug",
+            "Tools"
+        ],
+        "content": "Node.js向けのJavaScriptデバッガ。\nChrome開発者ツールを使ってNode.jsのコードをデバッグ出来るツール",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "horsey",
+        "url": "http://bevacqua.github.io/horsey/",
+        "tags": [
+            "JavaScript",
+            "UI",
+            "library"
+        ],
+        "content": "テキスト入力時に候補データからサジェストするUIライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Introduction | Down and Dirty with Chrome Developer Tools",
+        "url": "http://blittle.github.io/chrome-dev-tools/",
+        "tags": [
+            "Chrome",
+            "debug",
+            "Tools",
+            "book"
+        ],
+        "content": "Chrome開発者ツールのそれぞれの機能について解説してる電子書籍。\n実際に動かして確認できるサンプルやGIFでの分かりやすい解説をされてる",
+        "relatedLinks": []
+    }
+]

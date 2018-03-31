@@ -47,11 +47,11 @@ const isNoLinkList = (node: any) => {
 
 const enum MARK {
     // finish current process
-    END,
+    END = "END",
     // skip process
-    SKIP_PROCESS,
-    // process and same
-    CONTINUE
+    SKIP_PROCESS = "SKIP_PROCESS",
+    // skip but continue
+    CONTINUE = "CONTINUE"
 }
 
 export class ContentParser {
@@ -71,7 +71,7 @@ export class ContentParser {
             const node = nodeList[nodeIndex];
             const process = processPattern[processIndex];
             const result: MARK | any = process(node, text);
-            debug(`node: %O, nodeIndex: ${nodeIndex}, processIndex: ${processIndex}`, node);
+            debug(`Result: ${result}, node: %O, nodeIndex: ${nodeIndex}, processIndex: ${processIndex}`, node);
             if (result === MARK.END) {
                 processIndex = Infinity; // end
             } else if (result === MARK.SKIP_PROCESS) {

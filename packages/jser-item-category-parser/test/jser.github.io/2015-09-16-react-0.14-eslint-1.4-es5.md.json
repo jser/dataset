@@ -1,0 +1,213 @@
+[
+    {
+        "category": "Headline",
+        "title": "Modernizr News",
+        "url": "https://modernizr.com/news/modernizr-3-new-release-site",
+        "tags": [
+            "JavaScript",
+            "CSS",
+            "browser",
+            "library"
+        ],
+        "content": "Feature Detectを行うライブラリであるModernizr 3リリース。",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "React v0.14 Release Candidate | React",
+        "url": "http://facebook.github.io/react/blog/2015/09/10/react-v0.14-rc1.html",
+        "tags": [
+            "React",
+            "ReleaseNote"
+        ],
+        "content": "React v0.14 RCリリース。\nモジュールの分割、`refs`の参照がDOM Node自体となるように、ステートレスコンポーネント、react-toolsの廃止、Babelへの移行など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "Flow | Version 0.15.0",
+        "url": "http://flowtype.org/blog/2015/09/10/Version-0.15.0.html",
+        "tags": [
+            "flowtype",
+            "ReleaseNote"
+        ],
+        "content": "Flow 0.15.0リリース。\nGeneratorのサポート、ワーカープロセス数の設定ができるよう、ES6 Classesで`super()`を呼ぶ前に`this`に触るのをチェックできるようになるなど",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "ESLint v1.4.0 released - ESLint - Pluggable JavaScript linter",
+        "url": "http://eslint.org/blog/2015/09/eslint-v1.4.0-released",
+        "tags": [
+            "JavaScript",
+            "Tools",
+            "ReleaseNote"
+        ],
+        "content": "ESLint v1.4.0リリース。\nルールに合った形にコードを修正する`--fix`オプションの追加、実行結果をキャッシュ出来る`--cache`オプションの追加など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Headline",
+        "title": "jsdom/Changelog.md at 6.4.0 · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/6.4.0/Changelog.md",
+        "tags": [
+            "JavaScript",
+            "library",
+            "ReleaseNote"
+        ],
+        "content": "jsdom 6.4.0リリース。\n`jsdom.nodeLocation`の追加、\n`getElementsByClassName`でスペースが区切られた文字列に対応など",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "The names of functions in ES6",
+        "url": "http://www.2ality.com/2015/09/function-names-es6.html",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "関数やSymbol、モジュールなどの`name`プロパティについてのまとめ",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "JavaScript - Babel プラグインを作ってみよう - Qiita",
+        "url": "http://qiita.com/shuhei/items/96a852f7e0995fd42981",
+        "tags": [
+            "JavaScript",
+            "babel",
+            "plugin",
+            "tutorial"
+        ],
+        "content": "Babelプラグインの作成方法と仕組みについてのチュートリアル的な記事",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "ES2015(ES6)な時代だからこそ、ES5を改めて調べたJavaScript初級者のメモ - Qiita",
+        "url": "http://qiita.com/zaru/items/d833dca52962c3f7770f",
+        "tags": [
+            "ECMAScript"
+        ],
+        "content": "ES5で追加されたProperty Descriptorや追加されたメソッドについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Lessons Backbone Developers Can Learn From React",
+        "url": "http://benmccormick.org/2015/09/09/what-can-backbone-developers-learn-from-react/",
+        "tags": [
+            "backbone.js",
+            "React",
+            "JavaScript"
+        ],
+        "content": "Backbone.jsから見るReactから学べることについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "JavaScript iterables and iterators - JS Rocks",
+        "url": "http://jsrocks.org/2015/09/javascript-iterables-and-iterators/",
+        "tags": [
+            "JavaScript",
+            "ECMAScript"
+        ],
+        "content": "iterable、iteratorについて細かな疑問がQ&A形式でまとまっている記事。\niterableとiteratorそれぞれがどういう定義であるかや関係について。\nまた、`iterator.next()`の返り値がオブジェクトを返すようになった理由などについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Full-Stack Redux Tutorial",
+        "url": "http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
+        "tags": [
+            "JavaScript",
+            "Flux",
+            "tutorial"
+        ],
+        "content": "Reduxを使ってウェブアプリを作るチュートリアル",
+        "relatedLinks": []
+    },
+    {
+        "category": "Article",
+        "title": "Polymer 1.0をさわってみて - console.lealog();",
+        "url": "http://lealog.hateblo.jp/entry/2015/09/04/003050",
+        "tags": [
+            "JavaScript",
+            "WebComponents"
+        ],
+        "content": "Polymerを使ったウェブサイトを作る方法や関連ツールなどの紹介。\nPolymerのテンプレートやハマりどころについて",
+        "relatedLinks": []
+    },
+    {
+        "category": "SlideVideo",
+        "title": "The Polymer Summit 2015 - YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLNYkxOF6rcICdISJclfQhj2S8QZGjXV8J",
+        "tags": [
+            "JavaScript",
+            "WebComponents",
+            "library",
+            "イベント",
+            "動画"
+        ],
+        "content": "Polymer Summit 2015の動画一覧\nhttps://www.polymer-project.org/summit",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "fb55/htmlparser2",
+        "url": "https://github.com/fb55/htmlparser2",
+        "tags": [
+            "JavaScript",
+            "HTML",
+            "library"
+        ],
+        "content": "HTML/XML/RSSパーサライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "danielstjules/mocha.parallel",
+        "url": "https://github.com/danielstjules/mocha.parallel",
+        "tags": [
+            "JavaScript",
+            "testing"
+        ],
+        "content": "mochaで書かれたテストコードをdescribe単位で並列に処理できるライブラリ",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "jide/moveit",
+        "url": "https://github.com/jide/moveit",
+        "tags": [
+            "JavaScript",
+            "CSS",
+            "animation",
+            "library"
+        ],
+        "content": "DOM Nodeを定義にしたがってアニメーションさせることが出来るライブラリ。\nアニメーションの定義をオブジェクトとして定義出来る",
+        "relatedLinks": []
+    },
+    {
+        "category": "SoftwareLibrary",
+        "title": "Mostafa-Samir/zip-local",
+        "url": "https://github.com/Mostafa-Samir/zip-local",
+        "tags": [
+            "node.js"
+        ],
+        "content": "zip/unzipを行うNode.jsモジュール",
+        "relatedLinks": []
+    },
+    {
+        "category": "Book",
+        "title": "Amazon: HTML5/CSS3モダンコーディング フロントエンドエンジニアが教える3つの本格レイアウト スタンダード・グリッド・シングルページレイアウトの作り方: 吉田 真麻",
+        "url": "http://www.amazon.co.jp/dp/4798141577",
+        "tags": [
+            "HTML5",
+            "CSS",
+            "book"
+        ],
+        "content": "2015年11月3日発売\nレイアウトについての書籍",
+        "relatedLinks": []
+    }
+]
