@@ -28,7 +28,8 @@ describe("parse", () => {
                     title: "StealJS 1.0 Release",
                     url: "https://www.bitovi.com/blog/stealjs-1.0-release",
                     tags: ["JavaScript", "Tools", "library", "ReleaseNote"],
-                    content: "開発時は動的なモジュールローダで、本番時はsteal-toolsでのproduction buildでbundleできるStealJS 1.0リリース",
+                    content:
+                        "開発時は動的なモジュールローダで、本番時はsteal-toolsでのproduction buildでbundleできるStealJS 1.0リリース",
                     relatedLinks: [
                         { title: "Easy ES6 with StealJS - YouTube", url: "https://www.youtube.com/watch?v=VKydmxRm6w8" }
                     ]
@@ -67,7 +68,8 @@ describe("parse", () => {
                     title: "Node.js Interview Questions and Answers (2017 Edition) | @RisingStack",
                     url: "http://blog.risingstack.com/node-js-interview-questions-and-answers-2017/",
                     tags: ["node.js", "security"],
-                    content: "Node.jsにおいて良くある質問とその答えについてをQ&A形式で書かれたもの。\nコーディングスタイル、よくある書き間違い、セキュリティ、タイミング攻撃などについて",
+                    content:
+                        "Node.jsにおいて良くある質問とその答えについてをQ&A形式で書かれたもの。\nコーディングスタイル、よくある書き間違い、セキュリティ、タイミング攻撃などについて",
                     relatedLinks: []
                 },
                 {
@@ -84,7 +86,8 @@ describe("parse", () => {
                     title: "Writing HTML with accessibility in mind – Medium",
                     url: "https://medium.com/@matuzo/writing-html-with-accessibility-in-mind-a62026493412",
                     tags: ["HTML", "accessibility"],
-                    content: "HTMLとアクセシビリティ(スクリーンリーダー)について\n`lang`属性、`alt`属性、`<buton>`要素、landmarksについて",
+                    content:
+                        "HTMLとアクセシビリティ(スクリーンリーダー)について\n`lang`属性、`alt`属性、`<buton>`要素、landmarksについて",
                     relatedLinks: []
                 },
                 {
@@ -100,7 +103,8 @@ describe("parse", () => {
                     title: "Front-End Performance Checklist 2017 (PDF, Apple Pages) – Smashing Magazine",
                     url: "https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/",
                     tags: ["performance", "browser"],
-                    content: "ウェブフロントエンドのパフォーマンスチェックリスト。\nファイルサイズ、配信方法、レンダリング、モニタリング、テスト方法などについて",
+                    content:
+                        "ウェブフロントエンドのパフォーマンスチェックリスト。\nファイルサイズ、配信方法、レンダリング、モニタリング、テスト方法などについて",
                     relatedLinks: []
                 },
                 {
@@ -124,7 +128,8 @@ describe("parse", () => {
                     title: "Optimise your web development workflow 2016",
                     url: "https://umaar.github.io/devtools-optimise-your-web-development-workflow-2016/",
                     tags: ["Chrome", "CSS", "debug", "slide", "accessibility"],
-                    content: "Chromeの開発者ツールについてのスライド。\n主にCSS、アクセシビリティ、パフォーマンスについて豊富なGIFアニメーションと共に紹介している。",
+                    content:
+                        "Chromeの開発者ツールについてのスライド。\n主にCSS、アクセシビリティ、パフォーマンスについて豊富なGIFアニメーションと共に紹介している。",
                     relatedLinks: []
                 },
                 {
@@ -210,7 +215,8 @@ describe("parse", () => {
                     category: "Headline",
                     url: "https://groups.google.com/d/topic/phantomjs/AefOuwkgBh0",
                     tags: ["browser", "ReleaseNote", "webkit"],
-                    content: "PhantomJS 2.5.0βリリース。\nQtWebKitがアップデートされES2015のサポート、WebPのサポートなど",
+                    content:
+                        "PhantomJS 2.5.0βリリース。\nQtWebKitがアップデートされES2015のサポート、WebPのサポートなど",
                     title: "[Release] PhantomJS 2.5.0 Beta - Google グループ",
                     relatedLinks: [
                         {
@@ -274,7 +280,8 @@ describe("parse", () => {
                     title: "Building a custom tag input with Skate.js",
                     url: "https://hackernoon.com/building-a-custom-tag-input-with-skate-js-fbd4cdf744f",
                     tags: ["WebComponents", "library"],
-                    content: "Web ComponentsフレームワークであるSkate.jsを使ってタグ入力コンポーネントを作る話。\n値、スタイルの定義の仕方などについて",
+                    content:
+                        "Web ComponentsフレームワークであるSkate.jsを使ってタグ入力コンポーネントを作る話。\n値、スタイルの定義の仕方などについて",
                     relatedLinks: []
                 },
                 {
@@ -307,7 +314,8 @@ describe("parse", () => {
                     title: "Flow Runtime",
                     url: "https://codemix.github.io/flow-runtime/",
                     tags: ["flowtype", "JavaScript", "library", "babel"],
-                    content: "Flow互換の型チェックを実装したランタイムとBabelプラグイン。\nFlowで書いたコードをランタイムチェックすることができる",
+                    content:
+                        "Flow互換の型チェックを実装したランタイムとBabelプラグイン。\nFlowで書いたコードをランタイムチェックすることができる",
                     relatedLinks: []
                 },
                 {
@@ -315,7 +323,8 @@ describe("parse", () => {
                     title: "talyssonoc/structure: A simple schema/attributes library built on top of modern JavaScript",
                     url: "https://github.com/talyssonoc/structure",
                     tags: ["JavaScript", "library"],
-                    content: "ES2015 classesのモデルに対してスキーマを定義できるライブラリ。\nスキーマを元にバリデーションやシリアライズを行える",
+                    content:
+                        "ES2015 classesのモデルに対してスキーマを定義できるライブラリ。\nスキーマを元にバリデーションやシリアライズを行える",
                     relatedLinks: []
                 },
                 {
@@ -331,7 +340,8 @@ describe("parse", () => {
                     title: "danculley/real-dom: A ~1K non-virtual DOM non-framework framework for simple apps",
                     url: "https://github.com/danculley/real-dom",
                     tags: ["JavaScript", "library", "React", "jsx"],
-                    content: "JSXで書くこともでき、ReduxライクなStateマシンを扱えるDOMコンポーネントライブラリ。\n50行ほどのコードで実装されていてとても小さい。",
+                    content:
+                        "JSXで書くこともでき、ReduxライクなStateマシンを扱えるDOMコンポーネントライブラリ。\n50行ほどのコードで実装されていてとても小さい。",
                     relatedLinks: []
                 },
                 {
@@ -339,7 +349,8 @@ describe("parse", () => {
                     title: "xvg",
                     url: "https://xvg.now.sh/",
                     tags: ["SVG", "Chrome", "debug"],
-                    content: "SVG pathをアウトライン化、アンカーを表示することでSVGをデバッグすることができるChrome拡張",
+                    content:
+                        "SVG pathをアウトライン化、アンカーを表示することでSVGをデバッグすることができるChrome拡張",
                     relatedLinks: []
                 },
                 {

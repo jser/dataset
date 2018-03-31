@@ -19,10 +19,10 @@ export interface RemarkNode {
 }
 
 export class CurrentContent {
-    title: string;
-    url: string;
+    title!: string;
+    url!: string;
     tags: string[] = [];
-    content: string;
+    content!: string;
     relatedLinks: { url: string; title: string }[] = [];
 
     addContent(content: string) {
