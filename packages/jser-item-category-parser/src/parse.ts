@@ -2,7 +2,6 @@
 "use strict";
 import { ContentParser } from "./content-parser";
 import { addLineBreakAfterHTML } from "./patch/add-line-break-after-html";
-import * as fs from "fs";
 import * as path from "path";
 
 const unified = require("unified");
@@ -58,7 +57,7 @@ export interface ParseMetaResult {
     author: string;
     layout: string;
     category: string;
-    date: string;
+    date?: string;
     tag: string[];
 }
 
@@ -81,46 +80,21 @@ export interface ParseItemResult {
  * @returns {[*]}
  */
 export function parse(content: string): ParseItemResult[] {
-    const AST = remark.parse(addLineBreakAfterHTML(content));
-    const allCategory = select(AST, "html[value*=<h1]");
-    const results: ParseItemResult[] = [];
-    allCategory.forEach((categoryNode: any, index: number) => {
-        const nextCategoryNode = allCategory[index + 1];
-        const currentCategory = getGroupKey(categoryNode);
-        // not found category
-        if (currentCategory === null) {
-            return;
-        }
-        const currentCategoryNodes = betweenNodes(AST, categoryNode, nextCategoryNode);
-        const contentParser = new ContentParser();
-        const contents = contentParser.process(currentCategoryNodes, content);
-        contents.forEach(content => {
-            results.push({
-                category: currentCategory,
-                title: content.title,
-                url: content.url,
-                tags: content.tags,
-                content: content.content,
-                relatedLinks: content.relatedLinks
-            });
-        });
-    });
-    return results;
+    return parseDetails(content).items;
 }
 
-/**
- * @param {string} filePath:string
- * @returns {[*]}
- */
-export function parseDetails(filePath: string): ParseResult {
-    const content = fs.readFileSync(filePath, "utf-8");
+export interface ParseDetailsOptions {
+    filePath?: string;
+}
+
+export function parseDetails(content: string, options?: ParseDetailsOptions): ParseResult {
     const AST = remark.parse(addLineBreakAfterHTML(content));
     const frontMatter = select.one(AST, "yaml");
     const meta = jsYaml.safeLoad(frontMatter.value, "utf8");
     if (meta.date) {
         meta.date = new Date(meta.date).toISOString();
-    } else {
-        const fileName = path.basename(filePath);
+    } else if (options && options.filePath) {
+        const fileName = path.basename(options.filePath);
         const result = fileName.match(/(\d{4})-(\d{2})-(\d{2})/);
         if (!result) {
             throw new Error("No match date file name");

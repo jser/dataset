@@ -15,7 +15,9 @@ describe("Snapshot testing", () => {
         .forEach(caseName => {
             it(`Test ${caseName}`, function() {
                 const postMarkdownFile = path.join(fixturesDir, caseName);
-                const actual = parseDetails(postMarkdownFile);
+                const actual = parseDetails(fs.readFileSync(postMarkdownFile, "utf-8"), {
+                    filePath: postMarkdownFile
+                });
                 const expectedFilePath = `${postMarkdownFile}.json`;
                 // UPDATE_SNAPSHOT=1 npm test で呼び出したときはスナップショットを更新
                 if (process.env.UPDATE_SNAPSHOT) {
