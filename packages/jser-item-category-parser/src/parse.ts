@@ -36,6 +36,7 @@ const betweenNodes = (parent: any, start: any, end: any) => {
         return is(nodeA, nodeB);
     });
 };
+
 const getGroupKey = (htmlNode: any) => {
     const value = htmlNode.value;
     const [matchKey] = Object.keys(Category).filter(key => {
@@ -77,20 +78,18 @@ export interface ParseItemResult {
     relatedLinks: { url: string; title: string }[];
 }
 
+export interface ParseDetailsOptions {
+    filePath?: string;
+}
+
 /**
- * @param {string} content
- * @returns {[*]}
+ * parse and return items.
  */
 export function parse(content: string): ParseItemResult[] {
     return parseDetails(content).items;
 }
 
-export interface ParseDetailsOptions {
-    filePath?: string;
-}
-
-export function parseDetails(content: string, options?: ParseDetailsOptions): ParseResult {
-    const AST = remark.parse(addLineBreakAfterHTML(content));
+function getMeta(AST: any, options?: ParseDetailsOptions): ParseMetaResult {
     const frontMatter = select.one(AST, "yaml");
     const meta = jsYaml.safeLoad(frontMatter.value, "utf8");
     if (meta.date) {
@@ -101,11 +100,15 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
         if (!result) {
             throw new Error("No match date file name");
         }
-        const year = Number(result[1]);
-        const month = Number(result[2]);
-        const day = Number(result[3]);
+        const year = result[1];
+        const month = result[2];
+        const day = result[3];
         meta.date = moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").toISOString();
     }
+    return meta;
+}
+
+function getItems(AST: any, content: string): ParseItemResult[] {
     const allCategory = select(AST, "html[value*=<h1]");
     const results: ParseItemResult[] = [];
     allCategory.forEach((categoryNode: any, index: number) => {
@@ -129,6 +132,16 @@ export function parseDetails(content: string, options?: ParseDetailsOptions): Pa
             });
         });
     });
+    return results;
+}
+
+/**
+ * parse and return items and meta
+ */
+export function parseDetails(content: string, options?: ParseDetailsOptions): ParseResult {
+    const AST = remark.parse(addLineBreakAfterHTML(content));
+    const meta = getMeta(AST, options);
+    const results = getItems(AST, content);
     return {
         meta,
         items: results
