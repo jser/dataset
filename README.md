@@ -4,18 +4,30 @@ A DataSet monorepo for jser.info
 
 ## データの種類
 
-- Item: 紹介したサイト(URLや関連URLを含め)のこと
+- Item: 紹介するサイトのこと
     - 1 Item = 1 サイト
+    - すべてのデータのoriginとなるものです
+    - サイトごとにタイトル、URL、登録した日付、タグなどが含まれています
     - API: <http://jser.info/source-data/items.json>
 - Post: JSer.infoに投稿される記事のこと
     - 1 Post = 1 記事
+    - それぞれの記事のタイトル、URL、タグ、日付などが含まれます
+    - [@jser/stat][]を使うことでItemとPostを元に指定したサイトが紹介された記事を見つけるなどができます
     - API: <http://jser.info/posts.json>
 - Post Item: Jser.infoに投稿された記事中のItemのこと
-    - 基本的にはItemと同じだが、Postはカテゴリ分けされた表示
     - 1 Post Item = 1 サイト
+    - 基本的にはItemと同じだが、Post ItemはPost(記事)におけるカテゴリが含まれます
+    - カテゴリの種類は [@jser/post-parser][] を参照してください
+    - Itemを元に投稿時に編集している場合などもあるため、ItemとPost Itemは必ずしも一致するわけではありません
     - 制限: カテゴリ区別が付けられたのは[2014-08-03](https://jser.info/2014/08/03/renewal/)からであるため、それ以前のデータは含まれない
     - Postにはすべての記事は含まれるがPost Itemのデータは含まれていない
     - API: <https://jser.info/public/data/post-details.json>
+
+データは個別だと扱いにくい場合などがあります。
+また、時期によって特定のプロパティが欠損してる場合もあるため、後述する分析ライブラリなどのHigh LevelなAPIを利用することを推奨します。
+[@jser/data-fetcher][]でデータとして取得し、[@jser/stat][]などの分析ライブラリに与えて利用するとある程度正規化されます。
+
+統計データの閲覧やCSVデータの取得なら[JSer.info Data Dashboard](https://jser.info/data-dashboard/)も利用できます。
 
 ## Fetcher
 
@@ -31,7 +43,7 @@ await fetchPosts();
 await fetchPostDetails();
 ```
 
-## 分析
+## 分析ライブラリ
 
 - [@jser/classifier-item-category][]: 文字列からJSer.infoではどのカテゴリに分類されるかを推論します
 - [@jser/stat][]: JSer.infoのデータを使った統計の前処理ライブラリ

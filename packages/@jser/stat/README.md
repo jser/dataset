@@ -2,6 +2,8 @@
 
 JSer.info stat library
 
+JSer.infoのItemとPostを元にした統計処理やその前処理を行うライブラリです。
+
 ## Installation
 
     npm install @jser/stat
