@@ -1,6 +1,7 @@
 {
   "name": "dataset",
   "version": "1.0.0",
+  "private": true,
   "description": "A dataset monorepo for jser.info",
   "keywords": [
     "jser"
@@ -11,11 +12,6 @@
   },
   "license": "MIT",
   "author": "azu",
-  "files": [
-    "bin/",
-    "lib/",
-    "src/"
-  ],
   "main": "lib/dataset.js",
   "directories": {
     "lib": "lib",
@@ -26,9 +22,15 @@
     "url": "https://github.com/jser/dataset.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test"
   },
   "devDependencies": {
     "lerna": "^2.11.0"
-  }
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/@jser/*"
+  ]
 }

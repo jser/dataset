@@ -1,4 +1,4 @@
-# jser-item-category-parser [![Build Status](https://travis-ci.org/jser/jser-item-category-parser.svg?branch=master)](https://travis-ci.org/jser/jser-item-category-parser)
+# @jser/post-parser
 
 JSer.info post item category parser.
 
@@ -8,13 +8,13 @@ JSer.infoの記事から、各アイテムURLのカテゴリ(記事中の分類)
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install jser-item-category-parser
+    npm install @jser/post-parser
 
 ## Usage
 
 ```js
-const parse = require("jser-item-category-parser").parse;
-const Category = require("jser-item-category-parser").Category;
+const parse = require("@jser/post-parser").parse;
+const Category = require("@jser/post-parser").Category;
 const results = parse(fs.readFileSync(path.join(__dirname, "fixtures", "2017-01-11-Node.js-v7.4.0-npm-v4-PhantomJS-2.5.0-Beta-clean-code.md"), "utf-8"));
 /*
  [{
@@ -49,7 +49,7 @@ const Category = {
 
 ## Changelog
 
-See [Releases page](https://github.com/jser/jser-item-category-parser/releases).
+See [Releases page](https://github.com/jser/dataset/releases).
 
 ## Running tests
 
@@ -61,7 +61,7 @@ Install devDependencies and Run `npm test`:
 
 Pull requests and stars are always welcome.
 
-For bugs and feature requests, [please create an issue](https://github.com/jser/jser-item-category-parser/issues).
+For bugs and feature requests, [please create an issue](https://github.com/jser/dataset/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

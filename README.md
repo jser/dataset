@@ -1,16 +1,16 @@
-# dataset
+# DataSet
 
-A dataset monorepo for jser.info
+A DataSet monorepo for jser.info
 
-## Install
+## Data list
 
-Install with [npm](https://www.npmjs.com/):
-
-    npm install dataset
-
-## Usage
-
-- [ ] Write usage instructions
+- Item: 紹介したサイト(URLや関連URLを含め)のこと
+    - 1 Item = 1 サイト
+- Post: JSer.infoに投稿される記事のこと
+    - 1 Post = 1 記事
+- Post Item: Jser.infoに投稿された記事中のItemのこと
+    - 基本的にはItemと同じだが、Postはカテゴリ分けされた表示
+    - 1 Post Item = 1 サイト
 
 ## Changelog
 
