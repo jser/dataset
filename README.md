@@ -1,6 +1,8 @@
 # DataSet [![Build Status](https://travis-ci.org/jser/dataset.svg?branch=master)](https://travis-ci.org/jser/dataset)
 
-A DataSet monorepo for jser.info
+JSer.infoのデータセットをまとめたmonorepoです。
+
+JSer.infoで収集しているデータや記事を書くために利用している統計ライブラリなどが公開されています。
 
 ## データの種類
 
@@ -14,9 +16,9 @@ A DataSet monorepo for jser.info
     - それぞれの記事のタイトル、URL、タグ、日付などが含まれます
     - [@jser/stat][]を使うことでItemとPostを元に指定したサイトが紹介された記事を見つけるなどができます
     - API: <http://jser.info/posts.json>
-- Post Item: Jser.infoに投稿された記事中のItemのこと
+- Post Item: Jser.infoに投稿された記事中のItem(サイト)のこと
     - 1 Post Item = 1 サイト
-    - 基本的にはItemと同じだが、Post ItemはPost(記事)におけるカテゴリが含まれます
+    - 基本的にはItemと同じだが、Post ItemはPost(記事)におけるカテゴリ（ヘッドラインなど）が含まれます
     - カテゴリの種類は [@jser/post-parser][] を参照してください
     - Itemを元に投稿時に編集している場合などもあるため、ItemとPost Itemは必ずしも一致するわけではありません
     - 制限: カテゴリ区別が付けられたのは[2014-08-03](https://jser.info/2014/08/03/renewal/)からであるため、それ以前のデータは含まれない
