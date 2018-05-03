@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm rm jser-classifier-item-category && npm i && update-jser-item-category && update-jser-stat && node example.js"
+    "build": "npm rm jser-classifier-item-category && npm i && node example.js"
   },
   "author": "azu",
   "license": "MIT",
