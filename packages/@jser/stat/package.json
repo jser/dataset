@@ -3,19 +3,13 @@
   "version": "4.0.2",
   "description": "JSer.info stat library",
   "main": "lib/index.js",
-  "bin": {
-    "update-jser-stat": "bin/update-jser-stat.js"
-  },
-  "browser": "lib/browser-index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "bin",
     "data/*.js",
     "lib",
     "src"
   ],
   "scripts": {
-    "install": "node data/install-hook.js",
     "prepublish": "npm run --if-present build",
     "build": "cross-env NODE_ENV=production tsc -p .",
     "watch": "tsc -p . --watch",
