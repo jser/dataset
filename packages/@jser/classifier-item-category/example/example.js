@@ -2,7 +2,7 @@
 "use strict";
 const { fetchPostDetails } = require("@jser/data-fetcher");
 const { JSerClassifier } = require("@jser/classifier-item-category");
-const JSerStat = require("jser-stat").JSerStat;
+const JSerStat = require("@jser/stat").JSerStat;
 fetchPostDetails().then(postDetails => {
     const classifier = new JSerClassifier({
         postDetails

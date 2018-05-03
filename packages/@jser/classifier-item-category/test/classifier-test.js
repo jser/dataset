@@ -1,7 +1,7 @@
 // MIT © 2017 azu
 "use strict";
 const assert = require("assert");
-const JSerStat = require("jser-stat").JSerStat;
+const JSerStat = require("@jser/stat").JSerStat;
 const CategoryKey = require("jser-item-category-parser").CategoryKey;
 const JSerClassifier = require("../src/index").JSerClassifier;
 const { fetchPostDetails, fetchItems, fetchPosts } = require("@jser/data-fetcher");

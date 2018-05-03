@@ -1,7 +1,7 @@
 // LICENSE : MIT
 "use strict";
 var assert = require("assert");
-var JSerStat = require("jser-stat").JSerStat;
+var JSerStat = require("@jser/stat").JSerStat;
 var stat = new JSerStat();
 var startTime = Date.now();
 assert(stat.getJSerWeeks().length > 0);

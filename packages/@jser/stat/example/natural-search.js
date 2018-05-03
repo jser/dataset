@@ -1,7 +1,7 @@
 // LICENSE : MIT
 "use strict";
 var startTime = Date.now();
-var JSerStat = require("jser-stat").JSerStat;
+var JSerStat = require("@jser/stat").JSerStat;
 var stat = new JSerStat();
 var item = stat.items[stat.items.length - 1];
 console.log("Search: " + item.title);

@@ -6,7 +6,7 @@ const { JSerItem: Item } = require("../src/models/JSerItem");
 const { JSerWeek: Week } = require("../src/models/JSerWeek");
 const { fetchItems, fetchPosts } = require("@jser/data-fetcher");
 
-describe("jser-stat", function() {
+describe("@jser/stat", function() {
     let stat;
     let _items;
     let _posts;

@@ -5,7 +5,7 @@ var assert = require("assert");
 // require data json
 var items = require("jser-stat/data/items");
 var posts = require("jser-stat/data/posts");
-var JSerStat = require("jser-stat").JSerStat;
+var JSerStat = require("@jser/stat").JSerStat;
 var stat = new JSerStat(items, posts);
 assert(stat.getJSerWeeks().length > 0);
 var firstWeek = stat.findJSerWeek(1);
