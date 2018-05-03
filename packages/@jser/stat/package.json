@@ -32,22 +32,22 @@
   },
   "homepage": "https://github.com/jser/stat-js",
   "devDependencies": {
-    "@types/mocha": "^2.2.43",
+    "@jser/data-fetcher": "^1.0.1",
+    "@types/mocha": "^5.2.0",
     "@types/node": "^8.0.46",
     "cross-env": "^5.1.0",
-    "lint-staged": "^4.3.0",
-    "mocha": "^4.0.1",
+    "lint-staged": "^7.0.5",
+    "mocha": "^5.1.1",
     "power-assert": "^1.4.2",
     "prettier": "^1.7.4",
-    "ts-node": "^3.3.0",
-    "typescript": "^2.5.3",
-    "@jser/data-fetcher": "^1.0.1"
+    "ts-node": "^6.0.2",
+    "typescript": "^2.5.3"
   },
   "dependencies": {
     "array.prototype.find": "^2.0.1",
     "binarysearch": "^1.0.0",
     "lodash.sortby": "^4.7.0",
-    "natural": "^0.4.0",
+    "natural": "^0.5.6",
     "request": "^2.57.0"
   },
   "prettier": {

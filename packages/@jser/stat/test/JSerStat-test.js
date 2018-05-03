@@ -8,8 +8,12 @@ const { fetchItems, fetchPosts } = require("@jser/data-fetcher");
 
 describe("jser-stat", function() {
     let stat;
+    let _items;
+    let _posts;
     before(function() {
         return Promise.all([fetchItems(), fetchPosts()]).then(([items, posts]) => {
+            _items = items;
+            _posts = posts;
             stat = new JSerStat(items, posts);
         });
     });
@@ -30,10 +34,7 @@ describe("jser-stat", function() {
     });
     describe("#findJSerWeekWithURL", function() {
         it("should return JSerWeek that match url", function() {
-            const posts = require("../data/posts.json");
-            const items = require("../data/items.json");
-            const stat = new JSerStat(items, posts);
-            const expectedPostURL = posts[0].url;
+            const expectedPostURL = stat.posts[0].url;
             const week = stat.findJSerWeekWithURL(expectedPostURL);
             assert(week.post.url === expectedPostURL);
         });
@@ -125,8 +126,8 @@ describe("jser-stat", function() {
             });
         });
         it("should return JSerWeek match the JSerItem", function() {
-            var posts = require("../data/posts.json").slice(0, 1);
-            var items = require("../data/items.json").slice(0, 1);
+            var posts = _posts.slice(0, 1);
+            var items = _items.slice(0, 1);
             var stat = new JSerStat(items, posts);
             var week = stat.findWeekWithItem(items[0]);
             assert(stat.getTotalWeekCount() === 1);
