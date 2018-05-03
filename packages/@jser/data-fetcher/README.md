@@ -1,6 +1,7 @@
 # @jser/data-fetcher
 
 Data Fetcher library for dataset.
+It includes types for response.
 
 ## Install
 
@@ -10,7 +11,13 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
-- [ ] Write usage instructions
+```ts
+import { fetchItems, fetchPostDetails, fetchPosts } from "@jser/data-fetcher";
+```
+
+- items: <http://jser.info/source-data/items.json>
+- posts: <http://jser.info/posts.json>
+- post details: <https://jser.info/public/data/post-details.json>
 
 ## Changelog
 

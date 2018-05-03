@@ -4,50 +4,40 @@ import learnJSerInfo from "./jser-info-learning";
 import getAbsoluteTag from "./jser-info-absolute-tag";
 
 const natural = require("natural");
-const categoryMap = new Map();
 /**
- * @param {JSerItem} item
+ * @param {PostDetailItem} item
  * @returns {string}
  */
 const stringifyJSerItem = (item) => {
     const tags = item.tags ? item.tags.map(tag => `__${tag}__`).join(", ")
-                         : "";
-    return `${ tags} ${item.url} "${item.title}" ${item.content}`;
+                           : "";
+    return `${tags} ${item.url} "${item.title}" ${item.content}`;
 };
 /**
- * @param {Object[]} itemCategories
- * @param {JSerItem[]} items
+ * @param {PostDetail[]} postDetails
  * @returns {*}
  */
-const createClassifier = ({ itemCategories, items }) => {
+const createClassifier = ({ postDetails }) => {
     const classifier = new natural.BayesClassifier();
-    const allItems = items;
     // setup
-    itemCategories.forEach(item => {
-        categoryMap.set(item.url, item.category);
-    });
-    allItems.forEach(item => {
-        if (!categoryMap.has(item.url)) {
-            return;
-        }
-        const category = categoryMap.get(item.url);
-        const itemDate = stringifyJSerItem(item);
-        classifier.addDocument(itemDate, category);
+    postDetails.forEach(postDetail => {
+        postDetail.items.forEach(item => {
+            const category = item.category;
+            const itemDate = stringifyJSerItem(item);
+            classifier.addDocument(itemDate, category);
+        });
     });
     learnJSerInfo(classifier);
     classifier.train();
     return classifier;
 };
 
-module.exports = class JSerClassifier {
+export class JSerClassifier {
     /**
-     * @param {Object[]} itemCategories json data
-     * @param {JSerItem[]} items
+     * @param {PostDetail[]} postDetails json data
      */
-    constructor({ itemCategories, items }) {
-        this.items = items;
-        this.itemCategories = itemCategories;
-        this.classifier = createClassifier({ itemCategories, items });
+    constructor({ postDetails }) {
+        this.classifier = createClassifier({ postDetails });
     }
 
     /**

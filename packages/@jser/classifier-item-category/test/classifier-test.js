@@ -13,8 +13,7 @@ describe("classifier", () => {
         const promises = [fetchPostDetails(), fetchItems(), fetchPosts()];
         return Promise.all(promises).then(([details, items, posts]) => {
             classifier = new JSerClassifier({
-                itemCategories: details,
-                items
+                postDetails: details
             });
             stat = new JSerStat(items, posts);
         });

@@ -61,11 +61,42 @@ export interface PostItemRelatedLinksItem {
     url: string;
 }
 
-export const fetchPostDetails = (): Promise<PostItem[]> => {
-    return fetch("https://jser.info/public/build/item-category.json")
+export interface PostDetail {
+    meta: PostDetailMeta;
+    items: PostDetailItem[];
+}
+
+export interface PostDetailMeta {
+    title: string;
+    author: string;
+    layout: string;
+    category: string;
+    tags?: string[];
+    date: string;
+    url: string;
+    toc?: boolean;
+    permalink?: string;
+}
+
+export interface PostDetailItem {
+    category: string;
+    title: string;
+    url: string;
+    tags: string[];
+    content: string;
+    relatedLinks: PostDetailItemRelatedLinksItem[];
+}
+
+export interface PostDetailItemRelatedLinksItem {
+    title: string;
+    url: string;
+}
+
+export const fetchPostDetails = (): Promise<PostDetail[]> => {
+    return fetch("https://jser.info/public/data/post-details.json")
         .then((res: Response) => {
             if (!res.ok) {
-                return Promise.reject(new Error(`item-category.json": ${res.statusText}`));
+                return Promise.reject(new Error(`post-details.json": ${res.statusText}`));
             }
             return res;
         })

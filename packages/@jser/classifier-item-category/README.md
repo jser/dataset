@@ -30,10 +30,17 @@ Install with [npm](https://www.npmjs.com/):
 ## Usage
 
 ```js
-const classifier = require("@jser/classifier-item-category");
-const CategoryKey = require("@jser/classifier-item-category").CategoryKey;
-classifier.classifyText("これはGitHubで公開されている言語処理のライブラリです。");
-// === CategoryKey.SoftwareLibrary
+
+import { fetchPostDetails } from "@jser/data-fetcher";
+import { JSerClassifier, CategoryKey } from "@jser/classifier-item-category";
+(async () => {
+   const postDetails = await fetchPostDetails();
+   const classifier = new JSerClassifier({
+       postDetails
+   });
+   classifier.classifyText("これはGitHubで公開されている言語処理のライブラリです。");
+   // === CategoryKey.SoftwareLibrary
+})()
 ```
 
 ## Changelog

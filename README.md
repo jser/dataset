@@ -12,6 +12,8 @@ A DataSet monorepo for jser.info
 - Post Item: Jser.infoに投稿された記事中のItemのこと
     - 基本的にはItemと同じだが、Postはカテゴリ分けされた表示
     - 1 Post Item = 1 サイト
+    - 制限: カテゴリ区別が付けられたのは[2014-08-03](https://jser.info/2014/08/03/renewal/)からであるため、それ以前のデータは含まれない
+    - Postにはすべての記事は含まれるがPost Itemのデータは含まれていない
 
 ## Fetcher
 
