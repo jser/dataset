@@ -1,22 +1,16 @@
-# DataSet
+# @jser/data-fetcher
 
-A DataSet monorepo for jser.info
+Data Fetcher library for dataset.
 
-## Data list
+## Install
 
-- Item: 紹介したサイト(URLや関連URLを含め)のこと
-    - 1 Item = 1 サイト
-- Post: JSer.infoに投稿される記事のこと
-    - 1 Post = 1 記事
-- Post Item: Jser.infoに投稿された記事中のItemのこと
-    - 基本的にはItemと同じだが、Postはカテゴリ分けされた表示
-    - 1 Post Item = 1 サイト
+Install with [npm](https://www.npmjs.com/):
 
-## Fetcher
+    npm install @jser/data-fetcher
 
-- [ ] @jser/data-fetcher
+## Usage
 
-## Parser
+- [ ] Write usage instructions
 
 ## Changelog
 
@@ -24,9 +18,9 @@ See [Releases page](https://github.com/jser/dataset/releases).
 
 ## Running tests
 
-    yarn
-    yarn bootstrap
-    yarn test
+Install devDependencies and Run `npm test`:
+
+    npm i -d && npm test
 
 ## Contributing
 

@@ -24,6 +24,9 @@ const matchTagWithCategory = (tag) => {
  * @return {string|null}
  */
 export default function (jserItem) {
+    if(!jserItem.tags){
+        return;
+    }
     for (let tag of jserItem.tags) {
         const matchTag = matchTagWithCategory(tag);
         if (matchTag) {

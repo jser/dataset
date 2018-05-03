@@ -2,22 +2,24 @@
 "use strict";
 import learnJSerInfo from "./jser-info-learning";
 import getAbsoluteTag from "./jser-info-absolute-tag";
+
 const natural = require("natural");
-const url = require("url");
 const categoryMap = new Map();
 /**
  * @param {JSerItem} item
  * @returns {string}
  */
 const stringifyJSerItem = (item) => {
-    return `${item.tags.map(tag => `__${tag}__`).join(", ")} ${item.url} "${item.title}" ${item.content}`;
+    const tags = item.tags ? item.tags.map(tag => `__${tag}__`).join(", ")
+                         : "";
+    return `${ tags} ${item.url} "${item.title}" ${item.content}`;
 };
 /**
  * @param {Object[]} itemCategories
  * @param {JSerItem[]} items
  * @returns {*}
  */
-const createClassifier = ({itemCategories, items}) => {
+const createClassifier = ({ itemCategories, items }) => {
     const classifier = new natural.BayesClassifier();
     const allItems = items;
     // setup
@@ -42,10 +44,10 @@ module.exports = class JSerClassifier {
      * @param {Object[]} itemCategories json data
      * @param {JSerItem[]} items
      */
-    constructor({itemCategories, items}) {
+    constructor({ itemCategories, items }) {
         this.items = items;
         this.itemCategories = itemCategories;
-        this.classifier = createClassifier({itemCategories, items});
+        this.classifier = createClassifier({ itemCategories, items });
     }
 
     /**

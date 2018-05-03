@@ -1,4 +1,4 @@
-# jser-classifier-item-category [![Build Status](https://travis-ci.org/jser/classifier-item-category.svg?branch=master)](https://travis-ci.org/jser/classifier-item-category)
+# @jser/classifier-item-category
 
 Classifier category from JSer item or text.
 
@@ -25,13 +25,13 @@ var Category = {
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install jser-classifier-item-category
+    npm install @jser/classifier-item-category
 
 ## Usage
 
 ```js
-const classifier = require("jser-classifier-item-category");
-const CategoryKey = require("jser-classifier-item-category").CategoryKey;
+const classifier = require("@jser/classifier-item-category");
+const CategoryKey = require("@jser/classifier-item-category").CategoryKey;
 classifier.classifyText("これはGitHubで公開されている言語処理のライブラリです。");
 // === CategoryKey.SoftwareLibrary
 ```

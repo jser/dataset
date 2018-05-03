@@ -3,10 +3,22 @@
 const assert = require("assert");
 const JSerStat = require("jser-stat").JSerStat;
 const CategoryKey = require("jser-item-category-parser").CategoryKey;
-const classifier = require("../src/index").classifier;
-const stat = new JSerStat();
+const JSerClassifier = require("../src/index").JSerClassifier;
+const { fetchPostDetails, fetchItems, fetchPosts } = require("@jser/data-fetcher");
 
 describe("classifier", () => {
+    let classifier;
+    let stat;
+    before(() => {
+        const promises = [fetchPostDetails(), fetchItems(), fetchPosts()];
+        return Promise.all(promises).then(([details, items, posts]) => {
+            classifier = new JSerClassifier({
+                itemCategories: details,
+                items
+            });
+            stat = new JSerStat(items, posts);
+        });
+    });
     it("#classifyItem should return Category", () => {
         const category = classifier.classifyItem({
             title: "classifier-item-category GitHub",

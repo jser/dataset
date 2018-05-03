@@ -1,0 +1,55 @@
+{
+  "name": "@jser/data-fetcher",
+  "version": "1.0.0",
+  "description": "Data Fetcher library for dataset.",
+  "keywords": [
+    "data",
+    "jser"
+  ],
+  "homepage": "https://github.com/jser/dataset/tree/master/packages/@jser/data-fetcher/",
+  "bugs": {
+    "url": "https://github.com/jser/dataset/issues"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/data-fetcher.js",
+  "types": "lib/data-fetcher.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jser/dataset.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "prepublish": "npm run --if-present build",
+    "test": "mocha \"test/**/*.ts\"",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "watch": "tsc -p . --watch"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.0",
+    "@types/node": "^10.0.3",
+    "cross-env": "^5.1.4",
+    "mocha": "^5.1.1",
+    "prettier": "^1.12.1",
+    "ts-node": "^6.0.2",
+    "ts-node-test-register": "^2.0.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "cross-fetch": "^2.1.1"
+  }
+}
