@@ -1,40 +1,46 @@
 {
-  "directories": {
-    "test": "test"
+  "name": "@jser/classifier-item-category",
+  "version": "1.0.0",
+  "description": "Classifier category from JSer item",
+  "keywords": [
+    "jser"
+  ],
+  "homepage": "https://github.com/jser/dataset",
+  "bugs": {
+    "url": "https://github.com/jser/dataset/issues"
   },
-  "author": "azu",
   "license": "MIT",
+  "author": "azu",
   "files": [
     "bin/",
     "data/",
     "lib/",
     "src/"
   ],
-  "name": "@jser/classifier-item-category",
-  "version": "1.0.0",
-  "description": "Classifier category from JSer item",
   "main": "lib/index.js",
   "bin": {
     "update-jser-item-category": "./bin/update-jser-item-category.js"
   },
-  "scripts": {
-    "postinstall": "node bin/update-jser-item-category.js",
-    "test": "update-jser-stat && mocha test/",
-    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
-    "watch": "babel src --out-dir lib --watch --source-maps",
-    "prepublish": "npm run --if-present build"
+  "directories": {
+    "test": "test"
   },
-  "keywords": [
-    "jser"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jser/dataset.git"
   },
-  "bugs": {
-    "url": "https://github.com/jser/dataset/issues"
+  "scripts": {
+    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
+    "postinstall": "node bin/update-jser-item-category.js",
+    "prepublish": "npm run --if-present build",
+    "test": "update-jser-stat && mocha test/",
+    "watch": "babel src --out-dir lib --watch --source-maps"
   },
-  "homepage": "https://github.com/jser/dataset",
+  "dependencies": {
+    "jser-item-category-parser": "1.4.0",
+    "jser-stat": "^4.0.2",
+    "natural": "^0.5.4",
+    "request": "^2.81.0"
+  },
   "devDependencies": {
     "@jser/data-fetcher": "^1.0.0",
     "babel-cli": "^6.24.1",
@@ -45,10 +51,7 @@
     "mocha": "^5.1.1",
     "power-assert": "^1.4.4"
   },
-  "dependencies": {
-    "jser-item-category-parser": "1.4.0",
-    "jser-stat": "^4.0.2",
-    "natural": "^0.5.4",
-    "request": "^2.81.0"
+  "publishConfig": {
+    "access": "public"
   }
 }

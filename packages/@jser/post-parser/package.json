@@ -20,9 +20,6 @@
   "directories": {
     "test": "test"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jser/dataset.git"
@@ -67,6 +64,9 @@
     "prettier": "^1.11.1",
     "ts-node": "^6.0.2",
     "typescript": "^2.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "content": "JSer.info post item category parser.",
   "lint-staged": {
