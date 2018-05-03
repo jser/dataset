@@ -105,9 +105,9 @@ function getMeta(AST: any, options?: ParseDetailsOptions): ParseMetaResult {
         const slug = result[4];
         // use default date
         if (meta.date) {
-            meta.date = moment(meta.date).tz("Asia/Tokyo").toISOString();
+            meta.date = moment(meta.date).tz("Asia/Tokyo").utc().toISOString();
         } else {
-            meta.date = moment(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo").toISOString();
+            meta.date = moment(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo").utc().toISOString();
         }
         // set url
         const baseURL = options.baseURL || "https://jser.info/";
