@@ -14,7 +14,7 @@ JSer.infoで収集しているデータや記事を書くために利用して�
 - Post: JSer.infoに投稿される記事のこと
     - 1 Post = 1 記事
     - それぞれの記事のタイトル、URL、タグ、日付などが含まれます
-    - [@jser/stat][]を使うことでItemとPostを元に指定したサイトが紹介された記事を見つけるなどができます
+    - [@jser/stat][]を使うことでItemとPostを元に指定したサイトが紹介された記事を検索できます
     - API: <http://jser.info/posts.json>
 - Post Item: Jser.infoに投稿された記事中のItem(サイト)のこと
     - 1 Post Item = 1 サイト
@@ -27,6 +27,7 @@ JSer.infoで収集しているデータや記事を書くために利用して�
 
 データは個別だと扱いにくい場合などがあります。
 また、時期によって特定のプロパティが欠損してる場合もあるため、後述する分析ライブラリなどのHigh LevelなAPIを利用することを推奨します。
+
 [@jser/data-fetcher][]でデータとして取得し、[@jser/stat][]などの分析ライブラリに与えて利用するとある程度正規化されます。
 
 統計データの閲覧やCSVデータの取得なら[JSer.info Data Dashboard](https://jser.info/data-dashboard/)も利用できます。
