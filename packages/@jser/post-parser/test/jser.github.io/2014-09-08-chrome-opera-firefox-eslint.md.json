@@ -3,7 +3,7 @@
         "title": "2014-09-08のJS: Chrome 37/Opera 24、Firefox 32、ESLint 0.8.0",
         "author": "azu",
         "layout": "post",
-        "date": "2014-09-08T21:38:00.000Z",
+        "date": "2014-09-08T12:38:00.000Z",
         "category": "JSer",
         "tags": [
             "Chrome",
@@ -11,7 +11,8 @@
             "Firefox",
             "AST",
             "ECMAScript"
-        ]
+        ],
+        "url": "https://jser.info/2014/09/08/chrome-opera-firefox-eslint/"
     },
     "items": [
         {

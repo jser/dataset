@@ -3,14 +3,15 @@
         "title": "2017-01-11のJS: Node.js v7.4.0とnpm v4、PhantomJS 2.5.0 Beta、クリーンコード",
         "author": "azu",
         "layout": "post",
-        "date": "2017-01-11T09:36:00.000Z",
+        "date": "2017-01-11T00:36:00.000Z",
         "category": "JSer",
         "tags": [
             "Node.js",
             "npm",
             "webkit",
             "PhantomJS"
-        ]
+        ],
+        "url": "https://jser.info/2017/01/11/Node.js-v7.4.0-npm-v4-PhantomJS-2.5.0-Beta-clean-code/"
     },
     "items": [
         {

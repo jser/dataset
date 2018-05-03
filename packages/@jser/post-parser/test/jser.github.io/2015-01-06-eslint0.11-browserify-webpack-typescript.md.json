@@ -3,7 +3,7 @@
         "title": "2015-01-06のJS: ESLint 0.11.0、Browserifyとwebpack、TypeScriptの本",
         "author": "azu",
         "layout": "post",
-        "date": "2015-01-06T22:24:00.000Z",
+        "date": "2015-01-06T13:24:00.000Z",
         "category": "JSer",
         "tags": [
             "JavaScript",
@@ -12,7 +12,8 @@
             "Browserify",
             "webpack",
             "TypeScript"
-        ]
+        ],
+        "url": "https://jser.info/2015/01/06/eslint0.11-browserify-webpack-typescript/"
     },
     "items": [
         {

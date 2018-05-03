@@ -3,7 +3,7 @@
         "title": "2015-08-03のJS: ESLint 1.0.0、JSCS 2.0.0、Esprima 2.5.0",
         "author": "azu",
         "layout": "post",
-        "date": "2015-08-03T21:52:00.000Z",
+        "date": "2015-08-03T12:52:00.000Z",
         "category": "JSer",
         "tags": [
             "Lint",
@@ -11,7 +11,8 @@
             "AST",
             "ES6",
             "JavaScript"
-        ]
+        ],
+        "url": "https://jser.info/2015/08/03/eslint-jscs-esprima/"
     },
     "items": [
         {

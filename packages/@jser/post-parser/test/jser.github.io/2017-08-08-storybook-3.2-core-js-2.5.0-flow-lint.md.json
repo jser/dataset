@@ -10,7 +10,8 @@
             "polyfill",
             "ECMAScript",
             "Flow"
-        ]
+        ],
+        "url": "https://jser.info/2017/08/08/storybook-3.2-core-js-2.5.0-flow-lint/"
     },
     "items": [
         {

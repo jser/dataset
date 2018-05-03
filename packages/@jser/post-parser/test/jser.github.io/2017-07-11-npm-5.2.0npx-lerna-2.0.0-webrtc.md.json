@@ -3,14 +3,15 @@
         "title": "2017-07-11のJS: npm 5.2.0(npx)、lerna 2.0.0、WebRTC",
         "author": "azu",
         "layout": "post",
-        "date": "2017-07-11T10:52:00.000Z",
+        "date": "2017-07-11T01:52:00.000Z",
         "category": "JSer",
         "tags": [
             "npm",
             "monorepo",
             "safari",
             "WebRTC"
-        ]
+        ],
+        "url": "https://jser.info/2017/07/11/npm-5.2.0npx-lerna-2.0.0-webrtc/"
     },
     "items": [
         {

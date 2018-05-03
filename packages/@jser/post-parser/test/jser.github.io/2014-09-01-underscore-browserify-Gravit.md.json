@@ -3,7 +3,7 @@
         "title": "2014-09-01のJS: Underscore 1.7.0、Browserify入門、Gravit",
         "author": "azu",
         "layout": "post",
-        "date": "2014-09-01T08:19:00.000Z",
+        "date": "2014-08-31T23:19:00.000Z",
         "category": "JSer",
         "tags": [
             "JavaScript",
@@ -11,7 +11,8 @@
             "Design",
             "software",
             "node-webkit"
-        ]
+        ],
+        "url": "https://jser.info/2014/09/01/underscore-browserify-Gravit/"
     },
     "items": [
         {

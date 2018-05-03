@@ -3,7 +3,7 @@
         "title": "2014-11-02のJS: Bootstrap 3.3.0、CSP Lv.2、Object.observe()の未来",
         "author": "azu",
         "layout": "post",
-        "date": "2014-11-02T17:35:00.000Z",
+        "date": "2014-11-02T08:35:00.000Z",
         "category": "JSer",
         "tags": [
             "CSS",
@@ -12,7 +12,8 @@
             "JavaScript",
             "MVC",
             "React"
-        ]
+        ],
+        "url": "https://jser.info/2014/11/02/bootstrap3.3.0-csplv2-object.observe/"
     },
     "items": [
         {

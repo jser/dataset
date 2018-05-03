@@ -3,7 +3,7 @@
         "title": "2014-09-15のJS: JavaScriptエンジンの最適化、ビルドツールBroccoli",
         "author": "azu",
         "layout": "post",
-        "date": "2014-09-15T21:24:00.000Z",
+        "date": "2014-09-15T12:24:00.000Z",
         "category": "JSer",
         "tags": [
             "JavaScript",
@@ -12,7 +12,8 @@
             "Tools",
             "イベント",
             "Performance"
-        ]
+        ],
+        "url": "https://jser.info/2014/09/15/v8-react-broccoli/"
     },
     "items": [
         {

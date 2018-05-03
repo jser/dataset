@@ -3,14 +3,15 @@
         "title": "2015-09-09のJS: Node.js 4.0.0、TypeScript 1.6β、React 0.14の変更点",
         "author": "azu",
         "layout": "post",
-        "date": "2015-09-09T23:16:00.000Z",
+        "date": "2015-09-09T14:16:00.000Z",
         "category": "JSer",
         "tags": [
             "Node.js",
             "io.js",
             "TypeScript",
             "React"
-        ]
+        ],
+        "url": "https://jser.info/2015/09/09/node4.0.0-typescript1.6beta-react/"
     },
     "items": [
         {

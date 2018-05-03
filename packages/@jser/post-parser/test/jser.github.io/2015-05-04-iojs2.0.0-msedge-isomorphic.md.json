@@ -3,7 +3,7 @@
         "title": "2015-05-06のJS: io.js 2.0.0、Microsoft Edge、Isomorphic",
         "author": "azu",
         "layout": "post",
-        "date": "2015-05-06T22:09:00.000Z",
+        "date": "2015-05-06T13:09:00.000Z",
         "category": "JSer",
         "tags": [
             "Node.js",
@@ -11,7 +11,8 @@
             "ECMAScript",
             "MS",
             "IE"
-        ]
+        ],
+        "url": "https://jser.info/2015/05/06/iojs2.0.0-msedge-isomorphic/"
     },
     "items": [
         {

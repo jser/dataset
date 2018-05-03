@@ -3,7 +3,7 @@
         "title": "2014-12-08のJS: Firefox 34、QUnit 1.16、ES7 Async Generator",
         "author": "azu",
         "layout": "post",
-        "date": "2014-12-08T19:47:00.000Z",
+        "date": "2014-12-08T10:47:00.000Z",
         "category": "JSer",
         "tags": [
             "Firefox",
@@ -11,7 +11,8 @@
             "webpack",
             "ES7",
             "非同期"
-        ]
+        ],
+        "url": "https://jser.info/2014/12/08/firefox-qunit-es7-async/"
     },
     "items": [
         {

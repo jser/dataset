@@ -3,14 +3,15 @@
         "title": "2014-08-25のJS: Autoprefixer 3.0、JavaScriptのオブジェクト、Next Component",
         "author": "azu",
         "layout": "post",
-        "date": "2014-08-25T22:09:00.000Z",
+        "date": "2014-08-25T13:09:00.000Z",
         "category": "JSer",
         "tags": [
             "CSS",
             "JavaScript",
             "パッケージ管理",
             "Components"
-        ]
+        ],
+        "url": "https://jser.info/2014/08/25/autoprefixer-js-object/"
     },
     "items": [
         {

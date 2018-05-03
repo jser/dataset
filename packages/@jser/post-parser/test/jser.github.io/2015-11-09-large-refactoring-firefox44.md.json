@@ -3,13 +3,14 @@
         "title": "2015-11-09のJS: 巨大なJavaScriptのリファクタリング、Firefox 44の開発者ツール",
         "author": "azu",
         "layout": "post",
-        "date": "2015-11-09T22:03:00.000Z",
+        "date": "2015-11-09T13:03:00.000Z",
         "category": "JSer",
         "tags": [
             "JavaScript",
             "Firefox",
             "debug"
-        ]
+        ],
+        "url": "https://jser.info/2015/11/09/large-refactoring-firefox44/"
     },
     "items": [
         {

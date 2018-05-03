@@ -3,14 +3,15 @@
         "title": "2015-05-27のJS: Promiseのありがちな間違い、AngularJS 2に向けて、Plain JS",
         "author": "azu",
         "layout": "post",
-        "date": "2015-05-27T22:12:00.000Z",
+        "date": "2015-05-27T13:12:00.000Z",
         "category": "JSer",
         "tags": [
             "Promise",
             "AngularJS",
             "DOM",
             "jQuery"
-        ]
+        ],
+        "url": "https://jser.info/2015/05/27/promise-angular2/"
     },
     "items": [
         {

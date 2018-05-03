@@ -3,14 +3,15 @@
         "title": "2014-12-30のJS: jsdom 2.0.0、6to5 2.0.0、HTMLBars",
         "author": "azu",
         "layout": "post",
-        "date": "2014-12-30T22:54:00.000Z",
+        "date": "2014-12-30T13:54:00.000Z",
         "category": "JSer",
         "tags": [
             "JavaScript",
             "DOM",
             "ECMAScript",
             "テンプレート"
-        ]
+        ],
+        "url": "https://jser.info/2014/12/30/jsdom-6to5-htmlbars/"
     },
     "items": [
         {

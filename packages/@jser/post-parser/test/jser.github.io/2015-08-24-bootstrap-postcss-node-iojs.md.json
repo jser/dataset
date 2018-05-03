@@ -3,7 +3,7 @@
         "title": "2015-08-24のJS: Bootstrap 4α、PostCSS 5.0、Node.jsとio.js",
         "author": "azu",
         "layout": "post",
-        "date": "2015-08-24T22:00:00.000Z",
+        "date": "2015-08-24T13:00:00.000Z",
         "category": "JSer",
         "tags": [
             "CSS",
@@ -11,7 +11,8 @@
             "Node.js",
             "io.js",
             "community"
-        ]
+        ],
+        "url": "https://jser.info/2015/08/24/bootstrap-postcss-node-iojs/"
     },
     "items": [
         {

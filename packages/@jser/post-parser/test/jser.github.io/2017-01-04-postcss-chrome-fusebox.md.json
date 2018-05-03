@@ -3,14 +3,15 @@
         "title": "2017-01-04のJS: PostCSS概要、Chrome開発者ツール、FuseBox",
         "author": "azu",
         "layout": "post",
-        "date": "2017-01-04T17:28:00.000Z",
+        "date": "2017-01-04T08:28:00.000Z",
         "category": "JSer",
         "tags": [
             "bundler",
             "Tools",
             "Chrome",
             "PostCSS"
-        ]
+        ],
+        "url": "https://jser.info/2017/01/04/postcss-chrome-fusebox/"
     },
     "items": [
         {

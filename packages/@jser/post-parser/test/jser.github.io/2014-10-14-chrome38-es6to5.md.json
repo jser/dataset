@@ -3,13 +3,14 @@
         "title": "2014-10-14のJS: Chrome 38リリース、ES6をES5へお手軽に変換",
         "author": "azu",
         "layout": "post",
-        "date": "2014-10-14T19:40:00.000Z",
+        "date": "2014-10-14T10:40:00.000Z",
         "category": "JSer",
         "tags": [
             "Chrome",
             "ECMAScript",
             "Tools"
-        ]
+        ],
+        "url": "https://jser.info/2014/10/14/chrome38-es6to5/"
     },
     "items": [
         {

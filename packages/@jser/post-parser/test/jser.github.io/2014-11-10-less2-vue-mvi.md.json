@@ -3,14 +3,15 @@
         "title": "2014-11-10のJS: Less 2.0、Vue.js 0.11、Model-View-Intent",
         "author": "azu",
         "layout": "post",
-        "date": "2014-11-10T20:46:00.000Z",
+        "date": "2014-11-10T11:46:00.000Z",
         "category": "JSer",
         "tags": [
             "Less",
             "CSS",
             "Vue.js",
             "VirtualDOM"
-        ]
+        ],
+        "url": "https://jser.info/2014/11/10/less2-vue-mvi/"
     },
     "items": [
         {

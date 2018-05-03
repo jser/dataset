@@ -3,7 +3,7 @@
         "title": "JSerレポート #1 Bundlerの未来、テスティングフレームワークの現状",
         "author": "azu",
         "layout": "report",
-        "date": "2017-01-31T10:12:00.000Z",
+        "date": "2017-01-31T01:12:00.000Z",
         "category": "report",
         "tags": [
             "webpack",
@@ -11,7 +11,8 @@
             "testing",
             "report"
         ],
-        "toc": true
+        "toc": true,
+        "url": "https://jser.info/2017/01/31/bundler-testing-framework-report/"
     },
     "items": []
 }

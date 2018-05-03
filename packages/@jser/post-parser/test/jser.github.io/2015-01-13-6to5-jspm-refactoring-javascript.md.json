@@ -3,14 +3,15 @@
         "title": "2015-01-13のJS: 6to5、ES6とjspm、リファクタリングJavaScript",
         "author": "azu",
         "layout": "post",
-        "date": "2015-01-13T21:44:00.000Z",
+        "date": "2015-01-13T12:44:00.000Z",
         "category": "JSer",
         "tags": [
             "ES6",
             "リファクタリング",
             "JavaScript",
             "modules"
-        ]
+        ],
+        "url": "https://jser.info/2015/01/13/6to5-jspm-refactoring-javascript/"
     },
     "items": [
         {

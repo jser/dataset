@@ -3,14 +3,15 @@
         "title": "2015-11-16のJS: ECMAScript 2016(ES7)って何、WindowsでのNode.js入門",
         "author": "azu",
         "layout": "post",
-        "date": "2015-11-16T22:49:00.000Z",
+        "date": "2015-11-16T13:49:00.000Z",
         "category": "JSer",
         "tags": [
             "ECMAScript",
             "ES.next",
             "MS",
             "Node.js"
-        ]
+        ],
+        "url": "https://jser.info/2015/11/16/ecmascript-7-ms-node-js/"
     },
     "items": [
         {

@@ -3,7 +3,7 @@
         "title": "2015-02-09のJS: Node v0.12.0、Esprima 2.0、CSS Reference",
         "author": "azu",
         "layout": "post",
-        "date": "2015-02-09T19:38:00.000Z",
+        "date": "2015-02-09T10:38:00.000Z",
         "category": "JSer",
         "tags": [
             "Node.js",
@@ -11,7 +11,8 @@
             "JavaScript",
             "CSS",
             "リファレンス"
-        ]
+        ],
+        "url": "https://jser.info/2015/02/09/nodejs-0.12-esprima2.0-css-reference/"
     },
     "items": [
         {

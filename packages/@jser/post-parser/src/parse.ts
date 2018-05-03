@@ -3,7 +3,8 @@
 import { ContentParser } from "./content-parser";
 import { addLineBreakAfterHTML } from "./patch/add-line-break-after-html";
 import * as path from "path";
-import moment = require("moment");
+import moment = require("moment-timezone");
+import urlJoin = require('url-join');
 
 const unified = require("unified");
 const markdown = require("remark-parse");
@@ -64,12 +65,12 @@ export interface ParseMetaResult {
     tag: string[];
 }
 
-export interface ParseResult {
+export interface PostDetail {
     meta: ParseMetaResult;
-    items: ParseItemResult[];
+    items: PostDetailItem[];
 }
 
-export interface ParseItemResult {
+export interface PostDetailItem {
     category: string;
     title: string;
     url: string;
@@ -79,38 +80,46 @@ export interface ParseItemResult {
 }
 
 export interface ParseDetailsOptions {
+    // Example: baseURL is `https://jser.info/`
+    // https://jser.info/2018/05/02/node.js-10.0.0-npm-6.0.0-electron-2.0.0/
+    // It is used for meta.url
+    // Default: https://jser.info/
+    baseURL?: string;
+    // markdown filePath
+    // It is used for meta.date and meta.url
     filePath?: string;
-}
-
-/**
- * parse and return items.
- */
-export function parse(content: string): ParseItemResult[] {
-    return parseDetails(content).items;
 }
 
 function getMeta(AST: any, options?: ParseDetailsOptions): ParseMetaResult {
     const frontMatter = select.one(AST, "yaml");
     const meta = jsYaml.safeLoad(frontMatter.value, "utf8");
-    if (meta.date) {
-        meta.date = moment.utc(meta.date).toISOString();
-    } else if (options && options.filePath) {
+    if (options && options.filePath) {
         const fileName = path.basename(options.filePath);
-        const result = fileName.match(/(\d{4})-(\d{2})-(\d{2})/);
+        const result = fileName.match(/(\d{4})-(\d{2})-(\d{2})-(.*)\.md$/);
         if (!result) {
             throw new Error("No match date file name");
         }
         const year = result[1];
         const month = result[2];
         const day = result[3];
-        meta.date = moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").toISOString();
+        const slug = result[4];
+        // use default date
+        if (meta.date) {
+            meta.date = moment(meta.date).tz("Asia/Tokyo").toISOString();
+        } else {
+            meta.date = moment(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo").toISOString();
+        }
+        // set url
+        const baseURL = options.baseURL || "https://jser.info/";
+        const utcDate = meta.date ? moment(meta.date).tz("Asia/Tokyo") : moment(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo");
+        meta.url = urlJoin(baseURL, `${utcDate.format("YYYY/MM/DD")}/${slug}/`)
     }
     return meta;
 }
 
-function getItems(AST: any, content: string): ParseItemResult[] {
+function getItems(AST: any, content: string): PostDetailItem[] {
     const allCategory = select(AST, "html[value*=<h1]");
-    const results: ParseItemResult[] = [];
+    const results: PostDetailItem[] = [];
     allCategory.forEach((categoryNode: any, index: number) => {
         const nextCategoryNode = allCategory[index + 1];
         const currentCategory = getGroupKey(categoryNode);
@@ -138,7 +147,7 @@ function getItems(AST: any, content: string): ParseItemResult[] {
 /**
  * parse and return items and meta
  */
-export function parseDetails(content: string, options?: ParseDetailsOptions): ParseResult {
+export function parse(content: string, options?: ParseDetailsOptions): PostDetail {
     const AST = remark.parse(addLineBreakAfterHTML(content));
     const meta = getMeta(AST, options);
     const results = getItems(AST, content);

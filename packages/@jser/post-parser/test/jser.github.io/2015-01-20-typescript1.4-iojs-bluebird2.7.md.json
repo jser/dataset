@@ -3,7 +3,7 @@
         "title": "2015-01-20のJS: TypeScript 1.4、io.js 1.0、bluebird 2.7のglobal rejection events",
         "author": "azu",
         "layout": "post",
-        "date": "2015-01-20T22:24:00.000Z",
+        "date": "2015-01-20T13:24:00.000Z",
         "category": "JSer",
         "tags": [
             "TypeScript",
@@ -11,7 +11,8 @@
             "io.js",
             "Promise",
             "library"
-        ]
+        ],
+        "url": "https://jser.info/2015/01/20/typescript1.4-iojs-bluebird2.7/"
     },
     "items": [
         {

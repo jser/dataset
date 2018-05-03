@@ -12,13 +12,8 @@ describe("parse", () => {
         );
         it("should return array", () => {
             const results = parse(fixtureContent);
-            assert(Array.isArray(results));
-        });
-        it("should have {url, category}", () => {
-            const results = parse(fixtureContent);
-            const [result] = results;
-            assert.equal(typeof result.url, "string");
-            assert.equal(typeof result.category, "string");
+            assert(typeof results.meta === "object");
+            assert(Array.isArray(results.items));
         });
     });
 });

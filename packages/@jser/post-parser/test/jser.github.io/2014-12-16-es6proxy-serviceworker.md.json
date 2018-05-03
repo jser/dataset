@@ -3,13 +3,14 @@
         "title": "2014-12-16のJS: ES6 Proxy、Web Components、Service Worker",
         "author": "azu",
         "layout": "post",
-        "date": "2014-12-16T22:00:00.000Z",
+        "date": "2014-12-16T13:00:00.000Z",
         "category": "JSer",
         "tags": [
             "ES6",
             "WebComponents",
             "ServiceWorker"
-        ]
+        ],
+        "url": "https://jser.info/2014/12/16/es6proxy-serviceworker/"
     },
     "items": [
         {

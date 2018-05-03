@@ -3,13 +3,14 @@
         "title": "2015-10-08のJS: React 0.14、ESLintの使い方、ES6の末尾呼び出し最適化",
         "author": "azu",
         "layout": "post",
-        "date": "2015-10-08T22:51:00.000Z",
+        "date": "2015-10-08T13:51:00.000Z",
         "category": "JSer",
         "tags": [
             "React",
             "ESLint",
             "ES6"
-        ]
+        ],
+        "url": "https://jser.info/2015/10/08/react0.14-eslint-tail-call/"
     },
     "items": [
         {

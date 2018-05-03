@@ -3,14 +3,15 @@
         "title": "2014-09-23のJS: npm 2.0.0、iOS8 WKWebView、Node.jsとPromise",
         "author": "azu",
         "layout": "post",
-        "date": "2014-09-23T16:58:00.000Z",
+        "date": "2014-09-23T07:58:00.000Z",
         "category": "JSer",
         "tags": [
             "node.js",
             "npm",
             "iOS",
             "Promises"
-        ]
+        ],
+        "url": "https://jser.info/2014/09/23/npm2-ios8-promises/"
     },
     "items": [
         {

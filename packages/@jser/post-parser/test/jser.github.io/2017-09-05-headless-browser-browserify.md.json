@@ -11,7 +11,8 @@
             "Chrome",
             "headless",
             "browserify"
-        ]
+        ],
+        "url": "https://jser.info/2017/09/05/headless-browser-browserify/"
     },
     "items": [
         {

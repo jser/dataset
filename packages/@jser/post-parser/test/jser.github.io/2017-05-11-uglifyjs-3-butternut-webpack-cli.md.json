@@ -9,7 +9,8 @@
             "UglifyJS",
             "webpack-cli",
             "webpack"
-        ]
+        ],
+        "url": "https://jser.info/2017/05/10/uglifyjs-3-butternut-webpack-cli/"
     },
     "items": [
         {

@@ -3,7 +3,7 @@
         "title": "2015-06-16のJS: Vue.js 0.12、Exploring ES6、2015年のJavaScriptの流れ",
         "author": "azu",
         "layout": "post",
-        "date": "2015-06-16T22:00:00.000Z",
+        "date": "2015-06-16T13:00:00.000Z",
         "category": "JSer",
         "tags": [
             "ES6",
@@ -11,7 +11,8 @@
             "JSer",
             "Vue",
             "MVVM"
-        ]
+        ],
+        "url": "https://jser.info/2015/06/16/vue0.12-exploring-es6-2015/"
     },
     "items": [
         {

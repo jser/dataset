@@ -3,14 +3,15 @@
         "title": "2014-09-30のJS: Gruntの現在と未来、React.js、The Mobile Web Handbook",
         "author": "azu",
         "layout": "post",
-        "date": "2014-09-30T22:36:00.000Z",
+        "date": "2014-09-30T13:36:00.000Z",
         "category": "JSer",
         "tags": [
             "JavaScript",
             "Grunt",
             "React",
             "Flux"
-        ]
+        ],
+        "url": "https://jser.info/2014/09/30/grunt-react-mobile/"
     },
     "items": [
         {

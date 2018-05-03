@@ -3,14 +3,15 @@
         "title": "2015-09-16のJS: React 0.14 RC、ESLint 1.4.0、改めてECMAScript 5",
         "author": "azu",
         "layout": "post",
-        "date": "2015-09-16T19:00:00.000Z",
+        "date": "2015-09-16T10:00:00.000Z",
         "category": "JSer",
         "tags": [
             "React",
             "ESLint",
             "Lint",
             "ES5"
-        ]
+        ],
+        "url": "https://jser.info/2015/09/16/react-0.14-eslint-1.4-es5/"
     },
     "items": [
         {

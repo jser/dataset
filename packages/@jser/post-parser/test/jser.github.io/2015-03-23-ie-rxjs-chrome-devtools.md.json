@@ -3,14 +3,15 @@
         "title": "2015-03-23のJS: IEのアップデート、RxJS入門、Chrome DevToolsの新機能と計測の仕方",
         "author": "azu",
         "layout": "post",
-        "date": "2015-03-23T22:49:00.000Z",
+        "date": "2015-03-23T13:49:00.000Z",
         "category": "JSer",
         "tags": [
             "IE",
             "Chrome",
             "debug",
             "performance"
-        ]
+        ],
+        "url": "https://jser.info/2015/03/23/ie-rxjs-chrome-devtools/"
     },
     "items": [
         {

@@ -3,7 +3,7 @@
 const fs = require("fs");
 const assert = require("assert");
 const path = require("path");
-const { parseDetails } = require("../src/index");
+const { parse } = require("../src/index");
 
 const fixturesDir = path.join(__dirname, "jser.github.io");
 describe("Snapshot testing", () => {
@@ -15,7 +15,7 @@ describe("Snapshot testing", () => {
         .forEach(caseName => {
             it(`Test ${caseName}`, function() {
                 const postMarkdownFile = path.join(fixturesDir, caseName);
-                const actual = parseDetails(fs.readFileSync(postMarkdownFile, "utf-8"), {
+                const actual = parse(fs.readFileSync(postMarkdownFile, "utf-8"), {
                     filePath: postMarkdownFile
                 });
                 const expectedFilePath = `${postMarkdownFile}.json`;

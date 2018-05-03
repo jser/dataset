@@ -3,7 +3,7 @@
         "title": "2015-09-25のJS: Firefox 41.0、npm 3.x stableリリース、XRegExp 3.0.0",
         "author": "azu",
         "layout": "post",
-        "date": "2015-09-25T15:18:00.000Z",
+        "date": "2015-09-25T06:18:00.000Z",
         "category": "JSer",
         "tags": [
             "Firefox",
@@ -11,7 +11,8 @@
             "node",
             "regexp",
             "library"
-        ]
+        ],
+        "url": "https://jser.info/2015/09/25/firefox41-npm3-xregexp3/"
     },
     "items": [
         {
