@@ -19,6 +19,9 @@
     "postcommit": "git reset",
     "clean": "rimraf lib/"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jser/stat-js.git"
