@@ -10,7 +10,7 @@
     "lib/",
     "src/"
   ],
-  "name": "jser-classifier-item-category",
+  "name": "@jser/classifier-item-category",
   "version": "1.6.1",
   "description": "Classifier category from JSer item",
   "main": "lib/index.js",
@@ -29,12 +29,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jser/classifier-item-category.git"
+    "url": "https://github.com/jser/dataset.git"
   },
   "bugs": {
-    "url": "https://github.com/jser/classifier-item-category/issues"
+    "url": "https://github.com/jser/dataset/issues"
   },
-  "homepage": "https://github.com/jser/classifier-item-category",
+  "homepage": "https://github.com/jser/dataset",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
