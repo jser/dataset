@@ -1,6 +1,6 @@
 {
   "name": "@jser/stat",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "JSer.info stat library",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/jser/stat-js",
   "devDependencies": {
-    "@jser/data-fetcher": "^1.0.1",
+    "@jser/data-fetcher": "^1.1.0",
     "@types/mocha": "^5.2.0",
     "@types/node": "^8.0.46",
     "cross-env": "^5.1.0",

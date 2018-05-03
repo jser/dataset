@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/jser/dataset/compare/v1.0.3...v1.1.0) (2018-05-03)
+
+
+### Bug Fixes
+
+* **classifier-item-category:** remove unused data ([cb97d33](https://github.com/jser/dataset/commit/cb97d33))
+* **data-fetcher:** fix postDetails url ([83b1402](https://github.com/jser/dataset/commit/83b1402))
+
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/jser/dataset/compare/v1.0.0...v1.0.1) (2018-05-03)
 
