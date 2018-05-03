@@ -31,6 +31,8 @@ await fetchPostDetails();
 ## 分析
 
 - [@jser/classifier-item-category][]: 文字列からJSer.infoではどのカテゴリに分類されるかを推論します
+- [@jser/stat][]: JSer.infoのデータを使った統計の前処理ライブラリ
+    - 指定した日付のItemの取得、Postの取得、関連する記事の検索などが行えます。
 
 ## Changelog
 
@@ -67,3 +69,4 @@ MIT © azu
 [@jser/post-parser]: packages/@jser/post-parser
 [@jser/data-fetcher]: packages/@jser/data-fetcher
 [@jser/classifier-item-category]: packages/@jser/classifier-item-category
+[@jser/stat]: packages/@jser/stat

@@ -6,7 +6,7 @@ import { JSerItem } from "./models/JSerItem";
 import { JSerPost } from "./models/JSerPost";
 import { JSerWeek } from "./models/JSerWeek";
 import { AlgoItem } from "./algo/AlgoItem";
-import AlgoPost from "./algo/AlgoPost";
+// import AlgoPost from "./algo/AlgoPost";
 import NaturalSearcher from "./natural/NaturalSearcher";
 
 const sortBy = require("lodash.sortby");
@@ -28,7 +28,7 @@ export class JSerStat {
     posts: JSerPost[];
     private _weeks: JSerWeek[];
     private _algoItem: AlgoItem;
-    private _algoPost: AlgoPost;
+    // private _algoPost: AlgoPost;
     private naturalSearch: any;
 
     constructor(rawItems: any[], rawPosts: any[]) {
@@ -65,7 +65,7 @@ export class JSerStat {
          * @type {AlgoPost}
          * @private
          */
-        this._algoPost = new AlgoPost(this.posts);
+        // this._algoPost = new AlgoPost(this.posts);
         /**
          * @type {NaturalSearcher}
          */

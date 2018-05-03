@@ -1,5 +1,5 @@
 {
-  "name": "jser-stat",
+  "name": "@jser/stat",
   "version": "4.0.2",
   "description": "JSer.info stat library",
   "main": "lib/index.js",
@@ -51,7 +51,8 @@
     "power-assert": "^1.4.2",
     "prettier": "^1.7.4",
     "ts-node": "^3.3.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.5.3",
+    "@jser/data-fetcher": "^1.0.1"
   },
   "dependencies": {
     "array.prototype.find": "^2.0.1",

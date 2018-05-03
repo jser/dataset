@@ -1,15 +1,19 @@
 // LICENSE : MIT
 "use strict";
-const assert = require("power-assert");
-const { JSerStat, DefaultData } = require("../src/");
+const assert = require("assert");
+const { JSerStat } = require("../src/index");
 const { JSerItem: Item } = require("../src/models/JSerItem");
 const { JSerWeek: Week } = require("../src/models/JSerWeek");
+const { fetchItems, fetchPosts } = require("@jser/data-fetcher");
+
 describe("jser-stat", function() {
-    describe("when initialized", function() {
-        var stat;
-        before(function() {
-            stat = new JSerStat(DefaultData.items, DefaultData.posts);
+    let stat;
+    before(function() {
+        return Promise.all([fetchItems(), fetchPosts()]).then(([items, posts]) => {
+            stat = new JSerStat(items, posts);
         });
+    });
+    describe("when initialized", function() {
         it("has .items", function() {
             assert(stat.items instanceof Array);
         });
@@ -18,10 +22,6 @@ describe("jser-stat", function() {
         });
     });
     describe("#getJSerWeeks", function() {
-        var stat;
-        before(function() {
-            stat = new JSerStat(DefaultData.items, DefaultData.posts);
-        });
         it("should return JSerWeek[]", function() {
             var weeks = stat.getJSerWeeks();
             assert(weeks instanceof Array);
@@ -39,10 +39,6 @@ describe("jser-stat", function() {
         });
     });
     describe("#findJSerWeeksBetween", function() {
-        var stat;
-        before(function() {
-            stat = new JSerStat(DefaultData.items, DefaultData.posts);
-        });
         it("should return JSerWeek[]", function() {
             var weeks = stat.findJSerWeeksBetween(
                 new Date("2013-01-31T15:00:00.000Z"),
@@ -67,10 +63,6 @@ describe("jser-stat", function() {
     });
 
     describe("#findJSerWeek", function() {
-        var stat;
-        before(function() {
-            stat = new JSerStat(DefaultData.items, DefaultData.posts);
-        });
         it("should return JSerWeek[]", function() {
             var week = stat.findJSerWeek(1);
             assert(week instanceof Week);

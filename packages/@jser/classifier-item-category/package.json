@@ -18,9 +18,6 @@
     "src/"
   ],
   "main": "lib/index.js",
-  "bin": {
-    "update-jser-item-category": "./bin/update-jser-item-category.js"
-  },
   "directories": {
     "test": "test"
   },
@@ -30,7 +27,6 @@
   },
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
-    "postinstall": "node bin/update-jser-item-category.js",
     "prepublish": "npm run --if-present build",
     "test": "update-jser-stat && mocha test/",
     "watch": "babel src --out-dir lib --watch --source-maps"

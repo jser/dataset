@@ -1,8 +1,8 @@
 // LICENSE : MIT
 "use strict";
 export default class JSerItemRelatedLink {
-    private title: string;
-    private url: string;
+    title: string;
+    url: string;
 
     constructor(link: any) {
         /** @type {string} */
