@@ -1,0 +1,34 @@
+{
+  "name": "dataset",
+  "version": "1.0.0",
+  "description": "A dataset monorepo for jser.info",
+  "keywords": [
+    "jser"
+  ],
+  "homepage": "https://github.com/jser/dataset",
+  "bugs": {
+    "url": "https://github.com/jser/dataset/issues"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/dataset.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jser/dataset.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
