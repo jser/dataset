@@ -1,9 +1,8 @@
 # DataSet [![Build Status](https://travis-ci.org/jser/dataset.svg?branch=master)](https://travis-ci.org/jser/dataset)
 
-
 A DataSet monorepo for jser.info
 
-## Data list
+## データの種類
 
 - Item: 紹介したサイト(URLや関連URLを含め)のこと
     - 1 Item = 1 サイト
@@ -17,9 +16,21 @@ A DataSet monorepo for jser.info
 
 ## Fetcher
 
-- [ ] @jser/data-fetcher
+[@jser/data-fetcher][] を使うことでデータを取得できます。
 
-## Parser
+```ts
+import { fetchItems, fetchPostDetails, fetchPosts } from "@jser/data-fetcher";
+// Item
+await fetchItems();
+// Post
+await fetchPosts();
+// Post Details include Post Item
+await fetchPostDetails();
+```
+
+## 分析
+
+- [@jser/classifier-item-category][]: 文字列からJSer.infoではどのカテゴリに分類されるかを推論します
 
 ## Changelog
 
@@ -51,3 +62,8 @@ For bugs and feature requests, [please create an issue](https://github.com/jser/
 ## License
 
 MIT © azu
+
+
+[@jser/post-parser]: packages/@jser/post-parser
+[@jser/data-fetcher]: packages/@jser/data-fetcher
+[@jser/classifier-item-category]: packages/@jser/classifier-item-category
