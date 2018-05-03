@@ -105,13 +105,13 @@ function getMeta(AST: any, options?: ParseDetailsOptions): ParseMetaResult {
         const slug = result[4];
         // use default date
         if (meta.date) {
-            meta.date = moment(meta.date).tz("Asia/Tokyo").utc().toISOString();
+            meta.date = moment.tz(meta.date, "Asia/Tokyo").utc().toISOString();
         } else {
-            meta.date = moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").toISOString();
+            meta.date = moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo").toISOString();
         }
         // set url
         const baseURL = options.baseURL || "https://jser.info/";
-        const utcDate = meta.date ? moment(meta.date).tz("Asia/Tokyo") : moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo");
+        const utcDate = meta.date ? moment.tz(meta.date, "Asia/Tokyo") : moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo");
         meta.url = urlJoin(baseURL, `${utcDate.format("YYYY/MM/DD")}/${slug}/`)
     }
     return meta;
