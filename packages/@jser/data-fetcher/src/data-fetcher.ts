@@ -61,7 +61,6 @@ export interface PostItemRelatedLinksItem {
     url: string;
 }
 
-
 export const fetchPostDetails = (): Promise<PostItem[]> => {
     return fetch("https://jser.info/public/build/item-category.json")
         .then((res: Response) => {
