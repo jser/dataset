@@ -1,4 +1,5 @@
-# DataSet
+# DataSet [![Build Status](https://travis-ci.org/jser/dataset.svg?branch=master)](https://travis-ci.org/jser/dataset)
+
 
 A DataSet monorepo for jser.info
 
