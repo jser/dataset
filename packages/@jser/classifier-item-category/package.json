@@ -29,13 +29,12 @@
     "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
     "prepublish": "npm run --if-present build",
     "test": "update-jser-stat && mocha test/",
-    "watch": "babel src --out-dir lib --watch --source-maps"
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "clean": "rimraf lib/"
   },
   "dependencies": {
     "jser-item-category-parser": "1.4.0",
-    "jser-stat": "^4.0.2",
-    "natural": "^0.5.4",
-    "request": "^2.81.0"
+    "natural": "^0.5.4"
   },
   "devDependencies": {
     "@jser/data-fetcher": "^1.0.1",
@@ -45,7 +44,8 @@
     "babel-preset-power-assert": "^2.0.0",
     "babel-register": "^6.24.1",
     "mocha": "^5.1.1",
-    "power-assert": "^1.4.4"
+    "power-assert": "^1.4.4",
+    "rimraf": "^2.6.2"
   },
   "publishConfig": {
     "access": "public"
