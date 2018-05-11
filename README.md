@@ -50,7 +50,7 @@ await fetchPostDetails();
 
 ### [@jser/classifier-item-category][]
 
-JSer.infoをデータを使った学習データを使い、渡した文字列がJSer.infoではどのカテゴリに分類されるかを推論します。
+JSer.infoの学習データを使い、渡した文字列がJSer.infoではどのカテゴリに分類されるかを推論します。
 JSer.infoで記事を投稿する際のカテゴリ分類に利用しています。
 
 ### [@jser/stat][]
