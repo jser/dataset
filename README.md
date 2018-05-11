@@ -48,9 +48,22 @@ await fetchPostDetails();
 
 ## 分析ライブラリ
 
-- [@jser/classifier-item-category][]: 文字列からJSer.infoではどのカテゴリに分類されるかを推論します
-- [@jser/stat][]: JSer.infoのデータを使った統計の前処理ライブラリ
-    - 指定した日付のItemの取得、Postの取得、関連する記事の検索などが行えます。
+### [@jser/classifier-item-category][]
+
+JSer.infoをデータを使った学習データを使い、渡した文字列がJSer.infoではどのカテゴリに分類されるかを推論します。
+JSer.infoで記事を投稿する際のカテゴリ分類に利用しています。
+
+### [@jser/stat][]
+
+JSer.infoのデータを使った統計の前処理ライブラリです。
+ItemとPostのデータを正規化し、指定した日付のItemの取得、Postの取得、関連する記事の検索などが行えます。
+
+JSer.infoでは次のような場所で利用しています。
+
+* 記事の関連記事探索
+* [jser/data-dashboard: JSer.info Data Dashboard.](https://github.com/jser/data-dashboard "jser/data-dashboard: JSer.info Data Dashboard.")
+* [jser/trends: JSer.info トレンドビューア](https://github.com/jser/trends "jser/trends: JSer.info トレンドビューア")
+
 
 ## Changelog
 
