@@ -1,6 +1,6 @@
 {
   "name": "@jser/classifier-item-category",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Classifier category from JSer item",
   "keywords": [
     "jser"
@@ -37,7 +37,7 @@
     "natural": "^0.5.4"
   },
   "devDependencies": {
-    "@jser/data-fetcher": "^1.1.0",
+    "@jser/data-fetcher": "^1.1.2",
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-jsdoc-to-assert": "^4.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@jser/data-fetcher",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Data Fetcher library for dataset.",
   "keywords": [
     "data",
