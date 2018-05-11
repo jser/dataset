@@ -16,7 +16,7 @@ export interface RelatedLinksItem {
 }
 
 export const fetchItems = (): Promise<JserItem[]> => {
-    return fetch("http://jser.info/source-data/items.json")
+    return fetch("https://jser.info/source-data/items.json")
         .then((res: Response) => {
             if (!res.ok) {
                 return Promise.reject(new Error(`items.json: ${res.statusText}`));
@@ -37,7 +37,7 @@ export interface JserPost {
 }
 
 export const fetchPosts = (): Promise<JserPost[]> => {
-    return fetch("http://jser.info/posts.json")
+    return fetch("https://jser.info/posts.json")
         .then((res: Response) => {
             if (!res.ok) {
                 return Promise.reject(new Error(`posts.json: ${res.statusText}`));
