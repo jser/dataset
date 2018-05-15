@@ -6,6 +6,8 @@ JSer.infoで収集しているデータや記事を書くために利用して�
 
 ## データの種類
 
+それぞれのデータは[Creative Commons — Attribution 4.0 International — CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)の元で利用できます。
+
 - Item: 紹介するサイトのこと
     - 1 Item = 1 サイト
     - すべてのデータのoriginとなるものです
@@ -94,8 +96,13 @@ For bugs and feature requests, [please create an issue](https://github.com/jser/
 
 ## License
 
+### Code
+
 MIT © azu
 
+### Dataset
+
+CC-BY [![CC-BY](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 [@jser/post-parser]: packages/@jser/post-parser
 [@jser/data-fetcher]: packages/@jser/data-fetcher
