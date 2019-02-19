@@ -1,6 +1,6 @@
 # @jser/stat [![Build Status](https://travis-ci.org/jser/stat-js.svg?branch=master)](https://travis-ci.org/jser/stat-js)
 
-JSer.info stat library
+The statistic library for JSer.info.
 
 JSer.infoのItemとPostを元にした統計処理やその前処理を行うライブラリです。
 
