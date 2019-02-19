@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jser/stat-js.git"
+    "url": "https://github.com/jser/dataset.git"
   },
   "keywords": [
     "jser"
@@ -32,21 +32,21 @@
   "author": "azu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jser/stat-js/issues"
+    "url": "https://github.com/jser/dataset/issues"
   },
-  "homepage": "https://github.com/jser/stat-js",
+  "homepage": "https://github.com/jser/dataset",
   "devDependencies": {
     "@jser/data-fetcher": "^1.1.2",
-    "@types/mocha": "^5.2.0",
-    "@types/node": "^8.0.46",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.9.4",
     "cross-env": "^5.1.0",
-    "lint-staged": "^7.0.5",
-    "mocha": "^5.1.1",
-    "power-assert": "^1.4.2",
-    "prettier": "^1.7.4",
-    "rimraf": "^2.6.2",
-    "ts-node": "^6.0.2",
-    "typescript": "^2.5.3"
+    "lint-staged": "^8.1.4",
+    "mocha": "^6.0.0",
+    "power-assert": "^1.6.1",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
   },
   "dependencies": {
     "array.prototype.find": "^2.0.1",
