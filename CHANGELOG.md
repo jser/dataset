@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/jser/dataset/compare/v1.1.2...v1.1.3) (2019-02-19)
+
+
+### Bug Fixes
+
+* **packages:** update devDependencies ([c450b0d](https://github.com/jser/dataset/commit/c450b0d))
+
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/jser/dataset/compare/v1.1.1...v1.1.2) (2018-05-11)
 
