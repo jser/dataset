@@ -18,17 +18,12 @@ export default function learnJSerInfo(classifier) {
     addTag("ReleaseNote", CategoryKey.Headline);
     // Articles
     addTag("tutorial", CategoryKey.Article);
-    addDocument("ついて", CategoryKey.Article);
     addDocument("解説", CategoryKey.Article);
     addDocument("説明", CategoryKey.Article);
     // SlideVideo
     addDocument("発表", CategoryKey.SlideVideo);
-    for (let i = 0; i < 10; i++) {
-        addDocument("スライド", CategoryKey.SlideVideo);
-        addDocument("動画", CategoryKey.SlideVideo);
-        addTag("slide", CategoryKey.SlideVideo);
-        addTag("video", CategoryKey.SlideVideo);
-    }
+    addDocument("スライド", CategoryKey.SlideVideo);
+    addDocument("動画", CategoryKey.SlideVideo);
     // サイト、ドキュメント
     addTag("webservice", CategoryKey.WebsiteDocument);
     addTag("document", CategoryKey.WebsiteDocument);
@@ -45,10 +40,6 @@ export default function learnJSerInfo(classifier) {
     addDocument("ツール", CategoryKey.SoftwareLibrary);
     addDocument("CLI", CategoryKey.SoftwareLibrary);
     // Book
-    for (let i = 0; i < 10; i++) {
-        addDocument("本", CategoryKey.Book);
-        addDocument("書籍", CategoryKey.Book);
-        addTag("book", CategoryKey.Book);
-        addTag("ebook", CategoryKey.Book);
-    }
+    addDocument("本", CategoryKey.Book);
+    addDocument("書籍", CategoryKey.Book);
 }

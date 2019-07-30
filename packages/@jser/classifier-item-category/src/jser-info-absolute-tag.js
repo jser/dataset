@@ -13,6 +13,13 @@ const matchTagWithCategory = (tag) => {
             return CategoryKey.Article;
         case "news":
             return CategoryKey.Headline;
+        case "slide":
+        case "video":
+            return CategoryKey.SlideVideo;
+        case "book":
+        case "ebook":
+            return CategoryKey.Book;
+
         default:
             return null;
     }
