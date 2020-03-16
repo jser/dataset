@@ -18,7 +18,7 @@ JSer.infoで収集しているデータや記事を書くために利用して�
     - それぞれの記事のタイトル、URL、タグ、日付などが含まれます
     - [@jser/stat][]を使うことでItemとPostを元に指定したサイトが紹介された記事を検索できます
     - API: <http://jser.info/posts.json>
-- Post Item: Jser.infoに投稿された記事中のItem(サイト)のこと
+- Post Item: JSer.infoに投稿された記事中のItem(サイト)のこと
     - 1 Post Item = 1 サイト
     - 基本的にはItemと同じだが、Post ItemはPost(記事)におけるカテゴリ（ヘッドラインなど）が含まれます
     - カテゴリの種類は [@jser/post-parser][] を参照してください
