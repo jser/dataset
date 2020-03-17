@@ -41,10 +41,13 @@ JSer.infoで収集しているデータや記事を書くために利用して�
 ```ts
 import { fetchItems, fetchPostDetails, fetchPosts } from "@jser/data-fetcher";
 // Item
+// https://github.com/jser/source-data
 await fetchItems();
 // Post
+// https://github.com/jser/jser.github.io/blob/develop/posts.json
 await fetchPosts();
 // Post Details include Post Item
+// https://github.com/jser/jser.github.io/blob/develop/_tools/generate-post-details-json.js
 await fetchPostDetails();
 ```
 
