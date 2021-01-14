@@ -1,6 +1,6 @@
 {
   "name": "@jser/classifier-item-category",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Classifier category from JSer item",
   "keywords": [
     "jser"
@@ -33,7 +33,7 @@
     "clean": "rimraf lib/"
   },
   "dependencies": {
-    "@jser/post-parser": "^1.1.0",
+    "@jser/post-parser": "^1.1.6",
     "natural": "^2.4.4"
   },
   "devDependencies": {
@@ -41,7 +41,7 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/register": "^7.0.0",
-    "@jser/data-fetcher": "^1.1.3",
+    "@jser/data-fetcher": "^1.1.6",
     "babel-preset-jsdoc-to-assert": "^5.0.0",
     "mocha": "^8.2.1",
     "rimraf": "^3.0.2"

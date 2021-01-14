@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/jser/dataset/compare/v1.1.5...v1.1.6) (2021-01-14)
+
+**Note:** Version bump only for package @jser/classifier-item-category
+
+
+
+
+
 <a name="1.1.5"></a>
 ## [1.1.5](https://github.com/jser/dataset/compare/v1.1.4...v1.1.5) (2019-07-30)
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/jser/dataset/compare/v1.1.5...v1.1.6) (2021-01-14)
+
+**Note:** Version bump only for package @jser/data-fetcher
+
+
+
+
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/jser/dataset/compare/v1.1.2...v1.1.3) (2019-02-19)
 
