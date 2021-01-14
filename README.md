@@ -1,4 +1,4 @@
-# DataSet [![Build Status](https://travis-ci.org/jser/dataset.svg?branch=master)](https://travis-ci.org/jser/dataset)
+# DataSet [![Actions Status: test](https://github.com/jser/dataset/workflows/test/badge.svg)](https://github.com/jser/dataset/actions?query=workflow%3A"test")
 
 JSer.infoのデータセットをまとめたmonorepoです。
 

@@ -1,6 +1,7 @@
 // MIT © 2017 azu
 "use strict";
-const CategoryKey = require("jser-item-category-parser").CategoryKey;
+import { CategoryKey } from "@jser/post-parser";
+
 const addDocumentToClassifier = (classifier, text, category) => {
     classifier.addDocument([text], category);
 };

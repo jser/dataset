@@ -1,0 +1,6 @@
+{
+  "timeout": 10000,
+  "require": [
+    "ts-node-test-register"
+  ]
+}

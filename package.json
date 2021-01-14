@@ -25,11 +25,15 @@
     "bootstrap": "lerna bootstrap && yarn run build",
     "build": "lerna run build",
     "test": "lerna run test",
-    "release": "lerna publish --conventional-commits",
-    "clean": "lerna run clean"
+    "clean": "lerna run clean",
+    "versionup": "lerna version --conventional-commits",
+    "versionup:patch": "lerna version patch --conventional-commits",
+    "versionup:minor": "lerna version minor --conventional-commits",
+    "versionup:major": "lerna version major --conventional-commits",
+    "release": "lerna publish from-package"
   },
   "devDependencies": {
-    "lerna": "^2.11.0"
+    "lerna": "^3.22.1"
   },
   "workspaces": [
     "packages/*",

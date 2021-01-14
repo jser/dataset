@@ -33,19 +33,18 @@
     "clean": "rimraf lib/"
   },
   "dependencies": {
-    "jser-item-category-parser": "1.4.0",
-    "natural": "^0.5.4"
+    "@jser/post-parser": "^1.1.0",
+    "natural": "^2.4.4"
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "@jser/data-fetcher": "^1.1.3",
-    "babel-cli": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-jsdoc-to-assert": "^4.0.0",
-    "babel-preset-power-assert": "^2.0.0",
-    "babel-register": "^6.24.1",
-    "mocha": "^6.0.0",
-    "power-assert": "^1.6.1",
-    "rimraf": "^2.6.3"
+    "babel-preset-jsdoc-to-assert": "^5.0.0",
+    "mocha": "^8.2.1",
+    "rimraf": "^3.0.2"
   },
   "publishConfig": {
     "access": "public"

@@ -1,0 +1,6 @@
+{
+  "timeout": 30000,
+  "require": [
+    "@babel/register"
+  ]
+}
