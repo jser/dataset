@@ -1,7 +1,5 @@
 // LICENSE : MIT
 "use strict";
-require("array.prototype.find");
-
 import { JSerItem } from "./models/JSerItem";
 import { JSerPost } from "./models/JSerPost";
 import { JSerWeek } from "./models/JSerWeek";
