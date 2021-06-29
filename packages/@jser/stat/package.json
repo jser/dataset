@@ -51,7 +51,7 @@
   "dependencies": {
     "binarysearch": "^1.0.0",
     "lodash.sortby": "^4.7.0",
-    "natural": "^2.4.4",
+    "natural": "^5.0.2",
     "request": "^2.57.0"
   },
   "prettier": {

@@ -1,7 +1,9 @@
 // LICENSE : MIT
 "use strict";
 import { JSerItem } from "../models/JSerItem";
-const TfIdf = require("natural/lib/natural/tfidf/tfidf");
+// @ts-ignore
+import { TfIdf } from "natural";
+
 // merge sort
 let mergeSort = (arr: any[]): any => {
     if (arr.length < 2) {

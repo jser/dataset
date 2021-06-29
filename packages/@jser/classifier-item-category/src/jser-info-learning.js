@@ -15,8 +15,6 @@ const addDocumentAsTagToClassifier = (classifier, tag, category) => {
 export default function learnJSerInfo(classifier) {
     const addDocument = addDocumentToClassifier.bind(this, classifier);
     const addTag = addDocumentAsTagToClassifier.bind(this, classifier);
-    // ReleaseNote
-    addTag("ReleaseNote", CategoryKey.Headline);
     // Articles
     addTag("tutorial", CategoryKey.Article);
     addDocument("解説", CategoryKey.Article);

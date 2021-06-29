@@ -13,15 +13,17 @@ const matchTagWithCategory = (tag) => {
         case "article":
             return CategoryKey.Article;
         case "news":
-        case "ReleaseNote":
+        case "ReleaseNote": {
+            // Headlineはtagのみで決定される
+            // ベイズの学習対象から外れている
             return CategoryKey.Headline;
+        }
         case "slide":
         case "video":
             return CategoryKey.SlideVideo;
         case "book":
         case "ebook":
             return CategoryKey.Book;
-
         default:
             return null;
     }
@@ -33,7 +35,7 @@ const matchTagWithCategory = (tag) => {
  * @return {string|null}
  */
 export default function (jserItem) {
-    if(!jserItem.tags){
+    if (!Array.isArray(jserItem.tags)) {
         return;
     }
     for (let tag of jserItem.tags) {

@@ -5189,10 +5189,10 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-natural@^2.4.4:
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/natural/-/natural-2.4.5.tgz#6507e445b204071e54daebe02a5914eb966f5ea5"
-  integrity sha512-fxQou4ubo6Rzf7XL0jjwtC2vHm6Sdicu7ztcE0k1ODZs+d1UzcKF1Hu2IwE2y7OgzU3Sa9o8obw7rnyNrjsd1A==
+natural@^5.0.2, natural@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/natural/-/natural-5.0.3.tgz#81b8d943ed3e04d349fc46e9bed47f84fdd66783"
+  integrity sha512-yXSxM5AKP+zutcqoeeEq67UjAUfJqXsNZddV21iSrWUFrBIhTIfF7L7fuZ1vKoqatHRaU8OPhLrXVmLBn/HwhQ==
   dependencies:
     afinn-165 "^1.0.2"
     apparatus "^0.0.10"
