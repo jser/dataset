@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/jser/dataset/compare/v1.2.0...v1.2.1) (2021-06-29)
+
+
+### Bug Fixes
+
+* ReleaseNoteは明示的にタグを付けたもののみを扱う ([a63479d](https://github.com/jser/dataset/commit/a63479d9620969e271687ad112c380f0345c4661))
+
+
+
+
+
 # [1.2.0](https://github.com/jser/dataset/compare/v1.1.6...v1.2.0) (2021-02-15)
 
 
