@@ -17,7 +17,7 @@ export class AlgoItem {
         /**
          * @type number[] 昇順となった各Itemのtime配列
          */
-        this.itemTimes = items.map(function(item) {
+        this.itemTimes = items.map(function (item) {
             return item.date.getTime();
         });
     }

@@ -51,7 +51,7 @@ const enum MARK {
     // skip process
     SKIP_PROCESS = "SKIP_PROCESS",
     // skip but continue
-    CONTINUE = "CONTINUE"
+    CONTINUE = "CONTINUE",
 }
 
 export class ContentParser {
@@ -179,7 +179,7 @@ export class ContentParser {
                     const title = link.children[0].value;
                     this.currentContent.relatedLinks.push({
                         title,
-                        url: link.url
+                        url: link.url,
                     });
                 });
                 return MARK.CONTINUE;
@@ -199,7 +199,7 @@ export class ContentParser {
                     const title = link.children[0].value;
                     this.currentContent.relatedLinks.push({
                         title,
-                        url: link.url
+                        url: link.url,
                     });
                 });
                 return MARK.CONTINUE;
@@ -210,7 +210,7 @@ export class ContentParser {
                 }
                 // 最後尾にいろんなパターンがあるのは無視する
                 return MARK.CONTINUE;
-            }
+            },
         ];
     }
 }

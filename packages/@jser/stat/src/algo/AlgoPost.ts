@@ -17,7 +17,7 @@ export default class AlgoPost {
         /**
          * @type number[] 昇順となった各Postのtime配列
          */
-        this.postTimeIndex = posts.map(function(post) {
+        this.postTimeIndex = posts.map(function (post) {
             return post.date.getTime();
         });
     }

@@ -7,16 +7,15 @@ const { parse } = require("../src/index");
 
 const fixturesDir = path.join(__dirname, "jser.github.io");
 describe("Snapshot testing", () => {
-    fs
-        .readdirSync(fixturesDir)
-        .filter(filePath => {
+    fs.readdirSync(fixturesDir)
+        .filter((filePath) => {
             return path.extname(filePath) === ".md";
         })
-        .forEach(caseName => {
-            it(`Test ${caseName}`, function() {
+        .forEach((caseName) => {
+            it(`Test ${caseName}`, function () {
                 const postMarkdownFile = path.join(fixturesDir, caseName);
                 const actual = parse(fs.readFileSync(postMarkdownFile, "utf-8"), {
-                    filePath: postMarkdownFile
+                    filePath: postMarkdownFile,
                 });
                 const expectedFilePath = `${postMarkdownFile}.json`;
                 // UPDATE_SNAPSHOT=1 npm test で呼び出したときはスナップショットを更新

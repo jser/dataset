@@ -6,7 +6,7 @@ const Category = {
     SlideVideo: "スライド、動画関係",
     WebsiteDocument: "サイト、サービス、ドキュメント",
     SoftwareLibrary: "ソフトウェア、ツール、ライブラリ関係",
-    Book: "書籍関係"
+    Book: "書籍関係",
 };
 const CategoryKey = {
     Headline: "Headline",
@@ -14,7 +14,7 @@ const CategoryKey = {
     SlideVideo: "SlideVideo",
     WebsiteDocument: "WebsiteDocument",
     SoftwareLibrary: "SoftwareLibrary",
-    Book: "Book"
+    Book: "Book",
 };
 const CompatibleCategory = {
     Headline: "ヘッドライン",
@@ -22,6 +22,6 @@ const CompatibleCategory = {
     SlideVideo: "スライド、動画関係",
     WebsiteDocument: "サイト、サービス",
     SoftwareLibrary: "ソフトウェア、ツール、ライブラリ関係",
-    Book: "書籍関係"
+    Book: "書籍関係",
 };
 export { Category, CategoryKey, CompatibleCategory };

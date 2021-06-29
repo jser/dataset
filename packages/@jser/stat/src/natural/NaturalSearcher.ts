@@ -33,7 +33,7 @@ let merge = (left: any, right: any) => {
 
     return result;
 };
-var ignoreWord = function(word: string) {
+var ignoreWord = function (word: string) {
     if (word.length <= 1) {
         return false;
     }
@@ -67,10 +67,10 @@ export default class NaturalSearcher {
     }
 
     addItemsAsDocuments(items: JSerItem[]) {
-        items.forEach(item => {
+        items.forEach((item) => {
             var urlKeyString = urlToWords(item.url).join(" ");
             var relatedString = item.relatedLinks
-                .map(function(relatedObject) {
+                .map(function (relatedObject) {
                     return relatedObject.title + " " + urlToWords(relatedObject.url).join(" ");
                 })
                 .join("");
@@ -91,7 +91,7 @@ export default class NaturalSearcher {
     findRelatedItems(targetItem: JSerItem, limit: number) {
         var targetIndex = this.items.indexOf(targetItem);
         if (targetIndex === -1) {
-            this.items.some(function(item, index) {
+            this.items.some(function (item, index) {
                 if (item.isEqualItem(item)) {
                     targetIndex = index;
                     return true;
@@ -105,13 +105,13 @@ export default class NaturalSearcher {
         var terms = this.tfidf.listTerms(targetIndex);
         var results: any[] = [];
         this.tfidf.tfidfs(
-            terms.map(function(term: any) {
+            terms.map(function (term: any) {
                 return term.term;
             }),
-            function(i: number, measure: any) {
+            function (i: number, measure: any) {
                 results.push({
                     index: i,
-                    measure: measure
+                    measure: measure,
                 });
             }
         );

@@ -4,7 +4,6 @@ import { JSerStat } from "@jser/stat";
 import { JSerClassifier } from "../src/index";
 import { fetchItems, fetchPostDetails, fetchPosts } from "@jser/data-fetcher";
 
-
 describe("classifier", () => {
     let classifier;
     let stat;
@@ -33,10 +32,12 @@ describe("classifier", () => {
     it("test case URLのみ", () => {
         const item = stat.findItemWithURL("https://developers.google.com/web/updates/2017/01/scrolling-intervention");
         const category = classifier.classifyItem(item);
-        assert.strictEqual(category, CategoryKey.Article)
+        assert.strictEqual(category, CategoryKey.Article);
     });
     it("test case ウェブサービスに分類されていた - absoluteTagによりArticleになる", () => {
-        const item = stat.findItemWithURL("https://hackernoon.com/how-to-set-up-e2e-browser-testing-for-your-github-project-89c24e15a84");
+        const item = stat.findItemWithURL(
+            "https://hackernoon.com/how-to-set-up-e2e-browser-testing-for-your-github-project-89c24e15a84"
+        );
         const category = classifier.classifyItem(item);
         assert.strictEqual(category, CategoryKey.Article, JSON.stringify(classifier.getClassifications(item), null, 4));
     });

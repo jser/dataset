@@ -1,4 +1,4 @@
-const fetch = require('cross-fetch');
+const fetch = require("cross-fetch");
 
 export interface JserItem {
     title: string;
@@ -23,9 +23,8 @@ export const fetchItems = (): Promise<JserItem[]> => {
             }
             return res;
         })
-        .then((res: Response) => res.json())
+        .then((res: Response) => res.json());
 };
-
 
 export interface JserPost {
     title: string;
@@ -44,7 +43,7 @@ export const fetchPosts = (): Promise<JserPost[]> => {
             }
             return res;
         })
-        .then((res: Response) => res.json())
+        .then((res: Response) => res.json());
 };
 
 export interface PostItem {
@@ -100,5 +99,5 @@ export const fetchPostDetails = (): Promise<PostDetail[]> => {
             }
             return res;
         })
-        .then((res: Response) => res.json())
+        .then((res: Response) => res.json());
 };

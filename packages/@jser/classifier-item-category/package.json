@@ -43,7 +43,7 @@
     "@babel/register": "^7.0.0",
     "@jser/data-fetcher": "^1.1.6",
     "babel-preset-jsdoc-to-assert": "^5.0.0",
-    "mocha": "^8.2.1",
+    "mocha": "^9.0.1",
     "rimraf": "^3.0.2"
   },
   "publishConfig": {

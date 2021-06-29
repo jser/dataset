@@ -7,7 +7,6 @@ const addDocumentToClassifier = (classifier, text, category) => {
 };
 const addDocumentAsTagToClassifier = (classifier, tag, category) => {
     classifier.addDocument([`__${tag}__`], category);
-
 };
 /**
  * @param classifier

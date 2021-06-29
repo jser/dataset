@@ -27,7 +27,7 @@ export class JSerItem {
         this.date = new Date(item["date"]);
         var relatedLinks = item["relatedLinks"] || [];
         /** @type {JSerItemRelatedLink[]} */
-        this.relatedLinks = relatedLinks.map(function(link: any) {
+        this.relatedLinks = relatedLinks.map(function (link: any) {
             return new RelatedLink(link);
         });
     }

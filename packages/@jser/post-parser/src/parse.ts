@@ -4,15 +4,13 @@ import { ContentParser } from "./content-parser";
 import { addLineBreakAfterHTML } from "./patch/add-line-break-after-html";
 import * as path from "path";
 import moment = require("moment-timezone");
-import urlJoin = require('url-join');
+import urlJoin = require("url-join");
 
 const unified = require("unified");
 const markdown = require("remark-parse");
 const frontmatter = require("remark-frontmatter");
 const jsYaml = require("js-yaml");
-const remark = unified()
-    .use(markdown)
-    .use(frontmatter);
+const remark = unified().use(markdown).use(frontmatter);
 const findAllAfter = require("unist-util-find-all-after");
 const difference = require("lodash.difference");
 const select = require("unist-util-select");
@@ -40,13 +38,13 @@ const betweenNodes = (parent: any, start: any, end: any) => {
 
 const getGroupKey = (htmlNode: any) => {
     const value = htmlNode.value;
-    const [matchKey] = Object.keys(Category).filter(key => {
+    const [matchKey] = Object.keys(Category).filter((key) => {
         return value.indexOf(Category[key]) !== -1;
     });
     if (matchKey !== undefined) {
         return matchKey;
     }
-    const [compatibleMatchKey] = Object.keys(Category).filter(key => {
+    const [compatibleMatchKey] = Object.keys(Category).filter((key) => {
         return value.indexOf(CompatibleCategory[key]) !== -1;
     });
     if (compatibleMatchKey) {
@@ -111,8 +109,10 @@ function getMeta(AST: any, options?: ParseDetailsOptions): ParseMetaResult {
         }
         // set url
         const baseURL = options.baseURL || "https://jser.info/";
-        const utcDate = meta.date ? moment.tz(meta.date, "Asia/Tokyo") : moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo");
-        meta.url = urlJoin(baseURL, `${utcDate.format("YYYY/MM/DD")}/${slug}/`)
+        const utcDate = meta.date
+            ? moment.tz(meta.date, "Asia/Tokyo")
+            : moment.utc(`${year}-${month}-${day}`, "YYYY-MM-DD").tz("Asia/Tokyo");
+        meta.url = urlJoin(baseURL, `${utcDate.format("YYYY/MM/DD")}/${slug}/`);
     }
     return meta;
 }
@@ -130,14 +130,14 @@ function getItems(AST: any, content: string): PostDetailItem[] {
         const currentCategoryNodes = betweenNodes(AST, categoryNode, nextCategoryNode);
         const contentParser = new ContentParser();
         const contents = contentParser.process(currentCategoryNodes, content);
-        contents.forEach(content => {
+        contents.forEach((content) => {
             results.push({
                 category: currentCategory,
                 title: content.title,
                 url: content.url,
                 tags: content.tags,
                 content: content.content,
-                relatedLinks: content.relatedLinks
+                relatedLinks: content.relatedLinks,
             });
         });
     });
@@ -153,6 +153,6 @@ export function parse(content: string, options?: ParseDetailsOptions): PostDetai
     const results = getItems(AST, content);
     return {
         meta,
-        items: results
+        items: results,
     };
 }

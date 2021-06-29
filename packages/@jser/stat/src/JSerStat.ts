@@ -36,7 +36,7 @@ export class JSerStat {
          * 日付で昇順にsortされたItems
          * @type {JSerItem[]}
          * */
-        this.items = sortByDate(this._rawItems).map(function(item: any) {
+        this.items = sortByDate(this._rawItems).map(function (item: any) {
             return new JSerItem(item);
         });
         /**
@@ -99,15 +99,12 @@ export class JSerStat {
      */
     getJSerWeeks(): JSerWeek[] {
         if (this._weeks.length === 0) {
-            this._weeks = this.posts.reduce(
-                (results, currentPost, index) => {
-                    var prevPost = this.posts[index - 1];
-                    var jserWeek = new JSerWeek(currentPost, prevPost, this._algoItem);
-                    results.push(jserWeek);
-                    return results;
-                },
-                [] as JSerWeek[]
-            );
+            this._weeks = this.posts.reduce((results, currentPost, index) => {
+                var prevPost = this.posts[index - 1];
+                var jserWeek = new JSerWeek(currentPost, prevPost, this._algoItem);
+                results.push(jserWeek);
+                return results;
+            }, [] as JSerWeek[]);
         }
         return this._weeks;
     }
@@ -123,7 +120,7 @@ export class JSerStat {
         const weeks = this.getJSerWeeks();
         const beginTime = beginDate.getTime();
         const endTime = endDate.getTime();
-        return weeks.filter(week => {
+        return weeks.filter((week) => {
             const weekBeginTime = week.beginDate.getTime();
             const weekEndTime = week.endDate.getTime();
             if (beginTime <= weekBeginTime && weekBeginTime <= endTime) {
@@ -164,7 +161,7 @@ export class JSerStat {
      * @returns {JSerWeek|undefined}
      */
     findJSerWeekWithURL(postURL: string) {
-        const weeks = this.getJSerWeeks().filter(week => {
+        const weeks = this.getJSerWeeks().filter((week) => {
             return week.post.url === postURL;
         });
         if (weeks.length > 0) {
@@ -189,11 +186,11 @@ export class JSerStat {
         const tenDaysAfter = new Date(targetItem.date);
         tenDaysAfter.setDate(targetItem.date.getDate() + 10);
         const jSerWeeks = this.findJSerWeeksBetween(targetItem.date, tenDaysAfter);
-        return jSerWeeks.find(week => {
+        return jSerWeeks.find((week) => {
             if (week.post.date < targetItem.date) {
                 return false;
             }
-            return week.items.some(item => {
+            return week.items.some((item) => {
                 return targetItem.isEqualItem(item);
             });
         });
@@ -205,7 +202,7 @@ export class JSerStat {
      * @return {JSerItem}
      */
     findItemWithURL(URL: string) {
-        return this.items.find(item => {
+        return this.items.find((item) => {
             return item.url === URL;
         });
     }
