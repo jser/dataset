@@ -68,7 +68,8 @@ JSer.infoでは次のような場所で利用しています。
 * 記事の関連記事探索
 * [jser/data-dashboard: JSer.info Data Dashboard.](https://github.com/jser/data-dashboard "jser/data-dashboard: JSer.info Data Dashboard.")
 * [jser/trends: JSer.info トレンドビューア](https://github.com/jser/trends "jser/trends: JSer.info トレンドビューア")
-
+* [JSer.info Watch List](https://jser.info/watch-list/)
+* [JSer.info Product Name API](https://github.com/jser/product-name)
 
 ## Changelog
 
