@@ -12,12 +12,12 @@ JSer.infoで収集しているデータや記事を書くために利用して�
     - 1 Item = 1 サイト
     - すべてのデータのoriginとなるものです
     - サイトごとにタイトル、URL、登録した日付、タグなどが含まれています
-    - API: <http://jser.info/source-data/items.json>
+    - API: <https://jser.info/source-data/items.json>
 - Post: JSer.infoに投稿される記事のこと
     - 1 Post = 1 記事
     - それぞれの記事のタイトル、URL、タグ、日付などが含まれます
     - [@jser/stat][]を使うことでItemとPostを元に指定したサイトが紹介された記事を検索できます
-    - API: <http://jser.info/posts.json>
+    - API: <https://jser.info/posts.json>
 - Post Item: JSer.infoに投稿された記事中のItem(サイト)のこと
     - 1 Post Item = 1 サイト
     - 基本的にはItemと同じだが、Post ItemはPost(記事)におけるカテゴリ（ヘッドラインなど）が含まれます
