@@ -1,52 +1,52 @@
 {
-  "name": "@jser/classifier-item-category",
-  "version": "1.2.1",
-  "description": "Classifier category from JSer item",
-  "keywords": [
-    "jser"
-  ],
-  "homepage": "https://github.com/jser/dataset",
-  "bugs": {
-    "url": "https://github.com/jser/dataset/issues"
-  },
-  "license": "MIT",
-  "author": "azu",
-  "files": [
-    "bin/",
-    "data/",
-    "lib/",
-    "src/"
-  ],
-  "main": "lib/index.js",
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jser/dataset.git"
-  },
-  "scripts": {
-    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
-    "prepublish": "npm run --if-present build",
-    "test": "mocha test/",
-    "watch": "babel src --out-dir lib --watch --source-maps",
-    "clean": "rimraf lib/"
-  },
-  "dependencies": {
-    "@jser/post-parser": "^1.2.1",
-    "natural": "^5.0.3"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
-    "@babel/register": "^7.22.5",
-    "@jser/data-fetcher": "^1.2.1",
-    "babel-preset-jsdoc-to-assert": "^5.0.0",
-    "mocha": "^10.2.0",
-    "rimraf": "^5.0.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@jser/classifier-item-category",
+    "version": "2.0.0",
+    "description": "Classifier category from JSer item",
+    "keywords": [
+        "jser"
+    ],
+    "homepage": "https://github.com/jser/dataset",
+    "bugs": {
+        "url": "https://github.com/jser/dataset/issues"
+    },
+    "license": "MIT",
+    "author": "azu",
+    "files": [
+        "bin/",
+        "data/",
+        "lib/",
+        "src/"
+    ],
+    "main": "lib/index.js",
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jser/dataset.git"
+    },
+    "scripts": {
+        "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
+        "prepublish": "npm run --if-present build",
+        "test": "mocha test/",
+        "watch": "babel src --out-dir lib --watch --source-maps",
+        "clean": "rimraf lib/"
+    },
+    "dependencies": {
+        "@jser/post-parser": "^2.0.0",
+        "natural": "^5.0.3"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.22.5",
+        "@babel/core": "^7.22.5",
+        "@babel/preset-env": "^7.22.5",
+        "@babel/register": "^7.22.5",
+        "@jser/data-fetcher": "^2.0.0",
+        "babel-preset-jsdoc-to-assert": "^5.0.0",
+        "mocha": "^10.2.0",
+        "rimraf": "^5.0.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

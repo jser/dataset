@@ -1,64 +1,64 @@
 {
-  "name": "@jser/stat",
-  "version": "1.2.1",
-  "description": "JSer.info stat library",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": [
-    "data/*.js",
-    "lib",
-    "src"
-  ],
-  "scripts": {
-    "prepublish": "npm run --if-present build",
-    "build": "cross-env NODE_ENV=production tsc -p .",
-    "watch": "tsc -p . --watch",
-    "test": "mocha 'test/**/*.js'",
-    "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css}'",
-    "precommit": "lint-staged",
-    "postcommit": "git reset",
-    "clean": "rimraf lib/"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jser/dataset.git"
-  },
-  "keywords": [
-    "jser"
-  ],
-  "author": "azu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jser/dataset/issues"
-  },
-  "homepage": "https://github.com/jser/dataset",
-  "devDependencies": {
-    "@jser/data-fetcher": "^1.2.1",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "^20.3.1",
-    "cross-env": "^7.0.3",
-    "lint-staged": "^13.2.2",
-    "mocha": "^10.2.0",
-    "power-assert": "^1.6.1",
-    "prettier": "^2.8.8",
-    "rimraf": "^5.0.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.1.3"
-  },
-  "dependencies": {
-    "binarysearch": "^1.0.0"
-  },
-  "prettier": {
-    "printWidth": 120,
-    "tabWidth": 4
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,css}": [
-      "prettier --write",
-      "git add"
-    ]
-  }
+    "name": "@jser/stat",
+    "version": "2.0.0",
+    "description": "JSer.info stat library",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "data/*.js",
+        "lib",
+        "src"
+    ],
+    "scripts": {
+        "prepublish": "npm run --if-present build",
+        "build": "cross-env NODE_ENV=production tsc -p .",
+        "watch": "tsc -p . --watch",
+        "test": "mocha 'test/**/*.js'",
+        "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css}'",
+        "precommit": "lint-staged",
+        "postcommit": "git reset",
+        "clean": "rimraf lib/"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jser/dataset.git"
+    },
+    "keywords": [
+        "jser"
+    ],
+    "author": "azu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jser/dataset/issues"
+    },
+    "homepage": "https://github.com/jser/dataset",
+    "devDependencies": {
+        "@jser/data-fetcher": "^2.0.0",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "^20.3.1",
+        "cross-env": "^7.0.3",
+        "lint-staged": "^13.2.2",
+        "mocha": "^10.2.0",
+        "power-assert": "^1.6.1",
+        "prettier": "^2.8.8",
+        "rimraf": "^5.0.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.3"
+    },
+    "dependencies": {
+        "binarysearch": "^1.0.0"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,css}": [
+            "prettier --write",
+            "git add"
+        ]
+    }
 }
