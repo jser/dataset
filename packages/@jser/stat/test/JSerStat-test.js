@@ -199,7 +199,7 @@ describe("@jser/stat", function () {
             assert(expectedItem.isEqualItem(item));
         });
     });
-    describe("#findRelatedItems", function () {
+    describe.skip("#findRelatedItems", function () {
         it("should return JSerItem[] related item", function () {
             var posts = [
                 {

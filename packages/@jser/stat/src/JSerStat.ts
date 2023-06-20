@@ -1,17 +1,12 @@
 // LICENSE : MIT
 "use strict";
-import sortBy from "lodash.sortby";
 import { JSerItem } from "./models/JSerItem";
 import { JSerPost } from "./models/JSerPost";
 import { JSerWeek } from "./models/JSerWeek";
 import { AlgoItem } from "./algo/AlgoItem";
-// import AlgoPost from "./algo/AlgoPost";
-
-import NaturalSearcher from "./natural/NaturalSearcher";
-
 function sortByDate(items: JSerItem[]) {
-    return sortBy(items, (item: JSerItem) => {
-        return item.date;
+    return items.slice().sort(function (a, b) {
+        return new Date(a.date).getTime() - new Date(b.date).getTime();
     });
 }
 
@@ -26,8 +21,6 @@ export class JSerStat {
     posts: JSerPost[];
     private _weeks: JSerWeek[];
     private _algoItem: AlgoItem;
-    // private _algoPost: AlgoPost;
-    private naturalSearch: any;
 
     constructor(rawItems: any[], rawPosts: any[]) {
         this._rawItems = rawItems;
@@ -59,15 +52,6 @@ export class JSerStat {
          *  @private
          **/
         this._algoItem = new AlgoItem(this.items);
-        /**
-         * @type {AlgoPost}
-         * @private
-         */
-        // this._algoPost = new AlgoPost(this.posts);
-        /**
-         * @type {NaturalSearcher}
-         */
-        this.naturalSearch = null;
     }
 
     /**
@@ -205,18 +189,5 @@ export class JSerStat {
         return this.items.find((item) => {
             return item.url === URL;
         });
-    }
-
-    /**
-     * `item` と関連するJSerItemの配列を返す
-     * @param {JSerItem} item
-     * @param {number} limit
-     * @returns {JSerItem[]}
-     */
-    findRelatedItems(item: JSerItem, limit = 10) {
-        if (this.naturalSearch == null) {
-            this.naturalSearch = new NaturalSearcher(this.items);
-        }
-        return this.naturalSearch.findRelatedItems(item, limit);
     }
 }

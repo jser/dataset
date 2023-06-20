@@ -1,4 +1,3 @@
-import fetch from "cross-fetch";
 export interface JserItem {
     title: string;
     url: string;
