@@ -22,7 +22,7 @@
     "url": "https://github.com/jser/dataset.git"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap && yarn run build",
+    "bootstrap": "yarn run build",
     "build": "lerna run build",
     "test": "lerna run test",
     "clean": "lerna run clean",
