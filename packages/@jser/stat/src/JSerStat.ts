@@ -1,13 +1,13 @@
 // LICENSE : MIT
 "use strict";
+import sortBy from "lodash.sortby";
 import { JSerItem } from "./models/JSerItem";
 import { JSerPost } from "./models/JSerPost";
 import { JSerWeek } from "./models/JSerWeek";
 import { AlgoItem } from "./algo/AlgoItem";
 // import AlgoPost from "./algo/AlgoPost";
-import NaturalSearcher from "./natural/NaturalSearcher";
 
-const sortBy = require("lodash.sortby");
+import NaturalSearcher from "./natural/NaturalSearcher";
 
 function sortByDate(items: JSerItem[]) {
     return sortBy(items, (item: JSerItem) => {

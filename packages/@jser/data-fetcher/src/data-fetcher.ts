@@ -1,5 +1,4 @@
-const fetch = require("cross-fetch");
-
+import fetch from "cross-fetch";
 export interface JserItem {
     title: string;
     url: string;
