@@ -12,11 +12,6 @@
   },
   "license": "MIT",
   "author": "azu",
-  "main": "lib/dataset.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jser/dataset.git"
