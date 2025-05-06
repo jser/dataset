@@ -3,11 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/jser/dataset/compare/v2.0.0...v2.0.1) (2025-05-06)
+
+**Note:** Version bump only for package @jser/post-parser
+
 # [2.0.0](https://github.com/jser/dataset/compare/v1.2.1...v2.0.0) (2023-06-20)
 
 ### Bug Fixes
 
--   **stats:** remove natural and request ([b4abceb](https://github.com/jser/dataset/commit/b4abceb58c57cc9d91f6219a79565af4afbec9a2))
+- **stats:** remove natural and request ([b4abceb](https://github.com/jser/dataset/commit/b4abceb58c57cc9d91f6219a79565af4afbec9a2))
 
 ## [1.2.1](https://github.com/jser/dataset/compare/v1.2.0...v1.2.1) (2021-06-29)
 
@@ -23,7 +27,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
--   **packages:** update devDependencies ([c450b0d](https://github.com/jser/dataset/commit/c450b0d))
+- **packages:** update devDependencies ([c450b0d](https://github.com/jser/dataset/commit/c450b0d))
 
 <a name="1.1.0"></a>
 
@@ -31,7 +35,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
--   **classifier-item-category:** remove unused data ([cb97d33](https://github.com/jser/dataset/commit/cb97d33))
+- **classifier-item-category:** remove unused data ([cb97d33](https://github.com/jser/dataset/commit/cb97d33))
 
 <a name="1.0.3"></a>
 
@@ -39,9 +43,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
--   tz ([7d98d68](https://github.com/jser/dataset/commit/7d98d68))
--   url ([b6e2e2f](https://github.com/jser/dataset/commit/b6e2e2f))
--   utc ([1cf143f](https://github.com/jser/dataset/commit/1cf143f))
+- tz ([7d98d68](https://github.com/jser/dataset/commit/7d98d68))
+- url ([b6e2e2f](https://github.com/jser/dataset/commit/b6e2e2f))
+- utc ([1cf143f](https://github.com/jser/dataset/commit/1cf143f))
 
 <a name="1.0.2"></a>
 
@@ -49,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
--   **post-parser:** fix date and add url ([07c1f9a](https://github.com/jser/dataset/commit/07c1f9a))
+- **post-parser:** fix date and add url ([07c1f9a](https://github.com/jser/dataset/commit/07c1f9a))
 
 <a name="1.0.1"></a>
 
@@ -63,4 +67,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
--   **data-fetcher:** add data-fetcher ([b3f1142](https://github.com/jser/dataset/commit/b3f1142))
+- **data-fetcher:** add data-fetcher ([b3f1142](https://github.com/jser/dataset/commit/b3f1142))
