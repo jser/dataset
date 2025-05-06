@@ -9,8 +9,8 @@ export class JSerWeek {
     beginDate: Date;
     endDate: Date;
     post: JSerPost;
-    private _items: Array<JSerItem>;
-    private _algoItem: AlgoItem;
+    #_items: Array<JSerItem> = [];
+    #_algoItem: AlgoItem | null = null;
 
     constructor(currentPost: JSerPost, prevPost: JSerPost, algoItem: AlgoItem) {
         /** @type {number} */
@@ -26,14 +26,14 @@ export class JSerWeek {
         /** @type {JSerPost} */
         this.post = currentPost;
         /** @type {JSerItem[]} */
-        this._items = [];
-        this._algoItem = algoItem;
+        this.#_items = [];
+        this.#_algoItem = algoItem;
     }
 
     get items() {
-        if (this._items.length === 0) {
-            this._items = this._algoItem.findItemsBetween(this.beginDate, this.endDate);
+        if (this.#_items.length === 0 && this.#_algoItem) {
+            this.#_items = this.#_algoItem.findItemsBetween(this.beginDate, this.endDate);
         }
-        return this._items;
+        return this.#_items;
     }
 }
