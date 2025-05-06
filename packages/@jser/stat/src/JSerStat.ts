@@ -15,28 +15,28 @@ function filterJSerCategory(article: any) {
 }
 
 export class JSerStat {
-    private _rawItems: any[];
-    private _rawPosts: any[];
+    #_rawItems: any[];
+    #_rawPosts: any[];
     items: JSerItem[];
     posts: JSerPost[];
-    private _weeks: JSerWeek[];
-    private _algoItem: AlgoItem;
+    #_weeks: JSerWeek[];
+    #_algoItem: AlgoItem;
 
     constructor(rawItems: any[], rawPosts: any[]) {
-        this._rawItems = rawItems;
-        this._rawPosts = rawPosts;
+        this.#_rawItems = rawItems;
+        this.#_rawPosts = rawPosts;
         /**
          * 日付で昇順にsortされたItems
          * @type {JSerItem[]}
          * */
-        this.items = sortByDate(this._rawItems).map(function (item: any) {
+        this.items = sortByDate(this.#_rawItems).map(function (item: any) {
             return new JSerItem(item);
         });
         /**
          * 日付で昇順にsortされてposts
          *  @type {JSerPost[]}
          **/
-        this.posts = sortByDate(this._rawPosts)
+        this.posts = sortByDate(this.#_rawPosts)
             .filter(filterJSerCategory)
             .map((post: any, index: number) => {
                 return new JSerPost(index + 1, post);
@@ -46,12 +46,12 @@ export class JSerStat {
          * @type {JSerWeek[]}
          * @private
          */
-        this._weeks = [];
+        this.#_weeks = [];
         /**
          *  @type {AlgoItem}
          *  @private
          **/
-        this._algoItem = new AlgoItem(this.items);
+        this.#_algoItem = new AlgoItem(this.items);
     }
 
     /**
@@ -69,7 +69,7 @@ export class JSerStat {
      * @returns {JSerItem[]}
      */
     findItemsBetween(beginDate: Date, endDate: Date) {
-        return this._algoItem.findItemsBetween(beginDate, endDate);
+        return this.#_algoItem.findItemsBetween(beginDate, endDate);
     }
 
     // deprecated
@@ -82,15 +82,15 @@ export class JSerStat {
      * @returns {JSerWeek[]}
      */
     getJSerWeeks(): JSerWeek[] {
-        if (this._weeks.length === 0) {
-            this._weeks = this.posts.reduce((results, currentPost, index) => {
+        if (this.#_weeks.length === 0) {
+            this.#_weeks = this.posts.reduce((results, currentPost, index) => {
                 var prevPost = this.posts[index - 1];
-                var jserWeek = new JSerWeek(currentPost, prevPost, this._algoItem);
+                var jserWeek = new JSerWeek(currentPost, prevPost, this.#_algoItem);
                 results.push(jserWeek);
                 return results;
             }, [] as JSerWeek[]);
         }
-        return this._weeks;
+        return this.#_weeks;
     }
 
     /**
@@ -136,7 +136,7 @@ export class JSerStat {
         }
         var targetPost = this.posts[number - 1];
         var prevPost = this.posts[number - 2];
-        return new JSerWeek(targetPost, prevPost, this._algoItem);
+        return new JSerWeek(targetPost, prevPost, this.#_algoItem);
     }
 
     /**
