@@ -21,8 +21,8 @@ importers:
   packages/@jser/classifier-item-category:
     dependencies:
       '@jser/post-parser':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: workspace:*
+        version: link:../post-parser
       natural:
         specifier: ^5.0.3
         version: 5.2.4
@@ -40,8 +40,8 @@ importers:
         specifier: ^7.22.5
         version: 7.27.1(@babel/core@7.27.1)
       '@jser/data-fetcher':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: workspace:*
+        version: link:../data-fetcher
       babel-preset-jsdoc-to-assert:
         specifier: ^5.0.0
         version: 5.0.0
@@ -174,8 +174,8 @@ importers:
         version: 1.0.1
     devDependencies:
       '@jser/data-fetcher':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: workspace:*
+        version: link:../data-fetcher
       '@types/mocha':
         specifier: ^10.0.1
         version: 10.0.10
@@ -755,12 +755,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
-
-  '@jser/data-fetcher@2.0.0':
-    resolution: {integrity: sha512-cSKozV4JaLkEHlqj2M4r6F3FLGK45+SC8xahTK7RzCc6ojyRzW+WqzT8VXybfAZ7/NXhcAxowJjw2KQgWRjfnw==}
-
-  '@jser/post-parser@2.0.0':
-    resolution: {integrity: sha512-ho3SSq2TIZHbwjEDbng5ey2wjXh5THlE8bVQ9iL3hyrZV3MLAtaTbGn8PFq3sUi+eL0ULJLYYHAuBP3joDpoIA==}
 
   '@lerna/create@8.2.2':
     resolution: {integrity: sha512-1yn1MvWn2Yz0SFgTTQnef2m1YedF7KwqLLVIOrGkgQrkVHzsveAIk1A1RcRa2yyUh+siKI1YcJ7lUZIEt+qQ3Q==}
@@ -4718,30 +4712,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
-
-  '@jser/data-fetcher@2.0.0': {}
-
-  '@jser/post-parser@2.0.0':
-    dependencies:
-      '@types/moment-timezone': 0.5.30
-      '@types/url-join': 4.0.3
-      debug: 4.4.0(supports-color@8.1.1)
-      execall: 1.0.0
-      js-yaml: 3.14.1
-      lodash.difference: 4.5.0
-      moment: 2.30.1
-      moment-timezone: 0.5.48
-      remark: 9.0.0
-      remark-frontmatter: 1.3.3
-      remark-parse: 5.0.0
-      remark-parse-yaml: 0.0.1
-      unified: 6.2.0
-      unist-util-find-all-after: 1.0.5
-      unist-util-is: 2.1.3
-      unist-util-select: 1.5.0
-      url-join: 4.0.1
-    transitivePeerDependencies:
-      - supports-color
 
   '@lerna/create@8.2.2(encoding@0.1.13)(typescript@5.8.3)':
     dependencies:

@@ -33,7 +33,7 @@
         "clean": "rimraf lib/"
     },
     "dependencies": {
-        "@jser/post-parser": "^2.0.0",
+        "@jser/post-parser": "workspace:*",
         "natural": "^5.0.3"
     },
     "devDependencies": {
@@ -41,7 +41,7 @@
         "@babel/core": "^7.22.5",
         "@babel/preset-env": "^7.22.5",
         "@babel/register": "^7.22.5",
-        "@jser/data-fetcher": "^2.0.0",
+        "@jser/data-fetcher": "workspace:*",
         "babel-preset-jsdoc-to-assert": "^5.0.0",
         "mocha": "^11.2.2",
         "rimraf": "^6.0.1"

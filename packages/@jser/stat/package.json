@@ -36,7 +36,7 @@
     },
     "homepage": "https://github.com/jser/dataset",
     "devDependencies": {
-        "@jser/data-fetcher": "^2.0.0",
+        "@jser/data-fetcher": "workspace:*",
         "@types/mocha": "^10.0.1",
         "@types/node": "^22.15.11",
         "cross-env": "^7.0.3",
