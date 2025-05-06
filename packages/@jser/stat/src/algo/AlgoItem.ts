@@ -5,19 +5,19 @@ import { JSerItem } from "../models/JSerItem";
 
 // for algorithm
 export class AlgoItem {
-    private items: JSerItem[];
-    private itemTimes: number[];
+    #items: JSerItem[];
+    #itemTimes: number[];
 
     /**
      *
      * @param {JSerItem[]} items
      */
     constructor(items: JSerItem[]) {
-        this.items = items;
+        this.#items = items;
         /**
          * @type number[] 昇順となった各Itemのtime配列
          */
-        this.itemTimes = items.map(function (item) {
+        this.#itemTimes = items.map(function (item) {
             return item.date.getTime();
         });
     }
@@ -29,7 +29,7 @@ export class AlgoItem {
      * @returns {JSerItem[]}
      */
     findItemsBetween(beginDate: Date, endDate: Date) {
-        const indexes = findIndexesBetween(this.itemTimes, beginDate, endDate);
+        const indexes = findIndexesBetween(this.#itemTimes, beginDate, endDate);
         const first = indexes[0];
         const last = indexes[indexes.length - 1];
         if (indexes.length === 0) {
@@ -38,6 +38,6 @@ export class AlgoItem {
         if (first > last) {
             return [];
         }
-        return this.items.slice(first, last + 1);
+        return this.#items.slice(first, last + 1);
     }
 }
