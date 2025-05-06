@@ -30,9 +30,9 @@
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "devDependencies": {
-    "lerna": "^7.0.1",
-    "lint-staged": "^13.2.2",
-    "prettier": "^2.8.8"
+    "lerna": "^8.2.2",
+    "lint-staged": "^15.5.1",
+    "prettier": "^3.5.3"
   },
   "workspaces": [
     "packages/*",

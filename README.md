@@ -77,9 +77,8 @@ See [Releases page](https://github.com/jser/dataset/releases).
 
 ## Running tests
 
-    yarn
-    yarn bootstrap
-    yarn test
+    pnpm install
+    pnpm test
 
 ## Contributing
 

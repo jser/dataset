@@ -38,13 +38,13 @@
     "devDependencies": {
         "@jser/data-fetcher": "^2.0.0",
         "@types/mocha": "^10.0.1",
-        "@types/node": "^20.3.1",
+        "@types/node": "^22.15.11",
         "cross-env": "^7.0.3",
-        "lint-staged": "^13.2.2",
-        "mocha": "^10.2.0",
+        "lint-staged": "^15.5.1",
+        "mocha": "^11.2.2",
         "power-assert": "^1.6.1",
-        "prettier": "^2.8.8",
-        "rimraf": "^5.0.1",
+        "prettier": "^3.5.3",
+        "rimraf": "^6.0.1",
         "ts-node": "^10.9.1",
         "typescript": "^5.1.3"
     },
