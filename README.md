@@ -70,6 +70,7 @@ JSer.infoでは次のような場所で利用しています。
 * [jser/trends: JSer.info トレンドビューア](https://github.com/jser/trends "jser/trends: JSer.info トレンドビューア")
 * [JSer.info Watch List](https://jser.info/watch-list/)
 * [JSer.info Product Name API](https://github.com/jser/product-name)
+* [jser/mcp: An MCP Server for JSer.info](https://github.com/jser/mcp)
 
 ## Changelog
 
