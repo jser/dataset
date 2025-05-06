@@ -18,6 +18,14 @@ export function countTagsByGroup(weeks: JSerWeek[]): { [index: string]: number }
     });
 }
 
+/**
+ * Counts items by group based on a provided counting function, aggregating the results.
+ *
+ * @param {JSerWeek[]} weeks - An array of JSerWeek objects. Each JSerWeek contains items to process.
+ * @param {Function} countFn - A function that processes an item and returns an object where keys represent group names
+ *                             and values represent counts to be aggregated.
+ * @return {Object} An object where keys are group names and values are the aggregated counts for those groups.
+ */
 export function countByGroup(weeks: JSerWeek[], countFn: any): { [index: string]: number } {
     var rank: any = {};
     weeks.forEach(function (week) {
